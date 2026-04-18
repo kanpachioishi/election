@@ -16,10 +16,11 @@ const SUBTYPE_LABELS = {
 };
 
 const MACRO_REGION_LABELS = {
-  hokkaido: "北海道",
-  tohoku: "東北",
+  hokkaido_tohoku: "北海道・東北",
   kanto: "関東",
-  chubu: "中部",
+  hokuriku: "北陸（富山石川福井）",
+  koshinetsu: "甲信越",
+  tokai: "東海",
   kansai: "関西",
   chugoku: "中国",
   shikoku: "四国",
@@ -27,13 +28,13 @@ const MACRO_REGION_LABELS = {
 };
 
 const PREFECTURE_TO_MACRO_REGION = {
-  "01": "hokkaido",
-  "02": "tohoku",
-  "03": "tohoku",
-  "04": "tohoku",
-  "05": "tohoku",
-  "06": "tohoku",
-  "07": "tohoku",
+  "01": "hokkaido_tohoku",
+  "02": "hokkaido_tohoku",
+  "03": "hokkaido_tohoku",
+  "04": "hokkaido_tohoku",
+  "05": "hokkaido_tohoku",
+  "06": "hokkaido_tohoku",
+  "07": "hokkaido_tohoku",
   "08": "kanto",
   "09": "kanto",
   "10": "kanto",
@@ -41,15 +42,15 @@ const PREFECTURE_TO_MACRO_REGION = {
   "12": "kanto",
   "13": "kanto",
   "14": "kanto",
-  "15": "chubu",
-  "16": "chubu",
-  "17": "chubu",
-  "18": "chubu",
-  "19": "chubu",
-  "20": "chubu",
-  "21": "chubu",
-  "22": "chubu",
-  "23": "chubu",
+  "15": "koshinetsu",
+  "16": "hokuriku",
+  "17": "hokuriku",
+  "18": "hokuriku",
+  "19": "koshinetsu",
+  "20": "koshinetsu",
+  "21": "tokai",
+  "22": "tokai",
+  "23": "tokai",
   "24": "kansai",
   "25": "kansai",
   "26": "kansai",
@@ -119,7 +120,6 @@ const RESOURCE_GROUPS = [
 
 const state = {
   query: "",
-  type: "all",
   macroRegion: "all",
   prefecture: "all",
   municipality: "all",
@@ -130,7 +130,6 @@ const els = {
   heroMetrics: document.getElementById("heroMetrics"),
   generatedNote: document.getElementById("generatedNote"),
   searchInput: document.getElementById("searchInput"),
-  typeFilter: document.getElementById("typeFilter"),
   macroRegionFilter: document.getElementById("macroRegionFilter"),
   prefectureFilter: document.getElementById("prefectureFilter"),
   municipalityFilter: document.getElementById("municipalityFilter"),
@@ -361,7 +360,6 @@ function getFilteredElections() {
 
   return DATA.elections
     .filter((election) => election.phase === "upcoming")
-    .filter((election) => state.type === "all" || election.type === state.type)
     .filter((election) => electionMatchesLocation(election))
     .filter((election) => {
       if (!query) return true;
@@ -385,7 +383,6 @@ function getFilteredElections() {
 
 function isDefaultBrowse() {
   return !state.query &&
-    state.type === "all" &&
     state.macroRegion === "all" &&
     state.prefecture === "all" &&
     state.municipality === "all";
@@ -425,11 +422,6 @@ function renderSelect(select, options, selected) {
 }
 
 function initFilters() {
-  renderSelect(els.typeFilter, [
-    { value: "all", label: "すべて" },
-    ...Object.entries(TYPE_LABELS).map(([value, label]) => ({ value, label })),
-  ], state.type);
-
   renderLocationFilters();
 }
 
@@ -526,7 +518,6 @@ function renderSubtypePills(election) {
 
 function hasActiveFilters() {
   return Boolean(state.query) ||
-    state.type !== "all" ||
     state.macroRegion !== "all" ||
     state.prefecture !== "all" ||
     state.municipality !== "all";
@@ -546,7 +537,6 @@ function getEmptyStateHints() {
     hints.push("地域名、選挙名、候補者、公報など、検索語を短くすると見つかる場合があります。");
   }
 
-  if (state.type !== "all") hints.push(`種別が「${TYPE_LABELS[state.type] ?? state.type}」に絞られています。`);
   if (state.municipality !== "all") {
     const region = regionById.get(state.municipality);
     hints.push(`市区町村が「${region?.name ?? state.municipality}」に絞られています。`);
@@ -569,8 +559,7 @@ function getEmptyStateActions() {
   const digits = getPostalDigits(state.query);
   const hasPostalQuery = digits.length >= 3;
   const postalMatch = getPostalMatch(state.query);
-  const hasNarrowFilters = state.type !== "all" ||
-    state.macroRegion !== "all" ||
+  const hasNarrowFilters = state.macroRegion !== "all" ||
     state.prefecture !== "all" ||
     state.municipality !== "all";
 
@@ -822,11 +811,6 @@ function bindEvents() {
     render();
   });
 
-  els.typeFilter.addEventListener("change", (event) => {
-    state.type = event.target.value;
-    render();
-  });
-
   els.macroRegionFilter.addEventListener("change", (event) => {
     state.macroRegion = event.target.value;
     state.prefecture = "all";
@@ -849,7 +833,6 @@ function bindEvents() {
 
   els.resetFilters.addEventListener("click", () => {
     state.query = "";
-    state.type = "all";
     state.macroRegion = "all";
     state.prefecture = "all";
     state.municipality = "all";
@@ -863,7 +846,6 @@ function bindEvents() {
     if (emptyAction) {
       const action = emptyAction.dataset.emptyAction;
       if (action === "relax-filters") {
-        state.type = "all";
         state.macroRegion = "all";
         state.prefecture = "all";
         state.municipality = "all";
@@ -873,7 +855,6 @@ function bindEvents() {
       }
       if (action === "search-region") {
         state.query = "";
-        state.type = "all";
         state.macroRegion = "all";
         state.prefecture = "all";
         state.municipality = "all";

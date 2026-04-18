@@ -404,6 +404,7 @@ h1 span {
 
 .hero-notice-title {
   margin: 0;
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
   font-size: clamp(1.3rem, 2vw, 1.78rem);
   line-height: 1.16;
 }
@@ -431,6 +432,7 @@ h1 span {
   grid-template-columns: auto minmax(0, 1fr);
   gap: 0.78rem;
   align-items: start;
+  font-family: "BIZ UDPGothic", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
   color: #eef2f5;
   font-size: 0.965rem;
   line-height: 1.55;
@@ -469,6 +471,7 @@ h1 span {
   width: 100%;
   min-height: 2.95rem;
   border-radius: 0.95rem;
+  font-family: "BIZ UDPGothic", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
 }
 
 .hero-notice-card .button.primary,

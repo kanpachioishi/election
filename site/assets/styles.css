@@ -315,6 +315,10 @@ code {
   padding: 1.8rem 0 5rem;
 }
 
+.workspace {
+  padding-top: 3rem;
+}
+
 .section-heading {
   display: grid;
   grid-template-columns: minmax(220px, 0.65fr) minmax(0, 1fr);

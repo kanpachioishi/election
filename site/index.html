@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>わたしの選挙 | 公式情報への入口</title>
-  <meta name="description" content="確認済みの選挙データから、候補者情報、選挙公報、期日前投票、投票所案内などの公式リンクへ進むためのローカルMVPです。">
+  <meta name="description" content="確認済みの選挙データをもとに、候補者情報、選挙公報、期日前投票、投票所案内などの公式ページへ進める案内サイトです。">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
@@ -27,19 +27,19 @@
   <main>
     <section class="hero" id="top">
       <div class="hero-copy">
-        <p class="eyebrow">verified election seeds</p>
+        <p class="eyebrow">verified official election links</p>
         <h1>
           <span>選挙の公式情報へ</span>
           <span>迷わずたどり着く</span>
         </h1>
         <p class="lead">
-          <code>data/v1</code> の確認済みデータを使って、候補者一覧、選挙公報、期日前投票、投票所案内への導線を選挙ごとに整理します。
-          全国網羅ではなく、今は seed coverage を画面で検証するためのローカルMVPです。
+          <code>data/v1</code> の確認済みデータをもとに、候補者一覧、選挙公報、期日前投票、投票所案内への導線を選挙ごとに整理しています。
+          対応地域と掲載情報は順次拡張しています。
         </p>
         <div class="hero-actions">
           <a class="button primary" href="#elections">選挙一覧を見る</a>
           <a class="button ghost" href="../pages/governor-terms.html">知事の任期一覧</a>
-          <a class="button ghost" href="#coverage">coverage を確認</a>
+          <a class="button ghost" href="#coverage">対応状況を見る</a>
         </div>
       </div>
       <aside class="hero-panel" aria-label="データ概要">
@@ -51,7 +51,7 @@
 
     <section class="notice-card" aria-label="掲載方針">
       <strong>掲載方針:</strong>
-      公式ページまたは公式PDFとして確認できたリンクだけを表示します。郵便番号検索は seed mapping のため、対応地域は限定的です。
+      公式ページまたは公式PDFとして確認できたリンクだけを表示します。郵便番号検索は一部地域から順次対応しています。
     </section>
 
     <section class="workspace" id="elections">
@@ -86,7 +86,7 @@
       </div>
 
       <div class="search-guidance" id="searchCoverageWarning" role="note" aria-label="検索対象の注意">
-        <strong>検索対象は確認済みseedです。</strong>
+        <strong>検索対象は掲載済みデータです。</strong>
         <span>未掲載地域や未収録選挙は順次追加します。</span>
         <a href="#coverage">対応状況を見る</a>
       </div>
@@ -101,9 +101,9 @@
 
     <section class="coverage" id="coverage">
       <div class="section-heading">
-        <p class="eyebrow">coverage</p>
+        <p class="eyebrow">data status</p>
         <h2>今のデータ状況</h2>
-        <p>これは完成宣言ではなく、実画面で不足を見つけるための作業台です。</p>
+        <p>掲載中の選挙と公式リンクの状況です。対応地域と掲載情報は順次拡張しています。</p>
       </div>
       <div class="coverage-grid" id="coverageGrid"></div>
     </section>
@@ -117,7 +117,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>この画面は <code>data/v1</code> の公式確認済み seed を使ったローカルMVPです。</p>
+    <p>このサイトは <code>data/v1</code> の確認済みデータをもとに、選挙ごとの公式情報への導線を整理しています。</p>
   </footer>
 
   <script src="data/site-data.js"></script>

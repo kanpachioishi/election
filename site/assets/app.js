@@ -368,8 +368,8 @@ function renderHero() {
   const metrics = [
     ["選挙", DATA.stats.elections],
     ["公式リンク", DATA.stats.resourceLinks],
-    ["地域seed", DATA.stats.regions],
-    ["郵便番号seed", DATA.stats.postalPrefixes],
+    ["掲載地域", DATA.stats.regions],
+    ["対応郵便番号", DATA.stats.postalPrefixes],
   ];
 
   els.heroMetrics.innerHTML = metrics.map(([label, value]) => `
@@ -436,9 +436,9 @@ function getEmptyStateHints() {
   const postalMatch = getPostalMatch(state.query);
 
   if (hasPostalQuery && !postalMatch) {
-    hints.push("入力された郵便番号の先頭3桁は、まだ seed mapping に入っていません。市区町村名や都道府県名でも試してください。");
+    hints.push("入力された郵便番号の先頭3桁は、まだ対応データに入っていません。市区町村名や都道府県名でも試してください。");
   } else if (hasPostalQuery && postalMatch) {
-    hints.push(`${postalMatch.prefix} は ${postalMatch.regionName} の seed mapping です。地域やリンク種別の条件を外すと見つかる場合があります。`);
+    hints.push(`${postalMatch.prefix} は ${postalMatch.regionName} に対応する郵便番号データです。地域やリンク種別の条件を外すと見つかる場合があります。`);
   } else if (state.query) {
     hints.push("地域名、選挙名、候補者、公報など、検索語を短くすると見つかる場合があります。");
   }
@@ -452,7 +452,7 @@ function getEmptyStateHints() {
   }
 
   if (!hints.length) {
-    hints.push("確認済みseedに該当する選挙がまだありません。対応地域は順次拡張中です。");
+    hints.push("掲載中のデータに該当する選挙がまだありません。対応地域は順次拡張中です。");
   }
 
   return hints;
@@ -492,9 +492,9 @@ function renderElectionList(elections) {
     const actions = getEmptyStateActions();
     els.electionList.innerHTML = `
       <div class="empty-state">
-        <p class="empty-kicker">no matched seed</p>
+        <p class="empty-kicker">no matched elections</p>
         <h3>該当する選挙がありません</h3>
-        <p class="empty-reason">確認済みseedの範囲では一致する選挙が見つかりませんでした。</p>
+        <p class="empty-reason">掲載中のデータ範囲では一致する選挙が見つかりませんでした。</p>
         <ul>
           ${hints.slice(0, 4).map((hint) => `<li>${escapeHtml(hint)}</li>`).join("")}
         </ul>
@@ -698,7 +698,7 @@ function renderSummary(view) {
 
   const fragments = [`${elections.length}件を表示`];
   if (postalMatch) {
-    fragments.push(`${postalMatch.prefix} は ${postalMatch.regionName} の seed mapping`);
+    fragments.push(`${postalMatch.prefix} は ${postalMatch.regionName} に対応`);
   }
   if (state.kind !== "all") {
     fragments.push(`${KIND_LABELS[state.kind]}あり`);

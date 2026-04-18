@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>わたしの選挙 | 公式情報への入口</title>
   <meta name="description" content="確認済みの選挙データをもとに、候補者情報、選挙公報、期日前投票、投票所案内などの公式ページへ進める案内サイトです。">
+  <meta name="theme-color" content="#0b1219">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icons/app-icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/icons/app-icon.svg">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
@@ -24,17 +30,36 @@
   </header>
 
   <main>
-    <section class="hero" id="top">
-      <div class="hero-copy">
-        <h1>
-          <span>選挙の公式情報へ</span>
-          <span>迷わずたどり着く</span>
-        </h1>
-        <p class="lead">
-          確認済みの選挙データをもとに、候補者一覧、選挙公報、期日前投票、投票所案内への
-          <br>導線を選挙ごとに整理しています。
-          対応地域と掲載情報は順次拡張しています。
-        </p>
+    <section class="hero hero--with-notice" id="top">
+      <div class="content-grid">
+        <div class="hero-copy">
+          <h1>
+            <span>選挙の公式情報へ</span>
+            <span>迷わずたどり着く</span>
+          </h1>
+          <p class="lead">
+            確認済みの選挙データをもとに、候補者一覧、選挙公報、期日前投票、投票所案内への
+            <br>導線を選挙ごとに整理しています。
+            対応地域と掲載情報は順次拡張しています。
+          </p>
+        </div>
+        <aside class="hero-notice-card" aria-label="選挙の通知設定">
+          <p class="hero-notice-label">PWA通知</p>
+          <div class="hero-notice-heading">
+            <p class="hero-notice-title">選挙の通知を受け取る</p>
+            <p class="hero-notice-body">
+              自分の地域の選挙だけを、この端末へやさしく知らせます。
+            </p>
+          </div>
+          <ul class="hero-notice-points" aria-label="通知の特徴">
+            <li>登録した市区町村と、その親の都道府県だけ届きます。</li>
+            <li>iPhone と Android のホーム画面アプリから設定できます。</li>
+          </ul>
+          <div class="hero-notice-actions">
+            <a class="button primary hero-notice-cta" href="notifications/register.html">通知を設定する</a>
+          </div>
+          <p class="hero-notice-footnote">この端末だけで受け取る通知を設定できます。</p>
+        </aside>
       </div>
     </section>
 
@@ -82,11 +107,6 @@
       </div>
     </section>
 
-    <section class="notice-card" aria-label="掲載方針">
-      <strong>掲載方針:</strong>
-      公式ページまたは公式PDFとして確認できたリンクだけを表示します。郵便番号検索は一部地域から順次対応しています。
-    </section>
-
     <section class="coverage" id="coverage">
       <div class="section-heading">
         <p class="eyebrow">掲載状況</p>
@@ -104,5 +124,6 @@
 
   <script src="data/site-data.js"></script>
   <script src="assets/app.js"></script>
+  <script src="assets/pwa.js"></script>
 </body>
 </html>

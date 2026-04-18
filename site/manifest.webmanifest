@@ -1,0 +1,26 @@
+{
+  "name": "わたしの選挙",
+  "short_name": "わたしの選挙",
+  "description": "自分の地域の次の選挙と、候補者・公報・期日前投票などの公式情報へ迷わず進める選挙ナビです。",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0b1219",
+  "theme_color": "#0b1219",
+  "lang": "ja",
+  "icons": [
+    {
+      "src": "/icons/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/app-icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

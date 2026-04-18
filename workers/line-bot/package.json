@@ -1,0 +1,14 @@
+{
+  "name": "election-line-bot",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "d1:migrate:local": "wrangler d1 migrations apply election-line --local",
+    "d1:migrate:remote": "wrangler d1 migrations apply election-line --remote"
+  },
+  "devDependencies": {
+    "wrangler": "^4.12.0"
+  }
+}

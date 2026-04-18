@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">わたしの選挙 maskable icon</title>
+  <desc id="desc">選挙案内サイトのマスカブルアイコン</desc>
+  <defs>
+    <radialGradient id="bg" cx="20%" cy="15%" r="90%">
+      <stop offset="0%" stop-color="#1a3147" />
+      <stop offset="60%" stop-color="#0d1822" />
+      <stop offset="100%" stop-color="#081017" />
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffe3a9" />
+      <stop offset="100%" stop-color="#f3bb46" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)" />
+  <g transform="translate(76 72)">
+    <rect x="30" y="42" width="300" height="236" rx="36" fill="#111d29" stroke="rgba(255,255,255,0.08)" stroke-width="6" />
+    <path d="M82 108h196v28H82zM82 160h196v28H82zM82 212h138v28H82z" fill="#eef2f5" opacity="0.95" />
+    <path d="M180 0l112 56v132c0 82-53 151-112 180C121 339 68 270 68 188V56z" fill="none" stroke="url(#gold)" stroke-width="20" stroke-linejoin="round" />
+    <circle cx="180" cy="106" r="18" fill="url(#gold)" />
+  </g>
+</svg>

@@ -3,7 +3,7 @@
 // Update data/v1 and rerun the generator instead of editing this file.
 
 window.ELECTION_SITE_DATA = {
-  "generatedAt": "2026-04-17T15:30:53.776Z",
+  "generatedAt": "2026-04-18T11:27:14.627Z",
   "sourceGeneratedAt": "2026-04-16T02:40:00+09:00",
   "stats": {
     "regions": 201,

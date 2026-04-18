@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>通知登録 | わたしの選挙</title>
+  <meta name="description" content="登録した市区町村と、その親の都道府県の通知だけを受け取るための登録画面です。">
+  <meta name="theme-color" content="#0b1219">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icons/app-icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/icons/app-icon.svg">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <style>
+    .register-shell {
+      padding: 2rem 0 5rem;
+    }
+
+    .register-grid {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .register-card {
+      padding: 1.2rem;
+      border: 1px solid var(--line);
+      border-radius: 1.4rem;
+      background: var(--white);
+      box-shadow: var(--shadow);
+    }
+
+    .register-card p {
+      margin: 0.5rem 0 0;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    .register-note {
+      padding-left: 0.9rem;
+      border-left: 3px solid var(--gold);
+    }
+
+    .register-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      margin-top: 1rem;
+    }
+
+    .register-status {
+      min-height: 1.5rem;
+      margin-top: 0.85rem;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .register-status strong {
+      color: var(--ink);
+    }
+
+    .register-summary {
+      display: grid;
+      gap: 0.45rem;
+      margin-top: 0.9rem;
+      font-size: 0.95rem;
+    }
+
+    .register-summary dt {
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .register-summary dd {
+      margin: 0;
+    }
+
+    .push-card[hidden] {
+      display: none;
+    }
+
+    .push-grid {
+      display: grid;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .push-block {
+      padding: 1rem;
+      border: 1px solid var(--line);
+      border-radius: 1rem;
+      background: rgba(244, 239, 227, 0.03);
+    }
+
+    .push-block h3 {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    .push-block p {
+      margin: 0.65rem 0 0;
+      color: var(--muted);
+    }
+
+    .push-steps {
+      margin: 0.8rem 0 0;
+      padding-left: 1.2rem;
+      color: var(--muted);
+    }
+
+    .push-steps li + li {
+      margin-top: 0.45rem;
+    }
+
+    .push-meta {
+      display: grid;
+      gap: 0.55rem;
+      margin-top: 1rem;
+    }
+
+    .push-meta div {
+      display: grid;
+      gap: 0.2rem;
+    }
+
+    .push-meta dt {
+      color: var(--muted);
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
+
+    .push-meta dd {
+      margin: 0;
+    }
+
+    .inline-note {
+      margin-top: 0.85rem;
+      color: var(--muted);
+      font-size: 0.92rem;
+      min-height: 1.4rem;
+    }
+
+    @media (min-width: 900px) {
+      .register-grid {
+        grid-template-columns: 1.2fr 0.9fr;
+        align-items: start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html" aria-label="わたしの選挙トップ">
+      <span class="brand-mark" aria-hidden="true">票</span>
+      <span>
+        <strong>わたしの選挙</strong>
+        <small>通知登録</small>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="主なページ">
+      <a href="../index.html">サイトへ戻る</a>
+    </nav>
+  </header>
+
+  <main class="register-shell">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">WEB PUSH</p>
+        <h1>
+          <span>住んでいる地域を</span>
+          <span>通知登録する</span>
+        </h1>
+        <p class="lead">
+          登録した市区町村と、その親である都道府県の通知だけを受け取ります。
+          他の市や県の通知は届きません。
+        </p>
+      </div>
+    </section>
+
+    <section class="register-grid">
+      <div class="register-card">
+        <div class="section-heading">
+          <h2>地域登録</h2>
+          <p>地域を保存すると、この端末で通知を受け取る準備へ進めます。</p>
+        </div>
+
+        <form id="notificationRegisterForm" class="filters" aria-label="通知地域登録フォーム">
+          <label class="field">
+            <span>都道府県</span>
+            <select id="prefectureSelect" required></select>
+          </label>
+          <label class="field wide">
+            <span>市区町村</span>
+            <select id="municipalitySelect" required></select>
+          </label>
+          <button class="button primary" id="saveButton" type="submit">この地域で通知登録する</button>
+        </form>
+
+        <div class="register-actions">
+          <button class="button ghost" id="pauseButton" type="button">地域通知を止める</button>
+          <button class="button ghost" id="resumeButton" type="button">地域通知を再開する</button>
+        </div>
+
+        <p class="register-status" id="notificationStatus" aria-live="polite"></p>
+      </div>
+
+      <aside class="register-card">
+        <h2>現在の状態</h2>
+        <dl class="register-summary" id="currentSummary">
+          <dt>登録状態</dt>
+          <dd id="loginState">この端末で管理</dd>
+          <dt>通知状態</dt>
+          <dd id="deliveryState">未確認</dd>
+          <dt>登録都道府県</dt>
+          <dd id="currentPrefecture">未登録</dd>
+          <dt>登録市区町村</dt>
+          <dd id="currentMunicipality">未登録</dd>
+        </dl>
+
+        <p class="register-note">
+          いまは PWA 通知導線の公開ページです。公開面ではこの端末に保存した地域と通知設定だけを扱います。
+        </p>
+      </aside>
+    </section>
+
+    <section class="register-card push-card" id="webPushCard" hidden aria-live="polite">
+      <div class="section-heading">
+        <h2>地域登録後の通知設定</h2>
+        <p>地域登録が済んだら、この端末で通知を受け取る準備を進めます。</p>
+      </div>
+
+      <div class="push-grid">
+        <section class="push-block">
+          <h3>通知案内</h3>
+          <p id="webPushIntro">
+            登録地域の選挙だけ通知を受け取れるようにします。まずはこの端末で通知許可まで進めます。
+          </p>
+          <p class="inline-note" id="webPushStatusMessage"></p>
+        </section>
+
+        <section class="push-block" id="iosInstallGuide" hidden>
+          <h3>iPhone で通知を使う準備</h3>
+          <p>iPhone はホーム画面に追加したアプリから開くと、通知設定に進みやすくなります。</p>
+          <ol class="push-steps">
+            <li>このページを Safari で開きます。</li>
+            <li>画面下の共有ボタンを押します。</li>
+            <li>「ホーム画面に追加」を選びます。</li>
+            <li>追加したアイコンから開き直します。</li>
+          </ol>
+        </section>
+
+        <section class="push-block" id="pushPermissionGuide" hidden>
+          <h3>通知を有効にする</h3>
+          <p id="pushPermissionCopy">対応ブラウザでは、この端末で通知許可の確認に進めます。</p>
+          <div class="register-actions">
+            <button class="button primary" id="enablePushButton" type="button">通知を有効にする</button>
+            <button class="button ghost" id="installAppButton" type="button" hidden>ホーム画面に追加する</button>
+            <button class="button ghost" id="disablePushButton" type="button" hidden>この端末の通知を解除する</button>
+          </div>
+        </section>
+
+        <section class="push-block" id="pushUnsupported" hidden>
+          <h3>この環境では通知設定に進めません</h3>
+          <p id="pushUnsupportedCopy">
+            通知に未対応の環境です。Safari または対応ブラウザの最新版から開き直してください。
+          </p>
+        </section>
+
+        <section class="push-block">
+          <h3>通知状態</h3>
+          <dl class="push-meta">
+            <div>
+              <dt>通知対応</dt>
+              <dd id="pushSupportState">未確認</dd>
+            </div>
+            <div>
+              <dt>ホーム画面状態</dt>
+              <dd id="pushInstallState">未確認</dd>
+            </div>
+            <div>
+              <dt>通知許可</dt>
+              <dd id="pushPermissionState">未確認</dd>
+            </div>
+            <div>
+              <dt>この端末の購読状態</dt>
+              <dd id="pushSubscriptionState">未確認</dd>
+            </div>
+          </dl>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    window.NOTIFICATION_REGISTER_CONFIG = window.NOTIFICATION_REGISTER_CONFIG || {
+      apiBaseUrl: ""
+    };
+  </script>
+  <script src="../data/site-data.js"></script>
+  <script src="../assets/notification-register.js"></script>
+  <script src="../assets/pwa.js"></script>
+</body>
+</html>

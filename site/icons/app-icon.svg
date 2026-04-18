@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">わたしの選挙</title>
+  <desc id="desc">選挙案内サイトのアプリアイコン</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#122131" />
+      <stop offset="100%" stop-color="#081017" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffe1a2" />
+      <stop offset="100%" stop-color="#f4b940" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="120" fill="url(#bg)" />
+  <circle cx="256" cy="256" r="182" fill="#0f1a25" stroke="rgba(255,255,255,0.08)" stroke-width="6" />
+  <path d="M172 188h168v36H172zM156 244h200v36H156zM190 300h132v36H190z" fill="#eef2f5" opacity="0.92" />
+  <path d="M256 114l82 42v100c0 72-45 123-82 142-37-19-82-70-82-142V156z" fill="none" stroke="url(#gold)" stroke-width="22" stroke-linejoin="round" />
+  <circle cx="256" cy="204" r="20" fill="url(#gold)" />
+</svg>

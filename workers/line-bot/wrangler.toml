@@ -1,0 +1,13 @@
+name = "election-line-bot"
+main = "src/index.js"
+compatibility_date = "2026-04-18"
+
+[vars]
+ALLOWED_ORIGINS = "https://senkyoannai.com,https://www.senkyoannai.com,https://election-2s9.pages.dev,http://127.0.0.1:8787,http://localhost:8787"
+LINE_REQUIRE_FRIENDSHIP = "true"
+WEB_PUSH_VAPID_PUBLIC_KEY = "REPLACE_WITH_WEB_PUSH_VAPID_PUBLIC_KEY"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "election-line"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"

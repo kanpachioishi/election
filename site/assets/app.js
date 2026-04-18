@@ -18,7 +18,7 @@ const SUBTYPE_LABELS = {
 const MACRO_REGION_LABELS = {
   hokkaido_tohoku: "北海道・東北",
   kanto: "関東",
-  hokuriku: "北陸（富山石川福井）",
+  hokuriku: "北陸",
   koshinetsu: "甲信越",
   tokai: "東海",
   kansai: "関西",

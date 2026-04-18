@@ -422,7 +422,7 @@ h1 span {
 .hero-notice-list {
   display: grid;
   gap: 0.78rem;
-  margin: 0.72rem 0 0;
+  margin: 1.08rem 0 0;
   padding: 0;
   list-style: none;
 }

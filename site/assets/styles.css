@@ -144,16 +144,20 @@ main {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(300px, 0.65fr);
-  gap: clamp(1.5rem, 4vw, 4rem);
-  align-items: center;
-  min-height: clamp(34rem, 72vh, 44rem);
-  padding: clamp(2.4rem, 5vw, 4.8rem) 0 clamp(2rem, 4vw, 3.6rem);
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+  min-height: auto;
+  padding: clamp(2rem, 4vw, 3.4rem) 0 clamp(1.2rem, 2vw, 1.8rem);
 }
 
 .hero-copy,
 .hero-panel {
   min-width: 0;
+}
+
+.hero-copy {
+  max-width: 920px;
 }
 
 .eyebrow {

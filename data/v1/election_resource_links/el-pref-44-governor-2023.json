@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T14:01:51+09:00",
+  "election_id": "el-pref-44-governor-2023",
+  "records": [
+    {
+      "id": "el-pref-44-governor-2023-candidate-list-01",
+      "election_id": "el-pref-44-governor-2023",
+      "kind": "candidate_list",
+      "title": "令和5年 大分県知事選挙 候補者一覧",
+      "url": "https://www.pref.oita.jp/uploaded/attachment/2181166.pdf",
+      "summary": "大分県の公式ページです。令和5年4月9日執行の大分県知事選挙の候補者一覧を確認できます。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.oita.jp/site/senkyo/5chijikengikouhosha.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T14:01:51+09:00",
+        "last_checked_at": "2026-04-10T14:01:51+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-44-governor-2023-bulletin-01",
+      "election_id": "el-pref-44-governor-2023",
+      "kind": "bulletin",
+      "title": "令和5年 大分県知事選挙 選挙公報",
+      "url": "https://www.pref.oita.jp/uploaded/attachment/2181168.pdf",
+      "summary": "大分県の公式ページです。令和5年4月9日執行の大分県知事選挙の選挙公報を確認できます。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.oita.jp/site/senkyo/5chijikengikouhosha.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T14:01:51+09:00",
+        "last_checked_at": "2026-04-10T14:01:51+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-44-governor-2023-other-01",
+      "election_id": "el-pref-44-governor-2023",
+      "kind": "other",
+      "title": "令和5年 大分県知事選挙・大分県議会議員選挙 中間投票状況・投開票結果",
+      "url": "https://www.pref.oita.jp/site/senkyo/5chijikengikekka.html",
+      "summary": "大分県の公式ページです。令和5年4月9日執行の大分県知事選挙の投票結果と開票結果を確認できます。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.oita.jp/site/senkyo/5chijikengikekka.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T14:01:51+09:00",
+        "last_checked_at": "2026-04-10T14:01:51+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

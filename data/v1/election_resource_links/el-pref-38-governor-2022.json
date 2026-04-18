@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T14:54:33+09:00",
+  "election_id": "el-pref-38-governor-2022",
+  "records": [
+    {
+      "id": "el-pref-38-governor-2022-candidate-list-01",
+      "election_id": "el-pref-38-governor-2022",
+      "kind": "candidate_list",
+      "title": "令和4年11月20日執行　愛媛県知事選挙　候補者の届出",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/26091.pdf",
+      "summary": "愛媛県知事選挙における候補者の届出一覧 PDF。候補者名、党派、職業などを確認できます。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.ehime.jp/uploaded/attachment/26091.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T14:54:33+09:00",
+        "last_checked_at": "2026-04-10T14:54:33+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-38-governor-2022-bulletin-01",
+      "election_id": "el-pref-38-governor-2022",
+      "kind": "bulletin",
+      "title": "令和4年11月20日執行　愛媛県知事選挙　選挙公報",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/80844.pdf",
+      "summary": "愛媛県知事選挙の選挙公報 PDF。候補者から提出された原稿を掲載したものです。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.ehime.jp/page/12146.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T14:54:33+09:00",
+        "last_checked_at": "2026-04-10T14:54:33+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-38-governor-2022-other-01",
+      "election_id": "el-pref-38-governor-2022",
+      "kind": "other",
+      "title": "令和4年　第20回愛媛県知事選挙の結果",
+      "url": "https://www.pref.ehime.jp/page/12378.html",
+      "summary": "愛媛県知事選挙の結果ページ。投票結果と開票結果を掲載しています。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.ehime.jp/page/12378.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T14:54:33+09:00",
+        "last_checked_at": "2026-04-10T14:54:33+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T16:12:57+09:00",
+  "election_id": "el-pref-29-governor-2023",
+  "records": [
+    {
+      "id": "el-pref-29-governor-2023-other-01",
+      "election_id": "el-pref-29-governor-2023",
+      "kind": "other",
+      "title": "奈良県知事選挙及び奈良県議会議員選挙 投開票速報",
+      "url": "https://www.pref.nara.jp/63223.htm",
+      "summary": "投票状況、投票結果、開票状況を掲載する速報ページです。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.nara.jp/63223.htm",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T16:12:57+09:00",
+        "last_checked_at": "2026-04-10T16:12:57+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

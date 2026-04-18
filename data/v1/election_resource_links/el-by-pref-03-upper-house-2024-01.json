@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T22:40:00+09:00",
+  "election_id": "el-by-pref-03-upper-house-2024-01",
+  "records": [
+    {
+      "id": "el-by-pref-03-upper-house-2024-01-bulletin-01",
+      "election_id": "el-by-pref-03-upper-house-2024-01",
+      "kind": "bulletin",
+      "title": "参議院岩手県選出議員補欠選挙 選挙公報",
+      "url": "https://www.pref.iwate.jp/iinkai/senkyo/kekka/1078566.html",
+      "summary": "岩手県選挙管理委員会が公開している参議院岩手県選出議員補欠選挙の結果ページ。選挙公報へのリンクを含む。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.iwate.jp/iinkai/senkyo/kekka/1078566.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T22:40:00+09:00",
+        "last_checked_at": "2026-04-10T22:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-by-pref-03-upper-house-2024-01-other-01",
+      "election_id": "el-by-pref-03-upper-house-2024-01",
+      "kind": "other",
+      "title": "参議院岩手県選出議員補欠選挙の選挙期日について",
+      "url": "https://www.pref.iwate.jp/iinkai/senkyo/1077445/1077480.html",
+      "summary": "岩手県選挙管理委員会が公開している参議院岩手県選出議員補欠選挙の期日決定ページ。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.iwate.jp/iinkai/senkyo/1077445/1077480.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T22:40:00+09:00",
+        "last_checked_at": "2026-04-10T22:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

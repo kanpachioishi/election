@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-17T12:40:00+09:00",
+  "election_id": "el-mun-46225-assembly-2026",
+  "records": [
+    {
+      "id": "el-mun-46225-assembly-2026-other-01",
+      "election_id": "el-mun-46225-assembly-2026",
+      "kind": "other",
+      "title": "【令和8年4月19日執行】姶良市長・市議会議員選挙",
+      "url": "https://www.city.aira.lg.jp/senkan/senkyo_2026sityosigi.html",
+      "summary": "姶良市長選と市議会議員選挙の候補者、公報、投票所、期日前投票をまとめた姶良市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.aira.lg.jp/senkan/senkyo_2026sityosigi.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-17T12:40:00+09:00",
+        "last_checked_at": "2026-04-17T12:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-46225-assembly-2026-candidate-list-01",
+      "election_id": "el-mun-46225-assembly-2026",
+      "kind": "candidate_list",
+      "title": "姶良市議会議員選挙における候補者について",
+      "url": "https://www.city.aira.lg.jp/senkan/documents/rikkouhoshigi.pdf",
+      "summary": "姶良市議会議員選挙の立候補届出や候補者氏名を確認できる公式PDF。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.city.aira.lg.jp/senkan/senkyo_2026sityosigi.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-17T12:40:00+09:00",
+        "last_checked_at": "2026-04-17T12:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-46225-assembly-2026-bulletin-01",
+      "election_id": "el-mun-46225-assembly-2026",
+      "kind": "bulletin",
+      "title": "姶良市長・市議会議員選挙 選挙公報",
+      "url": "https://www.city.aira.lg.jp/senkan/documents/r8senkyokouhou.pdf",
+      "summary": "姶良市長選と市議会議員選挙をまとめた選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.city.aira.lg.jp/senkan/senkyo_2026sityosigi.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-17T12:40:00+09:00",
+        "last_checked_at": "2026-04-17T12:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-46225-assembly-2026-early-voting-01",
+      "election_id": "el-mun-46225-assembly-2026",
+      "kind": "early_voting",
+      "title": "期日前投票",
+      "url": "https://www.city.aira.lg.jp/senkyo/gyosei/senkyo/tohyo/zentohyo.html",
+      "summary": "姶良市長選と市議会議員選挙でも使う期日前投票案内ページ。",
+      "is_official": true,
+      "display_order": 4,
+      "verification": {
+        "source_url": "https://www.city.aira.lg.jp/senkan/senkyo_2026sityosigi.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-17T12:40:00+09:00",
+        "last_checked_at": "2026-04-17T12:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-46225-assembly-2026-polling-place-01",
+      "election_id": "el-mun-46225-assembly-2026",
+      "kind": "polling_place",
+      "title": "一般選挙投票所",
+      "url": "https://www.city.aira.lg.jp/gyosei/senkyo/20220417.html",
+      "summary": "姶良市長選と市議会議員選挙でも使う一般選挙投票所案内ページ。",
+      "is_official": true,
+      "display_order": 5,
+      "verification": {
+        "source_url": "https://www.city.aira.lg.jp/senkan/senkyo_2026sityosigi.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-17T12:40:00+09:00",
+        "last_checked_at": "2026-04-17T12:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

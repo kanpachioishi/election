@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T18:05:00+09:00",
+  "prefix": "877",
+  "records": [
+    {
+      "postal_code": "8770001",
+      "region_id": "mun-44204",
+      "match_kind": "exact",
+      "confidence": "high",
+      "verification": {
+        "source_url": "https://www.post.japanpost.jp/cgi-zip/zipcode.php?zip=8770001",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T18:05:00+09:00",
+        "last_checked_at": "2026-04-09T18:05:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": "日田市秋山町"
+    }
+  ]
+}

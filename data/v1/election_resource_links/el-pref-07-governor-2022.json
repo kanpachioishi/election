@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T14:01:51+09:00",
+  "election_id": "el-pref-07-governor-2022",
+  "records": [
+    {
+      "id": "el-pref-07-governor-2022-candidate-list-01",
+      "election_id": "el-pref-07-governor-2022",
+      "kind": "candidate_list",
+      "title": "福島県知事選挙 候補者一覧",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/536515.pdf",
+      "summary": "福島県の公式ページです。令和4年10月30日執行の福島県知事選挙の候補者一覧を確認できます。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.fukushima.lg.jp/sec/62010a/22-chiji-kouhosya.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T14:01:51+09:00",
+        "last_checked_at": "2026-04-10T14:01:51+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-07-governor-2022-bulletin-01",
+      "election_id": "el-pref-07-governor-2022",
+      "kind": "bulletin",
+      "title": "福島県知事選挙 選挙公報",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/536752.pdf",
+      "summary": "福島県の公式ページです。令和4年10月30日執行の福島県知事選挙の選挙公報を確認できます。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.fukushima.lg.jp/sec/62010a/22-chiji-kouhosya.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T14:01:51+09:00",
+        "last_checked_at": "2026-04-10T14:01:51+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-07-governor-2022-other-01",
+      "election_id": "el-pref-07-governor-2022",
+      "kind": "other",
+      "title": "福島県知事選挙",
+      "url": "https://www.pref.fukushima.lg.jp/sec/62010a/kextuka-tiji.html",
+      "summary": "福島県の公式ページです。令和4年10月30日執行の福島県知事選挙の投票結果と開票結果を確認できます。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.fukushima.lg.jp/sec/62010a/kextuka-tiji.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T14:01:51+09:00",
+        "last_checked_at": "2026-04-10T14:01:51+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

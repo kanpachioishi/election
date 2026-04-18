@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-15T18:10:00+09:00",
+  "election_id": "el-mun-10209-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-10209-mayor-2026-arai-masahiro-01",
+      "election_id": "el-mun-10209-mayor-2026",
+      "person_name": "新井雅博",
+      "person_slug": "arai-masahiro",
+      "status": "announced",
+      "incumbency": "incumbent",
+      "summary": "藤岡市議会の一般質問通告一覧では、2025年12月9日に青木貴俊議員の「今後の市政運営について」が設定されている。報道では同日の一般質問で現職の新井雅博市長が3選を目指して藤岡市長選へ出馬する考えを示したとされ、現時点では報道ベースの候補予定者として扱う。",
+      "confidence": "medium",
+      "display_order": 1,
+      "last_checked_at": "2026-04-15T18:10:00+09:00",
+      "evidence": [
+        {
+          "source_name": "藤岡市議会",
+          "source_type": "official",
+          "title": "一般質問通告一覧（令和7年第5回定例会・2025年12月9日）",
+          "url": "https://fujioka.gijiroku.com/g07_Shitsumon.asp",
+          "published_at": "2025-12-09"
+        }
+      ]
+    }
+  ]
+}

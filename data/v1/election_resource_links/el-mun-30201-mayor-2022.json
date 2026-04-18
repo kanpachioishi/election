@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T22:40:00+09:00",
+  "election_id": "el-mun-30201-mayor-2022",
+  "records": [
+    {
+      "id": "el-mun-30201-mayor-2022-bulletin-01",
+      "election_id": "el-mun-30201-mayor-2022",
+      "kind": "bulletin",
+      "title": "令和4年8月21日執行和歌山市長選挙選挙公報",
+      "url": "https://www.city.wakayama.wakayama.jp/kurashi/senkyo/1008391/index.html",
+      "summary": "和歌山市選挙管理委員会が公開している選挙データページ。令和4年8月21日執行和歌山市長選挙の選挙公報を掲載している。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.wakayama.wakayama.jp/kurashi/senkyo/1008391/index.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T22:40:00+09:00",
+        "last_checked_at": "2026-04-10T22:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-30201-mayor-2022-other-01",
+      "election_id": "el-mun-30201-mayor-2022",
+      "kind": "other",
+      "title": "選挙の結果（和歌山市長選挙）",
+      "url": "https://www.city.wakayama.wakayama.jp/kurashi/senkyo/1008391/1009154/1009156/1002597.html",
+      "summary": "和歌山市選挙管理委員会が公開している和歌山市長選挙の公式結果ページ。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.city.wakayama.wakayama.jp/kurashi/senkyo/1008391/1009154/1009156/1002597.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T22:40:00+09:00",
+        "last_checked_at": "2026-04-10T22:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

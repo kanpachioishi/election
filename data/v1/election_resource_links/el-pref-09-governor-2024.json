@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T09:41:36+09:00",
+  "election_id": "el-pref-09-governor-2024",
+  "records": [
+    {
+      "id": "el-pref-09-governor-2024-candidate-list-01",
+      "election_id": "el-pref-09-governor-2024",
+      "kind": "candidate_list",
+      "title": "立候補届出状況（PDF）",
+      "url": "https://www.pref.tochigi.lg.jp/senkyo/r06chiji/kouho/chijirikkkouhotodoke.pdf",
+      "summary": "栃木県知事選挙の立候補届出状況 PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.tochigi.lg.jp/senkyo/r06chiji/kouho/index.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:41:36+09:00",
+        "last_checked_at": "2026-04-10T09:41:36+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-09-governor-2024-bulletin-01",
+      "election_id": "el-pref-09-governor-2024",
+      "kind": "bulletin",
+      "title": "選挙公報（PDF）",
+      "url": "https://www.pref.tochigi.lg.jp/senkyo/r06chiji/kouho/chijikouhou.pdf",
+      "summary": "栃木県知事選挙の選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.tochigi.lg.jp/senkyo/r06chiji/kouho/index.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:41:36+09:00",
+        "last_checked_at": "2026-04-10T09:41:36+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-09-governor-2024-polling-place-01",
+      "election_id": "el-pref-09-governor-2024",
+      "kind": "polling_place",
+      "title": "栃木県知事選挙 投票所情報",
+      "url": "https://www.pref.tochigi.lg.jp/senkyo/r06chiji/touhyoujyo.html",
+      "summary": "栃木県知事選挙の投票所情報ページ。投票所一覧 PDF への導線を掲載。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.tochigi.lg.jp/senkyo/r06chiji/touhyoujyo.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:41:36+09:00",
+        "last_checked_at": "2026-04-10T09:41:36+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-09-governor-2024-other-01",
+      "election_id": "el-pref-09-governor-2024",
+      "kind": "other",
+      "title": "栃木県知事選挙及び栃木県議会議員補欠選挙",
+      "url": "https://www.pref.tochigi.lg.jp/senkyo/r06chiji/index.html",
+      "summary": "栃木県の公式総合ページ。候補者、公報、投票所、結果への導線を掲載。",
+      "is_official": true,
+      "display_order": 4,
+      "verification": {
+        "source_url": "https://www.pref.tochigi.lg.jp/senkyo/r06chiji/index.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:41:36+09:00",
+        "last_checked_at": "2026-04-10T09:41:36+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-17T13:05:00+09:00",
+  "election_id": "el-mun-11232-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-11232-mayor-2026-other-01",
+      "election_id": "el-mun-11232-mayor-2026",
+      "kind": "other",
+      "title": "久喜市長選挙・久喜市議会議員一般選挙の選挙期日等について",
+      "url": "https://www.city.kuki.lg.jp/shisei/senkyo/shicho-shigi/1011224.html",
+      "summary": "久喜市長選挙と久喜市議会議員一般選挙の告示日、投票日、届出受付日程を確認できる久喜市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.kuki.lg.jp/shisei/senkyo/shicho-shigi/1011224.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-17T12:55:00+09:00",
+        "last_checked_at": "2026-04-17T12:55:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-11232-mayor-2026-candidate-list-01",
+      "election_id": "el-mun-11232-mayor-2026",
+      "kind": "candidate_list",
+      "title": "立候補届出一覧（久喜市長選挙）",
+      "url": "https://www.city.kuki.lg.jp/_res/projects/default_project/_page_/001/012/715/shicho-kakutei01.pdf",
+      "summary": "久喜市長選挙の立候補届出一覧 PDF。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.city.kuki.lg.jp/shisei/senkyo/shicho-shigi/1012715.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-17T13:05:00+09:00",
+        "last_checked_at": "2026-04-17T13:05:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-11232-mayor-2026-bulletin-01",
+      "election_id": "el-mun-11232-mayor-2026",
+      "kind": "bulletin",
+      "title": "久喜市長候補者選挙公報（電子データ版）",
+      "url": "https://www.city.kuki.lg.jp/shisei/senkyo/shicho-shigi/1012578.html",
+      "summary": "久喜市長選挙と久喜市議会議員一般選挙の選挙公報を掲載する久喜市公式ページのうち、市長候補者公報への導線。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.city.kuki.lg.jp/shisei/senkyo/shicho-shigi/1012578.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-17T12:55:00+09:00",
+        "last_checked_at": "2026-04-17T12:55:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-11232-mayor-2026-early-voting-01",
+      "election_id": "el-mun-11232-mayor-2026",
+      "kind": "early_voting",
+      "title": "期日前投票所について",
+      "url": "https://www.city.kuki.lg.jp/shisei/senkyo/shicho-shigi/1012576.html",
+      "summary": "久喜市長選挙と久喜市議会議員一般選挙で共通の期日前投票所、期間、受付時間を案内する久喜市公式ページ。",
+      "is_official": true,
+      "display_order": 4,
+      "verification": {
+        "source_url": "https://www.city.kuki.lg.jp/shisei/senkyo/shicho-shigi/1012576.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-17T12:55:00+09:00",
+        "last_checked_at": "2026-04-17T12:55:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-11232-mayor-2026-polling-place-01",
+      "election_id": "el-mun-11232-mayor-2026",
+      "kind": "polling_place",
+      "title": "市内投票所（市長選挙・市議会議員一般選挙）",
+      "url": "https://www.city.kuki.lg.jp/shisei/senkyo/shicho-shigi/1012577.html",
+      "summary": "久喜市長選挙と久喜市議会議員一般選挙で共通の投票所一覧を掲載する久喜市公式ページ。",
+      "is_official": true,
+      "display_order": 5,
+      "verification": {
+        "source_url": "https://www.city.kuki.lg.jp/shisei/senkyo/shicho-shigi/1012577.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-17T12:55:00+09:00",
+        "last_checked_at": "2026-04-17T12:55:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

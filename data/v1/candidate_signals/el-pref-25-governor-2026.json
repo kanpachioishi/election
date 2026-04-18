@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-15T15:30:00+09:00",
+  "election_id": "el-pref-25-governor-2026",
+  "records": [
+    {
+      "id": "el-pref-25-governor-2026-mikazuki-taizo-01",
+      "election_id": "el-pref-25-governor-2026",
+      "person_name": "三日月大造",
+      "person_slug": "mikazuki-taizo",
+      "status": "announced",
+      "incumbency": "incumbent",
+      "summary": "現職の三日月大造知事が4選を目指して滋賀県知事選への立候補を表明。報道ベースでは現時点で唯一の候補予定者として扱う。",
+      "confidence": "high",
+      "display_order": 1,
+      "last_checked_at": "2026-04-15T15:30:00+09:00",
+      "evidence": [
+        {
+          "source_name": "びわ湖放送",
+          "source_type": "media_report",
+          "title": "今夏の滋賀県知事選に現職・三日月氏が4選出馬を表明",
+          "url": "https://www.webaminchu.jp/news/14080/",
+          "published_at": "2026-02-16"
+        },
+        {
+          "source_name": "神戸新聞NEXT",
+          "source_type": "media_report",
+          "title": "滋賀県知事が4選出馬表明",
+          "url": "https://www.kobe-np.co.jp/news/zenkoku/compact/202602/0020028485.shtml",
+          "published_at": "2026-02-16"
+        }
+      ]
+    }
+  ]
+}

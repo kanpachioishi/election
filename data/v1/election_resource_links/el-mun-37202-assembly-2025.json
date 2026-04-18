@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-11T09:00:00+09:00",
+  "election_id": "el-mun-37202-assembly-2025",
+  "records": [
+    {
+      "id": "el-mun-37202-assembly-2025-bulletin-01",
+      "election_id": "el-mun-37202-assembly-2025",
+      "kind": "bulletin",
+      "title": "丸亀市議会議員選挙 選挙公報",
+      "url": "https://www.city.marugame.lg.jp/uploaded/attachment/21944.pdf",
+      "summary": "丸亀市選挙管理委員会が公開している令和7年4月20日執行の丸亀市議会議員選挙の選挙公報PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.marugame.lg.jp/uploaded/attachment/21944.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T09:00:00+09:00",
+        "last_checked_at": "2026-04-11T09:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-37202-assembly-2025-other-01",
+      "election_id": "el-mun-37202-assembly-2025",
+      "kind": "other",
+      "title": "令和7年4月20日執行 丸亀市長・市議会議員選挙の結果",
+      "url": "https://www.city.marugame.lg.jp/page/34859.html",
+      "summary": "丸亀市長・市議会議員選挙の告示日、投票日、投票状況、開票状況、選挙公報を掲載している丸亀市の公式ページ。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.city.marugame.lg.jp/page/34859.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T09:00:00+09:00",
+        "last_checked_at": "2026-04-11T09:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

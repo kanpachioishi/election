@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T09:05:00+09:00",
+  "prefix": "150",
+  "records": [
+    {
+      "postal_code": "1500001",
+      "region_id": "mun-13113",
+      "match_kind": "exact",
+      "confidence": "high",
+      "verification": {
+        "source_url": "https://www.post.japanpost.jp/cgi-zip/zipcode.php?zip=150-0001",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T09:02:00+09:00",
+        "last_checked_at": "2026-04-09T09:02:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": "東京都渋谷区神宮前"
+    }
+  ]
+}

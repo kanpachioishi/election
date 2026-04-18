@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T09:47:50+09:00",
+  "election_id": "el-pref-23-governor-2023",
+  "records": [
+    {
+      "id": "el-pref-23-governor-2023-bulletin-01",
+      "election_id": "el-pref-23-governor-2023",
+      "kind": "bulletin",
+      "title": "選挙公報（PDF）",
+      "url": "https://www.pref.aichi.jp/uploaded/attachment/449838.pdf",
+      "summary": "愛知県知事選挙の選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.aichi.jp/soshiki/senkyo/0000087359.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:47:50+09:00",
+        "last_checked_at": "2026-04-10T09:47:50+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-23-governor-2023-other-01",
+      "election_id": "el-pref-23-governor-2023",
+      "kind": "other",
+      "title": "選挙の記録",
+      "url": "https://www.pref.aichi.jp/soshiki/senkyo/0000087359.html",
+      "summary": "愛知県の公式選挙記録ページ。知事選の投開票状況と選挙公報への導線を掲載。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.aichi.jp/soshiki/senkyo/0000087359.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:47:50+09:00",
+        "last_checked_at": "2026-04-10T09:47:50+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

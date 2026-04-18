@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T16:32:04+09:00",
+  "election_id": "el-pref-37-governor-2022",
+  "records": [
+    {
+      "id": "el-pref-37-governor-2022-candidate-list-01",
+      "election_id": "el-pref-37-governor-2022",
+      "kind": "candidate_list",
+      "title": "候補者、当選人、選挙人名簿登録者数〖知事〗（PDF）",
+      "url": "https://www.pref.kagawa.lg.jp/documents/38350/4-6_kouhosya.pdf",
+      "summary": "香川県知事選挙の候補者、当選人、選挙人名簿登録者数を掲載した公式 PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.kagawa.lg.jp/senkyoi/senkyoseido/senkyo_kekka/chiji_2022.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T16:32:04+09:00",
+        "last_checked_at": "2026-04-10T16:32:04+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-37-governor-2022-bulletin-01",
+      "election_id": "el-pref-37-governor-2022",
+      "kind": "bulletin",
+      "title": "選挙公報（PDF）",
+      "url": "https://www.pref.kagawa.lg.jp/documents/38350/99-104_kouhou.pdf",
+      "summary": "香川県知事選挙の選挙公報 PDF。香川県議会議員補欠選挙の選挙公報も併記。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.kagawa.lg.jp/senkyoi/senkyoseido/senkyo_kekka/chiji_2022.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T16:32:04+09:00",
+        "last_checked_at": "2026-04-10T16:32:04+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-37-governor-2022-other-01",
+      "election_id": "el-pref-37-governor-2022",
+      "kind": "other",
+      "title": "香川県知事選挙及び香川県議会議員補欠選挙・投開票結果（令和4年8月28日）",
+      "url": "https://www.pref.kagawa.lg.jp/senkyoi/chiji2022/toukaihyoukekka.html",
+      "summary": "香川県の公式ページです。令和4年8月28日執行の香川県知事選挙の投票結果と開票結果を確認できます。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.kagawa.lg.jp/senkyoi/chiji2022/toukaihyoukekka.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T16:32:04+09:00",
+        "last_checked_at": "2026-04-10T16:32:04+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T16:40:00+09:00",
+  "prefix": "690",
+  "records": [
+    {
+      "postal_code": "6900002",
+      "region_id": "mun-32201",
+      "match_kind": "exact",
+      "confidence": "high",
+      "verification": {
+        "source_url": "https://www.post.japanpost.jp/cgi-zip/zipcode.php?city=1322010&id=124690&pref=32",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T16:40:00+09:00",
+        "last_checked_at": "2026-04-09T16:40:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": "松江市大正町"
+    }
+  ]
+}

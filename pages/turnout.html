@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>投票率データ - 過去の推移と年代別比較 - わたしの選挙</title>
+  <meta name="description" content="過去の国政選挙の投票率推移をグラフで確認。衆院選・参院選の投票率の変化、年代別の投票率比較データを掲載。">
+  <meta property="og:title" content="投票率データ - 過去の推移と年代別比較 - わたしの選挙">
+  <meta property="og:description" content="過去の国政選挙の投票率推移をグラフで確認。年代別の投票率比較も。">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://watashino-senkyo.com/pages/turnout.html">
+  <link rel="stylesheet" href="../common/style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="../index.html" class="site-logo">
+        <span class="logo-icon">&#x1F5F3;</span>
+        わたしの選挙
+      </a>
+      <button class="menu-toggle" aria-label="メニュー" onclick="document.querySelector('.nav-list').classList.toggle('open')">&#9776;</button>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="../index.html">トップ</a></li>
+          <li><a href="schedule.html">選挙スケジュール</a></li>
+          <li><a href="governor-terms.html">知事の任期一覧</a></li>
+          <li><a href="turnout.html" class="active">投票率データ</a></li>
+          <li><a href="../index.html#about">このサイトについて</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="page-title">投票率データ</h1>
+    <p class="page-subtitle">過去の国政選挙における投票率の推移と、年代別の投票率を確認できます。</p>
+
+    <!-- 衆院選グラフ -->
+    <div class="chart-container">
+      <h2>衆議院議員総選挙の投票率推移（1990年〜2024年）</h2>
+      <div class="chart-canvas-wrapper">
+        <canvas id="shuginChart" class="turnout-chart"></canvas>
+      </div>
+    </div>
+
+    <!-- 参院選グラフ -->
+    <div class="chart-container">
+      <h2>参議院議員通常選挙の投票率推移（1989年〜2022年）</h2>
+      <div class="chart-canvas-wrapper">
+        <canvas id="sanginChart" class="turnout-chart"></canvas>
+      </div>
+    </div>
+
+    <!-- 年代別投票率 -->
+    <div class="chart-container">
+      <h2>年代別投票率（2024年衆院選）</h2>
+      <p style="font-size:0.9rem; color:var(--color-text-muted); margin-bottom:1rem;">若い世代ほど投票率が低い傾向が続いています。</p>
+      <div class="age-chart" id="ageChart"></div>
+    </div>
+
+    <!-- 解説セクション -->
+    <div class="voting-section">
+      <h2>投票率が下がるとどうなる？</h2>
+      <div class="voting-message">
+        <p>
+          投票率の低下は、<strong>特定の世代や団体の声だけが政治に反映される</strong>ことを意味します。<br><br>
+          特に若い世代の投票率が低いと、若者向けの政策（教育、雇用、子育て支援など）が後回しにされがちです。<br><br>
+          <strong>「投票しない」は「現状に満足している」という意思表示ではありません。</strong><br>
+          むしろ、投票しないことで自分の声が届かなくなるリスクがあります。<br><br>
+          まずは自分の地域の選挙を知り、投票に参加してみましょう。
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- フッター -->
+  <footer class="site-footer">
+    <p class="footer-message">このサイトは投票率向上を目指す個人プロジェクトです。</p>
+    <div class="footer-links">
+      <a href="#">プライバシーポリシー</a>
+      <a href="#">お問い合わせ</a>
+    </div>
+    <p class="footer-copy">&copy; 2025 わたしの選挙</p>
+  </footer>
+
+  <script src="../data/elections.js"></script>
+  <script>
+    // ========================================
+    // Canvas折れ線グラフ描画
+    // ========================================
+
+    function drawLineChart(canvasId, data, options = {}) {
+      const canvas = document.getElementById(canvasId);
+      if (!canvas) return;
+
+      const ctx = canvas.getContext('2d');
+      const dpr = window.devicePixelRatio || 1;
+
+      // サイズ設定
+      const rect = canvas.getBoundingClientRect();
+      canvas.width = rect.width * dpr;
+      canvas.height = rect.height * dpr;
+      ctx.scale(dpr, dpr);
+
+      const w = rect.width;
+      const h = rect.height;
+      const padding = { top: 30, right: 30, bottom: 50, left: 55 };
+      const chartW = w - padding.left - padding.right;
+      const chartH = h - padding.top - padding.bottom;
+
+      // ダークモード判定
+      const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const textColor = isDark ? '#94a3b8' : '#4a5568';
+      const gridColor = isDark ? '#334155' : '#e2e8f0';
+      const bgColor = isDark ? '#1e293b' : '#ffffff';
+
+      // 背景
+      ctx.fillStyle = bgColor;
+      ctx.fillRect(0, 0, w, h);
+
+      // データ準備
+      const filteredData = data.filter(d => d.rate !== null);
+      const years = filteredData.map(d => d.year);
+      const rates = filteredData.map(d => d.rate);
+      const minRate = Math.floor(Math.min(...rates) / 5) * 5 - 5;
+      const maxRate = Math.ceil(Math.max(...rates) / 5) * 5 + 5;
+
+      const scaleX = (year) => padding.left + ((year - years[0]) / (years[years.length - 1] - years[0])) * chartW;
+      const scaleY = (rate) => padding.top + ((maxRate - rate) / (maxRate - minRate)) * chartH;
+
+      // グリッド線
+      ctx.strokeStyle = gridColor;
+      ctx.lineWidth = 1;
+      ctx.setLineDash([3, 3]);
+      for (let r = minRate; r <= maxRate; r += 5) {
+        const y = scaleY(r);
+        ctx.beginPath();
+        ctx.moveTo(padding.left, y);
+        ctx.lineTo(w - padding.right, y);
+        ctx.stroke();
+
+        // Y軸ラベル
+        ctx.fillStyle = textColor;
+        ctx.font = '11px sans-serif';
+        ctx.textAlign = 'right';
+        ctx.fillText(r + '%', padding.left - 8, y + 4);
+      }
+      ctx.setLineDash([]);
+
+      // X軸ラベル
+      ctx.textAlign = 'center';
+      ctx.font = '11px sans-serif';
+      ctx.fillStyle = textColor;
+      filteredData.forEach(d => {
+        const x = scaleX(d.year);
+        ctx.fillText(d.year, x, h - padding.bottom + 20);
+      });
+
+      // 折れ線
+      const lineColor = options.color || '#1a365d';
+      ctx.strokeStyle = lineColor;
+      ctx.lineWidth = 2.5;
+      ctx.lineJoin = 'round';
+      ctx.beginPath();
+      filteredData.forEach((d, i) => {
+        const x = scaleX(d.year);
+        const y = scaleY(d.rate);
+        if (i === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+      });
+      ctx.stroke();
+
+      // 塗りつぶし
+      ctx.globalAlpha = 0.08;
+      ctx.fillStyle = lineColor;
+      ctx.beginPath();
+      filteredData.forEach((d, i) => {
+        const x = scaleX(d.year);
+        const y = scaleY(d.rate);
+        if (i === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+      });
+      ctx.lineTo(scaleX(years[years.length - 1]), scaleY(minRate));
+      ctx.lineTo(scaleX(years[0]), scaleY(minRate));
+      ctx.closePath();
+      ctx.fill();
+      ctx.globalAlpha = 1;
+
+      // ドット
+      filteredData.forEach(d => {
+        const x = scaleX(d.year);
+        const y = scaleY(d.rate);
+
+        ctx.fillStyle = bgColor;
+        ctx.beginPath();
+        ctx.arc(x, y, 5, 0, Math.PI * 2);
+        ctx.fill();
+
+        ctx.fillStyle = lineColor;
+        ctx.beginPath();
+        ctx.arc(x, y, 4, 0, Math.PI * 2);
+        ctx.fill();
+
+        // 値ラベル
+        ctx.fillStyle = textColor;
+        ctx.font = 'bold 10px sans-serif';
+        ctx.textAlign = 'center';
+        ctx.fillText(d.rate.toFixed(1) + '%', x, y - 10);
+      });
+    }
+
+    // ========================================
+    // 年代別バーチャート
+    // ========================================
+    function renderAgeChart() {
+      const container = document.getElementById('ageChart');
+      if (!container || typeof TURNOUT_BY_AGE === 'undefined') return;
+
+      const maxRate = Math.max(...TURNOUT_BY_AGE.map(d => d.rate));
+      const colors = ['#c53030', '#c53030', '#d69e2e', '#d69e2e', '#1a365d', '#1a365d', '#1a365d'];
+
+      container.innerHTML = TURNOUT_BY_AGE.map((item, i) => {
+        const width = (item.rate / 80) * 100;
+        const color = colors[i] || '#1a365d';
+        return `
+          <div class="age-bar-row">
+            <span class="age-label">${item.age}</span>
+            <div class="age-bar-track">
+              <div class="age-bar-fill" style="width: 0%; background: ${color};" data-target="${width}">${item.rate}%</div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // アニメーション（Intersection Observer）
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            container.querySelectorAll('.age-bar-fill').forEach(el => {
+              const target = el.dataset.target;
+              requestAnimationFrame(() => {
+                el.style.width = target + '%';
+              });
+            });
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.3 });
+
+      observer.observe(container);
+    }
+
+    // ========================================
+    // 初期化
+    // ========================================
+    function init() {
+      drawLineChart('shuginChart', TURNOUT_SHUGIN, { color: '#1a365d' });
+      drawLineChart('sanginChart', TURNOUT_SANGIN, { color: '#c53030' });
+      renderAgeChart();
+    }
+
+    // リサイズ対応
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        drawLineChart('shuginChart', TURNOUT_SHUGIN, { color: '#1a365d' });
+        drawLineChart('sanginChart', TURNOUT_SANGIN, { color: '#c53030' });
+      }, 200);
+    });
+
+    init();
+  </script>
+
+</body>
+</html>

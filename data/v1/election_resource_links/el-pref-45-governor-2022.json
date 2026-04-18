@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T14:52:19+09:00",
+  "election_id": "el-pref-45-governor-2022",
+  "records": [
+    {
+      "id": "el-pref-45-governor-2022-candidate-list-01",
+      "election_id": "el-pref-45-governor-2022",
+      "kind": "candidate_list",
+      "title": "第21回宮崎県知事選挙 候補者一覧",
+      "url": "https://www.pref.miyazaki.lg.jp/documents/72477/72477_20221208211007-1.pdf",
+      "summary": "令和4年12月25日執行の宮崎県知事選挙の候補者一覧PDFです。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.miyazaki.lg.jp/documents/72477/72477_20221208211007-1.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T14:52:19+09:00",
+        "last_checked_at": "2026-04-10T14:52:19+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-45-governor-2022-other-01",
+      "election_id": "el-pref-45-governor-2022",
+      "kind": "other",
+      "title": "第21回宮崎県知事選挙の投票・開票状況について",
+      "url": "https://www.pref.miyazaki.lg.jp/senkyo/kense/senkyo/20221201144107.html",
+      "summary": "第21回宮崎県知事選挙の投票・開票状況を公表する宮崎県選挙管理委員会の公式ページです。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.miyazaki.lg.jp/senkyo/kense/senkyo/20221201144107.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T14:52:19+09:00",
+        "last_checked_at": "2026-04-10T14:52:19+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

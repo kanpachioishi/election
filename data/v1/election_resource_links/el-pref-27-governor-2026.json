@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T09:25:39+09:00",
+  "election_id": "el-pref-27-governor-2026",
+  "records": [
+    {
+      "id": "el-pref-27-governor-2026-candidate-list-01",
+      "election_id": "el-pref-27-governor-2026",
+      "kind": "candidate_list",
+      "title": "候補者届出受付名簿（PDF）",
+      "url": "https://www.pref.osaka.lg.jp/documents/124123/meibo.pdf",
+      "summary": "大阪府知事選挙の候補者届出受付名簿 PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.osaka.lg.jp/documents/124123/meibo.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:25:39+09:00",
+        "last_checked_at": "2026-04-10T09:25:39+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-27-governor-2026-bulletin-01",
+      "election_id": "el-pref-27-governor-2026",
+      "kind": "bulletin",
+      "title": "選挙公報（PDF）",
+      "url": "https://www.pref.osaka.lg.jp/documents/124004/chijisenkyokoho.pdf",
+      "summary": "大阪府知事選挙の選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.osaka.lg.jp/documents/124004/chijisenkyokoho.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:25:39+09:00",
+        "last_checked_at": "2026-04-10T09:25:39+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-27-governor-2026-early-voting-01",
+      "election_id": "el-pref-27-governor-2026",
+      "kind": "early_voting",
+      "title": "期日前投票所一覧（PDF）",
+      "url": "https://www.pref.osaka.lg.jp/documents/123313/kijitsumaebasyoichiran.pdf",
+      "summary": "大阪府知事選挙の期日前投票所一覧 PDF。第51回衆議院議員総選挙及び第27回最高裁判所裁判官国民審査を併記。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.osaka.lg.jp/documents/123313/kijitsumaebasyoichiran.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:25:39+09:00",
+        "last_checked_at": "2026-04-10T09:25:39+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-27-governor-2026-other-01",
+      "election_id": "el-pref-27-governor-2026",
+      "kind": "other",
+      "title": "大阪府知事選挙及び大阪府議会議員補欠選挙（大東市及び四條畷市選挙区）について",
+      "url": "https://www.pref.osaka.lg.jp/o190010/senkan/r8syuugiinsenkyo/r8syuugiinsenkyo.html",
+      "summary": "大阪府の公式総合ページ。候補者情報、選挙公報、期日前投票、投開票結果への導線を掲載。",
+      "is_official": true,
+      "display_order": 4,
+      "verification": {
+        "source_url": "https://www.pref.osaka.lg.jp/o190010/senkan/r8syuugiinsenkyo/r8syuugiinsenkyo.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:25:39+09:00",
+        "last_checked_at": "2026-04-10T09:25:39+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

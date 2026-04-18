@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-17T09:00:00+09:00",
+  "election_id": "el-mun-12203-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-12203-mayor-2026-other-01",
+      "election_id": "el-mun-12203-mayor-2026",
+      "kind": "other",
+      "title": "4月19日(日曜日)は市川市長選挙の投票日です",
+      "url": "https://www.city.ichikawa.lg.jp/ele01/0000385396.html",
+      "summary": "市川市長選挙の候補者一覧、選挙公報、投票所、期日前投票への導線がまとまった市川市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.ichikawa.lg.jp/ele01/0000385396.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-17T09:00:00+09:00",
+        "last_checked_at": "2026-04-17T09:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-12203-mayor-2026-candidate-list-01",
+      "election_id": "el-mun-12203-mayor-2026",
+      "kind": "candidate_list",
+      "title": "立候補者一覧",
+      "url": "https://www.city.ichikawa.lg.jp/ele01/0000385396.html",
+      "summary": "4月12日午後5時現在確定の市川市長選挙立候補者一覧を掲載する市川市公式ページ。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.city.ichikawa.lg.jp/ele01/0000385396.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-17T09:00:00+09:00",
+        "last_checked_at": "2026-04-17T09:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-12203-mayor-2026-bulletin-01",
+      "election_id": "el-mun-12203-mayor-2026",
+      "kind": "bulletin",
+      "title": "選挙公報",
+      "url": "https://www.city.ichikawa.lg.jp/ele01/0000385396.html",
+      "summary": "市川市長選挙の選挙公報への導線を掲載する市川市公式ページ。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.city.ichikawa.lg.jp/ele01/0000385396.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-17T09:00:00+09:00",
+        "last_checked_at": "2026-04-17T09:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-12203-mayor-2026-early-voting-01",
+      "election_id": "el-mun-12203-mayor-2026",
+      "kind": "early_voting",
+      "title": "期日前投票",
+      "url": "https://www.city.ichikawa.lg.jp/ele01/0000385396.html",
+      "summary": "市川市長選挙の期日前投票所と期間への導線を掲載する市川市公式ページ。",
+      "is_official": true,
+      "display_order": 4,
+      "verification": {
+        "source_url": "https://www.city.ichikawa.lg.jp/ele01/0000385396.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-17T09:00:00+09:00",
+        "last_checked_at": "2026-04-17T09:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-12203-mayor-2026-polling-place-01",
+      "election_id": "el-mun-12203-mayor-2026",
+      "kind": "polling_place",
+      "title": "投票所",
+      "url": "https://www.city.ichikawa.lg.jp/ele01/0000385396.html",
+      "summary": "市川市長選挙の当日投票所への導線を掲載する市川市公式ページ。",
+      "is_official": true,
+      "display_order": 5,
+      "verification": {
+        "source_url": "https://www.city.ichikawa.lg.jp/ele01/0000385396.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-17T09:00:00+09:00",
+        "last_checked_at": "2026-04-17T09:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

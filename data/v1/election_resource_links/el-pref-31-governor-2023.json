@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T19:10:00+09:00",
+  "election_id": "el-pref-31-governor-2023",
+  "records": [
+    {
+      "id": "el-pref-31-governor-2023-candidate-list-01",
+      "election_id": "el-pref-31-governor-2023",
+      "kind": "candidate_list",
+      "title": "鳥取県知事選挙立候補者等一覧",
+      "url": "https://www.pref.tottori.lg.jp/291442.htm",
+      "summary": "鳥取県知事選挙の立候補者等一覧。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.tottori.lg.jp/291442.htm",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T19:10:00+09:00",
+        "last_checked_at": "2026-04-09T19:10:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

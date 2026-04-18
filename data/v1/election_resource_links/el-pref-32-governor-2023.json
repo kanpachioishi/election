@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T19:10:00+09:00",
+  "election_id": "el-pref-32-governor-2023",
+  "records": [
+    {
+      "id": "el-pref-32-governor-2023-candidate-list-01",
+      "election_id": "el-pref-32-governor-2023",
+      "kind": "candidate_list",
+      "title": "島根県知事選挙の候補者情報（令和5年）",
+      "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/chiji_jouhou/shimanekenchijikouhosyajyouhouR05.html",
+      "summary": "島根県知事選挙の候補者情報。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/chiji_jouhou/shimanekenchijikouhosyajyouhouR05.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T19:10:00+09:00",
+        "last_checked_at": "2026-04-09T19:10:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-32-governor-2023-bulletin-01",
+      "election_id": "el-pref-32-governor-2023",
+      "kind": "bulletin",
+      "title": "島根県知事選挙 選挙公報（PDF）",
+      "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/chiji_jouhou/shimanekenchijikouhosyajyouhouR05.data/R5chiji.pdf",
+      "summary": "島根県知事選挙の選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/chiji_jouhou/shimanekenchijikouhosyajyouhouR05.data/R5chiji.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T19:10:00+09:00",
+        "last_checked_at": "2026-04-09T19:10:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

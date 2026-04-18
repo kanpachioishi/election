@@ -1,0 +1,19 @@
+.edge-headless/
+artifacts/
+
+# OS / editor noise
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Node noise
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python noise
+__pycache__/
+*.pyc

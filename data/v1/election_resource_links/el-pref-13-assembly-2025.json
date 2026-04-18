@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T09:05:00+09:00",
+  "election_id": "el-pref-13-assembly-2025",
+  "records": [
+    {
+      "id": "el-pref-13-assembly-2025-bulletin-01",
+      "election_id": "el-pref-13-assembly-2025",
+      "kind": "bulletin",
+      "title": "東京都議会議員選挙 選挙公報",
+      "url": "https://www.senkyo.metro.tokyo.lg.jp/election/senkyo-kouhou/r7togikai-kouhou",
+      "summary": "東京都選挙管理委員会が公開している令和7年東京都議会議員選挙の選挙公報ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.senkyo.metro.tokyo.lg.jp/election/senkyo-kouhou/r7togikai-kouhou",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T09:04:00+09:00",
+        "last_checked_at": "2026-04-09T09:04:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

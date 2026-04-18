@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-17T13:15:00+09:00",
+  "election_id": "el-mun-40203-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-40203-mayor-2026-other-01",
+      "election_id": "el-mun-40203-mayor-2026",
+      "kind": "other",
+      "title": "久留米市長選挙無投票のお知らせについて",
+      "url": "https://www.city.kurume.fukuoka.jp/1050kurashi/2150senkyo/3040nittei/2025-1208-1448-178.html",
+      "summary": "久留米市長選挙が無投票になったこと、候補者、告示日、投票日、期日前投票を行わないことを案内する久留米市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.kurume.fukuoka.jp/1050kurashi/2150senkyo/3040nittei/2025-1208-1448-178.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-17T13:15:00+09:00",
+        "last_checked_at": "2026-04-17T13:15:00+09:00",
+        "status": "verified",
+        "note": "本文に候補者名、告示日、投票日、無投票に伴い期日前投票と投開票を行わない旨の記載がある。"
+      }
+    }
+  ]
+}

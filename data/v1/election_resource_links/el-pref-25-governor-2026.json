@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-15T15:30:00+09:00",
+  "election_id": "el-pref-25-governor-2026",
+  "records": [
+    {
+      "id": "el-pref-25-governor-2026-other-01",
+      "election_id": "el-pref-25-governor-2026",
+      "kind": "other",
+      "title": "滋賀県選挙管理委員会",
+      "url": "https://www.pref.shiga.lg.jp/senkyo/",
+      "summary": "滋賀県選挙管理委員会の案内ページ。地方選挙を含む公式情報の入口。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.shiga.lg.jp/senkyo/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T15:30:00+09:00",
+        "last_checked_at": "2026-04-15T15:30:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-25-governor-2026-other-02",
+      "election_id": "el-pref-25-governor-2026",
+      "kind": "other",
+      "title": "地方選挙",
+      "url": "https://www.pref.shiga.lg.jp/senkyo/tihou/",
+      "summary": "滋賀県内の地方選挙情報をまとめたページ。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.shiga.lg.jp/senkyo/tihou/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T15:30:00+09:00",
+        "last_checked_at": "2026-04-15T15:30:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-25-governor-2026-other-03",
+      "election_id": "el-pref-25-governor-2026",
+      "kind": "other",
+      "title": "今後の選挙執行予定一覧表（令和8年12月末まで）",
+      "url": "https://www.pref.shiga.lg.jp/file/attachment/5601690.pdf",
+      "summary": "滋賀県知事選挙の告示日・投票日を含む県の選挙執行予定 PDF。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.shiga.lg.jp/file/attachment/5601690.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T15:30:00+09:00",
+        "last_checked_at": "2026-04-15T15:30:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

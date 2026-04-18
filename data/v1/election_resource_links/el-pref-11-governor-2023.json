@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T16:32:04+09:00",
+  "election_id": "el-pref-11-governor-2023",
+  "records": [
+    {
+      "id": "el-pref-11-governor-2023-bulletin-01",
+      "election_id": "el-pref-11-governor-2023",
+      "kind": "bulletin",
+      "title": "選挙公報（PDF）",
+      "url": "https://www.pref.saitama.lg.jp/documents/240322/r5chiji_kouhou.pdf",
+      "summary": "埼玉県知事選挙の選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.saitama.lg.jp/e1701/r5chijikekka.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T16:32:04+09:00",
+        "last_checked_at": "2026-04-10T16:32:04+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-11-governor-2023-early-voting-01",
+      "election_id": "el-pref-11-governor-2023",
+      "kind": "early_voting",
+      "title": "期日前投票所一覧（7月20日21時訂正）（PDF）",
+      "url": "https://www.pref.saitama.lg.jp/documents/237735/r5_chijisen_kijitsuzen_list_0720.pdf",
+      "summary": "埼玉県知事選挙の期日前投票所一覧 PDF。市区町村ごとの設置場所、設置期間、投票時間、対象区域を掲載。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.saitama.lg.jp/e1701/news/page/news20230720.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T16:32:04+09:00",
+        "last_checked_at": "2026-04-10T16:32:04+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-11-governor-2023-other-01",
+      "election_id": "el-pref-11-governor-2023",
+      "kind": "other",
+      "title": "令和5年執行埼玉県知事選挙投開票速報",
+      "url": "https://www.pref.saitama.lg.jp/e1701/r5chiji-sokuho.html",
+      "summary": "埼玉県の公式速報ページ。候補者情報、投票結果、開票結果への導線を掲載。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.saitama.lg.jp/e1701/r5chiji-sokuho.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T16:32:04+09:00",
+        "last_checked_at": "2026-04-10T16:32:04+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

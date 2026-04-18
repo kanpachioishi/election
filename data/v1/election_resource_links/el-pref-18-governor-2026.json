@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T09:25:39+09:00",
+  "election_id": "el-pref-18-governor-2026",
+  "records": [
+    {
+      "id": "el-pref-18-governor-2026-candidate-list-01",
+      "election_id": "el-pref-18-governor-2026",
+      "kind": "candidate_list",
+      "title": "候補者について（確定）（PDF）",
+      "url": "https://www.pref.fukui.lg.jp/doc/senkan/r8tijikengihosen/r8tijikengihosen_d/fil/kouhosyakakutei.pdf",
+      "summary": "福井県知事選挙の候補者確定一覧 PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.fukui.lg.jp/doc/senkan/r8tijikengihosen/r8tijikengihosen_d/fil/kouhosyakakutei.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:25:39+09:00",
+        "last_checked_at": "2026-04-10T09:25:39+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-18-governor-2026-bulletin-01",
+      "election_id": "el-pref-18-governor-2026",
+      "kind": "bulletin",
+      "title": "選挙公報（PDF）",
+      "url": "https://www.pref.fukui.lg.jp/doc/senkan/r8tijikengihosen/r8tijikengihosen_d/fil/tijisensenkyokouhou.pdf",
+      "summary": "福井県知事選挙の選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.fukui.lg.jp/doc/senkan/r8tijikengihosen/r8tijikengihosen_d/fil/tijisensenkyokouhou.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:25:39+09:00",
+        "last_checked_at": "2026-04-10T09:25:39+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-18-governor-2026-early-voting-01",
+      "election_id": "el-pref-18-governor-2026",
+      "kind": "early_voting",
+      "title": "期日前投票所一覧（PDF）",
+      "url": "https://www.pref.fukui.lg.jp/doc/senkan/r8tijikengihosen/r8tijikengihosen_d/fil/03.pdf",
+      "summary": "福井県知事選挙の期日前投票所一覧。特設ページでは福井県議会議員補欠選挙（福井市選挙区）も併記されています。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.fukui.lg.jp/doc/senkan/r8tijikengihosen/r8tijikengihosen_d/fil/03.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:25:39+09:00",
+        "last_checked_at": "2026-04-10T09:25:39+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-18-governor-2026-other-01",
+      "election_id": "el-pref-18-governor-2026",
+      "kind": "other",
+      "title": "福井県知事選挙および福井県議会議員補欠選挙（福井市選挙区）",
+      "url": "https://www.pref.fukui.lg.jp/doc/senkan/r8tijikengihosen/r8tijikengihosen.html",
+      "summary": "福井県の公式選挙案内ページです。告示日、投票日、期日前投票、投開票速報、選挙公報を確認できます。",
+      "is_official": true,
+      "display_order": 4,
+      "verification": {
+        "source_url": "https://www.pref.fukui.lg.jp/doc/senkan/r8tijikengihosen/r8tijikengihosen.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:25:39+09:00",
+        "last_checked_at": "2026-04-10T09:25:39+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

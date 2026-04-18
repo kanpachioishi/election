@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-15T18:10:00+09:00",
+  "election_id": "el-mun-10209-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-10209-mayor-2026-arai-masahiro-01",
+      "election_id": "el-mun-10209-mayor-2026",
+      "person_name": "新井雅博",
+      "person_kana": "あらい まさひろ",
+      "birth_date": "1960-11-06",
+      "identity_labels": [
+        "現職市長",
+        "市長の部屋あり",
+        "市長プロフィールあり",
+        "市長コラムあり"
+      ],
+      "person_slug": "arai-masahiro",
+      "profile_status": "reported_candidate",
+      "summary": "報道ベースでは藤岡市長選の候補予定者として扱う。藤岡市公式の市長の部屋、プロフィール、市長コラム、市長トピックスを確認済み。",
+      "current_or_recent_role": "藤岡市長",
+      "official_site_url": "https://www.city.fujioka.gunma.jp/shiseijoho/shichonoheya/index.html",
+      "official_sns": [],
+      "profile_pages": [
+        {
+          "label": "市長プロフィール",
+          "url": "https://www.city.fujioka.gunma.jp/soshiki/kikakubu/hisho/3/1197.html",
+          "kind": "institution_profile"
+        }
+      ],
+      "person_statements": [
+        {
+          "label": "市長コラム",
+          "url": "https://www.city.fujioka.gunma.jp/soshiki/kikakubu/hisho/2/2/1153.html"
+        },
+        {
+          "label": "市長トピックス",
+          "url": "https://www.city.fujioka.gunma.jp/shiseijoho/shichonoheya/shichotopics/index.html"
+        }
+      ],
+      "policy_links": [
+        {
+          "label": "令和8年度予算の概要（案）",
+          "url": "https://www.city.fujioka.gunma.jp/material/files/group/5/yosangaiyou_R08.pdf",
+          "kind": "policy"
+        }
+      ],
+      "career_items": [
+        {
+          "label": "1960年11月6日 群馬県藤岡市生まれ",
+          "summary": "藤岡市公式プロフィールで確認した基本情報。"
+        },
+        {
+          "label": "1983年4月 藤岡市役所入庁",
+          "summary": "藤岡市公式プロフィールで確認した職歴。"
+        },
+        {
+          "label": "2013年4月 藤岡市総務部長",
+          "summary": "藤岡市公式プロフィールで確認した職歴。"
+        },
+        {
+          "label": "2016年4月 藤岡市副市長",
+          "summary": "藤岡市公式プロフィールで確認した職歴。"
+        },
+        {
+          "label": "2018年5月 藤岡市長就任",
+          "summary": "藤岡市公式プロフィールで確認した現職経歴。"
+        }
+      ],
+      "election_history": [
+        {
+          "label": "2022年4月 藤岡市長選挙",
+          "summary": "無投票で再選。"
+        }
+      ],
+      "display_order": 1,
+      "last_checked_at": "2026-04-15T18:10:00+09:00",
+      "evidence": [
+        {
+          "source_name": "藤岡市",
+          "source_type": "official",
+          "title": "市長の部屋",
+          "url": "https://www.city.fujioka.gunma.jp/shiseijoho/shichonoheya/index.html",
+          "published_at": null
+        },
+        {
+          "source_name": "藤岡市",
+          "source_type": "official",
+          "title": "市長プロフィール",
+          "url": "https://www.city.fujioka.gunma.jp/soshiki/kikakubu/hisho/3/1197.html",
+          "published_at": null
+        },
+        {
+          "source_name": "藤岡市",
+          "source_type": "official",
+          "title": "市長コラム",
+          "url": "https://www.city.fujioka.gunma.jp/soshiki/kikakubu/hisho/2/2/1153.html",
+          "published_at": null
+        },
+        {
+          "source_name": "藤岡市",
+          "source_type": "official",
+          "title": "市長トピックス",
+          "url": "https://www.city.fujioka.gunma.jp/shiseijoho/shichonoheya/shichotopics/index.html",
+          "published_at": null
+        },
+        {
+          "source_name": "藤岡市",
+          "source_type": "official",
+          "title": "令和8年度当初予算（案）概要",
+          "url": "https://www.city.fujioka.gunma.jp/material/files/group/5/yosangaiyou_R08.pdf",
+          "published_at": null
+        },
+        {
+          "source_name": "藤岡市",
+          "source_type": "official",
+          "title": "選挙の記録",
+          "url": "https://www.city.fujioka.gunma.jp/soshiki/somubu/somu/7/2463.html",
+          "published_at": null
+        }
+      ]
+    }
+  ]
+}

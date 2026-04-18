@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-11T12:42:31+09:00",
+  "election_id": "el-pref-15-governor-2026",
+  "records": [
+    {
+      "id": "el-pref-15-governor-2026-other-01",
+      "election_id": "el-pref-15-governor-2026",
+      "kind": "other",
+      "title": "新潟県知事選挙の期日等を決定しました",
+      "url": "https://www.pref.niigata.lg.jp/site/senkyo/r8chijisenkijitsu.html",
+      "summary": "新潟県知事選挙の投票日、告示日、任期満了日を確認できます。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.niigata.lg.jp/site/senkyo/r8chijisenkijitsu.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T12:42:31+09:00",
+        "last_checked_at": "2026-04-11T12:42:31+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-15-governor-2026-other-02",
+      "election_id": "el-pref-15-governor-2026",
+      "kind": "other",
+      "title": "令和8年選挙執行一覧",
+      "url": "https://www.pref.niigata.lg.jp/site/senkyo/r8-senkyoichiran.html",
+      "summary": "新潟県の公式選挙執行一覧です。県知事選挙の告示日と投票日を確認できます。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.niigata.lg.jp/site/senkyo/r8-senkyoichiran.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T12:42:31+09:00",
+        "last_checked_at": "2026-04-11T12:42:31+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-15-governor-2026-early-voting-01",
+      "election_id": "el-pref-15-governor-2026",
+      "kind": "early_voting",
+      "title": "期日前投票",
+      "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198688433002.html",
+      "summary": "期日前投票の制度案内です。期日前投票所ごとの日時は市区町村選管のお知らせも確認してください。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.niigata.lg.jp/site/senkyo/1198688433002.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T12:42:31+09:00",
+        "last_checked_at": "2026-04-11T12:42:31+09:00",
+        "status": "verified",
+        "note": "新潟県知事選挙専用ページではなく、新潟県選挙管理委員会の制度案内"
+      }
+    },
+    {
+      "id": "el-pref-15-governor-2026-polling-place-01",
+      "election_id": "el-pref-15-governor-2026",
+      "kind": "polling_place",
+      "title": "投票の仕方",
+      "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198688447676.html",
+      "summary": "入場券、投票所での受付、投票用紙の記入など、当日の投票手順を確認できます。",
+      "is_official": true,
+      "display_order": 4,
+      "verification": {
+        "source_url": "https://www.pref.niigata.lg.jp/site/senkyo/1198688447676.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T12:42:31+09:00",
+        "last_checked_at": "2026-04-11T12:42:31+09:00",
+        "status": "verified",
+        "note": "新潟県知事選挙専用ページではなく、新潟県選挙管理委員会の投票手順案内"
+      }
+    },
+    {
+      "id": "el-pref-15-governor-2026-polling-place-02",
+      "election_id": "el-pref-15-governor-2026",
+      "kind": "polling_place",
+      "title": "市区町村選挙管理委員会 お問い合わせ",
+      "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198774859417.html",
+      "summary": "投票所、入場券、地域別の案内を確認するための市区町村選挙管理委員会の連絡先です。",
+      "is_official": true,
+      "display_order": 5,
+      "verification": {
+        "source_url": "https://www.pref.niigata.lg.jp/site/senkyo/1198774859417.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T12:42:31+09:00",
+        "last_checked_at": "2026-04-11T12:42:31+09:00",
+        "status": "verified",
+        "note": "新潟県知事選挙専用ページではなく、市区町村選挙管理委員会の連絡先一覧"
+      }
+    },
+    {
+      "id": "el-pref-15-governor-2026-other-03",
+      "election_id": "el-pref-15-governor-2026",
+      "kind": "other",
+      "title": "不在者投票",
+      "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198688434306.html",
+      "summary": "滞在地、病院、施設などで投票する場合の不在者投票制度を確認できます。",
+      "is_official": true,
+      "display_order": 6,
+      "verification": {
+        "source_url": "https://www.pref.niigata.lg.jp/site/senkyo/1198688434306.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T12:42:31+09:00",
+        "last_checked_at": "2026-04-11T12:42:31+09:00",
+        "status": "verified",
+        "note": "新潟県知事選挙専用ページではなく、新潟県選挙管理委員会の制度案内"
+      }
+    },
+    {
+      "id": "el-pref-15-governor-2026-other-04",
+      "election_id": "el-pref-15-governor-2026",
+      "kind": "other",
+      "title": "新潟県知事選挙に係る政治活動用ポスターの取扱い",
+      "url": "https://www.pref.niigata.lg.jp/site/senkyo/r8chiji-poster.html",
+      "summary": "令和8年執行予定の新潟県知事選挙における政治活動用ポスターの規制等を確認できます。",
+      "is_official": true,
+      "display_order": 7,
+      "verification": {
+        "source_url": "https://www.pref.niigata.lg.jp/site/senkyo/r8chiji-poster.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T12:42:31+09:00",
+        "last_checked_at": "2026-04-11T12:42:31+09:00",
+        "status": "verified",
+        "note": "主に候補予定者・後援団体向けの公式情報"
+      }
+    },
+    {
+      "id": "el-pref-15-governor-2026-other-05",
+      "election_id": "el-pref-15-governor-2026",
+      "kind": "other",
+      "title": "寄附の禁止",
+      "url": "https://www.pref.niigata.lg.jp/site/senkyo/1356819469404.html",
+      "summary": "政治家や後援団体などの寄附禁止ルールを確認できます。",
+      "is_official": true,
+      "display_order": 8,
+      "verification": {
+        "source_url": "https://www.pref.niigata.lg.jp/site/senkyo/1356819469404.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T12:42:31+09:00",
+        "last_checked_at": "2026-04-11T12:42:31+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

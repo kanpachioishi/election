@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-11T09:00:00+09:00",
+  "election_id": "el-by-mun-46204-assembly-2026-01",
+  "records": [
+    {
+      "id": "el-by-mun-46204-assembly-2026-01-candidate-list-01",
+      "election_id": "el-by-mun-46204-assembly-2026-01",
+      "kind": "candidate_list",
+      "title": "枕崎市議会議員補欠選挙 立候補者について",
+      "url": "https://www.city.makurazaki.lg.jp/soshiki/senkan/18813.html",
+      "summary": "枕崎市選挙管理委員会が公開している令和8年1月18日執行の枕崎市議会議員補欠選挙の立候補者一覧ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.makurazaki.lg.jp/soshiki/senkan/18813.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T09:00:00+09:00",
+        "last_checked_at": "2026-04-11T09:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-by-mun-46204-assembly-2026-01-early-voting-01",
+      "election_id": "el-by-mun-46204-assembly-2026-01",
+      "kind": "early_voting",
+      "title": "枕崎市議会議員補欠選挙 期日前投票",
+      "url": "https://www.city.makurazaki.lg.jp/soshiki/senkan/17408.html",
+      "summary": "枕崎市長選挙及び枕崎市議会議員補欠選挙の日程ページ。期日前投票の期間、時間、会場を掲載している。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.city.makurazaki.lg.jp/soshiki/senkan/17408.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T09:00:00+09:00",
+        "last_checked_at": "2026-04-11T09:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-by-mun-46204-assembly-2026-01-polling-place-01",
+      "election_id": "el-by-mun-46204-assembly-2026-01",
+      "kind": "polling_place",
+      "title": "枕崎市 投票所所在地及び開閉時刻表",
+      "url": "https://www.city.makurazaki.lg.jp/uploaded/attachment/20246.pdf",
+      "summary": "枕崎市長選挙及び枕崎市議会議員補欠選挙の日程ページからリンクされている投票所所在地及び開閉時刻表PDF。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.city.makurazaki.lg.jp/soshiki/senkan/17408.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T09:00:00+09:00",
+        "last_checked_at": "2026-04-11T09:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-by-mun-46204-assembly-2026-01-other-01",
+      "election_id": "el-by-mun-46204-assembly-2026-01",
+      "kind": "other",
+      "title": "枕崎市長選挙及び枕崎市議会議員補欠選挙の日程について",
+      "url": "https://www.city.makurazaki.lg.jp/soshiki/senkan/17408.html",
+      "summary": "枕崎市長選挙及び枕崎市議会議員補欠選挙の告示日、投票日、投票所、期日前投票を掲載している枕崎市の公式ページ。",
+      "is_official": true,
+      "display_order": 4,
+      "verification": {
+        "source_url": "https://www.city.makurazaki.lg.jp/soshiki/senkan/17408.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T09:00:00+09:00",
+        "last_checked_at": "2026-04-11T09:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

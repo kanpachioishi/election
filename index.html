@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>わたしの選挙 - 郵便番号で調べる地域の選挙情報</title>
+  <meta name="description" content="郵便番号を入れるだけで、あなたの地域の次の選挙がすべてわかる。国政選挙から地方選挙まで、投票日・候補者情報をまとめてチェック。">
+  <meta property="og:title" content="わたしの選挙 - 郵便番号で調べる地域の選挙情報">
+  <meta property="og:description" content="郵便番号を入れるだけで、あなたの地域の次の選挙がすべてわかる。">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://watashino-senkyo.com/">
+  <link rel="stylesheet" href="common/style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="site-logo">
+        <span class="logo-icon">&#x1F5F3;</span>
+        わたしの選挙
+      </a>
+      <button class="menu-toggle" aria-label="メニュー" onclick="document.querySelector('.nav-list').classList.toggle('open')">&#9776;</button>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html" class="active">トップ</a></li>
+          <li><a href="pages/schedule.html">選挙スケジュール</a></li>
+          <li><a href="pages/governor-terms.html">知事の任期一覧</a></li>
+          <li><a href="pages/turnout.html">投票率データ</a></li>
+          <li><a href="#about">このサイトについて</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ヒーロー -->
+    <section class="hero">
+      <h1>あなたの地域の次の選挙、<br>知っていますか？</h1>
+      <p class="subtitle">郵便番号を入れるだけで、あなたに関係する選挙がすべてわかります。</p>
+    </section>
+
+    <!-- 検索フォーム -->
+    <section class="search-section">
+      <form class="search-form" id="searchForm" onsubmit="return false;">
+        <input type="text" id="zipInput" placeholder="例: 150-0001" maxlength="8" inputmode="numeric" autocomplete="postal-code">
+        <button type="submit" class="btn-primary" id="searchBtn">調べる</button>
+      </form>
+      <p class="search-hint">ハイフンあり・なし、どちらでもOK</p>
+    </section>
+
+    <!-- 結果エリア -->
+    <section class="results-area hidden" id="resultsArea">
+      <div class="results-header">
+        <h2 id="resultsTitle"></h2>
+      </div>
+      <div class="results-grid" id="resultsGrid"></div>
+    </section>
+
+    <!-- エラーエリア -->
+    <div class="error-message hidden" id="errorArea"></div>
+
+    <!-- 選挙に行こうセクション -->
+    <section class="voting-section" id="about">
+      <h2>選挙に行こう</h2>
+      <div class="voting-stats">
+        <div class="stat-card">
+          <div class="stat-number">53.85%</div>
+          <div class="stat-label">2024年衆院選の投票率</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">33.85%</div>
+          <div class="stat-label">20代の投票率</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">約4,900万人</div>
+          <div class="stat-label">投票しなかった有権者</div>
+        </div>
+      </div>
+
+      <div class="mini-chart" id="miniChart"></div>
+
+      <div class="voting-message">
+        <p>
+          <strong>あなたの一票には力があります。</strong><br>
+          選挙は、私たちの暮らしに直接つながる大切な機会。<br>
+          「誰に入れていいかわからない」「自分の一票じゃ変わらない」<br>
+          そう感じることもあるかもしれません。<br><br>
+          でも、投票は意思表示。<br>
+          まずは自分の地域の選挙を知ることから始めてみませんか？
+        </p>
+      </div>
+    </section>
+
+    <section class="voting-section">
+      <h2>知事の任期をまとめて見る</h2>
+      <div class="voting-message">
+        <p>
+          47都道府県の知事について、現行任期の基準選挙と次回知事選の確認状況を一覧で見られます。<br>
+          次回日程が公式確認できている県と、まだ未確認の県を分けて確認したいときに使えます。
+        </p>
+        <p style="margin-top:1rem;">
+          <a href="pages/governor-terms.html" class="btn-primary">知事の任期一覧を見る</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- フッター -->
+  <footer class="site-footer">
+    <p class="footer-message">このサイトは投票率向上を目指す個人プロジェクトです。</p>
+    <div class="footer-links">
+      <a href="#">プライバシーポリシー</a>
+      <a href="#">お問い合わせ</a>
+    </div>
+    <p class="footer-copy">&copy; 2025 わたしの選挙</p>
+  </footer>
+
+  <script src="data/regions.js"></script>
+  <script src="data/elections.js"></script>
+  <script>
+    // ========================================
+    // メインロジック
+    // ========================================
+
+    const searchForm = document.getElementById('searchForm');
+    const zipInput = document.getElementById('zipInput');
+    const searchBtn = document.getElementById('searchBtn');
+    const resultsArea = document.getElementById('resultsArea');
+    const resultsTitle = document.getElementById('resultsTitle');
+    const resultsGrid = document.getElementById('resultsGrid');
+    const errorArea = document.getElementById('errorArea');
+
+    // 検索ボタン
+    searchBtn.addEventListener('click', handleSearch);
+    zipInput.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') handleSearch();
+    });
+
+    // 自動ハイフン挿入
+    zipInput.addEventListener('input', function() {
+      let val = this.value.replace(/[^\d]/g, '');
+      if (val.length > 3) {
+        val = val.slice(0, 3) + '-' + val.slice(3, 7);
+      }
+      this.value = val;
+    });
+
+    function handleSearch() {
+      const raw = zipInput.value.replace(/[^\d]/g, '');
+
+      // バリデーション
+      if (raw.length < 3) {
+        showError('郵便番号を入力してください（例: 150-0001）');
+        return;
+      }
+
+      if (raw.length !== 7 && raw.length >= 3) {
+        // 3桁以上なら上3桁で検索
+      }
+
+      const prefix = raw.slice(0, 3);
+      const region = REGIONS[prefix];
+
+      if (!region) {
+        showError('申し訳ありません。この郵便番号に対応するデータがまだありません。<br>（MVP版のため、主要都市のみ対応しています）');
+        return;
+      }
+
+      // 該当する選挙を検索
+      const elections = findElections(region);
+      showResults(region, elections);
+    }
+
+    function findElections(region) {
+      const now = new Date();
+      return ELECTIONS
+        .filter(e => {
+          if (e.regions.includes('all')) return true;
+          if (e.regions.includes(region.prefCode)) return true;
+          return false;
+        })
+        .map(e => {
+          const date = new Date(e.date);
+          const diff = Math.ceil((date - now) / (1000 * 60 * 60 * 24));
+          return { ...e, dateObj: date, daysLeft: diff };
+        })
+        .sort((a, b) => a.dateObj - b.dateObj);
+    }
+
+    function showResults(region, elections) {
+      errorArea.classList.add('hidden');
+      resultsArea.classList.remove('hidden');
+      resultsTitle.textContent = region.prefecture + region.city + 'の選挙情報';
+
+      if (elections.length === 0) {
+        resultsGrid.innerHTML = '<div class="no-results">現在、予定されている選挙情報はありません。</div>';
+        return;
+      }
+
+      resultsGrid.innerHTML = elections.map(e => {
+        const typeLabel = { national: '国政選挙', prefectural: '都道府県', municipal: '市区町村' }[e.type] || e.type;
+        const dateStr = formatDate(e.dateObj);
+        const countdown = getCountdown(e.daysLeft);
+
+        return `
+          <div class="election-card">
+            <span class="card-type ${e.type}">${typeLabel}</span>
+            <h3>${e.name}</h3>
+            <div class="card-date">${dateStr}</div>
+            <div class="card-countdown ${countdown.class}">${countdown.text}</div>
+            <p class="card-desc">${e.description}</p>
+          </div>
+        `;
+      }).join('');
+
+      // スクロール
+      resultsArea.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    function showError(msg) {
+      resultsArea.classList.add('hidden');
+      errorArea.classList.remove('hidden');
+      errorArea.innerHTML = msg;
+    }
+
+    function formatDate(date) {
+      const y = date.getFullYear();
+      const m = date.getMonth() + 1;
+      const d = date.getDate();
+      const days = ['日', '月', '火', '水', '木', '金', '土'];
+      const dayName = days[date.getDay()];
+      return `${y}年${m}月${d}日（${dayName}）`;
+    }
+
+    function getCountdown(daysLeft) {
+      if (daysLeft < 0) {
+        return { text: '終了しました', class: 'past' };
+      } else if (daysLeft === 0) {
+        return { text: '本日投票日！', class: 'soon' };
+      } else if (daysLeft <= 30) {
+        return { text: `あと ${daysLeft} 日`, class: 'soon' };
+      } else if (daysLeft <= 90) {
+        return { text: `あと ${daysLeft} 日`, class: 'upcoming' };
+      } else {
+        return { text: `あと ${daysLeft} 日`, class: 'later' };
+      }
+    }
+
+    // ========================================
+    // ミニ年代別チャート
+    // ========================================
+    function renderMiniChart() {
+      const container = document.getElementById('miniChart');
+      if (!container || typeof TURNOUT_BY_AGE === 'undefined') return;
+
+      const html = TURNOUT_BY_AGE.map(item => {
+        const width = item.rate;
+        const color = item.rate < 40 ? 'var(--color-accent)' :
+                      item.rate < 55 ? 'var(--color-warning)' : 'var(--color-primary)';
+        return `
+          <div class="chart-bar-group">
+            <span class="chart-bar-label">${item.age}</span>
+            <div class="chart-bar-track">
+              <div class="chart-bar-fill" style="width: ${width}%; background: ${color};" data-width="${width}">${item.rate}%</div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      container.innerHTML = `
+        <p style="text-align:center; font-size:0.9rem; color:var(--color-text-muted); margin-bottom:0.75rem;">年代別投票率（2024年衆院選）</p>
+        ${html}
+      `;
+
+      // アニメーション
+      requestAnimationFrame(() => {
+        container.querySelectorAll('.chart-bar-fill').forEach(el => {
+          const w = el.dataset.width;
+          el.style.width = '0%';
+          requestAnimationFrame(() => {
+            el.style.width = w + '%';
+          });
+        });
+      });
+    }
+
+    renderMiniChart();
+  </script>
+
+</body>
+</html>

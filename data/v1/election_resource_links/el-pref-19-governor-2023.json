@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T08:42:18+09:00",
+  "election_id": "el-pref-19-governor-2023",
+  "records": [
+    {
+      "id": "el-pref-19-governor-2023-candidate-list-01",
+      "election_id": "el-pref-19-governor-2023",
+      "kind": "candidate_list",
+      "title": "候補者の氏名及び党派別の一覧（PDF）",
+      "url": "https://www.pref.yamanashi.jp/documents/107001/r5chijikouhosya.pdf",
+      "summary": "山梨県知事選挙の候補者の氏名及び党派別の一覧 PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.yamanashi.jp/documents/107001/r5chijikouhosya.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T08:42:18+09:00",
+        "last_checked_at": "2026-04-10T08:42:18+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-19-governor-2023-bulletin-01",
+      "election_id": "el-pref-19-governor-2023",
+      "kind": "bulletin",
+      "title": "選挙公報（PDF）",
+      "url": "https://www.pref.yamanashi.jp/documents/107001/web144_tiji.pdf",
+      "summary": "山梨県知事選挙の選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.yamanashi.jp/documents/107001/web144_tiji.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T08:42:18+09:00",
+        "last_checked_at": "2026-04-10T08:42:18+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-19-governor-2023-early-voting-01",
+      "election_id": "el-pref-19-governor-2023",
+      "kind": "early_voting",
+      "title": "県内の期日前投票所一覧（PDF）",
+      "url": "https://www.pref.yamanashi.jp/documents/107001/r05_chiji_kijitsuzentouhyoushisetsu_221220.pdf",
+      "summary": "山梨県知事選挙の期日前投票所一覧 PDF。県内の会場、期間、時間を掲載。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.yamanashi.jp/documents/107001/r05_chiji_kijitsuzentouhyoushisetsu_221220.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T08:42:18+09:00",
+        "last_checked_at": "2026-04-10T08:42:18+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-19-governor-2023-polling-place-01",
+      "election_id": "el-pref-19-governor-2023",
+      "kind": "polling_place",
+      "title": "県内の投票所一覧（PDF）",
+      "url": "https://www.pref.yamanashi.jp/documents/107001/r05_chiji_touhyoujyoichiran_221228.pdf",
+      "summary": "山梨県知事選挙の投票所一覧 PDF。県内の投票区ごとの投票所を掲載。",
+      "is_official": true,
+      "display_order": 4,
+      "verification": {
+        "source_url": "https://www.pref.yamanashi.jp/documents/107001/r05_chiji_touhyoujyoichiran_221228.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T08:42:18+09:00",
+        "last_checked_at": "2026-04-10T08:42:18+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-19-governor-2023-other-01",
+      "election_id": "el-pref-19-governor-2023",
+      "kind": "other",
+      "title": "令和5年1月22日執行 山梨県知事選挙について",
+      "url": "https://www.pref.yamanashi.jp/senkyo/r5_tijisen.html",
+      "summary": "山梨県知事選挙の公式案内ページ。日程、候補者情報、選挙公報、投票所、期日前投票を掲載。",
+      "is_official": true,
+      "display_order": 5,
+      "verification": {
+        "source_url": "https://www.pref.yamanashi.jp/senkyo/r5_tijisen.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T08:42:18+09:00",
+        "last_checked_at": "2026-04-10T08:42:18+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

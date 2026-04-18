@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T14:10:00+09:00",
+  "prefix": "405",
+  "records": [
+    {
+      "postal_code": "4050002",
+      "region_id": "mun-19205",
+      "match_kind": "exact",
+      "confidence": "high",
+      "verification": {
+        "source_url": "https://www.post.japanpost.jp/cgi-zip/zipcode.php?city=1192050&id=73155&pref=19",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T14:10:00+09:00",
+        "last_checked_at": "2026-04-09T14:10:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": "山梨県山梨市東"
+    }
+  ]
+}

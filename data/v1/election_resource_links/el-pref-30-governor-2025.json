@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T14:54:33+09:00",
+  "election_id": "el-pref-30-governor-2025",
+  "records": [
+    {
+      "id": "el-pref-30-governor-2025-candidate-list-01",
+      "election_id": "el-pref-30-governor-2025",
+      "kind": "candidate_list",
+      "title": "令和7年6月1日執行　和歌山県知事選挙　候補者の届出",
+      "url": "https://www.pref.wakayama.lg.jp/prefg/010100/kenpou/d00220102_d/fil/r070515gai3.pdf",
+      "summary": "和歌山県知事選挙の候補者の届出 PDF。候補者氏名、住所、生年月日、党派、職業を確認できます。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.wakayama.lg.jp/prefg/010100/kenpou/d00220102_d/fil/r070515gai3.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T14:54:33+09:00",
+        "last_checked_at": "2026-04-10T14:54:33+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-30-governor-2025-other-01",
+      "election_id": "el-pref-30-governor-2025",
+      "kind": "other",
+      "title": "令和7年6月1日執行和歌山県知事選挙",
+      "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/R7_tiji/d00220093.html",
+      "summary": "和歌山県知事選挙の概要ページ。投開票結果、選挙の記録、告示などへの導線を掲載しています。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/R7_tiji/d00220093.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T14:54:33+09:00",
+        "last_checked_at": "2026-04-10T14:54:33+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

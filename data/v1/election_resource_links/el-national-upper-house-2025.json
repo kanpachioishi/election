@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T22:40:00+09:00",
+  "election_id": "el-national-upper-house-2025",
+  "records": [
+    {
+      "id": "el-national-upper-house-2025-candidate-list-01",
+      "election_id": "el-national-upper-house-2025",
+      "kind": "candidate_list",
+      "title": "令和7年7月20日執行 参議院神奈川県選出議員選挙 候補者の氏名及び党派別の一覧",
+      "url": "https://www.pref.kanagawa.jp/documents/122589/r7sangi_kouhoshameibo.pdf",
+      "summary": "神奈川県選挙管理委員会が公開している第27回参議院議員通常選挙の神奈川県選出議員選挙の候補者一覧PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.kanagawa.jp/documents/122589/r7sangi_kouhoshameibo.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T22:40:00+09:00",
+        "last_checked_at": "2026-04-10T22:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-national-upper-house-2025-bulletin-01",
+      "election_id": "el-national-upper-house-2025",
+      "kind": "bulletin",
+      "title": "令和7年7月20日執行 参議院神奈川県選出議員選挙 選挙公報",
+      "url": "https://www.pref.kanagawa.jp/documents/122589/r7_san_senkyoku.pdf",
+      "summary": "神奈川県選挙管理委員会が公開している第27回参議院議員通常選挙の神奈川県選出議員選挙の選挙公報PDF。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.kanagawa.jp/documents/122589/r7_san_senkyoku.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T22:40:00+09:00",
+        "last_checked_at": "2026-04-10T22:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-national-upper-house-2025-early-voting-01",
+      "election_id": "el-national-upper-house-2025",
+      "kind": "early_voting",
+      "title": "令和7年執行参議院神奈川県選出議員選挙における期日前投票の状況",
+      "url": "https://www.pref.kanagawa.jp/documents/122589/2025sanngi_kijitsuzenn-4.pdf",
+      "summary": "神奈川県選挙管理委員会が公開している第27回参議院議員通常選挙の神奈川県選出議員選挙の期日前投票状況PDF。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.kanagawa.jp/documents/122589/2025sanngi_kijitsuzenn-4.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T22:40:00+09:00",
+        "last_checked_at": "2026-04-10T22:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-national-upper-house-2025-other-01",
+      "election_id": "el-national-upper-house-2025",
+      "kind": "other",
+      "title": "第27回参議院議員通常選挙 特設サイト（神奈川県選挙管理委員会）",
+      "url": "https://www.pref.kanagawa.jp/osirase/0103/2025sanngitokusetsu/",
+      "summary": "神奈川県選挙管理委員会による第27回参議院議員通常選挙の特設サイト。神奈川県向けの投票日や関連情報を案内している。",
+      "is_official": true,
+      "display_order": 4,
+      "verification": {
+        "source_url": "https://www.pref.kanagawa.jp/osirase/0103/2025sanngitokusetsu/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T22:40:00+09:00",
+        "last_checked_at": "2026-04-10T22:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

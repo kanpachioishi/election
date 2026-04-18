@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T10:18:00+09:00",
+  "prefix": "980",
+  "records": [
+    {
+      "postal_code": "9800001",
+      "region_id": "mun-04101",
+      "match_kind": "exact",
+      "confidence": "high",
+      "verification": {
+        "source_url": "https://www.post.japanpost.jp/cgi-zip/zipcode.php?zip=9800001",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T10:18:00+09:00",
+        "last_checked_at": "2026-04-09T10:18:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": "宮城県仙台市青葉区中江"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T17:10:00+09:00",
+  "prefix": "763",
+  "records": [
+    {
+      "postal_code": "7630074",
+      "region_id": "mun-37202",
+      "match_kind": "exact",
+      "confidence": "high",
+      "verification": {
+        "source_url": "https://www.post.japanpost.jp/cgi-zip/zipcode.php?city=1372020&id=138065&pref=37",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T17:10:00+09:00",
+        "last_checked_at": "2026-04-09T17:10:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": "丸亀市原田町"
+    }
+  ]
+}

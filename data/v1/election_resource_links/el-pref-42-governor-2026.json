@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T14:01:51+09:00",
+  "election_id": "el-pref-42-governor-2026",
+  "records": [
+    {
+      "id": "el-pref-42-governor-2026-candidate-list-01",
+      "election_id": "el-pref-42-governor-2026",
+      "kind": "candidate_list",
+      "title": "候補者一覧（PDF）",
+      "url": "https://www.pref.nagasaki.jp/shared/uploads/2026/01/1769089080.pdf",
+      "summary": "長崎県知事選挙の候補者の氏名及び党派別の一覧 PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.nagasaki.jp/shared/uploads/2026/01/1769089080.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T14:01:51+09:00",
+        "last_checked_at": "2026-04-10T14:01:51+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-42-governor-2026-bulletin-01",
+      "election_id": "el-pref-42-governor-2026",
+      "kind": "bulletin",
+      "title": "選挙公報（PDF）",
+      "url": "https://www.pref.nagasaki.jp/shared/uploads/2026/01/1769410683.pdf",
+      "summary": "長崎県知事選挙の選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.nagasaki.jp/bunrui/kenseijoho/senkyojoho/senkyokoho/770278.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T14:01:51+09:00",
+        "last_checked_at": "2026-04-10T14:01:51+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-42-governor-2026-other-01",
+      "election_id": "el-pref-42-governor-2026",
+      "kind": "other",
+      "title": "長崎県知事選挙",
+      "url": "https://www.pref.nagasaki.jp/bunrui/kenseijoho/senkyojoho/chijisenkyo/index.html",
+      "summary": "長崎県知事選挙の案内ページ。候補者一覧、選挙公報、関連情報への導線を掲載。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.nagasaki.jp/bunrui/kenseijoho/senkyojoho/chijisenkyo/index.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T14:01:51+09:00",
+        "last_checked_at": "2026-04-10T14:01:51+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T11:15:00+09:00",
+  "prefix": "631",
+  "records": [
+    {
+      "postal_code": "6310001",
+      "region_id": "mun-29201",
+      "match_kind": "exact",
+      "confidence": "high",
+      "verification": {
+        "source_url": "https://www.post.japanpost.jp/cgi-zip/zipcode.php?city=1292010&id=118321&pref=29",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T11:15:00+09:00",
+        "last_checked_at": "2026-04-09T11:15:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": "奈良県奈良市鶴舞西町"
+    }
+  ]
+}

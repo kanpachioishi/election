@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T18:05:00+09:00",
+  "prefix": "898",
+  "records": [
+    {
+      "postal_code": "8980001",
+      "region_id": "mun-46204",
+      "match_kind": "exact",
+      "confidence": "high",
+      "verification": {
+        "source_url": "https://www.post.japanpost.jp/cgi-zip/zipcode.php?zip=8980001",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T18:05:00+09:00",
+        "last_checked_at": "2026-04-09T18:05:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": "枕崎市松之尾町"
+    }
+  ]
+}

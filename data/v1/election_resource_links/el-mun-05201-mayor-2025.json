@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T22:40:00+09:00",
+  "election_id": "el-mun-05201-mayor-2025",
+  "records": [
+    {
+      "id": "el-mun-05201-mayor-2025-candidate-list-01",
+      "election_id": "el-mun-05201-mayor-2025",
+      "kind": "candidate_list",
+      "title": "令和7年4月6日執行秋田市長選挙 立候補者一覧",
+      "url": "https://www.city.akita.lg.jp/kurashi/senkyo/1043758/1043759.html",
+      "summary": "秋田市選挙管理委員会が公開している秋田市長選挙の投票案内ページ。立候補者一覧のPDF案内を含む。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.akita.lg.jp/kurashi/senkyo/1043758/1043759.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T22:40:00+09:00",
+        "last_checked_at": "2026-04-10T22:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-05201-mayor-2025-bulletin-01",
+      "election_id": "el-mun-05201-mayor-2025",
+      "kind": "bulletin",
+      "title": "選挙公報",
+      "url": "https://www.city.akita.lg.jp/kurashi/senkyo/1043758/1043760.html",
+      "summary": "秋田市選挙管理委員会が公開している秋田市長選挙の選挙公報ページ。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.city.akita.lg.jp/kurashi/senkyo/1043758/1043760.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T22:40:00+09:00",
+        "last_checked_at": "2026-04-10T22:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-05201-mayor-2025-early-voting-01",
+      "election_id": "el-mun-05201-mayor-2025",
+      "kind": "early_voting",
+      "title": "令和7年4月 秋田県知事選挙、秋田県議会議員補欠選挙および秋田市長選挙の投票について",
+      "url": "https://www.city.akita.lg.jp/kurashi/senkyo/1043758/1043759.html",
+      "summary": "秋田市選挙管理委員会が公開している秋田市長選挙の投票案内ページ。期日前投票所の場所と日時を掲載している。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.city.akita.lg.jp/kurashi/senkyo/1043758/1043759.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T22:40:00+09:00",
+        "last_checked_at": "2026-04-10T22:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-05201-mayor-2025-other-01",
+      "election_id": "el-mun-05201-mayor-2025",
+      "kind": "other",
+      "title": "令和7年4月 秋田県知事選挙、秋田県議会議員補欠選挙および秋田市長選挙",
+      "url": "https://www.city.akita.lg.jp/kurashi/senkyo/1043758/index.html",
+      "summary": "秋田市選挙管理委員会が公開している秋田市長選挙を含む選挙案内の総合ページ。",
+      "is_official": true,
+      "display_order": 4,
+      "verification": {
+        "source_url": "https://www.city.akita.lg.jp/kurashi/senkyo/1043758/index.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T22:40:00+09:00",
+        "last_checked_at": "2026-04-10T22:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

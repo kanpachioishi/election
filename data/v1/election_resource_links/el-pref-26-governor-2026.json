@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T09:12:56+09:00",
+  "election_id": "el-pref-26-governor-2026",
+  "records": [
+    {
+      "id": "el-pref-26-governor-2026-candidate-list-01",
+      "election_id": "el-pref-26-governor-2026",
+      "kind": "candidate_list",
+      "title": "候補者の氏名等の一覧（PDF）",
+      "url": "https://www.pref.kyoto.jp/senkyo/documents/8chiji-rikkouho.pdf",
+      "summary": "京都府知事選挙の候補者の氏名等の一覧 PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.kyoto.jp/senkyo/documents/8chiji-rikkouho.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:12:56+09:00",
+        "last_checked_at": "2026-04-10T09:12:56+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-26-governor-2026-bulletin-01",
+      "election_id": "el-pref-26-governor-2026",
+      "kind": "bulletin",
+      "title": "選挙公報（PDF）",
+      "url": "https://www.pref.kyoto.jp/senkyo/documents/r8tijisenkyokouhou.pdf",
+      "summary": "京都府知事選挙の選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.kyoto.jp/senkyo/documents/r8tijisenkyokouhou.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:12:56+09:00",
+        "last_checked_at": "2026-04-10T09:12:56+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-26-governor-2026-early-voting-01",
+      "election_id": "el-pref-26-governor-2026",
+      "kind": "early_voting",
+      "title": "京都府内の市区町村における期日前投票所に使用する施設（PDF）",
+      "url": "https://www.pref.kyoto.jp/senkyo/documents/r8kizitsumae.pdf",
+      "summary": "京都府知事選挙の期日前投票所一覧 PDF。府内市区町村ごとの施設、期間、時間を掲載。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.kyoto.jp/senkyo/documents/r8kizitsumae.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:12:56+09:00",
+        "last_checked_at": "2026-04-10T09:12:56+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-26-governor-2026-other-01",
+      "election_id": "el-pref-26-governor-2026",
+      "kind": "other",
+      "title": "令和8年4月5日執行の京都府知事選挙・京都府議会議員右京区選挙区補欠選挙に関する情報",
+      "url": "https://www.pref.kyoto.jp/senkyo/r8chijisenkyo.html",
+      "summary": "京都府の公式総合ページ。候補者情報、選挙公報、期日前投票、投開票結果への導線を掲載。",
+      "is_official": true,
+      "display_order": 4,
+      "verification": {
+        "source_url": "https://www.pref.kyoto.jp/senkyo/r8chijisenkyo.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:12:56+09:00",
+        "last_checked_at": "2026-04-10T09:12:56+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

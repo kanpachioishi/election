@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T09:33:47+09:00",
+  "election_id": "el-pref-16-governor-2024",
+  "records": [
+    {
+      "id": "el-pref-16-governor-2024-candidate-list-01",
+      "election_id": "el-pref-16-governor-2024",
+      "kind": "candidate_list",
+      "title": "候補者一覧表（PDF）",
+      "url": "https://www.pref.toyama.jp/documents/43662/r6tijikouhosya.pdf",
+      "summary": "富山県知事選挙の候補者一覧表 PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.toyama.jp/documents/43662/r6tijikouhosya.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:33:47+09:00",
+        "last_checked_at": "2026-04-10T09:33:47+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-16-governor-2024-bulletin-01",
+      "election_id": "el-pref-16-governor-2024",
+      "kind": "bulletin",
+      "title": "選挙公報（PDF）",
+      "url": "https://www.pref.toyama.jp/documents/13804/2024_toyamakenchiji.pdf",
+      "summary": "富山県知事選挙の選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.toyama.jp/documents/13804/2024_toyamakenchiji.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:33:47+09:00",
+        "last_checked_at": "2026-04-10T09:33:47+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-16-governor-2024-other-01",
+      "election_id": "el-pref-16-governor-2024",
+      "kind": "other",
+      "title": "富山県知事選挙の結果",
+      "url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_kekka.html",
+      "summary": "富山県の公式選挙結果ページです。令和6年10月27日執行の富山県知事選挙の投票結果、開票結果、選挙公報を確認できます。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_kekka.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:33:47+09:00",
+        "last_checked_at": "2026-04-10T09:33:47+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

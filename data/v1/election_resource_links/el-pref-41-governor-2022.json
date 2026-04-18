@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T17:40:00+09:00",
+  "election_id": "el-pref-41-governor-2022",
+  "records": [
+    {
+      "id": "el-pref-41-governor-2022-other-01",
+      "election_id": "el-pref-41-governor-2022",
+      "kind": "other",
+      "title": "佐賀県知事選挙（令和4年12月18日執行）関係情報",
+      "url": "https://www.pref.saga.lg.jp/list05622.html",
+      "summary": "佐賀県の公式ページです。令和4年12月18日執行の佐賀県知事選挙の投票結果、開票結果、期日前投票状況を確認できます。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.saga.lg.jp/list05622.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T17:40:00+09:00",
+        "last_checked_at": "2026-04-09T17:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

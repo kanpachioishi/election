@@ -1,0 +1,3624 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-16T02:40:00+09:00",
+  "records": [
+    {
+      "id": "pref-01",
+      "level": "prefecture",
+      "pref_code": "01",
+      "municipality_code": null,
+      "name": "北海道",
+      "slug": "hokkaido",
+      "parent_region_id": null,
+      "display_name": "北海道",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C01000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T10:18:00+09:00",
+        "last_checked_at": "2026-04-09T10:18:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-01101",
+      "level": "municipality",
+      "pref_code": "01",
+      "municipality_code": "01101",
+      "name": "札幌市中央区",
+      "slug": "sapporo-chuo-ku",
+      "parent_region_id": "pref-01",
+      "display_name": "北海道札幌市中央区",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C01101-19720401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T10:18:00+09:00",
+        "last_checked_at": "2026-04-09T10:18:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-04",
+      "level": "prefecture",
+      "pref_code": "04",
+      "municipality_code": null,
+      "name": "宮城県",
+      "slug": "miyagi",
+      "parent_region_id": null,
+      "display_name": "宮城県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C04000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T10:18:00+09:00",
+        "last_checked_at": "2026-04-09T10:18:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-04101",
+      "level": "municipality",
+      "pref_code": "04",
+      "municipality_code": "04101",
+      "name": "仙台市青葉区",
+      "slug": "sendai-aoba-ku",
+      "parent_region_id": "pref-04",
+      "display_name": "宮城県仙台市青葉区",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C04101-19890401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T10:18:00+09:00",
+        "last_checked_at": "2026-04-09T10:18:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-08",
+      "level": "prefecture",
+      "pref_code": "08",
+      "municipality_code": null,
+      "name": "茨城県",
+      "slug": "ibaraki",
+      "parent_region_id": null,
+      "display_name": "茨城県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C08000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T11:34:00+09:00",
+        "last_checked_at": "2026-04-09T11:34:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-08201",
+      "level": "municipality",
+      "pref_code": "08",
+      "municipality_code": "08201",
+      "name": "水戸市",
+      "slug": "mito-shi",
+      "parent_region_id": "pref-08",
+      "display_name": "茨城県水戸市",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C08201-20200401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T11:34:00+09:00",
+        "last_checked_at": "2026-04-09T11:34:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-09",
+      "level": "prefecture",
+      "pref_code": "09",
+      "municipality_code": null,
+      "name": "栃木県",
+      "slug": "tochigi",
+      "parent_region_id": null,
+      "display_name": "栃木県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C09000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T12:04:00+09:00",
+        "last_checked_at": "2026-04-09T12:04:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-09201",
+      "level": "municipality",
+      "pref_code": "09",
+      "municipality_code": "09201",
+      "name": "宇都宮市",
+      "slug": "utsunomiya-shi",
+      "parent_region_id": "pref-09",
+      "display_name": "栃木県宇都宮市",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C09201-20070331",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T12:04:00+09:00",
+        "last_checked_at": "2026-04-09T12:04:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-09203",
+      "level": "municipality",
+      "pref_code": "09",
+      "municipality_code": "09203",
+      "name": "栃木市",
+      "slug": "tochigi-shi",
+      "parent_region_id": "pref-09",
+      "display_name": "栃木県栃木市",
+      "verification": {
+        "source_url": "https://www.city.tochigi.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-16T00:20:00+09:00",
+        "last_checked_at": "2026-04-16T00:20:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-09216",
+      "level": "municipality",
+      "pref_code": "09",
+      "municipality_code": "09216",
+      "name": "下野市",
+      "slug": "shimotsuke-shi",
+      "parent_region_id": "pref-09",
+      "display_name": "栃木県下野市",
+      "verification": {
+        "source_url": "https://www.city.shimotsuke.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-16T00:20:00+09:00",
+        "last_checked_at": "2026-04-16T00:20:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-11",
+      "level": "prefecture",
+      "pref_code": "11",
+      "municipality_code": null,
+      "name": "埼玉県",
+      "slug": "saitama",
+      "parent_region_id": null,
+      "display_name": "埼玉県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C11000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T11:15:00+09:00",
+        "last_checked_at": "2026-04-09T11:15:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-11233",
+      "level": "municipality",
+      "pref_code": "11",
+      "municipality_code": "11233",
+      "name": "北本市",
+      "slug": "kitamoto-shi",
+      "parent_region_id": "pref-11",
+      "display_name": "埼玉県北本市",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C11233",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T11:15:00+09:00",
+        "last_checked_at": "2026-04-09T11:15:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-11212",
+      "level": "municipality",
+      "pref_code": "11",
+      "municipality_code": "11212",
+      "name": "東松山市",
+      "slug": "higashimatsuyama-shi",
+      "parent_region_id": "pref-11",
+      "display_name": "埼玉県東松山市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/city/code/11212.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:30:00+09:00",
+        "last_checked_at": "2026-04-15T23:30:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-11216",
+      "level": "municipality",
+      "pref_code": "11",
+      "municipality_code": "11216",
+      "name": "羽生市",
+      "slug": "hanyu-shi",
+      "parent_region_id": "pref-11",
+      "display_name": "埼玉県羽生市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/11216.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:30:00+09:00",
+        "last_checked_at": "2026-04-15T23:30:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-11217",
+      "level": "municipality",
+      "pref_code": "11",
+      "municipality_code": "11217",
+      "name": "鴻巣市",
+      "slug": "kounosu-shi",
+      "parent_region_id": "pref-11",
+      "display_name": "埼玉県鴻巣市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/city/code/11217.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:30:00+09:00",
+        "last_checked_at": "2026-04-15T23:30:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-11221",
+      "level": "municipality",
+      "pref_code": "11",
+      "municipality_code": "11221",
+      "name": "草加市",
+      "slug": "soka-shi",
+      "parent_region_id": "pref-11",
+      "display_name": "埼玉県草加市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/11221.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:30:00+09:00",
+        "last_checked_at": "2026-04-15T23:30:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-11232",
+      "level": "municipality",
+      "pref_code": "11",
+      "municipality_code": "11232",
+      "name": "久喜市",
+      "slug": "kuki-shi",
+      "parent_region_id": "pref-11",
+      "display_name": "埼玉県久喜市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/city/code/11232.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:30:00+09:00",
+        "last_checked_at": "2026-04-15T23:30:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-11237",
+      "level": "municipality",
+      "pref_code": "11",
+      "municipality_code": "11237",
+      "name": "三郷市",
+      "slug": "misato-shi",
+      "parent_region_id": "pref-11",
+      "display_name": "埼玉県三郷市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/city/code/11237.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:30:00+09:00",
+        "last_checked_at": "2026-04-15T23:30:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-11238",
+      "level": "municipality",
+      "pref_code": "11",
+      "municipality_code": "11238",
+      "name": "蓮田市",
+      "slug": "hasuda-shi",
+      "parent_region_id": "pref-11",
+      "display_name": "埼玉県蓮田市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/city/code/11238.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:30:00+09:00",
+        "last_checked_at": "2026-04-15T23:30:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-12",
+      "level": "prefecture",
+      "pref_code": "12",
+      "municipality_code": null,
+      "name": "千葉県",
+      "slug": "chiba",
+      "parent_region_id": null,
+      "display_name": "千葉県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C12000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T09:20:00+09:00",
+        "last_checked_at": "2026-04-09T09:20:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-12203",
+      "level": "municipality",
+      "pref_code": "12",
+      "municipality_code": "12203",
+      "name": "市川市",
+      "slug": "ichikawa-shi",
+      "parent_region_id": "pref-12",
+      "display_name": "千葉県市川市",
+      "verification": {
+        "source_url": "https://data.e-stat.go.jp/lod/page/sac/C12203-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T09:20:00+09:00",
+        "last_checked_at": "2026-04-09T09:20:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-12218",
+      "level": "municipality",
+      "pref_code": "12",
+      "municipality_code": "12218",
+      "name": "勝浦市",
+      "slug": "katsuura-shi",
+      "parent_region_id": "pref-12",
+      "display_name": "千葉県勝浦市",
+      "verification": {
+        "source_url": "https://www.city.katsuura.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T20:35:00+09:00",
+        "last_checked_at": "2026-04-15T20:35:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-12225",
+      "level": "municipality",
+      "pref_code": "12",
+      "municipality_code": "12225",
+      "name": "君津市",
+      "slug": "kimitsu-shi",
+      "parent_region_id": "pref-12",
+      "display_name": "千葉県君津市",
+      "verification": {
+        "source_url": "https://www.city.kimitsu.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T20:35:00+09:00",
+        "last_checked_at": "2026-04-15T20:35:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-12230",
+      "level": "municipality",
+      "pref_code": "12",
+      "municipality_code": "12230",
+      "name": "八街市",
+      "slug": "yachimata-shi",
+      "parent_region_id": "pref-12",
+      "display_name": "千葉県八街市",
+      "verification": {
+        "source_url": "https://www.city.yachimata.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T20:35:00+09:00",
+        "last_checked_at": "2026-04-15T20:35:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-12236",
+      "level": "municipality",
+      "pref_code": "12",
+      "municipality_code": "12236",
+      "name": "香取市",
+      "slug": "katori-shi",
+      "parent_region_id": "pref-12",
+      "display_name": "千葉県香取市",
+      "verification": {
+        "source_url": "https://www.city.katori.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T20:35:00+09:00",
+        "last_checked_at": "2026-04-15T20:35:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-13",
+      "level": "prefecture",
+      "pref_code": "13",
+      "municipality_code": null,
+      "name": "東京都",
+      "slug": "tokyo",
+      "parent_region_id": null,
+      "display_name": "東京都",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C13000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T08:59:00+09:00",
+        "last_checked_at": "2026-04-09T08:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-13113",
+      "level": "municipality",
+      "pref_code": "13",
+      "municipality_code": "13113",
+      "name": "渋谷区",
+      "slug": "shibuya-ku",
+      "parent_region_id": "pref-13",
+      "display_name": "東京都渋谷区",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C13113-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T09:00:00+09:00",
+        "last_checked_at": "2026-04-09T09:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-13208",
+      "level": "municipality",
+      "pref_code": "13",
+      "municipality_code": "13208",
+      "name": "調布市",
+      "slug": "chofu-shi",
+      "parent_region_id": "pref-13",
+      "display_name": "東京都調布市",
+      "verification": {
+        "source_url": "https://www.city.chofu.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T20:35:00+09:00",
+        "last_checked_at": "2026-04-15T20:35:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-13219",
+      "level": "municipality",
+      "pref_code": "13",
+      "municipality_code": "13219",
+      "name": "狛江市",
+      "slug": "komae-shi",
+      "parent_region_id": "pref-13",
+      "display_name": "東京都狛江市",
+      "verification": {
+        "source_url": "https://www.city.komae.tokyo.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T20:35:00+09:00",
+        "last_checked_at": "2026-04-15T20:35:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-13228",
+      "level": "municipality",
+      "pref_code": "13",
+      "municipality_code": "13228",
+      "name": "あきる野市",
+      "slug": "akiruno-shi",
+      "parent_region_id": "pref-13",
+      "display_name": "東京都あきる野市",
+      "verification": {
+        "source_url": "https://www.city.akiruno.tokyo.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T20:35:00+09:00",
+        "last_checked_at": "2026-04-15T20:35:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-14",
+      "level": "prefecture",
+      "pref_code": "14",
+      "municipality_code": null,
+      "name": "神奈川県",
+      "slug": "kanagawa",
+      "parent_region_id": null,
+      "display_name": "神奈川県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C14000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T09:32:00+09:00",
+        "last_checked_at": "2026-04-09T09:32:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-14104",
+      "level": "municipality",
+      "pref_code": "14",
+      "municipality_code": "14104",
+      "name": "横浜市中区",
+      "slug": "yokohama-naka-ku",
+      "parent_region_id": "pref-14",
+      "display_name": "神奈川県横浜市中区",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C14104-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T09:32:00+09:00",
+        "last_checked_at": "2026-04-09T09:32:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-14207",
+      "level": "municipality",
+      "pref_code": "14",
+      "municipality_code": "14207",
+      "name": "茅ヶ崎市",
+      "slug": "chigasaki-shi",
+      "parent_region_id": "pref-14",
+      "display_name": "神奈川県茅ヶ崎市",
+      "verification": {
+        "source_url": "https://www.city.chigasaki.kanagawa.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-16T00:05:00+09:00",
+        "last_checked_at": "2026-04-16T00:05:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-14208",
+      "level": "municipality",
+      "pref_code": "14",
+      "municipality_code": "14208",
+      "name": "逗子市",
+      "slug": "zushi-shi",
+      "parent_region_id": "pref-14",
+      "display_name": "神奈川県逗子市",
+      "verification": {
+        "source_url": "https://www.city.zushi.kanagawa.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-16T00:05:00+09:00",
+        "last_checked_at": "2026-04-16T00:05:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-14212",
+      "level": "municipality",
+      "pref_code": "14",
+      "municipality_code": "14212",
+      "name": "厚木市",
+      "slug": "atsugi-shi",
+      "parent_region_id": "pref-14",
+      "display_name": "神奈川県厚木市",
+      "verification": {
+        "source_url": "https://www.city.atsugi.kanagawa.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-16T00:05:00+09:00",
+        "last_checked_at": "2026-04-16T00:05:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-21",
+      "level": "prefecture",
+      "pref_code": "21",
+      "municipality_code": null,
+      "name": "岐阜県",
+      "slug": "gifu",
+      "parent_region_id": null,
+      "display_name": "岐阜県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C21000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T11:34:00+09:00",
+        "last_checked_at": "2026-04-09T11:34:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-21201",
+      "level": "municipality",
+      "pref_code": "21",
+      "municipality_code": "21201",
+      "name": "岐阜市",
+      "slug": "gifu-shi",
+      "parent_region_id": "pref-21",
+      "display_name": "岐阜県岐阜市",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C21201-20060101",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T11:34:00+09:00",
+        "last_checked_at": "2026-04-09T11:34:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-22",
+      "level": "prefecture",
+      "pref_code": "22",
+      "municipality_code": null,
+      "name": "静岡県",
+      "slug": "shizuoka",
+      "parent_region_id": null,
+      "display_name": "静岡県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C22000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T11:15:00+09:00",
+        "last_checked_at": "2026-04-09T11:15:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-22138",
+      "level": "municipality",
+      "pref_code": "22",
+      "municipality_code": "22138",
+      "name": "浜松市中央区",
+      "slug": "hamamatsu-chuo-ku",
+      "parent_region_id": "pref-22",
+      "display_name": "静岡県浜松市中央区",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C22138",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T11:15:00+09:00",
+        "last_checked_at": "2026-04-09T11:15:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-23",
+      "level": "prefecture",
+      "pref_code": "23",
+      "municipality_code": null,
+      "name": "愛知県",
+      "slug": "aichi",
+      "parent_region_id": null,
+      "display_name": "愛知県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C23000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T10:18:00+09:00",
+        "last_checked_at": "2026-04-09T10:18:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-23102",
+      "level": "municipality",
+      "pref_code": "23",
+      "municipality_code": "23102",
+      "name": "名古屋市東区",
+      "slug": "nagoya-higashi-ku",
+      "parent_region_id": "pref-23",
+      "display_name": "愛知県名古屋市東区",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C23102-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T10:18:00+09:00",
+        "last_checked_at": "2026-04-09T10:18:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-24",
+      "level": "prefecture",
+      "pref_code": "24",
+      "municipality_code": null,
+      "name": "三重県",
+      "slug": "mie",
+      "parent_region_id": null,
+      "display_name": "三重県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C24000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T12:04:00+09:00",
+        "last_checked_at": "2026-04-09T12:04:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-24201",
+      "level": "municipality",
+      "pref_code": "24",
+      "municipality_code": "24201",
+      "name": "津市",
+      "slug": "tsu-shi",
+      "parent_region_id": "pref-24",
+      "display_name": "三重県津市",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C24201-20060101",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T12:04:00+09:00",
+        "last_checked_at": "2026-04-09T12:04:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-25",
+      "level": "prefecture",
+      "pref_code": "25",
+      "municipality_code": null,
+      "name": "滋賀県",
+      "slug": "shiga",
+      "parent_region_id": null,
+      "display_name": "滋賀県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C25000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T12:04:00+09:00",
+        "last_checked_at": "2026-04-09T12:04:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-25204",
+      "level": "municipality",
+      "pref_code": "25",
+      "municipality_code": "25204",
+      "name": "近江八幡市",
+      "slug": "omihachiman-shi",
+      "parent_region_id": "pref-25",
+      "display_name": "滋賀県近江八幡市",
+      "verification": {
+        "source_url": "https://www.city.omihachiman.lg.jp/gyosei/shokai/1/index.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T14:26:51+09:00",
+        "last_checked_at": "2026-04-15T14:26:51+09:00",
+        "status": "verified",
+        "note": "近江八幡市の公式紹介ページで自治体名を確認。"
+      }
+    },
+    {
+      "id": "mun-25206",
+      "level": "municipality",
+      "pref_code": "25",
+      "municipality_code": "25206",
+      "name": "草津市",
+      "slug": "kusatsu-shi",
+      "parent_region_id": "pref-25",
+      "display_name": "滋賀県草津市",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C25206-20070928",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T12:04:00+09:00",
+        "last_checked_at": "2026-04-09T12:04:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-25208",
+      "level": "municipality",
+      "pref_code": "25",
+      "municipality_code": "25208",
+      "name": "栗東市",
+      "slug": "ritto-shi",
+      "parent_region_id": "pref-25",
+      "display_name": "滋賀県栗東市",
+      "verification": {
+        "source_url": "https://www.city.ritto.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T14:26:51+09:00",
+        "last_checked_at": "2026-04-15T14:26:51+09:00",
+        "status": "verified",
+        "note": "栗東市の公式サイトで自治体名を確認。"
+      }
+    },
+    {
+      "id": "pref-26",
+      "level": "prefecture",
+      "pref_code": "26",
+      "municipality_code": null,
+      "name": "京都府",
+      "slug": "kyoto",
+      "parent_region_id": null,
+      "display_name": "京都府",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C26000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T10:44:00+09:00",
+        "last_checked_at": "2026-04-09T10:44:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-26102",
+      "level": "municipality",
+      "pref_code": "26",
+      "municipality_code": "26102",
+      "name": "京都市上京区",
+      "slug": "kyoto-kamigyo-ku",
+      "parent_region_id": "pref-26",
+      "display_name": "京都府京都市上京区",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C26102-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T10:44:00+09:00",
+        "last_checked_at": "2026-04-09T10:44:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-27",
+      "level": "prefecture",
+      "pref_code": "27",
+      "municipality_code": null,
+      "name": "大阪府",
+      "slug": "osaka",
+      "parent_region_id": null,
+      "display_name": "大阪府",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C27000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T10:44:00+09:00",
+        "last_checked_at": "2026-04-09T10:44:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-27127",
+      "level": "municipality",
+      "pref_code": "27",
+      "municipality_code": "27127",
+      "name": "大阪市北区",
+      "slug": "osaka-kita-ku",
+      "parent_region_id": "pref-27",
+      "display_name": "大阪府大阪市北区",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C27127-19890213",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T10:44:00+09:00",
+        "last_checked_at": "2026-04-09T10:44:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-28",
+      "level": "prefecture",
+      "pref_code": "28",
+      "municipality_code": null,
+      "name": "兵庫県",
+      "slug": "hyogo",
+      "parent_region_id": null,
+      "display_name": "兵庫県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C28000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T10:44:00+09:00",
+        "last_checked_at": "2026-04-09T10:44:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-28201",
+      "level": "municipality",
+      "pref_code": "28",
+      "municipality_code": "28201",
+      "name": "姫路市",
+      "slug": "himeji-shi",
+      "parent_region_id": "pref-28",
+      "display_name": "兵庫県姫路市",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C28201-20060327",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T10:44:00+09:00",
+        "last_checked_at": "2026-04-09T10:44:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-29",
+      "level": "prefecture",
+      "pref_code": "29",
+      "municipality_code": null,
+      "name": "奈良県",
+      "slug": "nara",
+      "parent_region_id": null,
+      "display_name": "奈良県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C29000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T11:15:00+09:00",
+        "last_checked_at": "2026-04-09T11:15:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-29201",
+      "level": "municipality",
+      "pref_code": "29",
+      "municipality_code": "29201",
+      "name": "奈良市",
+      "slug": "nara-shi",
+      "parent_region_id": "pref-29",
+      "display_name": "奈良県奈良市",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C29201-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T11:15:00+09:00",
+        "last_checked_at": "2026-04-09T11:15:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-30",
+      "level": "prefecture",
+      "pref_code": "30",
+      "municipality_code": null,
+      "name": "和歌山県",
+      "slug": "wakayama",
+      "parent_region_id": null,
+      "display_name": "和歌山県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C30000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T11:34:00+09:00",
+        "last_checked_at": "2026-04-09T11:34:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-30201",
+      "level": "municipality",
+      "pref_code": "30",
+      "municipality_code": "30201",
+      "name": "和歌山市",
+      "slug": "wakayama-shi",
+      "parent_region_id": "pref-30",
+      "display_name": "和歌山県和歌山市",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C30201-19970401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T11:34:00+09:00",
+        "last_checked_at": "2026-04-09T11:34:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-34",
+      "level": "prefecture",
+      "pref_code": "34",
+      "municipality_code": null,
+      "name": "広島県",
+      "slug": "hiroshima",
+      "parent_region_id": null,
+      "display_name": "広島県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C34000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T09:21:00+09:00",
+        "last_checked_at": "2026-04-09T09:21:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-34208",
+      "level": "municipality",
+      "pref_code": "34",
+      "municipality_code": "34208",
+      "name": "府中市",
+      "slug": "fuchu-shi",
+      "parent_region_id": "pref-34",
+      "display_name": "広島県府中市",
+      "verification": {
+        "source_url": "https://data.e-stat.go.jp/lod/page/sac/C34208-20040401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T09:21:00+09:00",
+        "last_checked_at": "2026-04-09T09:21:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-40",
+      "level": "prefecture",
+      "pref_code": "40",
+      "municipality_code": null,
+      "name": "福岡県",
+      "slug": "fukuoka",
+      "parent_region_id": null,
+      "display_name": "福岡県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C40000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T09:33:00+09:00",
+        "last_checked_at": "2026-04-09T09:33:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-40133",
+      "level": "municipality",
+      "pref_code": "40",
+      "municipality_code": "40133",
+      "name": "福岡市中央区",
+      "slug": "fukuoka-chuo-ku",
+      "parent_region_id": "pref-40",
+      "display_name": "福岡県福岡市中央区",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C40133-19720401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T09:33:00+09:00",
+        "last_checked_at": "2026-04-09T09:33:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-10",
+      "level": "prefecture",
+      "pref_code": "10",
+      "municipality_code": null,
+      "name": "群馬県",
+      "slug": "gunma",
+      "parent_region_id": null,
+      "display_name": "群馬県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C10000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T13:12:00+09:00",
+        "last_checked_at": "2026-04-09T13:12:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-10201",
+      "level": "municipality",
+      "pref_code": "10",
+      "municipality_code": "10201",
+      "name": "前橋市",
+      "slug": "maebashi-shi",
+      "parent_region_id": "pref-10",
+      "display_name": "群馬県前橋市",
+      "verification": {
+        "source_url": "https://data.e-stat.go.jp/lod/page/sac/C10201",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T13:12:00+09:00",
+        "last_checked_at": "2026-04-09T13:12:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-10209",
+      "level": "municipality",
+      "pref_code": "10",
+      "municipality_code": "10209",
+      "name": "藤岡市",
+      "slug": "fujioka-shi",
+      "parent_region_id": "pref-10",
+      "display_name": "群馬県藤岡市",
+      "verification": {
+        "source_url": "https://data.e-stat.go.jp/lod/page/sac/C10209",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T18:10:00+09:00",
+        "last_checked_at": "2026-04-15T18:10:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-10206",
+      "level": "municipality",
+      "pref_code": "10",
+      "municipality_code": "10206",
+      "name": "沼田市",
+      "slug": "numata-shi",
+      "parent_region_id": "pref-10",
+      "display_name": "群馬県沼田市",
+      "verification": {
+        "source_url": "https://data.e-stat.go.jp/lod/page/sac/C10206",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:50:00+09:00",
+        "last_checked_at": "2026-04-15T23:50:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-10210",
+      "level": "municipality",
+      "pref_code": "10",
+      "municipality_code": "10210",
+      "name": "富岡市",
+      "slug": "tomioka-shi",
+      "parent_region_id": "pref-10",
+      "display_name": "群馬県富岡市",
+      "verification": {
+        "source_url": "https://data.e-stat.go.jp/lod/page/sac/C10210",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:50:00+09:00",
+        "last_checked_at": "2026-04-15T23:50:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-10211",
+      "level": "municipality",
+      "pref_code": "10",
+      "municipality_code": "10211",
+      "name": "安中市",
+      "slug": "annaka-shi",
+      "parent_region_id": "pref-10",
+      "display_name": "群馬県安中市",
+      "verification": {
+        "source_url": "https://data.e-stat.go.jp/lod/page/sac/C10211",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:50:00+09:00",
+        "last_checked_at": "2026-04-15T23:50:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-10212",
+      "level": "municipality",
+      "pref_code": "10",
+      "municipality_code": "10212",
+      "name": "みどり市",
+      "slug": "midori-shi",
+      "parent_region_id": "pref-10",
+      "display_name": "群馬県みどり市",
+      "verification": {
+        "source_url": "https://data.e-stat.go.jp/lod/page/sac/C10212",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:50:00+09:00",
+        "last_checked_at": "2026-04-15T23:50:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-33",
+      "level": "prefecture",
+      "pref_code": "33",
+      "municipality_code": null,
+      "name": "岡山県",
+      "slug": "okayama",
+      "parent_region_id": null,
+      "display_name": "岡山県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C33000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T13:12:00+09:00",
+        "last_checked_at": "2026-04-09T13:12:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-33204",
+      "level": "municipality",
+      "pref_code": "33",
+      "municipality_code": "33204",
+      "name": "玉野市",
+      "slug": "tamano-shi",
+      "parent_region_id": "pref-33",
+      "display_name": "岡山県玉野市",
+      "verification": {
+        "source_url": "https://data.e-stat.go.jp/lod/page/sac/C33204",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T13:12:00+09:00",
+        "last_checked_at": "2026-04-09T13:12:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-43",
+      "level": "prefecture",
+      "pref_code": "43",
+      "municipality_code": null,
+      "name": "熊本県",
+      "slug": "kumamoto",
+      "parent_region_id": null,
+      "display_name": "熊本県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C43000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T13:12:00+09:00",
+        "last_checked_at": "2026-04-09T13:12:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-43202",
+      "level": "municipality",
+      "pref_code": "43",
+      "municipality_code": "43202",
+      "name": "八代市",
+      "slug": "yatsushiro-shi",
+      "parent_region_id": "pref-43",
+      "display_name": "熊本県八代市",
+      "verification": {
+        "source_url": "https://data.e-stat.go.jp/lod/page/sac/C43202",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T13:12:00+09:00",
+        "last_checked_at": "2026-04-09T13:12:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-15",
+      "level": "prefecture",
+      "pref_code": "15",
+      "municipality_code": null,
+      "name": "新潟県",
+      "slug": "niigata",
+      "parent_region_id": null,
+      "display_name": "新潟県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C15000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T13:45:00+09:00",
+        "last_checked_at": "2026-04-09T13:45:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-15202",
+      "level": "municipality",
+      "pref_code": "15",
+      "municipality_code": "15202",
+      "name": "長岡市",
+      "slug": "nagaoka-shi",
+      "parent_region_id": "pref-15",
+      "display_name": "新潟県長岡市",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C15202-19950927",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T13:45:00+09:00",
+        "last_checked_at": "2026-04-09T13:45:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-17",
+      "level": "prefecture",
+      "pref_code": "17",
+      "municipality_code": null,
+      "name": "石川県",
+      "slug": "ishikawa",
+      "parent_region_id": null,
+      "display_name": "石川県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C17000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T13:45:00+09:00",
+        "last_checked_at": "2026-04-09T13:45:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-17203",
+      "level": "municipality",
+      "pref_code": "17",
+      "municipality_code": "17203",
+      "name": "小松市",
+      "slug": "komatsu-shi",
+      "parent_region_id": "pref-17",
+      "display_name": "石川県小松市",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C17203-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T13:45:00+09:00",
+        "last_checked_at": "2026-04-09T13:45:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-20",
+      "level": "prefecture",
+      "pref_code": "20",
+      "municipality_code": null,
+      "name": "長野県",
+      "slug": "nagano",
+      "parent_region_id": null,
+      "display_name": "長野県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C20000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T13:45:00+09:00",
+        "last_checked_at": "2026-04-09T13:45:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-20201",
+      "level": "municipality",
+      "pref_code": "20",
+      "municipality_code": "20201",
+      "name": "長野市",
+      "slug": "nagano-shi",
+      "parent_region_id": "pref-20",
+      "display_name": "長野県長野市",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C20201-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T13:45:00+09:00",
+        "last_checked_at": "2026-04-09T13:45:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-16",
+      "level": "prefecture",
+      "pref_code": "16",
+      "municipality_code": null,
+      "name": "富山県",
+      "slug": "toyama",
+      "parent_region_id": null,
+      "display_name": "富山県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C16000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T14:10:00+09:00",
+        "last_checked_at": "2026-04-09T14:10:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-16204",
+      "level": "municipality",
+      "pref_code": "16",
+      "municipality_code": "16204",
+      "name": "魚津市",
+      "slug": "uozu-shi",
+      "parent_region_id": "pref-16",
+      "display_name": "富山県魚津市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/16204.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T14:10:00+09:00",
+        "last_checked_at": "2026-04-09T14:10:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-18",
+      "level": "prefecture",
+      "pref_code": "18",
+      "municipality_code": null,
+      "name": "福井県",
+      "slug": "fukui",
+      "parent_region_id": null,
+      "display_name": "福井県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C18000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T14:10:00+09:00",
+        "last_checked_at": "2026-04-09T14:10:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-18207",
+      "level": "municipality",
+      "pref_code": "18",
+      "municipality_code": "18207",
+      "name": "鯖江市",
+      "slug": "sabae-shi",
+      "parent_region_id": "pref-18",
+      "display_name": "福井県鯖江市",
+      "verification": {
+        "source_url": "https://data.e-stat.go.jp/lod/page/sac/C18207-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T14:10:00+09:00",
+        "last_checked_at": "2026-04-09T14:10:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-19",
+      "level": "prefecture",
+      "pref_code": "19",
+      "municipality_code": null,
+      "name": "山梨県",
+      "slug": "yamanashi",
+      "parent_region_id": null,
+      "display_name": "山梨県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C19000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T14:10:00+09:00",
+        "last_checked_at": "2026-04-09T14:10:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-19205",
+      "level": "municipality",
+      "pref_code": "19",
+      "municipality_code": "19205",
+      "name": "山梨市",
+      "slug": "yamanashi-shi",
+      "parent_region_id": "pref-19",
+      "display_name": "山梨県山梨市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/19205.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T14:10:00+09:00",
+        "last_checked_at": "2026-04-09T14:10:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-02",
+      "level": "prefecture",
+      "pref_code": "02",
+      "municipality_code": null,
+      "name": "青森県",
+      "slug": "aomori",
+      "parent_region_id": null,
+      "display_name": "青森県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C02000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T15:35:00+09:00",
+        "last_checked_at": "2026-04-09T15:35:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-02203",
+      "level": "municipality",
+      "pref_code": "02",
+      "municipality_code": "02203",
+      "name": "八戸市",
+      "slug": "hachinohe-shi",
+      "parent_region_id": "pref-02",
+      "display_name": "青森県八戸市",
+      "verification": {
+        "source_url": "https://data.e-stat.go.jp/lod/page/sac/C02203-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T15:35:00+09:00",
+        "last_checked_at": "2026-04-09T15:35:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-03",
+      "level": "prefecture",
+      "pref_code": "03",
+      "municipality_code": null,
+      "name": "岩手県",
+      "slug": "iwate",
+      "parent_region_id": null,
+      "display_name": "岩手県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C03000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T15:35:00+09:00",
+        "last_checked_at": "2026-04-09T15:35:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-03206",
+      "level": "municipality",
+      "pref_code": "03",
+      "municipality_code": "03206",
+      "name": "北上市",
+      "slug": "kitakami-shi",
+      "parent_region_id": "pref-03",
+      "display_name": "岩手県北上市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/city/code/03206.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T15:35:00+09:00",
+        "last_checked_at": "2026-04-09T15:35:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-05",
+      "level": "prefecture",
+      "pref_code": "05",
+      "municipality_code": null,
+      "name": "秋田県",
+      "slug": "akita",
+      "parent_region_id": null,
+      "display_name": "秋田県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C05000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T15:35:00+09:00",
+        "last_checked_at": "2026-04-09T15:35:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-05201",
+      "level": "municipality",
+      "pref_code": "05",
+      "municipality_code": "05201",
+      "name": "秋田市",
+      "slug": "akita-shi",
+      "parent_region_id": "pref-05",
+      "display_name": "秋田県秋田市",
+      "verification": {
+        "source_url": "https://data.e-stat.go.jp/lod/page/sac/C05201-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T15:35:00+09:00",
+        "last_checked_at": "2026-04-09T15:35:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-05202",
+      "level": "municipality",
+      "pref_code": "05",
+      "municipality_code": "05202",
+      "name": "能代市",
+      "slug": "noshiro-shi",
+      "parent_region_id": "pref-05",
+      "display_name": "秋田県能代市",
+      "verification": {
+        "source_url": "https://www.city.noshiro.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-16T00:20:00+09:00",
+        "last_checked_at": "2026-04-16T00:20:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-06",
+      "level": "prefecture",
+      "pref_code": "06",
+      "municipality_code": null,
+      "name": "山形県",
+      "slug": "yamagata",
+      "parent_region_id": null,
+      "display_name": "山形県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C06000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T16:05:00+09:00",
+        "last_checked_at": "2026-04-09T16:05:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-06203",
+      "level": "municipality",
+      "pref_code": "06",
+      "municipality_code": "06203",
+      "name": "鶴岡市",
+      "slug": "tsuruoka-shi",
+      "parent_region_id": "pref-06",
+      "display_name": "山形県鶴岡市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/city/code/06203.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T16:05:00+09:00",
+        "last_checked_at": "2026-04-09T16:05:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-07",
+      "level": "prefecture",
+      "pref_code": "07",
+      "municipality_code": null,
+      "name": "福島県",
+      "slug": "fukushima",
+      "parent_region_id": null,
+      "display_name": "福島県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C07000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T16:05:00+09:00",
+        "last_checked_at": "2026-04-09T16:05:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-07202",
+      "level": "municipality",
+      "pref_code": "07",
+      "municipality_code": "07202",
+      "name": "会津若松市",
+      "slug": "aizuwakamatsu-shi",
+      "parent_region_id": "pref-07",
+      "display_name": "福島県会津若松市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/city/code/07202.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T16:05:00+09:00",
+        "last_checked_at": "2026-04-09T16:05:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-31",
+      "level": "prefecture",
+      "pref_code": "31",
+      "municipality_code": null,
+      "name": "鳥取県",
+      "slug": "tottori",
+      "parent_region_id": null,
+      "display_name": "鳥取県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C31000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T16:40:00+09:00",
+        "last_checked_at": "2026-04-09T16:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-31201",
+      "level": "municipality",
+      "pref_code": "31",
+      "municipality_code": "31201",
+      "name": "鳥取市",
+      "slug": "tottori-shi",
+      "parent_region_id": "pref-31",
+      "display_name": "鳥取県鳥取市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/city/code/31201.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T16:40:00+09:00",
+        "last_checked_at": "2026-04-09T16:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-32",
+      "level": "prefecture",
+      "pref_code": "32",
+      "municipality_code": null,
+      "name": "島根県",
+      "slug": "shimane",
+      "parent_region_id": null,
+      "display_name": "島根県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C32000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T16:40:00+09:00",
+        "last_checked_at": "2026-04-09T16:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-32201",
+      "level": "municipality",
+      "pref_code": "32",
+      "municipality_code": "32201",
+      "name": "松江市",
+      "slug": "matsue-shi",
+      "parent_region_id": "pref-32",
+      "display_name": "島根県松江市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/city/code/32201.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T16:40:00+09:00",
+        "last_checked_at": "2026-04-09T16:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-35",
+      "level": "prefecture",
+      "pref_code": "35",
+      "municipality_code": null,
+      "name": "山口県",
+      "slug": "yamaguchi",
+      "parent_region_id": null,
+      "display_name": "山口県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C35000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T16:40:00+09:00",
+        "last_checked_at": "2026-04-09T16:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-35204",
+      "level": "municipality",
+      "pref_code": "35",
+      "municipality_code": "35204",
+      "name": "萩市",
+      "slug": "hagi-shi",
+      "parent_region_id": "pref-35",
+      "display_name": "山口県萩市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/city/code/35204.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T16:40:00+09:00",
+        "last_checked_at": "2026-04-09T16:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-36",
+      "level": "prefecture",
+      "pref_code": "36",
+      "municipality_code": null,
+      "name": "徳島県",
+      "slug": "tokushima",
+      "parent_region_id": null,
+      "display_name": "徳島県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C36000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T17:10:00+09:00",
+        "last_checked_at": "2026-04-09T17:10:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-36203",
+      "level": "municipality",
+      "pref_code": "36",
+      "municipality_code": "36203",
+      "name": "小松島市",
+      "slug": "komatsushima-shi",
+      "parent_region_id": "pref-36",
+      "display_name": "徳島県小松島市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/city/code/36203.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T17:10:00+09:00",
+        "last_checked_at": "2026-04-09T17:10:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-37",
+      "level": "prefecture",
+      "pref_code": "37",
+      "municipality_code": null,
+      "name": "香川県",
+      "slug": "kagawa",
+      "parent_region_id": null,
+      "display_name": "香川県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C37000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T17:10:00+09:00",
+        "last_checked_at": "2026-04-09T17:10:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-37202",
+      "level": "municipality",
+      "pref_code": "37",
+      "municipality_code": "37202",
+      "name": "丸亀市",
+      "slug": "marugame-shi",
+      "parent_region_id": "pref-37",
+      "display_name": "香川県丸亀市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/city/code/37202.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T17:10:00+09:00",
+        "last_checked_at": "2026-04-09T17:10:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-38",
+      "level": "prefecture",
+      "pref_code": "38",
+      "municipality_code": null,
+      "name": "愛媛県",
+      "slug": "ehime",
+      "parent_region_id": null,
+      "display_name": "愛媛県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C38000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T17:10:00+09:00",
+        "last_checked_at": "2026-04-09T17:10:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-38204",
+      "level": "municipality",
+      "pref_code": "38",
+      "municipality_code": "38204",
+      "name": "八幡浜市",
+      "slug": "yawatahama-shi",
+      "parent_region_id": "pref-38",
+      "display_name": "愛媛県八幡浜市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/city/code/38204.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T17:10:00+09:00",
+        "last_checked_at": "2026-04-09T17:10:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-39",
+      "level": "prefecture",
+      "pref_code": "39",
+      "municipality_code": null,
+      "name": "高知県",
+      "slug": "kochi",
+      "parent_region_id": null,
+      "display_name": "高知県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C39000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T17:40:00+09:00",
+        "last_checked_at": "2026-04-09T17:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-39210",
+      "level": "municipality",
+      "pref_code": "39",
+      "municipality_code": "39210",
+      "name": "四万十市",
+      "slug": "shimanto-shi",
+      "parent_region_id": "pref-39",
+      "display_name": "高知県四万十市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/city/code/39210.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T17:40:00+09:00",
+        "last_checked_at": "2026-04-09T17:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-41",
+      "level": "prefecture",
+      "pref_code": "41",
+      "municipality_code": null,
+      "name": "佐賀県",
+      "slug": "saga",
+      "parent_region_id": null,
+      "display_name": "佐賀県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C41000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T17:40:00+09:00",
+        "last_checked_at": "2026-04-09T17:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-41208",
+      "level": "municipality",
+      "pref_code": "41",
+      "municipality_code": "41208",
+      "name": "小城市",
+      "slug": "ogi-shi",
+      "parent_region_id": "pref-41",
+      "display_name": "佐賀県小城市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/city/code/41208.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T17:40:00+09:00",
+        "last_checked_at": "2026-04-09T17:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-42",
+      "level": "prefecture",
+      "pref_code": "42",
+      "municipality_code": null,
+      "name": "長崎県",
+      "slug": "nagasaki",
+      "parent_region_id": null,
+      "display_name": "長崎県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C42000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T17:40:00+09:00",
+        "last_checked_at": "2026-04-09T17:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-42209",
+      "level": "municipality",
+      "pref_code": "42",
+      "municipality_code": "42209",
+      "name": "対馬市",
+      "slug": "tsushima-shi",
+      "parent_region_id": "pref-42",
+      "display_name": "長崎県対馬市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/city/code/42209.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T17:40:00+09:00",
+        "last_checked_at": "2026-04-09T17:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-44",
+      "level": "prefecture",
+      "pref_code": "44",
+      "municipality_code": null,
+      "name": "大分県",
+      "slug": "oita",
+      "parent_region_id": null,
+      "display_name": "大分県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C44000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T18:05:00+09:00",
+        "last_checked_at": "2026-04-09T18:05:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-44204",
+      "level": "municipality",
+      "pref_code": "44",
+      "municipality_code": "44204",
+      "name": "日田市",
+      "slug": "hita-shi",
+      "parent_region_id": "pref-44",
+      "display_name": "大分県日田市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/city/code/44204.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T18:05:00+09:00",
+        "last_checked_at": "2026-04-09T18:05:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-45",
+      "level": "prefecture",
+      "pref_code": "45",
+      "municipality_code": null,
+      "name": "宮崎県",
+      "slug": "miyazaki",
+      "parent_region_id": null,
+      "display_name": "宮崎県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C45000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T18:05:00+09:00",
+        "last_checked_at": "2026-04-09T18:05:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-45205",
+      "level": "municipality",
+      "pref_code": "45",
+      "municipality_code": "45205",
+      "name": "小林市",
+      "slug": "kobayashi-shi",
+      "parent_region_id": "pref-45",
+      "display_name": "宮崎県小林市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/city/code/45205.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T18:05:00+09:00",
+        "last_checked_at": "2026-04-09T18:05:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-46",
+      "level": "prefecture",
+      "pref_code": "46",
+      "municipality_code": null,
+      "name": "鹿児島県",
+      "slug": "kagoshima",
+      "parent_region_id": null,
+      "display_name": "鹿児島県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C46000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T18:05:00+09:00",
+        "last_checked_at": "2026-04-09T18:05:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-46204",
+      "level": "municipality",
+      "pref_code": "46",
+      "municipality_code": "46204",
+      "name": "枕崎市",
+      "slug": "makurazaki-shi",
+      "parent_region_id": "pref-46",
+      "display_name": "鹿児島県枕崎市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/city/code/46204.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T18:05:00+09:00",
+        "last_checked_at": "2026-04-09T18:05:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "pref-47",
+      "level": "prefecture",
+      "pref_code": "47",
+      "municipality_code": null,
+      "name": "沖縄県",
+      "slug": "okinawa",
+      "parent_region_id": null,
+      "display_name": "沖縄県",
+      "verification": {
+        "source_url": "http://data.e-stat.go.jp/lod/sac/C47000-19700401",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T18:35:00+09:00",
+        "last_checked_at": "2026-04-09T18:35:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-47214",
+      "level": "municipality",
+      "pref_code": "47",
+      "municipality_code": "47214",
+      "name": "宮古島市",
+      "slug": "miyakojima-shi",
+      "parent_region_id": "pref-47",
+      "display_name": "沖縄県宮古島市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/47214.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-09T18:35:00+09:00",
+        "last_checked_at": "2026-04-09T18:35:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-02202",
+      "level": "municipality",
+      "pref_code": "02",
+      "municipality_code": "02202",
+      "name": "弘前市",
+      "slug": "hirosaki-shi",
+      "parent_region_id": "pref-02",
+      "display_name": "青森県弘前市",
+      "verification": {
+        "source_url": "https://www.city.hirosaki.aomori.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T23:55:00+09:00",
+        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-02204",
+      "level": "municipality",
+      "pref_code": "02",
+      "municipality_code": "02204",
+      "name": "黒石市",
+      "slug": "kuroishi-shi",
+      "parent_region_id": "pref-02",
+      "display_name": "青森県黒石市",
+      "verification": {
+        "source_url": "https://www.city.kuroishi.aomori.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T23:55:00+09:00",
+        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-02205",
+      "level": "municipality",
+      "pref_code": "02",
+      "municipality_code": "02205",
+      "name": "五所川原市",
+      "slug": "goshogawara-shi",
+      "parent_region_id": "pref-02",
+      "display_name": "青森県五所川原市",
+      "verification": {
+        "source_url": "https://www.city.goshogawara.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T23:55:00+09:00",
+        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-03202",
+      "level": "municipality",
+      "pref_code": "03",
+      "municipality_code": "03202",
+      "name": "宮古市",
+      "slug": "miyako-shi",
+      "parent_region_id": "pref-03",
+      "display_name": "岩手県宮古市",
+      "verification": {
+        "source_url": "https://www.city.miyako.iwate.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T23:55:00+09:00",
+        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-03214",
+      "level": "municipality",
+      "pref_code": "03",
+      "municipality_code": "03214",
+      "name": "八幡平市",
+      "slug": "hachimantai-shi",
+      "parent_region_id": "pref-03",
+      "display_name": "岩手県八幡平市",
+      "verification": {
+        "source_url": "https://www.city.hachimantai.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T23:55:00+09:00",
+        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-18205",
+      "level": "municipality",
+      "pref_code": "18",
+      "municipality_code": "18205",
+      "name": "大野市",
+      "slug": "ono-shi",
+      "parent_region_id": "pref-18",
+      "display_name": "福井県大野市",
+      "verification": {
+        "source_url": "https://www.city.ono.fukui.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T23:55:00+09:00",
+        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-18210",
+      "level": "municipality",
+      "pref_code": "18",
+      "municipality_code": "18210",
+      "name": "坂井市",
+      "slug": "sakai-shi",
+      "parent_region_id": "pref-18",
+      "display_name": "福井県坂井市",
+      "verification": {
+        "source_url": "https://www.city.fukui-sakai.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T23:55:00+09:00",
+        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-21211",
+      "level": "municipality",
+      "pref_code": "21",
+      "municipality_code": "21211",
+      "name": "美濃加茂市",
+      "slug": "minokamo-shi",
+      "parent_region_id": "pref-21",
+      "display_name": "岐阜県美濃加茂市",
+      "verification": {
+        "source_url": "https://www.city.minokamo.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T23:55:00+09:00",
+        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-24208",
+      "level": "municipality",
+      "pref_code": "24",
+      "municipality_code": "24208",
+      "name": "名張市",
+      "slug": "nabari-shi",
+      "parent_region_id": "pref-24",
+      "display_name": "三重県名張市",
+      "verification": {
+        "source_url": "https://www.city.nabari.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T23:55:00+09:00",
+        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-32207",
+      "level": "municipality",
+      "pref_code": "32",
+      "municipality_code": "32207",
+      "name": "江津市",
+      "slug": "gotsu-shi",
+      "parent_region_id": "pref-32",
+      "display_name": "島根県江津市",
+      "verification": {
+        "source_url": "https://www.city.gotsu.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T23:55:00+09:00",
+        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-23234",
+      "level": "municipality",
+      "pref_code": "23",
+      "municipality_code": "23234",
+      "name": "北名古屋市",
+      "slug": "kitanagoya-shi",
+      "parent_region_id": "pref-23",
+      "display_name": "愛知県北名古屋市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/23234.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-23237",
+      "level": "municipality",
+      "pref_code": "23",
+      "municipality_code": "23237",
+      "name": "あま市",
+      "slug": "ama-shi",
+      "parent_region_id": "pref-23",
+      "display_name": "愛知県あま市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/23237.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-23208",
+      "level": "municipality",
+      "pref_code": "23",
+      "municipality_code": "23208",
+      "name": "津島市",
+      "slug": "tsushima-shi",
+      "parent_region_id": "pref-23",
+      "display_name": "愛知県津島市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/23208.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-23206",
+      "level": "municipality",
+      "pref_code": "23",
+      "municipality_code": "23206",
+      "name": "春日井市",
+      "slug": "kasugai-shi",
+      "parent_region_id": "pref-23",
+      "display_name": "愛知県春日井市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/23206.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-34212",
+      "level": "municipality",
+      "pref_code": "34",
+      "municipality_code": "34212",
+      "name": "東広島市",
+      "slug": "higashihiroshima-shi",
+      "parent_region_id": "pref-34",
+      "display_name": "広島県東広島市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/34212.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-38207",
+      "level": "municipality",
+      "pref_code": "38",
+      "municipality_code": "38207",
+      "name": "大洲市",
+      "slug": "ozu-shi",
+      "parent_region_id": "pref-38",
+      "display_name": "愛媛県大洲市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/38207.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-38206",
+      "level": "municipality",
+      "pref_code": "38",
+      "municipality_code": "38206",
+      "name": "西条市",
+      "slug": "saijo-shi",
+      "parent_region_id": "pref-38",
+      "display_name": "愛媛県西条市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/38206.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-16207",
+      "level": "municipality",
+      "pref_code": "16",
+      "municipality_code": "16207",
+      "name": "黒部市",
+      "slug": "kurobe-shi",
+      "parent_region_id": "pref-16",
+      "display_name": "富山県黒部市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/16207.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-16205",
+      "level": "municipality",
+      "pref_code": "16",
+      "municipality_code": "16205",
+      "name": "氷見市",
+      "slug": "himi-shi",
+      "parent_region_id": "pref-16",
+      "display_name": "富山県氷見市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/16205.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-27100",
+      "level": "municipality",
+      "pref_code": "27",
+      "municipality_code": "27100",
+      "name": "大阪市",
+      "slug": "osaka-shi",
+      "parent_region_id": "pref-27",
+      "display_name": "大阪府大阪市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/27100.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-27203",
+      "level": "municipality",
+      "pref_code": "27",
+      "municipality_code": "27203",
+      "name": "豊中市",
+      "slug": "toyonaka-shi",
+      "parent_region_id": "pref-27",
+      "display_name": "大阪府豊中市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/27203.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-27208",
+      "level": "municipality",
+      "pref_code": "27",
+      "municipality_code": "27208",
+      "name": "貝塚市",
+      "slug": "kaizuka-shi",
+      "parent_region_id": "pref-27",
+      "display_name": "大阪府貝塚市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/27208.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-27228",
+      "level": "municipality",
+      "pref_code": "27",
+      "municipality_code": "27228",
+      "name": "泉南市",
+      "slug": "sennan-shi",
+      "parent_region_id": "pref-27",
+      "display_name": "大阪府泉南市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/27228.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-27230",
+      "level": "municipality",
+      "pref_code": "27",
+      "municipality_code": "27230",
+      "name": "交野市",
+      "slug": "katano-shi",
+      "parent_region_id": "pref-27",
+      "display_name": "大阪府交野市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/27230.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-15218",
+      "level": "municipality",
+      "pref_code": "15",
+      "municipality_code": "15218",
+      "name": "五泉市",
+      "slug": "gosen-shi",
+      "parent_region_id": "pref-15",
+      "display_name": "新潟県五泉市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/15218.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-15217",
+      "level": "municipality",
+      "pref_code": "15",
+      "municipality_code": "15217",
+      "name": "妙高市",
+      "slug": "myoko-shi",
+      "parent_region_id": "pref-15",
+      "display_name": "新潟県妙高市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/15217.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-15208",
+      "level": "municipality",
+      "pref_code": "15",
+      "municipality_code": "15208",
+      "name": "小千谷市",
+      "slug": "ojiya-shi",
+      "parent_region_id": "pref-15",
+      "display_name": "新潟県小千谷市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/15208.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-15206",
+      "level": "municipality",
+      "pref_code": "15",
+      "municipality_code": "15206",
+      "name": "新発田市",
+      "slug": "shibata-shi",
+      "parent_region_id": "pref-15",
+      "display_name": "新潟県新発田市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/15206.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-28228",
+      "level": "municipality",
+      "pref_code": "28",
+      "municipality_code": "28228",
+      "name": "加東市",
+      "slug": "kato-shi",
+      "parent_region_id": "pref-28",
+      "display_name": "兵庫県加東市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/28228.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-28210",
+      "level": "municipality",
+      "pref_code": "28",
+      "municipality_code": "28210",
+      "name": "加古川市",
+      "slug": "kakogawa-shi",
+      "parent_region_id": "pref-28",
+      "display_name": "兵庫県加古川市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/28210.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-40220",
+      "level": "municipality",
+      "pref_code": "40",
+      "municipality_code": "40220",
+      "name": "宗像市",
+      "slug": "munakata-shi",
+      "parent_region_id": "pref-40",
+      "display_name": "福岡県宗像市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/40220.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-40203",
+      "level": "municipality",
+      "pref_code": "40",
+      "municipality_code": "40203",
+      "name": "久留米市",
+      "slug": "kurume-shi",
+      "parent_region_id": "pref-40",
+      "display_name": "福岡県久留米市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/40203.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-40230",
+      "level": "municipality",
+      "pref_code": "40",
+      "municipality_code": "40230",
+      "name": "糸島市",
+      "slug": "itoshima-shi",
+      "parent_region_id": "pref-40",
+      "display_name": "福岡県糸島市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/40230.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-40213",
+      "level": "municipality",
+      "pref_code": "40",
+      "municipality_code": "40213",
+      "name": "行橋市",
+      "slug": "yukuhashi-shi",
+      "parent_region_id": "pref-40",
+      "display_name": "福岡県行橋市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/40213.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-40226",
+      "level": "municipality",
+      "pref_code": "40",
+      "municipality_code": "40226",
+      "name": "宮若市",
+      "slug": "miyawaka-shi",
+      "parent_region_id": "pref-40",
+      "display_name": "福岡県宮若市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/40226.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-40227",
+      "level": "municipality",
+      "pref_code": "40",
+      "municipality_code": "40227",
+      "name": "嘉麻市",
+      "slug": "kama-shi",
+      "parent_region_id": "pref-40",
+      "display_name": "福岡県嘉麻市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/40227.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-40228",
+      "level": "municipality",
+      "pref_code": "40",
+      "municipality_code": "40228",
+      "name": "朝倉市",
+      "slug": "asakura-shi",
+      "parent_region_id": "pref-40",
+      "display_name": "福岡県朝倉市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/40228.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-46208",
+      "level": "municipality",
+      "pref_code": "46",
+      "municipality_code": "46208",
+      "name": "出水市",
+      "slug": "izumi-shi",
+      "parent_region_id": "pref-46",
+      "display_name": "鹿児島県出水市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/46208.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-46225",
+      "level": "municipality",
+      "pref_code": "46",
+      "municipality_code": "46225",
+      "name": "姶良市",
+      "slug": "aira-shi",
+      "parent_region_id": "pref-46",
+      "display_name": "鹿児島県姶良市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/46225.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-47209",
+      "level": "municipality",
+      "pref_code": "47",
+      "municipality_code": "47209",
+      "name": "名護市",
+      "slug": "nago-shi",
+      "parent_region_id": "pref-47",
+      "display_name": "沖縄県名護市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/47209.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-15T23:59:00+09:00",
+        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-33212",
+      "level": "municipality",
+      "pref_code": "33",
+      "municipality_code": "33212",
+      "name": "瀬戸内市",
+      "slug": "setouchi-shi",
+      "parent_region_id": "pref-33",
+      "display_name": "岡山県瀬戸内市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/33212.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T00:12:00+09:00",
+        "last_checked_at": "2026-04-16T00:12:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-43216",
+      "level": "municipality",
+      "pref_code": "43",
+      "municipality_code": "43216",
+      "name": "合志市",
+      "slug": "koshi-shi",
+      "parent_region_id": "pref-43",
+      "display_name": "熊本県合志市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/43216.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T00:12:00+09:00",
+        "last_checked_at": "2026-04-16T00:12:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-35207",
+      "level": "municipality",
+      "pref_code": "35",
+      "municipality_code": "35207",
+      "name": "下松市",
+      "slug": "kudamatsu-shi",
+      "parent_region_id": "pref-35",
+      "display_name": "山口県下松市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/35207.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T00:12:00+09:00",
+        "last_checked_at": "2026-04-16T00:12:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-35203",
+      "level": "municipality",
+      "pref_code": "35",
+      "municipality_code": "35203",
+      "name": "山口市",
+      "slug": "yamaguchi-shi",
+      "parent_region_id": "pref-35",
+      "display_name": "山口県山口市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/35203.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T00:12:00+09:00",
+        "last_checked_at": "2026-04-16T00:12:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-35206",
+      "level": "municipality",
+      "pref_code": "35",
+      "municipality_code": "35206",
+      "name": "防府市",
+      "slug": "hofu-shi",
+      "parent_region_id": "pref-35",
+      "display_name": "山口県防府市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/35206.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T00:12:00+09:00",
+        "last_checked_at": "2026-04-16T00:12:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-42214",
+      "level": "municipality",
+      "pref_code": "42",
+      "municipality_code": "42214",
+      "name": "南島原市",
+      "slug": "minamishimabara-shi",
+      "parent_region_id": "pref-42",
+      "display_name": "長崎県南島原市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/42214.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T00:12:00+09:00",
+        "last_checked_at": "2026-04-16T00:12:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-36201",
+      "level": "municipality",
+      "pref_code": "36",
+      "municipality_code": "36201",
+      "name": "徳島市",
+      "slug": "tokushima-shi",
+      "parent_region_id": "pref-36",
+      "display_name": "徳島県徳島市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/36201.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T00:12:00+09:00",
+        "last_checked_at": "2026-04-16T00:12:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-30203",
+      "level": "municipality",
+      "pref_code": "30",
+      "municipality_code": "30203",
+      "name": "橋本市",
+      "slug": "hashimoto-shi",
+      "parent_region_id": "pref-30",
+      "display_name": "和歌山県橋本市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/30203.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T00:12:00+09:00",
+        "last_checked_at": "2026-04-16T00:12:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-45201",
+      "level": "municipality",
+      "pref_code": "45",
+      "municipality_code": "45201",
+      "name": "宮崎市",
+      "slug": "miyazaki-shi",
+      "parent_region_id": "pref-45",
+      "display_name": "宮崎県宮崎市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/45201.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T00:40:00+09:00",
+        "last_checked_at": "2026-04-16T00:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-44210",
+      "level": "municipality",
+      "pref_code": "44",
+      "municipality_code": "44210",
+      "name": "杵築市",
+      "slug": "kitsuki-shi",
+      "parent_region_id": "pref-44",
+      "display_name": "大分県杵築市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/44210.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T00:40:00+09:00",
+        "last_checked_at": "2026-04-16T00:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-41205",
+      "level": "municipality",
+      "pref_code": "41",
+      "municipality_code": "41205",
+      "name": "伊万里市",
+      "slug": "imari-shi",
+      "parent_region_id": "pref-41",
+      "display_name": "佐賀県伊万里市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/41205.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T00:40:00+09:00",
+        "last_checked_at": "2026-04-16T00:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-41207",
+      "level": "municipality",
+      "pref_code": "41",
+      "municipality_code": "41207",
+      "name": "鹿島市",
+      "slug": "kashima-shi",
+      "parent_region_id": "pref-41",
+      "display_name": "佐賀県鹿島市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/41207.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T00:40:00+09:00",
+        "last_checked_at": "2026-04-16T00:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-26203",
+      "level": "municipality",
+      "pref_code": "26",
+      "municipality_code": "26203",
+      "name": "綾部市",
+      "slug": "ayabe-shi",
+      "parent_region_id": "pref-26",
+      "display_name": "京都府綾部市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/26203.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T00:40:00+09:00",
+        "last_checked_at": "2026-04-16T00:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-26213",
+      "level": "municipality",
+      "pref_code": "26",
+      "municipality_code": "26213",
+      "name": "南丹市",
+      "slug": "nantan-shi",
+      "parent_region_id": "pref-26",
+      "display_name": "京都府南丹市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/26213.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T00:40:00+09:00",
+        "last_checked_at": "2026-04-16T00:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-08216",
+      "level": "municipality",
+      "pref_code": "08",
+      "municipality_code": "08216",
+      "name": "笠間市",
+      "slug": "kasama-shi",
+      "parent_region_id": "pref-08",
+      "display_name": "茨城県笠間市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/08216.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T01:15:00+09:00",
+        "last_checked_at": "2026-04-16T01:15:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-08220",
+      "level": "municipality",
+      "pref_code": "08",
+      "municipality_code": "08220",
+      "name": "つくば市",
+      "slug": "tsukuba-shi",
+      "parent_region_id": "pref-08",
+      "display_name": "茨城県つくば市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/08220.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T01:15:00+09:00",
+        "last_checked_at": "2026-04-16T01:15:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-04100",
+      "level": "municipality",
+      "pref_code": "04",
+      "municipality_code": "04100",
+      "name": "仙台市",
+      "slug": "sendai-shi",
+      "parent_region_id": "pref-04",
+      "display_name": "宮城県仙台市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/04100.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T01:15:00+09:00",
+        "last_checked_at": "2026-04-16T01:15:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-04202",
+      "level": "municipality",
+      "pref_code": "04",
+      "municipality_code": "04202",
+      "name": "石巻市",
+      "slug": "ishinomaki-shi",
+      "parent_region_id": "pref-04",
+      "display_name": "宮城県石巻市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/04202.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T01:15:00+09:00",
+        "last_checked_at": "2026-04-16T01:15:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-04212",
+      "level": "municipality",
+      "pref_code": "04",
+      "municipality_code": "04212",
+      "name": "登米市",
+      "slug": "tome-shi",
+      "parent_region_id": "pref-04",
+      "display_name": "宮城県登米市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/04212.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T01:15:00+09:00",
+        "last_checked_at": "2026-04-16T01:15:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-04214",
+      "level": "municipality",
+      "pref_code": "04",
+      "municipality_code": "04214",
+      "name": "東松島市",
+      "slug": "higashimatsushima-shi",
+      "parent_region_id": "pref-04",
+      "display_name": "宮城県東松島市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/04214.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T01:15:00+09:00",
+        "last_checked_at": "2026-04-16T01:15:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-04215",
+      "level": "municipality",
+      "pref_code": "04",
+      "municipality_code": "04215",
+      "name": "大崎市",
+      "slug": "osaki-shi",
+      "parent_region_id": "pref-04",
+      "display_name": "宮城県大崎市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/04215.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T01:15:00+09:00",
+        "last_checked_at": "2026-04-16T01:15:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-04205",
+      "level": "municipality",
+      "pref_code": "04",
+      "municipality_code": "04205",
+      "name": "気仙沼市",
+      "slug": "kesennuma-shi",
+      "parent_region_id": "pref-04",
+      "display_name": "宮城県気仙沼市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/04205.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T01:15:00+09:00",
+        "last_checked_at": "2026-04-16T01:15:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-04211",
+      "level": "municipality",
+      "pref_code": "04",
+      "municipality_code": "04211",
+      "name": "岩沼市",
+      "slug": "iwanuma-shi",
+      "parent_region_id": "pref-04",
+      "display_name": "宮城県岩沼市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/04211.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T01:15:00+09:00",
+        "last_checked_at": "2026-04-16T01:15:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-07201",
+      "level": "municipality",
+      "pref_code": "07",
+      "municipality_code": "07201",
+      "name": "福島市",
+      "slug": "fukushima-shi",
+      "parent_region_id": "pref-07",
+      "display_name": "福島県福島市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/07201.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T01:15:00+09:00",
+        "last_checked_at": "2026-04-16T01:15:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-07203",
+      "level": "municipality",
+      "pref_code": "07",
+      "municipality_code": "07203",
+      "name": "郡山市",
+      "slug": "koriyama-shi",
+      "parent_region_id": "pref-07",
+      "display_name": "福島県郡山市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/07203.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T01:15:00+09:00",
+        "last_checked_at": "2026-04-16T01:15:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-07204",
+      "level": "municipality",
+      "pref_code": "07",
+      "municipality_code": "07204",
+      "name": "いわき市",
+      "slug": "iwaki-shi",
+      "parent_region_id": "pref-07",
+      "display_name": "福島県いわき市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/07204.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T01:15:00+09:00",
+        "last_checked_at": "2026-04-16T01:15:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-08203",
+      "level": "municipality",
+      "pref_code": "08",
+      "municipality_code": "08203",
+      "name": "土浦市",
+      "slug": "tsuchiura-shi",
+      "parent_region_id": "pref-08",
+      "display_name": "茨城県土浦市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/08203.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T01:45:00+09:00",
+        "last_checked_at": "2026-04-16T01:45:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-45203",
+      "level": "municipality",
+      "pref_code": "45",
+      "municipality_code": "45203",
+      "name": "延岡市",
+      "slug": "nobeoka-shi",
+      "parent_region_id": "pref-45",
+      "display_name": "宮崎県延岡市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/45203.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T01:45:00+09:00",
+        "last_checked_at": "2026-04-16T01:45:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-18208",
+      "level": "municipality",
+      "pref_code": "18",
+      "municipality_code": "18208",
+      "name": "あわら市",
+      "slug": "awara-shi",
+      "parent_region_id": "pref-18",
+      "display_name": "福井県あわら市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/18208.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T01:45:00+09:00",
+        "last_checked_at": "2026-04-16T01:45:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-18209",
+      "level": "municipality",
+      "pref_code": "18",
+      "municipality_code": "18209",
+      "name": "越前市",
+      "slug": "echizen-shi",
+      "parent_region_id": "pref-18",
+      "display_name": "福井県越前市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/18209.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T01:45:00+09:00",
+        "last_checked_at": "2026-04-16T01:45:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-01207",
+      "level": "municipality",
+      "pref_code": "01",
+      "municipality_code": "01207",
+      "name": "帯広市",
+      "slug": "obihiro-shi",
+      "parent_region_id": "pref-01",
+      "display_name": "北海道帯広市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/01207.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T02:20:00+09:00",
+        "last_checked_at": "2026-04-16T02:20:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-08202",
+      "level": "municipality",
+      "pref_code": "08",
+      "municipality_code": "08202",
+      "name": "日立市",
+      "slug": "hitachi-shi",
+      "parent_region_id": "pref-08",
+      "display_name": "茨城県日立市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/08202.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T02:20:00+09:00",
+        "last_checked_at": "2026-04-16T02:20:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-06208",
+      "level": "municipality",
+      "pref_code": "06",
+      "municipality_code": "06208",
+      "name": "村山市",
+      "slug": "murayama-shi",
+      "parent_region_id": "pref-06",
+      "display_name": "山形県村山市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/06208.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T02:20:00+09:00",
+        "last_checked_at": "2026-04-16T02:20:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-19214",
+      "level": "municipality",
+      "pref_code": "19",
+      "municipality_code": "19214",
+      "name": "中央市",
+      "slug": "chuo-shi",
+      "parent_region_id": "pref-19",
+      "display_name": "山梨県中央市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/19214.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T02:20:00+09:00",
+        "last_checked_at": "2026-04-16T02:20:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-42207",
+      "level": "municipality",
+      "pref_code": "42",
+      "municipality_code": "42207",
+      "name": "平戸市",
+      "slug": "hirado-shi",
+      "parent_region_id": "pref-42",
+      "display_name": "長崎県平戸市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/42207.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T02:20:00+09:00",
+        "last_checked_at": "2026-04-16T02:20:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-31203",
+      "level": "municipality",
+      "pref_code": "31",
+      "municipality_code": "31203",
+      "name": "倉吉市",
+      "slug": "kurayoshi-shi",
+      "parent_region_id": "pref-31",
+      "display_name": "鳥取県倉吉市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/31203.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T02:20:00+09:00",
+        "last_checked_at": "2026-04-16T02:20:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-17202",
+      "level": "municipality",
+      "pref_code": "17",
+      "municipality_code": "17202",
+      "name": "七尾市",
+      "slug": "nanao-shi",
+      "parent_region_id": "pref-17",
+      "display_name": "石川県七尾市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/17202.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T02:40:00+09:00",
+        "last_checked_at": "2026-04-16T02:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-20203",
+      "level": "municipality",
+      "pref_code": "20",
+      "municipality_code": "20203",
+      "name": "上田市",
+      "slug": "ueda-shi",
+      "parent_region_id": "pref-20",
+      "display_name": "長野県上田市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/20203.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T02:40:00+09:00",
+        "last_checked_at": "2026-04-16T02:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-22208",
+      "level": "municipality",
+      "pref_code": "22",
+      "municipality_code": "22208",
+      "name": "伊東市",
+      "slug": "ito-shi",
+      "parent_region_id": "pref-22",
+      "display_name": "静岡県伊東市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/22208.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T02:40:00+09:00",
+        "last_checked_at": "2026-04-16T02:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "mun-39209",
+      "level": "municipality",
+      "pref_code": "39",
+      "municipality_code": "39209",
+      "name": "土佐清水市",
+      "slug": "tosashimizu-shi",
+      "parent_region_id": "pref-39",
+      "display_name": "高知県土佐清水市",
+      "verification": {
+        "source_url": "https://geoshape.ex.nii.ac.jp/ma/resource/39209.html",
+        "source_type": "statistical_source",
+        "confirmed_at": "2026-04-16T02:40:00+09:00",
+        "last_checked_at": "2026-04-16T02:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

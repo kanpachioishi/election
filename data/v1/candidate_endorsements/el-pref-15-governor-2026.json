@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-11T16:00:00+09:00",
+  "election_id": "el-pref-15-governor-2026",
+  "records": [
+    {
+      "id": "el-pref-15-governor-2026-hanazumi-hideyo-jimin-01",
+      "election_id": "el-pref-15-governor-2026",
+      "person_name": "花角英世",
+      "person_slug": "hanazumi-hideyo",
+      "endorser_name": "自民党新潟県連",
+      "relation_type": "recommend",
+      "summary": "自民党県連が花角氏に3選出馬を要請したと報じられている。",
+      "confidence": "high",
+      "display_order": 1,
+      "last_checked_at": "2026-04-11T16:00:00+09:00",
+      "evidence": [
+        {
+          "source_name": "NST新潟総合テレビ",
+          "source_type": "media_report",
+          "title": "花角英世知事が3選を目指し今年5月の新潟県知事選に立候補へ　新年度予算案発表に合わせ18日にも表明か",
+          "url": "https://www.fnn.jp/articles/-/1002961",
+          "published_at": "2026-02-16"
+        }
+      ]
+    },
+    {
+      "id": "el-pref-15-governor-2026-hanazumi-hideyo-shichokai-01",
+      "election_id": "el-pref-15-governor-2026",
+      "person_name": "花角英世",
+      "person_slug": "hanazumi-hideyo",
+      "endorser_name": "新潟県市長会",
+      "relation_type": "recommend",
+      "summary": "県市長会が花角氏の推薦を決めたと報じられている。",
+      "confidence": "high",
+      "display_order": 2,
+      "last_checked_at": "2026-04-11T16:00:00+09:00",
+      "evidence": [
+        {
+          "source_name": "NST新潟総合テレビ",
+          "source_type": "media_report",
+          "title": "県市長会・町村会が花角知事の推薦を決める",
+          "url": "https://www.fnn.jp/articles/-/1005231",
+          "published_at": "2026-02-20"
+        }
+      ]
+    },
+    {
+      "id": "el-pref-15-governor-2026-hanazumi-hideyo-chosonkai-01",
+      "election_id": "el-pref-15-governor-2026",
+      "person_name": "花角英世",
+      "person_slug": "hanazumi-hideyo",
+      "endorser_name": "新潟県町村会",
+      "relation_type": "recommend",
+      "summary": "県町村会が花角氏の推薦を決めたと報じられている。",
+      "confidence": "high",
+      "display_order": 3,
+      "last_checked_at": "2026-04-11T16:00:00+09:00",
+      "evidence": [
+        {
+          "source_name": "NST新潟総合テレビ",
+          "source_type": "media_report",
+          "title": "県市長会・町村会が花角知事の推薦を決める",
+          "url": "https://www.fnn.jp/articles/-/1005231",
+          "published_at": "2026-02-20"
+        }
+      ]
+    },
+    {
+      "id": "el-pref-15-governor-2026-hanazumi-hideyo-komei-01",
+      "election_id": "el-pref-15-governor-2026",
+      "person_name": "花角英世",
+      "person_slug": "hanazumi-hideyo",
+      "endorser_name": "公明党新潟県本部",
+      "relation_type": "support",
+      "summary": "公明党県本部が花角氏を支持する方針を決めたと報じられている。",
+      "confidence": "high",
+      "display_order": 4,
+      "last_checked_at": "2026-04-11T16:00:00+09:00",
+      "evidence": [
+        {
+          "source_name": "NST新潟総合テレビ",
+          "source_type": "media_report",
+          "title": "立憲県連 候補者擁立目指すも…公明は花角知事支持の方針決定",
+          "url": "https://www.fnn.jp/articles/-/1019179",
+          "published_at": "2026-03-23"
+        }
+      ]
+    },
+    {
+      "id": "el-pref-15-governor-2026-tsuchida-ryugo-rikken-01",
+      "election_id": "el-pref-15-governor-2026",
+      "person_name": "土田竜吾",
+      "person_slug": "tsuchida-ryugo",
+      "endorser_name": "立憲民主党新潟県連",
+      "relation_type": "recommend",
+      "summary": "立憲県連が土田氏を擁立する方針を決めたと報じられている。",
+      "confidence": "high",
+      "display_order": 5,
+      "last_checked_at": "2026-04-11T16:00:00+09:00",
+      "evidence": [
+        {
+          "source_name": "NST新潟総合テレビ",
+          "source_type": "media_report",
+          "title": "立憲・土田竜吾県議が出馬へ 立憲県連が擁立を決定",
+          "url": "https://www.fnn.jp/articles/NST/1021370",
+          "published_at": "2026-03-27"
+        }
+      ]
+    },
+    {
+      "id": "el-pref-15-governor-2026-tsuchida-ryugo-rengo-01",
+      "election_id": "el-pref-15-governor-2026",
+      "person_name": "土田竜吾",
+      "person_slug": "tsuchida-ryugo",
+      "endorser_name": "連合新潟",
+      "relation_type": "recommend",
+      "summary": "連合新潟が土田氏の推薦を決めたと報じられている。",
+      "confidence": "high",
+      "display_order": 6,
+      "last_checked_at": "2026-04-11T16:00:00+09:00",
+      "evidence": [
+        {
+          "source_name": "NST新潟総合テレビ",
+          "source_type": "media_report",
+          "title": "候補者の擁立難航も…土田竜吾県議が出馬へ 連合新潟も推薦決定",
+          "url": "https://www.fnn.jp/articles/-/1022191",
+          "published_at": "2026-03-29"
+        }
+      ]
+    }
+  ]
+}

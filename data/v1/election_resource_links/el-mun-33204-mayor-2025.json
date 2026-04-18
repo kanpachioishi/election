@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-11T09:00:00+09:00",
+  "election_id": "el-mun-33204-mayor-2025",
+  "records": [
+    {
+      "id": "el-mun-33204-mayor-2025-candidate-list-01",
+      "election_id": "el-mun-33204-mayor-2025",
+      "kind": "candidate_list",
+      "title": "玉野市長選挙 候補者一覧",
+      "url": "https://www.city.tamano.lg.jp/site/senkyo/51317.html",
+      "summary": "玉野市選挙管理委員会が公開している令和7年10月19日執行の玉野市長選挙の候補者一覧ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.tamano.lg.jp/site/senkyo/51317.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T09:00:00+09:00",
+        "last_checked_at": "2026-04-11T09:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-33204-mayor-2025-early-voting-01",
+      "election_id": "el-mun-33204-mayor-2025",
+      "kind": "early_voting",
+      "title": "玉野市長選挙 期日前投票",
+      "url": "https://www.city.tamano.lg.jp/site/senkyo/51013.html",
+      "summary": "玉野市長選挙の概要ページ。期日前投票の期間、時間、会場を掲載している。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.city.tamano.lg.jp/site/senkyo/51013.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T09:00:00+09:00",
+        "last_checked_at": "2026-04-11T09:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-33204-mayor-2025-polling-place-01",
+      "election_id": "el-mun-33204-mayor-2025",
+      "kind": "polling_place",
+      "title": "玉野市 投票所",
+      "url": "https://www.city.tamano.lg.jp/site/senkyo/22492.html",
+      "summary": "玉野市選挙管理委員会が公開している投票区と投票所の一覧ページ。玉野市長選挙の概要ページからリンクされている。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.city.tamano.lg.jp/site/senkyo/51013.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T09:00:00+09:00",
+        "last_checked_at": "2026-04-11T09:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-33204-mayor-2025-other-01",
+      "election_id": "el-mun-33204-mayor-2025",
+      "kind": "other",
+      "title": "玉野市長選挙の概要",
+      "url": "https://www.city.tamano.lg.jp/site/senkyo/51013.html",
+      "summary": "玉野市長選挙の告示日、投票日、投票所、期日前投票などを案内する玉野市の公式ページ。",
+      "is_official": true,
+      "display_order": 4,
+      "verification": {
+        "source_url": "https://www.city.tamano.lg.jp/site/senkyo/51013.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T09:00:00+09:00",
+        "last_checked_at": "2026-04-11T09:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

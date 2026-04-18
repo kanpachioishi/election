@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T09:38:00+09:00",
+  "prefix": "231",
+  "records": [
+    {
+      "postal_code": "2310001",
+      "region_id": "mun-14104",
+      "match_kind": "exact",
+      "confidence": "high",
+      "verification": {
+        "source_url": "https://www.post.japanpost.jp/cgi-zip/zipcode.php?zip=2310001",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T09:36:00+09:00",
+        "last_checked_at": "2026-04-09T09:36:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": "神奈川県横浜市中区新港"
+    }
+  ]
+}

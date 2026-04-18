@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T09:33:47+09:00",
+  "election_id": "el-pref-14-governor-2023",
+  "records": [
+    {
+      "id": "el-pref-14-governor-2023-bulletin-01",
+      "election_id": "el-pref-14-governor-2023",
+      "kind": "bulletin",
+      "title": "選挙公報（PDF）",
+      "url": "https://www.pref.kanagawa.jp/documents/7577/tiji-kouhou.pdf",
+      "summary": "神奈川県知事選挙の選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.kanagawa.jp/documents/7577/tiji-kouhou.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:33:47+09:00",
+        "last_checked_at": "2026-04-10T09:33:47+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-14-governor-2023-other-01",
+      "election_id": "el-pref-14-governor-2023",
+      "kind": "other",
+      "title": "神奈川県知事選挙・神奈川県議会議員選挙",
+      "url": "https://www.pref.kanagawa.jp/docs/em7/cnt/f5/p744573.html",
+      "summary": "投開票結果や選挙公報への導線がまとまった神奈川県選挙管理委員会の公式ページ。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.kanagawa.jp/docs/em7/cnt/f5/p744573.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:33:47+09:00",
+        "last_checked_at": "2026-04-10T09:33:47+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T09:33:47+09:00",
+  "election_id": "el-pref-36-governor-2023",
+  "records": [
+    {
+      "id": "el-pref-36-governor-2023-bulletin-01",
+      "election_id": "el-pref-36-governor-2023",
+      "kind": "bulletin",
+      "title": "選挙公報（PDF）",
+      "url": "https://www.pref.tokushima.lg.jp/file/attachment/894926.pdf",
+      "summary": "徳島県知事選挙の選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.tokushima.lg.jp/file/attachment/894926.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:33:47+09:00",
+        "last_checked_at": "2026-04-10T09:33:47+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-36-governor-2023-other-01",
+      "election_id": "el-pref-36-governor-2023",
+      "kind": "other",
+      "title": "投・開票結果等 徳島県知事選挙（令和5年4月9日執行）",
+      "url": "https://www.pref.tokushima.lg.jp/kenseijoho/senkyo/7235379/",
+      "summary": "徳島県の公式ページです。令和5年4月9日執行の徳島県知事選挙の投票結果、開票結果、選挙公報を確認できます。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.tokushima.lg.jp/kenseijoho/senkyo/7235379/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:33:47+09:00",
+        "last_checked_at": "2026-04-10T09:33:47+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

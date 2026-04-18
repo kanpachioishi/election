@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T09:25:39+09:00",
+  "election_id": "el-pref-47-governor-2022",
+  "records": [
+    {
+      "id": "el-pref-47-governor-2022-candidate-list-01",
+      "election_id": "el-pref-47-governor-2022",
+      "kind": "candidate_list",
+      "title": "候補者氏名等一覧（PDF）",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/025/046/kouhosha.pdf",
+      "summary": "沖縄県知事選挙の候補者氏名等一覧 PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/025/046/kouhosha.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:25:39+09:00",
+        "last_checked_at": "2026-04-10T09:25:39+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-47-governor-2022-bulletin-01",
+      "election_id": "el-pref-47-governor-2022",
+      "kind": "bulletin",
+      "title": "選挙公報（PDF）",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/025/046/r4chiji-senkyokoho.pdf",
+      "summary": "沖縄県知事選挙の選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/025/046/r4chiji-senkyokoho.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:25:39+09:00",
+        "last_checked_at": "2026-04-10T09:25:39+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-47-governor-2022-early-voting-01",
+      "election_id": "el-pref-47-governor-2022",
+      "kind": "early_voting",
+      "title": "期日前投票所一覧表（PDF）",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/025/046/r4chiji-kijitsumaetohyosho.pdf",
+      "summary": "沖縄県知事選挙の期日前投票所一覧表 PDF。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/025/046/r4chiji-kijitsumaetohyosho.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:25:39+09:00",
+        "last_checked_at": "2026-04-10T09:25:39+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-47-governor-2022-other-01",
+      "election_id": "el-pref-47-governor-2022",
+      "kind": "other",
+      "title": "令和4年沖縄県知事選挙及び沖縄県議会議員補欠選挙 特設ページ",
+      "url": "https://www.pref.okinawa.lg.jp/kensei/senkyo/1005009/1023802/1025046/index.html",
+      "summary": "沖縄県の公式ページです。令和4年9月11日執行の沖縄県知事選挙の選挙日程、候補者情報、選挙データを確認できます。",
+      "is_official": true,
+      "display_order": 4,
+      "verification": {
+        "source_url": "https://www.pref.okinawa.lg.jp/kensei/senkyo/1005009/1023802/1025046/index.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:25:39+09:00",
+        "last_checked_at": "2026-04-10T09:25:39+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

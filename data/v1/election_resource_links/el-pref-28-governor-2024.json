@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T08:54:08+09:00",
+  "election_id": "el-pref-28-governor-2024",
+  "records": [
+    {
+      "id": "el-pref-28-governor-2024-candidate-list-01",
+      "election_id": "el-pref-28-governor-2024",
+      "kind": "candidate_list",
+      "title": "兵庫県知事選挙 候補者（PDF）",
+      "url": "https://web.pref.hyogo.lg.jp/si01/documents/04kouhosyatou.pdf",
+      "summary": "兵庫県知事選挙の候補者一覧 PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://web.pref.hyogo.lg.jp/si01/pa25_0000000053.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T08:54:08+09:00",
+        "last_checked_at": "2026-04-10T08:54:08+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-28-governor-2024-bulletin-01",
+      "election_id": "el-pref-28-governor-2024",
+      "kind": "bulletin",
+      "title": "兵庫県知事選挙 選挙公報（PDF）",
+      "url": "https://web.pref.hyogo.lg.jp/si01/documents/kouhou.pdf",
+      "summary": "兵庫県知事選挙の選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://web.pref.hyogo.lg.jp/si01/pa25_0000000053.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T08:54:08+09:00",
+        "last_checked_at": "2026-04-10T08:54:08+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-28-governor-2024-other-01",
+      "election_id": "el-pref-28-governor-2024",
+      "kind": "other",
+      "title": "令和6年執行兵庫県知事選挙の記録",
+      "url": "https://web.pref.hyogo.lg.jp/si01/pa25_0000000053.html",
+      "summary": "兵庫県の公式記録ページ。候補者、選挙公報、投票、開票、選挙公営などの記録を掲載。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://web.pref.hyogo.lg.jp/si01/pa25_0000000053.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T08:54:08+09:00",
+        "last_checked_at": "2026-04-10T08:54:08+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

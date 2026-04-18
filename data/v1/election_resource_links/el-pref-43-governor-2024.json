@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T13:12:00+09:00",
+  "election_id": "el-pref-43-governor-2024",
+  "records": [
+    {
+      "id": "el-pref-43-governor-2024-other-01",
+      "election_id": "el-pref-43-governor-2024",
+      "kind": "other",
+      "title": "熊本県知事選挙 開票結果",
+      "url": "https://www.pref.kumamoto.jp/uploaded/attachment/248495.pdf",
+      "summary": "熊本県の公式開票結果資料です。選挙期日と候補者別得票数を確認できます。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.kumamoto.jp/uploaded/attachment/248495.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T13:12:00+09:00",
+        "last_checked_at": "2026-04-09T13:12:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

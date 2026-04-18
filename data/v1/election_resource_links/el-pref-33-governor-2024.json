@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T09:08:33+09:00",
+  "election_id": "el-pref-33-governor-2024",
+  "records": [
+    {
+      "id": "el-pref-33-governor-2024-candidate-list-01",
+      "election_id": "el-pref-33-governor-2024",
+      "kind": "candidate_list",
+      "title": "令和6年10月27日執行 岡山県知事選挙候補者の氏名及び党派別の一覧",
+      "url": "https://www.pref.okayama.jp/uploaded/life/951165_9129674_misc.pdf",
+      "summary": "岡山県知事選挙の候補者一覧PDFです。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.okayama.jp/uploaded/life/951165_9129674_misc.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:08:33+09:00",
+        "last_checked_at": "2026-04-10T09:08:33+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-33-governor-2024-early-voting-01",
+      "election_id": "el-pref-33-governor-2024",
+      "kind": "early_voting",
+      "title": "令和6年10月27日執行 岡山県知事選挙期日前投票所一覧表",
+      "url": "https://www.pref.okayama.jp/uploaded/attachment/376211.pdf",
+      "summary": "岡山県知事選挙の期日前投票所一覧表PDFです。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.okayama.jp/uploaded/attachment/376211.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:08:33+09:00",
+        "last_checked_at": "2026-04-10T09:08:33+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-33-governor-2024-other-01",
+      "election_id": "el-pref-33-governor-2024",
+      "kind": "other",
+      "title": "令和6年10月27日執行 岡山県知事選挙",
+      "url": "https://www.pref.okayama.jp/page/929222.html",
+      "summary": "岡山県の公式選挙案内ページです。概要、主要日程、候補者情報、期日前投票、投開票速報への導線をまとめています。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.okayama.jp/page/929222.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:08:33+09:00",
+        "last_checked_at": "2026-04-10T09:08:33+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

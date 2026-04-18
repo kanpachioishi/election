@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T09:26:00+09:00",
+  "prefix": "726",
+  "records": [
+    {
+      "postal_code": "7260001",
+      "region_id": "mun-34208",
+      "match_kind": "exact",
+      "confidence": "high",
+      "verification": {
+        "source_url": "https://www.post.japanpost.jp/cgi-zip/zipcode.php?zip=7260001",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T09:24:30+09:00",
+        "last_checked_at": "2026-04-09T09:24:30+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": "広島県府中市本山町"
+    }
+  ]
+}

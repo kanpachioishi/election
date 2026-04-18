@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-17T16:10:00+09:00",
+  "election_id": "el-mun-05202-assembly-2026",
+  "records": [
+    {
+      "id": "el-mun-05202-assembly-2026-other-01",
+      "election_id": "el-mun-05202-assembly-2026",
+      "kind": "other",
+      "title": "令和８年４月１９日執行能代市長選挙および能代市議会議員一般選挙について",
+      "url": "https://www.city.noshiro.lg.jp/section/office/senkyo-office/senkyo/27187",
+      "summary": "市長選と市議会議員一般選挙をまとめた能代市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.noshiro.lg.jp/section/office/senkyo-office/senkyo/27187",
+        "source_type": "official",
+        "confirmed_at": "2026-04-17T16:10:00+09:00",
+        "last_checked_at": "2026-04-17T16:10:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-05202-assembly-2026-candidate-list-01",
+      "election_id": "el-mun-05202-assembly-2026",
+      "kind": "candidate_list",
+      "title": "能代市議会議員一般選挙 候補者一覧",
+      "url": "https://www.city.noshiro.lg.jp/up/files/www/section/office/senkyo-office/senkyo/%E8%83%BD%E4%BB%A3%E5%B8%82%E8%AD%B0%E4%BC%9A%E8%AD%B0%E5%93%A1%E7%AB%8B%E5%80%99%E8%A3%9C%E5%B1%8A%E5%87%BA%E7%8A%B6%E6%B3%81%EF%BC%881700%EF%BC%89.pdf",
+      "summary": "立候補届出や候補者氏名を確認できる公式 PDF。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.city.noshiro.lg.jp/section/office/senkyo-office/senkyo/27115",
+        "source_type": "official",
+        "confirmed_at": "2026-04-17T16:10:00+09:00",
+        "last_checked_at": "2026-04-17T16:10:00+09:00",
+        "status": "verified",
+        "note": "能代市公式の候補者届出状況ページから PDF 直リンクを確認。"
+      }
+    },
+    {
+      "id": "el-mun-05202-assembly-2026-bulletin-01",
+      "election_id": "el-mun-05202-assembly-2026",
+      "kind": "bulletin",
+      "title": "能代市議会議員一般選挙 選挙公報",
+      "url": "https://www.city.noshiro.lg.jp/up/files/www/section/office/senkyo-office/senkyo/20260327113102.pdf",
+      "summary": "候補者の主張や政策を確認できる公式 PDF。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.city.noshiro.lg.jp/section/office/senkyo-office/senkyo/27187",
+        "source_type": "official",
+        "confirmed_at": "2026-04-17T16:10:00+09:00",
+        "last_checked_at": "2026-04-17T16:10:00+09:00",
+        "status": "verified",
+        "note": "能代市公式ページから選挙特集号 PDF を確認。"
+      }
+    },
+    {
+      "id": "el-mun-05202-assembly-2026-early-voting-01",
+      "election_id": "el-mun-05202-assembly-2026",
+      "kind": "early_voting",
+      "title": "期日前投票",
+      "url": "https://www.city.noshiro.lg.jp/section/office/senkyo-office/senkyo/27187",
+      "summary": "期日前投票の期間や不在者投票の案内を確認できる公式ページ。",
+      "is_official": true,
+      "display_order": 4,
+      "verification": {
+        "source_url": "https://www.city.noshiro.lg.jp/section/office/senkyo-office/senkyo/27187",
+        "source_type": "official",
+        "confirmed_at": "2026-04-17T16:10:00+09:00",
+        "last_checked_at": "2026-04-17T16:10:00+09:00",
+        "status": "verified",
+        "note": "本文内の期日前投票案内を確認。"
+      }
+    }
+  ]
+}

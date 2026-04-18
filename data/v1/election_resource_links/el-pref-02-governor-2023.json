@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T09:47:50+09:00",
+  "election_id": "el-pref-02-governor-2023",
+  "records": [
+    {
+      "id": "el-pref-02-governor-2023-bulletin-01",
+      "election_id": "el-pref-02-governor-2023",
+      "kind": "bulletin",
+      "title": "選挙公報（PDF）",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/senkan/files2/R5_chijisen_kouho.pdf",
+      "summary": "青森県知事選挙の選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.aomori.lg.jp/soshiki/senkan/2023_chijisen_kekka.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:47:50+09:00",
+        "last_checked_at": "2026-04-10T09:47:50+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-02-governor-2023-early-voting-01",
+      "election_id": "el-pref-02-governor-2023",
+      "kind": "early_voting",
+      "title": "期日前投票所一覧（PDF）",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/senkan/files2/R5chiji_kijituzenbasyo.pdf",
+      "summary": "青森県知事選挙の期日前投票所一覧 PDF。市町村ごとの施設、期間、時間を掲載。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.aomori.lg.jp/soshiki/senkan/2323chijisen_00.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:47:50+09:00",
+        "last_checked_at": "2026-04-10T09:47:50+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-02-governor-2023-other-01",
+      "election_id": "el-pref-02-governor-2023",
+      "kind": "other",
+      "title": "青森県知事選挙のお知らせ",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/senkan/2323chijisen_00.html",
+      "summary": "青森県の公式ページです。令和5年青森県知事選挙の案内、結果、公報への導線を確認できます。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.aomori.lg.jp/soshiki/senkan/2323chijisen_00.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:47:50+09:00",
+        "last_checked_at": "2026-04-10T09:47:50+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

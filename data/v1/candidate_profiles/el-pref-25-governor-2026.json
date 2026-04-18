@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-15T15:30:00+09:00",
+  "election_id": "el-pref-25-governor-2026",
+  "records": [
+    {
+      "id": "el-pref-25-governor-2026-mikazuki-taizo-01",
+      "election_id": "el-pref-25-governor-2026",
+      "person_name": "三日月大造",
+      "person_kana": "みかづき たいぞう",
+      "birth_date": "1971-05-24",
+      "identity_labels": [
+        "現職知事",
+        "県公式プロフィールあり",
+        "知事メッセージあり",
+        "取組まとめあり"
+      ],
+      "person_slug": "mikazuki-taizo",
+      "profile_status": "reported_candidate",
+      "summary": "報道ベースでは滋賀県知事選の候補予定者として扱う。県公式の知事室、プロフィール、知事メッセージ、就任後の取組まとめを確認済み。",
+      "current_or_recent_role": "滋賀県知事",
+      "official_site_url": "https://www.pref.shiga.lg.jp/kensei/chizi/index.html",
+      "official_sns": [],
+      "profile_pages": [
+        {
+          "label": "県公式プロフィール",
+          "url": "https://www.pref.shiga.lg.jp/kensei/chizi/prof/",
+          "kind": "institution_profile"
+        },
+        {
+          "label": "全国知事会プロフィール",
+          "url": "https://www.nga.gr.jp/app/chijifile/profile/317/",
+          "kind": "institution_profile"
+        }
+      ],
+      "person_statements": [
+        {
+          "label": "こんにちは！三日月です",
+          "url": "https://www.pref.shiga.lg.jp/kensei/chizi/taiwa/"
+        },
+        {
+          "label": "キラリ通信",
+          "url": "https://www.pref.shiga.lg.jp/kensei/chizi/tuushin/"
+        }
+      ],
+      "policy_links": [
+        {
+          "label": "就任後の取組まとめ",
+          "url": "https://www.pref.shiga.lg.jp/kensei/chizi/torikumi/",
+          "kind": "policy"
+        }
+      ],
+      "career_items": [
+        {
+          "label": "1971年5月24日 滋賀県大津市生まれ",
+          "summary": "全国知事会プロフィールで確認した基本情報。"
+        },
+        {
+          "label": "1994年3月 一橋大学経済学部卒業",
+          "summary": "全国知事会プロフィールで確認した学歴。"
+        },
+        {
+          "label": "1994年4月 西日本旅客鉄道株式会社入社",
+          "summary": "全国知事会プロフィールで確認した職歴。"
+        },
+        {
+          "label": "2003年11月 衆議院議員（連続4期）",
+          "summary": "全国知事会プロフィールで確認した国政経歴。"
+        },
+        {
+          "label": "2014年7月 滋賀県知事就任",
+          "summary": "全国知事会プロフィールでは現在3期目として案内されている。"
+        }
+      ],
+      "election_history": [],
+      "display_order": 1,
+      "last_checked_at": "2026-04-15T15:30:00+09:00",
+      "evidence": [
+        {
+          "source_name": "滋賀県",
+          "source_type": "official",
+          "title": "ようこそ知事室へ",
+          "url": "https://www.pref.shiga.lg.jp/kensei/chizi/index.html",
+          "published_at": null
+        },
+        {
+          "source_name": "滋賀県",
+          "source_type": "official",
+          "title": "三日月知事プロフィール",
+          "url": "https://www.pref.shiga.lg.jp/kensei/chizi/prof/",
+          "published_at": null
+        },
+        {
+          "source_name": "滋賀県",
+          "source_type": "official",
+          "title": "「こんにちは！三日月です」（県民と知事との直接対話）",
+          "url": "https://www.pref.shiga.lg.jp/kensei/chizi/taiwa/",
+          "published_at": null
+        },
+        {
+          "source_name": "滋賀県",
+          "source_type": "official",
+          "title": "就任後の取組まとめ",
+          "url": "https://www.pref.shiga.lg.jp/kensei/chizi/torikumi/",
+          "published_at": null
+        },
+        {
+          "source_name": "全国知事会",
+          "source_type": "official",
+          "title": "知事プロフィール",
+          "url": "https://www.nga.gr.jp/app/chijifile/profile/317/",
+          "published_at": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>知事の任期一覧 - わたしの選挙</title>
+  <meta name="description" content="47都道府県の知事について、現行任期の基準選挙と次回知事選の確認状況を一覧で確認できます。">
+  <meta property="og:title" content="知事の任期一覧 - わたしの選挙">
+  <meta property="og:description" content="47都道府県の知事について、現行任期の基準選挙と次回知事選の確認状況を一覧で確認できます。">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://watashino-senkyo.com/pages/governor-terms.html">
+  <link rel="stylesheet" href="../common/style.css">
+  <style>
+    .term-note {
+      margin-bottom: 1.5rem;
+      padding: 1rem 1.1rem;
+      background: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      color: var(--color-text-light);
+      line-height: 1.8;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .term-summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .term-summary-card {
+      padding: 1.25rem;
+      background: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .term-summary-card strong {
+      display: block;
+      font-size: 1.9rem;
+      line-height: 1;
+      color: var(--color-primary);
+    }
+
+    .term-summary-card span {
+      display: block;
+      margin-top: 0.45rem;
+      color: var(--color-text-muted);
+      font-size: 0.9rem;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .term-summary-card strong {
+        color: #93b5e8;
+      }
+    }
+
+    .term-highlight-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .term-highlight-box {
+      padding: 1.25rem;
+      background: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .term-highlight-box h2 {
+      margin-bottom: 0.75rem;
+      font-size: 1.2rem;
+      color: var(--color-primary);
+    }
+
+    .term-highlight-box ul {
+      padding-left: 1.1rem;
+      color: var(--color-text-light);
+    }
+
+    .term-highlight-box li + li {
+      margin-top: 0.45rem;
+    }
+
+    .term-table-wrap {
+      overflow-x: auto;
+      background: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .term-table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 760px;
+    }
+
+    .term-table th,
+    .term-table td {
+      padding: 0.8rem 0.9rem;
+      border-bottom: 1px solid var(--color-border);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .term-table th {
+      background: rgba(26, 54, 93, 0.08);
+      color: var(--color-primary);
+      font-size: 0.88rem;
+      font-weight: 700;
+    }
+
+    .term-table td {
+      color: var(--color-text-light);
+      font-size: 0.95rem;
+    }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.22rem 0.6rem;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .status-badge.confirmed {
+      background: rgba(56, 161, 105, 0.14);
+      color: var(--color-success);
+    }
+
+    .status-badge.pending {
+      background: rgba(214, 158, 46, 0.14);
+      color: var(--color-warning);
+    }
+
+    .status-badge.missing {
+      background: rgba(197, 48, 48, 0.14);
+      color: var(--color-accent);
+    }
+
+    .term-as-of {
+      margin: 0 0 0.75rem;
+      color: var(--color-text-muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .term-highlight-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="../index.html" class="site-logo">
+        <span class="logo-icon">&#x1F5F3;</span>
+        わたしの選挙
+      </a>
+      <button class="menu-toggle" aria-label="メニュー" onclick="document.querySelector('.nav-list').classList.toggle('open')">&#9776;</button>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="../index.html">トップ</a></li>
+          <li><a href="schedule.html">選挙スケジュール</a></li>
+          <li><a href="governor-terms.html" class="active">知事の任期一覧</a></li>
+          <li><a href="turnout.html">投票率データ</a></li>
+          <li><a href="../index.html#about">このサイトについて</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="page-title">知事の任期一覧</h1>
+    <p class="page-subtitle">47都道府県について、現行任期の基準選挙と次回知事選の確認状況を一覧で見られます。</p>
+    <p class="term-as-of" id="asOfNote"></p>
+
+    <div class="term-note">
+      この一覧は厳密な任期満了日の原簿ではなく、<code>data/v1/elections.json</code> をもとにした棚卸しです。
+      いまの知事任期の基準となる直近知事選と、次回知事選の日程を公式確認できているかどうかを並べています。
+    </div>
+
+    <section class="term-summary-grid" id="summaryGrid" aria-label="サマリー"></section>
+
+    <section class="term-highlight-grid">
+      <section class="term-highlight-box">
+        <h2>次回日程を確認できている県</h2>
+        <ul id="confirmedList"></ul>
+      </section>
+      <section class="term-highlight-box">
+        <h2>2026年が目安の県</h2>
+        <ul id="dueSoonList"></ul>
+      </section>
+    </section>
+
+    <div class="term-table-wrap">
+      <table class="term-table">
+        <thead>
+          <tr>
+            <th>都道府県</th>
+            <th>現行任期の基準選挙</th>
+            <th>次回知事選</th>
+            <th>状態</th>
+            <th>メモ</th>
+          </tr>
+        </thead>
+        <tbody id="termTableBody"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-message">このページは知事選データの確認状況を一覧するための作業台です。</p>
+    <div class="footer-links">
+      <a href="schedule.html">選挙スケジュール</a>
+      <a href="../docs/GOVERNOR_TERM_INVENTORY.md">inventory メモ</a>
+    </div>
+    <p class="footer-copy">&copy; 2026 わたしの選挙</p>
+  </footer>
+
+  <script src="../data/governor-term-inventory.js"></script>
+  <script>
+    const inventory = window.GOVERNOR_TERM_INVENTORY || { as_of: "", rows: [] };
+    const rows = inventory.rows || [];
+
+    const asOfNote = document.getElementById("asOfNote");
+    const summaryGrid = document.getElementById("summaryGrid");
+    const confirmedList = document.getElementById("confirmedList");
+    const dueSoonList = document.getElementById("dueSoonList");
+    const termTableBody = document.getElementById("termTableBody");
+
+    const confirmedRows = rows.filter((row) => row.status === "次回日程確認済み");
+    const dueSoonRows = rows.filter((row) => String(row.note || "").includes("2026年"));
+    const missingRows = rows.filter((row) => row.status === "record missing");
+
+    asOfNote.textContent = inventory.as_of ? `as of ${inventory.as_of}` : "";
+
+    summaryGrid.innerHTML = [
+      { value: rows.length, label: "都道府県" },
+      { value: confirmedRows.length, label: "次回日程確認済み" },
+      { value: dueSoonRows.length, label: "2026年が目安" },
+      { value: missingRows.length, label: "record missing" },
+    ].map((item) => `
+      <article class="term-summary-card">
+        <strong>${item.value}</strong>
+        <span>${item.label}</span>
+      </article>
+    `).join("");
+
+    confirmedList.innerHTML = confirmedRows.length
+      ? confirmedRows.map((row) => `<li>${row.prefecture}: 投票 ${row.next_election_vote_date} / 告示 ${row.next_election_notice_date}</li>`).join("")
+      : "<li>まだありません。</li>";
+
+    dueSoonList.innerHTML = dueSoonRows.length
+      ? dueSoonRows.map((row) => `<li>${row.prefecture}: ${row.note}</li>`).join("")
+      : "<li>該当なし</li>";
+
+    function badgeClass(status) {
+      if (status === "次回日程確認済み") return "confirmed";
+      if (status === "record missing") return "missing";
+      return "pending";
+    }
+
+    termTableBody.innerHTML = rows.map((row) => `
+      <tr>
+        <td>${row.prefecture}</td>
+        <td>${row.current_term_basis_vote_date || "未投入"}</td>
+        <td>${row.next_election_vote_date || "未確認"}</td>
+        <td><span class="status-badge ${badgeClass(row.status)}">${row.status}</span></td>
+        <td>${row.note || "-"}</td>
+      </tr>
+    `).join("");
+  </script>
+</body>
+</html>

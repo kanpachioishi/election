@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T15:09:36+09:00",
+  "election_id": "el-pref-40-governor-2025",
+  "records": [
+    {
+      "id": "el-pref-40-governor-2025-candidate-list-01",
+      "election_id": "el-pref-40-governor-2025",
+      "kind": "candidate_list",
+      "title": "福岡県知事選挙　候補者の届出",
+      "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/249262.pdf",
+      "summary": "令和7年3月23日執行の福岡県知事選挙における候補者の届出をまとめた福岡県公報のPDFです。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/249262.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T15:09:36+09:00",
+        "last_checked_at": "2026-04-10T15:09:36+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-40-governor-2025-other-01",
+      "election_id": "el-pref-40-governor-2025",
+      "kind": "other",
+      "title": "福岡県知事選挙・福岡県議会議員補欠選挙",
+      "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo0323.html",
+      "summary": "投開票結果や関連情報がまとまった福岡県選挙管理委員会の公式ページです。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.fukuoka.lg.jp/contents/senkyo0323.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T15:09:36+09:00",
+        "last_checked_at": "2026-04-10T15:09:36+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

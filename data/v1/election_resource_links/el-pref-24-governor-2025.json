@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T09:12:56+09:00",
+  "election_id": "el-pref-24-governor-2025",
+  "records": [
+    {
+      "id": "el-pref-24-governor-2025-candidate-list-01",
+      "election_id": "el-pref-24-governor-2025",
+      "kind": "candidate_list",
+      "title": "令和7年執行三重県知事選挙 候補者情報・選挙公報",
+      "url": "https://www.pref.mie.lg.jp/SENKAN/HP/0002434750001.htm",
+      "summary": "三重県知事選挙の候補者情報ページ。候補者の氏名、年齢、党派名と選挙公報への導線を掲載。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.mie.lg.jp/SENKAN/HP/0002434750001.htm",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:12:56+09:00",
+        "last_checked_at": "2026-04-10T09:12:56+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-24-governor-2025-bulletin-01",
+      "election_id": "el-pref-24-governor-2025",
+      "kind": "bulletin",
+      "title": "三重県知事選挙公報（PDF）",
+      "url": "https://www.pref.mie.lg.jp/common/content/001213831.pdf",
+      "summary": "三重県知事選挙の選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.mie.lg.jp/SENKAN/HP/0002434750001.htm",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:12:56+09:00",
+        "last_checked_at": "2026-04-10T09:12:56+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-24-governor-2025-other-01",
+      "election_id": "el-pref-24-governor-2025",
+      "kind": "other",
+      "title": "令和7年執行三重県知事選挙・三重県議会議員補欠選挙の記録",
+      "url": "https://www.pref.mie.lg.jp/SENKAN/HP/0002571940001.htm",
+      "summary": "三重県の公式記録ページ。告示日、投開票日、候補者・選挙公報、投開票結果への導線を掲載。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.mie.lg.jp/SENKAN/HP/0002571940001.htm",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:12:56+09:00",
+        "last_checked_at": "2026-04-10T09:12:56+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

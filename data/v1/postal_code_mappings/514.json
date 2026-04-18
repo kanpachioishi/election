@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T12:04:00+09:00",
+  "prefix": "514",
+  "records": [
+    {
+      "postal_code": "5140001",
+      "region_id": "mun-24201",
+      "match_kind": "exact",
+      "confidence": "high",
+      "verification": {
+        "source_url": "https://www.post.japanpost.jp/cgi-zip/zipcode.php?zip=5140001",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T12:04:00+09:00",
+        "last_checked_at": "2026-04-09T12:04:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": "三重県津市江戸橋"
+    }
+  ]
+}

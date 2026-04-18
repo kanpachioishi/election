@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T22:40:00+09:00",
+  "election_id": "el-national-lower-house-2026",
+  "records": [
+    {
+      "id": "el-national-lower-house-2026-early-voting-01",
+      "election_id": "el-national-lower-house-2026",
+      "kind": "early_voting",
+      "title": "第51回衆議院議員総選挙（神奈川県）期日前投票期間について",
+      "url": "https://www.pref.kanagawa.jp/docs/em7/2026shuugi_kijituzen.html",
+      "summary": "神奈川県選挙管理委員会が公開している第51回衆議院議員総選挙の神奈川県向け期日前投票期間案内ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.kanagawa.jp/docs/em7/2026shuugi_kijituzen.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T22:40:00+09:00",
+        "last_checked_at": "2026-04-10T22:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-national-lower-house-2026-other-01",
+      "election_id": "el-national-lower-house-2026",
+      "kind": "other",
+      "title": "第51回衆議院議員総選挙（神奈川県選挙管理委員会）",
+      "url": "https://www.pref.kanagawa.jp/docs/em7/cnt/f5/syuugikekka.html",
+      "summary": "神奈川県選挙管理委員会が公開している第51回衆議院議員総選挙の神奈川県向け結果・公報案内ページ。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.kanagawa.jp/docs/em7/cnt/f5/syuugikekka.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T22:40:00+09:00",
+        "last_checked_at": "2026-04-10T22:40:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

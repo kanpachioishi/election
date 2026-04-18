@@ -1,0 +1,445 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-11T19:30:00+09:00",
+  "election_id": "el-pref-15-governor-2026",
+  "records": [
+    {
+      "id": "el-pref-15-governor-2026-hanazumi-hideyo-01",
+      "election_id": "el-pref-15-governor-2026",
+      "person_name": "花角英世",
+      "person_kana": "はなずみ ひでよ",
+      "birth_date": "1958-05-22",
+      "identity_labels": [
+        "現職知事",
+        "公式サイトあり",
+        "政策ページあり"
+      ],
+      "person_slug": "hanazumi-hideyo",
+      "profile_status": "reported_candidate",
+      "summary": "報道ベースでは新潟県知事選の現職候補予定者として扱う。公式サイト、公式X、本人プロフィール、政策ページを確認済み。",
+      "official_site_url": "https://hanazumi-hideyo.jp/",
+      "official_sns": [
+        {
+          "platform": "x",
+          "label": "公式X",
+          "url": "https://twitter.com/hideyohanazumi"
+        }
+      ],
+      "profile_pages": [
+        {
+          "label": "プロフィール",
+          "url": "https://hanazumi-hideyo.jp/profiles/",
+          "kind": "official_profile"
+        }
+      ],
+      "policy_links": [
+        {
+          "label": "3つの方針",
+          "url": "https://hanazumi-hideyo.jp/policy/",
+          "kind": "policy"
+        },
+        {
+          "label": "7つの約束",
+          "url": "https://hanazumi-hideyo.jp/manifest/",
+          "kind": "policy"
+        }
+      ],
+      "career_items": [
+        {
+          "label": "1958年5月 新潟県佐渡生まれ",
+          "summary": "生年月日の確認に使える基本経歴。"
+        },
+        {
+          "label": "1982年3月 東京大学法学部卒業",
+          "summary": "学歴の確認に使える基本経歴。"
+        },
+        {
+          "label": "1982年4月 運輸省入省",
+          "summary": "中央官庁での勤務経歴。"
+        },
+        {
+          "label": "2013年4月 新潟県副知事",
+          "summary": "県政での主な職歴。"
+        },
+        {
+          "label": "2018年6月 新潟県知事就任",
+          "summary": "県知事としての職歴。"
+        }
+      ],
+      "election_history": [
+        {
+          "label": "2018年6月 新潟県知事選",
+          "summary": "初当選。"
+        },
+        {
+          "label": "2022年5月 新潟県知事選",
+          "summary": "再選。"
+        }
+      ],
+      "display_order": 1,
+      "last_checked_at": "2026-04-12T09:55:00+09:00",
+      "evidence": [
+        {
+          "source_name": "全国知事会",
+          "source_type": "official",
+          "title": "知事プロフィール",
+          "url": "https://www.nga.gr.jp/pref_info/chijifile/profile/330/",
+          "published_at": null
+        },
+        {
+          "source_name": "はなずみ英世 公式サイト",
+          "source_type": "official",
+          "title": "はなずみ英世（はなずみひでよ）｜公式サイト｜現新潟県知事",
+          "url": "https://hanazumi-hideyo.jp/",
+          "published_at": "2022-05-30"
+        },
+        {
+          "source_name": "はなずみ英世 公式サイト",
+          "source_type": "official",
+          "title": "プロフィール",
+          "url": "https://hanazumi-hideyo.jp/profiles/",
+          "published_at": "2022-05-30"
+        },
+        {
+          "source_name": "はなずみ英世 公式サイト",
+          "source_type": "official",
+          "title": "3つの方針",
+          "url": "https://hanazumi-hideyo.jp/policy/",
+          "published_at": "2022-05-30"
+        }
+      ]
+    },
+    {
+      "id": "el-pref-15-governor-2026-tsuchida-ryugo-01",
+      "election_id": "el-pref-15-governor-2026",
+      "person_name": "土田竜吾",
+      "person_kana": "つちだ りゅうご",
+      "birth_date": "1988-05-13",
+      "identity_labels": [
+        "県議",
+        "公式サイトあり",
+        "県議会プロフィールあり"
+      ],
+      "person_slug": "tsuchida-ryugo",
+      "profile_status": "reported_candidate",
+      "summary": "報道ベースでは新潟県知事選の候補予定者として扱う。公式サイト、公式X、県議会プロフィールを確認済み。",
+      "official_site_url": "https://tsuchidaryugo.jp/",
+      "official_sns": [
+        {
+          "platform": "x",
+          "label": "公式X",
+          "url": "https://x.com/TSUCHIDA_RYUUGO"
+        }
+      ],
+      "profile_pages": [
+        {
+          "label": "公式サイト プロフィール",
+          "url": "https://tsuchidaryugo.jp/",
+          "kind": "official_profile"
+        },
+        {
+          "label": "新潟県議会プロフィール",
+          "url": "https://www.pref.niigata.lg.jp/site/gikai/tutidaryuugo.html",
+          "kind": "institution_profile"
+        }
+      ],
+      "policy_links": [
+        {
+          "label": "つちだ竜吾が目指す新潟県とは",
+          "url": "https://tsuchidaryugo.jp/",
+          "kind": "policy"
+        },
+        {
+          "label": "応援する!",
+          "url": "https://tsuchidaryugo.jp/support/",
+          "kind": "policy"
+        }
+      ],
+      "career_items": [
+        {
+          "label": "1988年 旧柿崎町で生まれる",
+          "summary": "本人サイトのプロフィールで確認できる出身情報。"
+        },
+        {
+          "label": "2009年 長野高専を卒業し一般企業へ就職",
+          "summary": "本人サイトにある経歴。"
+        },
+        {
+          "label": "2015年 上越市東本町で八百屋を開業",
+          "summary": "本人サイトにある経歴。"
+        },
+        {
+          "label": "2016年から2022年まで 森ゆうこ前参院議員秘書",
+          "summary": "本人サイトにある経歴。"
+        },
+        {
+          "label": "2022年 うめたに守衆院議員秘書",
+          "summary": "本人サイトにある経歴。"
+        },
+        {
+          "label": "2023年 新潟県議会議員に当選",
+          "summary": "県議会プロフィールで確認できる現職経歴。"
+        }
+      ],
+      "election_history": [
+        {
+          "label": "2023年 新潟県議会議員選挙",
+          "summary": "上越市選挙区で当選。"
+        }
+      ],
+      "display_order": 2,
+      "last_checked_at": "2026-04-11T19:30:00+09:00",
+      "evidence": [
+        {
+          "source_name": "立憲民主党 新潟県総支部連合会",
+          "source_type": "party_statement",
+          "title": "第5区総支部",
+          "url": "https://www.cdp-niigata.com/branch/branch05/",
+          "published_at": null
+        },
+        {
+          "source_name": "つちだ竜吾 公式サイト",
+          "source_type": "official",
+          "title": "つちだ竜吾が目指す新潟県とは",
+          "url": "https://tsuchidaryugo.jp/",
+          "published_at": "2026-04-10"
+        },
+        {
+          "source_name": "新潟県議会",
+          "source_type": "official",
+          "title": "土田 竜吾（つちだ りゅうご）議員 ［未来にいがた］",
+          "url": "https://www.pref.niigata.lg.jp/site/gikai/tutidaryuugo.html",
+          "published_at": "2025-07-07"
+        },
+        {
+          "source_name": "X",
+          "source_type": "official",
+          "title": "土田竜吾 新潟県議会議員（上越市選挙区）",
+          "url": "https://x.com/TSUCHIDA_RYUUGO",
+          "published_at": "2026-04-11"
+        }
+      ]
+    },
+    {
+      "id": "el-pref-15-governor-2026-annaka-satoshi-01",
+      "election_id": "el-pref-15-governor-2026",
+      "person_name": "安中聡",
+      "person_kana": "あんなか さとし",
+      "birth_date": "1977-12-06",
+      "identity_labels": [
+        "元五泉市議",
+        "本人ブログ",
+        "本人X"
+      ],
+      "person_slug": "annaka-satoshi",
+      "profile_status": "reported_candidate",
+      "summary": "報道ベースでは新潟県知事選の候補予定者として扱う。本人ブログ、本人X、本人発信ページを確認済み。",
+      "official_site_url": null,
+      "official_sns": [
+        {
+          "platform": "x",
+          "label": "本人X",
+          "url": "https://twitter.com/annakasatoshi"
+        }
+      ],
+      "profile_pages": [
+        {
+          "label": "本人ブログ",
+          "url": "https://annakasatoshi.blogspot.com/",
+          "kind": "personal_profile"
+        }
+      ],
+      "policy_links": [],
+      "career_items": [
+        {
+          "label": "1977年12月6日 新潟県五泉市生まれ",
+          "summary": "2018年時点のプロフィール記事で確認できる出身情報。"
+        },
+        {
+          "label": "加茂農林高校農業科卒業",
+          "summary": "2018年時点のプロフィール記事で確認できる学歴。"
+        },
+        {
+          "label": "立正大学文学部史学科夜間主コース卒業",
+          "summary": "2018年時点のプロフィール記事で確認できる学歴。"
+        },
+        {
+          "label": "2003年 区議会議員事務所スタッフ",
+          "summary": "2018年時点のプロフィール記事で確認できる職歴。"
+        },
+        {
+          "label": "2004年 都議会議員事務所スタッフ",
+          "summary": "2018年時点のプロフィール記事で確認できる職歴。"
+        },
+        {
+          "label": "五泉市での市議経験",
+          "summary": "本人ブログと選挙報道から確認できる経歴。"
+        }
+      ],
+      "election_history": [
+        {
+          "label": "2010年 参議院議員選挙",
+          "summary": "新潟県選挙区から立候補。"
+        },
+        {
+          "label": "2011年 五泉市議会議員選挙",
+          "summary": "初当選。"
+        },
+        {
+          "label": "2015年 五泉市議会議員選挙",
+          "summary": "再選。"
+        },
+        {
+          "label": "2018年 新潟県知事選挙",
+          "summary": "立候補。"
+        },
+        {
+          "label": "2022年 五泉市長選挙",
+          "summary": "立候補。"
+        }
+      ],
+      "display_order": 3,
+      "last_checked_at": "2026-04-11T19:30:00+09:00",
+      "evidence": [
+        {
+          "source_name": "安中聡の気ままな日記帳",
+          "source_type": "person_statement",
+          "title": "安中聡の気ままな日記帳 annakasatoshi blog",
+          "url": "https://annakasatoshi.blogspot.com/",
+          "published_at": "2019-07-20"
+        },
+        {
+          "source_name": "いずみちゃんのノート",
+          "source_type": "media_report",
+          "title": "2022年五泉市長選 候補者 WEB・SNSまとめ",
+          "url": "https://note.com/gosen_izumi/n/n610b00ec911e",
+          "published_at": "2022-01-20"
+        },
+        {
+          "source_name": "選挙ドットコム",
+          "source_type": "media_report",
+          "title": "新人3名が立候補。安中聡氏 VS 花角英世氏 VS 池田千賀子氏",
+          "url": "https://go2senkyo.com/articles/2018/05/24/35977.html",
+          "published_at": "2018-05-24"
+        }
+      ]
+    },
+    {
+      "id": "el-pref-15-governor-2026-yoneyama-ryuichi-01",
+      "election_id": "el-pref-15-governor-2026",
+      "person_name": "米山隆一",
+      "person_kana": "よねやま りゅういち",
+      "birth_date": "1967-09-08",
+      "identity_labels": [
+        "関連動向",
+        "元知事",
+        "前衆院議員"
+      ],
+      "person_slug": "yoneyama-ryuichi",
+      "profile_status": "related_interest",
+      "summary": "新潟県知事選の候補予定者ではなく、関連動向として扱う。公式サイト、公式X、本人プロフィール、政策ページを確認済み。",
+      "official_site_url": "https://yoneyamaryuichi.com/",
+      "official_sns": [
+        {
+          "platform": "x",
+          "label": "公式X",
+          "url": "https://x.com/RyuichiYoneyama"
+        }
+      ],
+      "profile_pages": [
+        {
+          "label": "プロフィール",
+          "url": "https://yoneyamaryuichi.com/profile/",
+          "kind": "official_profile"
+        }
+      ],
+      "policy_links": [
+        {
+          "label": "政策・公約",
+          "url": "https://yoneyamaryuichi.com/policy/",
+          "kind": "policy"
+        }
+      ],
+      "career_items": [
+        {
+          "label": "1967年 新潟県北魚沼郡湯之谷村生まれ",
+          "summary": "本人プロフィールで確認できる基本経歴。"
+        },
+        {
+          "label": "1992年 東京大学医学部卒業",
+          "summary": "本人プロフィールで確認できる学歴。"
+        },
+        {
+          "label": "1999年 独立行政法人放射線医学総合研究所勤務",
+          "summary": "本人プロフィールで確認できる職歴。"
+        },
+        {
+          "label": "2011年 医療法人社団太陽会理事長に就任",
+          "summary": "本人プロフィールで確認できる職歴。"
+        },
+        {
+          "label": "2016年 新潟県知事に就任",
+          "summary": "本人プロフィールで確認できる職歴。"
+        },
+        {
+          "label": "2021年 第49回衆議院議員選挙で初当選",
+          "summary": "本人プロフィールで確認できる選挙歴。"
+        },
+        {
+          "label": "2026年2月 衆議院議員選挙で落選",
+          "summary": "報道で確認できる直近の国政選挙結果。"
+        }
+      ],
+      "election_history": [
+        {
+          "label": "2016年 新潟県知事選挙",
+          "summary": "当選。"
+        },
+        {
+          "label": "2021年 衆議院議員総選挙",
+          "summary": "新潟5区で初当選。"
+        },
+        {
+          "label": "2024年 衆議院議員総選挙",
+          "summary": "新潟4区で再選。"
+        },
+        {
+          "label": "2026年2月 衆議院議員選挙",
+          "summary": "新潟4区で落選。"
+        }
+      ],
+      "display_order": 4,
+      "last_checked_at": "2026-04-11T19:30:00+09:00",
+      "evidence": [
+        {
+          "source_name": "米山隆一 公式サイト",
+          "source_type": "official",
+          "title": "米山隆一 公式サイト",
+          "url": "https://yoneyamaryuichi.com/",
+          "published_at": "2026-04-11"
+        },
+        {
+          "source_name": "米山隆一 公式サイト",
+          "source_type": "official",
+          "title": "プロフィール",
+          "url": "https://yoneyamaryuichi.com/profile/",
+          "published_at": "2026-04-11"
+        },
+        {
+          "source_name": "米山隆一 公式サイト",
+          "source_type": "official",
+          "title": "政策・公約",
+          "url": "https://yoneyamaryuichi.com/policy/",
+          "published_at": "2026-04-11"
+        },
+        {
+          "source_name": "テレ朝NEWS",
+          "source_type": "media_report",
+          "title": "「やるべきことは全部やった」新潟4区 中道・米山隆一氏が落選【衆院選2026】",
+          "url": "https://news.tv-asahi.co.jp/news_politics/articles/000484097.html",
+          "published_at": "2026-02-08"
+        }
+      ]
+    }
+  ]
+}

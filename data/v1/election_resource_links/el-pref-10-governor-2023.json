@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T08:54:08+09:00",
+  "election_id": "el-pref-10-governor-2023",
+  "records": [
+    {
+      "id": "el-pref-10-governor-2023-candidate-list-01",
+      "election_id": "el-pref-10-governor-2023",
+      "kind": "candidate_list",
+      "title": "群馬県知事選挙 候補者の氏名・党派等（PDF）",
+      "url": "https://www.pref.gunma.jp/uploaded/attachment/160658.pdf",
+      "summary": "群馬県知事選挙の候補者の氏名・党派等 PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.gunma.jp/page/209341.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T08:54:08+09:00",
+        "last_checked_at": "2026-04-10T08:54:08+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-10-governor-2023-bulletin-01",
+      "election_id": "el-pref-10-governor-2023",
+      "kind": "bulletin",
+      "title": "群馬県知事選挙 選挙公報（PDF）",
+      "url": "https://www.pref.gunma.jp/uploaded/attachment/160801.pdf",
+      "summary": "群馬県知事選挙の選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.gunma.jp/page/209341.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T08:54:08+09:00",
+        "last_checked_at": "2026-04-10T08:54:08+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-10-governor-2023-early-voting-01",
+      "election_id": "el-pref-10-governor-2023",
+      "kind": "early_voting",
+      "title": "群馬県知事選挙 期日前投票所一覧（PDF）",
+      "url": "https://www.pref.gunma.jp/uploaded/attachment/160685.pdf",
+      "summary": "群馬県知事選挙の期日前投票所一覧 PDF。施設名、所在地、期間、時間を掲載。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.gunma.jp/page/209336.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T08:54:08+09:00",
+        "last_checked_at": "2026-04-10T08:54:08+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-10-governor-2023-other-01",
+      "election_id": "el-pref-10-governor-2023",
+      "kind": "other",
+      "title": "群馬県知事選挙トップページ",
+      "url": "https://www.pref.gunma.jp/page/209333.html",
+      "summary": "群馬県の公式総合ページ。日程、候補者情報、選挙公報、期日前投票、投開票結果への導線を掲載。",
+      "is_official": true,
+      "display_order": 4,
+      "verification": {
+        "source_url": "https://www.pref.gunma.jp/page/209333.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T08:54:08+09:00",
+        "last_checked_at": "2026-04-10T08:54:08+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

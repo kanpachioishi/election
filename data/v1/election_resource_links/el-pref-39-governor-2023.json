@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T13:46:11+09:00",
+  "election_id": "el-pref-39-governor-2023",
+  "records": [
+    {
+      "id": "el-pref-39-governor-2023-candidate-list-01",
+      "election_id": "el-pref-39-governor-2023",
+      "kind": "candidate_list",
+      "title": "候補者一覧（PDF）",
+      "url": "https://www.pref.kochi.lg.jp/doc/2023111200037/file_contents/file_20231112011157_1.pdf",
+      "summary": "高知県知事選挙の候補者一覧 PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.kochi.lg.jp/doc/2023110800122/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T13:46:11+09:00",
+        "last_checked_at": "2026-04-10T13:46:11+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-39-governor-2023-bulletin-01",
+      "election_id": "el-pref-39-governor-2023",
+      "kind": "bulletin",
+      "title": "選挙公報（PDF）",
+      "url": "https://www.pref.kochi.lg.jp/doc/2023110800122/file_contents/file_2023111201075_1.pdf",
+      "summary": "高知県知事選挙の選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.kochi.lg.jp/doc/2023110800122/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T13:46:11+09:00",
+        "last_checked_at": "2026-04-10T13:46:11+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-39-governor-2023-other-01",
+      "election_id": "el-pref-39-governor-2023",
+      "kind": "other",
+      "title": "高知県知事選挙／議会議員選挙",
+      "url": "https://www.pref.kochi.lg.jp/doc/senkyokekka-tijigikai/",
+      "summary": "高知県の公式選挙結果ページ。令和5年11月26日執行の高知県知事選挙の選挙の記録、投票結果、開票結果を確認できます。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.kochi.lg.jp/doc/senkyokekka-tijigikai/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T13:46:11+09:00",
+        "last_checked_at": "2026-04-10T13:46:11+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

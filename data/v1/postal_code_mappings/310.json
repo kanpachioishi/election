@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T11:34:00+09:00",
+  "prefix": "310",
+  "records": [
+    {
+      "postal_code": "3100051",
+      "region_id": "mun-08201",
+      "match_kind": "exact",
+      "confidence": "high",
+      "verification": {
+        "source_url": "https://www.post.japanpost.jp/cgi-zip/zipcode.php?zip=3100051",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T11:34:00+09:00",
+        "last_checked_at": "2026-04-09T11:34:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": "茨城県水戸市ちとせ"
+    }
+  ]
+}

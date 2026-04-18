@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T08:42:18+09:00",
+  "election_id": "el-pref-04-governor-2025",
+  "records": [
+    {
+      "id": "el-pref-04-governor-2025-candidate-list-01",
+      "election_id": "el-pref-04-governor-2025",
+      "kind": "candidate_list",
+      "title": "候補者の氏名等の一覧（PDF）",
+      "url": "https://www.pref.miyagi.jp/documents/59836/kouhosyanosimeitounoishiran.pdf",
+      "summary": "宮城県知事選挙の候補者の氏名等の一覧 PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.miyagi.jp/documents/59836/kouhosyanosimeitounoishiran.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T08:42:18+09:00",
+        "last_checked_at": "2026-04-10T08:42:18+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-04-governor-2025-bulletin-01",
+      "election_id": "el-pref-04-governor-2025",
+      "kind": "bulletin",
+      "title": "選挙公報（PDF）",
+      "url": "https://www.pref.miyagi.jp/documents/59836/senkyokouhou.pdf",
+      "summary": "宮城県知事選挙の選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.miyagi.jp/documents/59836/senkyokouhou.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T08:42:18+09:00",
+        "last_checked_at": "2026-04-10T08:42:18+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-04-governor-2025-early-voting-01",
+      "election_id": "el-pref-04-governor-2025",
+      "kind": "early_voting",
+      "title": "市町村別期日前投票所の場所等について（PDF）",
+      "url": "https://www.pref.miyagi.jp/documents/61554/chiji_kijitsuzen_ichiran.pdf",
+      "summary": "宮城県知事選挙の期日前投票所一覧 PDF。市区町村別の場所、期間、時間を掲載。県議補選情報も併載。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.pref.miyagi.jp/documents/61554/chiji_kijitsuzen_ichiran.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T08:42:18+09:00",
+        "last_checked_at": "2026-04-10T08:42:18+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-04-governor-2025-other-01",
+      "election_id": "el-pref-04-governor-2025",
+      "kind": "other",
+      "title": "令和7年10月26日執行宮城県知事選挙",
+      "url": "https://www.pref.miyagi.jp/soshiki/senkyo/2025kenchiji.html",
+      "summary": "宮城県の公式総合ページ。日程、候補者一覧、選挙公報、期日前投票などへの導線を掲載。",
+      "is_official": true,
+      "display_order": 4,
+      "verification": {
+        "source_url": "https://www.pref.miyagi.jp/soshiki/senkyo/2025kenchiji.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T08:42:18+09:00",
+        "last_checked_at": "2026-04-10T08:42:18+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

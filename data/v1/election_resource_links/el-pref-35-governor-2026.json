@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T16:12:57+09:00",
+  "election_id": "el-pref-35-governor-2026",
+  "records": [
+    {
+      "id": "el-pref-35-governor-2026-other-01",
+      "election_id": "el-pref-35-governor-2026",
+      "kind": "other",
+      "title": "令和8年2月8日執行 山口県知事選挙の投開票の状況",
+      "url": "https://www.pref.yamaguchi.lg.jp/site/senkyo/332455.html",
+      "summary": "当日有権者概数、確定投票結果、確定開票結果を掲載する結果ページです。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.yamaguchi.lg.jp/site/senkyo/332455.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T16:12:57+09:00",
+        "last_checked_at": "2026-04-10T16:12:57+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-11T16:00:00+09:00",
+  "election_id": "el-pref-15-governor-2026",
+  "records": [
+    {
+      "id": "el-pref-15-governor-2026-hanazumi-hideyo-01",
+      "election_id": "el-pref-15-governor-2026",
+      "person_name": "花角英世",
+      "person_slug": "hanazumi-hideyo",
+      "status": "announced",
+      "incumbency": "incumbent",
+      "summary": "3選を目指して新潟県知事選に出馬を正式表明。自民党県連の出馬要請や県市長会・町村会の推薦、公明党県本部の現職支持が報じられている。",
+      "confidence": "high",
+      "display_order": 1,
+      "last_checked_at": "2026-04-11T16:00:00+09:00",
+      "evidence": [
+        {
+          "source_name": "BSN NEWS",
+          "source_type": "media_report",
+          "title": "花角英世 新潟県知事が3選出馬を表明",
+          "url": "https://newsdig.tbs.co.jp/articles/bsn/2476289",
+          "published_at": "2026-02-18"
+        },
+        {
+          "source_name": "NST新潟総合テレビ",
+          "source_type": "media_report",
+          "title": "花角英世知事が3選を目指し今年5月の新潟県知事選に立候補へ　新年度予算案発表に合わせ18日にも表明か",
+          "url": "https://www.fnn.jp/articles/-/1002961",
+          "published_at": "2026-02-16"
+        }
+      ]
+    },
+    {
+      "id": "el-pref-15-governor-2026-tsuchida-ryugo-01",
+      "election_id": "el-pref-15-governor-2026",
+      "person_name": "土田竜吾",
+      "person_slug": "tsuchida-ryugo",
+      "status": "announced",
+      "incumbency": "newcomer",
+      "summary": "立憲民主党県連の擁立方針を受けて出馬へ。連合新潟の推薦も報じられており、現時点では報道ベースの候補予定者として扱う。",
+      "confidence": "high",
+      "display_order": 2,
+      "last_checked_at": "2026-04-11T16:00:00+09:00",
+      "evidence": [
+        {
+          "source_name": "NST新潟総合テレビ",
+          "source_type": "media_report",
+          "title": "立憲・土田竜吾県議が出馬へ 立憲県連が擁立を決定",
+          "url": "https://www.fnn.jp/articles/NST/1021370",
+          "published_at": "2026-03-27"
+        },
+        {
+          "source_name": "BSN NEWS",
+          "source_type": "media_report",
+          "title": "立憲民主党から土田竜吾県議が出馬を表明 連合新潟は推薦を決定",
+          "url": "https://newsdig.tbs.co.jp/articles/bsn/2560899",
+          "published_at": "2026-03-28"
+        },
+        {
+          "source_name": "NST新潟総合テレビ",
+          "source_type": "media_report",
+          "title": "候補者の擁立難航も…土田竜吾県議が出馬へ 連合新潟も推薦決定",
+          "url": "https://www.fnn.jp/articles/-/1022191",
+          "published_at": "2026-03-29"
+        }
+      ]
+    },
+    {
+      "id": "el-pref-15-governor-2026-annaka-satoshi-01",
+      "election_id": "el-pref-15-governor-2026",
+      "person_name": "安中聡",
+      "person_slug": "annaka-satoshi",
+      "status": "announced",
+      "incumbency": "newcomer",
+      "summary": "元五泉市議として新潟県知事選への出馬を正式表明。報道ベースでは現時点で候補予定者として扱う。",
+      "confidence": "high",
+      "display_order": 3,
+      "last_checked_at": "2026-04-11T16:00:00+09:00",
+      "evidence": [
+        {
+          "source_name": "BSN NEWS",
+          "source_type": "media_report",
+          "title": "5月の新潟県知事選挙に野党系会派の土田竜吾県議が出馬へ 元五泉市議の安中聡氏も出馬意向",
+          "url": "https://newsdig.tbs.co.jp/articles/bsn/2556425",
+          "published_at": "2026-03-26"
+        },
+        {
+          "source_name": "BSN NEWS",
+          "source_type": "media_report",
+          "title": "元五泉市議の安中聡氏 新潟知事選出馬を正式表明",
+          "url": "https://newsdig.tbs.co.jp/articles/bsn/2567129",
+          "published_at": "2026-03-31"
+        },
+        {
+          "source_name": "NST新潟総合テレビ",
+          "source_type": "media_report",
+          "title": "元五泉市議・安中聡氏が出馬を表明「原発反対・廃止のために戦う」",
+          "url": "https://www.fnn.jp/articles/-/1023611",
+          "published_at": "2026-04-01"
+        }
+      ]
+    },
+    {
+      "id": "el-pref-15-governor-2026-yoneyama-ryuichi-01",
+      "election_id": "el-pref-15-governor-2026",
+      "person_name": "米山隆一",
+      "person_slug": "yoneyama-ryuichi",
+      "status": "interested",
+      "incumbency": "former_governor",
+      "summary": "出馬意向や状況次第での参入可能性が報じられているが、現時点では候補予定者ではなく、関連動向として扱う。",
+      "confidence": "medium",
+      "display_order": 4,
+      "last_checked_at": "2026-04-11T16:00:00+09:00",
+      "evidence": [
+        {
+          "source_name": "NST新潟総合テレビ",
+          "source_type": "media_report",
+          "title": "県内全市町村長が花角知事を推薦 対抗馬擁立の見通し立たない野党 中道・米山隆一氏は「状況整えばありうる」",
+          "url": "https://www.fnn.jp/articles/-/1006822",
+          "published_at": "2026-02-28"
+        }
+      ]
+    }
+  ]
+}

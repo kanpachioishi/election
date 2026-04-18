@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-10T09:51:46+09:00",
+  "election_id": "el-pref-03-governor-2023",
+  "records": [
+    {
+      "id": "el-pref-03-governor-2023-bulletin-01",
+      "election_id": "el-pref-03-governor-2023",
+      "kind": "bulletin",
+      "title": "令和5年9月3日執行 岩手県知事選挙選挙公報",
+      "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/074/328/sennkyokouhoutizi.pdf",
+      "summary": "岩手県選挙管理委員会の公式選挙公報PDFです。令和5年9月3日執行の岩手県知事選挙に明確に紐づいています。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/074/328/sennkyokouhoutizi.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:51:46+09:00",
+        "last_checked_at": "2026-04-10T09:51:46+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-03-governor-2023-other-01",
+      "election_id": "el-pref-03-governor-2023",
+      "kind": "other",
+      "title": "令和5年9月3日 県知事・県議会議員選挙",
+      "url": "https://www.pref.iwate.jp/iinkai/senkyo/kekka/1074328.html",
+      "summary": "岩手県の公式ページです。令和5年9月3日執行の県知事選挙の投開票結果と公報リンクを確認できます。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.iwate.jp/iinkai/senkyo/kekka/1074328.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-10T09:51:46+09:00",
+        "last_checked_at": "2026-04-10T09:51:46+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T17:40:00+09:00",
+  "prefix": "849",
+  "records": [
+    {
+      "postal_code": "8490302",
+      "region_id": "mun-41208",
+      "match_kind": "exact",
+      "confidence": "high",
+      "verification": {
+        "source_url": "https://www.post.japanpost.jp/cgi-deli/zipcode.php?city=1414010&cmp=1&id=148621&marge=1&name=&pref=41",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T17:40:00+09:00",
+        "last_checked_at": "2026-04-09T17:40:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": "小城市牛津町柿樋瀬"
+    }
+  ]
+}

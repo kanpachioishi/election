@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T13:45:00+09:00",
+  "prefix": "923",
+  "records": [
+    {
+      "postal_code": "9230953",
+      "region_id": "mun-17203",
+      "match_kind": "exact",
+      "confidence": "high",
+      "verification": {
+        "source_url": "https://www.post.japanpost.jp/cgi-zip/zipcode.php?city=1172100&id=67017&pref=17",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T13:45:00+09:00",
+        "last_checked_at": "2026-04-09T13:45:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": "石川県小松市旭町"
+    }
+  ]
+}

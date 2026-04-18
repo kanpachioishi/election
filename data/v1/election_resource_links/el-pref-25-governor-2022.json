@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T19:10:00+09:00",
+  "election_id": "el-pref-25-governor-2022",
+  "records": [
+    {
+      "id": "el-pref-25-governor-2022-candidate-list-01",
+      "election_id": "el-pref-25-governor-2022",
+      "kind": "candidate_list",
+      "title": "滋賀県知事選挙・滋賀県議会議員補欠選挙（令和4年7月10日執行）候補者等情報",
+      "url": "https://www.pref.shiga.lg.jp/senkyo/tihou/326075.html",
+      "summary": "滋賀県知事選挙の候補者情報。県議補選の候補者情報も併載。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.shiga.lg.jp/senkyo/tihou/326075.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T19:10:00+09:00",
+        "last_checked_at": "2026-04-09T19:10:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-pref-25-governor-2022-bulletin-01",
+      "election_id": "el-pref-25-governor-2022",
+      "kind": "bulletin",
+      "title": "滋賀県知事選挙 選挙公報（PDF）",
+      "url": "https://www.pref.shiga.lg.jp/file/attachment/5333188.pdf",
+      "summary": "滋賀県知事選挙の選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.pref.shiga.lg.jp/file/attachment/5333188.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T19:10:00+09:00",
+        "last_checked_at": "2026-04-09T19:10:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

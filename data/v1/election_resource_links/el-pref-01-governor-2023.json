@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T10:18:00+09:00",
+  "election_id": "el-pref-01-governor-2023",
+  "records": [
+    {
+      "id": "el-pref-01-governor-2023-bulletin-01",
+      "election_id": "el-pref-01-governor-2023",
+      "kind": "bulletin",
+      "title": "令和5年北海道知事選挙及び北海道議会議員選挙 選挙公報",
+      "url": "https://www.pref.hokkaido.lg.jp/hs/151082.html",
+      "summary": "北海道選挙管理委員会の公式選挙公報ページ。知事選挙公報への導線を掲載。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.hokkaido.lg.jp/hs/151082.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T10:18:00+09:00",
+        "last_checked_at": "2026-04-09T10:18:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

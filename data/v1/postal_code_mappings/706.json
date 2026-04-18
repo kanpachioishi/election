@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T13:12:00+09:00",
+  "prefix": "706",
+  "records": [
+    {
+      "postal_code": "7060011",
+      "region_id": "mun-33204",
+      "match_kind": "exact",
+      "confidence": "high",
+      "verification": {
+        "source_url": "https://www.post.japanpost.jp/cgi-zip/zipcode.php?zip=7060011",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T13:12:00+09:00",
+        "last_checked_at": "2026-04-09T13:12:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": "岡山県玉野市宇野"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-11T09:00:00+09:00",
+  "election_id": "el-by-mun-47214-assembly-2025-01",
+  "records": [
+    {
+      "id": "el-by-mun-47214-assembly-2025-01-candidate-list-01",
+      "election_id": "el-by-mun-47214-assembly-2025-01",
+      "kind": "candidate_list",
+      "title": "宮古島市議会議員補欠選挙 立候補者一覧",
+      "url": "https://www.city.miyakojima.lg.jp/soshiki/senkyo/oshirase/2024-1126-1434-211.html",
+      "summary": "宮古島市長選挙及び宮古島市議会議員補欠選挙のお知らせページ。市議会議員補欠選挙の立候補者一覧PDFへの公式導線を掲載している。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.miyakojima.lg.jp/soshiki/senkyo/oshirase/2024-1126-1434-211.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T09:00:00+09:00",
+        "last_checked_at": "2026-04-11T09:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-by-mun-47214-assembly-2025-01-early-voting-01",
+      "election_id": "el-by-mun-47214-assembly-2025-01",
+      "kind": "early_voting",
+      "title": "宮古島市議会議員補欠選挙 期日前投票",
+      "url": "https://www.city.miyakojima.lg.jp/soshiki/senkyo/oshirase/2024-1126-1434-211.html",
+      "summary": "宮古島市長選挙及び宮古島市議会議員補欠選挙のお知らせページ。期日前投票の期間、時間、会場を掲載している。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.city.miyakojima.lg.jp/soshiki/senkyo/oshirase/2024-1126-1434-211.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T09:00:00+09:00",
+        "last_checked_at": "2026-04-11T09:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-by-mun-47214-assembly-2025-01-polling-place-01",
+      "election_id": "el-by-mun-47214-assembly-2025-01",
+      "kind": "polling_place",
+      "title": "宮古島市長選挙・市議会議員補欠選挙 投票所一覧",
+      "url": "https://www.city.miyakojima.lg.jp/soshiki/senkyo/oshirase/files/R7.1.19_touhyousyo.pdf",
+      "summary": "宮古島市選挙管理委員会が公開している令和7年1月19日執行の宮古島市長選挙及び宮古島市議会議員補欠選挙の当日投票所・期日前投票所一覧PDF。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.city.miyakojima.lg.jp/soshiki/senkyo/oshirase/2024-1126-1434-211.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T09:00:00+09:00",
+        "last_checked_at": "2026-04-11T09:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-by-mun-47214-assembly-2025-01-other-01",
+      "election_id": "el-by-mun-47214-assembly-2025-01",
+      "kind": "other",
+      "title": "宮古島市長選挙・宮古島市議会議員補欠選挙のお知らせ",
+      "url": "https://www.city.miyakojima.lg.jp/soshiki/senkyo/oshirase/2024-1126-1434-211.html",
+      "summary": "宮古島市長選挙及び宮古島市議会議員補欠選挙の告示日、投票日、立候補者一覧、投票所、期日前投票を掲載している宮古島市の公式ページ。",
+      "is_official": true,
+      "display_order": 4,
+      "verification": {
+        "source_url": "https://www.city.miyakojima.lg.jp/soshiki/senkyo/oshirase/2024-1126-1434-211.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-11T09:00:00+09:00",
+        "last_checked_at": "2026-04-11T09:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

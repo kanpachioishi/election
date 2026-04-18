@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T17:40:00+09:00",
+  "prefix": "817",
+  "records": [
+    {
+      "postal_code": "8170322",
+      "region_id": "mun-42209",
+      "match_kind": "exact",
+      "confidence": "high",
+      "verification": {
+        "source_url": "https://www.post.japanpost.jp/cgi-deli/zipcode.php?city=1422090&cmp=1&id=150686&marge=1&name=&pref=42",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T17:40:00+09:00",
+        "last_checked_at": "2026-04-09T17:40:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": "対馬市美津島町鶏知"
+    }
+  ]
+}

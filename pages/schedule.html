@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>全国の選挙スケジュール一覧 - わたしの選挙</title>
+  <meta name="description" content="全国の選挙スケジュールを一覧でチェック。国政選挙、都道府県選挙、市区町村選挙をまとめて確認できます。">
+  <meta property="og:title" content="全国の選挙スケジュール一覧 - わたしの選挙">
+  <meta property="og:description" content="全国の選挙スケジュールを一覧でチェック。国政・地方選挙をまとめて確認。">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://watashino-senkyo.com/pages/schedule.html">
+  <link rel="stylesheet" href="../common/style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="../index.html" class="site-logo">
+        <span class="logo-icon">&#x1F5F3;</span>
+        わたしの選挙
+      </a>
+      <button class="menu-toggle" aria-label="メニュー" onclick="document.querySelector('.nav-list').classList.toggle('open')">&#9776;</button>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="../index.html">トップ</a></li>
+          <li><a href="schedule.html" class="active">選挙スケジュール</a></li>
+          <li><a href="governor-terms.html">知事の任期一覧</a></li>
+          <li><a href="turnout.html">投票率データ</a></li>
+          <li><a href="../index.html#about">このサイトについて</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="page-title">全国の選挙スケジュール</h1>
+    <p class="page-subtitle">国政選挙から地方選挙まで、今後の選挙予定を一覧で確認できます。</p>
+
+    <!-- フィルター -->
+    <div class="filter-bar" id="filterBar">
+      <button class="filter-btn active" data-filter="all">すべて</button>
+      <button class="filter-btn" data-filter="national">国政選挙</button>
+      <button class="filter-btn" data-filter="prefectural">都道府県</button>
+      <button class="filter-btn" data-filter="municipal">市区町村</button>
+    </div>
+
+    <!-- スケジュールリスト -->
+    <div class="schedule-list" id="scheduleList"></div>
+  </main>
+
+  <!-- フッター -->
+  <footer class="site-footer">
+    <p class="footer-message">このサイトは投票率向上を目指す個人プロジェクトです。</p>
+    <div class="footer-links">
+      <a href="#">プライバシーポリシー</a>
+      <a href="#">お問い合わせ</a>
+    </div>
+    <p class="footer-copy">&copy; 2025 わたしの選挙</p>
+  </footer>
+
+  <script src="../data/elections.js"></script>
+  <script>
+    const scheduleList = document.getElementById('scheduleList');
+    const filterBar = document.getElementById('filterBar');
+    let currentFilter = 'all';
+
+    // フィルターボタン
+    filterBar.addEventListener('click', function(e) {
+      if (!e.target.classList.contains('filter-btn')) return;
+      filterBar.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      e.target.classList.add('active');
+      currentFilter = e.target.dataset.filter;
+      renderSchedule();
+    });
+
+    function renderSchedule() {
+      const now = new Date();
+
+      const filtered = ELECTIONS
+        .map(e => {
+          const dateObj = new Date(e.date);
+          const daysLeft = Math.ceil((dateObj - now) / (1000 * 60 * 60 * 24));
+          return { ...e, dateObj, daysLeft };
+        })
+        .filter(e => currentFilter === 'all' || e.type === currentFilter)
+        .sort((a, b) => a.dateObj - b.dateObj);
+
+      if (filtered.length === 0) {
+        scheduleList.innerHTML = '<div class="no-results">該当する選挙予定はありません。</div>';
+        return;
+      }
+
+      scheduleList.innerHTML = filtered.map(e => {
+        const d = e.dateObj;
+        const year = d.getFullYear();
+        const month = d.getMonth() + 1;
+        const day = d.getDate();
+        const days = ['日', '月', '火', '水', '木', '金', '土'];
+        const dayName = days[d.getDay()];
+        const typeLabel = { national: '国政選挙', prefectural: '都道府県', municipal: '市区町村' }[e.type];
+        const regionLabel = e.regions.includes('all') ? '全国' : getRegionName(e.regions);
+
+        let countdownText;
+        if (e.daysLeft < 0) {
+          countdownText = '<span style="color:var(--color-text-muted)">終了</span>';
+        } else if (e.daysLeft === 0) {
+          countdownText = '<span style="color:var(--color-accent); font-weight:700">本日！</span>';
+        } else if (e.daysLeft <= 30) {
+          countdownText = `<span style="color:var(--color-accent); font-weight:700">あと${e.daysLeft}日</span>`;
+        } else {
+          countdownText = `<span style="color:var(--color-text-muted)">あと${e.daysLeft}日</span>`;
+        }
+
+        return `
+          <div class="schedule-item">
+            <div class="schedule-date-box">
+              <div class="year">${year}</div>
+              <div class="month">${month}月</div>
+              <div class="day">${day}</div>
+            </div>
+            <div class="schedule-info">
+              <h3>${e.name}</h3>
+              <div class="schedule-meta">
+                <span class="card-type ${e.type}" style="font-size:0.7rem; vertical-align:middle;">${typeLabel}</span>
+                &nbsp; ${regionLabel} &nbsp; ${year}年${month}月${day}日（${dayName}） &nbsp; ${countdownText}
+              </div>
+              <p class="schedule-desc">${e.description}</p>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function getRegionName(regions) {
+      const prefNames = {
+        '01': '北海道', '02': '青森県', '03': '岩手県', '04': '宮城県', '05': '秋田県',
+        '06': '山形県', '07': '福島県', '08': '茨城県', '09': '栃木県', '10': '群馬県', '11': '埼玉県', '12': '千葉県',
+        '13': '東京都', '14': '神奈川県', '15': '新潟県', '16': '富山県', '17': '石川県', '18': '福井県', '19': '山梨県',
+        '20': '長野県', '21': '岐阜県', '22': '静岡県', '23': '愛知県', '24': '三重県', '25': '滋賀県', '26': '京都府',
+        '27': '大阪府', '28': '兵庫県', '29': '奈良県', '30': '和歌山県', '31': '鳥取県', '32': '島根県', '33': '岡山県', '34': '広島県', '35': '山口県', '36': '徳島県', '37': '香川県', '38': '愛媛県', '39': '高知県', '40': '福岡県',
+        '41': '佐賀県', '42': '長崎県', '43': '熊本県', '44': '大分県', '45': '宮崎県', '46': '鹿児島県', '47': '沖縄県'
+      };
+      return regions.map(r => prefNames[r] || r).join('、');
+    }
+
+    renderSchedule();
+  </script>
+
+</body>
+</html>

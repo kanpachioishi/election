@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T09:26:00+09:00",
+  "election_id": "el-pref-34-governor-2025",
+  "records": [
+    {
+      "id": "el-pref-34-governor-2025-bulletin-01",
+      "election_id": "el-pref-34-governor-2025",
+      "kind": "bulletin",
+      "title": "令和7年執行 広島県知事選挙",
+      "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/07chiji-senkyo.html",
+      "summary": "投開票結果と選挙公報のダウンロードがまとまった広島県選挙管理委員会の公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/07chiji-senkyo.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T09:23:30+09:00",
+        "last_checked_at": "2026-04-09T09:23:30+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

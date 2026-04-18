@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T13:45:00+09:00",
+  "election_id": "el-pref-20-governor-2022",
+  "records": [
+    {
+      "id": "el-pref-20-governor-2022-other-01",
+      "election_id": "el-pref-20-governor-2022",
+      "kind": "other",
+      "title": "過去の選挙結果メインページ",
+      "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/kako/index.html",
+      "summary": "長野県の公式過去選挙結果ページです。令和4年8月7日執行の長野県知事選挙の投票結果と開票結果を確認できます。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/kako/index.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T13:45:00+09:00",
+        "last_checked_at": "2026-04-09T13:45:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

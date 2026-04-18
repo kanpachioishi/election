@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T18:05:00+09:00",
+  "election_id": "el-pref-46-governor-2024",
+  "records": [
+    {
+      "id": "el-pref-46-governor-2024-other-01",
+      "election_id": "el-pref-46-governor-2024",
+      "kind": "other",
+      "title": "鹿児島県知事選挙投開票速報",
+      "url": "https://www.pref.kagoshima.jp/ka01/kensei/senkyo/senkyokekka/202406/r6chiji-sokuhou.html",
+      "summary": "鹿児島県の公式ページです。令和6年7月7日執行の鹿児島県知事選挙の投票結果と開票結果を確認できます。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.kagoshima.jp/ka01/kensei/senkyo/senkyokekka/202406/r6chiji-sokuhou.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T18:05:00+09:00",
+        "last_checked_at": "2026-04-09T18:05:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

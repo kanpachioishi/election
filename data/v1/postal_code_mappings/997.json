@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T16:05:00+09:00",
+  "prefix": "997",
+  "records": [
+    {
+      "postal_code": "9970033",
+      "region_id": "mun-06203",
+      "match_kind": "exact",
+      "confidence": "high",
+      "verification": {
+        "source_url": "https://www.post.japanpost.jp/cgi-zip/zipcode.php?city=1062030&id=23128&pref=6",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T16:05:00+09:00",
+        "last_checked_at": "2026-04-09T16:05:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": "鶴岡市泉町"
+    }
+  ]
+}

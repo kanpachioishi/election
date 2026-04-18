@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-09T13:45:00+09:00",
+  "prefix": "380",
+  "records": [
+    {
+      "postal_code": "3800837",
+      "region_id": "mun-20201",
+      "match_kind": "exact",
+      "confidence": "high",
+      "verification": {
+        "source_url": "https://www.post.japanpost.jp/cgi-zip/zipcode.php?city=1202070&id=74750&pref=20",
+        "source_type": "official",
+        "confirmed_at": "2026-04-09T13:45:00+09:00",
+        "last_checked_at": "2026-04-09T13:45:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": "長野県長野市南長野（幅下）"
+    }
+  ]
+}

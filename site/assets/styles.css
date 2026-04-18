@@ -400,6 +400,7 @@ h1 span {
 .hero-notice-heading {
   display: grid;
   gap: 0.3rem;
+  justify-items: center;
 }
 
 .hero-notice-title {
@@ -407,6 +408,7 @@ h1 span {
   font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
   font-size: clamp(1.3rem, 2vw, 1.78rem);
   line-height: 1.16;
+  text-align: center;
 }
 
 .hero-notice-body {
@@ -420,7 +422,7 @@ h1 span {
 .hero-notice-list {
   display: grid;
   gap: 0.78rem;
-  margin: 0;
+  margin: 0.38rem 0 0;
   padding: 0;
   list-style: none;
 }

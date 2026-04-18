@@ -8,6 +8,9 @@
 workspace:
 - [C:/Users/shimo/Desktop/election](C:/Users/shimo/Desktop/election)
 
+次の目標:
+- AdSense 審査を通せる状態までサイト品質と運用面を整え、AdSense を獲得すること
+
 公開状態:
 - 本番 URL: [https://senkyoannai.com](https://senkyoannai.com)
 - `www`: [https://www.senkyoannai.com](https://www.senkyoannai.com)
@@ -123,9 +126,9 @@ Pages 設定:
 
 ## 7. 次にやる候補
 
-1. 本番 URL と Pages preview を軽く目視確認する  
-2. 必要なら `robots.txt`、favicon、OGP、Analytics を整える  
-3. 次のデータ更新作業へ戻る
+1. AdSense 審査を見据えて、本番 URL と Pages preview を軽く目視確認する  
+2. AdSense 獲得に向けて `robots.txt`、favicon、OGP、Analytics、運営者情報、問い合わせ導線などを整える  
+3. コンテンツと内部導線を増やしつつ、次のデータ更新作業へ戻る
 
 ## 8. 次回そのまま使える依頼文
 

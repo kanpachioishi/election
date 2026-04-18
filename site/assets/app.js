@@ -689,32 +689,8 @@ function renderDetail(election) {
 }
 
 function renderSummary(view) {
-  const elections = view.elections;
-  const postalMatch = getPostalMatch(state.query);
-  if (view.mode === "default") {
-    els.resultSummary.innerHTML = `
-      <span>初期表示: ${view.upcomingCount}件のこれからの選挙を表示しています。</span>
-      <button class="summary-action" type="button" data-show-all>全${view.total}件を見る</button>
-    `;
-    return;
-  }
-
-  if (view.mode === "defaultAll") {
-    els.resultSummary.innerHTML = `
-      <span>全${view.total}件を表示しています。</span>
-      <button class="summary-action" type="button" data-show-initial>初期表示に戻す</button>
-    `;
-    return;
-  }
-
-  const fragments = [`${elections.length}件を表示`];
-  if (postalMatch) {
-    fragments.push(`${postalMatch.prefix} は ${postalMatch.regionName} に対応`);
-  }
-  if (state.kind !== "all") {
-    fragments.push(`${KIND_LABELS[state.kind]}あり`);
-  }
-  els.resultSummary.textContent = fragments.join(" / ");
+  els.resultSummary.textContent = "";
+  els.resultSummary.hidden = true;
 }
 
 function selectElection(id, shouldScroll = false) {
@@ -828,17 +804,6 @@ function bindEvents() {
     selectElection(card.dataset.electionId, shouldJumpToDetail);
   });
 
-  els.resultSummary.addEventListener("click", (event) => {
-    if (event.target.closest("[data-show-all]")) {
-      state.showAllDefault = true;
-      render();
-      return;
-    }
-    if (event.target.closest("[data-show-initial]")) {
-      state.showAllDefault = false;
-      render();
-    }
-  });
 }
 
 function initFromHash() {

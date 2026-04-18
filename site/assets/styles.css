@@ -145,10 +145,10 @@ main {
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  gap: 1rem;
+  gap: 1.35rem;
   align-items: start;
   min-height: auto;
-  padding: clamp(1.25rem, 3vw, 2.2rem) 0 clamp(0.6rem, 1.5vw, 1rem);
+  padding: clamp(2.1rem, 4.5vw, 3.3rem) 0 clamp(1.2rem, 2.4vw, 1.8rem);
 }
 
 .hero-copy,
@@ -184,7 +184,7 @@ h1 span {
 
 .lead {
   max-width: 760px;
-  margin: 1rem 0 0;
+  margin: 1.25rem 0 0;
   color: #c3ccd6;
   font-size: clamp(1rem, 2vw, 1.2rem);
   line-height: 1.85;
@@ -196,7 +196,7 @@ h1 span {
   display: flex;
   flex-wrap: wrap;
   gap: 0.8rem;
-  margin-top: 1.25rem;
+  margin-top: 1.6rem;
 }
 
 .button {
@@ -312,7 +312,7 @@ code {
 
 .workspace,
 .coverage {
-  padding: 1rem 0 5rem;
+  padding: 1.8rem 0 5rem;
 }
 
 .section-heading {

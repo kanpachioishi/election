@@ -15,11 +15,6 @@ const SUBTYPE_LABELS = {
   lower_house: "衆院",
 };
 
-const PHASE_LABELS = {
-  upcoming: "これから",
-  archived: "終了",
-};
-
 const KIND_LABELS = {
   candidate_list: "候補者",
   bulletin: "選挙公報",
@@ -64,11 +59,9 @@ const RESOURCE_GROUPS = [
 const state = {
   query: "",
   type: "all",
-  phase: "all",
   kind: "all",
   region: "all",
   selectedId: null,
-  showAllDefault: false,
 };
 
 const els = {
@@ -76,7 +69,6 @@ const els = {
   generatedNote: document.getElementById("generatedNote"),
   searchInput: document.getElementById("searchInput"),
   typeFilter: document.getElementById("typeFilter"),
-  phaseFilter: document.getElementById("phaseFilter"),
   kindFilter: document.getElementById("kindFilter"),
   regionFilter: document.getElementById("regionFilter"),
   resetFilters: document.getElementById("resetFilters"),
@@ -272,8 +264,8 @@ function getFilteredElections() {
   const postalMatch = getPostalMatch(state.query);
 
   return DATA.elections
+    .filter((election) => election.phase === "upcoming")
     .filter((election) => state.type === "all" || election.type === state.type)
-    .filter((election) => state.phase === "all" || election.phase === state.phase)
     .filter((election) => state.kind === "all" || election.resourceKinds.includes(state.kind))
     .filter((election) => electionMatchesRegion(election, state.region))
     .filter((election) => {
@@ -298,7 +290,6 @@ function getFilteredElections() {
 function isDefaultBrowse() {
   return !state.query &&
     state.type === "all" &&
-    state.phase === "all" &&
     state.kind === "all" &&
     state.region === "all";
 }
@@ -306,21 +297,18 @@ function isDefaultBrowse() {
 function getElectionView() {
   const filteredRaw = getFilteredElections();
   const filtered = buildDisplayElections(filteredRaw);
-  if (!isDefaultBrowse() || state.showAllDefault) {
+  if (!isDefaultBrowse()) {
     return {
       elections: filtered,
       total: filtered.length,
-      mode: state.showAllDefault && isDefaultBrowse() ? "defaultAll" : "filtered",
+      mode: "filtered",
     };
   }
 
-  const upcoming = filtered.filter((election) => election.phase === "upcoming");
-
   return {
-    elections: ensureSelectedElectionVisible(upcoming, filtered),
+    elections: ensureSelectedElectionVisible(filtered, filtered),
     total: filtered.length,
     mode: "default",
-    upcomingCount: upcoming.length,
   };
 }
 
@@ -344,11 +332,6 @@ function initFilters() {
     { value: "all", label: "すべて" },
     ...Object.entries(TYPE_LABELS).map(([value, label]) => ({ value, label })),
   ], state.type);
-
-  renderSelect(els.phaseFilter, [
-    { value: "all", label: "すべて" },
-    ...Object.entries(PHASE_LABELS).map(([value, label]) => ({ value, label })),
-  ], state.phase);
 
   renderSelect(els.kindFilter, [
     { value: "all", label: "すべて" },
@@ -398,12 +381,9 @@ function renderCoverage() {
     .map(([kind, label]) => [label, DATA.stats.byResourceKind[kind] ?? 0]);
   const typeRows = Object.entries(TYPE_LABELS)
     .map(([type, label]) => [label, DATA.stats.byType[type] ?? 0]);
-  const phaseRows = Object.entries(PHASE_LABELS)
-    .map(([phase, label]) => [label, DATA.stats.byPhase[phase] ?? 0]);
 
   const groups = [
     { title: "選挙種別", rows: typeRows },
-    { title: "状態", rows: phaseRows },
     { title: "公式リンク種別", rows: resourceRows },
   ];
 
@@ -435,7 +415,6 @@ function renderSubtypePills(election) {
 function hasActiveFilters() {
   return Boolean(state.query) ||
     state.type !== "all" ||
-    state.phase !== "all" ||
     state.kind !== "all" ||
     state.region !== "all";
 }
@@ -455,7 +434,6 @@ function getEmptyStateHints() {
   }
 
   if (state.type !== "all") hints.push(`種別が「${TYPE_LABELS[state.type] ?? state.type}」に絞られています。`);
-  if (state.phase !== "all") hints.push(`状態が「${PHASE_LABELS[state.phase] ?? state.phase}」に絞られています。`);
   if (state.kind !== "all") hints.push(`公式リンクが「${KIND_LABELS[state.kind] ?? state.kind}」ありに絞られています。`);
   if (state.region !== "all") {
     const region = DATA.regions.find((entry) => entry.id === state.region);
@@ -475,7 +453,6 @@ function getEmptyStateActions() {
   const hasPostalQuery = digits.length >= 3;
   const postalMatch = getPostalMatch(state.query);
   const hasNarrowFilters = state.type !== "all" ||
-    state.phase !== "all" ||
     state.kind !== "all" ||
     state.region !== "all";
 
@@ -732,11 +709,6 @@ function bindEvents() {
     render();
   });
 
-  els.phaseFilter.addEventListener("change", (event) => {
-    state.phase = event.target.value;
-    render();
-  });
-
   els.kindFilter.addEventListener("change", (event) => {
     state.kind = event.target.value;
     render();
@@ -750,10 +722,8 @@ function bindEvents() {
   els.resetFilters.addEventListener("click", () => {
     state.query = "";
     state.type = "all";
-    state.phase = "all";
     state.kind = "all";
     state.region = "all";
-    state.showAllDefault = false;
     els.searchInput.value = "";
     initFilters();
     render();
@@ -765,10 +735,8 @@ function bindEvents() {
       const action = emptyAction.dataset.emptyAction;
       if (action === "relax-filters") {
         state.type = "all";
-        state.phase = "all";
         state.kind = "all";
         state.region = "all";
-        state.showAllDefault = false;
         initFilters();
         render();
         return;
@@ -776,10 +744,8 @@ function bindEvents() {
       if (action === "search-region") {
         state.query = "";
         state.type = "all";
-        state.phase = "all";
         state.kind = "all";
         state.region = "all";
-        state.showAllDefault = false;
         els.searchInput.value = "";
         initFilters();
         render();

@@ -372,6 +372,10 @@ function initFilters() {
 }
 
 function renderHero() {
+  if (!els.heroMetrics || !els.generatedNote) {
+    return;
+  }
+
   const metrics = [
     ["選挙", DATA.stats.elections],
     ["公式リンク", DATA.stats.resourceLinks],

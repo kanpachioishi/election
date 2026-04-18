@@ -1,4 +1,4 @@
-const CACHE_VERSION = "v1";
+const CACHE_VERSION = "v2";
 const STATIC_CACHE = `election-static-${CACHE_VERSION}`;
 const DATA_CACHE = `election-data-${CACHE_VERSION}`;
 const CORE_ASSETS = [
@@ -58,11 +58,12 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  if (
-    url.pathname.startsWith("/assets/") ||
-    url.pathname.startsWith("/icons/") ||
-    url.pathname === "/manifest.webmanifest"
-  ) {
+  if (url.pathname.startsWith("/assets/") || url.pathname === "/manifest.webmanifest") {
+    event.respondWith(networkFirst(request, STATIC_CACHE));
+    return;
+  }
+
+  if (url.pathname.startsWith("/icons/")) {
     event.respondWith(cacheFirst(request, STATIC_CACHE));
   }
 });
@@ -113,6 +114,23 @@ async function cacheFirst(request, cacheName) {
   const cache = await caches.open(cacheName);
   cache.put(request, networkResponse.clone());
   return networkResponse;
+}
+
+async function networkFirst(request, cacheName) {
+  const cache = await caches.open(cacheName);
+
+  try {
+    const networkResponse = await fetch(request);
+    cache.put(request, networkResponse.clone());
+    return networkResponse;
+  } catch {
+    const cachedResponse = await cache.match(request);
+    if (cachedResponse) {
+      return cachedResponse;
+    }
+
+    throw new Error(`Network request failed for ${request.url}`);
+  }
 }
 
 async function staleWhileRevalidate(request, cacheName) {

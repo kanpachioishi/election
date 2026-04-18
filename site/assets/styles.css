@@ -404,7 +404,6 @@ h1 span {
 
 .hero-notice-title {
   margin: 0;
-  max-width: 9.5em;
   font-size: clamp(1.3rem, 2vw, 1.78rem);
   line-height: 1.16;
 }

@@ -15,6 +15,67 @@ const SUBTYPE_LABELS = {
   lower_house: "衆院",
 };
 
+const MACRO_REGION_LABELS = {
+  hokkaido: "北海道",
+  tohoku: "東北",
+  kanto: "関東",
+  chubu: "中部",
+  kansai: "関西",
+  chugoku: "中国",
+  shikoku: "四国",
+  kyushu_okinawa: "九州・沖縄",
+};
+
+const PREFECTURE_TO_MACRO_REGION = {
+  "01": "hokkaido",
+  "02": "tohoku",
+  "03": "tohoku",
+  "04": "tohoku",
+  "05": "tohoku",
+  "06": "tohoku",
+  "07": "tohoku",
+  "08": "kanto",
+  "09": "kanto",
+  "10": "kanto",
+  "11": "kanto",
+  "12": "kanto",
+  "13": "kanto",
+  "14": "kanto",
+  "15": "chubu",
+  "16": "chubu",
+  "17": "chubu",
+  "18": "chubu",
+  "19": "chubu",
+  "20": "chubu",
+  "21": "chubu",
+  "22": "chubu",
+  "23": "chubu",
+  "24": "kansai",
+  "25": "kansai",
+  "26": "kansai",
+  "27": "kansai",
+  "28": "kansai",
+  "29": "kansai",
+  "30": "kansai",
+  "31": "chugoku",
+  "32": "chugoku",
+  "33": "chugoku",
+  "34": "chugoku",
+  "35": "chugoku",
+  "36": "shikoku",
+  "37": "shikoku",
+  "38": "shikoku",
+  "39": "shikoku",
+  "40": "kyushu_okinawa",
+  "41": "kyushu_okinawa",
+  "42": "kyushu_okinawa",
+  "43": "kyushu_okinawa",
+  "44": "kyushu_okinawa",
+  "45": "kyushu_okinawa",
+  "46": "kyushu_okinawa",
+  "47": "kyushu_okinawa",
+};
+
 const KIND_LABELS = {
   candidate_list: "候補者",
   bulletin: "選挙公報",
@@ -59,7 +120,9 @@ const RESOURCE_GROUPS = [
 const state = {
   query: "",
   type: "all",
-  region: "all",
+  macroRegion: "all",
+  prefecture: "all",
+  municipality: "all",
   selectedId: null,
 };
 
@@ -68,13 +131,25 @@ const els = {
   generatedNote: document.getElementById("generatedNote"),
   searchInput: document.getElementById("searchInput"),
   typeFilter: document.getElementById("typeFilter"),
-  regionFilter: document.getElementById("regionFilter"),
+  macroRegionFilter: document.getElementById("macroRegionFilter"),
+  prefectureFilter: document.getElementById("prefectureFilter"),
+  municipalityFilter: document.getElementById("municipalityFilter"),
   resetFilters: document.getElementById("resetFilters"),
   resultSummary: document.getElementById("resultSummary"),
   electionList: document.getElementById("electionList"),
   detail: document.getElementById("detail"),
   coverageGrid: document.getElementById("coverageGrid"),
 };
+
+const prefectureRegions = DATA.regions
+  .filter((region) => region.level === "prefecture")
+  .sort((left, right) => left.prefCode.localeCompare(right.prefCode));
+
+const municipalityRegions = DATA.regions
+  .filter((region) => region.level === "municipality")
+  .sort((left, right) => left.prefCode.localeCompare(right.prefCode) || left.displayName.localeCompare(right.displayName, "ja"));
+
+const regionById = new Map(DATA.regions.map((region) => [region.id, region]));
 
 function escapeHtml(value = "") {
   return String(value)
@@ -142,11 +217,34 @@ function electionSearchText(election) {
   ].join(" "));
 }
 
-function electionMatchesRegion(election, regionValue) {
-  if (regionValue === "all") return true;
-  if (election.primaryRegionId === regionValue) return true;
-  if (election.prefectureRegionId === regionValue) return true;
-  return election.scopeType === "all" && regionValue.startsWith("pref-");
+function getMacroRegionByPrefCode(prefCode) {
+  return PREFECTURE_TO_MACRO_REGION[String(prefCode ?? "").padStart(2, "0")] ?? null;
+}
+
+function electionMatchesLocation(election) {
+  const municipalityRegion = state.municipality !== "all" ? regionById.get(state.municipality) : null;
+
+  if (state.municipality !== "all") {
+    if (election.scopeType === "all") return true;
+    if (election.primaryRegionId === state.municipality) return true;
+    if (municipalityRegion && election.prefectureRegionId === municipalityRegion.prefectureRegionId) return true;
+    return false;
+  }
+
+  if (state.prefecture !== "all") {
+    if (election.scopeType === "all") return true;
+    if (election.primaryRegionId === state.prefecture) return true;
+    if (election.prefectureRegionId === state.prefecture) return true;
+    return false;
+  }
+
+  if (state.macroRegion !== "all") {
+    if (election.scopeType === "all") return true;
+    const prefCode = election.prefectureRegionId?.replace("pref-", "") || "";
+    return getMacroRegionByPrefCode(prefCode) === state.macroRegion;
+  }
+
+  return true;
 }
 
 function isJointElectionCandidate(election) {
@@ -264,12 +362,13 @@ function getFilteredElections() {
   return DATA.elections
     .filter((election) => election.phase === "upcoming")
     .filter((election) => state.type === "all" || election.type === state.type)
-    .filter((election) => electionMatchesRegion(election, state.region))
+    .filter((election) => electionMatchesLocation(election))
     .filter((election) => {
       if (!query) return true;
       if (postalMatch) {
-        return electionMatchesRegion(election, postalMatch.regionId) ||
-          electionMatchesRegion(election, postalMatch.prefectureRegionId);
+        const matchesMunicipality = election.primaryRegionId === postalMatch.regionId;
+        const matchesPrefecture = election.prefectureRegionId === postalMatch.prefectureRegionId;
+        return matchesMunicipality || matchesPrefecture || election.scopeType === "all";
       }
       return electionSearchText(election).includes(query);
     })
@@ -287,7 +386,9 @@ function getFilteredElections() {
 function isDefaultBrowse() {
   return !state.query &&
     state.type === "all" &&
-    state.region === "all";
+    state.macroRegion === "all" &&
+    state.prefecture === "all" &&
+    state.municipality === "all";
 }
 
 function getElectionView() {
@@ -329,20 +430,40 @@ function initFilters() {
     ...Object.entries(TYPE_LABELS).map(([value, label]) => ({ value, label })),
   ], state.type);
 
-  const regionOptions = DATA.regions
-    .filter((region) => region.level === "prefecture" || DATA.elections.some((election) => election.primaryRegionId === region.id))
-    .sort((left, right) => {
-      const levelOrder = { prefecture: 0, municipality: 1 };
-      return left.prefCode.localeCompare(right.prefCode) ||
-        levelOrder[left.level] - levelOrder[right.level] ||
-        left.displayName.localeCompare(right.displayName, "ja");
-    })
+  renderLocationFilters();
+}
+
+function renderLocationFilters() {
+  renderSelect(els.macroRegionFilter, [
+    { value: "all", label: "すべて" },
+    ...Object.entries(MACRO_REGION_LABELS).map(([value, label]) => ({ value, label })),
+  ], state.macroRegion);
+
+  const prefectureOptions = prefectureRegions
+    .filter((region) => state.macroRegion === "all" || getMacroRegionByPrefCode(region.prefCode) === state.macroRegion)
     .map((region) => ({
       value: region.id,
-      label: region.level === "prefecture" ? region.name : `　${region.name}`,
+      label: region.name,
     }));
 
-  renderSelect(els.regionFilter, [{ value: "all", label: "すべて" }, ...regionOptions], state.region);
+  renderSelect(els.prefectureFilter, [
+    { value: "all", label: state.macroRegion === "all" ? "地方を選んでください" : "すべて" },
+    ...prefectureOptions,
+  ], state.prefecture);
+  els.prefectureFilter.disabled = state.macroRegion === "all";
+
+  const municipalityOptions = municipalityRegions
+    .filter((region) => state.prefecture !== "all" && region.prefectureRegionId === state.prefecture)
+    .map((region) => ({
+      value: region.id,
+      label: region.name,
+    }));
+
+  renderSelect(els.municipalityFilter, [
+    { value: "all", label: state.prefecture === "all" ? "都道府県を選んでください" : "すべて" },
+    ...municipalityOptions,
+  ], state.municipality);
+  els.municipalityFilter.disabled = state.prefecture === "all";
 }
 
 function renderHero() {
@@ -406,7 +527,9 @@ function renderSubtypePills(election) {
 function hasActiveFilters() {
   return Boolean(state.query) ||
     state.type !== "all" ||
-    state.region !== "all";
+    state.macroRegion !== "all" ||
+    state.prefecture !== "all" ||
+    state.municipality !== "all";
 }
 
 function getEmptyStateHints() {
@@ -418,15 +541,20 @@ function getEmptyStateHints() {
   if (hasPostalQuery && !postalMatch) {
     hints.push("入力された郵便番号の先頭3桁は、まだ対応データに入っていません。市区町村名や都道府県名でも試してください。");
   } else if (hasPostalQuery && postalMatch) {
-    hints.push(`${postalMatch.prefix} は ${postalMatch.regionName} に対応する郵便番号データです。地域や種別の条件を外すと見つかる場合があります。`);
+    hints.push(`${postalMatch.prefix} は ${postalMatch.regionName} に対応する郵便番号データです。地方や種別の条件を外すと見つかる場合があります。`);
   } else if (state.query) {
     hints.push("地域名、選挙名、候補者、公報など、検索語を短くすると見つかる場合があります。");
   }
 
   if (state.type !== "all") hints.push(`種別が「${TYPE_LABELS[state.type] ?? state.type}」に絞られています。`);
-  if (state.region !== "all") {
-    const region = DATA.regions.find((entry) => entry.id === state.region);
-    hints.push(`地域が「${region?.displayName ?? region?.name ?? state.region}」に絞られています。`);
+  if (state.municipality !== "all") {
+    const region = regionById.get(state.municipality);
+    hints.push(`市区町村が「${region?.name ?? state.municipality}」に絞られています。`);
+  } else if (state.prefecture !== "all") {
+    const region = regionById.get(state.prefecture);
+    hints.push(`都道府県が「${region?.name ?? state.prefecture}」に絞られています。`);
+  } else if (state.macroRegion !== "all") {
+    hints.push(`地方が「${MACRO_REGION_LABELS[state.macroRegion] ?? state.macroRegion}」に絞られています。`);
   }
 
   if (!hints.length) {
@@ -442,7 +570,9 @@ function getEmptyStateActions() {
   const hasPostalQuery = digits.length >= 3;
   const postalMatch = getPostalMatch(state.query);
   const hasNarrowFilters = state.type !== "all" ||
-    state.region !== "all";
+    state.macroRegion !== "all" ||
+    state.prefecture !== "all" ||
+    state.municipality !== "all";
 
   if (hasNarrowFilters) {
     actions.push({ action: "relax-filters", label: "フィルターを広げる", primary: true });
@@ -697,15 +827,32 @@ function bindEvents() {
     render();
   });
 
-  els.regionFilter.addEventListener("change", (event) => {
-    state.region = event.target.value;
+  els.macroRegionFilter.addEventListener("change", (event) => {
+    state.macroRegion = event.target.value;
+    state.prefecture = "all";
+    state.municipality = "all";
+    renderLocationFilters();
+    render();
+  });
+
+  els.prefectureFilter.addEventListener("change", (event) => {
+    state.prefecture = event.target.value;
+    state.municipality = "all";
+    renderLocationFilters();
+    render();
+  });
+
+  els.municipalityFilter.addEventListener("change", (event) => {
+    state.municipality = event.target.value;
     render();
   });
 
   els.resetFilters.addEventListener("click", () => {
     state.query = "";
     state.type = "all";
-    state.region = "all";
+    state.macroRegion = "all";
+    state.prefecture = "all";
+    state.municipality = "all";
     els.searchInput.value = "";
     initFilters();
     render();
@@ -717,7 +864,9 @@ function bindEvents() {
       const action = emptyAction.dataset.emptyAction;
       if (action === "relax-filters") {
         state.type = "all";
-        state.region = "all";
+        state.macroRegion = "all";
+        state.prefecture = "all";
+        state.municipality = "all";
         initFilters();
         render();
         return;
@@ -725,7 +874,9 @@ function bindEvents() {
       if (action === "search-region") {
         state.query = "";
         state.type = "all";
-        state.region = "all";
+        state.macroRegion = "all";
+        state.prefecture = "all";
+        state.municipality = "all";
         els.searchInput.value = "";
         initFilters();
         render();

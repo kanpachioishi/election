@@ -59,7 +59,6 @@ const RESOURCE_GROUPS = [
 const state = {
   query: "",
   type: "all",
-  kind: "all",
   region: "all",
   selectedId: null,
 };
@@ -69,7 +68,6 @@ const els = {
   generatedNote: document.getElementById("generatedNote"),
   searchInput: document.getElementById("searchInput"),
   typeFilter: document.getElementById("typeFilter"),
-  kindFilter: document.getElementById("kindFilter"),
   regionFilter: document.getElementById("regionFilter"),
   resetFilters: document.getElementById("resetFilters"),
   resultSummary: document.getElementById("resultSummary"),
@@ -266,7 +264,6 @@ function getFilteredElections() {
   return DATA.elections
     .filter((election) => election.phase === "upcoming")
     .filter((election) => state.type === "all" || election.type === state.type)
-    .filter((election) => state.kind === "all" || election.resourceKinds.includes(state.kind))
     .filter((election) => electionMatchesRegion(election, state.region))
     .filter((election) => {
       if (!query) return true;
@@ -290,7 +287,6 @@ function getFilteredElections() {
 function isDefaultBrowse() {
   return !state.query &&
     state.type === "all" &&
-    state.kind === "all" &&
     state.region === "all";
 }
 
@@ -332,11 +328,6 @@ function initFilters() {
     { value: "all", label: "すべて" },
     ...Object.entries(TYPE_LABELS).map(([value, label]) => ({ value, label })),
   ], state.type);
-
-  renderSelect(els.kindFilter, [
-    { value: "all", label: "すべて" },
-    ...Object.entries(KIND_LABELS).map(([value, label]) => ({ value, label })),
-  ], state.kind);
 
   const regionOptions = DATA.regions
     .filter((region) => region.level === "prefecture" || DATA.elections.some((election) => election.primaryRegionId === region.id))
@@ -415,7 +406,6 @@ function renderSubtypePills(election) {
 function hasActiveFilters() {
   return Boolean(state.query) ||
     state.type !== "all" ||
-    state.kind !== "all" ||
     state.region !== "all";
 }
 
@@ -428,13 +418,12 @@ function getEmptyStateHints() {
   if (hasPostalQuery && !postalMatch) {
     hints.push("入力された郵便番号の先頭3桁は、まだ対応データに入っていません。市区町村名や都道府県名でも試してください。");
   } else if (hasPostalQuery && postalMatch) {
-    hints.push(`${postalMatch.prefix} は ${postalMatch.regionName} に対応する郵便番号データです。地域やリンク種別の条件を外すと見つかる場合があります。`);
+    hints.push(`${postalMatch.prefix} は ${postalMatch.regionName} に対応する郵便番号データです。地域や種別の条件を外すと見つかる場合があります。`);
   } else if (state.query) {
     hints.push("地域名、選挙名、候補者、公報など、検索語を短くすると見つかる場合があります。");
   }
 
   if (state.type !== "all") hints.push(`種別が「${TYPE_LABELS[state.type] ?? state.type}」に絞られています。`);
-  if (state.kind !== "all") hints.push(`公式リンクが「${KIND_LABELS[state.kind] ?? state.kind}」ありに絞られています。`);
   if (state.region !== "all") {
     const region = DATA.regions.find((entry) => entry.id === state.region);
     hints.push(`地域が「${region?.displayName ?? region?.name ?? state.region}」に絞られています。`);
@@ -453,7 +442,6 @@ function getEmptyStateActions() {
   const hasPostalQuery = digits.length >= 3;
   const postalMatch = getPostalMatch(state.query);
   const hasNarrowFilters = state.type !== "all" ||
-    state.kind !== "all" ||
     state.region !== "all";
 
   if (hasNarrowFilters) {
@@ -709,11 +697,6 @@ function bindEvents() {
     render();
   });
 
-  els.kindFilter.addEventListener("change", (event) => {
-    state.kind = event.target.value;
-    render();
-  });
-
   els.regionFilter.addEventListener("change", (event) => {
     state.region = event.target.value;
     render();
@@ -722,7 +705,6 @@ function bindEvents() {
   els.resetFilters.addEventListener("click", () => {
     state.query = "";
     state.type = "all";
-    state.kind = "all";
     state.region = "all";
     els.searchInput.value = "";
     initFilters();
@@ -735,7 +717,6 @@ function bindEvents() {
       const action = emptyAction.dataset.emptyAction;
       if (action === "relax-filters") {
         state.type = "all";
-        state.kind = "all";
         state.region = "all";
         initFilters();
         render();
@@ -744,7 +725,6 @@ function bindEvents() {
       if (action === "search-region") {
         state.query = "";
         state.type = "all";
-        state.kind = "all";
         state.region = "all";
         els.searchInput.value = "";
         initFilters();

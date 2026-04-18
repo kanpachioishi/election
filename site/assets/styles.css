@@ -422,7 +422,7 @@ h1 span {
 .hero-notice-list {
   display: grid;
   gap: 0.78rem;
-  margin: 0.38rem 0 0;
+  margin: 0.72rem 0 0;
   padding: 0;
   list-style: none;
 }
@@ -465,7 +465,6 @@ h1 span {
   gap: 0.7rem;
   margin-top: 0.35rem;
   padding-top: 0.95rem;
-  border-top: 1px solid rgba(244, 239, 227, 0.09);
 }
 
 .hero-notice-card .button,

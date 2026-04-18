@@ -869,7 +869,7 @@
     section.id = "quick-compare";
 
     const header = createEl("div", "section__header");
-    header.appendChild(createEl("p", "eyebrow", "candidate snapshot"));
+    header.appendChild(createEl("p", "eyebrow", "候補者比較"));
     header.appendChild(createEl("h3", null, `${copy.primaryLabel}のひと目比較`));
     header.appendChild(createEl("p", "section__lead", "年齢、立場、導線、推薦・支持、最終確認を上で見比べられます。"));
     header.appendChild(createEl("p", "quick-compare__note", "導線欄は公式サイト、SNS、プロフィール、政策の確認状況です。未掲載は未確認を示します。"));

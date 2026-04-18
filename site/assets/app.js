@@ -102,6 +102,13 @@ function formatDate(dateText) {
   return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日（${weekdays[date.getDay()]}）`;
 }
 
+function formatDateTime(dateText) {
+  if (!dateText) return "";
+  const date = new Date(dateText);
+  if (Number.isNaN(date.getTime())) return String(dateText);
+  return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日 ${String(date.getHours()).padStart(2, "0")}:${String(date.getMinutes()).padStart(2, "0")}`;
+}
+
 function getDaysFromToday(dateText) {
   const today = new Date();
   const base = new Date(today.getFullYear(), today.getMonth(), today.getDate());
@@ -379,7 +386,7 @@ function renderHero() {
     </div>
   `).join("");
 
-  els.generatedNote.textContent = `source generated_at: ${DATA.sourceGeneratedAt}`;
+  els.generatedNote.textContent = `データ更新: ${formatDateTime(DATA.sourceGeneratedAt)}`;
 }
 
 function renderCoverage() {

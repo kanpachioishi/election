@@ -347,10 +347,10 @@ h2 {
 .search-guidance {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
-  gap: 0.35rem 0.75rem;
+  gap: 0.45rem 0.9rem;
   align-items: center;
-  margin: 0.65rem 0 0.45rem;
-  padding: 0.4rem 0 0.4rem 0.85rem;
+  margin: 1rem 0 0.8rem;
+  padding: 0.55rem 0 0.55rem 0.95rem;
   border-left: 3px solid var(--gold);
   color: var(--muted);
   font-size: 0.9rem;
@@ -415,9 +415,9 @@ a:focus-visible {
 .result-summary {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.65rem 0.85rem;
+  gap: 0.8rem 1rem;
   align-items: center;
-  margin: 1rem 0;
+  margin: 1.25rem 0 1.35rem;
   color: var(--muted);
   font-size: 0.95rem;
 }
@@ -446,13 +446,13 @@ a:focus-visible {
 .content-grid {
   display: grid;
   grid-template-columns: minmax(0, 0.95fr) minmax(340px, 0.8fr);
-  gap: 1.1rem;
+  gap: 1.5rem;
   align-items: start;
 }
 
 .election-list {
   display: grid;
-  gap: 0.8rem;
+  gap: 1rem;
   max-height: calc(100vh + 22rem);
   padding-right: 0.45rem;
   overflow-y: auto;
@@ -495,17 +495,17 @@ a:focus-visible {
 }
 
 .election-list .election-card {
-  gap: 0.35rem;
-  padding: 0.82rem 0.9rem;
+  gap: 0.45rem;
+  padding: 1rem 1.05rem;
 }
 
 .election-list .card-main {
-  gap: 0.35rem;
+  gap: 0.45rem;
 }
 
 .election-list .card-topline,
 .election-list .chip-row {
-  gap: 0.3rem;
+  gap: 0.4rem;
 }
 
 .election-list .election-card strong {
@@ -660,12 +660,12 @@ a:focus-visible {
 }
 
 .detail-card {
-  padding: 1.1rem;
+  padding: 1.35rem;
   border-radius: 1.5rem;
 }
 
 .detail-card h3 {
-  margin: 1rem 0 0.6rem;
+  margin: 1.1rem 0 0.75rem;
   font-size: clamp(1.7rem, 4vw, 2.6rem);
   line-height: 1.12;
 }
@@ -698,8 +698,8 @@ a:focus-visible {
 
 .detail-facts {
   display: grid;
-  gap: 0.5rem;
-  margin: 1rem 0;
+  gap: 0.7rem;
+  margin: 1.15rem 0;
 }
 
 .detail-facts div {

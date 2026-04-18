@@ -341,15 +341,17 @@ h1 span {
   align-self: stretch;
   justify-self: end;
   display: grid;
-  gap: 1rem;
-  width: min(100%, 360px);
-  padding: 1.35rem;
+  gap: 1.05rem;
+  width: min(100%, 352px);
+  padding: 1.6rem 1.55rem 1.5rem;
   background:
-    linear-gradient(180deg, rgba(255, 210, 122, 0.08), rgba(255, 210, 122, 0) 22%),
-    linear-gradient(180deg, rgba(18, 29, 40, 0.98), rgba(12, 20, 28, 0.92));
-  border: 1px solid rgba(255, 210, 122, 0.18);
-  border-radius: 1.7rem;
-  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.34);
+    linear-gradient(180deg, rgba(255, 210, 122, 0.05), rgba(255, 210, 122, 0) 18%),
+    linear-gradient(180deg, rgba(15, 24, 33, 0.97), rgba(10, 18, 26, 0.95));
+  border: 1px solid rgba(255, 210, 122, 0.14);
+  border-radius: 1.9rem;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.04),
+    0 20px 52px rgba(0, 0, 0, 0.28);
   overflow: hidden;
 }
 
@@ -357,20 +359,20 @@ h1 span {
   content: "";
   position: absolute;
   inset: 0 0 auto;
-  height: 5.5rem;
+  height: 4.4rem;
   background:
-    radial-gradient(circle at top right, rgba(139, 220, 242, 0.18), transparent 52%),
-    linear-gradient(135deg, rgba(255, 210, 122, 0.16), rgba(255, 210, 122, 0));
+    radial-gradient(circle at top right, rgba(139, 220, 242, 0.12), transparent 48%),
+    linear-gradient(135deg, rgba(255, 210, 122, 0.1), rgba(255, 210, 122, 0));
   pointer-events: none;
 }
 
 .hero-notice-card::after {
   content: "";
   position: absolute;
-  inset: auto -15% -42% 28%;
-  height: 9rem;
+  inset: auto -10% -38% 36%;
+  height: 7rem;
   border-radius: 999px;
-  background: radial-gradient(circle, rgba(139, 220, 242, 0.14), transparent 66%);
+  background: radial-gradient(circle, rgba(139, 220, 242, 0.08), transparent 68%);
   pointer-events: none;
 }
 
@@ -397,13 +399,14 @@ h1 span {
 
 .hero-notice-heading {
   display: grid;
-  gap: 0.45rem;
+  gap: 0.3rem;
 }
 
 .hero-notice-title {
   margin: 0;
-  font-size: clamp(1.25rem, 2vw, 1.65rem);
-  line-height: 1.25;
+  max-width: 9.5em;
+  font-size: clamp(1.3rem, 2vw, 1.78rem);
+  line-height: 1.16;
 }
 
 .hero-notice-body {
@@ -416,7 +419,7 @@ h1 span {
 .hero-notice-points,
 .hero-notice-list {
   display: grid;
-  gap: 0.65rem;
+  gap: 0.78rem;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -427,23 +430,23 @@ h1 span {
 .hero-notice-point {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr);
-  gap: 0.65rem;
+  gap: 0.78rem;
   align-items: start;
-  color: var(--ink);
-  font-size: 0.92rem;
-  line-height: 1.65;
+  color: #eef2f5;
+  font-size: 0.965rem;
+  line-height: 1.55;
 }
 
 .hero-notice-points li::before,
 .hero-notice-list li::before,
 .hero-notice-point::before {
   content: "";
-  width: 0.5rem;
-  height: 0.5rem;
-  margin-top: 0.42rem;
+  width: 0.42rem;
+  height: 0.42rem;
+  margin-top: 0.46rem;
   border-radius: 999px;
   background: linear-gradient(180deg, var(--gold), #ffb58d);
-  box-shadow: 0 0 0 0.24rem rgba(255, 210, 122, 0.12);
+  box-shadow: 0 0 0 0.17rem rgba(255, 210, 122, 0.1);
 }
 
 .hero-notice-meta,
@@ -457,19 +460,21 @@ h1 span {
 .hero-notice-actions {
   display: grid;
   gap: 0.7rem;
-  margin-top: 0.1rem;
+  margin-top: 0.35rem;
+  padding-top: 0.95rem;
+  border-top: 1px solid rgba(244, 239, 227, 0.09);
 }
 
 .hero-notice-card .button,
 .hero-notice-cta {
   width: 100%;
-  min-height: 3.1rem;
-  border-radius: 1rem;
+  min-height: 2.95rem;
+  border-radius: 0.95rem;
 }
 
 .hero-notice-card .button.primary,
 .hero-notice-cta.button.primary {
-  box-shadow: inset 0 -3px 0 rgba(7, 16, 21, 0.14), 0 14px 28px rgba(255, 210, 122, 0.12);
+  box-shadow: inset 0 -2px 0 rgba(7, 16, 21, 0.12), 0 10px 20px rgba(255, 210, 122, 0.09);
 }
 
 .hero-notice-card .button.ghost {
@@ -1429,18 +1434,33 @@ a:focus-visible {
   }
 
   .hero-notice-card {
-    gap: 0.9rem;
-    padding: 1.15rem;
-    border-radius: 1.35rem;
+    gap: 0.88rem;
+    padding: 1.18rem 1.08rem 1.12rem;
+    border-radius: 1.4rem;
   }
 
   .hero-notice-title {
+    max-width: none;
     font-size: 1.18rem;
   }
 
   .hero-notice-card .button,
   .hero-notice-cta {
-    min-height: 2.95rem;
+    min-height: 2.9rem;
+  }
+
+  .hero-notice-actions {
+    margin-top: 0.25rem;
+    padding-top: 0.78rem;
+  }
+
+  .hero-notice-card::before {
+    height: 3.6rem;
+  }
+
+  .hero-notice-card::after {
+    inset: auto -8% -44% 46%;
+    height: 5.2rem;
   }
 
   .hero-panel::before {

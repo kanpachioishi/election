@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>このサイトについて - わたしの選挙</title>
+  <meta name="description" content="わたしの選挙が何をするサイトか、どんな考えで情報を並べているか、どこまで案内するサイトかを説明します。">
+  <meta name="theme-color" content="#0b1219">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="icon" href="../icons/app-icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../icons/app-icon.svg">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html" aria-label="わたしの選挙トップ">
+      <span class="brand-mark" aria-hidden="true">票</span>
+      <span>
+        <strong>わたしの選挙</strong>
+        <small>公式情報への案内</small>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="主なページ">
+      <a href="../index.html">トップ</a>
+      <a href="about.html" aria-current="page">このサイトについて</a>
+      <a href="verification-policy.html">情報の確認基準</a>
+      <a href="privacy.html">プライバシーと通知</a>
+      <a href="contact.html">お問い合わせ</a>
+    </nav>
+  </header>
+
+  <main class="info-page-main">
+    <section class="hero info-page-hero">
+      <div class="info-page-shell">
+        <p class="eyebrow">About</p>
+        <h1 class="info-page-title">このサイトについて</h1>
+        <p class="lead">
+          このサイトは、選挙ごとに散らばる公式情報を、必要になりやすい順で短く案内するためのページです。
+        </p>
+      </div>
+    </section>
+
+    <section class="site-intro">
+      <div class="info-page-grid">
+        <article class="site-intro-card info-page-card">
+          <h2>このサイトの役割</h2>
+          <p>
+            候補者一覧、選挙公報、投票日、期日前投票、投票所案内など、投票前に確認したい公式情報を選挙ごとに整理しています。
+            比較や評価を行うよりも、最初に見るべき公的ページへ迷わず進めることを重視しています。
+          </p>
+        </article>
+
+        <article class="site-intro-card info-page-card">
+          <h2>このサイト独自の価値</h2>
+          <p>
+            自治体サイトや選挙管理委員会のページは、情報が複数の場所に分かれていることがあります。
+            このサイトでは、それらを探し回らなくても済むように、投票までに必要になりやすい順で入口をまとめています。
+          </p>
+        </article>
+
+        <article class="site-intro-card info-page-card">
+          <h2>運営方針と責任範囲</h2>
+          <p>
+            このサイトは選挙の公式機関ではありません。
+            公式発表への案内と要点整理を行うページであり、最終確認は必ず各公式ページで行ってください。
+            確認方針や誤り連絡の考え方は、確認基準ページとお問い合わせページで案内しています。
+          </p>
+        </article>
+      </div>
+
+      <div class="info-page-actions" aria-label="関連ページ">
+        <a class="button ghost" href="../index.html">トップに戻る</a>
+        <a class="button ghost" href="verification-policy.html">情報の確認基準を見る</a>
+        <a class="button ghost" href="contact.html">訂正や連絡について見る</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>このサイトは、確認した一次情報をもとに、選挙ごとの公式ページへの導線を整理しています。</p>
+    <div class="footer-links">
+      <a href="about.html">このサイトについて</a>
+      <a href="verification-policy.html">情報の確認基準</a>
+      <a href="privacy.html">プライバシーと通知</a>
+      <a href="contact.html">お問い合わせ</a>
+    </div>
+  </footer>
+
+  <script src="../assets/pwa.js"></script>
+</body>
+</html>

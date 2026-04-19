@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>わたしの選挙 | 公式情報への入口</title>
-  <meta name="description" content="確認済みの選挙データをもとに、候補者情報、選挙公報、期日前投票、投票所案内などの公式ページへ進める案内サイトです。">
+  <title>わたしの選挙 | 公式情報への案内</title>
+  <meta name="description" content="地域ごとの選挙や議会について、候補者一覧、選挙公報、投票日、期日前投票、投票所案内、議会の要点まとめなどの公式情報へ進むための案内サイトです。">
   <meta name="theme-color" content="#0b1219">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -15,16 +15,16 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="./index.html" aria-label="わたしの選挙 トップ">
+    <a class="brand" href="./index.html" aria-label="わたしの選挙トップ">
       <span class="brand-mark" aria-hidden="true">票</span>
       <span>
         <strong>わたしの選挙</strong>
         <small>公式情報への案内</small>
       </span>
     </a>
-    <nav class="site-nav" aria-label="主要ナビゲーション">
+    <nav class="site-nav" aria-label="主なナビゲーション">
       <a href="#elections">選挙を探す</a>
-      <a href="#detail">詳細</a>
+      <a href="#assemblies">議会を探す</a>
       <a href="#coverage">データ状況</a>
     </nav>
   </header>
@@ -38,8 +38,12 @@
             <span>迷わずたどり着く</span>
           </h1>
           <p class="lead">
-            候補者一覧、選挙公報、期日前投票、投票所案内への導線を整理しています。<br>
-            対応地域と掲載情報は順次拡張しています。
+            候補者一覧、選挙公報、投票日、期日前投票、投票所案内など、
+            選挙ごとに散らばる公式情報を、確認しやすい順にまとめています。
+          </p>
+          <p class="hero-disclaimer">
+            このサイトは選挙の公式機関ではなく、各公式ページへ進むための案内ページです。
+            最終確認は必ず各公式ページでお願いします。
           </p>
         </div>
         <aside class="hero-notice-card" aria-label="選挙の通知設定">
@@ -53,14 +57,55 @@
           <div class="hero-notice-actions">
             <a class="button primary hero-notice-cta" href="notifications/register.html">通知を設定する</a>
           </div>
+          <p class="hero-notice-footnote">
+            <a href="pages/privacy.html">通知のしくみとプライバシーを見る</a>
+          </p>
         </aside>
+      </div>
+    </section>
+
+    <section class="site-intro" id="about">
+      <div class="section-heading">
+        <h2>このサイトについて</h2>
+      </div>
+      <p class="site-intro-note">
+        使い方だけでなく、確認基準、更新方針、運営方針も先に確認できます。
+      </p>
+      <div class="site-intro-grid">
+        <article class="site-intro-card">
+          <h3>このサイト独自の価値</h3>
+          <p>
+            このサイトは、選挙ごとに散らばっている公式情報を、投票までに必要になりやすい順で見つけやすく整理した案内ページです。
+            候補者一覧、公報、期日前投票、投票所案内などを、地域から絞り込んで公式ページへたどれます。
+          </p>
+        </article>
+        <article class="site-intro-card">
+          <h3>確認と更新の方針</h3>
+          <p>
+            掲載情報は、自治体、都道府県・市区町村の選挙管理委員会、総務省などの公式発表を優先して確認しています。
+            内容は更新されることがあるため、掲載後も見直しを行い、誤りや更新が見つかった場合は差し替えます。
+          </p>
+        </article>
+        <article class="site-intro-card">
+          <h3>利用前に知っておいてほしいこと</h3>
+          <p>
+            このサイトは候補者を評価したり、投票先を勧めたりするページではありません。
+            まず確認の入口を整え、最終的な日時・場所・掲載内容は必ず各公式ページで確かめてもらうことを前提にしています。
+          </p>
+        </article>
+      </div>
+      <div class="site-intro-links" aria-label="関連ページ">
+        <a class="button ghost" href="pages/about.html">このサイトについて詳しく見る</a>
+        <a class="button ghost" href="pages/verification-policy.html">情報の確認基準を見る</a>
+        <a class="button ghost" href="#assemblies">議会ページを見る</a>
+        <a class="button ghost" href="pages/privacy.html">プライバシーと通知を見る</a>
+        <a class="button ghost" href="pages/contact.html">訂正や連絡について見る</a>
       </div>
     </section>
 
     <section class="workspace" id="elections">
       <div class="section-heading">
         <h2>選挙を探す</h2>
-        <p>キーワード、地方、都道府県、市区町村で絞り込めます。カードを選ぶと詳細パネルに公式リンクがまとまります。</p>
       </div>
 
       <div class="filters" aria-label="選挙検索フィルター">
@@ -91,19 +136,55 @@
       </div>
     </section>
 
+    <section class="workspace assembly-workspace" id="assemblies">
+      <div class="section-heading">
+        <h2>議会を探す</h2>
+      </div>
+      <p class="site-intro-note">
+        自治体ごとの議会ページを掲載しています。まずは政令市を中心に追加しています。
+      </p>
+      <div class="filters assembly-filters" aria-label="議会検索フィルター">
+        <label class="field wide">
+          <span>キーワード</span>
+          <input id="assemblySearchInput" type="search" placeholder="例: 福岡市、予算、定例会">
+        </label>
+        <label class="field">
+          <span>地方</span>
+          <select id="assemblyMacroRegionFilter"></select>
+        </label>
+        <label class="field">
+          <span>都道府県</span>
+          <select id="assemblyPrefectureFilter"></select>
+        </label>
+        <label class="field">
+          <span>市区町村</span>
+          <select id="assemblyMunicipalityFilter"></select>
+        </label>
+        <button class="button reset" id="assemblyResetFilters" type="button">リセット</button>
+      </div>
+      <p class="result-summary" id="assemblyResultSummary"></p>
+      <div class="assembly-grid" id="assemblyGrid" aria-label="議会ページ一覧"></div>
+    </section>
+
     <section class="coverage" id="coverage">
       <div class="section-heading">
-        <p class="eyebrow">掲載状況</p>
         <h2>今のデータ状況</h2>
-        <p>掲載中の選挙と公式リンクの状況です。対応地域と掲載情報は順次拡張しています。</p>
       </div>
       <div class="coverage-grid" id="coverageGrid"></div>
     </section>
-
   </main>
 
   <footer class="site-footer">
-    <p>このサイトは確認済みの選挙データをもとに、選挙ごとの公式情報への導線を整理しています。</p>
+      <p>
+        このサイトは、確認した一次情報をもとに、選挙や議会ごとの公式ページへの導線を整理しています。
+        確認基準、運営方針、プライバシー、お問い合わせ先を公開しています。
+      </p>
+    <div class="footer-links">
+      <a href="pages/about.html">このサイトについて</a>
+      <a href="pages/verification-policy.html">情報の確認基準</a>
+      <a href="pages/privacy.html">プライバシーと通知</a>
+      <a href="pages/contact.html">お問い合わせ</a>
+    </div>
   </footer>
 
   <script src="data/site-data.js"></script>

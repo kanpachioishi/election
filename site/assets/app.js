@@ -85,6 +85,99 @@ const KIND_LABELS = {
   other: "その他",
 };
 
+const ASSEMBLY_PAGES = [
+  {
+    slug: "fukuoka-city-assembly",
+    title: "福岡市議会の要点まとめ",
+    body: "定例会・臨時会ごとに、会期の流れ、決まったこと、暮らしとの関わり、公式リンクをまとめています。",
+    prefCode: "40",
+    prefectureName: "福岡県",
+    municipalityName: "福岡市",
+    scopeLabel: "福岡県・福岡市",
+    categoryLabel: "市議会",
+    latestSessionLabel: "令和8年第1回定例会",
+    latestSessionDateLabel: "2026年2月17日 - 3月27日",
+    hasLatestSession: true,
+    href: "pages/fukuoka-city-assembly.html",
+    actionLabel: "福岡市議会を見る",
+  },
+  {
+    slug: "sapporo-city-assembly",
+    title: "札幌市議会の要点まとめ",
+    body: "定例会ごとの日程、議案結果、会議録、録画、公式リンクをまとめて追えるようにしています。",
+    prefCode: "01",
+    prefectureName: "北海道",
+    municipalityName: "札幌市",
+    scopeLabel: "北海道・札幌市",
+    categoryLabel: "市議会",
+    latestSessionLabel: "令和8年第1回定例会",
+    latestSessionDateLabel: "2026年2月12日 - 3月26日",
+    hasLatestSession: true,
+    href: "pages/sapporo-city-assembly.html",
+    actionLabel: "札幌市議会を見る",
+  },
+  {
+    slug: "kobe-city-assembly",
+    title: "神戸市会の要点まとめ",
+    body: "市会日程、本会議結果、会議録、録画、市会だよりへの入口をそろえて、会期ごとの流れを追えるようにしています。",
+    prefCode: "28",
+    prefectureName: "兵庫県",
+    municipalityName: "神戸市",
+    scopeLabel: "兵庫県・神戸市",
+    categoryLabel: "市会",
+    latestSessionLabel: "2025年第2回定例市会11月議会",
+    latestSessionDateLabel: "2025年11月27日 - 12月9日",
+    hasLatestSession: true,
+    href: "pages/kobe-city-assembly.html",
+    actionLabel: "神戸市会を見る",
+  },
+  {
+    slug: "sendai-city-assembly",
+    title: "仙台市議会の要点まとめ",
+    body: "定例会の日程、議案結果、会議録、録画、市議会だよりの入口をまとめて、会期ごとの流れを追えるようにしています。",
+    prefCode: "04",
+    prefectureName: "宮城県",
+    municipalityName: "仙台市",
+    scopeLabel: "宮城県・仙台市",
+    categoryLabel: "市議会",
+    latestSessionLabel: "令和8年第1回定例会",
+    latestSessionDateLabel: "2026年2月13日 - 3月18日",
+    hasLatestSession: true,
+    href: "pages/sendai-city-assembly.html",
+    actionLabel: "仙台市議会を見る",
+  },
+  {
+    slug: "yokohama-city-assembly",
+    title: "横浜市会の要点まとめ",
+    body: "定例会の日程、議案一覧、会議録、録画、ヨコハマ議会だよりの入口をまとめて、会期ごとの流れを追えるようにしています。",
+    prefCode: "14",
+    prefectureName: "神奈川県",
+    municipalityName: "横浜市",
+    scopeLabel: "神奈川県・横浜市",
+    categoryLabel: "市会",
+    latestSessionLabel: "令和8年第1回定例会",
+    latestSessionDateLabel: "2026年1月28日 - 3月24日",
+    hasLatestSession: true,
+    href: "pages/yokohama-city-assembly.html",
+    actionLabel: "横浜市会を見る",
+  },
+  {
+    slug: "nagoya-city-assembly",
+    title: "名古屋市会の要点まとめ",
+    body: "定例会の日程、提出案件、会議録、録画、市会だよりの入口をまとめて、会期ごとの流れを追えるようにしています。",
+    prefCode: "23",
+    prefectureName: "愛知県",
+    municipalityName: "名古屋市",
+    scopeLabel: "愛知県・名古屋市",
+    categoryLabel: "市会",
+    latestSessionLabel: "令和8年2月定例会",
+    latestSessionDateLabel: "2026年2月18日 - 3月19日",
+    hasLatestSession: true,
+    href: "pages/nagoya-city-assembly.html",
+    actionLabel: "名古屋市会を見る",
+  },
+];
+
 const RESOURCE_GROUPS = [
   {
     kind: "candidate_list",
@@ -126,6 +219,13 @@ const state = {
   selectedId: null,
 };
 
+const assemblyState = {
+  query: "",
+  macroRegion: "all",
+  prefecture: "all",
+  municipality: "all",
+};
+
 const els = {
   heroMetrics: document.getElementById("heroMetrics"),
   generatedNote: document.getElementById("generatedNote"),
@@ -137,6 +237,13 @@ const els = {
   resultSummary: document.getElementById("resultSummary"),
   electionList: document.getElementById("electionList"),
   detail: document.getElementById("detail"),
+  assemblySearchInput: document.getElementById("assemblySearchInput"),
+  assemblyMacroRegionFilter: document.getElementById("assemblyMacroRegionFilter"),
+  assemblyPrefectureFilter: document.getElementById("assemblyPrefectureFilter"),
+  assemblyMunicipalityFilter: document.getElementById("assemblyMunicipalityFilter"),
+  assemblyResetFilters: document.getElementById("assemblyResetFilters"),
+  assemblyResultSummary: document.getElementById("assemblyResultSummary"),
+  assemblyGrid: document.getElementById("assemblyGrid"),
   coverageGrid: document.getElementById("coverageGrid"),
 };
 
@@ -149,6 +256,15 @@ const municipalityRegions = DATA.regions
   .sort((left, right) => left.prefCode.localeCompare(right.prefCode) || left.displayName.localeCompare(right.displayName, "ja"));
 
 const regionById = new Map(DATA.regions.map((region) => [region.id, region]));
+const assemblyPages = ASSEMBLY_PAGES.map((page) => {
+  const prefectureRegion = prefectureRegions.find((region) => region.prefCode === page.prefCode) ?? null;
+  const municipalityRegion = municipalityRegions.find((region) => region.prefCode === page.prefCode && region.name === page.municipalityName) ?? null;
+  return {
+    ...page,
+    prefectureRegionId: prefectureRegion?.id ?? null,
+    municipalityRegionId: municipalityRegion?.id ?? null,
+  };
+});
 
 function escapeHtml(value = "") {
   return String(value)
@@ -216,6 +332,20 @@ function electionSearchText(election) {
   ].join(" "));
 }
 
+function assemblySearchText(page) {
+  return normalizeText([
+    page.slug,
+    page.title,
+    page.body,
+    page.scopeLabel,
+    page.categoryLabel,
+    page.prefectureName,
+    page.municipalityName,
+    page.latestSessionLabel,
+    page.latestSessionDateLabel,
+  ].join(" "));
+}
+
 function getMacroRegionByPrefCode(prefCode) {
   return PREFECTURE_TO_MACRO_REGION[String(prefCode ?? "").padStart(2, "0")] ?? null;
 }
@@ -241,6 +371,25 @@ function electionMatchesLocation(election) {
     if (election.scopeType === "all") return true;
     const prefCode = election.prefectureRegionId?.replace("pref-", "") || "";
     return getMacroRegionByPrefCode(prefCode) === state.macroRegion;
+  }
+
+  return true;
+}
+
+function assemblyMatchesLocation(page) {
+  const municipalityRegion = assemblyState.municipality !== "all" ? regionById.get(assemblyState.municipality) : null;
+
+  if (assemblyState.municipality !== "all") {
+    return page.municipalityRegionId === assemblyState.municipality ||
+      (municipalityRegion && page.prefectureRegionId === municipalityRegion.prefectureRegionId && page.municipalityName === municipalityRegion.name);
+  }
+
+  if (assemblyState.prefecture !== "all") {
+    return page.prefectureRegionId === assemblyState.prefecture;
+  }
+
+  if (assemblyState.macroRegion !== "all") {
+    return getMacroRegionByPrefCode(page.prefCode) === assemblyState.macroRegion;
   }
 
   return true;
@@ -458,6 +607,39 @@ function renderLocationFilters() {
   els.municipalityFilter.disabled = state.prefecture === "all";
 }
 
+function renderAssemblyLocationFilters() {
+  renderSelect(els.assemblyMacroRegionFilter, [
+    { value: "all", label: "すべて" },
+    ...Object.entries(MACRO_REGION_LABELS).map(([value, label]) => ({ value, label })),
+  ], assemblyState.macroRegion);
+
+  const prefectureOptions = prefectureRegions
+    .filter((region) => assemblyState.macroRegion === "all" || getMacroRegionByPrefCode(region.prefCode) === assemblyState.macroRegion)
+    .map((region) => ({
+      value: region.id,
+      label: region.name,
+    }));
+
+  renderSelect(els.assemblyPrefectureFilter, [
+    { value: "all", label: assemblyState.macroRegion === "all" ? "地方を選んでください" : "すべて" },
+    ...prefectureOptions,
+  ], assemblyState.prefecture);
+  els.assemblyPrefectureFilter.disabled = assemblyState.macroRegion === "all";
+
+  const municipalityOptions = municipalityRegions
+    .filter((region) => assemblyState.prefecture !== "all" && region.prefectureRegionId === assemblyState.prefecture)
+    .map((region) => ({
+      value: region.id,
+      label: region.name,
+    }));
+
+  renderSelect(els.assemblyMunicipalityFilter, [
+    { value: "all", label: assemblyState.prefecture === "all" ? "都道府県を選んでください" : "すべて" },
+    ...municipalityOptions,
+  ], assemblyState.municipality);
+  els.assemblyMunicipalityFilter.disabled = assemblyState.prefecture === "all";
+}
+
 function renderHero() {
   if (!els.heroMetrics || !els.generatedNote) {
     return;
@@ -485,9 +667,10 @@ function renderCoverage() {
     .map(([kind, label]) => [label, DATA.stats.byResourceKind[kind] ?? 0]);
   const typeRows = Object.entries(TYPE_LABELS)
     .map(([type, label]) => [label, DATA.stats.byType[type] ?? 0]);
+  const expandedTypeRows = [...typeRows, ["市議会ページ", ASSEMBLY_PAGES.length]];
 
   const groups = [
-    { title: "選挙種別", rows: typeRows },
+    { title: "選挙種別", rows: expandedTypeRows },
     { title: "公式リンク種別", rows: resourceRows },
   ];
 
@@ -501,6 +684,66 @@ function renderCoverage() {
         </div>
       `).join("")}
     </article>
+  `).join("");
+}
+
+function getFilteredAssemblyPages() {
+  const query = normalizeText(assemblyState.query);
+  return assemblyPages
+    .filter((page) => assemblyMatchesLocation(page))
+    .filter((page) => !query || assemblySearchText(page).includes(query));
+}
+
+function renderAssemblySummary(pages) {
+  if (!els.assemblyResultSummary) {
+    return;
+  }
+  const total = assemblyPages.length;
+  els.assemblyResultSummary.hidden = false;
+  const hasFilters = Boolean(assemblyState.query) ||
+    assemblyState.macroRegion !== "all" ||
+    assemblyState.prefecture !== "all" ||
+    assemblyState.municipality !== "all";
+  els.assemblyResultSummary.textContent = hasFilters
+    ? `${pages.length}件表示 / 全${total}件`
+    : `掲載中の議会ページ ${total}件`;
+}
+
+function renderAssemblyPages(pages = assemblyPages) {
+  if (!els.assemblyGrid) {
+    return;
+  }
+
+  const buildAssemblyChips = (page) => [
+    page.scopeLabel,
+    page.latestSessionLabel,
+    page.latestSessionDateLabel,
+  ].filter(Boolean).map((label) => `<span class="subtype-pill">${escapeHtml(label)}</span>`).join("");
+
+  if (!pages.length) {
+    els.assemblyGrid.innerHTML = `
+      <article class="assembly-card">
+        <strong>該当する議会ページがまだありません。</strong>
+        <p class="assembly-copy">キーワードや地域条件をゆるめると見つかる場合があります。</p>
+        <div class="chip-row">
+          <button class="summary-action" type="button" data-assembly-reset="true">条件をリセット</button>
+          <a class="summary-action" href="#coverage">データ状況を見る</a>
+        </div>
+      </article>
+    `;
+    return;
+  }
+
+  els.assemblyGrid.innerHTML = pages.map((page) => `
+    <a class="assembly-card assembly-card-link" href="${escapeHtml(page.href)}">
+      <div class="card-topline">
+        <span class="type-pill municipal">${escapeHtml(page.categoryLabel)}</span>
+        ${page.hasLatestSession ? '<span class="date-badge">最新回あり</span>' : ""}
+      </div>
+      <strong>${escapeHtml(page.title)}</strong>
+      <p class="assembly-copy">${escapeHtml(page.body)}</p>
+      <div class="chip-row">${buildAssemblyChips(page)}</div>
+    </a>
   `).join("");
 }
 
@@ -620,7 +863,6 @@ function renderElectionList(elections) {
           <span class="card-date">${escapeHtml(formatDate(election.voteDate))}</span>
           <span class="chip-row">${renderResourceChips(election)}</span>
         </button>
-        <a class="card-detail-link" href="#detail" data-detail-jump>詳細を見る</a>
       </article>
     `;
   }).join("");
@@ -882,6 +1124,47 @@ function bindEvents() {
     selectElection(card.dataset.electionId, shouldJumpToDetail);
   });
 
+  els.assemblySearchInput.addEventListener("input", (event) => {
+    assemblyState.query = event.target.value;
+    renderAssemblySection();
+  });
+
+  els.assemblyMacroRegionFilter.addEventListener("change", (event) => {
+    assemblyState.macroRegion = event.target.value;
+    assemblyState.prefecture = "all";
+    assemblyState.municipality = "all";
+    renderAssemblyLocationFilters();
+    renderAssemblySection();
+  });
+
+  els.assemblyPrefectureFilter.addEventListener("change", (event) => {
+    assemblyState.prefecture = event.target.value;
+    assemblyState.municipality = "all";
+    renderAssemblyLocationFilters();
+    renderAssemblySection();
+  });
+
+  els.assemblyMunicipalityFilter.addEventListener("change", (event) => {
+    assemblyState.municipality = event.target.value;
+    renderAssemblySection();
+  });
+
+  els.assemblyResetFilters.addEventListener("click", () => {
+    assemblyState.query = "";
+    assemblyState.macroRegion = "all";
+    assemblyState.prefecture = "all";
+    assemblyState.municipality = "all";
+    els.assemblySearchInput.value = "";
+    renderAssemblyLocationFilters();
+    renderAssemblySection();
+  });
+
+  els.assemblyGrid.addEventListener("click", (event) => {
+    const reset = event.target.closest("[data-assembly-reset]");
+    if (!reset) return;
+    els.assemblyResetFilters.click();
+    els.assemblySearchInput.focus();
+  });
 }
 
 function initFromHash() {
@@ -892,9 +1175,17 @@ function initFromHash() {
   }
 }
 
+function renderAssemblySection() {
+  const pages = getFilteredAssemblyPages();
+  renderAssemblySummary(pages);
+  renderAssemblyPages(pages);
+}
+
 initFromHash();
 initFilters();
+renderAssemblyLocationFilters();
 renderHero();
+renderAssemblySection();
 renderCoverage();
 bindEvents();
 render();

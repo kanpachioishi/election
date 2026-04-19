@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プライバシーと通知 - わたしの選挙</title>
+  <meta name="description" content="通知設定で扱う情報の範囲と、このサイトでのプライバシーの考え方をまとめています。">
+  <meta name="theme-color" content="#0b1219">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="icon" href="../icons/app-icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../icons/app-icon.svg">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html" aria-label="わたしの選挙トップ">
+      <span class="brand-mark" aria-hidden="true">票</span>
+      <span>
+        <strong>わたしの選挙</strong>
+        <small>公式情報への案内</small>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="主なページ">
+      <a href="../index.html">トップ</a>
+      <a href="about.html">このサイトについて</a>
+      <a href="verification-policy.html">情報の確認基準</a>
+      <a href="privacy.html" aria-current="page">プライバシーと通知</a>
+      <a href="contact.html">お問い合わせ</a>
+    </nav>
+  </header>
+
+  <main class="info-page-main">
+    <section class="hero info-page-hero">
+      <div class="info-page-shell">
+        <p class="eyebrow">Privacy</p>
+        <h1 class="info-page-title">プライバシーと通知</h1>
+        <p class="lead">
+          通知設定では、選んだ地域へ通知を届けるために必要な範囲でだけ情報を扱います。
+        </p>
+      </div>
+    </section>
+
+    <section class="site-intro">
+      <div class="info-page-grid">
+        <article class="site-intro-card info-page-card">
+          <h2>通知で保存する情報</h2>
+          <p>
+            通知設定では、登録した地域、通知先端末を識別するための情報、通知の配信状態など、通知に必要な最小限の情報を扱います。
+            氏名、住所、電話番号など、通知に不要な個人情報を求める設計にはしていません。
+          </p>
+        </article>
+
+        <article class="site-intro-card info-page-card">
+          <h2>保存しない情報と削除</h2>
+          <p>
+            通知を止めた場合は、その端末にひもづく通知設定を解除できます。
+            このサイトでは、通知に不要な目的で利用者情報を増やさず、通知設定の見直しや停止ができるようにします。
+          </p>
+        </article>
+
+        <article class="site-intro-card info-page-card">
+          <h2>第三者共有と変更時の案内</h2>
+          <p>
+            通知のために扱う情報を、通知以外の目的で第三者へ販売したり共有したりすることは想定していません。
+            通知仕様が変わる場合は、このページや通知設定ページの説明を更新して案内します。
+          </p>
+        </article>
+      </div>
+
+      <div class="info-page-actions" aria-label="関連ページ">
+        <a class="button ghost" href="../notifications/register.html">通知設定ページへ</a>
+        <a class="button ghost" href="verification-policy.html">情報の確認基準を見る</a>
+        <a class="button ghost" href="contact.html">訂正や連絡について見る</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>このサイトは、確認した一次情報をもとに、選挙ごとの公式ページへの導線を整理しています。</p>
+    <div class="footer-links">
+      <a href="about.html">このサイトについて</a>
+      <a href="verification-policy.html">情報の確認基準</a>
+      <a href="privacy.html">プライバシーと通知</a>
+      <a href="contact.html">お問い合わせ</a>
+    </div>
+  </footer>
+
+  <script src="../assets/pwa.js"></script>
+</body>
+</html>

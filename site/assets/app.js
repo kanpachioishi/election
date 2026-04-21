@@ -616,6 +616,10 @@ const municipalityRegions = DATA.regions
   .sort((left, right) => left.prefCode.localeCompare(right.prefCode) || left.displayName.localeCompare(right.displayName, "ja"));
 
 const regionById = new Map(DATA.regions.map((region) => [region.id, region]));
+const localGovernmentSites = DATA.localGovernmentSites ?? [];
+const localGovernmentSiteByKey = new Map(
+  localGovernmentSites.map((site) => [`${site.regionId}|${site.siteKind}`, site]),
+);
 const assemblyPages = ASSEMBLY_PAGES.map((page) => {
   const prefectureRegion = prefectureRegions.find((region) => region.prefCode === page.prefCode) ?? null;
   const municipalityRegion = municipalityRegions.find((region) => region.prefCode === page.prefCode && region.name === page.municipalityName) ?? null;
@@ -649,10 +653,30 @@ function formatDateTime(dateText) {
   return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日 ${String(date.getHours()).padStart(2, "0")}:${String(date.getMinutes()).padStart(2, "0")}`;
 }
 
+function getTodayJstDateText() {
+  const formatter = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Tokyo",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  });
+  const parts = formatter.formatToParts(new Date());
+  const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return `${values.year}-${values.month}-${values.day}`;
+}
+
+function parseJstDate(dateText) {
+  return new Date(`${dateText}T00:00:00+09:00`);
+}
+
+function isElectionUpcoming(election) {
+  if (!election?.voteDate) return false;
+  return election.voteDate >= getTodayJstDateText();
+}
+
 function getDaysFromToday(dateText) {
-  const today = new Date();
-  const base = new Date(today.getFullYear(), today.getMonth(), today.getDate());
-  const target = new Date(`${dateText}T00:00:00+09:00`);
+  const base = parseJstDate(getTodayJstDateText());
+  const target = parseJstDate(dateText);
   return Math.ceil((target - base) / 86400000);
 }
 
@@ -708,6 +732,33 @@ function assemblySearchText(page) {
 
 function getMacroRegionByPrefCode(prefCode) {
   return PREFECTURE_TO_MACRO_REGION[String(prefCode ?? "").padStart(2, "0")] ?? null;
+}
+
+function getLocalGovernmentSite(regionId, siteKind) {
+  if (!regionId || !siteKind) return null;
+  return localGovernmentSiteByKey.get(`${regionId}|${siteKind}`) ?? null;
+}
+
+function getElectionOfficialSite(election) {
+  const municipalitySite = getLocalGovernmentSite(election.primaryRegionId, "municipality_home");
+  if (municipalitySite) {
+    return {
+      ...municipalitySite,
+      factLabel: "自治体公式",
+      actionLabel: "自治体公式サイトを開く",
+    };
+  }
+
+  const prefectureSite = getLocalGovernmentSite(election.prefectureRegionId, "prefecture_home");
+  if (prefectureSite) {
+    return {
+      ...prefectureSite,
+      factLabel: "都道府県公式",
+      actionLabel: "都道府県公式サイトを開く",
+    };
+  }
+
+  return null;
 }
 
 function electionMatchesLocation(election) {
@@ -870,7 +921,7 @@ function getFilteredElections() {
   const postalMatch = getPostalMatch(state.query);
 
   return DATA.elections
-    .filter((election) => election.phase === "upcoming")
+    .filter((election) => isElectionUpcoming(election))
     .filter((election) => electionMatchesLocation(election))
     .filter((election) => {
       if (!query) return true;
@@ -882,13 +933,7 @@ function getFilteredElections() {
       return electionSearchText(election).includes(query);
     })
     .sort((left, right) => {
-      if (left.phase !== right.phase) {
-        return left.phase === "upcoming" ? -1 : 1;
-      }
-      if (left.phase === "upcoming") {
-        return left.voteDate.localeCompare(right.voteDate);
-      }
-      return right.voteDate.localeCompare(left.voteDate);
+      return left.voteDate.localeCompare(right.voteDate);
     });
 }
 
@@ -1030,10 +1075,20 @@ function renderCoverage() {
   const typeRows = Object.entries(TYPE_LABELS)
     .map(([type, label]) => [label, DATA.stats.byType[type] ?? 0]);
   const expandedTypeRows = [...typeRows, ["議会ページ", ASSEMBLY_PAGES.length]];
+  const municipalityHomeCount = DATA.stats.byLocalGovernmentSiteKind?.municipality_home
+    ?? localGovernmentSites.filter((site) => site.siteKind === "municipality_home").length;
+  const prefectureHomeCount = DATA.stats.byLocalGovernmentSiteKind?.prefecture_home
+    ?? localGovernmentSites.filter((site) => site.siteKind === "prefecture_home").length;
+  const localGovernmentRows = [
+    ["自治体公式サイト", DATA.stats.localGovernmentSites ?? localGovernmentSites.length],
+    ["市区町村", municipalityHomeCount],
+    ["都道府県", prefectureHomeCount],
+  ];
 
   const groups = [
     { title: "選挙種別", rows: expandedTypeRows },
     { title: "公式リンク種別", rows: resourceRows },
+    { title: "公式サイト台帳", rows: localGovernmentRows },
   ];
 
   els.coverageGrid.innerHTML = groups.map((group) => `
@@ -1119,6 +1174,12 @@ function renderSubtypePills(election) {
   return (election.subtypes ?? [election.subtype])
     .map((subtype) => `<span class="subtype-pill ${escapeHtml(subtype ?? "unknown")}">${escapeHtml(SUBTYPE_LABELS[subtype] ?? subtype)}</span>`)
     .join("");
+}
+
+function getElectionCardTitle(election) {
+  if (election.isJoint) return election.name;
+  if (!election.prefectureName) return election.name;
+  return `${election.name} （${election.prefectureName}）`;
 }
 
 function hasActiveFilters() {
@@ -1220,10 +1281,8 @@ function renderElectionList(elections) {
             ${renderSubtypePills(election)}
             <span class="date-badge ${badge.tone}">${escapeHtml(badge.text)}</span>
           </span>
-          <strong>${escapeHtml(election.name)}</strong>
-          <span class="card-region">${escapeHtml(election.isJoint ? election.includedElectionNames.join(" / ") : election.primaryRegionName)}</span>
+          <strong>${escapeHtml(getElectionCardTitle(election))}</strong>
           <span class="card-date">${escapeHtml(formatDate(election.voteDate))}</span>
-          <span class="chip-row">${renderResourceChips(election)}</span>
         </button>
       </article>
     `;
@@ -1262,8 +1321,8 @@ function getResourceGroups(grouped) {
   return [...knownGroups, ...unknownGroups];
 }
 
-function getSpecialDetailLink(election) {
-  if (election.isJoint) return "";
+function getSpecialDetailLinkData(election) {
+  if (election.isJoint) return null;
   const links = {
     "el-pref-15-governor-2026": {
       href: "elections/niigata-governor-2026.html",
@@ -1278,9 +1337,12 @@ function getSpecialDetailLink(election) {
       text: "報道ベースの候補予定者ページへ",
     },
   };
-  const detailLink = links[election.id];
-  if (!detailLink) return "";
+  return links[election.id] ?? null;
+}
 
+function getSpecialDetailLink(election) {
+  const detailLink = getSpecialDetailLinkData(election);
+  if (!detailLink) return "";
   return `
     <a class="source-link" href="${detailLink.href}">${detailLink.text}</a>
   `;
@@ -1324,7 +1386,7 @@ function getResourceSummary(resource, election) {
   return fallback;
 }
 
-function renderDetail(election) {
+function renderDetail(election, elections = []) {
   if (!election) {
     els.detail.innerHTML = `
       <div class="detail-empty">
@@ -1336,6 +1398,7 @@ function renderDetail(election) {
   }
 
   const badge = getDateBadge(election);
+  const officialSite = getElectionOfficialSite(election);
   const resourceSections = sortResources(election.resources)
     .map((resource) => `
       <a class="resource-link ${escapeHtml(resource.kind ?? "other")}" href="${escapeHtml(resource.url)}" target="_blank" rel="noopener noreferrer">
@@ -1365,6 +1428,16 @@ function renderDetail(election) {
         <div><dt>投票日</dt><dd>${escapeHtml(formatDate(election.voteDate))}</dd></div>
         <div><dt>告示日</dt><dd>${escapeHtml(formatDate(election.noticeDate))}</dd></div>
         <div><dt>地域</dt><dd>${escapeHtml(election.primaryRegionName)}</dd></div>
+        ${officialSite ? `
+          <div>
+            <dt>${escapeHtml(officialSite.factLabel)}</dt>
+            <dd>
+              <a class="detail-inline-link" href="${escapeHtml(officialSite.url)}" target="_blank" rel="noopener noreferrer">
+                ${escapeHtml(officialSite.actionLabel)}
+              </a>
+            </dd>
+          </div>
+        ` : ""}
       </dl>
       <a class="source-link" href="${escapeHtml(election.sourceUrl)}" target="_blank" rel="noopener noreferrer">確認元の公式ページを開く</a>
       ${getSpecialDetailLink(election)}
@@ -1386,9 +1459,10 @@ function selectElection(id, shouldScroll = false) {
   if (isSameSelection && !shouldScroll) return;
 
   state.selectedId = id;
-  const selected = buildDisplayElections(getFilteredElections()).find((election) => election.id === id || election.electionIds?.includes(id)) ?? null;
+  const visibleElections = buildDisplayElections(getFilteredElections());
+  const selected = visibleElections.find((election) => election.id === id || election.electionIds?.includes(id)) ?? null;
   if (!isSameSelection) {
-    renderDetail(selected);
+    renderDetail(selected, visibleElections);
     document.querySelectorAll(".election-card").forEach((card) => {
       card.classList.toggle("selected", card.dataset.electionId === id);
     });
@@ -1406,7 +1480,7 @@ function render() {
 
   renderSummary(view);
   renderElectionList(elections);
-  renderDetail(elections.find((election) => election.id === state.selectedId || election.electionIds?.includes(state.selectedId)) ?? null);
+  renderDetail(elections.find((election) => election.id === state.selectedId || election.electionIds?.includes(state.selectedId)) ?? null, elections);
 }
 
 function bindEvents() {

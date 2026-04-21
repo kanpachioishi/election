@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-21T22:14:26+09:00",
+  "election_id": "el-mun-38207-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-38207-mayor-2026-other-01",
+      "election_id": "el-mun-38207-mayor-2026",
+      "kind": "other",
+      "title": "大洲市長選挙の執行について",
+      "url": "https://www.city.ozu.ehime.jp/soshiki/senkyo/46777.html",
+      "summary": "大洲市長選の投票日、投票所、期日前投票、不在者投票、開票をまとめた大洲市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.ozu.ehime.jp/soshiki/senkyo/46777.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-21T22:14:26+09:00",
+        "last_checked_at": "2026-04-21T22:14:26+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-38207-mayor-2026-candidate-list-01",
+      "election_id": "el-mun-38207-mayor-2026",
+      "kind": "candidate_list",
+      "title": "立候補者一覧",
+      "url": "https://www.city.ozu.ehime.jp/uploaded/attachment/47378.pdf",
+      "summary": "大洲市長選の立候補者一覧を確認できる公式 PDF。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.city.ozu.ehime.jp/soshiki/senkyo/72697.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-21T22:14:26+09:00",
+        "last_checked_at": "2026-04-21T22:14:26+09:00",
+        "status": "verified",
+        "note": "大洲市公式の立候補者ページから PDF 直リンクを確認。"
+      }
+    },
+    {
+      "id": "el-mun-38207-mayor-2026-bulletin-01",
+      "election_id": "el-mun-38207-mayor-2026",
+      "kind": "bulletin",
+      "title": "大洲市長選選挙公報",
+      "url": "https://www.city.ozu.ehime.jp/uploaded/attachment/47383.pdf",
+      "summary": "大洲市長選の候補者情報や政見を確認できる公式選挙公報 PDF。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.city.ozu.ehime.jp/soshiki/senkyo/71640.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-21T22:14:26+09:00",
+        "last_checked_at": "2026-04-21T22:14:26+09:00",
+        "status": "verified",
+        "note": "大洲市公式の選挙公報ページから PDF 直リンクを確認。"
+      }
+    },
+    {
+      "id": "el-mun-38207-mayor-2026-early-voting-01",
+      "election_id": "el-mun-38207-mayor-2026",
+      "kind": "early_voting",
+      "title": "期日前投票の案内",
+      "url": "https://www.city.ozu.ehime.jp/soshiki/senkyo/46777.html",
+      "summary": "大洲市長選の期日前投票所、期間、時間を確認できる公式ページ。",
+      "is_official": true,
+      "display_order": 4,
+      "verification": {
+        "source_url": "https://www.city.ozu.ehime.jp/soshiki/senkyo/46777.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-21T22:14:26+09:00",
+        "last_checked_at": "2026-04-21T22:14:26+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-38207-mayor-2026-polling-place-01",
+      "election_id": "el-mun-38207-mayor-2026",
+      "kind": "polling_place",
+      "title": "投票所一覧",
+      "url": "https://www.city.ozu.ehime.jp/soshiki/senkyo/46777.html",
+      "summary": "大洲市長選の当日投票所一覧を確認できる公式ページ。",
+      "is_official": true,
+      "display_order": 5,
+      "verification": {
+        "source_url": "https://www.city.ozu.ehime.jp/soshiki/senkyo/46777.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-21T22:14:26+09:00",
+        "last_checked_at": "2026-04-21T22:14:26+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

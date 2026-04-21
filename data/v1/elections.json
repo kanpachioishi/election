@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-04-16T02:40:00+09:00",
+  "generated_at": "2026-04-21T22:14:26+09:00",
   "records": [
     {
       "id": "el-pref-01-governor-2023",
@@ -157,14 +157,14 @@
       }
     },
     {
-    "id": "el-pref-14-governor-2023",
+      "id": "el-pref-14-governor-2023",
       "slug": "kanagawa-governor-2023",
       "name": "神奈川県知事選挙",
       "type": "prefectural",
       "subtype": "governor",
       "phase": "archived",
       "vote_date": "2023-04-09",
-    "notice_date": "2023-03-23",
+      "notice_date": "2023-03-23",
       "description": "神奈川県知事を選出する選挙。",
       "scope_type": "region",
       "primary_region_id": "pref-14",
@@ -398,15 +398,15 @@
         "note": "2026-04-09時点で終了済みのため archived として投入"
       }
     },
-  {
-    "id": "el-pref-13-assembly-2025",
+    {
+      "id": "el-pref-13-assembly-2025",
       "slug": "tokyo-metropolitan-assembly-2025",
       "name": "東京都議会議員選挙",
       "type": "prefectural",
       "subtype": "assembly",
       "phase": "archived",
       "vote_date": "2025-06-22",
-    "notice_date": "2025-06-13",
+      "notice_date": "2025-06-13",
       "description": "東京都議会議員を選出する選挙。",
       "scope_type": "region",
       "primary_region_id": "pref-13",
@@ -428,7 +428,7 @@
       "subtype": "governor",
       "phase": "archived",
       "vote_date": "2025-03-23",
-    "notice_date": "2025-03-06",
+      "notice_date": "2025-03-06",
       "description": "福岡県知事を選出する選挙。",
       "scope_type": "region",
       "primary_region_id": "pref-40",
@@ -2231,50 +2231,6 @@
       }
     },
     {
-      "id": "el-mun-03202-mayor-2026",
-      "slug": "miyako-mayor-2026",
-      "name": "宮古市長選挙",
-      "type": "municipal",
-      "subtype": "mayor",
-      "phase": "upcoming",
-      "vote_date": "2026-04-26",
-      "notice_date": "2026-04-19",
-      "description": "宮古市長を選出する選挙です。",
-      "scope_type": "region",
-      "primary_region_id": "mun-03202",
-      "included_region_ids": null,
-      "verification": {
-        "source_url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/015/586/080316yotei.pdf",
-        "source_type": "official",
-        "confirmed_at": "2026-04-15T23:55:00+09:00",
-        "last_checked_at": "2026-04-15T23:55:00+09:00",
-        "status": "verified",
-        "note": "2026-04-15時点で岩手県の市町村選挙執行予定 PDF に告示日と執行日の記載があり、投票日は 2026-04-26 のため upcoming として確認。"
-      }
-    },
-    {
-      "id": "el-mun-03214-mayor-2026",
-      "slug": "hachimantai-mayor-2026",
-      "name": "八幡平市長選挙",
-      "type": "municipal",
-      "subtype": "mayor",
-      "phase": "upcoming",
-      "vote_date": "2026-04-26",
-      "notice_date": "2026-04-19",
-      "description": "八幡平市長を選出する選挙です。",
-      "scope_type": "region",
-      "primary_region_id": "mun-03214",
-      "included_region_ids": null,
-      "verification": {
-        "source_url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/015/586/080316yotei.pdf",
-        "source_type": "official",
-        "confirmed_at": "2026-04-15T23:55:00+09:00",
-        "last_checked_at": "2026-04-15T23:55:00+09:00",
-        "status": "verified",
-        "note": "2026-04-15時点で岩手県の市町村選挙執行予定 PDF に告示日と執行日の記載があり、投票日は 2026-04-26 のため upcoming として確認。"
-      }
-    },
-    {
       "id": "el-mun-18210-mayor-2026",
       "slug": "sakai-mayor-2026",
       "name": "坂井市長選挙",
@@ -3218,50 +3174,6 @@
         "last_checked_at": "2026-04-16T00:12:00+09:00",
         "status": "verified",
         "note": "2026-04-16時点で山口県の市町選挙一覧 PDF に告示日と投票日の記載があり、投票日は 2026-04-12 のため archived として確認。"
-      }
-    },
-    {
-      "id": "el-mun-35203-mayor-2026",
-      "slug": "yamaguchi-mayor-2026",
-      "name": "山口市長選挙",
-      "type": "municipal",
-      "subtype": "mayor",
-      "phase": "upcoming",
-      "vote_date": "2026-04-26",
-      "notice_date": "2026-04-19",
-      "description": "山口市長を選出する選挙です。",
-      "scope_type": "region",
-      "primary_region_id": "mun-35203",
-      "included_region_ids": null,
-      "verification": {
-        "source_url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/237065.pdf",
-        "source_type": "official",
-        "confirmed_at": "2026-04-16T00:12:00+09:00",
-        "last_checked_at": "2026-04-16T00:12:00+09:00",
-        "status": "verified",
-        "note": "2026-04-16時点で山口県の市町選挙一覧 PDF に告示日と投票日の記載があり、投票日は 2026-04-26 のため upcoming として確認。"
-      }
-    },
-    {
-      "id": "el-mun-35204-mayor-2026",
-      "slug": "hagi-mayor-2026",
-      "name": "萩市長選挙",
-      "type": "municipal",
-      "subtype": "mayor",
-      "phase": "upcoming",
-      "vote_date": "2026-04-26",
-      "notice_date": "2026-04-19",
-      "description": "萩市長を選出する選挙です。",
-      "scope_type": "region",
-      "primary_region_id": "mun-35204",
-      "included_region_ids": null,
-      "verification": {
-        "source_url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/237065.pdf",
-        "source_type": "official",
-        "confirmed_at": "2026-04-16T00:12:00+09:00",
-        "last_checked_at": "2026-04-16T00:12:00+09:00",
-        "status": "verified",
-        "note": "2026-04-16時点で山口県の市町選挙一覧 PDF に告示日と投票日の記載があり、投票日は 2026-04-26 のため upcoming として確認。"
       }
     },
     {

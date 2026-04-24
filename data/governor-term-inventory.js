@@ -1,5 +1,9 @@
+// AUTO-GENERATED. DO NOT EDIT.
+// Generated from data/v1 by scripts/generate-governor-term-inventory.mjs.
+// Update data/v1 and rerun the generator instead of editing this file.
+
 window.GOVERNOR_TERM_INVENTORY = {
-  "as_of": "2026-04-15",
+  "as_of": "2026-04-23",
   "rows": [
     {
       "prefecture": "北海道",

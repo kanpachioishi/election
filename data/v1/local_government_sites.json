@@ -1,0 +1,950 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-20T15:00:00+09:00",
+  "records": [
+    {
+      "id": "mun-02202-municipality-home",
+      "region_id": "mun-02202",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.hirosaki.aomori.jp/",
+      "verification": {
+        "source_url": "https://www.city.hirosaki.aomori.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T23:55:00+09:00",
+        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-02204-municipality-home",
+      "region_id": "mun-02204",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.kuroishi.aomori.jp/",
+      "verification": {
+        "source_url": "https://www.city.kuroishi.aomori.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T23:55:00+09:00",
+        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-02205-municipality-home",
+      "region_id": "mun-02205",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.goshogawara.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.goshogawara.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T23:55:00+09:00",
+        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-03202-municipality-home",
+      "region_id": "mun-03202",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.miyako.iwate.jp/",
+      "verification": {
+        "source_url": "https://www.city.miyako.iwate.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T23:55:00+09:00",
+        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-03214-municipality-home",
+      "region_id": "mun-03214",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.hachimantai.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.hachimantai.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T23:55:00+09:00",
+        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-05202-municipality-home",
+      "region_id": "mun-05202",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.noshiro.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.noshiro.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-16T00:20:00+09:00",
+        "last_checked_at": "2026-04-16T00:20:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-09203-municipality-home",
+      "region_id": "mun-09203",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.tochigi.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.tochigi.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-16T00:20:00+09:00",
+        "last_checked_at": "2026-04-16T00:20:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-09216-municipality-home",
+      "region_id": "mun-09216",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.shimotsuke.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.shimotsuke.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-16T00:20:00+09:00",
+        "last_checked_at": "2026-04-16T00:20:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-12218-municipality-home",
+      "region_id": "mun-12218",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.katsuura.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.katsuura.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T20:35:00+09:00",
+        "last_checked_at": "2026-04-15T20:35:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-12225-municipality-home",
+      "region_id": "mun-12225",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.kimitsu.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.kimitsu.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T20:35:00+09:00",
+        "last_checked_at": "2026-04-15T20:35:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-12230-municipality-home",
+      "region_id": "mun-12230",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.yachimata.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.yachimata.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T20:35:00+09:00",
+        "last_checked_at": "2026-04-15T20:35:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-12236-municipality-home",
+      "region_id": "mun-12236",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.katori.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.katori.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T20:35:00+09:00",
+        "last_checked_at": "2026-04-15T20:35:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-13208-municipality-home",
+      "region_id": "mun-13208",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.chofu.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.chofu.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T20:35:00+09:00",
+        "last_checked_at": "2026-04-15T20:35:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-13219-municipality-home",
+      "region_id": "mun-13219",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.komae.tokyo.jp/",
+      "verification": {
+        "source_url": "https://www.city.komae.tokyo.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T20:35:00+09:00",
+        "last_checked_at": "2026-04-15T20:35:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-13228-municipality-home",
+      "region_id": "mun-13228",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.akiruno.tokyo.jp/",
+      "verification": {
+        "source_url": "https://www.city.akiruno.tokyo.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T20:35:00+09:00",
+        "last_checked_at": "2026-04-15T20:35:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-14207-municipality-home",
+      "region_id": "mun-14207",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.chigasaki.kanagawa.jp/",
+      "verification": {
+        "source_url": "https://www.city.chigasaki.kanagawa.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-16T00:05:00+09:00",
+        "last_checked_at": "2026-04-16T00:05:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-14208-municipality-home",
+      "region_id": "mun-14208",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.zushi.kanagawa.jp/",
+      "verification": {
+        "source_url": "https://www.city.zushi.kanagawa.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-16T00:05:00+09:00",
+        "last_checked_at": "2026-04-16T00:05:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-14212-municipality-home",
+      "region_id": "mun-14212",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.atsugi.kanagawa.jp/",
+      "verification": {
+        "source_url": "https://www.city.atsugi.kanagawa.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-16T00:05:00+09:00",
+        "last_checked_at": "2026-04-16T00:05:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-18205-municipality-home",
+      "region_id": "mun-18205",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.ono.fukui.jp/",
+      "verification": {
+        "source_url": "https://www.city.ono.fukui.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T23:55:00+09:00",
+        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-18210-municipality-home",
+      "region_id": "mun-18210",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.fukui-sakai.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.fukui-sakai.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T23:55:00+09:00",
+        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-21211-municipality-home",
+      "region_id": "mun-21211",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.minokamo.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.minokamo.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T23:55:00+09:00",
+        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-24208-municipality-home",
+      "region_id": "mun-24208",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.nabari.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.nabari.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T23:55:00+09:00",
+        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-25204-municipality-home",
+      "region_id": "mun-25204",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.omihachiman.lg.jp/gyosei/shokai/1/index.html",
+      "verification": {
+        "source_url": "https://www.city.omihachiman.lg.jp/gyosei/shokai/1/index.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T14:26:51+09:00",
+        "last_checked_at": "2026-04-15T14:26:51+09:00",
+        "status": "verified",
+        "note": "近江八幡市の公式紹介ページで自治体名を確認。"
+      },
+      "note": null
+    },
+    {
+      "id": "mun-25208-municipality-home",
+      "region_id": "mun-25208",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.ritto.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.ritto.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T14:26:51+09:00",
+        "last_checked_at": "2026-04-15T14:26:51+09:00",
+        "status": "verified",
+        "note": "栗東市の公式サイトで自治体名を確認。"
+      },
+      "note": null
+    },
+    {
+      "id": "mun-32207-municipality-home",
+      "region_id": "mun-32207",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.gotsu.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.gotsu.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-15T23:55:00+09:00",
+        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-01-prefecture-home",
+      "region_id": "pref-01",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.hokkaido.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.hokkaido.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-02-prefecture-home",
+      "region_id": "pref-02",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.aomori.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.aomori.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-08-prefecture-home",
+      "region_id": "pref-08",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.ibaraki.jp/",
+      "verification": {
+        "source_url": "https://www.pref.ibaraki.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-11-prefecture-home",
+      "region_id": "pref-11",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.saitama.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.saitama.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-15-prefecture-home",
+      "region_id": "pref-15",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.niigata.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.niigata.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-21-prefecture-home",
+      "region_id": "pref-21",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.gifu.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.gifu.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-24-prefecture-home",
+      "region_id": "pref-24",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.mie.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.mie.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-38-prefecture-home",
+      "region_id": "pref-38",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.ehime.jp/",
+      "verification": {
+        "source_url": "https://www.pref.ehime.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-40-prefecture-home",
+      "region_id": "pref-40",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.fukuoka.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.fukuoka.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-45-prefecture-home",
+      "region_id": "pref-45",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.miyazaki.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.miyazaki.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-46-prefecture-home",
+      "region_id": "pref-46",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.kagoshima.jp/",
+      "verification": {
+        "source_url": "https://www.pref.kagoshima.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-47-prefecture-home",
+      "region_id": "pref-47",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.okinawa.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.okinawa.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-04100-municipality-home",
+      "region_id": "mun-04100",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.sendai.jp/index.html",
+      "verification": {
+        "source_url": "https://www.city.sendai.jp/index.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-27100-municipality-home",
+      "region_id": "mun-27100",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.osaka.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.osaka.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-04215-municipality-home",
+      "region_id": "mun-04215",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.osaki.miyagi.jp/",
+      "verification": {
+        "source_url": "https://www.city.osaki.miyagi.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T15:00:00+09:00",
+        "last_checked_at": "2026-04-20T15:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-11232-municipality-home",
+      "region_id": "mun-11232",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.kuki.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.kuki.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T15:00:00+09:00",
+        "last_checked_at": "2026-04-20T15:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-23234-municipality-home",
+      "region_id": "mun-23234",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.kitanagoya.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.kitanagoya.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T15:00:00+09:00",
+        "last_checked_at": "2026-04-20T15:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-45205-municipality-home",
+      "region_id": "mun-45205",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.kobayashi.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.kobayashi.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T15:00:00+09:00",
+        "last_checked_at": "2026-04-20T15:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-46225-municipality-home",
+      "region_id": "mun-46225",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.aira.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.aira.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T15:00:00+09:00",
+        "last_checked_at": "2026-04-20T15:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-04205-municipality-home",
+      "region_id": "mun-04205",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.kesennuma.miyagi.jp/",
+      "verification": {
+        "source_url": "https://www.kesennuma.miyagi.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T15:00:00+09:00",
+        "last_checked_at": "2026-04-20T15:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-10206-municipality-home",
+      "region_id": "mun-10206",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.numata.gunma.jp/",
+      "verification": {
+        "source_url": "https://www.city.numata.gunma.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T15:00:00+09:00",
+        "last_checked_at": "2026-04-20T15:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-10209-municipality-home",
+      "region_id": "mun-10209",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.fujioka.gunma.jp/",
+      "verification": {
+        "source_url": "https://www.city.fujioka.gunma.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T15:00:00+09:00",
+        "last_checked_at": "2026-04-20T15:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-35203-municipality-home",
+      "region_id": "mun-35203",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.yamaguchi.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.yamaguchi.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T15:00:00+09:00",
+        "last_checked_at": "2026-04-20T15:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-35204-municipality-home",
+      "region_id": "mun-35204",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.hagi.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.hagi.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T15:00:00+09:00",
+        "last_checked_at": "2026-04-20T15:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-38207-municipality-home",
+      "region_id": "mun-38207",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.ozu.ehime.jp/",
+      "verification": {
+        "source_url": "https://www.city.ozu.ehime.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T15:00:00+09:00",
+        "last_checked_at": "2026-04-20T15:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-41207-municipality-home",
+      "region_id": "mun-41207",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.saga-kashima.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.saga-kashima.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T15:00:00+09:00",
+        "last_checked_at": "2026-04-20T15:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-15208-municipality-home",
+      "region_id": "mun-15208",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.ojiya.niigata.jp/",
+      "verification": {
+        "source_url": "https://www.city.ojiya.niigata.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T15:00:00+09:00",
+        "last_checked_at": "2026-04-20T15:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-38206-municipality-home",
+      "region_id": "mun-38206",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.saijo-city.jp/",
+      "verification": {
+        "source_url": "https://www.saijo-city.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T15:00:00+09:00",
+        "last_checked_at": "2026-04-20T15:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-11216-municipality-home",
+      "region_id": "mun-11216",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.hanyu.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.hanyu.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T15:00:00+09:00",
+        "last_checked_at": "2026-04-20T15:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-11238-municipality-home",
+      "region_id": "mun-11238",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.hasuda.saitama.jp/",
+      "verification": {
+        "source_url": "https://www.city.hasuda.saitama.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T15:00:00+09:00",
+        "last_checked_at": "2026-04-20T15:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-23237-municipality-home",
+      "region_id": "mun-23237",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.ama.aichi.jp/",
+      "verification": {
+        "source_url": "https://www.city.ama.aichi.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T15:00:00+09:00",
+        "last_checked_at": "2026-04-20T15:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-35206-municipality-home",
+      "region_id": "mun-35206",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.hofu.yamaguchi.jp/",
+      "verification": {
+        "source_url": "https://www.city.hofu.yamaguchi.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T15:00:00+09:00",
+        "last_checked_at": "2026-04-20T15:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-40230-municipality-home",
+      "region_id": "mun-40230",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.itoshima.lg.jp/",
+      "verification": {
+        "source_url": "https://www.city.itoshima.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T15:00:00+09:00",
+        "last_checked_at": "2026-04-20T15:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "mun-40213-municipality-home",
+      "region_id": "mun-40213",
+      "site_kind": "municipality_home",
+      "label": "公式ホームページ",
+      "url": "https://www.city.yukuhashi.fukuoka.jp/",
+      "verification": {
+        "source_url": "https://www.city.yukuhashi.fukuoka.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-20T15:00:00+09:00",
+        "last_checked_at": "2026-04-20T15:00:00+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    }
+  ]
+}

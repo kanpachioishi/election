@@ -1,5 +1,6 @@
 .edge-headless/
 artifacts/
+.codex
 
 # OS / editor noise
 Thumbs.db
@@ -19,6 +20,3 @@ yarn-error.log*
 # Python noise
 __pycache__/
 *.pyc
-
-# Internal docs / operations notes
-docs/

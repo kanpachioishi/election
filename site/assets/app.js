@@ -88,7 +88,7 @@ const KIND_LABELS = {
 const ASSEMBLY_PAGES = [
   {
     slug: "fukuoka-city-assembly",
-    title: "福岡市議会の要点まとめ",
+    title: "福岡市議会の日程・会議録・公式情報への入口",
     body: "定例会・臨時会ごとに、会期の流れ、決まったこと、暮らしとの関わり、公式リンクをまとめています。",
     prefCode: "40",
     prefectureName: "福岡県",
@@ -103,7 +103,7 @@ const ASSEMBLY_PAGES = [
   },
   {
     slug: "sapporo-city-assembly",
-    title: "札幌市議会の要点まとめ",
+    title: "札幌市議会の日程・会議録・公式情報への入口",
     body: "定例会ごとの日程、議案結果、会議録、録画、公式リンクをまとめて追えるようにしています。",
     prefCode: "01",
     prefectureName: "北海道",
@@ -118,7 +118,7 @@ const ASSEMBLY_PAGES = [
   },
   {
     slug: "kobe-city-assembly",
-    title: "神戸市会の要点まとめ",
+    title: "神戸市会の日程・会議録・公式情報への入口",
     body: "市会日程、本会議結果、会議録、録画、市会だよりへの入口をそろえて、会期ごとの流れを追えるようにしています。",
     prefCode: "28",
     prefectureName: "兵庫県",
@@ -133,7 +133,7 @@ const ASSEMBLY_PAGES = [
   },
   {
     slug: "sendai-city-assembly",
-    title: "仙台市議会の要点まとめ",
+    title: "仙台市議会の日程・会議録・公式情報への入口",
     body: "定例会の日程、議案結果、会議録、録画、市議会だよりの入口をまとめて、会期ごとの流れを追えるようにしています。",
     prefCode: "04",
     prefectureName: "宮城県",
@@ -148,7 +148,7 @@ const ASSEMBLY_PAGES = [
   },
   {
     slug: "yokohama-city-assembly",
-    title: "横浜市会の要点まとめ",
+    title: "横浜市会の日程・会議録・公式情報への入口",
     body: "定例会の日程、議案一覧、会議録、録画、ヨコハマ議会だよりの入口をまとめて、会期ごとの流れを追えるようにしています。",
     prefCode: "14",
     prefectureName: "神奈川県",
@@ -163,7 +163,7 @@ const ASSEMBLY_PAGES = [
   },
   {
     slug: "nagoya-city-assembly",
-    title: "名古屋市会の要点まとめ",
+    title: "名古屋市会の日程・会議録・公式情報への入口",
     body: "定例会の日程、提出案件、会議録、録画、市会だよりの入口をまとめて、会期ごとの流れを追えるようにしています。",
     prefCode: "23",
     prefectureName: "愛知県",
@@ -178,7 +178,7 @@ const ASSEMBLY_PAGES = [
   },
   {
     slug: "hiroshima-city-assembly",
-    title: "広島市議会の要点まとめ",
+    title: "広島市議会の日程・会議録・公式情報への入口",
     body: "定例会の日程、会議結果、会議録、議会中継、ひろしま市議会だよりの入口をまとめて、会期ごとの流れを追えるようにしています。",
     prefCode: "34",
     prefectureName: "広島県",
@@ -193,7 +193,7 @@ const ASSEMBLY_PAGES = [
   },
   {
     slug: "osaka-city-assembly",
-    title: "大阪市会の要点まとめ",
+    title: "大阪市会の日程・会議録・公式情報への入口",
     body: "市会日程、会議結果、会議録検索、議会中継、市会だよりの入口をまとめて、会期ごとの流れを追えるようにしています。",
     prefCode: "27",
     prefectureName: "大阪府",
@@ -208,7 +208,7 @@ const ASSEMBLY_PAGES = [
   },
   {
     slug: "saitama-city-assembly",
-    title: "さいたま市議会の要点まとめ",
+    title: "さいたま市議会の日程・会議録・公式情報への入口",
     body: "定例会の案内、審議結果、会議録、議会中継、市議会だよりの入口をまとめて、会期ごとの流れを追えるようにしています。",
     prefCode: "11",
     prefectureName: "埼玉県",
@@ -223,7 +223,7 @@ const ASSEMBLY_PAGES = [
   },
   {
     slug: "kitakyushu-city-assembly",
-    title: "北九州市議会の要点まとめ",
+    title: "北九州市議会の日程・会議録・公式情報への入口",
     body: "会期日程案、議案・会議結果、会議録検索、中継、議長記者会見の入口をまとめて、会期ごとの流れを追えるようにしています。",
     prefCode: "40",
     prefectureName: "福岡県",
@@ -238,7 +238,7 @@ const ASSEMBLY_PAGES = [
   },
   {
     slug: "kyoto-city-assembly",
-    title: "京都市会の要点まとめ",
+    title: "京都市会の日程・会議録・公式情報への入口",
     body: "審議日程・結果、会議録検索、速報版、京都市会だよりの入口をまとめて、会期ごとの流れを追えるようにしています。",
     prefCode: "26",
     prefectureName: "京都府",
@@ -253,7 +253,7 @@ const ASSEMBLY_PAGES = [
   },
   {
     slug: "kawasaki-city-assembly",
-    title: "川崎市議会の要点まとめ",
+    title: "川崎市議会の日程・会議録・公式情報への入口",
     body: "会期日程、会議結果、会議録検索、配付資料、議会かわさきの入口をまとめて、会期ごとの流れを追えるようにしています。",
     prefCode: "14",
     prefectureName: "神奈川県",
@@ -343,7 +343,7 @@ const ASSEMBLY_PAGES = [
   },
   {
     slug: "shizuoka-city-assembly",
-    title: "静岡市議会の要点まとめ",
+    title: "静岡市議会の日程・会議録・公式情報への入口",
     body: "会議日程、議案集、総括質問関連資料、審議結果、会議録検索の入口をまとめて、会期ごとの流れを追えるようにしています。",
     prefCode: "22",
     prefectureName: "静岡県",
@@ -373,7 +373,7 @@ const ASSEMBLY_PAGES = [
   },
   {
     slug: "kumamoto-city-assembly",
-    title: "熊本市議会の要点まとめ",
+    title: "熊本市議会の日程・会議録・公式情報への入口",
     body: "定例会日程、議案および審議結果、会議録検索、議会中継、議会だよりの入口をまとめて、会期ごとの流れを追えるようにしています。",
     prefCode: "43",
     prefectureName: "熊本県",
@@ -433,7 +433,7 @@ const ASSEMBLY_PAGES = [
   },
   {
     slug: "sakai-city-assembly",
-    title: "堺市議会の要点まとめ",
+    title: "堺市議会の日程・会議録・公式情報への入口",
     body: "会議日程、議案書、議決結果、会派賛否一覧、会議録の入口をまとめて、会期ごとの流れを追えるようにしています。",
     prefCode: "27",
     prefectureName: "大阪府",
@@ -493,7 +493,7 @@ const ASSEMBLY_PAGES = [
   },
   {
     slug: "niigata-city-assembly",
-    title: "新潟市議会の要点まとめ",
+    title: "新潟市議会の日程・会議録・公式情報への入口",
     body: "定例会日程、会議の結果、会議録検索、議会中継、市議会だよりの入口をまとめて、会期ごとの流れを追えるようにしています。",
     prefCode: "15",
     prefectureName: "新潟県",
@@ -508,7 +508,7 @@ const ASSEMBLY_PAGES = [
   },
   {
     slug: "okayama-city-assembly",
-    title: "岡山市議会の要点まとめ",
+    title: "岡山市議会の日程・会議録・公式情報への入口",
     body: "会期日程、提出議案・議決結果、会議録検索、議会中継、市議会だよりの入口をまとめて、会期ごとの流れを追えるようにしています。",
     prefCode: "33",
     prefectureName: "岡山県",
@@ -523,7 +523,7 @@ const ASSEMBLY_PAGES = [
   },
   {
     slug: "chiba-city-assembly",
-    title: "千葉市議会の要点まとめ",
+    title: "千葉市議会の日程・会議録・公式情報への入口",
     body: "定例会日程、議決結果、会議録、議会トップ、議会だよりの入口をまとめて、会期ごとの流れを追えるようにしています。",
     prefCode: "12",
     prefectureName: "千葉県",
@@ -604,6 +604,7 @@ const els = {
   assemblyResetFilters: document.getElementById("assemblyResetFilters"),
   assemblyResultSummary: document.getElementById("assemblyResultSummary"),
   assemblyGrid: document.getElementById("assemblyGrid"),
+  featuredAssemblyGrid: document.getElementById("featuredAssemblyGrid"),
   coverageGrid: document.getElementById("coverageGrid"),
 };
 
@@ -678,6 +679,78 @@ function getDaysFromToday(dateText) {
   const base = parseJstDate(getTodayJstDateText());
   const target = parseJstDate(dateText);
   return Math.ceil((target - base) / 86400000);
+}
+
+function parseAssemblyDateLabelEnd(dateLabel = "") {
+  const match = String(dateLabel).match(/(\d{4})年(\d{1,2})月(\d{1,2})日\s*-\s*(\d{1,2})月(\d{1,2})日/);
+  if (match) {
+    const [, year, , , endMonth, endDay] = match;
+    return `${year}-${String(endMonth).padStart(2, "0")}-${String(endDay).padStart(2, "0")}`;
+  }
+
+  const fallback = String(dateLabel).match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
+  if (!fallback) {
+    return "";
+  }
+
+  const [, year, month, day] = fallback;
+  return `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+}
+
+function getAssemblyFeatureScore(page) {
+  const text = `${page.title} ${page.body} ${page.latestSessionLabel}`.toLowerCase();
+  const endDate = parseAssemblyDateLabelEnd(page.latestSessionDateLabel);
+  const recencyScore = endDate ? Math.max(0, 120 - Math.abs(getDaysFromToday(endDate))) : 0;
+  const budgetScore = /予算/.test(text) ? 28 : 0;
+  const agendaScore = /議案|提出案件|議決結果/.test(text) ? 20 : 0;
+  const transcriptScore = /会議録/.test(text) ? 16 : 0;
+  const streamScore = /録画|中継/.test(text) ? 12 : 0;
+  const digestScore = /議会だより|市会だより/.test(text) ? 10 : 0;
+  return recencyScore + budgetScore + agendaScore + transcriptScore + streamScore + digestScore;
+}
+
+function getFeaturedAssemblyReason(page) {
+  const text = `${page.title} ${page.body} ${page.latestSessionLabel}`.toLowerCase();
+  const endDate = parseAssemblyDateLabelEnd(page.latestSessionDateLabel);
+  const days = endDate ? getDaysFromToday(endDate) : null;
+
+  if (/予算/.test(text)) {
+    return {
+      label: "予算議会を追いやすい",
+      tone: days !== null && Math.abs(days) <= 60 ? "future" : "muted",
+      note: "予算や補正予算に触れていて、会期の入口から主要資料へ進みやすいページです。",
+    };
+  }
+
+  if (/議案/.test(text) && /会議録/.test(text) && /録画|中継/.test(text)) {
+    return {
+      label: "議案から深掘りしやすい",
+      tone: days !== null && Math.abs(days) <= 60 ? "future" : "muted",
+      note: "議案一覧から会議録や中継までつながっていて、詳細確認に向いています。",
+    };
+  }
+
+  if (/議会だより|市会だより/.test(text) && /録画|中継/.test(text)) {
+    return {
+      label: "要約と原文を行き来しやすい",
+      tone: "future",
+      note: "議会だよりのような入口と、録画や会議録の原文系導線が両方そろっています。",
+    };
+  }
+
+  if (/会議結果/.test(text) && /会議録/.test(text)) {
+    return {
+      label: "会議結果を追いやすい",
+      tone: "future",
+      note: "結果確認から発言確認まで自然につながるので、初見でも使いやすい構成です。",
+    };
+  }
+
+  return {
+    label: "直近会期を確認しやすい",
+    tone: "muted",
+    note: "最新の会期と原文リンクがまとまっていて、最初の入口として使いやすいページです。",
+  };
 }
 
 function getDateBadge(election) {
@@ -1164,6 +1237,46 @@ function renderAssemblyPages(pages = assemblyPages) {
   `).join("");
 }
 
+function renderFeaturedAssemblyPages() {
+  if (!els.featuredAssemblyGrid) {
+    return;
+  }
+
+  const featuredPages = assemblyPages
+    .filter((page) => page.municipalityName)
+    .map((page) => {
+      const reason = getFeaturedAssemblyReason(page);
+      return {
+        ...page,
+        featureScore: getAssemblyFeatureScore(page),
+        featuredReasonLabel: reason.label,
+        featuredReasonTone: reason.tone,
+        featuredReasonNote: reason.note,
+      };
+    })
+    .sort((left, right) => right.featureScore - left.featureScore)
+    .slice(0, 6);
+
+  const buildAssemblyChips = (page) => [
+    page.scopeLabel,
+    page.latestSessionLabel,
+    page.latestSessionDateLabel,
+  ].filter(Boolean).map((label) => `<span class="subtype-pill">${escapeHtml(label)}</span>`).join("");
+
+  els.featuredAssemblyGrid.innerHTML = featuredPages.map((page) => `
+    <a class="assembly-card assembly-card-link" href="${escapeHtml(page.href)}">
+      <div class="card-topline">
+        <span class="type-pill municipal">${escapeHtml(page.categoryLabel)}</span>
+        <span class="date-badge ${escapeHtml(page.featuredReasonTone ?? "muted")}">${escapeHtml(page.featuredReasonLabel ?? "注目")}</span>
+      </div>
+      <strong>${escapeHtml(page.title)}</strong>
+      <p class="assembly-copy">${escapeHtml(page.body)}</p>
+      <p class="assembly-copy">${escapeHtml(page.featuredReasonNote ?? "")}</p>
+      <div class="chip-row">${buildAssemblyChips(page)}</div>
+    </a>
+  `).join("");
+}
+
 function renderResourceChips(election) {
   return election.resourceKinds.map((kind) => `
     <span class="kind-chip ${kind}">${escapeHtml(KIND_LABELS[kind] ?? kind)}</span>
@@ -1622,6 +1735,7 @@ initFilters();
 renderAssemblyLocationFilters();
 renderHero();
 renderAssemblySection();
+renderFeaturedAssemblyPages();
 renderCoverage();
 bindEvents();
 render();

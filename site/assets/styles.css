@@ -948,6 +948,13 @@ a:focus-visible {
   scrollbar-color: rgba(255, 210, 122, 0.72) rgba(244, 239, 227, 0.08);
 }
 
+.assembly-grid--featured {
+  max-height: none;
+  margin: 0 0 1.2rem;
+  overflow: visible;
+  padding-right: 0;
+}
+
 .assembly-grid::-webkit-scrollbar {
   width: 0.8rem;
 }

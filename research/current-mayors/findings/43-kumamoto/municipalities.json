@@ -1,0 +1,68 @@
+{
+  "pref_code": "43",
+  "pref_name": "熊本県",
+  "generated_at": "2026-04-24T00:00:00+09:00",
+  "source": {
+    "title": "任期満了日について",
+    "url": "https://www.pref.kumamoto.jp/soshiki/147/182198.html",
+    "checked_at": "2026-04-24"
+  },
+  "records": [
+    {
+      "city_name": "熊本市",
+      "official_url": "https://www.city.kumamoto.jp/dynamic/sicho/hpkiji/pub/detail.aspx?c_id=3&amp;class_id=101&amp;id=7065"
+    },
+    {
+      "city_name": "八代市",
+      "official_url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+    },
+    {
+      "city_name": "人吉市",
+      "official_url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+    },
+    {
+      "city_name": "荒尾市",
+      "official_url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+    },
+    {
+      "city_name": "水俣市",
+      "official_url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+    },
+    {
+      "city_name": "玉名市",
+      "official_url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+    },
+    {
+      "city_name": "山鹿市",
+      "official_url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+    },
+    {
+      "city_name": "菊池市",
+      "official_url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+    },
+    {
+      "city_name": "宇土市",
+      "official_url": "https://www.city.uto.lg.jp/article/view/1147/1422.html"
+    },
+    {
+      "city_name": "上天草市",
+      "official_url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+    },
+    {
+      "city_name": "宇城市",
+      "official_url": "https://www.city.uki.kumamoto.jp/gyousei/sonota_gyosei/2458670"
+    },
+    {
+      "city_name": "阿蘇市",
+      "official_url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+    },
+    {
+      "city_name": "天草市",
+      "official_url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+    },
+    {
+      "city_name": "合志市",
+      "official_url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+    }
+  ]
+}

@@ -1,0 +1,848 @@
+{
+  "pref_code": "28",
+  "pref_name": "兵庫県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "加古川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "神戸市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "姫路市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "尼崎市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "明石市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "西宮市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "洲本市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "芦屋市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "伊丹市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "相生市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "豊岡市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "赤穂市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.ako.lg.jp/senkan/senkyokekka.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "西脇市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "宝塚市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "三木市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "高砂市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "川西市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "小野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.ono.hyogo.jp/soshikikarasagasu/hishoka/gyomuannai/1/4174.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "三田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "加西市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "丹波篠山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.tambasasayama.lg.jp/soshikikarasagasu/shichokoshitsu/hishogakari/5/5010.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "養父市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "丹波市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "南あわじ市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "朝来市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "淡路市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "宍粟市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "加東市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "選挙日程",
+          "url": "https://www.city.kato.lg.jp/kakukanogoannai/iinkaijimukyoku/senkyokanriiinkai/syugiinginsousennkyooyobisaikousaibankankokuminsinsanoosirase_1/11077.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "たつの市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    }
+  ]
+}

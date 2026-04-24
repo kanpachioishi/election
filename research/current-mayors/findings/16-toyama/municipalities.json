@@ -1,0 +1,47 @@
+{
+  "pref_code": "16",
+  "pref_name": "富山県",
+  "generated_at": "2026-04-23",
+  "records": [
+    {
+      "region_id": "toyama-city-01",
+      "city_name": "富山市"
+    },
+    {
+      "region_id": "toyama-city-02",
+      "city_name": "高岡市"
+    },
+    {
+      "region_id": "toyama-city-03",
+      "city_name": "魚津市"
+    },
+    {
+      "region_id": "toyama-city-04",
+      "city_name": "氷見市"
+    },
+    {
+      "region_id": "toyama-city-05",
+      "city_name": "滑川市"
+    },
+    {
+      "region_id": "toyama-city-06",
+      "city_name": "黒部市"
+    },
+    {
+      "region_id": "toyama-city-07",
+      "city_name": "砺波市"
+    },
+    {
+      "region_id": "toyama-city-08",
+      "city_name": "小矢部市"
+    },
+    {
+      "region_id": "toyama-city-09",
+      "city_name": "南砺市"
+    },
+    {
+      "region_id": "toyama-city-10",
+      "city_name": "射水市"
+    }
+  ]
+}

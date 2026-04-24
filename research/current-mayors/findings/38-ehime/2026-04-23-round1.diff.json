@@ -1,0 +1,161 @@
+{
+  "pref_code": "38",
+  "pref_name": "愛媛県",
+  "compared_at": "2026-04-23",
+  "changes": [
+    {
+      "city_name": "松山市",
+      "field": "term_start",
+      "current_value": "2022-11",
+      "proposed_value": "2022-11-28",
+      "reason": "県選管の任期満了日一覧で現任期満了日が2026-11-27。4年任期として始期を補完。"
+    },
+    {
+      "city_name": "松山市",
+      "field": "term_end",
+      "current_value": "2026-11",
+      "proposed_value": "2026-11-27",
+      "reason": "愛媛県選管の任期満了日一覧で日付が明示されている。"
+    },
+    {
+      "city_name": "今治市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-02-20",
+      "reason": "2025-02-09執行の今治市長選結果と県選管の新任期満了日2029-02-19から現任期始期を確定。"
+    },
+    {
+      "city_name": "今治市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "2期目",
+      "reason": "2025年今治市長選で再選を確認。"
+    },
+    {
+      "city_name": "宇和島市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-09-11",
+      "reason": "2025-08-31執行の宇和島市長選結果と県選管の新任期満了日2029-09-10から現任期始期を確定。"
+    },
+    {
+      "city_name": "宇和島市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "3期目",
+      "reason": "2025年宇和島市長選で岡原文彰氏の再選を確認。"
+    },
+    {
+      "city_name": "八幡浜市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-04-24",
+      "reason": "県選管の任期満了日一覧で現任期満了日が2029-04-23。4年任期として始期を補完。"
+    },
+    {
+      "city_name": "新居浜市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2024-11-18",
+      "reason": "新居浜市公式プロフィールに就任日が明記されている。"
+    },
+    {
+      "city_name": "新居浜市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "1期目",
+      "reason": "公式プロフィールでは第25代市長として2024-11-18就任。"
+    },
+    {
+      "city_name": "西条市",
+      "field": "mayor_name",
+      "current_value": "高橋 敏明",
+      "proposed_value": "なし",
+      "reason": "2026-03-29付の西条市公式告知で市長失職後は市長不在。"
+    },
+    {
+      "city_name": "西条市",
+      "field": "term_note",
+      "current_value": "令和6年11月28日 西条市長就任。",
+      "proposed_value": "市長不在（職務代理者: 明比 卓志）",
+      "reason": "市公式告知で副市長明比卓志氏が市長職務代理。"
+    },
+    {
+      "city_name": "西条市",
+      "field": "note",
+      "current_value": "就任日は市長プロフィール、選挙執行日は市長選挙ページで確認。任期は4年で整理。",
+      "proposed_value": "2026-03-29失職。西条市長選は2026-05-17。現時点では現職市長ではなく職務代理体制。",
+      "reason": "西条市公式の失職告知と選挙期日告知が最新の一次情報。"
+    },
+    {
+      "city_name": "大洲市",
+      "field": "term_start",
+      "current_value": "2022-05",
+      "proposed_value": "2022-05-20",
+      "reason": "県選管の任期満了日2026-05-19から現任期始期を補完。"
+    },
+    {
+      "city_name": "大洲市",
+      "field": "term_end",
+      "current_value": "2026-05",
+      "proposed_value": "2026-05-19",
+      "reason": "愛媛県選管の任期満了日一覧で日付が明示されている。"
+    },
+    {
+      "city_name": "大洲市",
+      "field": "note",
+      "current_value": "公式あいさつで現職・2期目・令和4年5月を確認。満了日は未確認",
+      "proposed_value": "現職は二宮隆久氏のまま。次回大洲市長選は2026-04-26。",
+      "reason": "任期満了日が調査日から30日以内のため、公式選管ページの次回選挙日程を追記。"
+    },
+    {
+      "city_name": "伊予市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-04-24",
+      "reason": "2025-04-20執行の伊予市長選結果と県選管の満了日2029-04-23から現任期始期を確定。"
+    },
+    {
+      "city_name": "四国中央市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-04-28",
+      "reason": "市長就任あいさつ、前市長の2025-04-27退任記事、県選管の満了日2029-04-27から現任期始期を確定。"
+    },
+    {
+      "city_name": "四国中央市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "1期目",
+      "reason": "市長就任あいさつで第3代四国中央市長就任を確認。"
+    },
+    {
+      "city_name": "西予市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2024-05-16",
+      "reason": "県選管の任期満了日2028-05-15から現任期始期を補完。"
+    },
+    {
+      "city_name": "西予市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "3期目",
+      "reason": "西予市長の部屋の資産公開導線で3期目開始が確認できる。"
+    },
+    {
+      "city_name": "東温市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2024-11-07",
+      "reason": "東温市公式プロフィールに3期目開始日が明記されている。"
+    },
+    {
+      "city_name": "東温市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "3期目",
+      "reason": "東温市公式プロフィールに3期目と明記されている。"
+    }
+  ]
+}

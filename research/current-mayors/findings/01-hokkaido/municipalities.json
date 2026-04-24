@@ -1,0 +1,152 @@
+{
+  "pref_code": "01",
+  "pref_name": "北海道",
+  "generated_at": "2026-04-23T00:00:00+09:00",
+  "source": {
+    "title": "道内179市町村／50音別",
+    "url": "https://www.pref.hokkaido.lg.jp/link/shichoson/aiueo.html",
+    "checked_at": "2026-04-23"
+  },
+  "records": [
+    {
+      "city_name": "赤平市",
+      "official_url": "https://www.city.akabira.hokkaido.jp"
+    },
+    {
+      "city_name": "旭川市",
+      "official_url": "https://www.city.asahikawa.hokkaido.jp"
+    },
+    {
+      "city_name": "芦別市",
+      "official_url": "https://www.city.ashibetsu.hokkaido.jp"
+    },
+    {
+      "city_name": "網走市",
+      "official_url": "https://www.city.abashiri.hokkaido.jp"
+    },
+    {
+      "city_name": "石狩市",
+      "official_url": "https://www.city.ishikari.hokkaido.jp"
+    },
+    {
+      "city_name": "岩見沢市",
+      "official_url": "https://www.city.iwamizawa.hokkaido.jp"
+    },
+    {
+      "city_name": "歌志内市",
+      "official_url": "https://www.city.utashinai.hokkaido.jp"
+    },
+    {
+      "city_name": "恵庭市",
+      "official_url": "https://www.city.eniwa.hokkaido.jp"
+    },
+    {
+      "city_name": "江別市",
+      "official_url": "https://www.city.ebetsu.hokkaido.jp"
+    },
+    {
+      "city_name": "小樽市",
+      "official_url": "https://www.city.otaru.lg.jp"
+    },
+    {
+      "city_name": "帯広市",
+      "official_url": "https://www.city.obihiro.hokkaido.jp"
+    },
+    {
+      "city_name": "北広島市",
+      "official_url": "https://www.city.kitahiroshima.hokkaido.jp"
+    },
+    {
+      "city_name": "北見市",
+      "official_url": "https://www.city.kitami.lg.jp"
+    },
+    {
+      "city_name": "釧路市",
+      "official_url": "https://www.city.kushiro.lg.jp"
+    },
+    {
+      "city_name": "札幌市",
+      "official_url": "https://www.city.sapporo.jp"
+    },
+    {
+      "city_name": "士別市",
+      "official_url": "https://www.city.shibetsu.lg.jp"
+    },
+    {
+      "city_name": "砂川市",
+      "official_url": "https://www.city.sunagawa.hokkaido.jp"
+    },
+    {
+      "city_name": "滝川市",
+      "official_url": "https://www.city.takikawa.hokkaido.jp"
+    },
+    {
+      "city_name": "伊達市",
+      "official_url": "https://www.city.date.hokkaido.jp"
+    },
+    {
+      "city_name": "千歳市",
+      "official_url": "https://www.city.chitose.lg.jp"
+    },
+    {
+      "city_name": "苫小牧市",
+      "official_url": "https://www.city.tomakomai.hokkaido.jp"
+    },
+    {
+      "city_name": "名寄市",
+      "official_url": "https://www.city.nayoro.lg.jp"
+    },
+    {
+      "city_name": "根室市",
+      "official_url": "https://www.city.nemuro.hokkaido.jp"
+    },
+    {
+      "city_name": "登別市",
+      "official_url": "https://www.city.noboribetsu.lg.jp"
+    },
+    {
+      "city_name": "函館市",
+      "official_url": "https://www.city.hakodate.hokkaido.jp"
+    },
+    {
+      "city_name": "美唄市",
+      "official_url": "https://www.city.bibai.hokkaido.jp"
+    },
+    {
+      "city_name": "深川市",
+      "official_url": "https://www.city.fukagawa.lg.jp"
+    },
+    {
+      "city_name": "富良野市",
+      "official_url": "https://www.city.furano.hokkaido.jp"
+    },
+    {
+      "city_name": "北斗市",
+      "official_url": "https://www.city.hokuto.hokkaido.jp"
+    },
+    {
+      "city_name": "三笠市",
+      "official_url": "https://www.city.mikasa.hokkaido.jp"
+    },
+    {
+      "city_name": "室蘭市",
+      "official_url": "https://www.city.muroran.lg.jp"
+    },
+    {
+      "city_name": "紋別市",
+      "official_url": "https://mombetsu.jp"
+    },
+    {
+      "city_name": "夕張市",
+      "official_url": "https://www.city.yubari.lg.jp"
+    },
+    {
+      "city_name": "留萌市",
+      "official_url": "https://www.e-rumoi.jp"
+    },
+    {
+      "city_name": "稚内市",
+      "official_url": "https://www.city.wakkanai.hokkaido.jp"
+    }
+  ]
+}

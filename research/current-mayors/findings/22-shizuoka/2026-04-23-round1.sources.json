@@ -1,0 +1,524 @@
+{
+  "pref_code": "22",
+  "pref_name": "静岡県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "静岡市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        }
+      ]
+    },
+    {
+      "city_name": "浜松市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.hamamatsu.shizuoka.jp/documents/8881/gaiyo_2025_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "沼津市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市新着情報",
+          "url": "https://www.city.numazu.shizuoka.jp/shinchaku/",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "熱海市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "三島市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "富士宮市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "伊東市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "島田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "富士市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "磐田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "焼津市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "掛川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "藤枝市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "御殿場市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "袋井市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "下田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "裾野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "湖西市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "伊豆市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "御前崎市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "菊川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "伊豆の国市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "牧之原市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    }
+  ]
+}

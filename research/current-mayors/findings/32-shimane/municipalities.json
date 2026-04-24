@@ -1,0 +1,39 @@
+{
+  "pref_code": "32",
+  "pref_name": "島根県",
+  "generated_at": "2026-04-24",
+  "records": [
+    {
+      "region_id": "shimane-city-01",
+      "city_name": "江津市"
+    },
+    {
+      "region_id": "shimane-city-02",
+      "city_name": "松江市"
+    },
+    {
+      "region_id": "shimane-city-03",
+      "city_name": "浜田市"
+    },
+    {
+      "region_id": "shimane-city-04",
+      "city_name": "出雲市"
+    },
+    {
+      "region_id": "shimane-city-05",
+      "city_name": "益田市"
+    },
+    {
+      "region_id": "shimane-city-06",
+      "city_name": "大田市"
+    },
+    {
+      "region_id": "shimane-city-07",
+      "city_name": "安来市"
+    },
+    {
+      "region_id": "shimane-city-08",
+      "city_name": "雲南市"
+    }
+  ]
+}

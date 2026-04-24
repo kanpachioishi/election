@@ -1,0 +1,63 @@
+{
+  "pref_code": "34",
+  "pref_name": "広島県",
+  "generated_at": "2026-04-24",
+  "records": [
+    {
+      "region_id": "hiroshima-city-01",
+      "city_name": "広島市"
+    },
+    {
+      "region_id": "hiroshima-city-02",
+      "city_name": "呉市"
+    },
+    {
+      "region_id": "hiroshima-city-03",
+      "city_name": "竹原市"
+    },
+    {
+      "region_id": "hiroshima-city-04",
+      "city_name": "三原市"
+    },
+    {
+      "region_id": "hiroshima-city-05",
+      "city_name": "尾道市"
+    },
+    {
+      "region_id": "hiroshima-city-06",
+      "city_name": "福山市"
+    },
+    {
+      "region_id": "hiroshima-city-07",
+      "city_name": "府中市"
+    },
+    {
+      "region_id": "hiroshima-city-08",
+      "city_name": "三次市"
+    },
+    {
+      "region_id": "hiroshima-city-09",
+      "city_name": "庄原市"
+    },
+    {
+      "region_id": "hiroshima-city-10",
+      "city_name": "大竹市"
+    },
+    {
+      "region_id": "hiroshima-city-11",
+      "city_name": "東広島市"
+    },
+    {
+      "region_id": "hiroshima-city-12",
+      "city_name": "廿日市市"
+    },
+    {
+      "region_id": "hiroshima-city-13",
+      "city_name": "安芸高田市"
+    },
+    {
+      "region_id": "hiroshima-city-14",
+      "city_name": "江田島市"
+    }
+  ]
+}

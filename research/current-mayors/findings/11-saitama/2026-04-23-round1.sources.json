@@ -1,0 +1,891 @@
+{
+  "pref_code": "11",
+  "pref_name": "埼玉県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "久喜市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票結果",
+          "url": "https://www.city.kuki.lg.jp/shisei/senkyo/shicho-shigi/1012730.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "羽生市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        }
+      ]
+    },
+    {
+      "city_name": "蓮田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        }
+      ]
+    },
+    {
+      "city_name": "さいたま市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        }
+      ]
+    },
+    {
+      "city_name": "川越市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.kawagoe.saitama.jp/shisei/mayor/1007287.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "熊谷市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "川口市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.kawaguchi.lg.jp/shichoshitsu/index.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "行田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.gyoda.lg.jp/soshiki/sougouseisakubu/hisho/gyomu/mayor/9166.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "秩父市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "所沢市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.tokorozawa.saitama.jp/shiseijoho/senkyo/term_of_office.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "飯能市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.hanno.lg.jp/shisei/senkyo/1004238.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "加須市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票速報",
+          "url": "https://www.city.kazo.lg.jp/soshiki/gyousei/senkyokanriiinkai/kazoshityosenkyooyobikazosigikaigiinhoketsusenkyo/toukaihyonitsuite/28382.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "本庄市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.honjo.lg.jp/shiseijoho/senkyo/1572504339085.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "東松山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/43/27863.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "春日部市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.kasukabe.lg.jp/shisei/shiyakusho/senkyo/1001959.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "狭山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.sayama.saitama.jp/shisei/senkyo/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "鴻巣市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.kounosu.saitama.jp/site/mayor/3020.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "深谷市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.fukaya.saitama.jp/soshiki/hisho/hisho/tanto/hukaya/1389317798140.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "上尾市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "草加市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.soka.saitama.jp/li/060/010/120/index.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "越谷市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "蕨市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.warabi.saitama.jp/shisei/mayor/manifest/1002816.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "戸田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.toda.saitama.jp/soshiki/391/senkan-08shichou-shigi.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "入間市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "朝霞市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.asaka.lg.jp/soshiki/1/masterprofile.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "志木市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "和光市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.city.wako.lg.jp/shisei/1008134/1009418/1008135.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "新座市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "桶川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "選挙結果PDF",
+          "url": "https://www.city.okegawa.lg.jp/material/files/group/44/R7shichousen.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "北本市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "八潮市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "富士見市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "三郷市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "坂戸市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "幸手市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "鶴ヶ島市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "日高市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.hidaka.lg.jp/soshiki/somubu/senkyo/1/1/27236.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "吉川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/27,102980,227,html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "ふじみ野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.fujimino.saitama.jp/soshikiichiran/senkyokanriiinkai/senkyo/1882.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "白岡市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.shiraoka.lg.jp/soshiki/senkyokanriiinkaijimukyoku/osirase/9209.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "pref_code": "45",
+  "pref_name": "宮崎県",
+  "compared_at": "2026-04-24",
+  "changes": [
+    {
+      "city_name": "小林市",
+      "field": "mayor_name",
+      "current_value": "宮原 義久",
+      "proposed_value": "堀 研二郎",
+      "reason": "小林市公式の2026-04-19執行市長選投開票結果で堀研二郎氏当選を確認。"
+    },
+    {
+      "city_name": "小林市",
+      "field": "term_end",
+      "current_value": "2026-04-22",
+      "proposed_value": "2030-04-22",
+      "reason": "改選反映。現任期は旧任期満了日の翌日から4年で整理。"
+    }
+  ]
+}

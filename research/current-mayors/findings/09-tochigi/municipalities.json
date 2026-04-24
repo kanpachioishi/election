@@ -1,0 +1,63 @@
+{
+  "pref_code": "09",
+  "pref_name": "栃木県",
+  "generated_at": "2026-04-23",
+  "records": [
+    {
+      "region_id": "tochigi-city-01",
+      "city_name": "栃木市"
+    },
+    {
+      "region_id": "tochigi-city-02",
+      "city_name": "下野市"
+    },
+    {
+      "region_id": "tochigi-city-03",
+      "city_name": "宇都宮市"
+    },
+    {
+      "region_id": "tochigi-city-04",
+      "city_name": "足利市"
+    },
+    {
+      "region_id": "tochigi-city-05",
+      "city_name": "佐野市"
+    },
+    {
+      "region_id": "tochigi-city-06",
+      "city_name": "鹿沼市"
+    },
+    {
+      "region_id": "tochigi-city-07",
+      "city_name": "日光市"
+    },
+    {
+      "region_id": "tochigi-city-08",
+      "city_name": "小山市"
+    },
+    {
+      "region_id": "tochigi-city-09",
+      "city_name": "真岡市"
+    },
+    {
+      "region_id": "tochigi-city-10",
+      "city_name": "大田原市"
+    },
+    {
+      "region_id": "tochigi-city-11",
+      "city_name": "矢板市"
+    },
+    {
+      "region_id": "tochigi-city-12",
+      "city_name": "那須塩原市"
+    },
+    {
+      "region_id": "tochigi-city-13",
+      "city_name": "さくら市"
+    },
+    {
+      "region_id": "tochigi-city-14",
+      "city_name": "那須烏山市"
+    }
+  ]
+}

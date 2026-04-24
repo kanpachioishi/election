@@ -1,0 +1,42 @@
+{
+  "pref_code": "43",
+  "pref_name": "熊本県",
+  "compared_at": "2026-04-24",
+  "changes": [
+    {
+      "city_name": "宇土市",
+      "field": "mayor_name",
+      "current_value": "元松 茂樹",
+      "proposed_value": "光井 正吾",
+      "reason": "テレビ熊本報道で2026-03-22告示の無投票初当選を確認。"
+    },
+    {
+      "city_name": "宇土市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2026-04-29",
+      "reason": "宇土市公式『選挙の種類』の旧任期満了日2026-04-28から現任期始期を整理。"
+    },
+    {
+      "city_name": "宇土市",
+      "field": "term_end",
+      "current_value": "2026-04-28",
+      "proposed_value": "2030-04-28",
+      "reason": "改選反映。"
+    },
+    {
+      "city_name": "宇土市",
+      "field": "term_note",
+      "current_value": "4期",
+      "proposed_value": "1期目",
+      "reason": "光井正吾氏が初当選。"
+    },
+    {
+      "city_name": "宇土市",
+      "field": "note",
+      "current_value": "宇土市公式の選挙種別一覧で任期満了日を確認。直近市長選の公式結果ページは確認中。",
+      "proposed_value": "宇土市公式『選挙の種類』で旧任期満了日を確認し、テレビ熊本報道で2026-03-22告示の無投票初当選を確認。現任期は2026-04-29開始で整理。",
+      "reason": "結果確認待ち注記を確定値へ更新した。"
+    }
+  ]
+}

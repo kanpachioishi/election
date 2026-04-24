@@ -1,0 +1,60 @@
+{
+  "pref_code": "10",
+  "pref_name": "群馬県",
+  "generated_at": "2026-04-23T00:00:00+09:00",
+  "source": {
+    "title": "県内市町村等ホームページ外部リンク集",
+    "url": "https://www.pref.gunma.jp/page/14523.html",
+    "checked_at": "2026-04-23"
+  },
+  "records": [
+    {
+      "city_name": "前橋市",
+      "official_url": "https://www.city.maebashi.gunma.jp/"
+    },
+    {
+      "city_name": "高崎市",
+      "official_url": "https://www.city.takasaki.gunma.jp/"
+    },
+    {
+      "city_name": "桐生市",
+      "official_url": "https://www.city.kiryu.lg.jp"
+    },
+    {
+      "city_name": "伊勢崎市",
+      "official_url": "https://www.city.isesaki.lg.jp/"
+    },
+    {
+      "city_name": "太田市",
+      "official_url": "https://www.city.ota.gunma.jp/"
+    },
+    {
+      "city_name": "沼田市",
+      "official_url": "https://www.city.numata.gunma.jp"
+    },
+    {
+      "city_name": "館林市",
+      "official_url": "https://www.city.tatebayashi.gunma.jp/"
+    },
+    {
+      "city_name": "渋川市",
+      "official_url": "https://www.city.shibukawa.lg.jp"
+    },
+    {
+      "city_name": "藤岡市",
+      "official_url": "https://www.city.fujioka.gunma.jp/"
+    },
+    {
+      "city_name": "富岡市",
+      "official_url": "https://www.city.tomioka.lg.jp/"
+    },
+    {
+      "city_name": "安中市",
+      "official_url": "https://www.city.annaka.lg.jp/"
+    },
+    {
+      "city_name": "みどり市",
+      "official_url": "https://www.city.midori.gunma.jp/"
+    }
+  ]
+}

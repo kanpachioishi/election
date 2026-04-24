@@ -1,0 +1,86 @@
+{
+  "pref_code": "06",
+  "pref_name": "山形県",
+  "investigated_at": "2026-04-23",
+  "base_sources": [
+    {
+      "title": "山形県内の選挙予定・結果について",
+      "url": "https://www.pref.yamagata.jp/910001/kensei/senkyo/yotei_kekka/senkyokekkayotei4_17.html",
+      "checked_at": "2026-04-23"
+    },
+    {
+      "title": "市町村一覧（村山）",
+      "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/murayama/index.html",
+      "checked_at": "2026-04-23"
+    },
+    {
+      "title": "市町村一覧（最上）",
+      "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/murayama/mogami.html",
+      "checked_at": "2026-04-23"
+    },
+    {
+      "title": "市町村一覧（庄内）",
+      "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/murayama/shonai.html",
+      "checked_at": "2026-04-23"
+    },
+    {
+      "title": "市町村一覧（置賜）",
+      "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/okitama.html",
+      "checked_at": "2026-04-23"
+    }
+  ],
+  "records": [
+    {
+      "city_name": "鶴岡市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "profile",
+          "title": "市長の部屋",
+          "url": "https://www.city.tsuruoka.lg.jp/shisei/shicho/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "酒田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.sakata.lg.jp/shisei/shicyou/shityoprofile.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "新庄市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "profile",
+          "title": "市長メッセージ・プロフィール",
+          "url": "https://www.city.shinjo.yamagata.jp/s001/005/20150310145025.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start"]
+        }
+      ]
+    },
+    {
+      "city_name": "寒河江市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "profile",
+          "title": "市長のプロフィール",
+          "url": "https://www.city.sagae.yamagata.jp/shisei/shicyou/shicho_profile.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end"]
+        }
+      ]
+    }
+  ]
+}

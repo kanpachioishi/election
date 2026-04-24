@@ -1,0 +1,40 @@
+{
+  "pref_code": "10",
+  "pref_name": "群馬県",
+  "compared_at": "2026-04-23",
+  "based_on": "2026-04-23-round1.diff.json",
+  "changes": [
+    {
+      "municipality_code": "10201",
+      "city_name": "前橋市",
+      "field": "term_start",
+      "current_value": "2024-02-28",
+      "proposed_value": "2026-01-14",
+      "reason": "前橋市の1月12日から1月18日の日程に「市長就任訓示」が掲載されている。"
+    },
+    {
+      "municipality_code": "10201",
+      "city_name": "前橋市",
+      "field": "term_end",
+      "current_value": "2028-02-27",
+      "proposed_value": "2029-02-27",
+      "reason": "群馬県選管の任期満了一覧では前橋市長の任期満了日は令和11年2月27日。"
+    },
+    {
+      "municipality_code": "10201",
+      "city_name": "前橋市",
+      "field": "term_note",
+      "current_value": "1期目",
+      "proposed_value": "2026-01-12執行の前橋市長選挙で小川晶氏当選。2026-01-14に市長就任訓示。",
+      "reason": "再選・就任の流れを公式日程で補足できた。"
+    },
+    {
+      "municipality_code": "10210",
+      "city_name": "富岡市",
+      "field": "mayor_name",
+      "current_value": "榎本 義法",
+      "proposed_value": "茂原 正秀",
+      "reason": "2026-04-12執行の富岡市長選挙開票速報で茂原正秀氏が最多得票。"
+    }
+  ]
+}

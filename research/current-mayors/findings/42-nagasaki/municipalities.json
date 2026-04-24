@@ -1,0 +1,64 @@
+{
+  "pref_code": "42",
+  "pref_name": "長崎県",
+  "generated_at": "2026-04-24T00:00:00+09:00",
+  "source": {
+    "title": "令和5年度財政状況資料集(県内市町)",
+    "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+    "checked_at": "2026-04-24"
+  },
+  "records": [
+    {
+      "city_name": "南島原市",
+      "official_url": "https://www.city.minamishimabara.lg.jp/kiji0034404/index.html"
+    },
+    {
+      "city_name": "長崎市",
+      "official_url": "https://www.city.nagasaki.lg.jp/page/6033.html"
+    },
+    {
+      "city_name": "佐世保市",
+      "official_url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+    },
+    {
+      "city_name": "島原市",
+      "official_url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+    },
+    {
+      "city_name": "諫早市",
+      "official_url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+    },
+    {
+      "city_name": "大村市",
+      "official_url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+    },
+    {
+      "city_name": "平戸市",
+      "official_url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+    },
+    {
+      "city_name": "松浦市",
+      "official_url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+    },
+    {
+      "city_name": "対馬市",
+      "official_url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+    },
+    {
+      "city_name": "壱岐市",
+      "official_url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+    },
+    {
+      "city_name": "五島市",
+      "official_url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+    },
+    {
+      "city_name": "西海市",
+      "official_url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+    },
+    {
+      "city_name": "雲仙市",
+      "official_url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+    }
+  ]
+}

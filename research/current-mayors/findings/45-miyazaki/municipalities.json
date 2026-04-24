@@ -1,0 +1,48 @@
+{
+  "pref_code": "45",
+  "pref_name": "宮崎県",
+  "generated_at": "2026-04-24T00:00:00+09:00",
+  "source": {
+    "title": "県内市町村一覧",
+    "url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/shichoson/shichosonmap.html",
+    "checked_at": "2026-04-24"
+  },
+  "records": [
+    {
+      "city_name": "小林市",
+      "official_url": "https://www.city.kobayashi.lg.jp/soshikikarasagasu/senkyokanriiinkaijimukyoku/oshirase/11104.html"
+    },
+    {
+      "city_name": "宮崎市",
+      "official_url": "https://www.city.miyazaki.miyazaki.jp/mayor/activity_log2/409048.html"
+    },
+    {
+      "city_name": "都城市",
+      "official_url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf"
+    },
+    {
+      "city_name": "延岡市",
+      "official_url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf"
+    },
+    {
+      "city_name": "日南市",
+      "official_url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf"
+    },
+    {
+      "city_name": "日向市",
+      "official_url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf"
+    },
+    {
+      "city_name": "串間市",
+      "official_url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf"
+    },
+    {
+      "city_name": "西都市",
+      "official_url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf"
+    },
+    {
+      "city_name": "えびの市",
+      "official_url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf"
+    }
+  ]
+}

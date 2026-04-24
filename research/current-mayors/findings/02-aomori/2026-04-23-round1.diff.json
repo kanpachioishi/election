@@ -1,0 +1,56 @@
+{
+  "pref_code": "02",
+  "pref_name": "青森県",
+  "compared_at": "2026-04-23",
+  "changes": [
+    {
+      "city_name": "八戸市",
+      "field": "term_start",
+      "current_value": "2021-11-17",
+      "proposed_value": "2025-11-17",
+      "reason": "2025-10-26執行の八戸市長選挙で熊谷雄一氏の再選を確認。前任期満了日2025-11-16の翌日を現任期始期として整理。"
+    },
+    {
+      "city_name": "十和田市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-01-30",
+      "reason": "十和田市長選結果と県選管の旧任期満了日2025-01-29から、翌日開始で整理。"
+    },
+    {
+      "city_name": "十和田市",
+      "field": "term_note",
+      "current_value": "記載なし",
+      "proposed_value": "1期目",
+      "reason": "2025年1月就任の現職市長として整理。"
+    },
+    {
+      "city_name": "三沢市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2023-06-17",
+      "reason": "市公式広報の再選記載と任期満了日2027-06-16から、現任期始期を整理。"
+    },
+    {
+      "city_name": "三沢市",
+      "field": "term_note",
+      "current_value": "記載なし",
+      "proposed_value": "2期目",
+      "reason": "広報みさわ2023年7月号で『再選した小檜山市長』と確認。"
+    },
+    {
+      "city_name": "むつ市",
+      "field": "term_note",
+      "current_value": "記載なし",
+      "proposed_value": "1期目",
+      "reason": "市長プロフィールの2023-04-23就任記載から初当選後の現任期と確認。"
+    },
+    {
+      "city_name": "平川市",
+      "field": "term_note",
+      "current_value": "記載なし",
+      "proposed_value": "1期目",
+      "reason": "現職プロフィールが2025-12-21開始の新市長情報で、現任期は1期目。"
+    }
+  ]
+}

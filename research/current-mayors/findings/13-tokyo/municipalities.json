@@ -1,0 +1,111 @@
+{
+  "pref_code": "13",
+  "pref_name": "東京都",
+  "generated_at": "2026-04-23",
+  "records": [
+    {
+      "region_id": "tokyo-city-01",
+      "city_name": "調布市"
+    },
+    {
+      "region_id": "tokyo-city-02",
+      "city_name": "狛江市"
+    },
+    {
+      "region_id": "tokyo-city-03",
+      "city_name": "あきる野市"
+    },
+    {
+      "region_id": "tokyo-city-04",
+      "city_name": "八王子市"
+    },
+    {
+      "region_id": "tokyo-city-05",
+      "city_name": "立川市"
+    },
+    {
+      "region_id": "tokyo-city-06",
+      "city_name": "武蔵野市"
+    },
+    {
+      "region_id": "tokyo-city-07",
+      "city_name": "三鷹市"
+    },
+    {
+      "region_id": "tokyo-city-08",
+      "city_name": "青梅市"
+    },
+    {
+      "region_id": "tokyo-city-09",
+      "city_name": "府中市"
+    },
+    {
+      "region_id": "tokyo-city-10",
+      "city_name": "昭島市"
+    },
+    {
+      "region_id": "tokyo-city-11",
+      "city_name": "町田市"
+    },
+    {
+      "region_id": "tokyo-city-12",
+      "city_name": "小金井市"
+    },
+    {
+      "region_id": "tokyo-city-13",
+      "city_name": "小平市"
+    },
+    {
+      "region_id": "tokyo-city-14",
+      "city_name": "日野市"
+    },
+    {
+      "region_id": "tokyo-city-15",
+      "city_name": "東村山市"
+    },
+    {
+      "region_id": "tokyo-city-16",
+      "city_name": "国分寺市"
+    },
+    {
+      "region_id": "tokyo-city-17",
+      "city_name": "国立市"
+    },
+    {
+      "region_id": "tokyo-city-18",
+      "city_name": "福生市"
+    },
+    {
+      "region_id": "tokyo-city-19",
+      "city_name": "東大和市"
+    },
+    {
+      "region_id": "tokyo-city-20",
+      "city_name": "清瀬市"
+    },
+    {
+      "region_id": "tokyo-city-21",
+      "city_name": "東久留米市"
+    },
+    {
+      "region_id": "tokyo-city-22",
+      "city_name": "武蔵村山市"
+    },
+    {
+      "region_id": "tokyo-city-23",
+      "city_name": "多摩市"
+    },
+    {
+      "region_id": "tokyo-city-24",
+      "city_name": "稲城市"
+    },
+    {
+      "region_id": "tokyo-city-25",
+      "city_name": "羽村市"
+    },
+    {
+      "region_id": "tokyo-city-26",
+      "city_name": "西東京市"
+    }
+  ]
+}

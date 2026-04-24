@@ -1,0 +1,51 @@
+{
+  "pref_code": "17",
+  "pref_name": "石川県",
+  "generated_at": "2026-04-23",
+  "records": [
+    {
+      "region_id": "ishikawa-city-01",
+      "city_name": "金沢市"
+    },
+    {
+      "region_id": "ishikawa-city-02",
+      "city_name": "七尾市"
+    },
+    {
+      "region_id": "ishikawa-city-03",
+      "city_name": "小松市"
+    },
+    {
+      "region_id": "ishikawa-city-04",
+      "city_name": "輪島市"
+    },
+    {
+      "region_id": "ishikawa-city-05",
+      "city_name": "珠洲市"
+    },
+    {
+      "region_id": "ishikawa-city-06",
+      "city_name": "加賀市"
+    },
+    {
+      "region_id": "ishikawa-city-07",
+      "city_name": "羽咋市"
+    },
+    {
+      "region_id": "ishikawa-city-08",
+      "city_name": "かほく市"
+    },
+    {
+      "region_id": "ishikawa-city-09",
+      "city_name": "白山市"
+    },
+    {
+      "region_id": "ishikawa-city-10",
+      "city_name": "能美市"
+    },
+    {
+      "region_id": "ishikawa-city-11",
+      "city_name": "野々市市"
+    }
+  ]
+}

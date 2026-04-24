@@ -1,0 +1,846 @@
+{
+  "pref_code": "12",
+  "pref_name": "千葉県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "香取市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "選挙期日決定",
+          "url": "https://www.city.katori.lg.jp/government/senkyo/R08shityoushigihosen.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "千葉市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "市長プロフィール",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "八街市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        }
+      ]
+    },
+    {
+      "city_name": "勝浦市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "君津市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "銚子市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.choshi.chiba.jp/shisei/page220026.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "市川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票速報",
+          "url": "https://www.city.ichikawa.lg.jp/page/56781.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "船橋市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.funabashi.lg.jp/shisei/shoukai/001/p004832.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "館山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.tateyama.chiba.jp/files/300373438.pdf",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "木更津市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.kisarazu.lg.jp/soshiki/somu/hisho/1/3316.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "松戸市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.matsudo.chiba.jp/matumado/index/matsudo_newmayor.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "野田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.noda.chiba.jp/shisei/koho/shiho/1046769/1040946/1040954.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "茂原市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.mobara.chiba.jp/0000001411.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "成田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.narita.chiba.jp/shisei/page003900.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "佐倉市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.sakura.lg.jp/soshiki/hishoka/317/4121.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "東金市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票速報",
+          "url": "https://www.city.togane.chiba.jp/0000009051.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "旭市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.asahi.lg.jp/soshiki/33/37409.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "習志野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.narashino.lg.jp/joho/mayor/shoshin.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "柏市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.kashiwa.lg.jp/hisho/shiseijoho/about_kashiwa/shicho/profile/profile.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "市原市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/26650",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "流山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.nagareyama.chiba.jp/mayor/1009864/index.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "八千代市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.yachiyo.lg.jp/site/sityounoheya/1514.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "我孫子市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.abiko.chiba.jp/shisei/shichoshitsu/shichoshitsu/profile.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "鴨川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.kamogawa.lg.jp/site/senkyo/1072.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "鎌ケ谷市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.kamagaya.chiba.jp/smph/sesakumidashi/senkyo/kamagaya_senkyo/senkyonoshurui.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "富津市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.futtsu.lg.jp/0000007841.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "浦安市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.urayasu.lg.jp/shisei/senkyo/tohyo/1003195.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "四街道市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.yotsukaido.chiba.jp/shichonoheya/index.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "袖ケ浦市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.sodegaura.lg.jp/soshiki/senkyo/kakushuninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "印西市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.inzai.lg.jp/0000000466.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "白井市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.shiroi.chiba.jp/soshiki/somu/s07/hisyo011/hisyo/hik019/12321.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "富里市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.tomisato.lg.jp/0000014693.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "南房総市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票速報",
+          "url": "https://www.city.minamiboso.chiba.jp/0000024161.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "匝瑳市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.sosa.lg.jp/sp/page/page006885.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "山武市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票結果",
+          "url": "https://www.city.sammu.lg.jp/bousai-syobo/bousai-kikinogashi/page008269.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "いすみ市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.isumi.lg.jp/soshikikarasagasu/senkyokanriiinkaijimukyoku/7137.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "大網白里市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.oamishirasato.lg.jp/0000012682.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    }
+  ]
+}

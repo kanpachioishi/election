@@ -1,0 +1,59 @@
+{
+  "pref_code": "35",
+  "pref_name": "山口県",
+  "generated_at": "2026-04-24",
+  "records": [
+    {
+      "region_id": "yamaguchi-city-01",
+      "city_name": "萩市"
+    },
+    {
+      "region_id": "yamaguchi-city-02",
+      "city_name": "防府市"
+    },
+    {
+      "region_id": "yamaguchi-city-03",
+      "city_name": "山口市"
+    },
+    {
+      "region_id": "yamaguchi-city-04",
+      "city_name": "下関市"
+    },
+    {
+      "region_id": "yamaguchi-city-05",
+      "city_name": "宇部市"
+    },
+    {
+      "region_id": "yamaguchi-city-06",
+      "city_name": "下松市"
+    },
+    {
+      "region_id": "yamaguchi-city-07",
+      "city_name": "岩国市"
+    },
+    {
+      "region_id": "yamaguchi-city-08",
+      "city_name": "光市"
+    },
+    {
+      "region_id": "yamaguchi-city-09",
+      "city_name": "長門市"
+    },
+    {
+      "region_id": "yamaguchi-city-10",
+      "city_name": "柳井市"
+    },
+    {
+      "region_id": "yamaguchi-city-11",
+      "city_name": "美祢市"
+    },
+    {
+      "region_id": "yamaguchi-city-12",
+      "city_name": "周南市"
+    },
+    {
+      "region_id": "yamaguchi-city-13",
+      "city_name": "山陽小野田市"
+    }
+  ]
+}

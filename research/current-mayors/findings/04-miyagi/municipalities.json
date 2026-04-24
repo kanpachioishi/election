@@ -1,0 +1,26 @@
+{
+  "pref_code": "04",
+  "pref_name": "宮城県",
+  "generated_at": "2026-04-23T00:00:00+09:00",
+  "source": {
+    "title": "県内市町村リンク集",
+    "url": "https://www.pref.miyagi.jp/soshiki/kohou/link01.html",
+    "checked_at": "2026-04-23"
+  },
+  "records": [
+    { "city_name": "仙台市" },
+    { "city_name": "石巻市" },
+    { "city_name": "塩竈市" },
+    { "city_name": "気仙沼市" },
+    { "city_name": "白石市" },
+    { "city_name": "名取市" },
+    { "city_name": "角田市" },
+    { "city_name": "多賀城市" },
+    { "city_name": "岩沼市" },
+    { "city_name": "登米市" },
+    { "city_name": "栗原市" },
+    { "city_name": "東松島市" },
+    { "city_name": "大崎市" },
+    { "city_name": "富谷市" }
+  ]
+}

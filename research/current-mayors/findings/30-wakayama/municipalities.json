@@ -1,0 +1,43 @@
+{
+  "pref_code": "30",
+  "pref_name": "和歌山県",
+  "generated_at": "2026-04-23",
+  "records": [
+    {
+      "region_id": "wakayama-city-01",
+      "city_name": "和歌山市"
+    },
+    {
+      "region_id": "wakayama-city-02",
+      "city_name": "海南市"
+    },
+    {
+      "region_id": "wakayama-city-03",
+      "city_name": "橋本市"
+    },
+    {
+      "region_id": "wakayama-city-04",
+      "city_name": "有田市"
+    },
+    {
+      "region_id": "wakayama-city-05",
+      "city_name": "御坊市"
+    },
+    {
+      "region_id": "wakayama-city-06",
+      "city_name": "田辺市"
+    },
+    {
+      "region_id": "wakayama-city-07",
+      "city_name": "新宮市"
+    },
+    {
+      "region_id": "wakayama-city-08",
+      "city_name": "紀の川市"
+    },
+    {
+      "region_id": "wakayama-city-09",
+      "city_name": "岩出市"
+    }
+  ]
+}

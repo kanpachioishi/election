@@ -1,0 +1,260 @@
+{
+  "pref_code": "17",
+  "pref_name": "石川県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "金沢市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/kohokochoka/gyomuannai/9/4878.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "七尾市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "小松市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "輪島市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "珠洲市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "加賀市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "羽咋市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "かほく市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "白山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "能美市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "野々市市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    }
+  ]
+}

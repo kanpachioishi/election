@@ -1,0 +1,85 @@
+{
+  "pref_code": "04",
+  "pref_name": "宮城県",
+  "investigated_at": "2026-04-23",
+  "base_sources": [
+    {
+      "title": "県内市町村長名簿",
+      "url": "https://www.pref.miyagi.jp/soshiki/sichouson/sityousonntyou.html",
+      "checked_at": "2026-04-23"
+    },
+    {
+      "title": "県内市町村等任期満了一覧",
+      "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf",
+      "checked_at": "2026-04-23"
+    }
+  ],
+  "records": [
+    {
+      "city_name": "大崎市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_schedule",
+          "title": "大崎市長選挙・大崎市議会議員一般選挙について",
+          "url": "https://www.city.osaki.miyagi.jp/shisei/emergency/22250.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end", "note"]
+        },
+        {
+          "kind": "election_result",
+          "title": "令和8年4月19日執行大崎市長選挙・大崎市議会議員一般選挙の投開票速報",
+          "url": "https://www.city.osaki.miyagi.jp/shisei/emergency/22294.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "気仙沼市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "profile",
+          "title": "市長のプロフィール",
+          "url": "https://www.kesennuma.miyagi.jp/sec/s002/020/010/1356677463972.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start"]
+        },
+        {
+          "kind": "election_schedule",
+          "title": "気仙沼市長選挙及び気仙沼市議会議員一般選挙の日程について",
+          "url": "https://www.kesennuma.miyagi.jp/sec/s157/010/010/020/040/nitteikettei_si2.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end", "note"]
+        }
+      ]
+    },
+    {
+      "city_name": "石巻市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.ishinomaki.lg.jp/cont/10151000/6547/profile.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "塩竈市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.shiogama.miyagi.jp/soshiki/48/3018.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        }
+      ]
+    }
+  ]
+}

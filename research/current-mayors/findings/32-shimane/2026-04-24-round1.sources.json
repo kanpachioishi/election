@@ -1,0 +1,239 @@
+{
+  "pref_code": "32",
+  "pref_name": "島根県",
+  "investigated_at": "2026-04-24",
+  "records": [
+    {
+      "city_name": "江津市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "島根県 しまねの市町村",
+          "url": "https://www.pref.shimane.lg.jp/shichoson/"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "島根県 県市町村の長・議員の任期満了一覧",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "中村中市長のプロフィール",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "松江市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "島根県 しまねの市町村",
+          "url": "https://www.pref.shimane.lg.jp/shichoson/"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "島根県 県市町村の長・議員の任期満了一覧",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.matsue.lg.jp/gyoseijoho/WEB_shichoshitsu/9917.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "浜田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "島根県 しまねの市町村",
+          "url": "https://www.pref.shimane.lg.jp/shichoson/"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "島根県 県市町村の長・議員の任期満了一覧",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "出雲市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "島根県 しまねの市町村",
+          "url": "https://www.pref.shimane.lg.jp/shichoson/"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "島根県 県市町村の長・議員の任期満了一覧",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "益田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "島根県 しまねの市町村",
+          "url": "https://www.pref.shimane.lg.jp/shichoson/"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "島根県 県市町村の長・議員の任期満了一覧",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "大田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "島根県 しまねの市町村",
+          "url": "https://www.pref.shimane.lg.jp/shichoson/"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "島根県 県市町村の長・議員の任期満了一覧",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "安来市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "島根県 しまねの市町村",
+          "url": "https://www.pref.shimane.lg.jp/shichoson/"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "島根県 県市町村の長・議員の任期満了一覧",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "雲南市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "島根県 しまねの市町村",
+          "url": "https://www.pref.shimane.lg.jp/shichoson/"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "島根県 県市町村の長・議員の任期満了一覧",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    }
+  ]
+}

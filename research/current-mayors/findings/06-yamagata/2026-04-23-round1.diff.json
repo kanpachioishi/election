@@ -1,0 +1,28 @@
+{
+  "pref_code": "06",
+  "pref_name": "山形県",
+  "compared_at": "2026-04-23",
+  "changes": [
+    {
+      "city_name": "米沢市",
+      "field": "term_start",
+      "current_value": "2027-12-21",
+      "proposed_value": "2023-12-22",
+      "reason": "現任期始期が満了日と同値になっていたため、4年任期として整理。"
+    },
+    {
+      "city_name": "上山市",
+      "field": "term_start",
+      "current_value": "2027-04-25",
+      "proposed_value": "2023-04-26",
+      "reason": "現任期始期が満了日と同値になっていたため、4年任期として整理。"
+    },
+    {
+      "city_name": "山形市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2023-09-28",
+      "reason": "県資料の任期満了日から現任期始期を補完。"
+    }
+  ]
+}

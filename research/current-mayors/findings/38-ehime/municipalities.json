@@ -1,0 +1,56 @@
+{
+  "pref_code": "38",
+  "pref_name": "愛媛県",
+  "generated_at": "2026-04-23T00:00:00+09:00",
+  "source": {
+    "title": "令和6年度版 市町のさまざまな資料一覧",
+    "url": "https://www.pref.ehime.jp/page/104251.html",
+    "checked_at": "2026-04-23"
+  },
+  "records": [
+    {
+      "city_name": "松山市",
+      "official_url": "https://www.city.matsuyama.ehime.jp/"
+    },
+    {
+      "city_name": "今治市",
+      "official_url": "https://www.city.imabari.ehime.jp/"
+    },
+    {
+      "city_name": "宇和島市",
+      "official_url": "https://www.city.uwajima.ehime.jp/"
+    },
+    {
+      "city_name": "八幡浜市",
+      "official_url": "https://www.city.yawatahama.ehime.jp/"
+    },
+    {
+      "city_name": "新居浜市",
+      "official_url": "https://www.city.niihama.lg.jp/"
+    },
+    {
+      "city_name": "西条市",
+      "official_url": "https://www.city.saijo.ehime.jp/"
+    },
+    {
+      "city_name": "大洲市",
+      "official_url": "https://www.city.ozu.ehime.jp/"
+    },
+    {
+      "city_name": "伊予市",
+      "official_url": "https://www.city.iyo.lg.jp/"
+    },
+    {
+      "city_name": "四国中央市",
+      "official_url": "https://www.city.shikokuchuo.ehime.jp/"
+    },
+    {
+      "city_name": "西予市",
+      "official_url": "https://www.city.seiyo.ehime.jp/"
+    },
+    {
+      "city_name": "東温市",
+      "official_url": "https://www.city.toon.ehime.jp/"
+    }
+  ]
+}

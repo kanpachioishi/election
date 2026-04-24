@@ -1,0 +1,202 @@
+{
+  "pref_code": "18",
+  "pref_name": "福井県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "坂井市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "福井県 任期満了日一覧",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票結果",
+          "url": "https://www.city.fukui-sakai.lg.jp/somu/shisei/senkyo/kekka/r8senkyokekka.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "大野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "福井県 任期満了日一覧",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/"
+        }
+      ]
+    },
+    {
+      "city_name": "福井市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "福井県 任期満了日一覧",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "敦賀市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "福井県 任期満了日一覧",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "小浜市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "福井県 任期満了日一覧",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "勝山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "福井県 任期満了日一覧",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "鯖江市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "福井県 任期満了日一覧",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "あわら市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "福井県 任期満了日一覧",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "越前市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "福井県 任期満了日一覧",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    }
+  ]
+}

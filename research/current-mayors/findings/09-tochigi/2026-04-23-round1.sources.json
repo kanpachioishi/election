@@ -1,0 +1,317 @@
+{
+  "pref_code": "09",
+  "pref_name": "栃木県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "栃木市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票速報",
+          "url": "https://www.city.tochigi.lg.jp/soshiki/58/89929.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "下野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp"
+        }
+      ]
+    },
+    {
+      "city_name": "宇都宮市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.utsunomiya.lg.jp/shisei/senkyo/senkan/1010963.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "足利市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/21687",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "佐野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/25733",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "鹿沼市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.kanuma.tochigi.jp/0386/info-0000001468-1.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "日光市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/jichitai/840",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "小山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/28367",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "真岡市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.moka.lg.jp/kakuka/senkyokanri/gyomu/senkyo/kategoribetu/sennkyoseido/1904.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "大田原市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/26495",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "矢板市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/28195",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "那須塩原市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/27138",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "さくら市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.tochigi-sakura.lg.jp/government/000058/000341/p001436.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "那須烏山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/25737",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    }
+  ]
+}

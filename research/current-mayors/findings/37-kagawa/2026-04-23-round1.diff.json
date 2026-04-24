@@ -1,0 +1,126 @@
+{
+  "pref_code": "37",
+  "pref_name": "香川県",
+  "compared_at": "2026-04-23",
+  "changes": [
+    {
+      "city_name": "高松市",
+      "field": "confirmation_url",
+      "current_value": "市長プロフィール",
+      "proposed_value": "https://www.city.takamatsu.kagawa.jp/kurashi/shichoushitsu/sicho_up20180823.html",
+      "reason": "現行ページは実 URL ではなく表示文言のみ。市公式プロフィールを確認元 URL にする。"
+    },
+    {
+      "city_name": "丸亀市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-04-24",
+      "reason": "2025-04-20執行の市長選は無投票。任期満了日2025-04-23の翌日を現任期始期とする。"
+    },
+    {
+      "city_name": "丸亀市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "2期目",
+      "reason": "市公式プロフィールで『令和7年4月2期目当選』を確認。"
+    },
+    {
+      "city_name": "坂出市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-06-04",
+      "reason": "任期満了日2025-06-03の翌日を現任期始期として整理。2025-05-18執行の市長選は無投票。"
+    },
+    {
+      "city_name": "坂出市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "2期目",
+      "reason": "市公式プロフィールで『令和7年6月 坂出市長 2期目』を確認。"
+    },
+    {
+      "city_name": "善通寺市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2026-05-10",
+      "reason": "市公式プロフィールに『5月10日から善通寺市長としての任期が始まる』とあり、2026年改選後の次期任期も同日開始として整理。"
+    },
+    {
+      "city_name": "善通寺市",
+      "field": "term_end",
+      "current_value": "2026-05-09",
+      "proposed_value": "2030-05-09",
+      "reason": "2026-04-19執行の市長選挙は無投票で、次期4年任期に更新する必要がある。"
+    },
+    {
+      "city_name": "善通寺市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "2期目",
+      "reason": "2026-04-12更新の無投票案内から再選扱いで整理。"
+    },
+    {
+      "city_name": "観音寺市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-11-20",
+      "reason": "任期満了日2025-11-19の翌日を現任期始期として整理。"
+    },
+    {
+      "city_name": "観音寺市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "2期目",
+      "reason": "市公式プロフィールで『2025年 観音寺市長 2期目』を確認。"
+    },
+    {
+      "city_name": "さぬき市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2022-05-12",
+      "reason": "市公式プロフィールに『任期: 令和4年5月12日〜』とある。"
+    },
+    {
+      "city_name": "さぬき市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "5期目",
+      "reason": "市公式プロフィールで『現在五期目』を確認。note には次回市長選2026-04-26も追記する。"
+    },
+    {
+      "city_name": "東かがわ市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2023-04-27",
+      "reason": "2023-04-23市長選再選後の現任期は、任期満了日2027-04-26の4年前の翌日開始として整理。"
+    },
+    {
+      "city_name": "東かがわ市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "2期目",
+      "reason": "市公式所信表明で2023-04-23市長選の再任を確認。"
+    },
+    {
+      "city_name": "三豊市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2026-01-25",
+      "reason": "2026-01-25執行の市長選は無投票。任期満了日2026-01-24の翌日を現任期始期とする。"
+    },
+    {
+      "city_name": "三豊市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "3期目",
+      "reason": "市公式プロフィールで『令和8年1月 三豊市長(3期目)』を確認。"
+    },
+    {
+      "city_name": "三豊市",
+      "field": "confirmation_url",
+      "current_value": "https://go2senkyo.com/local/senkyo/26226",
+      "proposed_value": "https://www.city.mitoyo.lg.jp/kakuka/senkyo/2/senkyokijitu_1/14398.html",
+      "reason": "現行ページは非公式ソース。市公式選挙ページに差し替える。"
+    }
+  ]
+}

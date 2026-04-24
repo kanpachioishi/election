@@ -1,0 +1,52 @@
+{
+  "pref_code": "02",
+  "pref_name": "青森県",
+  "generated_at": "2026-04-23T00:00:00+09:00",
+  "source": {
+    "title": "市町村ホームページ",
+    "url": "https://www.pref.aomori.lg.jp/soshiki/zaimu/shichoson/shichoson.html",
+    "checked_at": "2026-04-23"
+  },
+  "records": [
+    {
+      "city_name": "青森市",
+      "official_url": "https://www.city.aomori.aomori.jp/"
+    },
+    {
+      "city_name": "弘前市",
+      "official_url": "https://www.city.hirosaki.aomori.jp/"
+    },
+    {
+      "city_name": "黒石市",
+      "official_url": "https://www.city.kuroishi.aomori.jp/"
+    },
+    {
+      "city_name": "五所川原市",
+      "official_url": "https://www.city.goshogawara.lg.jp/"
+    },
+    {
+      "city_name": "八戸市",
+      "official_url": "https://www.city.hachinohe.aomori.jp/"
+    },
+    {
+      "city_name": "十和田市",
+      "official_url": "https://www.city.towada.lg.jp/"
+    },
+    {
+      "city_name": "三沢市",
+      "official_url": "https://www.city.misawa.lg.jp/"
+    },
+    {
+      "city_name": "むつ市",
+      "official_url": "https://www.city.mutsu.lg.jp/"
+    },
+    {
+      "city_name": "つがる市",
+      "official_url": "https://www.city.tsugaru.aomori.jp/"
+    },
+    {
+      "city_name": "平川市",
+      "official_url": "https://www.city.hirakawa.lg.jp/"
+    }
+  ]
+}

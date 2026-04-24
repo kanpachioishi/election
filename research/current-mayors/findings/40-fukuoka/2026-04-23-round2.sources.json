@@ -1,0 +1,62 @@
+{
+  "pref_code": "40",
+  "pref_name": "福岡県",
+  "investigated_at": "2026-04-23",
+  "based_on": "2026-04-23-round1.sources.json",
+  "records": [
+    {
+      "city_name": "嘉麻市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "term_expiry_list_old",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_note"]
+        },
+        {
+          "kind": "candidate_list",
+          "title": "候補者の氏名等一覧（嘉麻市長選挙）",
+          "url": "https://www.city.kama.lg.jp/uploaded/attachment/26507.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name"]
+        },
+        {
+          "kind": "election_result",
+          "title": "嘉麻市長選挙・嘉麻市議会議員補欠選挙速報",
+          "url": "https://www.city.kama.lg.jp/site/senkyo/42627.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "朝倉市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "term_expiry_list_old",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_note"]
+        },
+        {
+          "kind": "candidate_list",
+          "title": "朝倉市長選挙候補者の氏名及び党派別の一覧",
+          "url": "https://www.city.asakura.lg.jp/uploaded/attachment/9622.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name"]
+        },
+        {
+          "kind": "election_result",
+          "title": "令和8年4月19日執行 朝倉市長選挙 開票速報",
+          "url": "https://www.city.asakura.lg.jp/soshiki/40/12961.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        }
+      ]
+    }
+  ]
+}

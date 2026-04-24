@@ -1,0 +1,659 @@
+{
+  "pref_code": "08",
+  "pref_name": "茨城県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "水戸市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "日立市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        }
+      ]
+    },
+    {
+      "city_name": "土浦市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        }
+      ]
+    },
+    {
+      "city_name": "結城市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        }
+      ]
+    },
+    {
+      "city_name": "龍ケ崎市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        }
+      ]
+    },
+    {
+      "city_name": "下妻市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        }
+      ]
+    },
+    {
+      "city_name": "常総市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        }
+      ]
+    },
+    {
+      "city_name": "常陸太田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        }
+      ]
+    },
+    {
+      "city_name": "古河市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.ibaraki-koga.lg.jp/soshiki/hisyo/mayorsroom/sichouprofile/648.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "石岡市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "高萩市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "北茨城市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.kitaibaraki.lg.jp/docs/2015030200120/",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "笠間市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票結果",
+          "url": "https://www.city.kasama.lg.jp/page/page017183.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "取手市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.toride.ibaraki.jp/hisho/shise/shicho/shichoshitsu/profile.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "牛久市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "つくば市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "ひたちなか市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.hitachinaka.lg.jp/shisei/mayor/1007221/1003380.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "鹿嶋市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "無投票案内",
+          "url": "https://city.kashima.ibaraki.jp/soshiki/56/90549.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "潮来市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "守谷市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.moriya.ibaraki.jp/shisei/mayor/1005614.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "常陸大宮市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "那珂市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "筑西市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "坂東市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "稲敷市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "かすみがうら市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "桜川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "神栖市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "行方市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "鉾田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "つくばみらい市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "無投票案内",
+          "url": "https://www.city.tsukubamirai.lg.jp/sp/important/bousaimusen/page007519.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "小美玉市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "無投票案内",
+          "url": "https://www.city.omitama.lg.jp/0018/info-0000012147-0.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    }
+  ]
+}

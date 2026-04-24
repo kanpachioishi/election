@@ -1,0 +1,25 @@
+{
+  "pref_code": "07",
+  "pref_name": "福島県",
+  "generated_at": "2026-04-23T00:00:00+09:00",
+  "source": {
+    "title": "市役所・町村役場一覧",
+    "url": "https://www.pref.fukushima.lg.jp/sec/01145a/yakuba.html",
+    "checked_at": "2026-04-23"
+  },
+  "records": [
+    { "city_name": "福島市" },
+    { "city_name": "会津若松市" },
+    { "city_name": "郡山市" },
+    { "city_name": "いわき市" },
+    { "city_name": "白河市" },
+    { "city_name": "須賀川市" },
+    { "city_name": "喜多方市" },
+    { "city_name": "相馬市" },
+    { "city_name": "二本松市" },
+    { "city_name": "田村市" },
+    { "city_name": "南相馬市" },
+    { "city_name": "伊達市" },
+    { "city_name": "本宮市" }
+  ]
+}

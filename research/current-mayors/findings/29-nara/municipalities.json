@@ -1,0 +1,55 @@
+{
+  "pref_code": "29",
+  "pref_name": "奈良県",
+  "generated_at": "2026-04-23",
+  "records": [
+    {
+      "region_id": "nara-city-01",
+      "city_name": "奈良市"
+    },
+    {
+      "region_id": "nara-city-02",
+      "city_name": "大和高田市"
+    },
+    {
+      "region_id": "nara-city-03",
+      "city_name": "大和郡山市"
+    },
+    {
+      "region_id": "nara-city-04",
+      "city_name": "天理市"
+    },
+    {
+      "region_id": "nara-city-05",
+      "city_name": "橿原市"
+    },
+    {
+      "region_id": "nara-city-06",
+      "city_name": "桜井市"
+    },
+    {
+      "region_id": "nara-city-07",
+      "city_name": "五條市"
+    },
+    {
+      "region_id": "nara-city-08",
+      "city_name": "御所市"
+    },
+    {
+      "region_id": "nara-city-09",
+      "city_name": "生駒市"
+    },
+    {
+      "region_id": "nara-city-10",
+      "city_name": "香芝市"
+    },
+    {
+      "region_id": "nara-city-11",
+      "city_name": "葛城市"
+    },
+    {
+      "region_id": "nara-city-12",
+      "city_name": "宇陀市"
+    }
+  ]
+}

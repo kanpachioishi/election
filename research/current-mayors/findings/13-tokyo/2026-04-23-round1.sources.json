@@ -1,0 +1,569 @@
+{
+  "pref_code": "13",
+  "pref_name": "東京都",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "調布市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        }
+      ]
+    },
+    {
+      "city_name": "狛江市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        }
+      ]
+    },
+    {
+      "city_name": "あきる野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        }
+      ]
+    },
+    {
+      "city_name": "八王子市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "立川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "武蔵野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "三鷹市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "青梅市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "府中市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市長挨拶",
+          "url": "https://www.city.fuchu.tokyo.jp/mayor/shichoh0202.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "昭島市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "町田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.machida.tokyo.jp/shisei/shityoushitu/index.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "小金井市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "小平市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "日野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "東村山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "国分寺市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "国立市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "福生市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "東大和市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "清瀬市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.kiyose.lg.jp/siseijouhou/senkyo/1004830.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "東久留米市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "武蔵村山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "多摩市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.tama.lg.jp/shisei/gyouseiiinkai/senkyo/kekka/shicho/1019864.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "稲城市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "羽村市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "西東京市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "東京都選管 任期満了日一覧",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/expiration",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    }
+  ]
+}

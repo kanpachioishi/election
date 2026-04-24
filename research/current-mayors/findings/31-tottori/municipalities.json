@@ -1,0 +1,23 @@
+{
+  "pref_code": "31",
+  "pref_name": "鳥取県",
+  "generated_at": "2026-04-24",
+  "records": [
+    {
+      "region_id": "tottori-city-01",
+      "city_name": "鳥取市"
+    },
+    {
+      "region_id": "tottori-city-02",
+      "city_name": "米子市"
+    },
+    {
+      "region_id": "tottori-city-03",
+      "city_name": "倉吉市"
+    },
+    {
+      "region_id": "tottori-city-04",
+      "city_name": "境港市"
+    }
+  ]
+}

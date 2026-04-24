@@ -1,0 +1,308 @@
+{
+  "pref_code": "01",
+  "pref_name": "北海道",
+  "compared_at": "2026-04-23",
+  "changes": [
+    {
+      "city_name": "赤平市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2023-05-01",
+      "reason": "北海道公式一覧と市町村長選挙結果に基づき現任期始期を補完。"
+    },
+    {
+      "city_name": "旭川市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-09-26",
+      "reason": "2025-09-07執行の市長選結果と任期満了日一覧から現任期始期を整理。"
+    },
+    {
+      "city_name": "旭川市",
+      "field": "term_note",
+      "current_value": "現職（令和7年旭川市長選挙当選）",
+      "proposed_value": "2期目",
+      "reason": "北海道選管の選挙結果で当選2回を確認。"
+    },
+    {
+      "city_name": "網走市",
+      "field": "term_end",
+      "current_value": "2026-12",
+      "proposed_value": "2026-11-30",
+      "reason": "北海道公式の任期満了日一覧で日付を確定。"
+    },
+    {
+      "city_name": "石狩市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2023-06-27",
+      "reason": "任期満了日2027-06-26から現任期始期を整理。"
+    },
+    {
+      "city_name": "石狩市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "2期目",
+      "reason": "北海道選管の選挙結果で当選2回を確認。"
+    },
+    {
+      "city_name": "岩見沢市",
+      "field": "term_start",
+      "current_value": "2012-09",
+      "proposed_value": "2024-09-09",
+      "reason": "2024-08-25執行の市長選結果と任期満了日一覧から現任期始期を整理。"
+    },
+    {
+      "city_name": "歌志内市",
+      "field": "term_start",
+      "current_value": "2024-10",
+      "proposed_value": "2024-10-26",
+      "reason": "任期満了日2028-10-25から現任期始期を整理。"
+    },
+    {
+      "city_name": "歌志内市",
+      "field": "term_end",
+      "current_value": "2028-10",
+      "proposed_value": "2028-10-25",
+      "reason": "北海道公式の任期満了日一覧で日付を確定。"
+    },
+    {
+      "city_name": "歌志内市",
+      "field": "term_note",
+      "current_value": "現職（2024年10月市長選無投票）",
+      "proposed_value": "2期目",
+      "reason": "北海道選管の選挙結果で当選2回を確認。"
+    },
+    {
+      "city_name": "恵庭市",
+      "field": "term_start",
+      "current_value": "2021-11-26",
+      "proposed_value": "2025-11-26",
+      "reason": "2025-11-16執行の市長選結果と任期満了日一覧から現任期を整理。"
+    },
+    {
+      "city_name": "恵庭市",
+      "field": "term_note",
+      "current_value": "4期目",
+      "proposed_value": "5期目",
+      "reason": "北海道選管の選挙結果で当選5回を確認。"
+    },
+    {
+      "city_name": "江別市",
+      "field": "term_start",
+      "current_value": "2023-04",
+      "proposed_value": "2023-05-01",
+      "reason": "任期満了日2027-04-30から現任期始期を整理。"
+    },
+    {
+      "city_name": "江別市",
+      "field": "term_note",
+      "current_value": "現職（2023年4月当選）",
+      "proposed_value": "1期目",
+      "reason": "北海道選管の選挙結果で当選1回を確認。"
+    },
+    {
+      "city_name": "帯広市",
+      "field": "mayor_name",
+      "current_value": "米沢 則寿",
+      "proposed_value": "上野 ようすけ",
+      "reason": "2026-04-12執行の帯広市長選挙開票結果で上野ようすけ氏当選を確認。"
+    },
+    {
+      "city_name": "帯広市",
+      "field": "term_start",
+      "current_value": "2022-04-21",
+      "proposed_value": "2026-04-21",
+      "reason": "前任期満了日2026-04-20の翌日を現任期始期として整理。"
+    },
+    {
+      "city_name": "帯広市",
+      "field": "term_end",
+      "current_value": "2026-04-20",
+      "proposed_value": "2030-04-20",
+      "reason": "2026-04-12執行の市長選結果に基づき新任期へ更新。"
+    },
+    {
+      "city_name": "帯広市",
+      "field": "term_note",
+      "current_value": "4期目",
+      "proposed_value": "1期目",
+      "reason": "2026-04-12執行の市長選で新市長当選を確認。"
+    },
+    {
+      "city_name": "北見市",
+      "field": "term_start",
+      "current_value": "2023-09",
+      "proposed_value": "2023-09-27",
+      "reason": "任期満了日2027-09-26から現任期始期を整理。"
+    },
+    {
+      "city_name": "釧路市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2024-11-02",
+      "reason": "2024-10-27執行の市長選結果と任期満了日一覧から現任期始期を整理。"
+    },
+    {
+      "city_name": "釧路市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "1期目",
+      "reason": "北海道選管の選挙結果で当選1回を確認。"
+    },
+    {
+      "city_name": "砂川市",
+      "field": "term_start",
+      "current_value": "2023-05-01",
+      "proposed_value": "2023-04-27",
+      "reason": "任期満了日2027-04-26から現任期始期を整理。"
+    },
+    {
+      "city_name": "砂川市",
+      "field": "term_end",
+      "current_value": "2027-04-30",
+      "proposed_value": "2027-04-26",
+      "reason": "北海道公式の任期満了日一覧で日付を確定。"
+    },
+    {
+      "city_name": "滝川市",
+      "field": "term_start",
+      "current_value": "2023-04-01",
+      "proposed_value": "2023-04-27",
+      "reason": "任期満了日2027-04-26から現任期始期を整理。"
+    },
+    {
+      "city_name": "滝川市",
+      "field": "term_end",
+      "current_value": "2027-03-31",
+      "proposed_value": "2027-04-26",
+      "reason": "北海道公式の任期満了日一覧で日付を確定。"
+    },
+    {
+      "city_name": "函館市",
+      "field": "term_start",
+      "current_value": "2023-04",
+      "proposed_value": "2023-04-27",
+      "reason": "任期満了日2027-04-26から現任期始期を整理。"
+    },
+    {
+      "city_name": "函館市",
+      "field": "term_end",
+      "current_value": "2027-04",
+      "proposed_value": "2027-04-26",
+      "reason": "北海道公式の任期満了日一覧で日付を確定。"
+    },
+    {
+      "city_name": "美唄市",
+      "field": "term_start",
+      "current_value": "2023-07",
+      "proposed_value": "2023-07-03",
+      "reason": "任期満了日2027-07-02から現任期始期を整理。"
+    },
+    {
+      "city_name": "美唄市",
+      "field": "term_end",
+      "current_value": "2027-07",
+      "proposed_value": "2027-07-02",
+      "reason": "北海道公式の任期満了日一覧で日付を確定。"
+    },
+    {
+      "city_name": "美唄市",
+      "field": "term_note",
+      "current_value": "現職（令和5年7月就任）",
+      "proposed_value": "1期目",
+      "reason": "北海道選管の選挙結果で当選1回を確認。"
+    },
+    {
+      "city_name": "深川市",
+      "field": "term_start",
+      "current_value": "2023-01-01",
+      "proposed_value": "2023-01-21",
+      "reason": "任期満了日2027-01-20から現任期始期を整理。"
+    },
+    {
+      "city_name": "深川市",
+      "field": "term_end",
+      "current_value": "2026-12-31",
+      "proposed_value": "2027-01-20",
+      "reason": "北海道公式の任期満了日一覧で日付を確定。"
+    },
+    {
+      "city_name": "富良野市",
+      "field": "term_start",
+      "current_value": "2026-05-15",
+      "proposed_value": "2022-05-15",
+      "reason": "2026-04-23時点では現任期継続中。2026-04-12告示の市長選は無投票で次期当選が決定したが、現任期始期は2022-05-15。"
+    },
+    {
+      "city_name": "富良野市",
+      "field": "term_end",
+      "current_value": "2030-05-14",
+      "proposed_value": "2026-05-14",
+      "reason": "2026-04-23時点では現任期継続中で、現任期満了日は2026-05-14。"
+    },
+    {
+      "city_name": "富良野市",
+      "field": "term_note",
+      "current_value": "記載なし",
+      "proposed_value": "2期目",
+      "reason": "北海道選管の選挙結果で現任期は当選2回と確認。"
+    },
+    {
+      "city_name": "北斗市",
+      "field": "term_start",
+      "current_value": "2026-01-01",
+      "proposed_value": "2026-01-28",
+      "reason": "任期満了日2030-01-27から現任期始期を整理。"
+    },
+    {
+      "city_name": "北斗市",
+      "field": "term_end",
+      "current_value": "2029-12-31",
+      "proposed_value": "2030-01-27",
+      "reason": "北海道公式の任期満了日一覧で日付を確定。"
+    },
+    {
+      "city_name": "三笠市",
+      "field": "term_start",
+      "current_value": "2015-05-01",
+      "proposed_value": "2023-05-01",
+      "reason": "現任期は2023-04-23執行の市長選後の4年任期。"
+    },
+    {
+      "city_name": "三笠市",
+      "field": "term_note",
+      "current_value": "記載なし",
+      "proposed_value": "3期目",
+      "reason": "北海道選管の選挙結果で当選3回を確認。"
+    },
+    {
+      "city_name": "紋別市",
+      "field": "term_note",
+      "current_value": "記載なし",
+      "proposed_value": "1期目",
+      "reason": "2025-06-15執行の市長選結果で当選1回を確認。"
+    },
+    {
+      "city_name": "夕張市",
+      "field": "term_start",
+      "current_value": "2023-04",
+      "proposed_value": "2023-04-23",
+      "reason": "北海道選管の選挙結果と任期満了日一覧に基づき日付を確定。"
+    },
+    {
+      "city_name": "夕張市",
+      "field": "term_end",
+      "current_value": "2027-04",
+      "proposed_value": "2027-04-22",
+      "reason": "北海道公式の任期満了日一覧で日付を確定。"
+    },
+    {
+      "city_name": "留萌市",
+      "field": "term_end",
+      "current_value": "2030-03",
+      "proposed_value": "2030-03-09",
+      "reason": "北海道公式の任期満了日一覧で日付を確定。"
+    }
+  ]
+}

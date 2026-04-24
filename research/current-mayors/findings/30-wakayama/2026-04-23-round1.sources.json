@@ -1,0 +1,268 @@
+{
+  "pref_code": "30",
+  "pref_name": "和歌山県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "和歌山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "和歌山県 関連リンク 市町村",
+          "url": "https://www.pref.wakayama.lg.jp/link/shichoson.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "和歌山県 市町村役場の所在地一覧",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "海南市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "和歌山県 関連リンク 市町村",
+          "url": "https://www.pref.wakayama.lg.jp/link/shichoson.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "和歌山県 市町村役場の所在地一覧",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "橋本市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "和歌山県 関連リンク 市町村",
+          "url": "https://www.pref.wakayama.lg.jp/link/shichoson.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "和歌山県 市町村役場の所在地一覧",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.hashimoto.lg.jp/shisei/shicho_room/mayor_profile.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "有田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "和歌山県 関連リンク 市町村",
+          "url": "https://www.pref.wakayama.lg.jp/link/shichoson.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "和歌山県 市町村役場の所在地一覧",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "御坊市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "和歌山県 関連リンク 市町村",
+          "url": "https://www.pref.wakayama.lg.jp/link/shichoson.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "和歌山県 市町村役場の所在地一覧",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "田辺市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "和歌山県 関連リンク 市町村",
+          "url": "https://www.pref.wakayama.lg.jp/link/shichoson.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "和歌山県 市町村役場の所在地一覧",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "新宮市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "和歌山県 関連リンク 市町村",
+          "url": "https://www.pref.wakayama.lg.jp/link/shichoson.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "和歌山県 市町村役場の所在地一覧",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "紀の川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "和歌山県 関連リンク 市町村",
+          "url": "https://www.pref.wakayama.lg.jp/link/shichoson.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "和歌山県 市町村役場の所在地一覧",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "岩出市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "和歌山県 関連リンク 市町村",
+          "url": "https://www.pref.wakayama.lg.jp/link/shichoson.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "和歌山県 市町村役場の所在地一覧",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    }
+  ]
+}

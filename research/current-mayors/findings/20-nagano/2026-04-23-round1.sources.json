@@ -1,0 +1,444 @@
+{
+  "pref_code": "20",
+  "pref_name": "長野県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "長野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "松本市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "上田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "岡谷市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "飯田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "諏訪市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "須坂市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "小諸市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "伊那市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票速報",
+          "url": "https://www.inacity.jp/shisei/senkyo/r080419senkyo/sokuhou/080419kaihyosokuho.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "駒ヶ根市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "中野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "大町市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "飯山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "茅野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "塩尻市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "佐久市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "千曲市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "東御市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "安曇野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.azumino.nagano.jp/site/shicho/2496.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    }
+  ]
+}

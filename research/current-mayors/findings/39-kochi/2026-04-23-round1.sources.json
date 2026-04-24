@@ -1,0 +1,304 @@
+{
+  "pref_code": "39",
+  "pref_name": "高知県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "高知市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "term_expiry_list",
+          "title": "選挙の種類とそれぞれの任期の満了日について",
+          "url": "https://www.city.kochi.kochi.jp/soshiki/99/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        },
+        {
+          "kind": "inauguration_notice",
+          "title": "新市長就任に伴う工事関係書類の宛先について",
+          "url": "https://www.city.kochi.kochi.jp/soshiki/123/sinsityou-kankeisyorui.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start"]
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.kochi.kochi.jp/soshiki/174/puro.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "室戸市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和4年11月20日執行 室戸市長選挙開票結果",
+          "url": "https://www.city.muroto.kochi.jp/pages/page2348.php",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "地方公共団体の議会の議員及び長の任期満了調",
+          "url": "https://www.pref.kochi.lg.jp/doc/sityouson-senkyoteisu/file_contents/file_2026173173025_1.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.muroto.kochi.jp/pages/page0553.php",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name"]
+        }
+      ]
+    },
+    {
+      "city_name": "安芸市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "安芸市長選挙及び安芸市議会議員補欠選挙は無投票となりました",
+          "url": "https://www.city.aki.kochi.jp/life/dtl.php?hdnKey=3768",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長の部屋",
+          "url": "https://www.city.aki.kochi.jp/life/dtl.php?hdnKey=674",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "地方公共団体の議会の議員及び長の任期満了調",
+          "url": "https://www.pref.kochi.lg.jp/doc/sityouson-senkyoteisu/file_contents/file_2026173173025_1.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "南国市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "市長メッセージ",
+          "url": "https://www.city.nankoku.lg.jp/shichou/",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name"]
+        },
+        {
+          "kind": "election_schedule",
+          "title": "令和7年 市町村等の議員及び長の任期満了調",
+          "url": "https://www.pref.kochi.lg.jp/doc/sityouson-senkyoteisu/file_contents/file_202512195113254_1.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "地方公共団体の議会の議員及び長の任期満了調",
+          "url": "https://www.pref.kochi.lg.jp/doc/sityouson-senkyoteisu/file_contents/file_2026173173025_1.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "土佐市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_message",
+          "title": "市長就任のあいさつ",
+          "url": "https://www.city.tosa.lg.jp/life/detail.php?hdnKey=5436",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_note"]
+        },
+        {
+          "kind": "election_result_index",
+          "title": "土佐市長選挙",
+          "url": "https://www.city.tosa.lg.jp/life/detail.php?hdnKey=958",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "地方公共団体の議会の議員及び長の任期満了調",
+          "url": "https://www.pref.kochi.lg.jp/doc/sityouson-senkyoteisu/file_contents/file_2026173173025_1.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "須崎市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "須崎市長選挙 無投票のお知らせ",
+          "url": "https://www.city.susaki.lg.jp/life/detail.php?hdnKey=4876",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長のあいさつ",
+          "url": "https://www.city.susaki.lg.jp/life/detail.php?hdnKey=127",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "地方公共団体の議会の議員及び長の任期満了調",
+          "url": "https://www.pref.kochi.lg.jp/doc/sityouson-senkyoteisu/file_contents/file_2026173173025_1.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "宿毛市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "宿毛市長選挙 投開票結果報告",
+          "url": "https://www.city.sukumo.kochi.jp/docs-02/38271.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "official_profile",
+          "title": "宿毛市長 中平 富宏",
+          "url": "https://www.city.sukumo.kochi.jp/docs-05/p0608.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "地方公共団体の議会の議員及び長の任期満了調",
+          "url": "https://www.pref.kochi.lg.jp/doc/sityouson-senkyoteisu/file_contents/file_2026173173025_1.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "土佐清水市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_schedule",
+          "title": "令和8年 市町村等の議員及び長の任期満了調",
+          "url": "https://www.pref.kochi.lg.jp/doc/sityouson-senkyoteisu/file_contents/file_2026331285258_1.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_note"]
+        },
+        {
+          "kind": "inauguration_message",
+          "title": "令和8年1月30日の市長室（就任のごあいさつ）",
+          "url": "https://www.city.tosashimizu.kochi.jp/kurashi/section/sityou/22860.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start"]
+        },
+        {
+          "kind": "election_schedule",
+          "title": "選挙執行予定等",
+          "url": "https://www.city.tosashimizu.kochi.jp/kurashi/section/senkyo/008.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "四万十市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "四万十市長選挙 最終開票結果",
+          "url": "https://www.city.shimanto.lg.jp/soshiki/19/20751.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "inauguration_message",
+          "title": "就任挨拶",
+          "url": "https://www.city.shimanto.lg.jp/site/mayor/4432.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "地方公共団体の議会の議員及び長の任期満了調",
+          "url": "https://www.pref.kochi.lg.jp/doc/sityouson-senkyoteisu/file_contents/file_2026173173025_1.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "香南市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和8年1月25日執行 香南市長選挙は無投票となりました",
+          "url": "https://www.city.kochi-konan.lg.jp/shiseijoho/senkyo/12590.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長の部屋（市長あいさつ）",
+          "url": "https://www.city.kochi-konan.lg.jp/soshikikarasagasu/somuka/shichonoheya/5118.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name"]
+        },
+        {
+          "kind": "city_overview",
+          "title": "香南市 市勢要覧2022",
+          "url": "https://www.city.kochi-konan.lg.jp/material/files/group/2/siryouhenn.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start"]
+        }
+      ]
+    },
+    {
+      "city_name": "香美市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "2026年3月29日執行 香美市長選挙 投開票結果",
+          "url": "https://www.city.kami.lg.jp/soshiki/44/2026shicho.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長の部屋",
+          "url": "https://www.city.kami.lg.jp/adv/ba.php?id=47",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "地方公共団体の議会の議員及び長の任期満了調",
+          "url": "https://www.pref.kochi.lg.jp/doc/sityouson-senkyoteisu/file_contents/file_2026330184935_1.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    }
+  ]
+}

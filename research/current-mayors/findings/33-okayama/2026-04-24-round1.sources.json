@@ -1,0 +1,442 @@
+{
+  "pref_code": "33",
+  "pref_name": "岡山県",
+  "investigated_at": "2026-04-24",
+  "records": [
+    {
+      "city_name": "岡山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.pref.okayama.jp/page/351682.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "倉敷市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.okayama.jp/uploaded/life/1013152_9777982_misc.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "津山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/jichitai/2806/head",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "玉野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.tamano.lg.jp/site/senkyo/42756.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "笠岡市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.okayama.jp/uploaded/life/1013152_9777982_misc.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "井原市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.okayama.jp/uploaded/life/1013152_9777982_misc.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "総社市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.okayama.jp/uploaded/life/1013152_9777982_misc.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "高梁市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.okayama.jp/uploaded/life/1013152_9777982_misc.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "新見市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.okayama.jp/uploaded/life/1013152_9777982_misc.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "備前市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/jichitai/2813",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "瀬戸内市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/jichitai/2814/head",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "赤磐市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/25554",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "真庭市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/25552",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "美作市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/25190",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "浅口市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "選挙情報",
+          "url": "https://www.city.asakuchi.lg.jp/page/16884.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    }
+  ]
+}

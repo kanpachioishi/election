@@ -1,0 +1,56 @@
+{
+  "pref_code": "39",
+  "pref_name": "高知県",
+  "generated_at": "2026-04-23",
+  "source": {
+    "title": "県内市町村",
+    "url": "https://www.pref.kochi.lg.jp/link/kennai_shichoson.html",
+    "checked_at": "2026-04-23"
+  },
+  "records": [
+    {
+      "municipality_code": "39201",
+      "city_name": "高知市"
+    },
+    {
+      "municipality_code": "39202",
+      "city_name": "室戸市"
+    },
+    {
+      "municipality_code": "39203",
+      "city_name": "安芸市"
+    },
+    {
+      "municipality_code": "39204",
+      "city_name": "南国市"
+    },
+    {
+      "municipality_code": "39205",
+      "city_name": "土佐市"
+    },
+    {
+      "municipality_code": "39206",
+      "city_name": "須崎市"
+    },
+    {
+      "municipality_code": "39208",
+      "city_name": "宿毛市"
+    },
+    {
+      "municipality_code": "39209",
+      "city_name": "土佐清水市"
+    },
+    {
+      "municipality_code": "39210",
+      "city_name": "四万十市"
+    },
+    {
+      "municipality_code": "39211",
+      "city_name": "香南市"
+    },
+    {
+      "municipality_code": "39212",
+      "city_name": "香美市"
+    }
+  ]
+}

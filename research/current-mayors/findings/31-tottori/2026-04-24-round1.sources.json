@@ -1,0 +1,123 @@
+{
+  "pref_code": "31",
+  "pref_name": "鳥取県",
+  "investigated_at": "2026-04-24",
+  "records": [
+    {
+      "city_name": "鳥取市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "鳥取県 県内の市町村",
+          "url": "https://www.pref.tottori.lg.jp/9577.htm"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "鳥取県 市町村長等名簿",
+          "url": "https://www.pref.tottori.lg.jp/12519.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.pref.tottori.lg.jp/12519.htm",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "米子市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "鳥取県 県内の市町村",
+          "url": "https://www.pref.tottori.lg.jp/9577.htm"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "鳥取県 市町村長等名簿",
+          "url": "https://www.pref.tottori.lg.jp/12519.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.tottori.lg.jp/12519.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "倉吉市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "鳥取県 県内の市町村",
+          "url": "https://www.pref.tottori.lg.jp/9577.htm"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "鳥取県 市町村長等名簿",
+          "url": "https://www.pref.tottori.lg.jp/12519.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.tottori.lg.jp/12519.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "境港市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "鳥取県 県内の市町村",
+          "url": "https://www.pref.tottori.lg.jp/9577.htm"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "鳥取県 市町村長等名簿",
+          "url": "https://www.pref.tottori.lg.jp/12519.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.tottori.lg.jp/12519.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    }
+  ]
+}

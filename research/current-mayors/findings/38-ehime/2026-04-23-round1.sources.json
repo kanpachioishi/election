@@ -1,0 +1,262 @@
+{
+  "pref_code": "38",
+  "pref_name": "愛媛県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "松山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "term_expiry_list",
+          "title": "各種選挙の日程-任期満了日一覧-",
+          "url": "https://www.pref.ehime.jp/page/12142.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end", "term_start"]
+        },
+        {
+          "kind": "mayor_profile",
+          "title": "市長・副市長の自己紹介",
+          "url": "https://www.city.matsuyama.ehime.jp/shicho/profile/",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name"]
+        },
+        {
+          "kind": "policy_page",
+          "title": "基本政策（市長公約）",
+          "url": "https://www.city.matsuyama.ehime.jp/shisei/keikaku/koyaku/4kimekoyaku.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "今治市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和7年 今治市長選挙・今治市議会議員選挙の結果について",
+          "url": "https://www.city.imabari.ehime.jp/senkyo/20250209/kekka.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "各種選挙の日程-任期満了日一覧-",
+          "url": "https://www.pref.ehime.jp/page/12142.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end", "term_start"]
+        },
+        {
+          "kind": "mayor_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.imabari.ehime.jp/mayor/profile/",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name"]
+        }
+      ]
+    },
+    {
+      "city_name": "宇和島市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "開票速報 令和7年8月31日執行 宇和島市長選挙",
+          "url": "https://www.city.uwajima.ehime.jp/soshiki/40/20250831senkyo-sokuhou-shityou.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "各種選挙の日程-任期満了日一覧-",
+          "url": "https://www.pref.ehime.jp/page/12142.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end", "term_start"]
+        }
+      ]
+    },
+    {
+      "city_name": "八幡浜市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_message",
+          "title": "市長あいさつ",
+          "url": "https://www.city.yawatahama.ehime.jp/mayor/aisatsu/",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "各種選挙の日程-任期満了日一覧-",
+          "url": "https://www.pref.ehime.jp/page/12142.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end", "term_start"]
+        }
+      ]
+    },
+    {
+      "city_name": "新居浜市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_profile",
+          "title": "プロフィール",
+          "url": "https://www.city.niihama.lg.jp/site/mayor-room/profile.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "各種選挙の日程-任期満了日一覧-",
+          "url": "https://www.pref.ehime.jp/page/12142.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "西条市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "vacancy_notice",
+          "title": "副市長が市長の職務を代理します",
+          "url": "https://www.city.saijo.ehime.jp/soshiki/somu/syokumudairi.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "election_notice",
+          "title": "西条市長選挙の選挙期日が決まりました",
+          "url": "https://www.city.saijo.ehime.jp/soshiki/senkan/shityousen-senkyokijitu.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_note"]
+        },
+        {
+          "kind": "year_schedule",
+          "title": "各種選挙の日程-令和8年中の選挙日程-",
+          "url": "https://www.pref.ehime.jp/page/128211.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "大洲市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_profile",
+          "title": "市長のプロフィール",
+          "url": "https://www.city.ozu.ehime.jp/site/shicho/1143.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "各種選挙の日程-任期満了日一覧-",
+          "url": "https://www.pref.ehime.jp/page/12142.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end", "term_start"]
+        },
+        {
+          "kind": "election_notice",
+          "title": "大洲市長選挙の選挙期日について",
+          "url": "https://www.city.ozu.ehime.jp/soshiki/senkyo/26575.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "伊予市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和7年4月20日執行 伊予市長・伊予市議会議員選挙開票速報",
+          "url": "https://www.city.iyo.lg.jp/senkan/kurashi/senkyo/koho/07shichoshigisenkyo_sokuho.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "各種選挙の日程-任期満了日一覧-",
+          "url": "https://www.pref.ehime.jp/page/12142.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end", "term_start"]
+        },
+        {
+          "kind": "mayor_room",
+          "title": "市長の部屋",
+          "url": "https://www.city.iyo.lg.jp/miraidukuri/shise/gaiyo/shicho/room.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name"]
+        }
+      ]
+    },
+    {
+      "city_name": "四国中央市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "inauguration",
+          "title": "市長就任のごあいさつ",
+          "url": "https://www.city.shikokuchuo.ehime.jp/site/mayor/3231.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_note"]
+        },
+        {
+          "kind": "retirement_notice",
+          "title": "篠原実市長が退任し、12年間の舵取りに幕",
+          "url": "https://www.city.shikokuchuo.ehime.jp/site/machinowadai/50428.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "各種選挙の日程-任期満了日一覧-",
+          "url": "https://www.pref.ehime.jp/page/12142.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "西予市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_room",
+          "title": "市長の部屋",
+          "url": "https://www.city.seiyo.ehime.jp/shisei/shichonoheya/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "各種選挙の日程-任期満了日一覧-",
+          "url": "https://www.pref.ehime.jp/page/12142.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end", "term_start"]
+        }
+      ]
+    },
+    {
+      "city_name": "東温市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_profile",
+          "title": "市長のプロフィール",
+          "url": "https://www.city.toon.ehime.jp/site/121/1712.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        }
+      ]
+    }
+  ]
+}

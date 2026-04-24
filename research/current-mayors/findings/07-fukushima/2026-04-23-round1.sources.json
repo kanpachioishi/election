@@ -1,0 +1,39 @@
+{
+  "pref_code": "07",
+  "pref_name": "福島県",
+  "investigated_at": "2026-04-23",
+  "base_sources": [
+    {
+      "title": "市町村長任期一覧",
+      "url": "https://www.pref.fukushima.lg.jp/sec/01145a/ninki.html",
+      "checked_at": "2026-04-23"
+    },
+    {
+      "title": "市役所・町村役場一覧",
+      "url": "https://www.pref.fukushima.lg.jp/sec/01145a/yakuba.html",
+      "checked_at": "2026-04-23"
+    }
+  ],
+  "records": [
+    {
+      "city_name": "二本松市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "二本松市長選挙結果",
+          "url": "https://www.city.nihonmatsu.lg.jp/shisei/senkyo/page013504.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_note"]
+        },
+        {
+          "kind": "term_list",
+          "title": "市町村長任期一覧",
+          "url": "https://www.pref.fukushima.lg.jp/sec/01145a/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    }
+  ]
+}

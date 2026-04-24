@@ -1,0 +1,123 @@
+{
+  "pref_code": "28",
+  "pref_name": "兵庫県",
+  "generated_at": "2026-04-23",
+  "records": [
+    {
+      "region_id": "hyogo-city-01",
+      "city_name": "加古川市"
+    },
+    {
+      "region_id": "hyogo-city-02",
+      "city_name": "神戸市"
+    },
+    {
+      "region_id": "hyogo-city-03",
+      "city_name": "姫路市"
+    },
+    {
+      "region_id": "hyogo-city-04",
+      "city_name": "尼崎市"
+    },
+    {
+      "region_id": "hyogo-city-05",
+      "city_name": "明石市"
+    },
+    {
+      "region_id": "hyogo-city-06",
+      "city_name": "西宮市"
+    },
+    {
+      "region_id": "hyogo-city-07",
+      "city_name": "洲本市"
+    },
+    {
+      "region_id": "hyogo-city-08",
+      "city_name": "芦屋市"
+    },
+    {
+      "region_id": "hyogo-city-09",
+      "city_name": "伊丹市"
+    },
+    {
+      "region_id": "hyogo-city-10",
+      "city_name": "相生市"
+    },
+    {
+      "region_id": "hyogo-city-11",
+      "city_name": "豊岡市"
+    },
+    {
+      "region_id": "hyogo-city-12",
+      "city_name": "赤穂市"
+    },
+    {
+      "region_id": "hyogo-city-13",
+      "city_name": "西脇市"
+    },
+    {
+      "region_id": "hyogo-city-14",
+      "city_name": "宝塚市"
+    },
+    {
+      "region_id": "hyogo-city-15",
+      "city_name": "三木市"
+    },
+    {
+      "region_id": "hyogo-city-16",
+      "city_name": "高砂市"
+    },
+    {
+      "region_id": "hyogo-city-17",
+      "city_name": "川西市"
+    },
+    {
+      "region_id": "hyogo-city-18",
+      "city_name": "小野市"
+    },
+    {
+      "region_id": "hyogo-city-19",
+      "city_name": "三田市"
+    },
+    {
+      "region_id": "hyogo-city-20",
+      "city_name": "加西市"
+    },
+    {
+      "region_id": "hyogo-city-21",
+      "city_name": "丹波篠山市"
+    },
+    {
+      "region_id": "hyogo-city-22",
+      "city_name": "養父市"
+    },
+    {
+      "region_id": "hyogo-city-23",
+      "city_name": "丹波市"
+    },
+    {
+      "region_id": "hyogo-city-24",
+      "city_name": "南あわじ市"
+    },
+    {
+      "region_id": "hyogo-city-25",
+      "city_name": "朝来市"
+    },
+    {
+      "region_id": "hyogo-city-26",
+      "city_name": "淡路市"
+    },
+    {
+      "region_id": "hyogo-city-27",
+      "city_name": "宍粟市"
+    },
+    {
+      "region_id": "hyogo-city-28",
+      "city_name": "加東市"
+    },
+    {
+      "region_id": "hyogo-city-29",
+      "city_name": "たつの市"
+    }
+  ]
+}

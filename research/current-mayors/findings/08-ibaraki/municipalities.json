@@ -1,0 +1,135 @@
+{
+  "pref_code": "08",
+  "pref_name": "茨城県",
+  "generated_at": "2026-04-23",
+  "records": [
+    {
+      "region_id": "ibaraki-city-01",
+      "city_name": "水戸市"
+    },
+    {
+      "region_id": "ibaraki-city-02",
+      "city_name": "日立市"
+    },
+    {
+      "region_id": "ibaraki-city-03",
+      "city_name": "土浦市"
+    },
+    {
+      "region_id": "ibaraki-city-04",
+      "city_name": "結城市"
+    },
+    {
+      "region_id": "ibaraki-city-05",
+      "city_name": "龍ケ崎市"
+    },
+    {
+      "region_id": "ibaraki-city-06",
+      "city_name": "下妻市"
+    },
+    {
+      "region_id": "ibaraki-city-07",
+      "city_name": "常総市"
+    },
+    {
+      "region_id": "ibaraki-city-08",
+      "city_name": "常陸太田市"
+    },
+    {
+      "region_id": "ibaraki-city-09",
+      "city_name": "古河市"
+    },
+    {
+      "region_id": "ibaraki-city-10",
+      "city_name": "石岡市"
+    },
+    {
+      "region_id": "ibaraki-city-11",
+      "city_name": "高萩市"
+    },
+    {
+      "region_id": "ibaraki-city-12",
+      "city_name": "北茨城市"
+    },
+    {
+      "region_id": "ibaraki-city-13",
+      "city_name": "笠間市"
+    },
+    {
+      "region_id": "ibaraki-city-14",
+      "city_name": "取手市"
+    },
+    {
+      "region_id": "ibaraki-city-15",
+      "city_name": "牛久市"
+    },
+    {
+      "region_id": "ibaraki-city-16",
+      "city_name": "つくば市"
+    },
+    {
+      "region_id": "ibaraki-city-17",
+      "city_name": "ひたちなか市"
+    },
+    {
+      "region_id": "ibaraki-city-18",
+      "city_name": "鹿嶋市"
+    },
+    {
+      "region_id": "ibaraki-city-19",
+      "city_name": "潮来市"
+    },
+    {
+      "region_id": "ibaraki-city-20",
+      "city_name": "守谷市"
+    },
+    {
+      "region_id": "ibaraki-city-21",
+      "city_name": "常陸大宮市"
+    },
+    {
+      "region_id": "ibaraki-city-22",
+      "city_name": "那珂市"
+    },
+    {
+      "region_id": "ibaraki-city-23",
+      "city_name": "筑西市"
+    },
+    {
+      "region_id": "ibaraki-city-24",
+      "city_name": "坂東市"
+    },
+    {
+      "region_id": "ibaraki-city-25",
+      "city_name": "稲敷市"
+    },
+    {
+      "region_id": "ibaraki-city-26",
+      "city_name": "かすみがうら市"
+    },
+    {
+      "region_id": "ibaraki-city-27",
+      "city_name": "桜川市"
+    },
+    {
+      "region_id": "ibaraki-city-28",
+      "city_name": "神栖市"
+    },
+    {
+      "region_id": "ibaraki-city-29",
+      "city_name": "行方市"
+    },
+    {
+      "region_id": "ibaraki-city-30",
+      "city_name": "鉾田市"
+    },
+    {
+      "region_id": "ibaraki-city-31",
+      "city_name": "つくばみらい市"
+    },
+    {
+      "region_id": "ibaraki-city-32",
+      "city_name": "小美玉市"
+    }
+  ]
+}

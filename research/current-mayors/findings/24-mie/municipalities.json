@@ -1,0 +1,63 @@
+{
+  "pref_code": "24",
+  "pref_name": "三重県",
+  "generated_at": "2026-04-23",
+  "records": [
+    {
+      "region_id": "mie-city-01",
+      "city_name": "津市"
+    },
+    {
+      "region_id": "mie-city-02",
+      "city_name": "熊野市"
+    },
+    {
+      "region_id": "mie-city-03",
+      "city_name": "四日市市"
+    },
+    {
+      "region_id": "mie-city-04",
+      "city_name": "名張市"
+    },
+    {
+      "region_id": "mie-city-05",
+      "city_name": "伊勢市"
+    },
+    {
+      "region_id": "mie-city-06",
+      "city_name": "松阪市"
+    },
+    {
+      "region_id": "mie-city-07",
+      "city_name": "桑名市"
+    },
+    {
+      "region_id": "mie-city-08",
+      "city_name": "鈴鹿市"
+    },
+    {
+      "region_id": "mie-city-09",
+      "city_name": "尾鷲市"
+    },
+    {
+      "region_id": "mie-city-10",
+      "city_name": "亀山市"
+    },
+    {
+      "region_id": "mie-city-11",
+      "city_name": "鳥羽市"
+    },
+    {
+      "region_id": "mie-city-12",
+      "city_name": "いなべ市"
+    },
+    {
+      "region_id": "mie-city-13",
+      "city_name": "志摩市"
+    },
+    {
+      "region_id": "mie-city-14",
+      "city_name": "伊賀市"
+    }
+  ]
+}

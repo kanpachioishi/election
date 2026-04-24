@@ -1,0 +1,735 @@
+{
+  "pref_code": "01",
+  "pref_name": "北海道",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "赤平市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "旭川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "芦別市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "網走市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "石狩市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "岩見沢市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "歌志内市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "恵庭市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "江別市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "小樽市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満一级特黄大片（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "帯広市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "開票速報",
+          "url": "https://www.city.obihiro.hokkaido.jp/shisei/senkyo/1023175/1023178.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        },
+        {
+          "kind": "election_schedule",
+          "title": "帯広市長選挙の選挙期日等について",
+          "url": "https://www.city.obihiro.hokkaido.jp/shisei/senkyo/iinkai/1021406.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["note"]
+        }
+      ]
+    },
+    {
+      "city_name": "北広島市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "北見市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "釧路市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "札幌市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "士別市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "砂川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "滝川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "伊達市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満一级a（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "千歳市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満一级a（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "苫小牧市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満平台总代（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "名寄市",
+      "status": "needs_review",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        },
+        {
+          "kind": "election_schedule",
+          "title": "名寄市長選挙及び名寄市議会議員補欠選挙",
+          "url": "https://www.city.nayoro.lg.jp/section/senkyo/prkeql0000045bcn.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["note"]
+        }
+      ]
+    },
+    {
+      "city_name": "根室市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "登別市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "函館市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "美唄市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "深川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満分时时彩（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "富良野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        },
+        {
+          "kind": "election_notice",
+          "title": "富良野市長選挙のお知らせ",
+          "url": "https://www.city.furano.hokkaido.jp/life/docs/1890373.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["note"]
+        },
+        {
+          "kind": "election_result",
+          "title": "富良野市長選挙の無投票のお知らせ",
+          "url": "https://www.city.furano.hokkaido.jp/life/docs/1903837.html?cat=%2Flife%2Fgyosei%2Fcity_oshirase%2F",
+          "checked_at": "2026-04-23",
+          "used_for": ["note"]
+        }
+      ]
+    },
+    {
+      "city_name": "北斗市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "三笠市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満牲交（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "室蘭市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "紋別市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "夕張市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "留萌市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "稚内市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    }
+  ]
+}

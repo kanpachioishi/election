@@ -1,0 +1,355 @@
+{
+  "pref_code": "29",
+  "pref_name": "奈良県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "奈良市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.nara.lg.jp/soshiki/140/242579.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "大和高田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "大和郡山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "天理市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "橿原市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "桜井市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "五條市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "御所市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "生駒市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "香芝市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "葛城市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "宇陀市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    }
+  ]
+}

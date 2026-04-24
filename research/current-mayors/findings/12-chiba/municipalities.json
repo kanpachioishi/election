@@ -1,0 +1,155 @@
+{
+  "pref_code": "12",
+  "pref_name": "千葉県",
+  "generated_at": "2026-04-23",
+  "records": [
+    {
+      "region_id": "chiba-city-01",
+      "city_name": "香取市"
+    },
+    {
+      "region_id": "chiba-city-02",
+      "city_name": "千葉市"
+    },
+    {
+      "region_id": "chiba-city-03",
+      "city_name": "八街市"
+    },
+    {
+      "region_id": "chiba-city-04",
+      "city_name": "勝浦市"
+    },
+    {
+      "region_id": "chiba-city-05",
+      "city_name": "君津市"
+    },
+    {
+      "region_id": "chiba-city-06",
+      "city_name": "銚子市"
+    },
+    {
+      "region_id": "chiba-city-07",
+      "city_name": "市川市"
+    },
+    {
+      "region_id": "chiba-city-08",
+      "city_name": "船橋市"
+    },
+    {
+      "region_id": "chiba-city-09",
+      "city_name": "館山市"
+    },
+    {
+      "region_id": "chiba-city-10",
+      "city_name": "木更津市"
+    },
+    {
+      "region_id": "chiba-city-11",
+      "city_name": "松戸市"
+    },
+    {
+      "region_id": "chiba-city-12",
+      "city_name": "野田市"
+    },
+    {
+      "region_id": "chiba-city-13",
+      "city_name": "茂原市"
+    },
+    {
+      "region_id": "chiba-city-14",
+      "city_name": "成田市"
+    },
+    {
+      "region_id": "chiba-city-15",
+      "city_name": "佐倉市"
+    },
+    {
+      "region_id": "chiba-city-16",
+      "city_name": "東金市"
+    },
+    {
+      "region_id": "chiba-city-17",
+      "city_name": "旭市"
+    },
+    {
+      "region_id": "chiba-city-18",
+      "city_name": "習志野市"
+    },
+    {
+      "region_id": "chiba-city-19",
+      "city_name": "柏市"
+    },
+    {
+      "region_id": "chiba-city-20",
+      "city_name": "市原市"
+    },
+    {
+      "region_id": "chiba-city-21",
+      "city_name": "流山市"
+    },
+    {
+      "region_id": "chiba-city-22",
+      "city_name": "八千代市"
+    },
+    {
+      "region_id": "chiba-city-23",
+      "city_name": "我孫子市"
+    },
+    {
+      "region_id": "chiba-city-24",
+      "city_name": "鴨川市"
+    },
+    {
+      "region_id": "chiba-city-25",
+      "city_name": "鎌ケ谷市"
+    },
+    {
+      "region_id": "chiba-city-26",
+      "city_name": "富津市"
+    },
+    {
+      "region_id": "chiba-city-27",
+      "city_name": "浦安市"
+    },
+    {
+      "region_id": "chiba-city-28",
+      "city_name": "四街道市"
+    },
+    {
+      "region_id": "chiba-city-29",
+      "city_name": "袖ケ浦市"
+    },
+    {
+      "region_id": "chiba-city-30",
+      "city_name": "印西市"
+    },
+    {
+      "region_id": "chiba-city-31",
+      "city_name": "白井市"
+    },
+    {
+      "region_id": "chiba-city-32",
+      "city_name": "富里市"
+    },
+    {
+      "region_id": "chiba-city-33",
+      "city_name": "南房総市"
+    },
+    {
+      "region_id": "chiba-city-34",
+      "city_name": "匝瑳市"
+    },
+    {
+      "region_id": "chiba-city-35",
+      "city_name": "山武市"
+    },
+    {
+      "region_id": "chiba-city-36",
+      "city_name": "いすみ市"
+    },
+    {
+      "region_id": "chiba-city-37",
+      "city_name": "大網白里市"
+    }
+  ]
+}

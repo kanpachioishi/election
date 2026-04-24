@@ -1,0 +1,67 @@
+{
+  "pref_code": "26",
+  "pref_name": "京都府",
+  "generated_at": "2026-04-23",
+  "records": [
+    {
+      "region_id": "kyoto-city-01",
+      "city_name": "京都市"
+    },
+    {
+      "region_id": "kyoto-city-02",
+      "city_name": "福知山市"
+    },
+    {
+      "region_id": "kyoto-city-03",
+      "city_name": "舞鶴市"
+    },
+    {
+      "region_id": "kyoto-city-04",
+      "city_name": "綾部市"
+    },
+    {
+      "region_id": "kyoto-city-05",
+      "city_name": "宇治市"
+    },
+    {
+      "region_id": "kyoto-city-06",
+      "city_name": "宮津市"
+    },
+    {
+      "region_id": "kyoto-city-07",
+      "city_name": "亀岡市"
+    },
+    {
+      "region_id": "kyoto-city-08",
+      "city_name": "城陽市"
+    },
+    {
+      "region_id": "kyoto-city-09",
+      "city_name": "向日市"
+    },
+    {
+      "region_id": "kyoto-city-10",
+      "city_name": "長岡京市"
+    },
+    {
+      "region_id": "kyoto-city-11",
+      "city_name": "八幡市"
+    },
+    {
+      "region_id": "kyoto-city-12",
+      "city_name": "京田辺市"
+    },
+    {
+      "region_id": "kyoto-city-13",
+      "city_name": "京丹後市"
+    },
+    {
+      "region_id": "kyoto-city-14",
+      "city_name": "南丹市"
+    },
+    {
+      "region_id": "kyoto-city-15",
+      "city_name": "木津川市"
+    }
+  ]
+}

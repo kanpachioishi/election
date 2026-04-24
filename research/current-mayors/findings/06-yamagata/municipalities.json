@@ -1,0 +1,25 @@
+{
+  "pref_code": "06",
+  "pref_name": "山形県",
+  "generated_at": "2026-04-23T00:00:00+09:00",
+  "source": {
+    "title": "市町村一覧",
+    "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/murayama/index.html",
+    "checked_at": "2026-04-23"
+  },
+  "records": [
+    { "city_name": "山形市" },
+    { "city_name": "米沢市" },
+    { "city_name": "鶴岡市" },
+    { "city_name": "酒田市" },
+    { "city_name": "新庄市" },
+    { "city_name": "寒河江市" },
+    { "city_name": "上山市" },
+    { "city_name": "村山市" },
+    { "city_name": "長井市" },
+    { "city_name": "天童市" },
+    { "city_name": "尾花沢市" },
+    { "city_name": "南陽市" },
+    { "city_name": "東根市" }
+  ]
+}

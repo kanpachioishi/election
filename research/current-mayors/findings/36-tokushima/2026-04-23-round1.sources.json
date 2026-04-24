@@ -1,0 +1,252 @@
+{
+  "pref_code": "36",
+  "pref_name": "徳島県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "municipality_code": "36201",
+      "city_name": "徳島市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和6年4月7日執行 徳島市長選挙 選挙結果",
+          "url": "https://www.city.tokushima.tokushima.jp/shisei/senkyo/senkyo_kekka/r6mayor.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "inauguration_article",
+          "title": "広報とくしま テキスト版 2024年5月1日号",
+          "url": "https://www.city.tokushima.tokushima.jp/smph/shisei/koho_kocho/kohoshi/text/2024/0501.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start"]
+        },
+        {
+          "kind": "mayor_profile",
+          "title": "遠藤市長のプロフィール",
+          "url": "https://www.city.tokushima.tokushima.jp/shisei/mayor/mayor_profile.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村長・議会議員任期満了日、議員定数",
+          "url": "https://www.pref.tokushima.lg.jp/file/attachment/1044038.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    },
+    {
+      "municipality_code": "36202",
+      "city_name": "鳴門市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_profile",
+          "title": "プロフィール",
+          "url": "https://www.city.naruto.tokushima.jp/mayor/pfofile.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "election_schedule",
+          "title": "鳴門市長選挙及び鳴門市議会議員一般選挙における立候補届出等の事前審査の日程等について",
+          "url": "https://www.city.naruto.tokushima.jp/kurashi/senkyo/r7shicho_rikkohotodokede.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村長・議会議員任期満了日、議員定数",
+          "url": "https://www.pref.tokushima.lg.jp/file/attachment/1044038.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "municipality_code": "36203",
+      "city_name": "小松島市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "小松島市長及び小松島市議会議員選挙",
+          "url": "https://www.city.komatsushima.lg.jp/docs/2299.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_note"]
+        },
+        {
+          "kind": "mayor_profile",
+          "title": "プロフィール",
+          "url": "https://www.city.komatsushima.lg.jp/docs/1855.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村長・議会議員任期満了日、議員定数",
+          "url": "https://www.pref.tokushima.lg.jp/file/attachment/1044038.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "municipality_code": "36204",
+      "city_name": "阿南市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_profile",
+          "title": "市長のプロフィール",
+          "url": "https://www.city.anan.tokushima.jp/docs/2024082600055/",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_note"]
+        },
+        {
+          "kind": "election_term_page",
+          "title": "選挙の種類と任期満了日について",
+          "url": "https://www.city.anan.tokushima.jp/docs/2020030500033/",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end", "term_note"]
+        }
+      ]
+    },
+    {
+      "municipality_code": "36205",
+      "city_name": "吉野川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和5年10月22日執行 吉野川市長選挙 選挙結果",
+          "url": "https://www.city.yoshinogawa.lg.jp/docs/2013012400056/file_contents/R5sichosenn.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "election_results_index",
+          "title": "過去の選挙結果について",
+          "url": "https://www.city.yoshinogawa.lg.jp/docs/2013012400056/",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_note"]
+        },
+        {
+          "kind": "mayor_profile",
+          "title": "市長のプロフィール",
+          "url": "https://www.city.yoshinogawa.lg.jp/category/mayor/profile/",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村長・議会議員任期満了日、議員定数",
+          "url": "https://www.pref.tokushima.lg.jp/file/attachment/1044038.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "municipality_code": "36206",
+      "city_name": "阿波市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_greeting",
+          "title": "市長のご挨拶",
+          "url": "https://www.city.awa.lg.jp/mayor/",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "mayor_profile",
+          "title": "プロフィール",
+          "url": "https://www.city.awa.lg.jp/mayor/profile/",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "acting_mayor_notice",
+          "title": "市長の職務代理の変更について",
+          "url": "https://www.city.awa.lg.jp/docs/2023031400067/",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村長・議会議員任期満了日、議員定数",
+          "url": "https://www.pref.tokushima.lg.jp/file/attachment/1044038.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "municipality_code": "36207",
+      "city_name": "美馬市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_greeting",
+          "title": "ごあいさつ",
+          "url": "https://www.city.mima.lg.jp/gyosei/docs/426760.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name"]
+        },
+        {
+          "kind": "city_bulletin",
+          "title": "広報みま 2022年11月号",
+          "url": "https://www.city.mima.lg.jp/fs/1/4/1/1/8/9/_/P01-26___.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_note"]
+        },
+        {
+          "kind": "elections_index",
+          "title": "選挙",
+          "url": "https://www.city.mima.lg.jp/gyosei/shisei/senkyo/",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村長・議会議員任期満了日、議員定数",
+          "url": "https://www.pref.tokushima.lg.jp/file/attachment/1044038.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "municipality_code": "36208",
+      "city_name": "三好市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_schedule",
+          "title": "三好市長選挙及び三好市議会議員補欠選挙について",
+          "url": "https://www.miyoshi.i-tokushima.jp/docs/4957476.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_note"]
+        },
+        {
+          "kind": "mayor_greeting",
+          "title": "市長のご挨拶",
+          "url": "https://www.miyoshi.i-tokushima.jp/docs/4320.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "mayor_profile",
+          "title": "市長のプロフィール",
+          "url": "https://www.miyoshi.i-tokushima.jp/docs/4321.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        }
+      ]
+    }
+  ]
+}

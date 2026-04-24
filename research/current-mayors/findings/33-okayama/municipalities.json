@@ -1,0 +1,67 @@
+{
+  "pref_code": "33",
+  "pref_name": "岡山県",
+  "generated_at": "2026-04-24",
+  "records": [
+    {
+      "region_id": "okayama-city-01",
+      "city_name": "岡山市"
+    },
+    {
+      "region_id": "okayama-city-02",
+      "city_name": "倉敷市"
+    },
+    {
+      "region_id": "okayama-city-03",
+      "city_name": "津山市"
+    },
+    {
+      "region_id": "okayama-city-04",
+      "city_name": "玉野市"
+    },
+    {
+      "region_id": "okayama-city-05",
+      "city_name": "笠岡市"
+    },
+    {
+      "region_id": "okayama-city-06",
+      "city_name": "井原市"
+    },
+    {
+      "region_id": "okayama-city-07",
+      "city_name": "総社市"
+    },
+    {
+      "region_id": "okayama-city-08",
+      "city_name": "高梁市"
+    },
+    {
+      "region_id": "okayama-city-09",
+      "city_name": "新見市"
+    },
+    {
+      "region_id": "okayama-city-10",
+      "city_name": "備前市"
+    },
+    {
+      "region_id": "okayama-city-11",
+      "city_name": "瀬戸内市"
+    },
+    {
+      "region_id": "okayama-city-12",
+      "city_name": "赤磐市"
+    },
+    {
+      "region_id": "okayama-city-13",
+      "city_name": "真庭市"
+    },
+    {
+      "region_id": "okayama-city-14",
+      "city_name": "美作市"
+    },
+    {
+      "region_id": "okayama-city-15",
+      "city_name": "浅口市"
+    }
+  ]
+}

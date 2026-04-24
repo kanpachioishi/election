@@ -1,0 +1,88 @@
+{
+  "pref_code": "46",
+  "pref_name": "鹿児島県",
+  "generated_at": "2026-04-24T00:00:00+09:00",
+  "source": {
+    "title": "市町村情報",
+    "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+    "checked_at": "2026-04-24"
+  },
+  "records": [
+    {
+      "city_name": "姶良市",
+      "official_url": "https://www.city.aira.lg.jp/senkan/senkyo_2026sityosigi.html"
+    },
+    {
+      "city_name": "鹿児島市",
+      "official_url": null
+    },
+    {
+      "city_name": "鹿屋市",
+      "official_url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+    },
+    {
+      "city_name": "枕崎市",
+      "official_url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+    },
+    {
+      "city_name": "阿久根市",
+      "official_url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+    },
+    {
+      "city_name": "出水市",
+      "official_url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+    },
+    {
+      "city_name": "指宿市",
+      "official_url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+    },
+    {
+      "city_name": "西之表市",
+      "official_url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+    },
+    {
+      "city_name": "垂水市",
+      "official_url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+    },
+    {
+      "city_name": "薩摩川内市",
+      "official_url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+    },
+    {
+      "city_name": "日置市",
+      "official_url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+    },
+    {
+      "city_name": "曽於市",
+      "official_url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+    },
+    {
+      "city_name": "霧島市",
+      "official_url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+    },
+    {
+      "city_name": "いちき串木野市",
+      "official_url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+    },
+    {
+      "city_name": "南さつま市",
+      "official_url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+    },
+    {
+      "city_name": "志布志市",
+      "official_url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+    },
+    {
+      "city_name": "奄美市",
+      "official_url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+    },
+    {
+      "city_name": "南九州市",
+      "official_url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+    },
+    {
+      "city_name": "伊佐市",
+      "official_url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+    }
+  ]
+}

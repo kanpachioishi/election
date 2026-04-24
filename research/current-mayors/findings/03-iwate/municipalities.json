@@ -1,0 +1,68 @@
+{
+  "pref_code": "03",
+  "pref_name": "岩手県",
+  "generated_at": "2026-04-23",
+  "source": {
+    "title": "県内各市町村のふるさと納税受付窓口",
+    "url": "https://www.pref.iwate.jp/kensei/seisaku/1023333/1023342.html",
+    "checked_at": "2026-04-23"
+  },
+  "records": [
+    {
+      "municipality_code": "03201",
+      "city_name": "盛岡市"
+    },
+    {
+      "municipality_code": "03202",
+      "city_name": "宮古市"
+    },
+    {
+      "municipality_code": "03203",
+      "city_name": "大船渡市"
+    },
+    {
+      "municipality_code": "03205",
+      "city_name": "花巻市"
+    },
+    {
+      "municipality_code": "03206",
+      "city_name": "北上市"
+    },
+    {
+      "municipality_code": "03207",
+      "city_name": "久慈市"
+    },
+    {
+      "municipality_code": "03208",
+      "city_name": "遠野市"
+    },
+    {
+      "municipality_code": "03209",
+      "city_name": "一関市"
+    },
+    {
+      "municipality_code": "03210",
+      "city_name": "陸前高田市"
+    },
+    {
+      "municipality_code": "03211",
+      "city_name": "釜石市"
+    },
+    {
+      "municipality_code": "03213",
+      "city_name": "二戸市"
+    },
+    {
+      "municipality_code": "03214",
+      "city_name": "八幡平市"
+    },
+    {
+      "municipality_code": "03215",
+      "city_name": "奥州市"
+    },
+    {
+      "municipality_code": "03216",
+      "city_name": "滝沢市"
+    }
+  ]
+}

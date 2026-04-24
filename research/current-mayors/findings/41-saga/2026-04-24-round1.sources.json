@@ -1,0 +1,277 @@
+{
+  "pref_code": "41",
+  "pref_name": "佐賀県",
+  "investigated_at": "2026-04-24",
+  "records": [
+    {
+      "city_name": "鹿島市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町リンク",
+          "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "県内の選挙期日（予定）",
+          "url": "https://www.pref.saga.lg.jp/kiji00350619/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "佐賀市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町リンク",
+          "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式",
+          "url": "https://www.city.saga.lg.jp/main/78208.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "唐津市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町リンク",
+          "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.city.karatsu.lg.jp/page/15278.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "鳥栖市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町リンク",
+          "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/26623",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "多久市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町リンク",
+          "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/25488",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "伊万里市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町リンク",
+          "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "election_result",
+          "title": "伊万里市長選挙 投開票状況について",
+          "url": "https://www.city.imari.lg.jp/25592.htm",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "武雄市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町リンク",
+          "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/26071",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "小城市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町リンク",
+          "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/29047",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "嬉野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町リンク",
+          "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/26064",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "神埼市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町リンク",
+          "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/28279",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    }
+  ]
+}

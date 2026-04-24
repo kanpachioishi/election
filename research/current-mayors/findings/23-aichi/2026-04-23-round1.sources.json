@@ -1,0 +1,857 @@
+{
+  "pref_code": "23",
+  "pref_name": "愛知県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "北名古屋市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "選挙執行案内",
+          "url": "https://www.city.kitanagoya.lg.jp/shisei/senkyo/1006115/1007265.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "あま市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "投開票結果",
+          "url": "https://www.city.ama.aichi.jp/shisei/senkyo/osirase/1008009.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "豊田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        }
+      ]
+    },
+    {
+      "city_name": "豊橋市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        }
+      ]
+    },
+    {
+      "city_name": "名古屋市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "岡崎市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "一宮市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "瀬戸市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "半田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "春日井市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "豊川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "津島市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "投開票結果",
+          "url": "https://www.city.tsushima.lg.jp/shisei/senkyo/senkyosokuhor804_04.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "碧南市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "刈谷市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "安城市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "西尾市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "蒲郡市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "犬山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "常滑市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "江南市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "小牧市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "稲沢市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "新城市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "東海市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "大府市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "知多市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "知立市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "尾張旭市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "高浜市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "岩倉市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "豊明市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "日進市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "田原市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "愛西市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "清須市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "弥富市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "みよし市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "長久手市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    }
+  ]
+}

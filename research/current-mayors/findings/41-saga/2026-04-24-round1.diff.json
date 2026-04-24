@@ -1,0 +1,35 @@
+{
+  "pref_code": "41",
+  "pref_name": "佐賀県",
+  "compared_at": "2026-04-24",
+  "changes": [
+    {
+      "city_name": "伊万里市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2026-04-30",
+      "reason": "伊万里市公式の2026-04-19市長選投開票状況で深浦弘信氏の3選を確認。現任期は旧任期満了日の翌日から整理。"
+    },
+    {
+      "city_name": "伊万里市",
+      "field": "term_end",
+      "current_value": "2026-04-29",
+      "proposed_value": "2030-04-29",
+      "reason": "改選反映。任期満了日は4年後の同日前日。"
+    },
+    {
+      "city_name": "伊万里市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "3期目",
+      "reason": "伊万里市長選で深浦弘信氏が3選。"
+    },
+    {
+      "city_name": "伊万里市",
+      "field": "note",
+      "current_value": "佐賀県『県内の選挙期日（予定）』で次回伊万里市長選は2026-04-19執行と確認。2026-04-24時点では結果確認中のため現任期情報を保持。",
+      "proposed_value": "伊万里市公式の2026-04-19市長選投開票状況で深浦弘信氏の3選を確認。現任期は旧任期満了日の翌日から整理。",
+      "reason": "結果確認待ち注記を確定値へ更新した。"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "pref_code": "03",
+  "pref_name": "岩手県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "盛岡市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "宮古市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "大船渡市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "花巻市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "北上市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "久慈市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "遠野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "一関市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "陸前高田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "釜石市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "二戸市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "八幡平市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "奥州市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "滝沢市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        }
+      ]
+    }
+  ]
+}

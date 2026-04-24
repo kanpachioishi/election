@@ -1,0 +1,358 @@
+{
+  "pref_code": "42",
+  "pref_name": "長崎県",
+  "investigated_at": "2026-04-24",
+  "records": [
+    {
+      "city_name": "南島原市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.city.minamishimabara.lg.jp/kiji0034404/index.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "長崎市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.city.nagasaki.lg.jp/page/6033.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "佐世保市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "島原市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "諫早市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "大村市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "平戸市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "松浦市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "対馬市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "壱岐市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "五島市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "西海市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "雲仙市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    }
+  ]
+}

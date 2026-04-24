@@ -1,0 +1,159 @@
+{
+  "pref_code": "23",
+  "pref_name": "愛知県",
+  "generated_at": "2026-04-23",
+  "records": [
+    {
+      "region_id": "aichi-city-01",
+      "city_name": "北名古屋市"
+    },
+    {
+      "region_id": "aichi-city-02",
+      "city_name": "あま市"
+    },
+    {
+      "region_id": "aichi-city-03",
+      "city_name": "豊田市"
+    },
+    {
+      "region_id": "aichi-city-04",
+      "city_name": "豊橋市"
+    },
+    {
+      "region_id": "aichi-city-05",
+      "city_name": "名古屋市"
+    },
+    {
+      "region_id": "aichi-city-06",
+      "city_name": "岡崎市"
+    },
+    {
+      "region_id": "aichi-city-07",
+      "city_name": "一宮市"
+    },
+    {
+      "region_id": "aichi-city-08",
+      "city_name": "瀬戸市"
+    },
+    {
+      "region_id": "aichi-city-09",
+      "city_name": "半田市"
+    },
+    {
+      "region_id": "aichi-city-10",
+      "city_name": "春日井市"
+    },
+    {
+      "region_id": "aichi-city-11",
+      "city_name": "豊川市"
+    },
+    {
+      "region_id": "aichi-city-12",
+      "city_name": "津島市"
+    },
+    {
+      "region_id": "aichi-city-13",
+      "city_name": "碧南市"
+    },
+    {
+      "region_id": "aichi-city-14",
+      "city_name": "刈谷市"
+    },
+    {
+      "region_id": "aichi-city-15",
+      "city_name": "安城市"
+    },
+    {
+      "region_id": "aichi-city-16",
+      "city_name": "西尾市"
+    },
+    {
+      "region_id": "aichi-city-17",
+      "city_name": "蒲郡市"
+    },
+    {
+      "region_id": "aichi-city-18",
+      "city_name": "犬山市"
+    },
+    {
+      "region_id": "aichi-city-19",
+      "city_name": "常滑市"
+    },
+    {
+      "region_id": "aichi-city-20",
+      "city_name": "江南市"
+    },
+    {
+      "region_id": "aichi-city-21",
+      "city_name": "小牧市"
+    },
+    {
+      "region_id": "aichi-city-22",
+      "city_name": "稲沢市"
+    },
+    {
+      "region_id": "aichi-city-23",
+      "city_name": "新城市"
+    },
+    {
+      "region_id": "aichi-city-24",
+      "city_name": "東海市"
+    },
+    {
+      "region_id": "aichi-city-25",
+      "city_name": "大府市"
+    },
+    {
+      "region_id": "aichi-city-26",
+      "city_name": "知多市"
+    },
+    {
+      "region_id": "aichi-city-27",
+      "city_name": "知立市"
+    },
+    {
+      "region_id": "aichi-city-28",
+      "city_name": "尾張旭市"
+    },
+    {
+      "region_id": "aichi-city-29",
+      "city_name": "高浜市"
+    },
+    {
+      "region_id": "aichi-city-30",
+      "city_name": "岩倉市"
+    },
+    {
+      "region_id": "aichi-city-31",
+      "city_name": "豊明市"
+    },
+    {
+      "region_id": "aichi-city-32",
+      "city_name": "日進市"
+    },
+    {
+      "region_id": "aichi-city-33",
+      "city_name": "田原市"
+    },
+    {
+      "region_id": "aichi-city-34",
+      "city_name": "愛西市"
+    },
+    {
+      "region_id": "aichi-city-35",
+      "city_name": "清須市"
+    },
+    {
+      "region_id": "aichi-city-36",
+      "city_name": "弥富市"
+    },
+    {
+      "region_id": "aichi-city-37",
+      "city_name": "みよし市"
+    },
+    {
+      "region_id": "aichi-city-38",
+      "city_name": "長久手市"
+    }
+  ]
+}

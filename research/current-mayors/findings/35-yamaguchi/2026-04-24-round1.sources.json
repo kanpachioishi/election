@@ -1,0 +1,384 @@
+{
+  "pref_code": "35",
+  "pref_name": "山口県",
+  "investigated_at": "2026-04-24",
+  "records": [
+    {
+      "city_name": "萩市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "今後の選挙",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "防府市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.hofu.yamaguchi.jp/uploaded/attachment/121030.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "山口市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "これからの選挙の予定",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "下関市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "宇部市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "下松市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "岩国市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "光市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "長門市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "柳井市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "美祢市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "周南市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "山陽小野田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "pref_code": "36",
+  "pref_name": "徳島県",
+  "compared_at": "2026-04-23",
+  "changes": [
+    {
+      "municipality_code": "36202",
+      "city_name": "鳴門市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-11-26",
+      "reason": "市長プロフィールに令和7年11月再任(5期目)があり、県の任期満了日一覧の2029-11-25から現任期始期を補完できる。"
+    },
+    {
+      "municipality_code": "36202",
+      "city_name": "鳴門市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "5期目",
+      "reason": "鳴門市公式プロフィールに令和7年11月再任(5期目)と明記がある。"
+    },
+    {
+      "municipality_code": "36203",
+      "city_name": "小松島市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2024-06-07",
+      "reason": "市長選挙ページの2024-05-26執行と県の任期満了日一覧2028-06-06から現任期始期を補完できる。"
+    },
+    {
+      "municipality_code": "36203",
+      "city_name": "小松島市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "2期目",
+      "reason": "小松島市公式プロフィールに令和6年再選(2期目)と明記がある。"
+    },
+    {
+      "municipality_code": "36204",
+      "city_name": "阿南市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2023-12-07",
+      "reason": "阿南市公式プロフィールに2023-12-07就任(1期目)が明記されている。"
+    },
+    {
+      "municipality_code": "36204",
+      "city_name": "阿南市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "1期目",
+      "reason": "阿南市公式プロフィールに1期目と明記がある。"
+    },
+    {
+      "municipality_code": "36205",
+      "city_name": "吉野川市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2023-10-27",
+      "reason": "2023-10-22執行の吉野川市長選挙結果と県の任期満了日一覧2027-10-26から現任期始期を補完できる。"
+    },
+    {
+      "municipality_code": "36205",
+      "city_name": "吉野川市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "2期目",
+      "reason": "吉野川市公式プロフィールに2023年10月再任(2期目)と明記がある。"
+    },
+    {
+      "municipality_code": "36206",
+      "city_name": "阿波市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2023-04-23",
+      "reason": "阿波市公式プロフィールの2023年4月就任と県の任期満了日一覧2027-04-22から現任期始期を補完できる。"
+    },
+    {
+      "municipality_code": "36207",
+      "city_name": "美馬市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2022-10-02",
+      "reason": "2022年11月の美馬市広報で現職市長と初登庁を確認し、県の任期満了日一覧2026-10-01から現任期始期を補完できる。"
+    },
+    {
+      "municipality_code": "36208",
+      "city_name": "三好市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-07-24",
+      "reason": "三好市公式プロフィールに2025-07-24〜2029-07-23(現在2期目)と明記がある。"
+    },
+    {
+      "municipality_code": "36208",
+      "city_name": "三好市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "2期目",
+      "reason": "三好市公式プロフィールに現在2期目と明記がある。"
+    }
+  ]
+}

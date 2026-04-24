@@ -1,0 +1,490 @@
+{
+  "pref_code": "21",
+  "pref_name": "岐阜県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "美濃加茂市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "岐阜市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.gifu.lg.jp/info/senkyo/1030556/1023031.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "大垣市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "高山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "多治見市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "関市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "中津川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "美濃市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "瑞浪市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "羽島市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "恵那市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "土岐市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "各務原市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "可児市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "山県市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "瑞穂市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "飛騨市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "本巣市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "郡上市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "下呂市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "海津市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    }
+  ]
+}

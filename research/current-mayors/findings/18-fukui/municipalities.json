@@ -1,0 +1,43 @@
+{
+  "pref_code": "18",
+  "pref_name": "福井県",
+  "generated_at": "2026-04-23",
+  "records": [
+    {
+      "region_id": "fukui-city-01",
+      "city_name": "坂井市"
+    },
+    {
+      "region_id": "fukui-city-02",
+      "city_name": "大野市"
+    },
+    {
+      "region_id": "fukui-city-03",
+      "city_name": "福井市"
+    },
+    {
+      "region_id": "fukui-city-04",
+      "city_name": "敦賀市"
+    },
+    {
+      "region_id": "fukui-city-05",
+      "city_name": "小浜市"
+    },
+    {
+      "region_id": "fukui-city-06",
+      "city_name": "勝山市"
+    },
+    {
+      "region_id": "fukui-city-07",
+      "city_name": "鯖江市"
+    },
+    {
+      "region_id": "fukui-city-08",
+      "city_name": "あわら市"
+    },
+    {
+      "region_id": "fukui-city-09",
+      "city_name": "越前市"
+    }
+  ]
+}

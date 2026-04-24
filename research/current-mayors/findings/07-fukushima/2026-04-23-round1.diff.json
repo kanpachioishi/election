@@ -1,0 +1,21 @@
+{
+  "pref_code": "07",
+  "pref_name": "福島県",
+  "compared_at": "2026-04-23",
+  "changes": [
+    {
+      "city_name": "二本松市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-11-30",
+      "reason": "二本松市長選挙結果と現任期4年から補完。"
+    },
+    {
+      "city_name": "福島県各市",
+      "field": "source_url",
+      "current_value": "?????",
+      "proposed_value": "https://www.pref.fukushima.lg.jp/sec/01145a/ninki.html",
+      "reason": "県の市町村長任期一覧へ正規化。"
+    }
+  ]
+}

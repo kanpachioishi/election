@@ -1,0 +1,207 @@
+{
+  "pref_code": "02",
+  "pref_name": "青森県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "青森市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "市長あいさつ",
+          "url": "https://www.city.aomori.aomori.jp/shisei/shichounoheya/1005416.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        },
+        {
+          "kind": "election_result",
+          "title": "令和5年6月4日執行青森市長選挙",
+          "url": "https://www.city.aomori.aomori.jp/shisei/senkyo/1007355/1007356/1007357.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name"]
+        }
+      ]
+    },
+    {
+      "city_name": "弘前市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "プロフィール",
+          "url": "https://www.city.hirosaki.aomori.jp/shicho/profile.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "黒石市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "これまでの選挙結果等",
+          "url": "https://www.city.kuroishi.aomori.jp/shisei/keikaku/senkyo-data.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "election_schedule",
+          "title": "選挙管理委員会",
+          "url": "https://www.city.kuroishi.aomori.jp/shisei/keikaku/senkyo-kanri-iinkai.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "五所川原市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和4年6月19日執行 五所川原市長選挙",
+          "url": "https://www.city.goshogawara.lg.jp/kurashi/senkyo/20220619sityousennkekka.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "八戸市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/hishoka/1/1696.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "election_result",
+          "title": "令和7年10月26日執行 八戸市長選挙開票結果",
+          "url": "https://www.city.hachinohe.aomori.jp/gyoseijoho/senkyo/koremadenosenkyokekka/24680.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name"]
+        },
+        {
+          "kind": "election_schedule",
+          "title": "今後の選挙の予定",
+          "url": "https://www.city.hachinohe.aomori.jp/gyoseijoho/senkyo/senkyonokisochishiki/10232.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "十和田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和7年1月19日執行 十和田市長選挙の結果について",
+          "url": "https://www.city.towada.lg.jp/kurashi/senkyo/2024-1213-0830-178.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name"]
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.towada.lg.jp/shisei/about/shichou/profile.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村長の任期満了日及び選挙期日等",
+          "url": "https://www.pref.aomori.lg.jp/soshiki/senkan/files2/R70626.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "三沢市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "プロフィール",
+          "url": "https://www.city.misawa.lg.jp/index.cfm/12%2C22753%2C55%2C246%2Chtml",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name"]
+        },
+        {
+          "kind": "city_newsletter",
+          "title": "広報みさわ2023年7月号",
+          "url": "https://www.city.misawa.lg.jp/index.cfm/12%2C51792%2C56%2C755%2Chtml",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村長の任期満了日及び選挙期日等",
+          "url": "https://www.pref.aomori.lg.jp/soshiki/senkan/files2/R71027_tyou.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "むつ市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "プロフィール",
+          "url": "https://www.city.mutsu.lg.jp/government/mayer/mayer-profile.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村長の任期満了日及び選挙期日等",
+          "url": "https://www.pref.aomori.lg.jp/soshiki/senkan/files2/R71027_tyou.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "つがる市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.tsugaru.aomori.jp/soshiki/somu/hisyoseisaku/hisyo/heya/profile.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "平川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.hirakawa.lg.jp/jouhou/shichou/2026-0202-1042-103_sityouprofile.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end", "term_note"]
+        },
+        {
+          "kind": "election_schedule",
+          "title": "選挙の予定",
+          "url": "https://www.city.hirakawa.lg.jp/jouhou/senkyo/senkyo/senkyoyotei.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    }
+  ]
+}

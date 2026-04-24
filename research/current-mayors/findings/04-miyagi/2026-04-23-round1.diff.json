@@ -1,0 +1,42 @@
+{
+  "pref_code": "04",
+  "pref_name": "宮城県",
+  "compared_at": "2026-04-23",
+  "changes": [
+    {
+      "city_name": "大崎市",
+      "field": "mayor_name",
+      "current_value": "伊藤 康志",
+      "proposed_value": "中島 もとはる",
+      "reason": "2026-04-19執行の大崎市長選開票速報で中島もとはる氏当選を確認。"
+    },
+    {
+      "city_name": "大崎市",
+      "field": "term_start",
+      "current_value": "2022-04",
+      "proposed_value": "2026-04-30",
+      "reason": "旧任期満了日2026-04-29の翌日を新任期始期として整理。"
+    },
+    {
+      "city_name": "気仙沼市",
+      "field": "note",
+      "current_value": "任期の始期・終期が明記あり。",
+      "proposed_value": "2026-04-26執行予定の次回市長選日程を追記。",
+      "reason": "任期満了日が調査日から30日以内のため、次回市長選の日程を記録。"
+    },
+    {
+      "city_name": "仙台市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-08-22",
+      "reason": "県の任期満了一覧から現任期始期を4年任期で整理。"
+    },
+    {
+      "city_name": "白石市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2024-11-14",
+      "reason": "県の任期満了一覧から現任期始期を4年任期で整理。"
+    }
+  ]
+}

@@ -1,0 +1,964 @@
+{
+  "pref_code": "27",
+  "pref_name": "大阪府",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "堺市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "大阪市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "岸和田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "豊中市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "今後の選挙予定",
+          "url": "https://www.city.toyonaka.osaka.jp/joho/sanka/senkyo/sennkyoyotei.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "池田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "吹田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "泉大津市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "高槻市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "貝塚市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "守口市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "枚方市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "茨木市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "八尾市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "泉佐野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "富田林市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "寝屋川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "河内長野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "松原市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "大東市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "和泉市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "箕面市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "柏原市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "羽曳野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "門真市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "摂津市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "高石市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "藤井寺市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "東大阪市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "泉南市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "選挙日程",
+          "url": "https://www.city.sennan.lg.jp/kakuka/gyousei/senkyokanri/11384.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "四條畷市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "交野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "大阪狭山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "阪南市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "pref_code": "10",
+  "pref_name": "群馬県",
+  "compared_at": "2026-04-23",
+  "based_on": "2026-04-23-round2.diff.json",
+  "changes": [
+    {
+      "municipality_code": "10210",
+      "city_name": "富岡市",
+      "field": "mayor_name",
+      "current_value": "榎本 義法",
+      "proposed_value": "茂原 正秀",
+      "reason": "2026-04-12執行の富岡市長選挙開票速報が最新の公式一次情報。"
+    },
+    {
+      "municipality_code": "10210",
+      "city_name": "富岡市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2026-04-23",
+      "reason": "富岡市選管の旧任期満了日2026-04-22と、2026-04-12の選挙結果から新任期始期を確定。"
+    },
+    {
+      "municipality_code": "10210",
+      "city_name": "富岡市",
+      "field": "term_end",
+      "current_value": "2026-04-22",
+      "proposed_value": "2030-04-22",
+      "reason": "新任期は4年。旧任期満了日の翌日開始として2030-04-22満了。"
+    },
+    {
+      "municipality_code": "10211",
+      "city_name": "安中市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2026-04-23",
+      "reason": "2026-04-13更新の任期満了日一覧で新満了日2030-04-22が公式明示。逆算で始期を確定。"
+    },
+    {
+      "municipality_code": "10211",
+      "city_name": "安中市",
+      "field": "term_end",
+      "current_value": "2026-04-22",
+      "proposed_value": "2030-04-22",
+      "reason": "安中市選管の2026-04-13更新の任期満了日一覧で公式明示。"
+    },
+    {
+      "municipality_code": "10212",
+      "city_name": "みどり市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2026-04-23",
+      "reason": "2026-04-05告示の無投票当選と、旧公式記事の2期目満了日2026-04-22から新任期始期を確定。"
+    },
+    {
+      "municipality_code": "10212",
+      "city_name": "みどり市",
+      "field": "term_end",
+      "current_value": "2026-04-22",
+      "proposed_value": "2030-04-22",
+      "reason": "旧任期満了日2026-04-22の翌日開始の4年任期として確定。"
+    }
+  ]
+}

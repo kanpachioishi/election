@@ -1,0 +1,68 @@
+{
+  "pref_code": "44",
+  "pref_name": "大分県",
+  "generated_at": "2026-04-24T00:00:00+09:00",
+  "source": {
+    "title": "大分県の市町村",
+    "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+    "checked_at": "2026-04-24"
+  },
+  "records": [
+    {
+      "city_name": "大分市",
+      "official_url": null
+    },
+    {
+      "city_name": "別府市",
+      "official_url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+    },
+    {
+      "city_name": "中津市",
+      "official_url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+    },
+    {
+      "city_name": "日田市",
+      "official_url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+    },
+    {
+      "city_name": "佐伯市",
+      "official_url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+    },
+    {
+      "city_name": "臼杵市",
+      "official_url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+    },
+    {
+      "city_name": "津久見市",
+      "official_url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+    },
+    {
+      "city_name": "竹田市",
+      "official_url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+    },
+    {
+      "city_name": "豊後高田市",
+      "official_url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+    },
+    {
+      "city_name": "杵築市",
+      "official_url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+    },
+    {
+      "city_name": "宇佐市",
+      "official_url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+    },
+    {
+      "city_name": "豊後大野市",
+      "official_url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+    },
+    {
+      "city_name": "由布市",
+      "official_url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+    },
+    {
+      "city_name": "国東市",
+      "official_url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+    }
+  ]
+}

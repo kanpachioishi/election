@@ -1,0 +1,52 @@
+{
+  "pref_code": "36",
+  "pref_name": "徳島県",
+  "generated_at": "2026-04-23T00:00:00+09:00",
+  "source": {
+    "title": "徳島県の市町村一覧",
+    "url": "https://www.pref.tokushima.lg.jp/kenseijoho/kanrennochiiki/shichouson/",
+    "checked_at": "2026-04-23"
+  },
+  "records": [
+    {
+      "municipality_code": "36201",
+      "city_name": "徳島市",
+      "official_url": "https://www.city.tokushima.tokushima.jp/"
+    },
+    {
+      "municipality_code": "36202",
+      "city_name": "鳴門市",
+      "official_url": "https://www.city.naruto.tokushima.jp/"
+    },
+    {
+      "municipality_code": "36203",
+      "city_name": "小松島市",
+      "official_url": "https://www.city.komatsushima.lg.jp/"
+    },
+    {
+      "municipality_code": "36204",
+      "city_name": "阿南市",
+      "official_url": "https://www.city.anan.tokushima.jp/"
+    },
+    {
+      "municipality_code": "36205",
+      "city_name": "吉野川市",
+      "official_url": "https://www.city.yoshinogawa.lg.jp/"
+    },
+    {
+      "municipality_code": "36206",
+      "city_name": "阿波市",
+      "official_url": "https://www.city.awa.lg.jp/"
+    },
+    {
+      "municipality_code": "36207",
+      "city_name": "美馬市",
+      "official_url": "https://www.city.mima.lg.jp/"
+    },
+    {
+      "municipality_code": "36208",
+      "city_name": "三好市",
+      "official_url": "https://www.miyoshi.i-tokushima.jp/"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "pref_code": "15",
+  "pref_name": "新潟県",
+  "generated_at": "2026-04-23",
+  "records": [
+    {
+      "region_id": "niigata-city-01",
+      "city_name": "小千谷市"
+    },
+    {
+      "region_id": "niigata-city-02",
+      "city_name": "新潟市"
+    },
+    {
+      "region_id": "niigata-city-03",
+      "city_name": "長岡市"
+    },
+    {
+      "region_id": "niigata-city-04",
+      "city_name": "三条市"
+    },
+    {
+      "region_id": "niigata-city-05",
+      "city_name": "柏崎市"
+    },
+    {
+      "region_id": "niigata-city-06",
+      "city_name": "新発田市"
+    },
+    {
+      "region_id": "niigata-city-07",
+      "city_name": "加茂市"
+    },
+    {
+      "region_id": "niigata-city-08",
+      "city_name": "十日町市"
+    },
+    {
+      "region_id": "niigata-city-09",
+      "city_name": "見附市"
+    },
+    {
+      "region_id": "niigata-city-10",
+      "city_name": "村上市"
+    },
+    {
+      "region_id": "niigata-city-11",
+      "city_name": "燕市"
+    },
+    {
+      "region_id": "niigata-city-12",
+      "city_name": "糸魚川市"
+    },
+    {
+      "region_id": "niigata-city-13",
+      "city_name": "妙高市"
+    },
+    {
+      "region_id": "niigata-city-14",
+      "city_name": "五泉市"
+    },
+    {
+      "region_id": "niigata-city-15",
+      "city_name": "上越市"
+    },
+    {
+      "region_id": "niigata-city-16",
+      "city_name": "阿賀野市"
+    },
+    {
+      "region_id": "niigata-city-17",
+      "city_name": "佐渡市"
+    },
+    {
+      "region_id": "niigata-city-18",
+      "city_name": "魚沼市"
+    },
+    {
+      "region_id": "niigata-city-19",
+      "city_name": "南魚沼市"
+    },
+    {
+      "region_id": "niigata-city-20",
+      "city_name": "胎内市"
+    }
+  ]
+}

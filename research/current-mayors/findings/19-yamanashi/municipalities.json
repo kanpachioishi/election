@@ -1,0 +1,59 @@
+{
+  "pref_code": "19",
+  "pref_name": "山梨県",
+  "generated_at": "2026-04-23",
+  "records": [
+    {
+      "region_id": "yamanashi-city-01",
+      "city_name": "甲府市"
+    },
+    {
+      "region_id": "yamanashi-city-02",
+      "city_name": "富士吉田市"
+    },
+    {
+      "region_id": "yamanashi-city-03",
+      "city_name": "都留市"
+    },
+    {
+      "region_id": "yamanashi-city-04",
+      "city_name": "山梨市"
+    },
+    {
+      "region_id": "yamanashi-city-05",
+      "city_name": "大月市"
+    },
+    {
+      "region_id": "yamanashi-city-06",
+      "city_name": "韮崎市"
+    },
+    {
+      "region_id": "yamanashi-city-07",
+      "city_name": "南アルプス市"
+    },
+    {
+      "region_id": "yamanashi-city-08",
+      "city_name": "北杜市"
+    },
+    {
+      "region_id": "yamanashi-city-09",
+      "city_name": "甲斐市"
+    },
+    {
+      "region_id": "yamanashi-city-10",
+      "city_name": "笛吹市"
+    },
+    {
+      "region_id": "yamanashi-city-11",
+      "city_name": "上野原市"
+    },
+    {
+      "region_id": "yamanashi-city-12",
+      "city_name": "甲州市"
+    },
+    {
+      "region_id": "yamanashi-city-13",
+      "city_name": "中央市"
+    }
+  ]
+}

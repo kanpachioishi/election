@@ -1,0 +1,442 @@
+{
+  "pref_code": "26",
+  "pref_name": "京都府",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "京都市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "京都府 府内市町村・官公庁・都道府県等",
+          "url": "https://www.pref.kyoto.jp/link.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "京都府 知事・市町村長・議会議員任期満了日一覧",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.kyoto.lg.jp/main/soshiki_list.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "福知山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "京都府 府内市町村・官公庁・都道府県等",
+          "url": "https://www.pref.kyoto.jp/link.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "京都府 知事・市町村長・議会議員任期満了日一覧",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "舞鶴市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "京都府 府内市町村・官公庁・都道府県等",
+          "url": "https://www.pref.kyoto.jp/link.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "京都府 知事・市町村長・議会議員任期満了日一覧",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "綾部市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "京都府 府内市町村・官公庁・都道府県等",
+          "url": "https://www.pref.kyoto.jp/link.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "京都府 知事・市町村長・議会議員任期満了日一覧",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "宇治市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "京都府 府内市町村・官公庁・都道府県等",
+          "url": "https://www.pref.kyoto.jp/link.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "京都府 知事・市町村長・議会議員任期満了日一覧",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "宮津市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "京都府 府内市町村・官公庁・都道府県等",
+          "url": "https://www.pref.kyoto.jp/link.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "京都府 知事・市町村長・議会議員任期満了日一覧",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "亀岡市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "京都府 府内市町村・官公庁・都道府県等",
+          "url": "https://www.pref.kyoto.jp/link.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "京都府 知事・市町村長・議会議員任期満了日一覧",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "城陽市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "京都府 府内市町村・官公庁・都道府県等",
+          "url": "https://www.pref.kyoto.jp/link.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "京都府 知事・市町村長・議会議員任期満了日一覧",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "向日市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "京都府 府内市町村・官公庁・都道府県等",
+          "url": "https://www.pref.kyoto.jp/link.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "京都府 知事・市町村長・議会議員任期満了日一覧",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "任期・定数",
+          "url": "https://www.city.muko.kyoto.jp/soshiki/7/1632.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "長岡京市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "京都府 府内市町村・官公庁・都道府県等",
+          "url": "https://www.pref.kyoto.jp/link.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "京都府 知事・市町村長・議会議員任期満了日一覧",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "八幡市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "京都府 府内市町村・官公庁・都道府県等",
+          "url": "https://www.pref.kyoto.jp/link.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "京都府 知事・市町村長・議会議員任期満了日一覧",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "京田辺市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "京都府 府内市町村・官公庁・都道府県等",
+          "url": "https://www.pref.kyoto.jp/link.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "京都府 知事・市町村長・議会議員任期満了日一覧",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "京丹後市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "京都府 府内市町村・官公庁・都道府県等",
+          "url": "https://www.pref.kyoto.jp/link.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "京都府 知事・市町村長・議会議員任期満了日一覧",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "南丹市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "京都府 府内市町村・官公庁・都道府県等",
+          "url": "https://www.pref.kyoto.jp/link.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "京都府 知事・市町村長・議会議員任期満了日一覧",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票結果",
+          "url": "https://www.city.nantan.kyoto.jp/www/gove/146/003/008/index_1017368.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "木津川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "京都府 府内市町村・官公庁・都道府県等",
+          "url": "https://www.pref.kyoto.jp/link.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "京都府 知事・市町村長・議会議員任期満了日一覧",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    }
+  ]
+}

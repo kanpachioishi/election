@@ -1,0 +1,151 @@
+{
+  "pref_code": "10",
+  "pref_name": "群馬県",
+  "compared_at": "2026-04-23",
+  "changes": [
+    {
+      "municipality_code": "10201",
+      "city_name": "前橋市",
+      "field": "term_end",
+      "current_value": "2028-02-27",
+      "proposed_value": "2029-02-27",
+      "reason": "群馬県選管の任期満了一覧では前橋市長の任期満了日は令和11年2月27日。現行ページは前橋市長選挙の再選反映前。"
+    },
+    {
+      "municipality_code": "10201",
+      "city_name": "前橋市",
+      "field": "term_note",
+      "current_value": "1期目",
+      "proposed_value": "2026-01-12執行の前橋市長選挙で小川晶氏当選。現任期の始期は要再確認。",
+      "reason": "前橋市選管の2026年市長選挙結果を反映する必要がある。"
+    },
+    {
+      "municipality_code": "10205",
+      "city_name": "太田市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-04-17",
+      "reason": "太田市の市長の部屋で穂積昌信氏が令和7年4月17日から太田市長に就任したと確認。"
+    },
+    {
+      "municipality_code": "10205",
+      "city_name": "太田市",
+      "field": "term_end",
+      "current_value": "2029-04-13",
+      "proposed_value": "2029-04-16",
+      "reason": "太田市の選挙日程に任期満了日が令和11年4月16日と明記されている。"
+    },
+    {
+      "municipality_code": "10205",
+      "city_name": "太田市",
+      "field": "source_url",
+      "current_value": "https://go2senkyo.com/local/senkyo/23338",
+      "proposed_value": "https://www.city.ota.gunma.jp/site/shichounoheya/",
+      "reason": "現行ページが非公式ソース参照のため、市公式ページへ差し替える。"
+    },
+    {
+      "municipality_code": "10206",
+      "city_name": "沼田市",
+      "field": "term_end",
+      "current_value": "現在",
+      "proposed_value": "2026-05-09",
+      "reason": "群馬県選管の任期満了一覧で令和8年5月9日を確認。"
+    },
+    {
+      "municipality_code": "10207",
+      "city_name": "館林市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-04-02",
+      "reason": "館林市の選挙結果と歴代市長の紹介から現任期開始日を補完。"
+    },
+    {
+      "municipality_code": "10207",
+      "city_name": "館林市",
+      "field": "source_url",
+      "current_value": "https://go2senkyo.com/local/senkyo/29046",
+      "proposed_value": "https://www.city.tatebayashi.gunma.jp/s012/shisei/050/070/020/20200103130000.html",
+      "reason": "任期と当選確認は館林市公式の選挙結果で足りる。"
+    },
+    {
+      "municipality_code": "10208",
+      "city_name": "渋川市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-09-13",
+      "reason": "渋川市の選挙の種類と任期満了日等で任期始期が令和7年9月13日と明記されている。"
+    },
+    {
+      "municipality_code": "10208",
+      "city_name": "渋川市",
+      "field": "term_end",
+      "current_value": "2029-08-31",
+      "proposed_value": "2029-09-12",
+      "reason": "渋川市の選挙の種類と任期満了日等で任期満了日が令和11年9月12日と明記されている。"
+    },
+    {
+      "municipality_code": "10208",
+      "city_name": "渋川市",
+      "field": "source_url",
+      "current_value": "https://go2senkyo.com/local/senkyo/25250",
+      "proposed_value": "https://www.city.shibukawa.lg.jp/shisei/000302/000303/p002476.html",
+      "reason": "任期情報は渋川市公式ページで確認できるため。"
+    },
+    {
+      "municipality_code": "10210",
+      "city_name": "富岡市",
+      "field": "mayor_name",
+      "current_value": "榎本 義法",
+      "proposed_value": "茂原 正秀",
+      "reason": "2026-04-12執行の富岡市長選挙開票速報で茂原正秀氏が最多得票。現行ページは改選前の情報。"
+    },
+    {
+      "municipality_code": "10210",
+      "city_name": "富岡市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2026-04-23",
+      "reason": "旧任期満了日の翌日を仮置き。新市長の就任告示ページは未確認。"
+    },
+    {
+      "municipality_code": "10210",
+      "city_name": "富岡市",
+      "field": "term_end",
+      "current_value": "2026-04-22",
+      "proposed_value": "2030-04-22",
+      "reason": "改選後の任期として4年任期を仮置き。新市長の公式プロフィール掲載後に再確認が必要。"
+    },
+    {
+      "municipality_code": "10211",
+      "city_name": "安中市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2026-04-23",
+      "reason": "2026-04-12執行の市長選で岩井均氏再選を確認。旧任期満了日の翌日を仮置き。"
+    },
+    {
+      "municipality_code": "10211",
+      "city_name": "安中市",
+      "field": "term_end",
+      "current_value": "2026-04-22",
+      "proposed_value": "2030-04-22",
+      "reason": "再選後の新任期として4年任期を仮置き。就任後の公式表記で再確認が必要。"
+    },
+    {
+      "municipality_code": "10212",
+      "city_name": "みどり市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2026-04-23",
+      "reason": "2026-04-05告示のみどり市長選挙で須藤昭男氏が無投票当選。旧任期満了日の翌日を仮置き。"
+    },
+    {
+      "municipality_code": "10212",
+      "city_name": "みどり市",
+      "field": "term_end",
+      "current_value": "2026-04-22",
+      "proposed_value": "2030-04-22",
+      "reason": "再選後の新任期として4年任期を仮置き。就任後の公式表記で再確認が必要。"
+    }
+  ]
+}

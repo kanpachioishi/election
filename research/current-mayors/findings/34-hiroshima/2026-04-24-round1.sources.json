@@ -1,0 +1,413 @@
+{
+  "pref_code": "34",
+  "pref_name": "広島県",
+  "investigated_at": "2026-04-24",
+  "records": [
+    {
+      "city_name": "広島市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "呉市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "竹原市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "三原市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "尾道市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "福山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "府中市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.city.fuchu.hiroshima.jp/soshiki/soumubu/kikakuzaisei/shicho_room/7760.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "三次市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "庄原市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "大竹市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "東広島市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "廿日市市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "安芸高田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "江田島市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html"
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ]
+        }
+      ]
+    }
+  ]
+}

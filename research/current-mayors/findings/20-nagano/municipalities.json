@@ -1,0 +1,83 @@
+{
+  "pref_code": "20",
+  "pref_name": "長野県",
+  "generated_at": "2026-04-23",
+  "records": [
+    {
+      "region_id": "nagano-city-01",
+      "city_name": "長野市"
+    },
+    {
+      "region_id": "nagano-city-02",
+      "city_name": "松本市"
+    },
+    {
+      "region_id": "nagano-city-03",
+      "city_name": "上田市"
+    },
+    {
+      "region_id": "nagano-city-04",
+      "city_name": "岡谷市"
+    },
+    {
+      "region_id": "nagano-city-05",
+      "city_name": "飯田市"
+    },
+    {
+      "region_id": "nagano-city-06",
+      "city_name": "諏訪市"
+    },
+    {
+      "region_id": "nagano-city-07",
+      "city_name": "須坂市"
+    },
+    {
+      "region_id": "nagano-city-08",
+      "city_name": "小諸市"
+    },
+    {
+      "region_id": "nagano-city-09",
+      "city_name": "伊那市"
+    },
+    {
+      "region_id": "nagano-city-10",
+      "city_name": "駒ヶ根市"
+    },
+    {
+      "region_id": "nagano-city-11",
+      "city_name": "中野市"
+    },
+    {
+      "region_id": "nagano-city-12",
+      "city_name": "大町市"
+    },
+    {
+      "region_id": "nagano-city-13",
+      "city_name": "飯山市"
+    },
+    {
+      "region_id": "nagano-city-14",
+      "city_name": "茅野市"
+    },
+    {
+      "region_id": "nagano-city-15",
+      "city_name": "塩尻市"
+    },
+    {
+      "region_id": "nagano-city-16",
+      "city_name": "佐久市"
+    },
+    {
+      "region_id": "nagano-city-17",
+      "city_name": "千曲市"
+    },
+    {
+      "region_id": "nagano-city-18",
+      "city_name": "東御市"
+    },
+    {
+      "region_id": "nagano-city-19",
+      "city_name": "安曇野市"
+    }
+  ]
+}

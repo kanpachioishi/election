@@ -1,0 +1,329 @@
+{
+  "pref_code": "24",
+  "pref_name": "三重県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "津市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.info.city.tsu.mie.jp/www/contents/1001000000204/index.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "熊野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "四日市市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "名張市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票結果",
+          "url": "https://www.city.nabari.lg.jp/s075/110/200/091/20260407172945.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "伊勢市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "松阪市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "桑名市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "鈴鹿市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "尾鷲市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "亀山市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "鳥羽市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "いなべ市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "志摩市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "伊賀市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    }
+  ]
+}

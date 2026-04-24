@@ -1,0 +1,35 @@
+{
+  "pref_code": "05",
+  "pref_name": "秋田県",
+  "compared_at": "2026-04-23",
+  "changes": [
+    {
+      "city_name": "能代市",
+      "field": "mayor_name",
+      "current_value": "齊藤 滋宣",
+      "proposed_value": "なべや 暁",
+      "reason": "2026-04-19執行の能代市長選開票結果でなべや暁氏当選を確認。"
+    },
+    {
+      "city_name": "能代市",
+      "field": "term_end",
+      "current_value": "2026-04-22",
+      "proposed_value": "2030-04-22",
+      "reason": "新市長の4年任期として整理。"
+    },
+    {
+      "city_name": "仙北市",
+      "field": "mayor_name",
+      "current_value": "田口 知明",
+      "proposed_value": "石黒 直次",
+      "reason": "仙北市公式の新市長初登庁記事で石黒直次市長を確認。"
+    },
+    {
+      "city_name": "仙北市",
+      "field": "term_end",
+      "current_value": "2026-04-30",
+      "proposed_value": "2029-10-29",
+      "reason": "旧任期情報が古く、現任期は2025-10-30開始の4年任期。"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "pref_code": "21",
+  "pref_name": "岐阜県",
+  "generated_at": "2026-04-23",
+  "records": [
+    {
+      "region_id": "gifu-city-01",
+      "city_name": "美濃加茂市"
+    },
+    {
+      "region_id": "gifu-city-02",
+      "city_name": "岐阜市"
+    },
+    {
+      "region_id": "gifu-city-03",
+      "city_name": "大垣市"
+    },
+    {
+      "region_id": "gifu-city-04",
+      "city_name": "高山市"
+    },
+    {
+      "region_id": "gifu-city-05",
+      "city_name": "多治見市"
+    },
+    {
+      "region_id": "gifu-city-06",
+      "city_name": "関市"
+    },
+    {
+      "region_id": "gifu-city-07",
+      "city_name": "中津川市"
+    },
+    {
+      "region_id": "gifu-city-08",
+      "city_name": "美濃市"
+    },
+    {
+      "region_id": "gifu-city-09",
+      "city_name": "瑞浪市"
+    },
+    {
+      "region_id": "gifu-city-10",
+      "city_name": "羽島市"
+    },
+    {
+      "region_id": "gifu-city-11",
+      "city_name": "恵那市"
+    },
+    {
+      "region_id": "gifu-city-12",
+      "city_name": "土岐市"
+    },
+    {
+      "region_id": "gifu-city-13",
+      "city_name": "各務原市"
+    },
+    {
+      "region_id": "gifu-city-14",
+      "city_name": "可児市"
+    },
+    {
+      "region_id": "gifu-city-15",
+      "city_name": "山県市"
+    },
+    {
+      "region_id": "gifu-city-16",
+      "city_name": "瑞穂市"
+    },
+    {
+      "region_id": "gifu-city-17",
+      "city_name": "飛騨市"
+    },
+    {
+      "region_id": "gifu-city-18",
+      "city_name": "本巣市"
+    },
+    {
+      "region_id": "gifu-city-19",
+      "city_name": "郡上市"
+    },
+    {
+      "region_id": "gifu-city-20",
+      "city_name": "下呂市"
+    },
+    {
+      "region_id": "gifu-city-21",
+      "city_name": "海津市"
+    }
+  ]
+}

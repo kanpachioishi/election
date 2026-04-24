@@ -1,0 +1,209 @@
+{
+  "pref_code": "37",
+  "pref_name": "香川県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "高松市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "市長のプロフィール",
+          "url": "https://www.city.takamatsu.kagawa.jp/kurashi/shichoushitsu/sicho_up20180823.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "inaugural_statement",
+          "title": "令和5年第3回高松市議会臨時会長提案説明（所信表明）",
+          "url": "https://www.city.takamatsu.kagawa.jp/kurashi/shichoushitsu/hatsugen/shoshin/R5-3syoshin.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.kagawa.lg.jp/documents/20223/ninkimanryoubi.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "丸亀市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和7年4月20日執行 丸亀市長・市議会議員選挙の結果",
+          "url": "https://www.city.marugame.lg.jp/page/34859.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end"]
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.marugame.lg.jp/page/10903.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "坂出市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "選挙の結果",
+          "url": "https://www.city.sakaide.lg.jp/soshiki/senkyo/senkyokekka.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start"]
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.sakaide.lg.jp/site/mayor/profile.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.kagawa.lg.jp/documents/20223/ninkimanryoubi.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "善通寺市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_schedule",
+          "title": "善通寺市長選挙の選挙期日のお知らせ",
+          "url": "https://www.city.zentsuji.kagawa.jp/soshiki/67/shichosenkyor8.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end", "term_note"]
+        },
+        {
+          "kind": "election_result",
+          "title": "選挙管理委員会事務局",
+          "url": "https://www.city.zentsuji.kagawa.jp/soshiki/67/index-2.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.zentsuji.kagawa.jp/site/shichyounoheya/sityoupurofi-ru.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start"]
+        }
+      ]
+    },
+    {
+      "city_name": "観音寺市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "市長の部屋へようこそ",
+          "url": "https://www.city.kanonji.kagawa.jp/site/shicho/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.kagawa.lg.jp/documents/20223/ninkimanryoubi.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "さぬき市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.sanuki.kagawa.jp/executive/mayor/mayor_profile",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.kagawa.lg.jp/documents/20223/ninkimanryoubi.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end", "term_note"]
+        },
+        {
+          "kind": "election_schedule",
+          "title": "選挙の種類",
+          "url": "https://www.city.sanuki.kagawa.jp/executive/election/type",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "東かがわ市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "市長の部屋",
+          "url": "https://www.higashikagawa.jp/soshikikarasagasu/somuka/gyomuannai/6/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name"]
+        },
+        {
+          "kind": "inaugural_statement",
+          "title": "所信表明",
+          "url": "https://www.higashikagawa.jp/soshikikarasagasu/somuka/gyomuannai/6/3/1405.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.kagawa.lg.jp/documents/20223/ninkimanryoubi.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "三豊市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和8年1月25日執行 三豊市長選挙及び三豊市議会議員選挙のお知らせ",
+          "url": "https://www.city.mitoyo.lg.jp/kakuka/senkyo/2/senkyokijitu_1/14398.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_note"]
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.mitoyo.lg.jp/kakuka/soumu/hisho/12/2041.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.kagawa.lg.jp/documents/20223/ninkimanryoubi.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    }
+  ]
+}

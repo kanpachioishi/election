@@ -1,0 +1,364 @@
+{
+  "pref_code": "40",
+  "pref_name": "福岡県",
+  "compared_at": "2026-04-23",
+  "changes": [
+    {
+      "city_name": "大牟田市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2023-12-03",
+      "reason": "県選管の任期満了日一覧で 2027-12-02 を確認。現任期始期は4年任期の翌日計算で 2023-12-03。"
+    },
+    {
+      "city_name": "大牟田市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "2期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "久留米市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2026-01-31",
+      "reason": "県選管の任期満了日一覧で 2030-01-30 を確認。現任期始期は4年任期の翌日計算で 2026-01-31。"
+    },
+    {
+      "city_name": "久留米市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "2期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "直方市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2023-04-26",
+      "reason": "県選管の任期満了日一覧で 2027-04-25 を確認。現任期始期は4年任期の翌日計算で 2023-04-26。"
+    },
+    {
+      "city_name": "直方市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "2期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "飯塚市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2023-11-12",
+      "reason": "県選管の市町村長名簿と任期満了日一覧で現任期を確認。"
+    },
+    {
+      "city_name": "飯塚市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "1期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "田川市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2023-04-30",
+      "reason": "県選管の市町村長名簿と任期満了日一覧で現任期を確認。"
+    },
+    {
+      "city_name": "田川市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "1期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "柳川市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-04-24",
+      "reason": "県選管の市町村長名簿と任期満了日一覧で現任期を確認。"
+    },
+    {
+      "city_name": "柳川市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "1期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "八女市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2024-11-16",
+      "reason": "県選管の市町村長名簿と任期満了日一覧で現任期を確認。"
+    },
+    {
+      "city_name": "八女市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "1期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "筑後市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-12-03",
+      "reason": "県選管の任期満了日一覧で 2029-12-02 を確認。現任期始期は4年任期の翌日計算で 2025-12-03。"
+    },
+    {
+      "city_name": "筑後市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "3期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "大川市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2024-10-23",
+      "reason": "県選管の市町村長名簿と任期満了日一覧で現任期を確認。"
+    },
+    {
+      "city_name": "大川市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "1期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "豊前市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-04-20",
+      "reason": "県選管の市町村長名簿と任期満了日一覧で現任期を確認。"
+    },
+    {
+      "city_name": "豊前市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "1期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "中間市",
+      "field": "mayor_name",
+      "current_value": "福田 健次",
+      "proposed_value": "福田 健次",
+      "reason": "県選管名簿は戸籍名 `福田 浩` だが、市公式プロフィールと市長選結果の表記に合わせて現行表記を維持。"
+    },
+    {
+      "city_name": "中間市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-06-18",
+      "reason": "県選管の任期満了日一覧で 2029-06-17 を確認。現任期始期は4年任期の翌日計算で 2025-06-18。"
+    },
+    {
+      "city_name": "中間市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "3期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "小郡市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-05-15",
+      "reason": "県選管の任期満了日一覧で 2029-05-14 を確認。現任期始期は4年任期の翌日計算で 2025-05-15。"
+    },
+    {
+      "city_name": "小郡市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "3期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "筑紫野市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2023-02-01",
+      "reason": "県選管の市町村長名簿と任期満了日一覧で現任期を確認。"
+    },
+    {
+      "city_name": "筑紫野市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "1期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "春日市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2023-05-01",
+      "reason": "県選管の任期満了日一覧で 2027-04-30 を確認。現任期始期は4年任期の翌日計算で 2023-05-01。"
+    },
+    {
+      "city_name": "春日市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "7期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "大野城市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-09-12",
+      "reason": "県選管の市町村長名簿と任期満了日一覧で現任期を確認。"
+    },
+    {
+      "city_name": "大野城市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "1期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "宗像市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2022-05-21",
+      "reason": "県選管の任期満了日一覧で 2026-05-20 を確認。現任期始期は4年任期の翌日計算で 2022-05-21。"
+    },
+    {
+      "city_name": "宗像市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "2期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "太宰府市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2026-01-01",
+      "reason": "県選管の市町村長名簿と任期満了日一覧で現任期を確認。"
+    },
+    {
+      "city_name": "太宰府市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "1期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "古賀市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2022-12-23",
+      "reason": "県選管の任期満了日一覧で 2026-12-22 を確認。現任期始期は4年任期の翌日計算で 2022-12-23。"
+    },
+    {
+      "city_name": "古賀市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "2期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "福津市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-03-06",
+      "reason": "県選管の市町村長名簿と任期満了日一覧で現任期を確認。"
+    },
+    {
+      "city_name": "福津市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "1期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "うきは市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2024-07-15",
+      "reason": "県選管の市町村長名簿と任期満了日一覧で現任期を確認。"
+    },
+    {
+      "city_name": "うきは市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "1期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "宮若市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2026-03-19",
+      "reason": "県選管の市町村長名簿と任期満了日一覧で現任期を確認。"
+    },
+    {
+      "city_name": "宮若市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "1期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "嘉麻市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2022-04-23",
+      "reason": "県選管の任期満了日一覧で 2026-04-22 を確認。現任期始期は4年任期の翌日計算で 2022-04-23。"
+    },
+    {
+      "city_name": "嘉麻市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "3期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "朝倉市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2022-04-23",
+      "reason": "県選管の任期満了日一覧で 2026-04-22 を確認。現任期始期は4年任期の翌日計算で 2022-04-23。"
+    },
+    {
+      "city_name": "朝倉市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "2期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "みやま市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2022-10-28",
+      "reason": "県選管の任期満了日一覧で 2026-10-27 を確認。現任期始期は4年任期の翌日計算で 2022-10-28。"
+    },
+    {
+      "city_name": "みやま市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "2期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    },
+    {
+      "city_name": "那珂川市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2024-08-31",
+      "reason": "県選管の任期満了日一覧で 2028-08-30 を確認。現任期始期は4年任期の翌日計算で 2024-08-31。"
+    },
+    {
+      "city_name": "那珂川市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "5期目",
+      "reason": "県選管の市町村長名簿の当選回数を反映。"
+    }
+  ]
+}

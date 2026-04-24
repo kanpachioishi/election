@@ -1,0 +1,113 @@
+{
+  "pref_code": "03",
+  "pref_name": "岩手県",
+  "compared_at": "2026-04-23",
+  "based_on": "site/pages/current-mayors.html",
+  "changes": [
+    {
+      "city_name": "盛岡市",
+      "field": "term_start",
+      "current_value": "2023-09",
+      "proposed_value": "2023-09-02",
+      "reason": "岩手県公式名簿に `内舘 茂（1期） 任期：令和5年9月2日から令和9年9月1日` とある。"
+    },
+    {
+      "city_name": "盛岡市",
+      "field": "term_note",
+      "current_value": "令和5年9月就任。任期満了日は令和9年9月1日。",
+      "proposed_value": "1期目",
+      "reason": "岩手県公式名簿が `1期` を明記している。"
+    },
+    {
+      "city_name": "大船渡市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2022-12-03",
+      "reason": "岩手県公式名簿に `渕上 清（1期） 任期：令和4年12月3日から令和8年12月2日` とある。"
+    },
+    {
+      "city_name": "大船渡市",
+      "field": "term_note",
+      "current_value": "記載なし",
+      "proposed_value": "1期目",
+      "reason": "岩手県公式名簿が `1期` を明記している。"
+    },
+    {
+      "city_name": "久慈市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2026-03-26",
+      "reason": "岩手県公式名簿に `中平 均（1期） 任期：令和8年3月26日から令和12年3月25日` とある。"
+    },
+    {
+      "city_name": "久慈市",
+      "field": "term_note",
+      "current_value": "現職",
+      "proposed_value": "1期目",
+      "reason": "岩手県公式名簿が `1期` を明記している。"
+    },
+    {
+      "city_name": "一関市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2025-10-09",
+      "reason": "岩手県公式名簿に `佐藤 善仁（2期） 任期：令和7年10月9日から令和11年10月8日` とある。"
+    },
+    {
+      "city_name": "陸前高田市",
+      "field": "term_note",
+      "current_value": "記載なし",
+      "proposed_value": "1期目",
+      "reason": "岩手県公式名簿が `1期` を明記している。"
+    },
+    {
+      "city_name": "釜石市",
+      "field": "term_note",
+      "current_value": "記載なし",
+      "proposed_value": "1期目",
+      "reason": "岩手県公式名簿が `1期` を明記している。"
+    },
+    {
+      "city_name": "二戸市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2026-01-26",
+      "reason": "岩手県公式名簿に `五日市 王（1期） 任期：令和8年1月26日から令和12年1月25日` とある。"
+    },
+    {
+      "city_name": "奥州市",
+      "field": "mayor_name",
+      "current_value": "倉成 淳",
+      "proposed_value": "郷右近 浩",
+      "reason": "岩手県公式名簿は `郷右近 浩（1期） 任期：令和8年3月19日から令和12年3月18日` に更新されている。"
+    },
+    {
+      "city_name": "奥州市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2026-03-19",
+      "reason": "岩手県公式名簿に現任期の始期が明記されている。"
+    },
+    {
+      "city_name": "奥州市",
+      "field": "term_note",
+      "current_value": "記載なし",
+      "proposed_value": "1期目",
+      "reason": "岩手県公式名簿が `1期` を明記している。"
+    },
+    {
+      "city_name": "滝沢市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2022-11-20",
+      "reason": "岩手県公式名簿に `武田 哲（1期） 任期：令和4年11月20日から令和8年11月19日` とある。"
+    },
+    {
+      "city_name": "滝沢市",
+      "field": "term_note",
+      "current_value": "記載なし",
+      "proposed_value": "1期目",
+      "reason": "岩手県公式名簿が `1期` を明記している。"
+    }
+  ]
+}

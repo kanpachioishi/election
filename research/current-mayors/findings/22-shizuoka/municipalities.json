@@ -1,0 +1,99 @@
+{
+  "pref_code": "22",
+  "pref_name": "静岡県",
+  "generated_at": "2026-04-23",
+  "records": [
+    {
+      "region_id": "shizuoka-city-01",
+      "city_name": "静岡市"
+    },
+    {
+      "region_id": "shizuoka-city-02",
+      "city_name": "浜松市"
+    },
+    {
+      "region_id": "shizuoka-city-03",
+      "city_name": "沼津市"
+    },
+    {
+      "region_id": "shizuoka-city-04",
+      "city_name": "熱海市"
+    },
+    {
+      "region_id": "shizuoka-city-05",
+      "city_name": "三島市"
+    },
+    {
+      "region_id": "shizuoka-city-06",
+      "city_name": "富士宮市"
+    },
+    {
+      "region_id": "shizuoka-city-07",
+      "city_name": "伊東市"
+    },
+    {
+      "region_id": "shizuoka-city-08",
+      "city_name": "島田市"
+    },
+    {
+      "region_id": "shizuoka-city-09",
+      "city_name": "富士市"
+    },
+    {
+      "region_id": "shizuoka-city-10",
+      "city_name": "磐田市"
+    },
+    {
+      "region_id": "shizuoka-city-11",
+      "city_name": "焼津市"
+    },
+    {
+      "region_id": "shizuoka-city-12",
+      "city_name": "掛川市"
+    },
+    {
+      "region_id": "shizuoka-city-13",
+      "city_name": "藤枝市"
+    },
+    {
+      "region_id": "shizuoka-city-14",
+      "city_name": "御殿場市"
+    },
+    {
+      "region_id": "shizuoka-city-15",
+      "city_name": "袋井市"
+    },
+    {
+      "region_id": "shizuoka-city-16",
+      "city_name": "下田市"
+    },
+    {
+      "region_id": "shizuoka-city-17",
+      "city_name": "裾野市"
+    },
+    {
+      "region_id": "shizuoka-city-18",
+      "city_name": "湖西市"
+    },
+    {
+      "region_id": "shizuoka-city-19",
+      "city_name": "伊豆市"
+    },
+    {
+      "region_id": "shizuoka-city-20",
+      "city_name": "御前崎市"
+    },
+    {
+      "region_id": "shizuoka-city-21",
+      "city_name": "菊川市"
+    },
+    {
+      "region_id": "shizuoka-city-22",
+      "city_name": "伊豆の国市"
+    },
+    {
+      "region_id": "shizuoka-city-23",
+      "city_name": "牧之原市"
+    }
+  ]
+}

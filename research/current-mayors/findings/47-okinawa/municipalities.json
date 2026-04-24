@@ -1,0 +1,56 @@
+{
+  "pref_code": "47",
+  "pref_name": "沖縄県",
+  "generated_at": "2026-04-24T00:00:00+09:00",
+  "source": {
+    "title": "リンク集",
+    "url": "https://www.pref.okinawa.lg.jp/about/1018107.html",
+    "checked_at": "2026-04-24"
+  },
+  "records": [
+    {
+      "city_name": "那覇市",
+      "official_url": null
+    },
+    {
+      "city_name": "宜野湾市",
+      "official_url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/005/019/20260324ninkimanryo.xls"
+    },
+    {
+      "city_name": "石垣市",
+      "official_url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/005/019/20260324ninkimanryo.xls"
+    },
+    {
+      "city_name": "浦添市",
+      "official_url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/005/019/20260324ninkimanryo.xls"
+    },
+    {
+      "city_name": "名護市",
+      "official_url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/005/019/20260324ninkimanryo.xls"
+    },
+    {
+      "city_name": "糸満市",
+      "official_url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/005/019/20260324ninkimanryo.xls"
+    },
+    {
+      "city_name": "沖縄市",
+      "official_url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/005/019/20260324ninkimanryo.xls"
+    },
+    {
+      "city_name": "豊見城市",
+      "official_url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/005/019/20260324ninkimanryo.xls"
+    },
+    {
+      "city_name": "うるま市",
+      "official_url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/005/019/20260324ninkimanryo.xls"
+    },
+    {
+      "city_name": "宮古島市",
+      "official_url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/005/019/20260324ninkimanryo.xls"
+    },
+    {
+      "city_name": "南城市",
+      "official_url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/005/019/20260324ninkimanryo.xls"
+    }
+  ]
+}

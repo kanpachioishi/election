@@ -1,0 +1,128 @@
+{
+  "pref_code": "40",
+  "pref_name": "福岡県",
+  "generated_at": "2026-04-23T00:00:00+09:00",
+  "source": {
+    "title": "福岡県内市町村へのリンク集",
+    "url": "https://www.pref.fukuoka.lg.jp/contents/shichoson01.html",
+    "checked_at": "2026-04-23"
+  },
+  "records": [
+    {
+      "city_name": "北九州市",
+      "official_url": "https://www.city.kitakyushu.lg.jp/"
+    },
+    {
+      "city_name": "福岡市",
+      "official_url": "https://www.city.fukuoka.lg.jp/"
+    },
+    {
+      "city_name": "大牟田市",
+      "official_url": "https://www.city.omuta.lg.jp/"
+    },
+    {
+      "city_name": "久留米市",
+      "official_url": "https://www.city.kurume.fukuoka.jp/"
+    },
+    {
+      "city_name": "直方市",
+      "official_url": "https://www.city.nogata.fukuoka.jp/"
+    },
+    {
+      "city_name": "飯塚市",
+      "official_url": "https://www.city.iizuka.lg.jp/"
+    },
+    {
+      "city_name": "田川市",
+      "official_url": "https://www.joho.tagawa.fukuoka.jp/"
+    },
+    {
+      "city_name": "柳川市",
+      "official_url": "https://www.city.yanagawa.fukuoka.jp/"
+    },
+    {
+      "city_name": "八女市",
+      "official_url": "https://www.city.yame.fukuoka.jp/"
+    },
+    {
+      "city_name": "筑後市",
+      "official_url": "https://www.city.chikugo.lg.jp/"
+    },
+    {
+      "city_name": "大川市",
+      "official_url": "https://www.city.okawa.lg.jp/"
+    },
+    {
+      "city_name": "行橋市",
+      "official_url": "https://www.city.yukuhashi.fukuoka.jp/"
+    },
+    {
+      "city_name": "豊前市",
+      "official_url": "https://www.city.buzen.lg.jp/"
+    },
+    {
+      "city_name": "中間市",
+      "official_url": "https://www.city.nakama.lg.jp/"
+    },
+    {
+      "city_name": "小郡市",
+      "official_url": "https://www.city.ogori.fukuoka.jp/"
+    },
+    {
+      "city_name": "筑紫野市",
+      "official_url": "https://www.city.chikushino.fukuoka.jp/"
+    },
+    {
+      "city_name": "春日市",
+      "official_url": "https://www.city.kasuga.fukuoka.jp/"
+    },
+    {
+      "city_name": "大野城市",
+      "official_url": "https://www.city.onojo.fukuoka.jp/"
+    },
+    {
+      "city_name": "宗像市",
+      "official_url": "https://www.city.munakata.lg.jp/"
+    },
+    {
+      "city_name": "太宰府市",
+      "official_url": "https://www.city.dazaifu.lg.jp/"
+    },
+    {
+      "city_name": "古賀市",
+      "official_url": "https://www.city.koga.fukuoka.jp/"
+    },
+    {
+      "city_name": "福津市",
+      "official_url": "https://www.city.fukutsu.lg.jp/"
+    },
+    {
+      "city_name": "うきは市",
+      "official_url": "https://www.city.ukiha.fukuoka.jp/"
+    },
+    {
+      "city_name": "宮若市",
+      "official_url": "https://www.city.miyawaka.lg.jp/"
+    },
+    {
+      "city_name": "嘉麻市",
+      "official_url": "https://www.city.kama.lg.jp/"
+    },
+    {
+      "city_name": "朝倉市",
+      "official_url": "https://www.city.asakura.lg.jp/"
+    },
+    {
+      "city_name": "みやま市",
+      "official_url": "https://www.city.miyama.lg.jp/"
+    },
+    {
+      "city_name": "糸島市",
+      "official_url": "https://www.city.itoshima.lg.jp/"
+    },
+    {
+      "city_name": "那珂川市",
+      "official_url": "https://www.city.nakagawa.lg.jp/"
+    }
+  ]
+}

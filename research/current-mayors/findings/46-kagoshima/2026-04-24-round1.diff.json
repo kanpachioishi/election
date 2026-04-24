@@ -1,0 +1,56 @@
+{
+  "pref_code": "46",
+  "pref_name": "鹿児島県",
+  "compared_at": "2026-04-24",
+  "changes": [
+    {
+      "city_name": "出水市",
+      "field": "term_start",
+      "current_value": "記載なし",
+      "proposed_value": "2026-04-23",
+      "reason": "出水市公式の2026-04-12市長選開票結果で椎木伸一氏の3選を確認。現任期は旧任期満了日の翌日から整理。"
+    },
+    {
+      "city_name": "出水市",
+      "field": "term_end",
+      "current_value": "2026-04-22",
+      "proposed_value": "2030-04-22",
+      "reason": "改選反映。"
+    },
+    {
+      "city_name": "出水市",
+      "field": "term_note",
+      "current_value": "2期",
+      "proposed_value": "3期目",
+      "reason": "出水市長選で椎木伸一氏が3選。"
+    },
+    {
+      "city_name": "姶良市",
+      "field": "mayor_name",
+      "current_value": "湯元 敏浩",
+      "proposed_value": "米丸 麻希子",
+      "reason": "姶良市公式で2026-04-19投開票を確認し、鹿児島テレビ報道で米丸麻希子氏の初当選を確認。"
+    },
+    {
+      "city_name": "姶良市",
+      "field": "term_start",
+      "current_value": "2022-04-25",
+      "proposed_value": "2026-04-25",
+      "reason": "旧任期満了日の翌日から整理。"
+    },
+    {
+      "city_name": "姶良市",
+      "field": "term_end",
+      "current_value": "2026-04-24",
+      "proposed_value": "2030-04-24",
+      "reason": "改選反映。"
+    },
+    {
+      "city_name": "姶良市",
+      "field": "term_note",
+      "current_value": "令和4年4月25日から現任期。令和8年4月24日任期満了。",
+      "proposed_value": "1期目",
+      "reason": "米丸麻希子氏が初当選。"
+    }
+  ]
+}

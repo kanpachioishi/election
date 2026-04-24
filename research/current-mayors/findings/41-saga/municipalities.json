@@ -1,0 +1,52 @@
+{
+  "pref_code": "41",
+  "pref_name": "佐賀県",
+  "generated_at": "2026-04-24T00:00:00+09:00",
+  "source": {
+    "title": "県内市町リンク",
+    "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+    "checked_at": "2026-04-24"
+  },
+  "records": [
+    {
+      "city_name": "鹿島市",
+      "official_url": "https://www.pref.saga.lg.jp/kiji00350619/index.html"
+    },
+    {
+      "city_name": "佐賀市",
+      "official_url": "https://www.city.saga.lg.jp/main/78208.html"
+    },
+    {
+      "city_name": "唐津市",
+      "official_url": "https://www.city.karatsu.lg.jp/page/15278.html"
+    },
+    {
+      "city_name": "鳥栖市",
+      "official_url": "https://go2senkyo.com/local/senkyo/26623"
+    },
+    {
+      "city_name": "多久市",
+      "official_url": "https://go2senkyo.com/local/senkyo/25488"
+    },
+    {
+      "city_name": "伊万里市",
+      "official_url": "https://www.pref.saga.lg.jp/kiji00350619/index.html"
+    },
+    {
+      "city_name": "武雄市",
+      "official_url": "https://go2senkyo.com/local/senkyo/26071"
+    },
+    {
+      "city_name": "小城市",
+      "official_url": "https://go2senkyo.com/local/senkyo/29047"
+    },
+    {
+      "city_name": "嬉野市",
+      "official_url": "https://go2senkyo.com/local/senkyo/26064"
+    },
+    {
+      "city_name": "神埼市",
+      "official_url": "https://go2senkyo.com/local/senkyo/28279"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "pref_code": "05",
+  "pref_name": "秋田県",
+  "generated_at": "2026-04-23T00:00:00+09:00",
+  "source": {
+    "title": "市町村所在地･コード一覧",
+    "url": "https://www.pref.akita.lg.jp/pages/archive/1606",
+    "checked_at": "2026-04-23"
+  },
+  "records": [
+    { "city_name": "秋田市" },
+    { "city_name": "能代市" },
+    { "city_name": "横手市" },
+    { "city_name": "大館市" },
+    { "city_name": "男鹿市" },
+    { "city_name": "湯沢市" },
+    { "city_name": "鹿角市" },
+    { "city_name": "由利本荘市" },
+    { "city_name": "潟上市" },
+    { "city_name": "大仙市" },
+    { "city_name": "北秋田市" },
+    { "city_name": "にかほ市" },
+    { "city_name": "仙北市" }
+  ]
+}

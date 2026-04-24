@@ -1,0 +1,615 @@
+{
+  "pref_code": "40",
+  "pref_name": "福岡県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "北九州市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "福岡市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "大牟田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "久留米市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "直方市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "飯塚市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "田川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "柳川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "八女市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "筑後市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "大川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "行橋市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "豊前市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "中間市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_note"]
+        },
+        {
+          "kind": "election_result",
+          "title": "中間市長選挙結果（令和7年6月15日執行）",
+          "url": "https://www.city.nakama.lg.jp/soshiki/32/15741.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "mayor_profile",
+          "title": "プロフィール - 市長の部屋",
+          "url": "https://www.city.nakama.lg.jp/site/shokai-mayor/1426.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "小郡市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "筑紫野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "春日市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "大野城市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "宗像市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "太宰府市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "古賀市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_note"]
+        },
+        {
+          "kind": "mayor_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.koga.fukuoka.jp/mayor/006.php",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "福津市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "うきは市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "宮若市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "嘉麻市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "朝倉市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "みやま市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "糸島市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "那珂川市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_note"]
+        },
+        {
+          "kind": "mayor_message",
+          "title": "市長メッセージ",
+          "url": "https://www.city.nakagawa.lg.jp/site/sityou/",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name"]
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_start", "term_end"]
+        }
+      ]
+    }
+  ]
+}

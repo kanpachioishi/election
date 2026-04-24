@@ -1,0 +1,250 @@
+{
+  "pref_code": "45",
+  "pref_name": "宮崎県",
+  "investigated_at": "2026-04-24",
+  "records": [
+    {
+      "city_name": "小林市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町村一覧",
+          "url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/shichoson/shichosonmap.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "投開票結果",
+          "url": "https://www.city.kobayashi.lg.jp/soshikikarasagasu/senkyokanriiinkaijimukyoku/oshirase/11104.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "宮崎市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町村一覧",
+          "url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/shichoson/shichosonmap.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式",
+          "url": "https://www.city.miyazaki.miyazaki.jp/mayor/activity_log2/409048.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "都城市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町村一覧",
+          "url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/shichoson/shichosonmap.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "延岡市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町村一覧",
+          "url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/shichoson/shichosonmap.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "日南市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町村一覧",
+          "url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/shichoson/shichosonmap.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "日向市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町村一覧",
+          "url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/shichoson/shichosonmap.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "串間市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町村一覧",
+          "url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/shichoson/shichosonmap.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "西都市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町村一覧",
+          "url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/shichoson/shichosonmap.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "えびの市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町村一覧",
+          "url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/shichoson/shichosonmap.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    }
+  ]
+}

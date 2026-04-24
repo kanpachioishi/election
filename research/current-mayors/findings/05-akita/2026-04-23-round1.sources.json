@@ -1,0 +1,71 @@
+{
+  "pref_code": "05",
+  "pref_name": "秋田県",
+  "investigated_at": "2026-04-23",
+  "base_sources": [
+    {
+      "title": "任期満了日等について",
+      "url": "https://www.pref.akita.lg.jp/pages/archive/54495",
+      "checked_at": "2026-04-23"
+    },
+    {
+      "title": "市町村特別職（市町村長・議長等）一覧",
+      "url": "https://www.pref.akita.lg.jp/pages/archive/3609",
+      "checked_at": "2026-04-23"
+    }
+  ],
+  "records": [
+    {
+      "city_name": "能代市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和８年４月１９日執行 能代市長選挙 開票結果",
+          "url": "https://www.city.noshiro.lg.jp/city/senkyo/kekka/shicho/27226",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_note"]
+        }
+      ]
+    },
+    {
+      "city_name": "にかほ市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "profile",
+          "title": "市長・副市長・教育長",
+          "url": "https://www.city.nikaho.akita.jp/soshikikarasagasu/somuka/gyomuannai/6/4065.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start", "term_end"]
+        }
+      ]
+    },
+    {
+      "city_name": "仙北市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "inauguration",
+          "title": "石黒直次新市長初登庁",
+          "url": "https://www.city.semboku.akita.jp/government/mayor/hatsu.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["mayor_name", "term_start"]
+        }
+      ]
+    },
+    {
+      "city_name": "由利本荘市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "election_schedule",
+          "title": "今後の選挙予定",
+          "url": "https://www.city.yurihonjo.lg.jp/1001506/1001573/1001656/1005388.html",
+          "checked_at": "2026-04-23",
+          "used_for": ["term_end"]
+        }
+      ]
+    }
+  ]
+}

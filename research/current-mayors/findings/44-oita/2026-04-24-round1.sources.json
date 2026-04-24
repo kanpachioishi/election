@@ -1,0 +1,373 @@
+{
+  "pref_code": "44",
+  "pref_name": "大分県",
+  "investigated_at": "2026-04-24",
+  "records": [
+    {
+      "city_name": "大分市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "別府市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "中津市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "日田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "佐伯市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "臼杵市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "津久見市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "竹田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "豊後高田市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "杵築市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "宇佐市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "豊後大野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "由布市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "国東市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "pref_code": "14",
+  "pref_name": "神奈川県",
+  "investigated_at": "2026-04-23",
+  "records": [
+    {
+      "city_name": "横浜市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "相模原市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "川崎市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ]
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.kawasaki.jp/910/page/0000019034.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "茅ヶ崎市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ]
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.chigasaki.kanagawa.jp/profile/1007341.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "逗子市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ]
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.zushi.kanagawa.jp/shisei/mayor/1005158.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "厚木市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ]
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.atsugi.kanagawa.jp/soshiki/senkyokanriiinkai/14/8895.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "横須賀市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ]
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.yokosuka.kanagawa.jp/0820/senkyo/ninkimanryoubi.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "平塚市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ]
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.hiratsuka.kanagawa.jp/gyosei/page-c_02269.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "鎌倉市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ]
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.kamakura.kanagawa.jp/kisya/data/2025/20250603.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "藤沢市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ]
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.fujisawa.kanagawa.jp/documents/8704/20250904092734.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "小田原市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ]
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.odawara.kanagawa.jp/municipality/election/term_of_office.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "三浦市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ]
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.miura.kanagawa.jp/soshiki/senkan/10982.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "秦野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ]
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.hadano.kanagawa.jp/soshiki/1/1006/1/3207.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "大和市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ]
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.yamato.lg.jp/gyosei/soshik/68/20667.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "伊勢原市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ]
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.isehara.kanagawa.jp/docs/2024040200020/",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "海老名市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ]
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.ebina.kanagawa.jp/_res/projects/default_project/_page_/001/015/562/0512.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "座間市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ]
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.zama.kanagawa.jp/shisei/senkyo/1010132/index.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "南足柄市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ]
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.minamiashigara.kanagawa.jp/machi/senkyo/kekka/050423touhyou.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "綾瀬市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ]
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.ayase.kanagawa.jp/ct/other000013400/senkyo_ninki.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ]
+        }
+      ]
+    }
+  ]
+}

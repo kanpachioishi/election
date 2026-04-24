@@ -1,0 +1,516 @@
+{
+  "pref_code": "46",
+  "pref_name": "鹿児島県",
+  "investigated_at": "2026-04-24",
+  "records": [
+    {
+      "city_name": "姶良市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "election_schedule",
+          "title": "姶良市長・市議会議員選挙",
+          "url": "https://www.city.aira.lg.jp/senkan/senkyo_2026sityosigi.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "term_end"
+          ]
+        },
+        {
+          "kind": "news_report",
+          "title": "姶良市長選挙 米丸麻希子氏が初当選",
+          "url": "https://www.fnn.jp/articles/-/1032573",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "鹿児島市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "鹿屋市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "枕崎市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "阿久根市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "出水市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "election_result",
+          "title": "選挙結果等",
+          "url": "https://www.city.kagoshima-izumi.lg.jp/page/page_10019.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "指宿市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "西之表市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "垂水市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "薩摩川内市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "日置市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "曽於市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "霧島市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "いちき串木野市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "南さつま市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "志布志市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "奄美市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "南九州市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    },
+    {
+      "city_name": "伊佐市",
+      "status": "confirmed",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ]
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ]
+        }
+      ]
+    }
+  ]
+}

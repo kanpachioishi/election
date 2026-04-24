@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>現職知事台帳 - わたしの選挙</title>
+    <meta name="description" content="全国の現職知事について、現行任期の基準選挙、次回知事選の確認状況、確認元URL、最終確認日を整理した台帳です。">
+    <meta name="theme-color" content="#0b1219">
+    <link rel="manifest" href="../manifest.webmanifest">
+    <link rel="icon" href="../icons/app-icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="../icons/app-icon.svg">
+    <link rel="stylesheet" href="../assets/styles.css">
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #07131d;
+        --panel: #102131;
+        --line: rgba(244, 239, 227, 0.14);
+        --text: #f4efe3;
+        --muted: #a9bdd0;
+        --accent: #8fd3ff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: linear-gradient(135deg, #0f2232 0%, var(--bg) 52%, #19485c 100%);
+        color: var(--text);
+        font-family: "BIZ UDPGothic", "Yu Gothic", sans-serif;
+      }
+
+      main {
+        width: min(1440px, calc(100% - 32px));
+        margin: 48px auto 64px;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+        font-size: clamp(2.2rem, 5vw, 3.6rem);
+        font-weight: 500;
+        line-height: 1.05;
+      }
+
+      p {
+        margin: 0 0 24px;
+        color: var(--muted);
+        line-height: 1.8;
+      }
+
+      .filter-bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin: 0 0 20px;
+        padding: 16px 18px;
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        background: rgba(16, 33, 49, 0.88);
+        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.24);
+      }
+
+      .filter-field {
+        display: grid;
+        gap: 6px;
+        min-width: 220px;
+      }
+
+      .filter-field label {
+        color: var(--muted);
+        font-size: 0.82rem;
+        font-weight: 800;
+        letter-spacing: 0.03em;
+      }
+
+      .filter-field select {
+        min-height: 44px;
+        padding: 10px 12px;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: rgba(7, 19, 29, 0.9);
+        color: var(--text);
+        font: inherit;
+      }
+
+      .table-wrap {
+        overflow: auto;
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        background: rgba(16, 33, 49, 0.92);
+        box-shadow: 0 22px 48px rgba(0, 0, 0, 0.28);
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        min-width: 1680px;
+      }
+
+      thead th {
+        position: sticky;
+        top: 0;
+        background: rgba(12, 23, 34, 0.98);
+        color: var(--accent);
+        text-align: left;
+        font-size: 0.92rem;
+        font-weight: 800;
+        letter-spacing: 0.03em;
+      }
+
+      th,
+      td {
+        padding: 14px 16px;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+        white-space: nowrap;
+      }
+
+      tbody tr:hover {
+        background: rgba(143, 211, 255, 0.05);
+      }
+
+      tbody tr[hidden] {
+        display: none;
+      }
+
+      td a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      td a:hover,
+      td a:focus-visible {
+        text-decoration: underline;
+      }
+
+      .count-note {
+        margin: 0 0 14px;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../index.html" aria-label="わたしの選挙トップ">
+        <span class="brand-mark" aria-hidden="true">票</span>
+        <span>
+          <strong>わたしの選挙</strong>
+          <small>公式情報への案内</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="主なナビゲーション">
+        <a href="../index.html">トップ</a>
+        <a href="about.html">このサイトについて</a>
+        <a href="verification-policy.html">情報の確認基準</a>
+        <a href="current-mayors.html">現職市長台帳</a>
+        <a href="current-governors.html" aria-current="page">現職知事台帳</a>
+        <a href="privacy.html">プライバシーと通知</a>
+        <a href="contact.html">お問い合わせ</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>現職知事台帳</h1>
+      <p>全国の現職知事について、地方、都道府県、現職知事名、在任期数、現行任期の基準選挙、次回知事選の確認状況、確認元URL、最終確認日を並べて確認できる台帳です。</p>
+
+      <div class="filter-bar">
+        <div class="filter-field">
+          <label for="macroRegionFilter">地方</label>
+          <select id="macroRegionFilter">
+            <option value="all">すべて</option>
+          </select>
+        </div>
+        <div class="filter-field">
+          <label for="prefectureFilter">都道府県</label>
+          <select id="prefectureFilter">
+            <option value="all">すべて</option>
+          </select>
+        </div>
+        <div class="filter-field">
+          <label for="nextElectionSort">次回知事選</label>
+          <select id="nextElectionSort">
+            <option value="default">並び替えなし</option>
+            <option value="asc">日付が近い順</option>
+            <option value="desc">日付が遠い順</option>
+          </select>
+        </div>
+      </div>
+
+      <p class="count-note" id="countNote">0件表示</p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>地方</th>
+              <th>都道府県</th>
+              <th>現職知事</th>
+              <th>在任期数</th>
+              <th>現行任期の基準選挙</th>
+              <th>次回知事選</th>
+              <th>状態</th>
+              <th>確認元URL</th>
+              <th>最終確認日</th>
+              <th>メモ</th>
+            </tr>
+          </thead>
+          <tbody id="governorRows"></tbody>
+        </table>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        このサイトは、確認した一次情報をもとに、選挙や議会ごとの公式ページへの導線を整理しています。
+        確認基準、運営方針、プライバシー、お問い合わせ先を公開しています。
+      </p>
+      <div class="footer-links">
+        <a href="about.html">このサイトについて</a>
+        <a href="verification-policy.html">情報の確認基準</a>
+        <a href="current-mayors.html">現職市長台帳</a>
+        <a href="current-governors.html">現職知事台帳</a>
+        <a href="privacy.html">プライバシーと通知</a>
+        <a href="contact.html">お問い合わせ</a>
+      </div>
+    </footer>
+
+    <script src="../data/current-governors.js"></script>
+    <script>
+      const data = window.CURRENT_GOVERNORS_DATA;
+      const governorRows = document.getElementById("governorRows");
+      const macroRegionFilter = document.getElementById("macroRegionFilter");
+      const prefectureFilter = document.getElementById("prefectureFilter");
+      const nextElectionSort = document.getElementById("nextElectionSort");
+      const countNote = document.getElementById("countNote");
+      let rows = [];
+
+      function unique(items) {
+        return [...new Set(items)];
+      }
+
+      function buildOptions(select, values, allLabel) {
+        const options = [`<option value="all">${allLabel}</option>`];
+        values.forEach((value) => {
+          options.push(`<option value="${value}">${value}</option>`);
+        });
+        select.innerHTML = options.join("");
+      }
+
+      function escapeHtml(value) {
+        return String(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;");
+      }
+
+      function renderTableRows(rows) {
+        governorRows.innerHTML = rows.map((row) => `
+          <tr data-macro-region="${escapeHtml(row.macro_region)}" data-prefecture="${escapeHtml(row.prefecture)}">
+            <td>${escapeHtml(row.macro_region)}</td>
+            <td>${escapeHtml(row.prefecture)}</td>
+            <td>${escapeHtml(row.governor_name)}</td>
+            <td>${escapeHtml(`${row.term_count}期`)}</td>
+            <td>${escapeHtml(row.current_term_basis_vote_date ?? "未投入")}</td>
+            <td>${escapeHtml(row.next_election_vote_date ?? "未確認")}</td>
+            <td>${escapeHtml(row.status)}</td>
+            <td><a href="${escapeHtml(row.source_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(row.source_label)}</a></td>
+            <td>${escapeHtml(row.last_checked_date)}</td>
+            <td>${escapeHtml(row.note ?? "")}</td>
+          </tr>
+        `).join("");
+      }
+
+      function parseElectionDate(value) {
+        if (!value || value === "未確認") {
+          return Number.POSITIVE_INFINITY;
+        }
+        return Date.parse(`${value}T00:00:00+09:00`);
+      }
+
+      function getVisibleRows() {
+        return rows.filter((row) => {
+          const macroRegionMatches =
+            macroRegionFilter.value === "all" ||
+            row.dataset.macroRegion === macroRegionFilter.value;
+          const prefectureMatches =
+            prefectureFilter.value === "all" ||
+            row.dataset.prefecture === prefectureFilter.value;
+          return macroRegionMatches && prefectureMatches;
+        });
+      }
+
+      function sortRowsByNextElection(visibleRows) {
+        const direction = nextElectionSort.value;
+        if (direction === "default") {
+          return visibleRows;
+        }
+
+        const multiplier = direction === "asc" ? 1 : -1;
+        return [...visibleRows].sort((left, right) => {
+          const leftValue = parseElectionDate(left.cells[5]?.textContent.trim());
+          const rightValue = parseElectionDate(right.cells[5]?.textContent.trim());
+          if (leftValue === rightValue) {
+            return left.rowIndex - right.rowIndex;
+          }
+          return (leftValue - rightValue) * multiplier;
+        });
+      }
+
+      function updatePrefectureOptions() {
+        const macroRegion = macroRegionFilter.value;
+        const prefectures = unique(
+          rows
+            .filter((row) => macroRegion === "all" || row.dataset.macroRegion === macroRegion)
+            .map((row) => row.dataset.prefecture),
+        );
+        const previous = prefectureFilter.value;
+        buildOptions(prefectureFilter, prefectures, "すべて");
+        if (prefectures.includes(previous)) {
+          prefectureFilter.value = previous;
+        }
+      }
+
+      function renderRows() {
+        const visibleRows = getVisibleRows();
+        const sortedVisibleRows = sortRowsByNextElection(visibleRows);
+        rows.forEach((row) => {
+          row.hidden = !visibleRows.includes(row);
+        });
+        rows.forEach((row) => {
+          governorRows.appendChild(row);
+        });
+        sortedVisibleRows.forEach((row) => {
+          governorRows.appendChild(row);
+        });
+        countNote.textContent = `${visibleRows.length}件表示`;
+      }
+
+      if (!data || !Array.isArray(data.rows)) {
+        countNote.textContent = "データを読み込めませんでした";
+      } else {
+        renderTableRows(data.rows);
+        rows = Array.from(governorRows.querySelectorAll("tr"));
+
+        buildOptions(
+          macroRegionFilter,
+          unique(rows.map((row) => row.dataset.macroRegion)),
+          "すべて",
+        );
+        updatePrefectureOptions();
+        renderRows();
+
+        macroRegionFilter.addEventListener("change", () => {
+          updatePrefectureOptions();
+          renderRows();
+        });
+
+        prefectureFilter.addEventListener("change", () => {
+          renderRows();
+        });
+
+        nextElectionSort.addEventListener("change", () => {
+          renderRows();
+        });
+      }
+    </script>
+    <script src="../assets/pwa.js"></script>
+  </body>
+</html>

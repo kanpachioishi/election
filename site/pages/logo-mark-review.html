@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ロゴマーク案レビュー</title>
+  <meta name="theme-color" content="#0b1219">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #081017;
+      --panel: rgba(18, 28, 40, 0.94);
+      --line: rgba(244, 239, 227, 0.12);
+      --text: #f4efe3;
+      --muted: #c8d0d8;
+      --gold: #ffd27a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 2rem;
+      background:
+        linear-gradient(90deg, rgba(255, 210, 122, 0.08), transparent 28%, transparent 72%, rgba(110, 199, 223, 0.08)),
+        linear-gradient(var(--bg), #0b141d);
+      color: var(--text);
+      font-family: "BIZ UDPGothic", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+    }
+
+    h1 {
+      margin: 0 0 0.75rem;
+      font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 700;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      padding: 1.2rem;
+      border: 1px solid var(--line);
+      border-radius: 1.4rem;
+      background: var(--panel);
+      box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.18);
+    }
+
+    .frame {
+      display: grid;
+      place-items: center;
+      min-height: 180px;
+      margin-bottom: 1rem;
+      border-radius: 1rem;
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.04));
+    }
+
+    .frame img {
+      width: 140px;
+      height: auto;
+      display: block;
+    }
+
+    .label {
+      margin-bottom: 0.3rem;
+      color: var(--gold);
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin: 0 0 0.35rem;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>ロゴマーク案レビュー</h1>
+  <p>既存案と追加案を同じ大きさで並べて比較するためのローカルページです。</p>
+
+  <section class="grid">
+    <article class="card">
+      <div class="frame">
+        <img src="../icons/logo-mark.svg" alt="既存のロゴマーク案">
+      </div>
+      <div class="label">Adopted</div>
+      <h2>soft 採用版</h2>
+      <p>いまの正本です。やさしさと視認性のバランスが良い案として採用しました。</p>
+    </article>
+
+    <article class="card">
+      <div class="frame">
+        <img src="../icons/logo-mark-seal.svg" alt="紋章寄りのロゴマーク案">
+      </div>
+      <div class="label">Variant A</div>
+      <h2>紋章・判子寄り</h2>
+      <p>重厚で公的な雰囲気を強めた案です。</p>
+    </article>
+
+    <article class="card">
+      <div class="frame">
+        <img src="../icons/logo-mark-soft.svg" alt="やわらかいメダル寄りのロゴマーク案">
+      </div>
+      <div class="label">Variant B</div>
+      <h2>やわらかいメダル寄り</h2>
+      <p>親しみやすさを強めた、やさしいトーンの案です。</p>
+    </article>
+
+    <article class="card">
+      <div class="frame">
+        <img src="../icons/logo-mark-minimal.svg" alt="ミニマルなロゴマーク案">
+      </div>
+      <div class="label">Variant C</div>
+      <h2>ミニマル</h2>
+      <p>縮小表示やアプリアイコン転用を意識して、要素数を絞った案です。</p>
+    </article>
+  </section>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>soft ロゴ太さ比較</title>
+  <meta name="theme-color" content="#0b1219">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #081017;
+      --panel: rgba(18, 28, 40, 0.94);
+      --line: rgba(244, 239, 227, 0.12);
+      --text: #f4efe3;
+      --muted: #c8d0d8;
+      --gold: #ffd27a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 2rem;
+      background:
+        linear-gradient(90deg, rgba(255, 210, 122, 0.08), transparent 28%, transparent 72%, rgba(110, 199, 223, 0.08)),
+        linear-gradient(var(--bg), #0b141d);
+      color: var(--text);
+      font-family: "BIZ UDPGothic", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+    }
+    h1 {
+      margin: 0 0 0.6rem;
+      font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 700;
+    }
+    p { margin: 0; color: var(--muted); line-height: 1.7; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .card {
+      padding: 1.2rem;
+      border: 1px solid var(--line);
+      border-radius: 1.4rem;
+      background: var(--panel);
+      box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.18);
+    }
+    .frame {
+      display: grid;
+      place-items: center;
+      min-height: 180px;
+      margin-bottom: 1rem;
+      border-radius: 1rem;
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.04));
+    }
+    .frame img {
+      width: 140px;
+      height: auto;
+      display: block;
+    }
+    .label {
+      margin-bottom: 0.3rem;
+      color: var(--gold);
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    h2 { margin: 0 0 0.35rem; font-size: 1.1rem; }
+  </style>
+</head>
+<body>
+  <h1>soft ロゴの線の太さ比較</h1>
+  <p>`票` の線だけを変えた4案です。位置と大きさは揃えて、見え方だけ比較しやすくしています。</p>
+
+  <section class="grid">
+    <article class="card">
+      <div class="frame">
+        <img src="../icons/logo-mark-soft-thin.svg" alt="細めのロゴ案">
+      </div>
+      <div class="label">Thin</div>
+      <h2>細め</h2>
+      <p>軽くて上品ですが、小さい表示では少し弱く見える可能性があります。</p>
+    </article>
+
+    <article class="card">
+      <div class="frame">
+        <img src="../icons/logo-mark-soft-medium.svg" alt="標準のロゴ案">
+      </div>
+      <div class="label">Medium</div>
+      <h2>標準</h2>
+      <p>いまの基準案です。やわらかさと視認性のバランスが取れています。</p>
+    </article>
+
+    <article class="card">
+      <div class="frame">
+        <img src="../icons/logo-mark-soft-bold.svg" alt="太めのロゴ案">
+      </div>
+      <div class="label">Bold</div>
+      <h2>太め</h2>
+      <p>少し存在感が増して、ヘッダーでも見つけやすくなる方向です。</p>
+    </article>
+
+    <article class="card">
+      <div class="frame">
+        <img src="../icons/logo-mark-soft-heavy.svg" alt="かなり太めのロゴ案">
+      </div>
+      <div class="label">Heavy</div>
+      <h2>かなり太め</h2>
+      <p>一番強く見えますが、少し詰まって見える可能性もあります。</p>
+    </article>
+  </section>
+</body>
+</html>

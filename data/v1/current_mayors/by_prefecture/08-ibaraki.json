@@ -1,0 +1,1932 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "08",
+  "pref_slug": "ibaraki",
+  "pref_name": "茨城県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/08-ibaraki",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-08201",
+      "region_id": "mun-08201",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08201",
+      "city_name": "水戸市",
+      "city_slug": "mito-shi",
+      "macro_region": "関東",
+      "mayor_name": "高橋 靖",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-05-28",
+      "term_end_display": null,
+      "term_note": "4期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。",
+      "findings_values": {
+        "mayor_name": "高橋 靖",
+        "term_start": "記載なし",
+        "term_end": "2027-05-28",
+        "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。"
+      },
+      "public_order": 84,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08202",
+      "region_id": "mun-08202",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08202",
+      "city_name": "日立市",
+      "city_slug": "hitachi-shi",
+      "macro_region": "関東",
+      "mayor_name": "小川 春樹",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "2023-05",
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "2023年5月就任、3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "?????",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長プロフィールで現職名、3期目、任期満了日を確認。始期はプロフィールの「平成27年5月〜現在」および歴代市長ページの在任月表示から月単位で整理。",
+      "findings_values": {
+        "mayor_name": "小川 春樹",
+        "term_start": "2023-05",
+        "term_end": "2027-04-30",
+        "note": "市長プロフィールで現職名、3期目、任期満了日を確認。始期はプロフィールの「平成27年5月〜現在」および歴代市長ページの在任月表示から月単位で整理。"
+      },
+      "public_order": 147,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08203",
+      "region_id": "mun-08203",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08203",
+      "city_name": "土浦市",
+      "city_slug": "tsuchiura-shi",
+      "macro_region": "関東",
+      "mayor_name": "安藤 真理子",
+      "mayor_name_kana": null,
+      "term_start": "2023-11-22",
+      "term_start_display": null,
+      "term_end": "2027-11-21",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": null,
+      "findings_values": {
+        "mayor_name": "安藤 真理子",
+        "term_start": "2023-11-22",
+        "term_end": "2027-11-21",
+        "note": ""
+      },
+      "public_order": 186,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08207",
+      "region_id": "mun-08207",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08207",
+      "city_name": "結城市",
+      "city_slug": "yuuki-shi",
+      "macro_region": "関東",
+      "mayor_name": "小林 栄",
+      "mayor_name_kana": null,
+      "term_start": "2023-08-24",
+      "term_start_display": null,
+      "term_end": "2027-08-23",
+      "term_end_display": null,
+      "term_note": "2023年8月に2期目スタート",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": null,
+      "findings_values": {
+        "mayor_name": "小林 栄",
+        "term_start": "2023-08-24",
+        "term_end": "2027-08-23",
+        "note": ""
+      },
+      "public_order": 194,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08208",
+      "region_id": "mun-08208",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08208",
+      "city_name": "龍ケ崎市",
+      "city_slug": "ryuugasaki-shi",
+      "macro_region": "関東",
+      "mayor_name": "萩原 勇",
+      "mayor_name_kana": null,
+      "term_start": "2026-01-18",
+      "term_start_display": null,
+      "term_end": "2030-01-17",
+      "term_end_display": null,
+      "term_note": "2026年1月18日就任、2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "公式の初登庁記事に、萩原勇市長の2期目初登庁と任期『令和8年1月18日から令和12年1月17日まで』が明記。",
+      "findings_values": {
+        "mayor_name": "萩原 勇",
+        "term_start": "2026-01-18",
+        "term_end": "2030-01-17",
+        "note": "公式の初登庁記事に、萩原勇市長の2期目初登庁と任期『令和8年1月18日から令和12年1月17日まで』が明記。"
+      },
+      "public_order": 195,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08210",
+      "region_id": "mun-08210",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08210",
+      "city_name": "下妻市",
+      "city_slug": "shimotsuma-shi",
+      "macro_region": "関東",
+      "mayor_name": "須藤 とよじ",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-14",
+      "term_start_display": null,
+      "term_end": "2030-04-13",
+      "term_end_display": null,
+      "term_note": "2026年3月市長選で当選、現任期は2026年4月開始",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": null,
+      "findings_values": {
+        "mayor_name": "須藤 とよじ",
+        "term_start": "2026-04-14",
+        "term_end": "2030-04-13",
+        "note": ""
+      },
+      "public_order": 196,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08211",
+      "region_id": "mun-08211",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08211",
+      "city_name": "常総市",
+      "city_slug": "jousou-shi",
+      "macro_region": "関東",
+      "mayor_name": "神達 岳志",
+      "mayor_name_kana": null,
+      "term_start": "2024-08-03",
+      "term_start_display": null,
+      "term_end": "2028-08-02",
+      "term_end_display": null,
+      "term_note": "2024年8月3日就任、3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "公式市長プロフィールに『神達岳志』『常総市長3期目』『任期：令和6年8月3日から令和10年8月2日』と明記。",
+      "findings_values": {
+        "mayor_name": "神達 岳志",
+        "term_start": "2024-08-03",
+        "term_end": "2028-08-02",
+        "note": "公式市長プロフィールに『神達岳志』『常総市長3期目』『任期：令和6年8月3日から令和10年8月2日』と明記。"
+      },
+      "public_order": 197,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08212",
+      "region_id": "mun-08212",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08212",
+      "city_name": "常陸太田市",
+      "city_slug": "hitachioota-shi",
+      "macro_region": "関東",
+      "mayor_name": "藤田 謙二",
+      "mayor_name_kana": null,
+      "term_start": "2025-05-22",
+      "term_start_display": null,
+      "term_end": "2029-05-21",
+      "term_end_display": null,
+      "term_note": "2025年5月22日就任、1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": null,
+      "findings_values": {
+        "mayor_name": "藤田 謙二",
+        "term_start": "2025-05-22",
+        "term_end": "2029-05-21",
+        "note": ""
+      },
+      "public_order": 198,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08204",
+      "region_id": "mun-08204",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08204",
+      "city_name": "古河市",
+      "city_slug": "koga-shi",
+      "macro_region": "関東",
+      "mayor_name": "針谷 力",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-12-15",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.ibaraki-koga.lg.jp/soshiki/hisyo/mayorsroom/sichouprofile/648.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.ibaraki-koga.lg.jp/soshiki/hisyo/mayorsroom/sichouprofile/648.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "現職名はプロフィール、任期満了日は選管公式。現任期開始日と期数は本文明記未確認。",
+      "findings_values": {
+        "mayor_name": "針谷 力",
+        "term_start": "記載なし",
+        "term_end": "2028-12-15",
+        "note": "現職名はプロフィール、任期満了日は選管公式。現任期開始日と期数は本文明記未確認。"
+      },
+      "public_order": 203,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08205",
+      "region_id": "mun-08205",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08205",
+      "city_name": "石岡市",
+      "city_slug": "ishioka-shi",
+      "macro_region": "関東",
+      "mayor_name": "谷島 洋司",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-25",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。",
+      "findings_values": {
+        "mayor_name": "谷島 洋司",
+        "term_start": "記載なし",
+        "term_end": "2028-04-25",
+        "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。"
+      },
+      "public_order": 204,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08214",
+      "region_id": "mun-08214",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08214",
+      "city_name": "高萩市",
+      "city_slug": "takahagi-shi",
+      "macro_region": "関東",
+      "mayor_name": "大部 勝規",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-03-01",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。",
+      "findings_values": {
+        "mayor_name": "大部 勝規",
+        "term_start": "記載なし",
+        "term_end": "2030-03-01",
+        "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。"
+      },
+      "public_order": 205,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08215",
+      "region_id": "mun-08215",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08215",
+      "city_name": "北茨城市",
+      "city_slug": "kitaibaraki-shi",
+      "macro_region": "関東",
+      "mayor_name": "豊田 稔",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-06-17",
+      "term_end_display": null,
+      "term_note": "7期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.kitaibaraki.lg.jp/docs/2015030200120/",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.kitaibaraki.lg.jp/docs/2015030200120/"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "プロフィールで7期目、任期満了日は選挙の種類と任期で確認。",
+      "findings_values": {
+        "mayor_name": "豊田 稔",
+        "term_start": "記載なし",
+        "term_end": "2027-06-17",
+        "note": "プロフィールで7期目、任期満了日は選挙の種類と任期で確認。"
+      },
+      "public_order": 206,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08216",
+      "region_id": "mun-08216",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08216",
+      "city_name": "笠間市",
+      "city_slug": "kasama-shi",
+      "macro_region": "関東",
+      "mayor_name": "山口 伸樹",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-23",
+      "term_start_display": null,
+      "term_end": "2030-04-22",
+      "term_end_display": null,
+      "term_note": "2026-04-12執行の市長選で再選",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票結果",
+          "url": "https://www.city.kasama.lg.jp/page/page017183.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "開票結果",
+        "url": "https://www.city.kasama.lg.jp/page/page017183.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-12執行の笠間市長選開票結果で山口しんじゅ氏当選を確認。現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "山口 伸樹",
+        "term_start": "2026-04-23",
+        "term_end": "2030-04-22",
+        "note": "2026-04-12執行の笠間市長選開票結果で山口しんじゅ氏当選を確認。現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 207,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08217",
+      "region_id": "mun-08217",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08217",
+      "city_name": "取手市",
+      "city_slug": "toride-shi",
+      "macro_region": "関東",
+      "mayor_name": "中村 修",
+      "mayor_name_kana": null,
+      "term_start": "2023-04-27",
+      "term_start_display": null,
+      "term_end": "2027-04-26",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.toride.ibaraki.jp/hisho/shise/shicho/shichoshitsu/profile.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.toride.ibaraki.jp/hisho/shise/shicho/shichoshitsu/profile.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "プロフィールに任期明記。",
+      "findings_values": {
+        "mayor_name": "中村 修",
+        "term_start": "2023-04-27",
+        "term_end": "2027-04-26",
+        "note": "プロフィールに任期明記。"
+      },
+      "public_order": 208,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08219",
+      "region_id": "mun-08219",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08219",
+      "city_name": "牛久市",
+      "city_slug": "ushiku-shi",
+      "macro_region": "関東",
+      "mayor_name": "沼田 和利",
+      "mayor_name_kana": null,
+      "term_start": "2023-10-03",
+      "term_start_display": null,
+      "term_end": "2027-10-02",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。",
+      "findings_values": {
+        "mayor_name": "沼田 和利",
+        "term_start": "2023-10-03",
+        "term_end": "2027-10-02",
+        "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。"
+      },
+      "public_order": 209,
+      "prefecture_city_order": 14,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08220",
+      "region_id": "mun-08220",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08220",
+      "city_name": "つくば市",
+      "city_slug": "tsukuba-shi",
+      "macro_region": "関東",
+      "mayor_name": "五十嵐 立青",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-16",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。",
+      "findings_values": {
+        "mayor_name": "五十嵐 立青",
+        "term_start": "記載なし",
+        "term_end": "2028-11-16",
+        "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。"
+      },
+      "public_order": 210,
+      "prefecture_city_order": 15,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08221",
+      "region_id": "mun-08221",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08221",
+      "city_name": "ひたちなか市",
+      "city_slug": "hitachinaka-shi",
+      "macro_region": "関東",
+      "mayor_name": "大谷 明",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-11-26",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.hitachinaka.lg.jp/shisei/mayor/1007221/1003380.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.hitachinaka.lg.jp/shisei/mayor/1007221/1003380.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "プロフィールで2期目、任期満了日は各種選挙の任期満了日で確認。",
+      "findings_values": {
+        "mayor_name": "大谷 明",
+        "term_start": "記載なし",
+        "term_end": "2026-11-26",
+        "note": "プロフィールで2期目、任期満了日は各種選挙の任期満了日で確認。"
+      },
+      "public_order": 211,
+      "prefecture_city_order": 16,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08222",
+      "region_id": "mun-08222",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08222",
+      "city_name": "鹿嶋市",
+      "city_slug": "kashima-shi",
+      "macro_region": "関東",
+      "mayor_name": "田口 伸一",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-24",
+      "term_start_display": null,
+      "term_end": "2030-04-23",
+      "term_end_display": null,
+      "term_note": "2026-04-12予定の市長選は無投票",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "無投票案内",
+          "url": "https://city.kashima.ibaraki.jp/soshiki/56/90549.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "無投票案内",
+        "url": "https://city.kashima.ibaraki.jp/soshiki/56/90549.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-12予定の鹿嶋市長選は無投票。届出候補者は田口しんいち氏で、現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "田口 伸一",
+        "term_start": "2026-04-24",
+        "term_end": "2030-04-23",
+        "note": "2026-04-12予定の鹿嶋市長選は無投票。届出候補者は田口しんいち氏で、現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 212,
+      "prefecture_city_order": 17,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08223",
+      "region_id": "mun-08223",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08223",
+      "city_name": "潮来市",
+      "city_slug": "itako-shi",
+      "macro_region": "関東",
+      "mayor_name": "原 浩道",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-03-06",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。",
+      "findings_values": {
+        "mayor_name": "原 浩道",
+        "term_start": "記載なし",
+        "term_end": "2027-03-06",
+        "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。"
+      },
+      "public_order": 213,
+      "prefecture_city_order": 18,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08224",
+      "region_id": "mun-08224",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08224",
+      "city_name": "守谷市",
+      "city_slug": "moriya-shi",
+      "macro_region": "関東",
+      "mayor_name": "松丸 修久",
+      "mayor_name_kana": null,
+      "term_start": "2024-12-06",
+      "term_start_display": null,
+      "term_end": "2028-12-05",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.moriya.ibaraki.jp/shisei/mayor/1005614.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.moriya.ibaraki.jp/shisei/mayor/1005614.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "プロフィールに期数、任期満了日は任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "松丸 修久",
+        "term_start": "2024-12-06",
+        "term_end": "2028-12-05",
+        "note": "プロフィールに期数、任期満了日は任期満了日一覧で確認。"
+      },
+      "public_order": 214,
+      "prefecture_city_order": 19,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08225",
+      "region_id": "mun-08225",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08225",
+      "city_name": "常陸大宮市",
+      "city_slug": "hitachioomiya-shi",
+      "macro_region": "関東",
+      "mayor_name": "鈴木 定幸",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-22",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。",
+      "findings_values": {
+        "mayor_name": "鈴木 定幸",
+        "term_start": "記載なし",
+        "term_end": "2028-04-22",
+        "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。"
+      },
+      "public_order": 215,
+      "prefecture_city_order": 20,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08226",
+      "region_id": "mun-08226",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08226",
+      "city_name": "那珂市",
+      "city_slug": "naka-shi",
+      "macro_region": "関東",
+      "mayor_name": "先﨑 光",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-02-12",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。",
+      "findings_values": {
+        "mayor_name": "先﨑 光",
+        "term_start": "記載なし",
+        "term_end": "2027-02-12",
+        "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。"
+      },
+      "public_order": 216,
+      "prefecture_city_order": 21,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08227",
+      "region_id": "mun-08227",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08227",
+      "city_name": "筑西市",
+      "city_slug": "chikusei-shi",
+      "macro_region": "関東",
+      "mayor_name": "設楽 詠美子",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。",
+      "findings_values": {
+        "mayor_name": "設楽 詠美子",
+        "term_start": "記載なし",
+        "term_end": "2029-04-23",
+        "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。"
+      },
+      "public_order": 217,
+      "prefecture_city_order": 22,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08228",
+      "region_id": "mun-08228",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08228",
+      "city_name": "坂東市",
+      "city_slug": "bandou-shi",
+      "macro_region": "関東",
+      "mayor_name": "木村 敏文",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-16",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。",
+      "findings_values": {
+        "mayor_name": "木村 敏文",
+        "term_start": "記載なし",
+        "term_end": "2029-04-16",
+        "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。"
+      },
+      "public_order": 218,
+      "prefecture_city_order": 23,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08229",
+      "region_id": "mun-08229",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08229",
+      "city_name": "稲敷市",
+      "city_slug": "inashiki-shi",
+      "macro_region": "関東",
+      "mayor_name": "筧 信太郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-11-24",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。",
+      "findings_values": {
+        "mayor_name": "筧 信太郎",
+        "term_start": "記載なし",
+        "term_end": "2026-11-24",
+        "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。"
+      },
+      "public_order": 219,
+      "prefecture_city_order": 24,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08230",
+      "region_id": "mun-08230",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08230",
+      "city_name": "かすみがうら市",
+      "city_slug": "kasumigaura-shi",
+      "macro_region": "関東",
+      "mayor_name": "宮嶋 謙",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-07-22",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。",
+      "findings_values": {
+        "mayor_name": "宮嶋 謙",
+        "term_start": "記載なし",
+        "term_end": "2026-07-22",
+        "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。"
+      },
+      "public_order": 220,
+      "prefecture_city_order": 25,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08231",
+      "region_id": "mun-08231",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08231",
+      "city_name": "桜川市",
+      "city_slug": "sakuragawa-shi",
+      "macro_region": "関東",
+      "mayor_name": "大塚 秀喜",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-10-29",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。",
+      "findings_values": {
+        "mayor_name": "大塚 秀喜",
+        "term_start": "記載なし",
+        "term_end": "2029-10-29",
+        "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。"
+      },
+      "public_order": 221,
+      "prefecture_city_order": 26,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08232",
+      "region_id": "mun-08232",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08232",
+      "city_name": "神栖市",
+      "city_slug": "kamisu-shi",
+      "macro_region": "関東",
+      "mayor_name": "木内 敏之",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-12-05",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。",
+      "findings_values": {
+        "mayor_name": "木内 敏之",
+        "term_start": "記載なし",
+        "term_end": "2029-12-05",
+        "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。"
+      },
+      "public_order": 222,
+      "prefecture_city_order": 27,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08233",
+      "region_id": "mun-08233",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08233",
+      "city_name": "行方市",
+      "city_slug": "namegata-shi",
+      "macro_region": "関東",
+      "mayor_name": "髙須 敏美",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-10-01",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。",
+      "findings_values": {
+        "mayor_name": "髙須 敏美",
+        "term_start": "記載なし",
+        "term_end": "2029-10-01",
+        "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。"
+      },
+      "public_order": 223,
+      "prefecture_city_order": 28,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08234",
+      "region_id": "mun-08234",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08234",
+      "city_name": "鉾田市",
+      "city_slug": "hokota-shi",
+      "macro_region": "関東",
+      "mayor_name": "井川 茂樹",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-11-12",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。",
+      "findings_values": {
+        "mayor_name": "井川 茂樹",
+        "term_start": "記載なし",
+        "term_end": "2029-11-12",
+        "note": "茨城県『市町村の長・副市町村長及び正副議長一覧（令和8年4月8日現在）』で確認。"
+      },
+      "public_order": 224,
+      "prefecture_city_order": 29,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08235",
+      "region_id": "mun-08235",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08235",
+      "city_name": "つくばみらい市",
+      "city_slug": "tsukubamirai-shi",
+      "macro_region": "関東",
+      "mayor_name": "小田川 浩",
+      "mayor_name_kana": null,
+      "term_start": "2026-05-14",
+      "term_start_display": null,
+      "term_end": "2030-05-13",
+      "term_end_display": null,
+      "term_note": "2026-04-26予定の市長選は無投票",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "無投票案内",
+          "url": "https://www.city.tsukubamirai.lg.jp/sp/important/bousaimusen/page007519.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "無投票案内",
+        "url": "https://www.city.tsukubamirai.lg.jp/sp/important/bousaimusen/page007519.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-26予定の市長選は無投票。市長プロフィールと選挙告示情報から小田川浩市長の続投を確認し、現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "小田川 浩",
+        "term_start": "2026-05-14",
+        "term_end": "2030-05-13",
+        "note": "2026-04-26予定の市長選は無投票。市長プロフィールと選挙告示情報から小田川浩市長の続投を確認し、現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 225,
+      "prefecture_city_order": 30,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-08236",
+      "region_id": "mun-08236",
+      "pref_code": "08",
+      "pref_name": "茨城県",
+      "municipality_code": "08236",
+      "city_name": "小美玉市",
+      "city_slug": "omitama-shi",
+      "macro_region": "関東",
+      "mayor_name": "島田 幸三",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-30",
+      "term_start_display": null,
+      "term_end": "2030-04-29",
+      "term_end_display": null,
+      "term_note": "2026-04-12執行予定の市長選は無投票",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "茨城県 市町村の長・副市町村長及び正副議長一覧",
+          "url": "https://www.pref.ibaraki.jp/somu/shichoson/gyosei/documents/r80408.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "無投票案内",
+          "url": "https://www.city.omitama.lg.jp/0018/info-0000012147-0.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "無投票案内",
+        "url": "https://www.city.omitama.lg.jp/0018/info-0000012147-0.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-12執行予定の小美玉市長選は無投票。届出候補者は島田幸三氏で、現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "島田 幸三",
+        "term_start": "2026-04-30",
+        "term_end": "2030-04-29",
+        "note": "2026-04-12執行予定の小美玉市長選は無投票。届出候補者は島田幸三氏で、現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 226,
+      "prefecture_city_order": 31,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.md",
+        "research/current-mayors/findings/08-ibaraki/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

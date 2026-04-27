@@ -1,0 +1,576 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "05",
+  "pref_slug": "akita",
+  "pref_name": "秋田県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/05-akita",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-05201",
+      "region_id": "mun-05201",
+      "pref_code": "05",
+      "pref_name": "秋田県",
+      "municipality_code": "05201",
+      "city_name": "秋田市",
+      "city_slug": "akita-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "沼谷 純",
+      "mayor_name_kana": null,
+      "term_start": "2025-04-12",
+      "term_start_display": null,
+      "term_end": "2029-04-11",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式",
+          "url": "https://www.city.akita.lg.jp/shicho/past.html",
+          "checked_at": "2026-04-20",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.akita.lg.jp/shicho/past.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "歴代市長一覧で現職の在任開始日を確認。任期満了日は4年任期で整理。",
+      "findings_values": null,
+      "public_order": 81,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-05202",
+      "region_id": "mun-05202",
+      "pref_code": "05",
+      "pref_name": "秋田県",
+      "municipality_code": "05202",
+      "city_name": "能代市",
+      "city_slug": "noshiro-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "なべや 暁",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-23",
+      "term_start_display": null,
+      "term_end": "2030-04-22",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和８年４月１９日執行 能代市長選挙 開票結果",
+          "url": "https://www.city.noshiro.lg.jp/city/senkyo/kekka/shicho/27226",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "開票結果",
+        "url": "https://www.city.noshiro.lg.jp/city/senkyo/kekka/shicho/27226"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-19執行の能代市長選開票結果でなべや暁氏当選を確認。旧任期満了日2026-04-22の翌日から現任期と整理。",
+      "findings_values": null,
+      "public_order": 19,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/05-akita/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-05203",
+      "region_id": "mun-05203",
+      "pref_code": "05",
+      "pref_name": "秋田県",
+      "municipality_code": "05203",
+      "city_name": "横手市",
+      "city_slug": "yokote-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "髙橋 大",
+      "mayor_name_kana": null,
+      "term_start": "2025-10-23",
+      "term_start_display": null,
+      "term_end": "2029-10-22",
+      "term_end_display": null,
+      "term_note": "4期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.akita.lg.jp/pages/archive/54495",
+          "checked_at": "2026-04-21",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.akita.lg.jp/pages/archive/54495"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満“一覧で確認。",
+      "findings_values": null,
+      "public_order": 173,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-05204",
+      "region_id": "mun-05204",
+      "pref_code": "05",
+      "pref_name": "秋田県",
+      "municipality_code": "05204",
+      "city_name": "大館市",
+      "city_slug": "oodate-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "石田 健佑",
+      "mayor_name_kana": null,
+      "term_start": "2024-09-01",
+      "term_start_display": null,
+      "term_end": "2028-08-31",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.akita.lg.jp/pages/archive/54495",
+          "checked_at": "2026-04-21",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.akita.lg.jp/pages/archive/54495"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満“一覧で確認。",
+      "findings_values": null,
+      "public_order": 174,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-05206",
+      "region_id": "mun-05206",
+      "pref_code": "05",
+      "pref_name": "秋田県",
+      "municipality_code": "05206",
+      "city_name": "男鹿市",
+      "city_slug": "oga-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "菅原 広二",
+      "mayor_name_kana": null,
+      "term_start": "2025-04-12",
+      "term_start_display": null,
+      "term_end": "2029-04-11",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.city.oga.akita.jp/soshik/kikakuseisakuka/shichonoheya/1026.html",
+          "checked_at": "2026-04-21",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.oga.akita.jp/soshik/kikakuseisakuka/shichonoheya/1026.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市長プロフィールで菅原広二市長が現在3期目と明記。選挙結果ページでは2025-04-06市長選が無投票で、現任期は前任期満了翌日の2025-04-12から整理。",
+      "findings_values": null,
+      "public_order": 175,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-05207",
+      "region_id": "mun-05207",
+      "pref_code": "05",
+      "pref_name": "秋田県",
+      "municipality_code": "05207",
+      "city_name": "湯沢市",
+      "city_slug": "yuzawa-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "佐藤 一夫",
+      "mayor_name_kana": null,
+      "term_start": "2025-04-17",
+      "term_start_display": null,
+      "term_end": "2029-04-16",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.akita.lg.jp/pages/archive/54495",
+          "checked_at": "2026-04-21",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.akita.lg.jp/pages/archive/54495"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満“一覧で確認。",
+      "findings_values": null,
+      "public_order": 176,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-05209",
+      "region_id": "mun-05209",
+      "pref_code": "05",
+      "pref_name": "秋田県",
+      "municipality_code": "05209",
+      "city_name": "鹿角市",
+      "city_slug": "kazuno-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "笹本 真司",
+      "mayor_name_kana": null,
+      "term_start": "2025-04-27",
+      "term_start_display": null,
+      "term_end": "2029-04-26",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "県任期一覧",
+          "url": "https://www.pref.akita.lg.jp/pages/archive/54495",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "県任期一覧",
+        "url": "https://www.pref.akita.lg.jp/pages/archive/54495"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "県の任期満了一覧で現職名と任期を確認。",
+      "findings_values": null,
+      "public_order": 177,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-05210",
+      "region_id": "mun-05210",
+      "pref_code": "05",
+      "pref_name": "秋田県",
+      "municipality_code": "05210",
+      "city_name": "由利本荘市",
+      "city_slug": "yurihonjou-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "湊 貴信",
+      "mayor_name_kana": null,
+      "term_start": "2025-04-17",
+      "term_start_display": null,
+      "term_end": "2029-04-16",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_schedule",
+          "title": "今後の選挙予定",
+          "url": "https://www.city.yurihonjo.lg.jp/1001506/1001573/1001656/1005388.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "今後の選挙予定",
+        "url": "https://www.city.yurihonjo.lg.jp/1001506/1001573/1001656/1005388.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "由利本荘市の今後の選挙予定と県の任期満了一覧で現職名と任期を確認。",
+      "findings_values": null,
+      "public_order": 178,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/05-akita/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-05211",
+      "region_id": "mun-05211",
+      "pref_code": "05",
+      "pref_name": "秋田県",
+      "municipality_code": "05211",
+      "city_name": "潟上市",
+      "city_slug": "katagami-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "鈴木 雄大",
+      "mayor_name_kana": null,
+      "term_start": "2026-02-22",
+      "term_start_display": null,
+      "term_end": "2030-02-21",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.akita.lg.jp/pages/archive/54495",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.akita.lg.jp/pages/archive/54495"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "県の任期満了一覧で確認。現任期始期は4年任期で整理。",
+      "findings_values": null,
+      "public_order": 148,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-05212",
+      "region_id": "mun-05212",
+      "pref_code": "05",
+      "pref_name": "秋田県",
+      "municipality_code": "05212",
+      "city_name": "大仙市",
+      "city_slug": "daisen-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "老松 博行",
+      "mayor_name_kana": null,
+      "term_start": "2025-10-01",
+      "term_start_display": null,
+      "term_end": "2029-09-30",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.akita.lg.jp/pages/archive/54495",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.akita.lg.jp/pages/archive/54495"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "県の任期満了一覧で確認。現任期始期は4年任期で整理。",
+      "findings_values": null,
+      "public_order": 149,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-05213",
+      "region_id": "mun-05213",
+      "pref_code": "05",
+      "pref_name": "秋田県",
+      "municipality_code": "05213",
+      "city_name": "北秋田市",
+      "city_slug": "kitaakita-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "津谷 永光",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-01",
+      "term_start_display": null,
+      "term_end": "2030-03-31",
+      "term_end_display": null,
+      "term_note": "5期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.akita.lg.jp/pages/archive/54495",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.akita.lg.jp/pages/archive/54495"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "県の任期満了一覧で確認。現任期始期は4年任期で整理。",
+      "findings_values": null,
+      "public_order": 150,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-05214",
+      "region_id": "mun-05214",
+      "pref_code": "05",
+      "pref_name": "秋田県",
+      "municipality_code": "05214",
+      "city_name": "にかほ市",
+      "city_slug": "nikaho-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "市川 雄次",
+      "mayor_name_kana": null,
+      "term_start": "2025-11-13",
+      "term_start_display": null,
+      "term_end": "2029-11-12",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "profile",
+          "title": "市長・副市長・教育長",
+          "url": "https://www.city.nikaho.akita.jp/soshikikarasagasu/somuka/gyomuannai/6/4065.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長・副市長・教育長",
+        "url": "https://www.city.nikaho.akita.jp/soshikikarasagasu/somuka/gyomuannai/6/4065.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "にかほ市公式の市長・副市長・教育長ページで市川雄次市長と現任期（2025-11-13から2029-11-12）を確認。",
+      "findings_values": null,
+      "public_order": 151,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/05-akita/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-05215",
+      "region_id": "mun-05215",
+      "pref_code": "05",
+      "pref_name": "秋田県",
+      "municipality_code": "05215",
+      "city_name": "仙北市",
+      "city_slug": "senboku-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "石黒 直次",
+      "mayor_name_kana": null,
+      "term_start": "2025-10-30",
+      "term_start_display": null,
+      "term_end": "2029-10-29",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "inauguration",
+          "title": "石黒直次新市長初登庁",
+          "url": "https://www.city.semboku.akita.jp/government/mayor/hatsu.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "初登庁",
+        "url": "https://www.city.semboku.akita.jp/government/mayor/hatsu.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "仙北市公式の新市長初登庁記事で石黒直次市長を確認。現任期は2025-10-30から4年任期で整理。",
+      "findings_values": null,
+      "public_order": 152,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/05-akita/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,643 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "02",
+  "pref_slug": "aomori",
+  "pref_name": "青森県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/02-aomori",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-02201",
+      "region_id": "mun-02201",
+      "pref_code": "02",
+      "pref_name": "青森県",
+      "municipality_code": "02201",
+      "city_name": "青森市",
+      "city_slug": "aomori-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "西 秀記",
+      "mayor_name_kana": null,
+      "term_start": "2023-06-04",
+      "term_start_display": null,
+      "term_end": "2027-06-03",
+      "term_end_display": null,
+      "term_note": "令和5年6月4日就任、任期は令和9年6月3日まで。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "市長あいさつ",
+          "url": "https://www.city.aomori.aomori.jp/shisei/shichounoheya/1005416.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_result",
+          "title": "令和5年6月4日執行青森市長選挙",
+          "url": "https://www.city.aomori.aomori.jp/shisei/senkyo/1007355/1007356/1007357.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長あいさつ",
+        "url": "https://www.city.aomori.aomori.jp/shisei/shichounoheya/1005416.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "青森市公式の市長あいさつ・プロフィールに『令和5年6月 青森市長』『任期：令和5年6月4日～令和9年6月3日』の明記あり。",
+      "findings_values": null,
+      "public_order": 45,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/02-aomori/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-02202",
+      "region_id": "mun-02202",
+      "pref_code": "02",
+      "pref_name": "青森県",
+      "municipality_code": "02202",
+      "city_name": "弘前市",
+      "city_slug": "hirosaki-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "谷川 政人",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-16",
+      "term_start_display": null,
+      "term_end": "2030-04-15",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和８年４月12日執行 弘前市長選挙・弘前市議会議員補欠選挙の結果について",
+          "url": "https://www.city.hirosaki.aomori.jp/kurashi/sumai/senkyo/2026-0412-senkyokekka.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_result_pdf",
+          "title": "令和８年４月１２日執行 弘前市長選挙",
+          "url": "https://www.city.hirosaki.aomori.jp/kurashi/sumai/senkyo/R8.4.12_shichousen_kekka.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "official_profile",
+          "title": "プロフィール",
+          "url": "https://www.city.hirosaki.aomori.jp/shicho/profile.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": "https://www.city.hirosaki.aomori.jp/shicho/profile.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "弘前市公式の市長プロフィールで『令和8年4月16日 弘前市長に就任』を確認。任期は4年で整理。",
+      "findings_values": {
+        "mayor_name": "谷川 政人",
+        "term_start": "2026-04-16",
+        "term_end": "2030-04-15",
+        "note": "2026-04-12 執行の弘前市長選挙結果で 谷川 政人 氏当選を確認し、市公式プロフィールの 2026-04-16 就任記載で現任期始期を確認した。"
+      },
+      "public_order": 58,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/02-aomori/2026-04-23-round2.md",
+        "research/current-mayors/findings/02-aomori/2026-04-23-round1.sources.json",
+        "research/current-mayors/findings/02-aomori/2026-04-23-round2.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-02204",
+      "region_id": "mun-02204",
+      "pref_code": "02",
+      "pref_name": "青森県",
+      "municipality_code": "02204",
+      "city_name": "黒石市",
+      "city_slug": "kuroishi-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "髙樋 憲",
+      "mayor_name_kana": null,
+      "term_start": "2022-07-18",
+      "term_start_display": null,
+      "term_end": "2026-07-17",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "これまでの選挙結果等",
+          "url": "https://www.city.kuroishi.aomori.jp/shisei/keikaku/senkyo-data.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_schedule",
+          "title": "選挙管理委員会",
+          "url": "https://www.city.kuroishi.aomori.jp/shisei/keikaku/senkyo-kanri-iinkai.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "選挙結果",
+        "url": "https://www.city.kuroishi.aomori.jp/shisei/keikaku/senkyo-data.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "黒石市公式の選挙結果と任期満了一覧で確認。",
+      "findings_values": null,
+      "public_order": 59,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/02-aomori/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-02205",
+      "region_id": "mun-02205",
+      "pref_code": "02",
+      "pref_name": "青森県",
+      "municipality_code": "02205",
+      "city_name": "五所川原市",
+      "city_slug": "goshogawara-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "佐々木 孝昌",
+      "mayor_name_kana": null,
+      "term_start": "2022-07-09",
+      "term_start_display": null,
+      "term_end": "2026-07-08",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和4年6月19日執行 五所川原市長選挙",
+          "url": "https://www.city.goshogawara.lg.jp/kurashi/senkyo/20220619sityousennkekka.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長選結果",
+        "url": "https://www.city.goshogawara.lg.jp/kurashi/senkyo/20220619sityousennkekka.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "五所川原市公式の市長選結果ページで当選者と任期満了日を確認。始期は4年任期から整理。",
+      "findings_values": null,
+      "public_order": 60,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/02-aomori/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-02203",
+      "region_id": "mun-02203",
+      "pref_code": "02",
+      "pref_name": "青森県",
+      "municipality_code": "02203",
+      "city_name": "八戸市",
+      "city_slug": "hachinohe-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "熊谷 雄一",
+      "mayor_name_kana": null,
+      "term_start": "2025-11-17",
+      "term_start_display": null,
+      "term_end": "2029-11-16",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.hachinohe.aomori.jp/soshikikarasagasu/hishoka/1/1696.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_result",
+          "title": "令和7年10月26日執行 八戸市長選挙開票結果",
+          "url": "https://www.city.hachinohe.aomori.jp/gyoseijoho/senkyo/koremadenosenkyokekka/24680.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_schedule",
+          "title": "今後の選挙の予定",
+          "url": "https://www.city.hachinohe.aomori.jp/gyoseijoho/senkyo/senkyonokisochishiki/10232.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長選開票結果",
+        "url": "https://www.city.hachinohe.aomori.jp/gyoseijoho/senkyo/koremadenosenkyokekka/24680.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2025-10-26執行の八戸市長選挙開票結果で熊谷雄一市長の再選を確認。前任期満了日2025-11-16の翌日を現任期始期として整理。",
+      "findings_values": {
+        "mayor_name": "熊谷 雄一",
+        "term_start": "2025-11-17",
+        "term_end": "2029-11-16",
+        "note": "2025-10-26 執行の八戸市長選挙開票結果で 熊谷 雄一 氏の再選を確認。前任期満了日 2025-11-16 の翌日を現任期始期として整理。"
+      },
+      "public_order": 99,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/02-aomori/2026-04-23-round1.md",
+        "research/current-mayors/findings/02-aomori/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-02206",
+      "region_id": "mun-02206",
+      "pref_code": "02",
+      "pref_name": "青森県",
+      "municipality_code": "02206",
+      "city_name": "十和田市",
+      "city_slug": "towada-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "櫻田 百合子",
+      "mayor_name_kana": null,
+      "term_start": "2025-01-30",
+      "term_start_display": null,
+      "term_end": "2029-01-29",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和7年1月19日執行 十和田市長選挙の結果について",
+          "url": "https://www.city.towada.lg.jp/kurashi/senkyo/2024-1213-0830-178.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.towada.lg.jp/shisei/about/shichou/profile.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村長の任期満了日及び選挙期日等",
+          "url": "https://www.pref.aomori.lg.jp/soshiki/senkan/files2/R70626.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長選結果",
+        "url": "https://www.city.towada.lg.jp/kurashi/senkyo/2024-1213-0830-178.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2025-01-19執行の十和田市長選結果と市長プロフィールの『令和7年1月就任』記載を確認。旧任期満了日2025-01-29の翌日を現任期始期として整理。",
+      "findings_values": {
+        "mayor_name": "櫻田 百合子",
+        "term_start": "2025-01-30",
+        "term_end": "2029-01-29",
+        "note": "2025-01-19 執行の十和田市長選挙結果と市長プロフィールの 令和7年1月就任 記載を確認。旧任期満了日 2025-01-29 の翌日を現任期始期として整理。"
+      },
+      "public_order": 100,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/02-aomori/2026-04-23-round1.md",
+        "research/current-mayors/findings/02-aomori/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-02207",
+      "region_id": "mun-02207",
+      "pref_code": "02",
+      "pref_name": "青森県",
+      "municipality_code": "02207",
+      "city_name": "三沢市",
+      "city_slug": "misawa-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "小檜山 吉紀",
+      "mayor_name_kana": null,
+      "term_start": "2023-06-17",
+      "term_start_display": null,
+      "term_end": "2027-06-16",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "プロフィール",
+          "url": "https://www.city.misawa.lg.jp/index.cfm/12%2C22753%2C55%2C246%2Chtml",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "city_newsletter",
+          "title": "広報みさわ2023年7月号",
+          "url": "https://www.city.misawa.lg.jp/index.cfm/12%2C51792%2C56%2C755%2Chtml",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村長の任期満了日及び選挙期日等",
+          "url": "https://www.pref.aomori.lg.jp/soshiki/senkan/files2/R71027_tyou.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "広報みさわ2023年7月号",
+        "url": "https://www.city.misawa.lg.jp/index.cfm/12%2C51792%2C56%2C755%2Chtml"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "市公式広報の『5月28日告示の三沢市長選において、再選した小檜山市長』記載と県選管の任期満了日一覧から、現任期を2023-06-17開始の2期目として整理。",
+      "findings_values": {
+        "mayor_name": "小檜山 吉紀",
+        "term_start": "2023-06-17",
+        "term_end": "2027-06-16",
+        "note": "市公式広報 広報みさわ2023年7月号 の「5月28日告示の三沢市長選において、再選した小檜山市長」記載と県選管一覧の任期満了日 2027-06-16 から現任期を整理。"
+      },
+      "public_order": 101,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/02-aomori/2026-04-23-round1.md",
+        "research/current-mayors/findings/02-aomori/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-02208",
+      "region_id": "mun-02208",
+      "pref_code": "02",
+      "pref_name": "青森県",
+      "municipality_code": "02208",
+      "city_name": "むつ市",
+      "city_slug": "mutsu-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "山本 知也",
+      "mayor_name_kana": null,
+      "term_start": "2023-04-23",
+      "term_start_display": null,
+      "term_end": "2027-04-22",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "プロフィール",
+          "url": "https://www.city.mutsu.lg.jp/government/mayer/mayer-profile.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村長の任期満了日及び選挙期日等",
+          "url": "https://www.pref.aomori.lg.jp/soshiki/senkan/files2/R71027_tyou.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": "https://www.city.mutsu.lg.jp/government/mayer/mayer-profile.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "むつ市公式プロフィールの『令和5年4月23日 むつ市長就任』記載と県選管の任期満了日一覧で確認。",
+      "findings_values": null,
+      "public_order": 102,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/02-aomori/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-02209",
+      "region_id": "mun-02209",
+      "pref_code": "02",
+      "pref_name": "青森県",
+      "municipality_code": "02209",
+      "city_name": "つがる市",
+      "city_slug": "tsugaru-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "倉光 弘昭",
+      "mayor_name_kana": null,
+      "term_start": "2025-03-13",
+      "term_start_display": null,
+      "term_end": "2029-03-12",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.tsugaru.aomori.jp/soshiki/somu/hisyoseisaku/hisyo/heya/profile.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": "https://www.city.tsugaru.aomori.jp/soshiki/somu/hisyoseisaku/hisyo/heya/profile.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "公式プロフィールに『現在（2期目） 任期：令和7年3月13日～令和11年3月12日』と記載。",
+      "findings_values": null,
+      "public_order": 103,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/02-aomori/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-02210",
+      "region_id": "mun-02210",
+      "pref_code": "02",
+      "pref_name": "青森県",
+      "municipality_code": "02210",
+      "city_name": "平川市",
+      "city_slug": "hirakawa-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "工藤 貴弘",
+      "mayor_name_kana": null,
+      "term_start": "2025-12-21",
+      "term_start_display": null,
+      "term_end": "2029-12-20",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.hirakawa.lg.jp/jouhou/shichou/2026-0202-1042-103_sityouprofile.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_schedule",
+          "title": "選挙の予定",
+          "url": "https://www.city.hirakawa.lg.jp/jouhou/senkyo/senkyo/senkyoyotei.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": "https://www.city.hirakawa.lg.jp/jouhou/shichou/2026-0202-1042-103_sityouprofile.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "平川市公式プロフィールに『任期 令和7年12月21日から令和11年12月20日まで』と記載。新任市長のため1期目と整理。",
+      "findings_values": null,
+      "public_order": 104,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/02-aomori/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

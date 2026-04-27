@@ -1,0 +1,1036 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "34",
+  "pref_slug": "hiroshima",
+  "pref_name": "広島県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/34-hiroshima",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-34100",
+      "region_id": "mun-34100",
+      "pref_code": "34",
+      "pref_name": "広島県",
+      "municipality_code": "34100",
+      "city_name": "広島市",
+      "city_slug": "hiroshima-shi",
+      "macro_region": "中国",
+      "mayor_name": "松井 一實",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "2023-04",
+      "term_end": null,
+      "term_end_display": "2027-04",
+      "term_note": "公式プロフィールで2023年4月に広島市長当選（4期目）。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長名と4期目の開始月は広島市公式プロフィールで確認。任期は月単位で整理。",
+      "findings_values": {
+        "mayor_name": "松井 一實",
+        "term_start": "2023-04",
+        "term_end": "2027-04",
+        "note": "市長名と4期目の開始月は広島市公式プロフィールで確認。任期は月単位で整理。"
+      },
+      "public_order": 44,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-34202",
+      "region_id": "mun-34202",
+      "pref_code": "34",
+      "pref_name": "広島県",
+      "municipality_code": "34202",
+      "city_name": "呉市",
+      "city_slug": "kure-shi",
+      "macro_region": "中国",
+      "mayor_name": "新原 芳明",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-11-18",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "新原 芳明",
+        "term_start": "記載なし",
+        "term_end": "2029-11-18",
+        "note": "県の任期満了日等一覧で確認。"
+      },
+      "public_order": 634,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-34203",
+      "region_id": "mun-34203",
+      "pref_code": "34",
+      "pref_name": "広島県",
+      "municipality_code": "34203",
+      "city_name": "竹原市",
+      "city_slug": "takehara-shi",
+      "macro_region": "中国",
+      "mayor_name": "平井 明道",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-01-13",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "平井 明道",
+        "term_start": "記載なし",
+        "term_end": "2030-01-13",
+        "note": "県の任期満了日等一覧で確認。"
+      },
+      "public_order": 635,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-34204",
+      "region_id": "mun-34204",
+      "pref_code": "34",
+      "pref_name": "広島県",
+      "municipality_code": "34204",
+      "city_name": "三原市",
+      "city_slug": "mihara-shi",
+      "macro_region": "中国",
+      "mayor_name": "岡田 吉弘",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-08-08",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "岡田 吉弘",
+        "term_start": "記載なし",
+        "term_end": "2028-08-08",
+        "note": "県の任期満了日等一覧で確認。"
+      },
+      "public_order": 636,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-34205",
+      "region_id": "mun-34205",
+      "pref_code": "34",
+      "pref_name": "広島県",
+      "municipality_code": "34205",
+      "city_name": "尾道市",
+      "city_slug": "onomichi-shi",
+      "macro_region": "中国",
+      "mayor_name": "平谷 祐宏",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-26",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "平谷 祐宏",
+        "term_start": "記載なし",
+        "term_end": "2027-04-26",
+        "note": "県の任期満了日等一覧で確認。"
+      },
+      "public_order": 637,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-34207",
+      "region_id": "mun-34207",
+      "pref_code": "34",
+      "pref_name": "広島県",
+      "municipality_code": "34207",
+      "city_name": "福山市",
+      "city_slug": "fukuyama-shi",
+      "macro_region": "中国",
+      "mayor_name": "枝広 直幹",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-09-04",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "枝広 直幹",
+        "term_start": "記載なし",
+        "term_end": "2028-09-04",
+        "note": "県の任期満了日等一覧で確認。"
+      },
+      "public_order": 638,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-34208",
+      "region_id": "mun-34208",
+      "pref_code": "34",
+      "pref_name": "広島県",
+      "municipality_code": "34208",
+      "city_name": "府中市",
+      "city_slug": "fuchu-shi",
+      "macro_region": "中国",
+      "mayor_name": "小野 申人",
+      "mayor_name_kana": null,
+      "term_start": "2022-05-02",
+      "term_start_display": null,
+      "term_end": "2026-05-01",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.city.fuchu.hiroshima.jp/soshiki/soumubu/kikakuzaisei/shicho_room/7760.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": "https://www.city.fuchu.hiroshima.jp/soshiki/soumubu/kikakuzaisei/shicho_room/7760.html"
+      },
+      "last_checked_at": "2026-04-24",
+      "note": "府中市公式プロフィールで現職名と2期目の任期を確認。次回府中市長選は2026-04-26投票。",
+      "findings_values": {
+        "mayor_name": "小野 申人",
+        "term_start": "2022-05-02",
+        "term_end": "2026-05-01",
+        "note": "府中市公式プロフィールで現職名と2期目の任期を確認。次回府中市長選は2026-04-26投票。"
+      },
+      "public_order": 639,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-34209",
+      "region_id": "mun-34209",
+      "pref_code": "34",
+      "pref_name": "広島県",
+      "municipality_code": "34209",
+      "city_name": "三次市",
+      "city_slug": "miyoshi-shi",
+      "macro_region": "中国",
+      "mayor_name": "福岡 誠志",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-25",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "福岡 誠志",
+        "term_start": "記載なし",
+        "term_end": "2027-04-25",
+        "note": "県の任期満了日等一覧で確認。"
+      },
+      "public_order": 640,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-34210",
+      "region_id": "mun-34210",
+      "pref_code": "34",
+      "pref_name": "広島県",
+      "municipality_code": "34210",
+      "city_name": "庄原市",
+      "city_slug": "shoubara-shi",
+      "macro_region": "中国",
+      "mayor_name": "八谷 恭介",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-16",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "八谷 恭介",
+        "term_start": "記載なし",
+        "term_end": "2029-04-16",
+        "note": "県の任期満了日等一覧で確認。"
+      },
+      "public_order": 641,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-34211",
+      "region_id": "mun-34211",
+      "pref_code": "34",
+      "pref_name": "広島県",
+      "municipality_code": "34211",
+      "city_name": "大竹市",
+      "city_slug": "ootake-shi",
+      "macro_region": "中国",
+      "mayor_name": "入山 欣郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-06-29",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "入山 欣郎",
+        "term_start": "記載なし",
+        "term_end": "2026-06-29",
+        "note": "県の任期満了日等一覧で確認。"
+      },
+      "public_order": 642,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-34212",
+      "region_id": "mun-34212",
+      "pref_code": "34",
+      "pref_name": "広島県",
+      "municipality_code": "34212",
+      "city_name": "東広島市",
+      "city_slug": "higashihiroshima-shi",
+      "macro_region": "中国",
+      "mayor_name": "髙垣 廣德",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-02-03",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "髙垣 廣德",
+        "term_start": "記載なし",
+        "term_end": "2030-02-03",
+        "note": "県の任期満了日等一覧で確認。"
+      },
+      "public_order": 643,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-34213",
+      "region_id": "mun-34213",
+      "pref_code": "34",
+      "pref_name": "広島県",
+      "municipality_code": "34213",
+      "city_name": "廿日市市",
+      "city_slug": "hatsukaichi-shi",
+      "macro_region": "中国",
+      "mayor_name": "松本 太郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-11-02",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "松本 太郎",
+        "term_start": "記載なし",
+        "term_end": "2027-11-02",
+        "note": "県の任期満了日等一覧で確認。"
+      },
+      "public_order": 644,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-34214",
+      "region_id": "mun-34214",
+      "pref_code": "34",
+      "pref_name": "広島県",
+      "municipality_code": "34214",
+      "city_name": "安芸高田市",
+      "city_slug": "akitakata-shi",
+      "macro_region": "中国",
+      "mayor_name": "藤本 悦志",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-07-06",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "藤本 悦志",
+        "term_start": "記載なし",
+        "term_end": "2028-07-06",
+        "note": "県の任期満了日等一覧で確認。"
+      },
+      "public_order": 645,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-34215",
+      "region_id": "mun-34215",
+      "pref_code": "34",
+      "pref_name": "広島県",
+      "municipality_code": "34215",
+      "city_name": "江田島市",
+      "city_slug": "etajima-shi",
+      "macro_region": "中国",
+      "mayor_name": "土手 三生",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-12-04",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "広島県 市町の基本情報一覧",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/1269389071117.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "広島県 市町長・議員の任期満了日",
+          "url": "https://www.pref.hiroshima.lg.jp/site/sennkyokannriiinkai/1171866851113.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/661228.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "土手 三生",
+        "term_start": "記載なし",
+        "term_end": "2028-12-04",
+        "note": "県の任期満了日等一覧で確認。"
+      },
+      "public_order": 646,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/34-hiroshima/2026-04-24-round1.sources.json"
+      ]
+    }
+  ]
+}

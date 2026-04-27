@@ -1,0 +1,598 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "32",
+  "pref_slug": "shimane",
+  "pref_name": "島根県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/32-shimane",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-32207",
+      "region_id": "mun-32207",
+      "pref_code": "32",
+      "pref_name": "島根県",
+      "municipality_code": "32207",
+      "city_name": "江津市",
+      "city_slug": "gotsu-shi",
+      "macro_region": "中国",
+      "mayor_name": "中村 中",
+      "mayor_name_kana": null,
+      "term_start": "2022-07-16",
+      "term_start_display": null,
+      "term_end": "2026-07-15",
+      "term_end_display": null,
+      "term_note": "令和4年7月16日から令和8年7月15日まで。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "島根県 しまねの市町村",
+          "url": "https://www.pref.shimane.lg.jp/shichoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "島根県 県市町村の長・議員の任期満了一覧",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "中村中市長のプロフィール",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "中村中市長のプロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "任期が明記されている。",
+      "findings_values": {
+        "mayor_name": "中村 中",
+        "term_start": "2022-07-16",
+        "term_end": "2026-07-15",
+        "note": "任期が明記されている。"
+      },
+      "public_order": 27,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/32-shimane/2026-04-24-round1.md",
+        "research/current-mayors/findings/32-shimane/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-32201",
+      "region_id": "mun-32201",
+      "pref_code": "32",
+      "pref_name": "島根県",
+      "municipality_code": "32201",
+      "city_name": "松江市",
+      "city_slug": "matsue-shi",
+      "macro_region": "中国",
+      "mayor_name": "上定 昭仁",
+      "mayor_name_kana": null,
+      "term_start": "2025-04-24",
+      "term_start_display": null,
+      "term_end": "2029-04-23",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "島根県 しまねの市町村",
+          "url": "https://www.pref.shimane.lg.jp/shichoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "島根県 県市町村の長・議員の任期満了一覧",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.matsue.lg.jp/gyoseijoho/WEB_shichoshitsu/9917.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.matsue.lg.jp/gyoseijoho/WEB_shichoshitsu/9917.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "プロフィールで現職名と令和7年4月再任（2期目）を確認。就任日は『市長就任記者会見(4月24日)』で確認。任期満了日は4年任期で整理。",
+      "findings_values": {
+        "mayor_name": "上定 昭仁",
+        "term_start": "2025-04-24",
+        "term_end": "2029-04-23",
+        "note": "プロフィールで現職名と令和7年4月再任（2期目）を確認。就任日は『市長就任記者会見(4月24日)』で確認。任期満了日は4年任期で整理。"
+      },
+      "public_order": 69,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/32-shimane/2026-04-24-round1.md",
+        "research/current-mayors/findings/32-shimane/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-32202",
+      "region_id": "mun-32202",
+      "pref_code": "32",
+      "pref_name": "島根県",
+      "municipality_code": "32202",
+      "city_name": "浜田市",
+      "city_slug": "hamada-shi",
+      "macro_region": "中国",
+      "mayor_name": "三浦 大紀",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-10-22",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "島根県 しまねの市町村",
+          "url": "https://www.pref.shimane.lg.jp/shichoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "島根県 県市町村の長・議員の任期満了一覧",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "島根県『県内市町村の長・議員の任期満了一覧』（令和7年11月1日現在）で確認。",
+      "findings_values": {
+        "mayor_name": "三浦 大紀",
+        "term_start": "記載なし",
+        "term_end": "2029-10-22",
+        "note": "島根県『県内市町村の長・議員の任期満了一覧』（令和7年11月1日現在）で確認。"
+      },
+      "public_order": 614,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/32-shimane/2026-04-24-round1.md",
+        "research/current-mayors/findings/32-shimane/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-32203",
+      "region_id": "mun-32203",
+      "pref_code": "32",
+      "pref_name": "島根県",
+      "municipality_code": "32203",
+      "city_name": "出雲市",
+      "city_slug": "izumo-shi",
+      "macro_region": "中国",
+      "mayor_name": "飯塚 俊之",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-16",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "島根県 しまねの市町村",
+          "url": "https://www.pref.shimane.lg.jp/shichoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "島根県 県市町村の長・議員の任期満了一覧",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "島根県『県内市町村の長・議員の任期満了一覧』（令和7年11月1日現在）で確認。",
+      "findings_values": {
+        "mayor_name": "飯塚 俊之",
+        "term_start": "記載なし",
+        "term_end": "2029-04-16",
+        "note": "島根県『県内市町村の長・議員の任期満了一覧』（令和7年11月1日現在）で確認。"
+      },
+      "public_order": 615,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/32-shimane/2026-04-24-round1.md",
+        "research/current-mayors/findings/32-shimane/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-32204",
+      "region_id": "mun-32204",
+      "pref_code": "32",
+      "pref_name": "島根県",
+      "municipality_code": "32204",
+      "city_name": "益田市",
+      "city_slug": "masuda-shi",
+      "macro_region": "中国",
+      "mayor_name": "山本 浩章",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-08-01",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "島根県 しまねの市町村",
+          "url": "https://www.pref.shimane.lg.jp/shichoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "島根県 県市町村の長・議員の任期満了一覧",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "島根県『県内市町村の長・議員の任期満了一覧』（令和7年11月1日現在）で確認。",
+      "findings_values": {
+        "mayor_name": "山本 浩章",
+        "term_start": "記載なし",
+        "term_end": "2028-08-01",
+        "note": "島根県『県内市町村の長・議員の任期満了一覧』（令和7年11月1日現在）で確認。"
+      },
+      "public_order": 616,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/32-shimane/2026-04-24-round1.md",
+        "research/current-mayors/findings/32-shimane/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-32205",
+      "region_id": "mun-32205",
+      "pref_code": "32",
+      "pref_name": "島根県",
+      "municipality_code": "32205",
+      "city_name": "大田市",
+      "city_slug": "ooda-shi",
+      "macro_region": "中国",
+      "mayor_name": "楫野 弘和",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-10-29",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "島根県 しまねの市町村",
+          "url": "https://www.pref.shimane.lg.jp/shichoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "島根県 県市町村の長・議員の任期満了一覧",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "島根県『県内市町村の長・議員の任期満了一覧』（令和7年11月1日現在）で確認。",
+      "findings_values": {
+        "mayor_name": "楫野 弘和",
+        "term_start": "記載なし",
+        "term_end": "2029-10-29",
+        "note": "島根県『県内市町村の長・議員の任期満了一覧』（令和7年11月1日現在）で確認。"
+      },
+      "public_order": 617,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/32-shimane/2026-04-24-round1.md",
+        "research/current-mayors/findings/32-shimane/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-32206",
+      "region_id": "mun-32206",
+      "pref_code": "32",
+      "pref_name": "島根県",
+      "municipality_code": "32206",
+      "city_name": "安来市",
+      "city_slug": "yasugi-shi",
+      "macro_region": "中国",
+      "mayor_name": "田中 武夫",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-10-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "島根県 しまねの市町村",
+          "url": "https://www.pref.shimane.lg.jp/shichoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "島根県 県市町村の長・議員の任期満了一覧",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "島根県『県内市町村の長・議員の任期満了一覧』（令和7年11月1日現在）で確認。",
+      "findings_values": {
+        "mayor_name": "田中 武夫",
+        "term_start": "記載なし",
+        "term_end": "2028-10-23",
+        "note": "島根県『県内市町村の長・議員の任期満了一覧』（令和7年11月1日現在）で確認。"
+      },
+      "public_order": 618,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/32-shimane/2026-04-24-round1.md",
+        "research/current-mayors/findings/32-shimane/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-32209",
+      "region_id": "mun-32209",
+      "pref_code": "32",
+      "pref_name": "島根県",
+      "municipality_code": "32209",
+      "city_name": "雲南市",
+      "city_slug": "unnan-shi",
+      "macro_region": "中国",
+      "mayor_name": "石飛 厚志",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-01-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "島根県 しまねの市町村",
+          "url": "https://www.pref.shimane.lg.jp/shichoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "島根県 県市町村の長・議員の任期満了一覧",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/ninnkimannryou.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "島根県『県内市町村の長・議員の任期満了一覧』（令和7年11月1日現在）で確認。",
+      "findings_values": {
+        "mayor_name": "石飛 厚志",
+        "term_start": "記載なし",
+        "term_end": "2029-01-30",
+        "note": "島根県『県内市町村の長・議員の任期満了一覧』（令和7年11月1日現在）で確認。"
+      },
+      "public_order": 619,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/32-shimane/2026-04-24-round1.md",
+        "research/current-mayors/findings/32-shimane/2026-04-24-round1.sources.json"
+      ]
+    }
+  ]
+}

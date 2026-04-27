@@ -6,6 +6,7 @@
 - [現職市長検証タスク テンプレート](/home/shimo/election/research/current-mayors/queue/TEMPLATE.md)
 - [現職市長検証ルール](/home/shimo/election/skills/current-mayors-audit/references/verification-rules.md)
 - [現職市長検証 Skill 出力フォーマット案](/home/shimo/election/docs/plans/CURRENT_MAYORS_SKILL_OUTPUT_FORMAT.md)
+- [市長台帳 直近選挙アノマリ検出フロー](/home/shimo/election/docs/runbooks/MAYOR_LEDGER_UPCOMING_ELECTION_ANOMALY_FLOW.md)
 
 ## 1. 目的
 
@@ -31,6 +32,15 @@ research/current-mayors/
       YYYY-MM-DD-roundN.sources.json
       YYYY-MM-DD-roundN.diff.json
 
+data/v1/current_mayors/
+  canonical.json
+  by_prefecture/
+    {pref_code}-{pref_slug}.json
+
+artifacts/private/sources/current-mayors/
+  soumu-municipality-codes-2024-01-01.xlsx
+  soumu-municipality-codes-2024-01-01/
+
 site/pages/
   current-mayors.html
 ```
@@ -42,7 +52,8 @@ site/pages/
 3. 公式ソースを優先順位どおりに確認する
 4. `roundN.md` / `roundN.sources.json` / `roundN.diff.json` を出す
 5. `needs_review` / `conflict` があれば `round2`, `round3` と再調査する
-6. その県の全市が `confirmed` になったら公開ページを更新する
+6. その県の全市が `confirmed` になったら `data/v1/current_mayors/by_prefecture/` に採用する
+7. `data/v1/current_mayors/canonical.json` を更新してから公開ページを再生成する
 
 ## 5. Source Priority
 
@@ -103,14 +114,28 @@ site/pages/
 
 ## 10. 公開反映の条件
 
-その県の全市が `confirmed` になったら、[current-mayors.html](/home/shimo/election/site/pages/current-mayors.html) を更新してよい。
+その県の全市が `confirmed` になったら、まず [data/v1/current_mayors/by_prefecture/](/home/shimo/election/data/v1/current_mayors/by_prefecture) を更新する。
+公開 HTML は正本 JSON から生成し、[current-mayors.html](/home/shimo/election/site/pages/current-mayors.html) を直接正本にしない。
 
 公開反映時は次を行う。
 
 1. `roundN.diff.json` を見る
-2. HTML の該当県の行を更新する
+2. `data/v1/current_mayors/by_prefecture/{pref}.json` の該当県の行を更新する
 3. 非公式リンクが残っていれば公式ソースに差し替える
 4. `checked_at` は反映日にそろえる
+5. 新しい市が `regions.json` に無ければ総務省コード表から市レコードを補完する
+6. `canonical.json` と公開表を再生成する
+
+市レコード補完と再生成の標準コマンド:
+
+```bash
+curl -L -o artifacts/private/sources/current-mayors/soumu-municipality-codes-2024-01-01.xlsx https://www.soumu.go.jp/main_content/000925835.xlsx
+unzip -o artifacts/private/sources/current-mayors/soumu-municipality-codes-2024-01-01.xlsx -d artifacts/private/sources/current-mayors/soumu-municipality-codes-2024-01-01
+node scripts/current/sync-current-mayor-regions.mjs --write --confirmed-at YYYY-MM-DDT00:00:00+09:00
+node scripts/current/generate-current-mayors-data.mjs --write --generated-at YYYY-MM-DDT00:00:00+09:00
+node scripts/current/generate-current-mayors-page.mjs --check
+node scripts/current/validate-data-v1.mjs
+```
 
 ## 11. 再調査の入り口
 

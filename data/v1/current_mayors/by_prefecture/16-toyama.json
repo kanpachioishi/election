@@ -1,0 +1,644 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "16",
+  "pref_slug": "toyama",
+  "pref_name": "富山県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/16-toyama",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-16201",
+      "region_id": "mun-16201",
+      "pref_code": "16",
+      "pref_name": "富山県",
+      "municipality_code": "16201",
+      "city_name": "富山市",
+      "city_slug": "toyama-shi",
+      "macro_region": "北陸",
+      "mayor_name": "藤井 裕久",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "2025-04",
+      "term_end": null,
+      "term_end_display": "2029-04",
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "富山県 任期満了日一覧",
+          "url": "https://www.pref.toyama.jp/si",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.toyama.lg.jp/shisei/mayor/1010721/1002549.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.toyama.lg.jp/shisei/mayor/1010721/1002549.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "現職名と令和7年4月の再選をプロフィールで確認。現任期は月単位で整理。",
+      "findings_values": {
+        "mayor_name": "藤井 裕久",
+        "term_start": "2025-04",
+        "term_end": "2029-04",
+        "note": "現職名と令和7年4月の再選をプロフィールで確認。現任期は月単位で整理。"
+      },
+      "public_order": 96,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/16-toyama/2026-04-23-round1.md",
+        "research/current-mayors/findings/16-toyama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-16202",
+      "region_id": "mun-16202",
+      "pref_code": "16",
+      "pref_name": "富山県",
+      "municipality_code": "16202",
+      "city_name": "高岡市",
+      "city_slug": "takaoka-shi",
+      "macro_region": "北陸",
+      "mayor_name": "出町 譲",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-07-11",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "富山県 任期満了日一覧",
+          "url": "https://www.pref.toyama.jp/si",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_nittei.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_nittei.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の選挙日程で確認。",
+      "findings_values": {
+        "mayor_name": "出町 譲",
+        "term_start": "記載なし",
+        "term_end": "2029-07-11",
+        "note": "県の選挙日程で確認。"
+      },
+      "public_order": 369,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/16-toyama/2026-04-23-round1.md",
+        "research/current-mayors/findings/16-toyama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-16204",
+      "region_id": "mun-16204",
+      "pref_code": "16",
+      "pref_name": "富山県",
+      "municipality_code": "16204",
+      "city_name": "魚津市",
+      "city_slug": "uozu-shi",
+      "macro_region": "北陸",
+      "mayor_name": "村椿 晃",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-05-09",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "富山県 任期満了日一覧",
+          "url": "https://www.pref.toyama.jp/si",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_nittei.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_nittei.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の選挙日程で確認。",
+      "findings_values": {
+        "mayor_name": "村椿 晃",
+        "term_start": "記載なし",
+        "term_end": "2028-05-09",
+        "note": "県の選挙日程で確認。"
+      },
+      "public_order": 370,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/16-toyama/2026-04-23-round1.md",
+        "research/current-mayors/findings/16-toyama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-16205",
+      "region_id": "mun-16205",
+      "pref_code": "16",
+      "pref_name": "富山県",
+      "municipality_code": "16205",
+      "city_name": "氷見市",
+      "city_slug": "himi-shi",
+      "macro_region": "北陸",
+      "mayor_name": "菊地 正寛",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-08",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "富山県 任期満了日一覧",
+          "url": "https://www.pref.toyama.jp/si",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_nittei.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_nittei.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の選挙日程で確認。",
+      "findings_values": {
+        "mayor_name": "菊地 正寛",
+        "term_start": "記載なし",
+        "term_end": "2028-11-08",
+        "note": "県の選挙日程で確認。"
+      },
+      "public_order": 371,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/16-toyama/2026-04-23-round1.md",
+        "research/current-mayors/findings/16-toyama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-16206",
+      "region_id": "mun-16206",
+      "pref_code": "16",
+      "pref_name": "富山県",
+      "municipality_code": "16206",
+      "city_name": "滑川市",
+      "city_slug": "namerikawa-shi",
+      "macro_region": "北陸",
+      "mayor_name": "水野 達夫",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-02-22",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "富山県 任期満了日一覧",
+          "url": "https://www.pref.toyama.jp/si",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_nittei.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_nittei.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の選挙日程で確認。",
+      "findings_values": {
+        "mayor_name": "水野 達夫",
+        "term_start": "記載なし",
+        "term_end": "2030-02-22",
+        "note": "県の選挙日程で確認。"
+      },
+      "public_order": 372,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/16-toyama/2026-04-23-round1.md",
+        "research/current-mayors/findings/16-toyama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-16207",
+      "region_id": "mun-16207",
+      "pref_code": "16",
+      "pref_name": "富山県",
+      "municipality_code": "16207",
+      "city_name": "黒部市",
+      "city_slug": "kurobe-shi",
+      "macro_region": "北陸",
+      "mayor_name": "武隈 義一",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-04-22",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "富山県 任期満了日一覧",
+          "url": "https://www.pref.toyama.jp/si",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_nittei.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_nittei.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の選挙日程で確認。",
+      "findings_values": {
+        "mayor_name": "武隈 義一",
+        "term_start": "記載なし",
+        "term_end": "2030-04-22",
+        "note": "県の選挙日程で確認。"
+      },
+      "public_order": 373,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/16-toyama/2026-04-23-round1.md",
+        "research/current-mayors/findings/16-toyama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-16208",
+      "region_id": "mun-16208",
+      "pref_code": "16",
+      "pref_name": "富山県",
+      "municipality_code": "16208",
+      "city_name": "砺波市",
+      "city_slug": "tonami-shi",
+      "macro_region": "北陸",
+      "mayor_name": "夏野 修",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-27",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "富山県 任期満了日一覧",
+          "url": "https://www.pref.toyama.jp/si",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_nittei.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_nittei.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の選挙日程で確認。",
+      "findings_values": {
+        "mayor_name": "夏野 修",
+        "term_start": "記載なし",
+        "term_end": "2028-11-27",
+        "note": "県の選挙日程で確認。"
+      },
+      "public_order": 374,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/16-toyama/2026-04-23-round1.md",
+        "research/current-mayors/findings/16-toyama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-16209",
+      "region_id": "mun-16209",
+      "pref_code": "16",
+      "pref_name": "富山県",
+      "municipality_code": "16209",
+      "city_name": "小矢部市",
+      "city_slug": "oyabe-shi",
+      "macro_region": "北陸",
+      "mayor_name": "桜井 森夫",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-12-06",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "富山県 任期満了日一覧",
+          "url": "https://www.pref.toyama.jp/si",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_nittei.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_nittei.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の選挙日程で確認。",
+      "findings_values": {
+        "mayor_name": "桜井 森夫",
+        "term_start": "記載なし",
+        "term_end": "2026-12-06",
+        "note": "県の選挙日程で確認。"
+      },
+      "public_order": 375,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/16-toyama/2026-04-23-round1.md",
+        "research/current-mayors/findings/16-toyama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-16210",
+      "region_id": "mun-16210",
+      "pref_code": "16",
+      "pref_name": "富山県",
+      "municipality_code": "16210",
+      "city_name": "南砺市",
+      "city_slug": "nanto-shi",
+      "macro_region": "北陸",
+      "mayor_name": "田中 幹夫",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-27",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "富山県 任期満了日一覧",
+          "url": "https://www.pref.toyama.jp/si",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_nittei.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_nittei.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の選挙日程で確認。",
+      "findings_values": {
+        "mayor_name": "田中 幹夫",
+        "term_start": "記載なし",
+        "term_end": "2028-11-27",
+        "note": "県の選挙日程で確認。"
+      },
+      "public_order": 376,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/16-toyama/2026-04-23-round1.md",
+        "research/current-mayors/findings/16-toyama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-16211",
+      "region_id": "mun-16211",
+      "pref_code": "16",
+      "pref_name": "富山県",
+      "municipality_code": "16211",
+      "city_name": "射水市",
+      "city_slug": "imizu-shi",
+      "macro_region": "北陸",
+      "mayor_name": "夏野 元志",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-11-26",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "富山県 任期満了日一覧",
+          "url": "https://www.pref.toyama.jp/si",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_nittei.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_nittei.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の選挙日程で確認。",
+      "findings_values": {
+        "mayor_name": "夏野 元志",
+        "term_start": "記載なし",
+        "term_end": "2029-11-26",
+        "note": "県の選挙日程で確認。"
+      },
+      "public_order": 377,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/16-toyama/2026-04-23-round1.md",
+        "research/current-mayors/findings/16-toyama/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

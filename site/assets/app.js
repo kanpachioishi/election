@@ -935,19 +935,26 @@ function getJointSourceUrl(bucket) {
 }
 
 function buildJointElection(bucket) {
-  const base = bucket[0];
+  const subtypeOrder = { mayor: 0, assembly: 1 };
+  const orderedBucket = [...bucket].sort((left, right) => {
+    const subtypeCompare = (subtypeOrder[left.subtype] ?? 99) - (subtypeOrder[right.subtype] ?? 99);
+    if (subtypeCompare !== 0) return subtypeCompare;
+    return String(left.name ?? "").localeCompare(String(right.name ?? ""), "ja");
+  });
+  const base = orderedBucket.find((election) => election.subtype === "mayor") ?? orderedBucket[0];
   const regionLabel = base.primaryRegionShortName || base.primaryRegionName;
-  const includedNames = bucket.map((election) => election.name);
-  const resources = dedupeResourcesByUrl(bucket.flatMap((election) => election.resources ?? []));
+  const includedNames = orderedBucket.map((election) => election.name);
+  const resources = dedupeResourcesByUrl(orderedBucket.flatMap((election) => election.resources ?? []));
   const resourceKinds = [...new Set(resources.map((resource) => resource.kind).filter(Boolean))];
 
   return {
     ...base,
     id: `joint:${getJointElectionKey(base)}`,
-    name: `${regionLabel}の同時選挙`,
+    name: includedNames.join("・") || `${regionLabel}の同時選挙`,
+    type: orderedBucket.some((election) => election.type === "municipal") ? "municipal" : base.type,
     description: "同じ日に同じ地域で投票する選挙をまとめて表示しています。",
-    subtypes: sortSubtypeValues(bucket.map((election) => election.subtype)),
-    electionIds: bucket.map((election) => election.id),
+    subtypes: sortSubtypeValues(orderedBucket.map((election) => election.subtype)),
+    electionIds: orderedBucket.map((election) => election.id),
     includedElectionNames: includedNames,
     resources,
     resourceKinds,
@@ -1290,7 +1297,6 @@ function renderSubtypePills(election) {
 }
 
 function getElectionCardTitle(election) {
-  if (election.isJoint) return election.name;
   if (!election.prefectureName) return election.name;
   return `${election.name} （${election.prefectureName}）`;
 }

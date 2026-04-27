@@ -1,0 +1,1472 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>県議選挙区・定数台帳 - わたしの選挙</title>
+    <meta name="description" content="都道府県議会議員選挙の選挙区名、区域、定数を確認するための台帳です。">
+    <meta name="theme-color" content="#0b1219">
+    <link rel="manifest" href="../manifest.webmanifest">
+    <link rel="icon" href="../icons/app-icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="../icons/app-icon.svg">
+    <link rel="stylesheet" href="../assets/styles.css">
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #07131d;
+        --panel: #102131;
+        --line: rgba(244, 239, 227, 0.14);
+        --text: #f4efe3;
+        --muted: #a9bdd0;
+        --accent: #ffd27a;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: linear-gradient(135deg, #122230 0%, var(--bg) 52%, #163748 100%);
+        color: var(--text);
+        font-family: "BIZ UDPGothic", "Yu Gothic", sans-serif;
+      }
+
+      main {
+        width: min(1440px, calc(100% - 32px));
+        margin: 48px auto 64px;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+        font-size: clamp(2.1rem, 4.8vw, 3.4rem);
+        font-weight: 500;
+        line-height: 1.08;
+      }
+
+      p {
+        margin: 0 0 24px;
+        color: var(--muted);
+        line-height: 1.8;
+      }
+
+      .summary-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+        margin: 0 0 20px;
+      }
+
+      .summary-item,
+      .filter-bar,
+      .note-panel {
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        background: rgba(16, 33, 49, 0.88);
+        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.24);
+      }
+
+      .summary-item {
+        padding: 14px 16px;
+      }
+
+      .summary-item span {
+        display: block;
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-weight: 800;
+      }
+
+      .summary-item strong {
+        display: block;
+        margin-top: 4px;
+        color: var(--text);
+        font-size: 1.35rem;
+      }
+
+      .note-panel {
+        margin: 0 0 20px;
+        padding: 16px 18px;
+      }
+
+      .note-panel p {
+        margin: 0;
+      }
+
+      .note-panel a,
+      td a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .note-panel a:hover,
+      .note-panel a:focus-visible,
+      td a:hover,
+      td a:focus-visible {
+        text-decoration: underline;
+      }
+
+      .filter-bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin: 0 0 20px;
+        padding: 16px 18px;
+      }
+
+      .filter-field {
+        display: grid;
+        gap: 6px;
+        min-width: 220px;
+      }
+
+      .filter-field label {
+        color: var(--muted);
+        font-size: 0.82rem;
+        font-weight: 800;
+        letter-spacing: 0.03em;
+      }
+
+      .filter-field select,
+      .filter-field input {
+        min-height: 44px;
+        padding: 10px 12px;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: rgba(7, 19, 29, 0.9);
+        color: var(--text);
+        font: inherit;
+      }
+
+      .filter-field.wide {
+        min-width: min(360px, 100%);
+        flex: 1;
+      }
+
+      .count-note {
+        margin: 0 0 14px;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      .table-wrap {
+        overflow: auto;
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        background: rgba(16, 33, 49, 0.92);
+        box-shadow: 0 22px 48px rgba(0, 0, 0, 0.28);
+      }
+
+      table {
+        width: 100%;
+        min-width: 980px;
+        border-collapse: collapse;
+      }
+
+      thead th {
+        position: sticky;
+        top: 0;
+        background: rgba(12, 23, 34, 0.98);
+        color: var(--accent);
+        text-align: left;
+        font-size: 0.9rem;
+        font-weight: 800;
+        letter-spacing: 0.03em;
+      }
+
+      th,
+      td {
+        padding: 14px 16px;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+      }
+
+      th:nth-child(4),
+      td:nth-child(4) {
+        white-space: nowrap;
+      }
+
+      tbody tr:hover {
+        background: rgba(255, 210, 122, 0.05);
+      }
+
+      tbody tr[hidden] {
+        display: none;
+      }
+
+      @media (max-width: 760px) {
+        main {
+          width: min(100% - 20px, 1440px);
+          margin: 28px auto 48px;
+        }
+
+        .summary-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../index.html" aria-label="わたしの選挙トップ">
+        <span class="brand-mark" aria-hidden="true">票</span>
+        <span>
+          <strong>わたしの選挙</strong>
+          <small>公式情報への案内</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="主なナビゲーション">
+        <a href="../index.html">トップ</a>
+        <a href="about.html">このサイトについて</a>
+        <a href="verification-policy.html">情報の確認基準</a>
+        <a href="current-mayors.html">現職市長台帳</a>
+        <a href="current-governors.html">現職知事台帳</a>
+        <a href="prefectural-assembly-terms.html">県議会任期台帳</a>
+        <a href="prefectural-assembly-districts.html" aria-current="page">県議選挙区台帳</a>
+        <a href="prefectural-assembly-official-links.html">県議公式リンク台帳</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>県議選挙区・定数台帳</h1>
+      <p>都道府県議会議員選挙の選挙区名、区域、定数を確認するための台帳です。初版は、非統一または個別管理が必要な県都を優先しています。</p>
+
+      <section class="summary-grid" aria-label="台帳概要">
+        <div class="summary-item">
+          <span>詳細化した都県</span>
+          <strong>6件</strong>
+        </div>
+        <div class="summary-item">
+          <span>選挙区</span>
+          <strong>143区</strong>
+        </div>
+        <div class="summary-item">
+          <span>定数合計</span>
+          <strong>402人</strong>
+        </div>
+        <div class="summary-item">
+          <span>生成日</span>
+          <strong>2026-04-27</strong>
+        </div>
+      </section>
+
+      <section class="note-panel">
+        <p>初版は非統一または個別管理が必要な県都を優先して、茨城県、岩手県、宮城県、福島県、東京都、沖縄県を詳細化。 <a href="prefectural-assembly-terms.html">県議会任期台帳</a> と照合し、県ごとの選挙区数・定数合計が一致するよう検証しています。</p>
+      </section>
+
+      <div class="filter-bar">
+        <div class="filter-field wide">
+          <label for="searchInput">キーワード</label>
+          <input id="searchInput" type="search" placeholder="例: 水戸、仙台市、島部">
+        </div>
+        <div class="filter-field">
+          <label for="prefectureFilter">都道府県</label>
+          <select id="prefectureFilter">
+            <option value="all">すべて</option>
+            <option value="03">岩手県</option>
+            <option value="04">宮城県</option>
+            <option value="07">福島県</option>
+            <option value="08">茨城県</option>
+            <option value="13">東京都</option>
+            <option value="47">沖縄県</option>
+          </select>
+        </div>
+      </div>
+
+      <p class="count-note" id="countNote">143件表示</p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>都道府県</th>
+              <th>選挙区</th>
+              <th>区域</th>
+              <th>定数</th>
+              <th>確認日</th>
+              <th>確認元</th>
+            </tr>
+          </thead>
+          <tbody id="districtRows">
+            <tr data-pref-code="03" data-prefecture="岩手県" data-seat-count="11">
+              <td>岩手県</td>
+              <td>盛岡</td>
+              <td>盛岡市</td>
+              <td>11</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.iwate.jp/gikai/gaiyou/1035803.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="03" data-prefecture="岩手県" data-seat-count="3">
+              <td>岩手県</td>
+              <td>宮古</td>
+              <td>宮古市、山田町、岩泉町、田野畑村、普代村</td>
+              <td>3</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.iwate.jp/gikai/gaiyou/1035803.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="03" data-prefecture="岩手県" data-seat-count="2">
+              <td>岩手県</td>
+              <td>大船渡・陸前高田</td>
+              <td>大船渡市、陸前高田市、住田町</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.iwate.jp/gikai/gaiyou/1035803.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="03" data-prefecture="岩手県" data-seat-count="4">
+              <td>岩手県</td>
+              <td>花巻</td>
+              <td>花巻市</td>
+              <td>4</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.iwate.jp/gikai/gaiyou/1035803.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="03" data-prefecture="岩手県" data-seat-count="4">
+              <td>岩手県</td>
+              <td>北上</td>
+              <td>北上市、西和賀町</td>
+              <td>4</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.iwate.jp/gikai/gaiyou/1035803.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="03" data-prefecture="岩手県" data-seat-count="2">
+              <td>岩手県</td>
+              <td>久慈</td>
+              <td>久慈市、洋野町、野田村</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.iwate.jp/gikai/gaiyou/1035803.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="03" data-prefecture="岩手県" data-seat-count="1">
+              <td>岩手県</td>
+              <td>遠野</td>
+              <td>遠野市</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.iwate.jp/gikai/gaiyou/1035803.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="03" data-prefecture="岩手県" data-seat-count="5">
+              <td>岩手県</td>
+              <td>一関</td>
+              <td>一関市、平泉町</td>
+              <td>5</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.iwate.jp/gikai/gaiyou/1035803.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="03" data-prefecture="岩手県" data-seat-count="2">
+              <td>岩手県</td>
+              <td>釜石</td>
+              <td>釜石市、大槌町</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.iwate.jp/gikai/gaiyou/1035803.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="03" data-prefecture="岩手県" data-seat-count="2">
+              <td>岩手県</td>
+              <td>二戸</td>
+              <td>二戸市、一戸町、軽米町、九戸村</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.iwate.jp/gikai/gaiyou/1035803.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="03" data-prefecture="岩手県" data-seat-count="2">
+              <td>岩手県</td>
+              <td>八幡平</td>
+              <td>八幡平市、雫石町、葛巻町、岩手町</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.iwate.jp/gikai/gaiyou/1035803.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="03" data-prefecture="岩手県" data-seat-count="5">
+              <td>岩手県</td>
+              <td>奥州</td>
+              <td>奥州市、金ケ崎町</td>
+              <td>5</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.iwate.jp/gikai/gaiyou/1035803.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="03" data-prefecture="岩手県" data-seat-count="3">
+              <td>岩手県</td>
+              <td>滝沢</td>
+              <td>滝沢市</td>
+              <td>3</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.iwate.jp/gikai/gaiyou/1035803.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="03" data-prefecture="岩手県" data-seat-count="2">
+              <td>岩手県</td>
+              <td>紫波</td>
+              <td>紫波町、矢巾町</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.iwate.jp/gikai/gaiyou/1035803.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="7">
+              <td>宮城県</td>
+              <td>青葉</td>
+              <td>仙台市青葉区</td>
+              <td>7</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="4">
+              <td>宮城県</td>
+              <td>宮城野</td>
+              <td>仙台市宮城野区</td>
+              <td>4</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="3">
+              <td>宮城県</td>
+              <td>若林</td>
+              <td>仙台市若林区</td>
+              <td>3</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="5">
+              <td>宮城県</td>
+              <td>太白</td>
+              <td>仙台市太白区</td>
+              <td>5</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="5">
+              <td>宮城県</td>
+              <td>泉</td>
+              <td>仙台市泉区</td>
+              <td>5</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="4">
+              <td>宮城県</td>
+              <td>石巻・牡鹿</td>
+              <td>石巻市,牡鹿郡女川町</td>
+              <td>4</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="2">
+              <td>宮城県</td>
+              <td>塩釜</td>
+              <td>塩竈市</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="2">
+              <td>宮城県</td>
+              <td>気仙沼・本吉</td>
+              <td>気仙沼市,本吉郡南三陸町</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="2">
+              <td>宮城県</td>
+              <td>白石・刈田</td>
+              <td>白石市,刈田郡蔵王町,刈田郡七ヶ宿町</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="2">
+              <td>宮城県</td>
+              <td>名取</td>
+              <td>名取市</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="1">
+              <td>宮城県</td>
+              <td>角田・伊具</td>
+              <td>角田市,伊具郡丸森町</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="2">
+              <td>宮城県</td>
+              <td>多賀城・七ヶ浜</td>
+              <td>多賀城市,宮城郡七ヶ浜町</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="1">
+              <td>宮城県</td>
+              <td>岩沼</td>
+              <td>岩沼市</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="2">
+              <td>宮城県</td>
+              <td>登米</td>
+              <td>登米市</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="2">
+              <td>宮城県</td>
+              <td>栗原</td>
+              <td>栗原市</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="1">
+              <td>宮城県</td>
+              <td>東松島</td>
+              <td>東松島市</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="4">
+              <td>宮城県</td>
+              <td>大崎</td>
+              <td>大崎市</td>
+              <td>4</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="3">
+              <td>宮城県</td>
+              <td>富谷・黒川</td>
+              <td>富谷市,黒川郡大和町,黒川郡大郷町,黒川郡大衡村</td>
+              <td>3</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="2">
+              <td>宮城県</td>
+              <td>柴田</td>
+              <td>柴田郡大河原町,柴田郡村田町,柴田郡柴田町,柴田郡川崎町</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="1">
+              <td>宮城県</td>
+              <td>亘理</td>
+              <td>亘理郡亘理町,亘理郡山元町</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="2">
+              <td>宮城県</td>
+              <td>宮城</td>
+              <td>宮城郡松島町,宮城郡利府町</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="1">
+              <td>宮城県</td>
+              <td>加美</td>
+              <td>加美郡色麻町,加美郡加美町</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="04" data-prefecture="宮城県" data-seat-count="1">
+              <td>宮城県</td>
+              <td>遠田</td>
+              <td>遠田郡涌谷町,遠田郡美里町</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="07" data-prefecture="福島県" data-seat-count="8">
+              <td>福島県</td>
+              <td>福島市</td>
+              <td>福島市</td>
+              <td>8</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.fukushima.lg.jp/site/gikai/senkyokuzu2011.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="07" data-prefecture="福島県" data-seat-count="4">
+              <td>福島県</td>
+              <td>会津若松市</td>
+              <td>会津若松市</td>
+              <td>4</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.fukushima.lg.jp/site/gikai/senkyokuzu2011.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="07" data-prefecture="福島県" data-seat-count="10">
+              <td>福島県</td>
+              <td>郡山市</td>
+              <td>郡山市</td>
+              <td>10</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.fukushima.lg.jp/site/gikai/senkyokuzu2011.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="07" data-prefecture="福島県" data-seat-count="10">
+              <td>福島県</td>
+              <td>いわき市</td>
+              <td>いわき市</td>
+              <td>10</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.fukushima.lg.jp/site/gikai/senkyokuzu2011.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="07" data-prefecture="福島県" data-seat-count="3">
+              <td>福島県</td>
+              <td>白河市・西白河郡</td>
+              <td>白河市・西白河郡</td>
+              <td>3</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.fukushima.lg.jp/site/gikai/senkyokuzu2011.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="07" data-prefecture="福島県" data-seat-count="3">
+              <td>福島県</td>
+              <td>須賀川市・岩瀬郡</td>
+              <td>須賀川市・岩瀬郡</td>
+              <td>3</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.fukushima.lg.jp/site/gikai/senkyokuzu2011.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="07" data-prefecture="福島県" data-seat-count="2">
+              <td>福島県</td>
+              <td>喜多方市・耶麻郡</td>
+              <td>喜多方市・耶麻郡</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.fukushima.lg.jp/site/gikai/senkyokuzu2011.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="07" data-prefecture="福島県" data-seat-count="1">
+              <td>福島県</td>
+              <td>相馬市・相馬郡新地町</td>
+              <td>相馬市・相馬郡新地町</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.fukushima.lg.jp/site/gikai/senkyokuzu2011.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="07" data-prefecture="福島県" data-seat-count="2">
+              <td>福島県</td>
+              <td>二本松市</td>
+              <td>二本松市</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.fukushima.lg.jp/site/gikai/senkyokuzu2011.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="07" data-prefecture="福島県" data-seat-count="2">
+              <td>福島県</td>
+              <td>田村市・田村郡</td>
+              <td>田村市・田村郡</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.fukushima.lg.jp/site/gikai/senkyokuzu2011.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="07" data-prefecture="福島県" data-seat-count="2">
+              <td>福島県</td>
+              <td>南相馬市・相馬郡飯舘村</td>
+              <td>南相馬市・相馬郡飯舘村</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.fukushima.lg.jp/site/gikai/senkyokuzu2011.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="07" data-prefecture="福島県" data-seat-count="3">
+              <td>福島県</td>
+              <td>伊達市・伊達郡</td>
+              <td>伊達市・伊達郡</td>
+              <td>3</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.fukushima.lg.jp/site/gikai/senkyokuzu2011.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="07" data-prefecture="福島県" data-seat-count="1">
+              <td>福島県</td>
+              <td>本宮市・安達郡</td>
+              <td>本宮市・安達郡</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.fukushima.lg.jp/site/gikai/senkyokuzu2011.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="07" data-prefecture="福島県" data-seat-count="1">
+              <td>福島県</td>
+              <td>南会津郡</td>
+              <td>南会津郡</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.fukushima.lg.jp/site/gikai/senkyokuzu2011.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="07" data-prefecture="福島県" data-seat-count="1">
+              <td>福島県</td>
+              <td>河沼郡</td>
+              <td>河沼郡</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.fukushima.lg.jp/site/gikai/senkyokuzu2011.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="07" data-prefecture="福島県" data-seat-count="1">
+              <td>福島県</td>
+              <td>大沼郡</td>
+              <td>大沼郡</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.fukushima.lg.jp/site/gikai/senkyokuzu2011.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="07" data-prefecture="福島県" data-seat-count="1">
+              <td>福島県</td>
+              <td>東白川郡</td>
+              <td>東白川郡</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.fukushima.lg.jp/site/gikai/senkyokuzu2011.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="07" data-prefecture="福島県" data-seat-count="1">
+              <td>福島県</td>
+              <td>石川郡</td>
+              <td>石川郡</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.fukushima.lg.jp/site/gikai/senkyokuzu2011.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="07" data-prefecture="福島県" data-seat-count="2">
+              <td>福島県</td>
+              <td>双葉郡</td>
+              <td>双葉郡</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.fukushima.lg.jp/site/gikai/senkyokuzu2011.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="6">
+              <td>茨城県</td>
+              <td>水戸市・城里町</td>
+              <td>水戸市及び東茨城郡城里町の区域</td>
+              <td>6</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="4">
+              <td>茨城県</td>
+              <td>日立市</td>
+              <td>日立市の区域</td>
+              <td>4</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="3">
+              <td>茨城県</td>
+              <td>土浦市</td>
+              <td>土浦市の区域</td>
+              <td>3</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="3">
+              <td>茨城県</td>
+              <td>古河市</td>
+              <td>古河市の区域</td>
+              <td>3</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="2">
+              <td>茨城県</td>
+              <td>石岡市</td>
+              <td>石岡市の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="1">
+              <td>茨城県</td>
+              <td>結城市</td>
+              <td>結城市の区域</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="2">
+              <td>茨城県</td>
+              <td>龍ケ崎市・利根町</td>
+              <td>龍ケ崎市及び北相馬郡利根町の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="1">
+              <td>茨城県</td>
+              <td>下妻市</td>
+              <td>下妻市の区域</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="2">
+              <td>茨城県</td>
+              <td>常総市・八千代町</td>
+              <td>常総市及び結城郡八千代町の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="2">
+              <td>茨城県</td>
+              <td>常陸太田市・大子町</td>
+              <td>常陸太田市及び久慈郡大子町の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="2">
+              <td>茨城県</td>
+              <td>高萩市・北茨城市</td>
+              <td>高萩市及び北茨城市の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="2">
+              <td>茨城県</td>
+              <td>笠間市</td>
+              <td>笠間市の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="2">
+              <td>茨城県</td>
+              <td>取手市</td>
+              <td>取手市の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="2">
+              <td>茨城県</td>
+              <td>牛久市</td>
+              <td>牛久市の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="5">
+              <td>茨城県</td>
+              <td>つくば市</td>
+              <td>つくば市の区域</td>
+              <td>5</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="3">
+              <td>茨城県</td>
+              <td>ひたちなか市</td>
+              <td>ひたちなか市の区域</td>
+              <td>3</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="1">
+              <td>茨城県</td>
+              <td>鹿嶋市</td>
+              <td>鹿嶋市の区域</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="1">
+              <td>茨城県</td>
+              <td>潮来市・行方市</td>
+              <td>潮来市及び行方市の区域</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="1">
+              <td>茨城県</td>
+              <td>守谷市</td>
+              <td>守谷市の区域</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="1">
+              <td>茨城県</td>
+              <td>常陸大宮市</td>
+              <td>常陸大宮市の区域</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="1">
+              <td>茨城県</td>
+              <td>那珂市</td>
+              <td>那珂市の区域</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="2">
+              <td>茨城県</td>
+              <td>筑西市</td>
+              <td>筑西市の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="2">
+              <td>茨城県</td>
+              <td>坂東市・五霞町・境町</td>
+              <td>坂東市，猿島郡五霞町及び猿島郡境町の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="1">
+              <td>茨城県</td>
+              <td>稲敷市・河内町</td>
+              <td>稲敷市及び稲敷郡河内町の区域</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="1">
+              <td>茨城県</td>
+              <td>かすみがうら市</td>
+              <td>かすみがうら市の区域</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="1">
+              <td>茨城県</td>
+              <td>桜川市</td>
+              <td>桜川市の区域</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="2">
+              <td>茨城県</td>
+              <td>神栖市</td>
+              <td>神栖市の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="2">
+              <td>茨城県</td>
+              <td>鉾田市・茨城町・大洗町</td>
+              <td>鉾田市，東茨城郡茨城町及び東茨城郡大洗町の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="1">
+              <td>茨城県</td>
+              <td>つくばみらい市</td>
+              <td>つくばみらい市の区域</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="1">
+              <td>茨城県</td>
+              <td>小美玉市</td>
+              <td>小美玉市の区域</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="1">
+              <td>茨城県</td>
+              <td>東海村</td>
+              <td>那珂郡東海村の区域</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="08" data-prefecture="茨城県" data-seat-count="1">
+              <td>茨城県</td>
+              <td>美浦村・阿見町</td>
+              <td>稲敷郡美浦村及び稲敷郡阿見町の区域</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="1">
+              <td>東京都</td>
+              <td>千代田区</td>
+              <td>千代田区の区域</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="1">
+              <td>東京都</td>
+              <td>中央区</td>
+              <td>中央区の区域</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="2">
+              <td>東京都</td>
+              <td>港区</td>
+              <td>港区の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="4">
+              <td>東京都</td>
+              <td>新宿区</td>
+              <td>新宿区の区域</td>
+              <td>4</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="2">
+              <td>東京都</td>
+              <td>文京区</td>
+              <td>文京区の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="2">
+              <td>東京都</td>
+              <td>台東区</td>
+              <td>台東区の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="3">
+              <td>東京都</td>
+              <td>墨田区</td>
+              <td>墨田区の区域</td>
+              <td>3</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="4">
+              <td>東京都</td>
+              <td>江東区</td>
+              <td>江東区の区域</td>
+              <td>4</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="4">
+              <td>東京都</td>
+              <td>品川区</td>
+              <td>品川区の区域</td>
+              <td>4</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="3">
+              <td>東京都</td>
+              <td>目黒区</td>
+              <td>目黒区の区域</td>
+              <td>3</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="7">
+              <td>東京都</td>
+              <td>大田区</td>
+              <td>大田区の区域</td>
+              <td>7</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="8">
+              <td>東京都</td>
+              <td>世田谷区</td>
+              <td>世田谷区の区域</td>
+              <td>8</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="2">
+              <td>東京都</td>
+              <td>渋谷区</td>
+              <td>渋谷区の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="3">
+              <td>東京都</td>
+              <td>中野区</td>
+              <td>中野区の区域</td>
+              <td>3</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="6">
+              <td>東京都</td>
+              <td>杉並区</td>
+              <td>杉並区の区域</td>
+              <td>6</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="3">
+              <td>東京都</td>
+              <td>豊島区</td>
+              <td>豊島区の区域</td>
+              <td>3</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="3">
+              <td>東京都</td>
+              <td>北区</td>
+              <td>北区の区域</td>
+              <td>3</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="2">
+              <td>東京都</td>
+              <td>荒川区</td>
+              <td>荒川区の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="5">
+              <td>東京都</td>
+              <td>板橋区</td>
+              <td>板橋区の区域</td>
+              <td>5</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="7">
+              <td>東京都</td>
+              <td>練馬区</td>
+              <td>練馬区の区域</td>
+              <td>7</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="6">
+              <td>東京都</td>
+              <td>足立区</td>
+              <td>足立区の区域</td>
+              <td>6</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="4">
+              <td>東京都</td>
+              <td>葛飾区</td>
+              <td>葛飾区の区域</td>
+              <td>4</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="5">
+              <td>東京都</td>
+              <td>江戸川区</td>
+              <td>江戸川区の区域</td>
+              <td>5</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="5">
+              <td>東京都</td>
+              <td>八王子市</td>
+              <td>八王子市の区域</td>
+              <td>5</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="2">
+              <td>東京都</td>
+              <td>立川市</td>
+              <td>立川市の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="1">
+              <td>東京都</td>
+              <td>武蔵野市</td>
+              <td>武蔵野市の区域</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="2">
+              <td>東京都</td>
+              <td>三鷹市</td>
+              <td>三鷹市の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="1">
+              <td>東京都</td>
+              <td>青梅市</td>
+              <td>青梅市の区域</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="2">
+              <td>東京都</td>
+              <td>府中市</td>
+              <td>府中市の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="1">
+              <td>東京都</td>
+              <td>昭島市</td>
+              <td>昭島市の区域</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="4">
+              <td>東京都</td>
+              <td>町田市</td>
+              <td>町田市の区域</td>
+              <td>4</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="1">
+              <td>東京都</td>
+              <td>小金井市</td>
+              <td>小金井市の区域</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="2">
+              <td>東京都</td>
+              <td>小平市</td>
+              <td>小平市の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="2">
+              <td>東京都</td>
+              <td>日野市</td>
+              <td>日野市の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="2">
+              <td>東京都</td>
+              <td>西東京市</td>
+              <td>西東京市の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="2">
+              <td>東京都</td>
+              <td>西多摩</td>
+              <td>福生市 羽村市 あきる野市 西多摩郡</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="2">
+              <td>東京都</td>
+              <td>南多摩</td>
+              <td>多摩市 稲城市</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="3">
+              <td>東京都</td>
+              <td>北多摩第一</td>
+              <td>東村山市 東大和市 武蔵村山市</td>
+              <td>3</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="2">
+              <td>東京都</td>
+              <td>北多摩第二</td>
+              <td>国分寺市 国立市</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="3">
+              <td>東京都</td>
+              <td>北多摩第三</td>
+              <td>調布市 狛江市</td>
+              <td>3</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="2">
+              <td>東京都</td>
+              <td>北多摩第四</td>
+              <td>清瀬市 東久留米市</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="13" data-prefecture="東京都" data-seat-count="1">
+              <td>東京都</td>
+              <td>島部</td>
+              <td>大島支庁管内 三宅支庁管内 八丈支庁管内 小笠原支庁管内</td>
+              <td>1</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="47" data-prefecture="沖縄県" data-seat-count="2">
+              <td>沖縄県</td>
+              <td>名護市選挙区</td>
+              <td>名護市の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.okinawa.jp/kensei/gikai/1016969/1016972.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="47" data-prefecture="沖縄県" data-seat-count="4">
+              <td>沖縄県</td>
+              <td>うるま市選挙区</td>
+              <td>うるま市の区域</td>
+              <td>4</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.okinawa.jp/kensei/gikai/1016969/1016972.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="47" data-prefecture="沖縄県" data-seat-count="5">
+              <td>沖縄県</td>
+              <td>沖縄市選挙区</td>
+              <td>沖縄市の区域</td>
+              <td>5</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.okinawa.jp/kensei/gikai/1016969/1016972.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="47" data-prefecture="沖縄県" data-seat-count="3">
+              <td>沖縄県</td>
+              <td>宜野湾市選挙区</td>
+              <td>宜野湾市の区域</td>
+              <td>3</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.okinawa.jp/kensei/gikai/1016969/1016972.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="47" data-prefecture="沖縄県" data-seat-count="4">
+              <td>沖縄県</td>
+              <td>浦添市区</td>
+              <td>浦添市の区域</td>
+              <td>4</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.okinawa.jp/kensei/gikai/1016969/1016972.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="47" data-prefecture="沖縄県" data-seat-count="11">
+              <td>沖縄県</td>
+              <td>那覇市・南部離島選挙区</td>
+              <td>那覇市、渡嘉敷村、座間味村、粟国村、渡名喜村、南大東村、北大東村及び久米島町の区域</td>
+              <td>11</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.okinawa.jp/kensei/gikai/1016969/1016972.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="47" data-prefecture="沖縄県" data-seat-count="2">
+              <td>沖縄県</td>
+              <td>豊見城市選挙区</td>
+              <td>豊見城市の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.okinawa.jp/kensei/gikai/1016969/1016972.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="47" data-prefecture="沖縄県" data-seat-count="4">
+              <td>沖縄県</td>
+              <td>島尻・南城市選挙区</td>
+              <td>南城市、与那原町、南風原町及び八重瀬町の区域</td>
+              <td>4</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.okinawa.jp/kensei/gikai/1016969/1016972.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="47" data-prefecture="沖縄県" data-seat-count="2">
+              <td>沖縄県</td>
+              <td>糸満市選挙区</td>
+              <td>糸満市の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.okinawa.jp/kensei/gikai/1016969/1016972.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="47" data-prefecture="沖縄県" data-seat-count="2">
+              <td>沖縄県</td>
+              <td>宮古島市選挙区</td>
+              <td>宮古島市及び多良間村の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.okinawa.jp/kensei/gikai/1016969/1016972.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="47" data-prefecture="沖縄県" data-seat-count="2">
+              <td>沖縄県</td>
+              <td>石垣市選挙区</td>
+              <td>石垣市、竹富町及び与那国町の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.okinawa.jp/kensei/gikai/1016969/1016972.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="47" data-prefecture="沖縄県" data-seat-count="2">
+              <td>沖縄県</td>
+              <td>国頭郡選挙区</td>
+              <td>国頭村、大宜味村、東村、今帰仁村、本部町、恩納村、宜野座村、金武町、伊江村、伊平屋村及び伊是名村の区域</td>
+              <td>2</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.okinawa.jp/kensei/gikai/1016969/1016972.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-pref-code="47" data-prefecture="沖縄県" data-seat-count="5">
+              <td>沖縄県</td>
+              <td>中頭郡選挙区</td>
+              <td>読谷村、嘉手納町、北谷町、北中城村、中城村、西原町の区域</td>
+              <td>5</td>
+              <td>2026-04-27</td>
+              <td><a href="https://www.pref.okinawa.jp/kensei/gikai/1016969/1016972.html" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <script>
+      const rows = Array.from(document.querySelectorAll("#districtRows tr"));
+      const searchInput = document.querySelector("#searchInput");
+      const prefectureFilter = document.querySelector("#prefectureFilter");
+      const countNote = document.querySelector("#countNote");
+
+      function normalize(value) {
+        return value.toLowerCase().replace(/\s+/g, "");
+      }
+
+      function applyFilters() {
+        const keyword = normalize(searchInput.value);
+        const prefCode = prefectureFilter.value;
+        let visibleCount = 0;
+
+        for (const row of rows) {
+          const matchesPrefecture = prefCode === "all" || row.dataset.prefCode === prefCode;
+          const matchesKeyword = !keyword || normalize(row.textContent).includes(keyword);
+          const visible = matchesPrefecture && matchesKeyword;
+          row.hidden = !visible;
+          if (visible) visibleCount += 1;
+        }
+
+        countNote.textContent = visibleCount.toLocaleString("ja-JP") + "件表示";
+      }
+
+      searchInput.addEventListener("input", applyFilters);
+      prefectureFilter.addEventListener("change", applyFilters);
+      applyFilters();
+    </script>
+  </body>
+</html>

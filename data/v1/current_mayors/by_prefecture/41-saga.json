@@ -1,0 +1,664 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "41",
+  "pref_slug": "saga",
+  "pref_name": "佐賀県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/41-saga",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-41207",
+      "region_id": "mun-41207",
+      "pref_code": "41",
+      "pref_name": "佐賀県",
+      "municipality_code": "41207",
+      "city_name": "鹿島市",
+      "city_slug": "kashima-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "松尾 勝利",
+      "mayor_name_kana": null,
+      "term_start": "2022-05-12",
+      "term_start_display": null,
+      "term_end": "2026-05-11",
+      "term_end_display": null,
+      "term_note": "令和4年5月 第6代鹿島市長就任。令和8年5月11日任期満了。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町リンク",
+          "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "県内の選挙期日（予定）",
+          "url": "https://www.pref.saga.lg.jp/kiji00350619/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "県内の選挙期日（予定）",
+        "url": "https://www.pref.saga.lg.jp/kiji00350619/index.html"
+      },
+      "last_checked_at": "2026-04-24",
+      "note": "市長名は鹿島市プロフィール、任期満了日は佐賀県『県内の選挙期日（予定）』で確認。次回鹿島市長選は2026-04-26。",
+      "findings_values": {
+        "mayor_name": "松尾 勝利",
+        "term_start": "2022-05-12",
+        "term_end": "2026-05-11",
+        "note": "県選管の選挙期日予定で次回鹿島市長選は 2026-04-26 と確認。"
+      },
+      "public_order": 12,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/41-saga/2026-04-24-round1.md",
+        "research/current-mayors/findings/41-saga/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-41201",
+      "region_id": "mun-41201",
+      "pref_code": "41",
+      "pref_name": "佐賀県",
+      "municipality_code": "41201",
+      "city_name": "佐賀市",
+      "city_slug": "saga-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "坂井 英隆",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "2025-10",
+      "term_end": null,
+      "term_end_display": "2029-10",
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町リンク",
+          "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式",
+          "url": "https://www.city.saga.lg.jp/main/78208.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.saga.lg.jp/main/78208.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "プロフィールで現職名を確認。2025-10-19執行の佐賀市長選は無投票で、現任期は月単位で整理。",
+      "findings_values": {
+        "mayor_name": "坂井 英隆",
+        "term_start": "記載なし",
+        "term_end": "2029-10-22",
+        "note": "佐賀市公式ページで市長名、県内の選挙期日予定ページと現行記録で任期満了日を確認。"
+      },
+      "public_order": 71,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/41-saga/2026-04-24-round1.md",
+        "research/current-mayors/findings/41-saga/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-41202",
+      "region_id": "mun-41202",
+      "pref_code": "41",
+      "pref_name": "佐賀県",
+      "municipality_code": "41202",
+      "city_name": "唐津市",
+      "city_slug": "karatsu-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "峰 達郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-02-05",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町リンク",
+          "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.city.karatsu.lg.jp/page/15278.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.karatsu.lg.jp/page/15278.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の歴代市長ページで現職の退任年月日欄を確認。",
+      "findings_values": {
+        "mayor_name": "峰 達郎",
+        "term_start": "記載なし",
+        "term_end": "2029-02-05",
+        "note": "市の歴代市長ページで現職の退任年月日欄を確認。"
+      },
+      "public_order": 714,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/41-saga/2026-04-24-round1.md",
+        "research/current-mayors/findings/41-saga/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-41203",
+      "region_id": "mun-41203",
+      "pref_code": "41",
+      "pref_name": "佐賀県",
+      "municipality_code": "41203",
+      "city_name": "鳥栖市",
+      "city_slug": "go2senkyo-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "向門 慶人",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-03-14",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町リンク",
+          "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/26623",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/senkyo/26623"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "選挙ドットコムの次回鳥栖市長選挙ページ掲載の任期満了日で確認。",
+      "findings_values": {
+        "mayor_name": "向門 慶人",
+        "term_start": "記載なし",
+        "term_end": "2027-03-14",
+        "note": "現行ページの任期情報を維持し、次回改選の近接案件ではないことを確認。"
+      },
+      "public_order": 715,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/41-saga/2026-04-24-round1.md",
+        "research/current-mayors/findings/41-saga/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-41204",
+      "region_id": "mun-41204",
+      "pref_code": "41",
+      "pref_name": "佐賀県",
+      "municipality_code": "41204",
+      "city_name": "多久市",
+      "city_slug": "go2senkyo-shi-2",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "香月 正則",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-09-07",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町リンク",
+          "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/25488",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/senkyo/25488"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "2025-09-07執行の市長選結果から現任期4年で整理。",
+      "findings_values": {
+        "mayor_name": "香月 正則",
+        "term_start": "記載なし",
+        "term_end": "2029-09-07",
+        "note": "2025-09-07執行の市長選結果から現任期4年で整理。"
+      },
+      "public_order": 716,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/41-saga/2026-04-24-round1.md",
+        "research/current-mayors/findings/41-saga/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-41205",
+      "region_id": "mun-41205",
+      "pref_code": "41",
+      "pref_name": "佐賀県",
+      "municipality_code": "41205",
+      "city_name": "伊万里市",
+      "city_slug": "imari-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "深浦 弘信",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-30",
+      "term_start_display": null,
+      "term_end": "2030-04-29",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町リンク",
+          "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_result",
+          "title": "伊万里市長選挙 投開票状況について",
+          "url": "https://www.city.imari.lg.jp/25592.htm",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "伊万里市長選挙 投開票状況について",
+        "url": "https://www.city.imari.lg.jp/25592.htm"
+      },
+      "last_checked_at": "2026-04-24",
+      "note": "伊万里市公式の2026-04-19市長選投開票状況で深浦弘信氏の3選を確認。現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "深浦 弘信",
+        "term_start": "2026-04-30",
+        "term_end": "2030-04-29",
+        "note": "伊万里市公式の2026-04-19市長選投開票状況で深浦弘信氏の3選を確認。現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 717,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/41-saga/2026-04-24-round1.md",
+        "research/current-mayors/findings/41-saga/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-41206",
+      "region_id": "mun-41206",
+      "pref_code": "41",
+      "pref_name": "佐賀県",
+      "municipality_code": "41206",
+      "city_name": "武雄市",
+      "city_slug": "go2senkyo-shi-3",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "小松 政",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-01-10",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町リンク",
+          "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/26071",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/senkyo/26071"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "選挙ドットコムの次回武雄市長選挙ページ掲載の任期満了日で確認。",
+      "findings_values": {
+        "mayor_name": "小松 政",
+        "term_start": "記載なし",
+        "term_end": "2027-01-10",
+        "note": "現行ページの任期情報を維持。"
+      },
+      "public_order": 718,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/41-saga/2026-04-24-round1.md",
+        "research/current-mayors/findings/41-saga/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-41208",
+      "region_id": "mun-41208",
+      "pref_code": "41",
+      "pref_name": "佐賀県",
+      "municipality_code": "41208",
+      "city_name": "小城市",
+      "city_slug": "ogi-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "南里 隆",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-09",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町リンク",
+          "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/29047",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/senkyo/29047"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "選挙ドットコムの次回小城市長選挙ページ掲載の任期満了日で確認。",
+      "findings_values": {
+        "mayor_name": "南里 隆",
+        "term_start": "記載なし",
+        "term_end": "2029-04-09",
+        "note": "小城市公式プロフィールと現行ページの任期情報を維持。"
+      },
+      "public_order": 719,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/41-saga/2026-04-24-round1.md",
+        "research/current-mayors/findings/41-saga/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-41209",
+      "region_id": "mun-41209",
+      "pref_code": "41",
+      "pref_name": "佐賀県",
+      "municipality_code": "41209",
+      "city_name": "嬉野市",
+      "city_slug": "go2senkyo-shi-4",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "山口 卓也",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-01-24",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町リンク",
+          "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/26064",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/senkyo/26064"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "2026-01-25執行の市長選結果から現任期4年で整理。",
+      "findings_values": {
+        "mayor_name": "山口 卓也",
+        "term_start": "記載なし",
+        "term_end": "2030-01-24",
+        "note": "2026-01-25執行の市長選結果から現任期4年で整理。"
+      },
+      "public_order": 720,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/41-saga/2026-04-24-round1.md",
+        "research/current-mayors/findings/41-saga/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-41210",
+      "region_id": "mun-41210",
+      "pref_code": "41",
+      "pref_name": "佐賀県",
+      "municipality_code": "41210",
+      "city_name": "神埼市",
+      "city_slug": "go2senkyo-shi-5",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "實松 尊徳",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-27",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町リンク",
+          "url": "https://www.pref.saga.lg.jp/kiji0034791/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/28279",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/senkyo/28279"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "選挙ドットコムの次回神埼市長選挙ページ掲載の任期満了日で確認。",
+      "findings_values": {
+        "mayor_name": "實松 尊徳",
+        "term_start": "記載なし",
+        "term_end": "2027-11-06",
+        "note": "神埼市公式プロフィールと現行ページの任期情報を維持。"
+      },
+      "public_order": 721,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/41-saga/2026-04-24-round1.md",
+        "research/current-mayors/findings/41-saga/2026-04-24-round1.sources.json"
+      ]
+    }
+  ]
+}

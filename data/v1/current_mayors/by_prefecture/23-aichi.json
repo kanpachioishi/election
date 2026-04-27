@@ -1,0 +1,2380 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "23",
+  "pref_slug": "aichi",
+  "pref_name": "愛知県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/23-aichi",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-23234",
+      "region_id": "mun-23234",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23234",
+      "city_name": "北名古屋市",
+      "city_slug": "kitanagoya-shi",
+      "macro_region": "東海",
+      "mayor_name": "太田 考則",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-23",
+      "term_start_display": null,
+      "term_end": "2030-04-22",
+      "term_end_display": null,
+      "term_note": "2026-04-19予定の市長選は無投票",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "選挙執行案内",
+          "url": "https://www.city.kitanagoya.lg.jp/shisei/senkyo/1006115/1007265.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "選挙執行案内",
+        "url": "https://www.city.kitanagoya.lg.jp/shisei/senkyo/1006115/1007265.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-19予定の北名古屋市長選は立候補者1名で無投票。太田考則市長の続投を確認し、現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "太田 考則",
+        "term_start": "2026-04-23",
+        "term_end": "2030-04-22",
+        "note": "2026-04-19予定の北名古屋市長選は立候補者1名で無投票。太田考則市長の続投を確認し、現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 3,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23237",
+      "region_id": "mun-23237",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23237",
+      "city_name": "あま市",
+      "city_slug": "ama-shi",
+      "macro_region": "東海",
+      "mayor_name": "やしま けんじ",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-25",
+      "term_start_display": null,
+      "term_end": "2030-04-24",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "投開票結果",
+          "url": "https://www.city.ama.aichi.jp/shisei/senkyo/osirase/1008009.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "投開票結果",
+        "url": "https://www.city.ama.aichi.jp/shisei/senkyo/osirase/1008009.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-19執行のあま市長選投開票結果で、やしまけんじ氏当選を確認。現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "やしま けんじ",
+        "term_start": "2026-04-25",
+        "term_end": "2030-04-24",
+        "note": "2026-04-19執行のあま市長選投開票結果で、やしまけんじ氏当選を確認。現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 15,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23211",
+      "region_id": "mun-23211",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23211",
+      "city_name": "豊田市",
+      "city_slug": "toyota-shi",
+      "macro_region": "東海",
+      "mayor_name": "太田 稔彦",
+      "mayor_name_kana": null,
+      "term_start": "2024-02-19",
+      "term_start_display": null,
+      "term_end": "2028-02-18",
+      "term_end_display": null,
+      "term_note": "4期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "豊田市公式プロフィールで『2024年2月19日 豊田市長 再任（4期目）』を確認。4年任期として整理。",
+      "findings_values": {
+        "mayor_name": "太田 稔彦",
+        "term_start": "2024-02-19",
+        "term_end": "2028-02-18",
+        "note": "豊田市公式プロフィールで『2024年2月19日 豊田市長 再任（4期目）』を確認。4年任期として整理。"
+      },
+      "public_order": 57,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23201",
+      "region_id": "mun-23201",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23201",
+      "city_name": "豊橋市",
+      "city_slug": "toyohashi-shi",
+      "macro_region": "東海",
+      "mayor_name": "長坂 尚登",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "2024",
+      "term_end": "2028-11-16",
+      "term_end_display": null,
+      "term_note": "2024年就任、1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "公式プロフィールで現職名と2024年市長就任を確認。任期満了日は『今後の選挙執行』で確認。",
+      "findings_values": {
+        "mayor_name": "長坂 尚登",
+        "term_start": "2024",
+        "term_end": "2028-11-16",
+        "note": "公式プロフィールで現職名と2024年市長就任を確認。任期満了日は『今後の選挙執行』で確認。"
+      },
+      "public_order": 80,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23100",
+      "region_id": "mun-23100",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23100",
+      "city_name": "名古屋市",
+      "city_slug": "nagoya-shi",
+      "macro_region": "東海",
+      "mayor_name": "広沢 一郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管の『市町村長及び議会議員の任期満了日等一覧表』（令和8年3月5日現在）で確認。",
+      "findings_values": {
+        "mayor_name": "広沢 一郎",
+        "term_start": "記載なし",
+        "term_end": "2028-11-23",
+        "note": "愛知県選管の『市町村長及び議会議員の任期満了日等一覧表』（令和8年3月5日現在）で確認。"
+      },
+      "public_order": 465,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23202",
+      "region_id": "mun-23202",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23202",
+      "city_name": "岡崎市",
+      "city_slug": "okazaki-shi",
+      "macro_region": "東海",
+      "mayor_name": "内田 康宏",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-10-20",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "内田 康宏",
+        "term_start": "記載なし",
+        "term_end": "2028-10-20",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 466,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23203",
+      "region_id": "mun-23203",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23203",
+      "city_name": "一宮市",
+      "city_slug": "ichinomiya-shi",
+      "macro_region": "東海",
+      "mayor_name": "中野 正康",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-01-31",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "中野 正康",
+        "term_start": "記載なし",
+        "term_end": "2027-01-31",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 467,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23204",
+      "region_id": "mun-23204",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23204",
+      "city_name": "瀬戸市",
+      "city_slug": "seto-shi",
+      "macro_region": "東海",
+      "mayor_name": "川本 雅之",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "川本 雅之",
+        "term_start": "記載なし",
+        "term_end": "2027-04-30",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 468,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23205",
+      "region_id": "mun-23205",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23205",
+      "city_name": "半田市",
+      "city_slug": "handa-shi",
+      "macro_region": "東海",
+      "mayor_name": "久世 孝宏",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-06-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "久世 孝宏",
+        "term_start": "記載なし",
+        "term_end": "2029-06-23",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 469,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23206",
+      "region_id": "mun-23206",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23206",
+      "city_name": "春日井市",
+      "city_slug": "kasugai-shi",
+      "macro_region": "東海",
+      "mayor_name": "石黒 直樹",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-05-27",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "石黒 直樹",
+        "term_start": "記載なし",
+        "term_end": "2026-05-27",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 470,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23207",
+      "region_id": "mun-23207",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23207",
+      "city_name": "豊川市",
+      "city_slug": "toyokawa-shi",
+      "macro_region": "東海",
+      "mayor_name": "竹本 幸夫",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-10-19",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "竹本 幸夫",
+        "term_start": "記載なし",
+        "term_end": "2027-10-19",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 471,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23208",
+      "region_id": "mun-23208",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23208",
+      "city_name": "津島市",
+      "city_slug": "tsushima-shi",
+      "macro_region": "東海",
+      "mayor_name": "ひび 一昭",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-27",
+      "term_start_display": null,
+      "term_end": "2030-04-26",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "投開票結果",
+          "url": "https://www.city.tsushima.lg.jp/shisei/senkyo/senkyosokuhor804_04.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "投開票結果",
+        "url": "https://www.city.tsushima.lg.jp/shisei/senkyo/senkyosokuhor804_04.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-19執行の津島市長選投開票結果で、ひび一昭氏当選を確認。現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "ひび 一昭",
+        "term_start": "2026-04-27",
+        "term_end": "2030-04-26",
+        "note": "2026-04-19執行の津島市長選投開票結果で、ひび一昭氏当選を確認。現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 472,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23209",
+      "region_id": "mun-23209",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23209",
+      "city_name": "碧南市",
+      "city_slug": "hekinan-shi",
+      "macro_region": "東海",
+      "mayor_name": "小池 友妃子",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-28",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "小池 友妃子",
+        "term_start": "記載なし",
+        "term_end": "2028-04-28",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 473,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23210",
+      "region_id": "mun-23210",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23210",
+      "city_name": "刈谷市",
+      "city_slug": "kariya-shi",
+      "macro_region": "東海",
+      "mayor_name": "稲垣 武",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-07-19",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "稲垣 武",
+        "term_start": "記載なし",
+        "term_end": "2027-07-19",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 474,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23212",
+      "region_id": "mun-23212",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23212",
+      "city_name": "安城市",
+      "city_slug": "anjou-shi",
+      "macro_region": "東海",
+      "mayor_name": "三星 元人",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-02-14",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "三星 元人",
+        "term_start": "記載なし",
+        "term_end": "2027-02-14",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 475,
+      "prefecture_city_order": 14,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23213",
+      "region_id": "mun-23213",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23213",
+      "city_name": "西尾市",
+      "city_slug": "nishio-shi",
+      "macro_region": "東海",
+      "mayor_name": "中村 健",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-07-04",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "中村 健",
+        "term_start": "記載なし",
+        "term_end": "2029-07-04",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 476,
+      "prefecture_city_order": 15,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23214",
+      "region_id": "mun-23214",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23214",
+      "city_name": "蒲郡市",
+      "city_slug": "gamagoori-shi",
+      "macro_region": "東海",
+      "mayor_name": "鈴木 寿明",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-11-06",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "鈴木 寿明",
+        "term_start": "記載なし",
+        "term_end": "2027-11-06",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 477,
+      "prefecture_city_order": 16,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23215",
+      "region_id": "mun-23215",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23215",
+      "city_name": "犬山市",
+      "city_slug": "inuyama-shi",
+      "macro_region": "東海",
+      "mayor_name": "原 欣伸",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-12-16",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "原 欣伸",
+        "term_start": "記載なし",
+        "term_end": "2026-12-16",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 478,
+      "prefecture_city_order": 17,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23216",
+      "region_id": "mun-23216",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23216",
+      "city_name": "常滑市",
+      "city_slug": "tokoname-shi",
+      "macro_region": "東海",
+      "mayor_name": "伊藤 辰矢",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-25",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "伊藤 辰矢",
+        "term_start": "記載なし",
+        "term_end": "2027-04-25",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 479,
+      "prefecture_city_order": 18,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23217",
+      "region_id": "mun-23217",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23217",
+      "city_name": "江南市",
+      "city_slug": "kounan-shi",
+      "macro_region": "東海",
+      "mayor_name": "澤田 和延",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-29",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "澤田 和延",
+        "term_start": "記載なし",
+        "term_end": "2027-04-29",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 480,
+      "prefecture_city_order": 19,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23219",
+      "region_id": "mun-23219",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23219",
+      "city_name": "小牧市",
+      "city_slug": "komaki-shi",
+      "macro_region": "東海",
+      "mayor_name": "天野 正基",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-02-21",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "天野 正基",
+        "term_start": "記載なし",
+        "term_end": "2030-02-21",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 481,
+      "prefecture_city_order": 20,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23220",
+      "region_id": "mun-23220",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23220",
+      "city_name": "稲沢市",
+      "city_slug": "inazawa-shi",
+      "macro_region": "東海",
+      "mayor_name": "加藤 錠司郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-12-03",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "加藤 錠司郎",
+        "term_start": "記載なし",
+        "term_end": "2028-12-03",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 482,
+      "prefecture_city_order": 21,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23221",
+      "region_id": "mun-23221",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23221",
+      "city_name": "新城市",
+      "city_slug": "shinshiro-shi",
+      "macro_region": "東海",
+      "mayor_name": "下江 洋行",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-11-12",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "下江 洋行",
+        "term_start": "記載なし",
+        "term_end": "2029-11-12",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 483,
+      "prefecture_city_order": 22,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23222",
+      "region_id": "mun-23222",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23222",
+      "city_name": "東海市",
+      "city_slug": "toukai-shi",
+      "macro_region": "東海",
+      "mayor_name": "花田 勝重",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-05-16",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "花田 勝重",
+        "term_start": "記載なし",
+        "term_end": "2029-05-16",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 484,
+      "prefecture_city_order": 23,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23223",
+      "region_id": "mun-23223",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23223",
+      "city_name": "大府市",
+      "city_slug": "oobu-shi",
+      "macro_region": "東海",
+      "mayor_name": "岡村 秀人",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-12",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "岡村 秀人",
+        "term_start": "記載なし",
+        "term_end": "2028-04-12",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 485,
+      "prefecture_city_order": 24,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23224",
+      "region_id": "mun-23224",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23224",
+      "city_name": "知多市",
+      "city_slug": "chita-shi",
+      "macro_region": "東海",
+      "mayor_name": "伊藤 清一郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-10-03",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "伊藤 清一郎",
+        "term_start": "記載なし",
+        "term_end": "2029-10-03",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 486,
+      "prefecture_city_order": 25,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23225",
+      "region_id": "mun-23225",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23225",
+      "city_name": "知立市",
+      "city_slug": "chiryuu-shi",
+      "macro_region": "東海",
+      "mayor_name": "石川 智子",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-12-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "石川 智子",
+        "term_start": "記載なし",
+        "term_end": "2028-12-23",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 487,
+      "prefecture_city_order": 26,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23226",
+      "region_id": "mun-23226",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23226",
+      "city_name": "尾張旭市",
+      "city_slug": "owariasahi-shi",
+      "macro_region": "東海",
+      "mayor_name": "柴田 浩",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-02-02",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "柴田 浩",
+        "term_start": "記載なし",
+        "term_end": "2027-02-02",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 488,
+      "prefecture_city_order": 27,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23227",
+      "region_id": "mun-23227",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23227",
+      "city_name": "高浜市",
+      "city_slug": "takahama-shi",
+      "macro_region": "東海",
+      "mayor_name": "杉浦 康憲",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-09-08",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "杉浦 康憲",
+        "term_start": "記載なし",
+        "term_end": "2029-09-08",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 489,
+      "prefecture_city_order": 28,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23228",
+      "region_id": "mun-23228",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23228",
+      "city_name": "岩倉市",
+      "city_slug": "iwakura-shi",
+      "macro_region": "東海",
+      "mayor_name": "久保田 桂朗",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-01-28",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "久保田 桂朗",
+        "term_start": "記載なし",
+        "term_end": "2029-01-28",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 490,
+      "prefecture_city_order": 29,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23229",
+      "region_id": "mun-23229",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23229",
+      "city_name": "豊明市",
+      "city_slug": "toyoake-shi",
+      "macro_region": "東海",
+      "mayor_name": "小浮 正典",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-29",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "小浮 正典",
+        "term_start": "記載なし",
+        "term_end": "2027-04-29",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 491,
+      "prefecture_city_order": 30,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23230",
+      "region_id": "mun-23230",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23230",
+      "city_name": "日進市",
+      "city_slug": "nisshin-shi",
+      "macro_region": "東海",
+      "mayor_name": "近藤 裕貴",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-05-24",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "近藤 裕貴",
+        "term_start": "記載なし",
+        "term_end": "2027-05-24",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 492,
+      "prefecture_city_order": 31,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23231",
+      "region_id": "mun-23231",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23231",
+      "city_name": "田原市",
+      "city_slug": "tahara-shi",
+      "macro_region": "東海",
+      "mayor_name": "山下 政良",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-27",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "山下 政良",
+        "term_start": "記載なし",
+        "term_end": "2027-04-27",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 493,
+      "prefecture_city_order": 32,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23232",
+      "region_id": "mun-23232",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23232",
+      "city_name": "愛西市",
+      "city_slug": "aisai-shi",
+      "macro_region": "東海",
+      "mayor_name": "日永 貴章",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-05-14",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "日永 貴章",
+        "term_start": "記載なし",
+        "term_end": "2029-05-14",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 494,
+      "prefecture_city_order": 33,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23233",
+      "region_id": "mun-23233",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23233",
+      "city_name": "清須市",
+      "city_slug": "kiyosu-shi",
+      "macro_region": "東海",
+      "mayor_name": "永田 純夫",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-08-06",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "永田 純夫",
+        "term_start": "記載なし",
+        "term_end": "2029-08-06",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 495,
+      "prefecture_city_order": 34,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23235",
+      "region_id": "mun-23235",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23235",
+      "city_name": "弥富市",
+      "city_slug": "yatomi-shi",
+      "macro_region": "東海",
+      "mayor_name": "安藤 正明",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-12-01",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "安藤 正明",
+        "term_start": "記載なし",
+        "term_end": "2026-12-01",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 496,
+      "prefecture_city_order": 35,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23236",
+      "region_id": "mun-23236",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23236",
+      "city_name": "みよし市",
+      "city_slug": "miyoshi-shi",
+      "macro_region": "東海",
+      "mayor_name": "小山 祐",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-12-07",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "小山 祐",
+        "term_start": "記載なし",
+        "term_end": "2029-12-07",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 497,
+      "prefecture_city_order": 36,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-23238",
+      "region_id": "mun-23238",
+      "pref_code": "23",
+      "pref_name": "愛知県",
+      "municipality_code": "23238",
+      "city_name": "長久手市",
+      "city_slug": "nagakute-shi",
+      "macro_region": "東海",
+      "mayor_name": "佐藤 有美",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-09-17",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "愛知県選管 任期満了日等一覧表",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.aichi.jp/uploaded/attachment/603367.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "愛知県選管PDFの任期満了日等一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "佐藤 有美",
+        "term_start": "記載なし",
+        "term_end": "2027-09-17",
+        "note": "愛知県選管PDFの任期満了日等一覧表で確認。"
+      },
+      "public_order": 498,
+      "prefecture_city_order": 37,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.md",
+        "research/current-mayors/findings/23-aichi/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

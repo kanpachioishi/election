@@ -71,6 +71,14 @@ The repository currently contains both active site assets and transitional legac
 - Keep region names, election names, and date formats consistent within each content set.
 - For content that may change over time, note the reference date explicitly in the file or front matter.
 
+## Assembly Engagement Reports
+
+- Use `docs/templates/ASSEMBLY_ENGAGEMENT_REPORT_TEMPLATE.md` and `docs/templates/assembly-engagement-report-a4.html` for city council engagement materials.
+- Keep report plans and workflows in `docs/plans/` and `docs/runbooks/`.
+- Store collected source materials under `artifacts/private/sources/assembly-reports/`.
+- Store drafts and generated working files under `artifacts/private/batches/assembly-reports/`.
+- Move completed materials into `site/` only after source, neutrality, date, and display checks are complete.
+
 ## File Naming
 
 - Use descriptive names.
@@ -93,6 +101,9 @@ Examples:
 - Do not delete legacy materials unless explicitly asked.
 - Prefer editing `site/`, `data/v1/`, `scripts/`, and `docs/` over editing legacy root-level assets.
 - Treat local editing and verification as the default workflow; batch deployment comes after local validation and review.
+- For top-page mayor election official-link checks, use `docs/runbooks/MAYOR_RESOURCE_LINK_PANEL_CHECK_FLOW.md`.
+- For governor/prefectural assembly election cross-checks and prefectural assembly official-link collection, use `docs/runbooks/PREFECTURAL_ASSEMBLY_TERMS_RUNBOOK.md`.
+- Keep official election resource links limited to official published resources. Unofficial candidate signals, news reports, declared intentions to run, briefing-session attendees, and pre-screening submitters belong on a dedicated non-official/candidate-intel page or data flow, not in `data/v1/election_resource_links` as `candidate_list`.
 - If a new workflow emerges, update this `AGENTS.md` so future work stays consistent.
 
 ## Initial Priority

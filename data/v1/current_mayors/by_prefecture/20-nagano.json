@@ -1,0 +1,1211 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "20",
+  "pref_slug": "nagano",
+  "pref_name": "長野県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/20-nagano",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-20201",
+      "region_id": "mun-20201",
+      "pref_code": "20",
+      "pref_name": "長野県",
+      "municipality_code": "20201",
+      "city_name": "長野市",
+      "city_slug": "nagano-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "荻原 健司",
+      "mayor_name_kana": null,
+      "term_start": "2025-11-11",
+      "term_start_display": null,
+      "term_end": "2029-11-10",
+      "term_end_display": null,
+      "term_note": "プロフィールで現在2期目、特別職一覧で任期満了日は令和11年11月10日。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "荻原 健司",
+        "term_start": "2025-11-11",
+        "term_end": "2029-11-10",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 33,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.md",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-20202",
+      "region_id": "mun-20202",
+      "pref_code": "20",
+      "pref_name": "長野県",
+      "municipality_code": "20202",
+      "city_name": "松本市",
+      "city_slug": "matsumoto-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "臥雲 義尚",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-03-27",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "臥雲 義尚",
+        "term_start": "記載なし",
+        "term_end": "2028-03-27",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 407,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.md",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-20203",
+      "region_id": "mun-20203",
+      "pref_code": "20",
+      "pref_name": "長野県",
+      "municipality_code": "20203",
+      "city_name": "上田市",
+      "city_slug": "ueda-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "斉藤 達也",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-04-08",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "斉藤 達也",
+        "term_start": "記載なし",
+        "term_end": "2030-04-08",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 408,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.md",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-20204",
+      "region_id": "mun-20204",
+      "pref_code": "20",
+      "pref_name": "長野県",
+      "municipality_code": "20204",
+      "city_name": "岡谷市",
+      "city_slug": "okaya-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "早出 一真",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-09-28",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "早出 一真",
+        "term_start": "記載なし",
+        "term_end": "2027-09-28",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 409,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.md",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-20205",
+      "region_id": "mun-20205",
+      "pref_code": "20",
+      "pref_name": "長野県",
+      "municipality_code": "20205",
+      "city_name": "飯田市",
+      "city_slug": "iida-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "佐藤 健",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-10-27",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "佐藤 健",
+        "term_start": "記載なし",
+        "term_end": "2028-10-27",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 410,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.md",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-20206",
+      "region_id": "mun-20206",
+      "pref_code": "20",
+      "pref_name": "長野県",
+      "municipality_code": "20206",
+      "city_name": "諏訪市",
+      "city_slug": "suwa-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "金子 ゆかり",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "金子 ゆかり",
+        "term_start": "記載なし",
+        "term_end": "2027-04-30",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 411,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.md",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-20207",
+      "region_id": "mun-20207",
+      "pref_code": "20",
+      "pref_name": "長野県",
+      "municipality_code": "20207",
+      "city_name": "須坂市",
+      "city_slug": "suzaka-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "三木 正夫",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-01-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "三木 正夫",
+        "term_start": "記載なし",
+        "term_end": "2028-01-23",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 412,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.md",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-20208",
+      "region_id": "mun-20208",
+      "pref_code": "20",
+      "pref_name": "長野県",
+      "municipality_code": "20208",
+      "city_name": "小諸市",
+      "city_slug": "komoro-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "小泉 俊博",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-18",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "小泉 俊博",
+        "term_start": "記載なし",
+        "term_end": "2028-04-18",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 413,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.md",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-20209",
+      "region_id": "mun-20209",
+      "pref_code": "20",
+      "pref_name": "長野県",
+      "municipality_code": "20209",
+      "city_name": "伊那市",
+      "city_slug": "ina-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "吉田 浩之",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-30",
+      "term_start_display": null,
+      "term_end": "2030-04-29",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票速報",
+          "url": "https://www.inacity.jp/shisei/senkyo/r080419senkyo/sokuhou/080419kaihyosokuho.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "開票速報",
+        "url": "https://www.inacity.jp/shisei/senkyo/r080419senkyo/sokuhou/080419kaihyosokuho.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-19執行の伊那市長選開票速報で吉田浩之氏当選を確認。現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "吉田 浩之",
+        "term_start": "2026-04-30",
+        "term_end": "2030-04-29",
+        "note": "2026-04-19執行の伊那市長選開票速報で吉田浩之氏当選を確認。現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 414,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.md",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-20210",
+      "region_id": "mun-20210",
+      "pref_code": "20",
+      "pref_name": "長野県",
+      "municipality_code": "20210",
+      "city_name": "駒ヶ根市",
+      "city_slug": "komagane-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "伊藤 祐三",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-01-28",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "伊藤 祐三",
+        "term_start": "記載なし",
+        "term_end": "2028-01-28",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 415,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.md",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-20211",
+      "region_id": "mun-20211",
+      "pref_code": "20",
+      "pref_name": "長野県",
+      "municipality_code": "20211",
+      "city_name": "中野市",
+      "city_slug": "nakano-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "湯本 隆英",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-22",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "湯本 隆英",
+        "term_start": "記載なし",
+        "term_end": "2028-11-22",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 416,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.md",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-20212",
+      "region_id": "mun-20212",
+      "pref_code": "20",
+      "pref_name": "長野県",
+      "municipality_code": "20212",
+      "city_name": "大町市",
+      "city_slug": "oomachi-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "牛越 徹",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-07-13",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "牛越 徹",
+        "term_start": "記載なし",
+        "term_end": "2026-07-13",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 417,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.md",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-20213",
+      "region_id": "mun-20213",
+      "pref_code": "20",
+      "pref_name": "長野県",
+      "municipality_code": "20213",
+      "city_name": "飯山市",
+      "city_slug": "iiyama-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "江沢 岸生",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-10-27",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "江沢 岸生",
+        "term_start": "記載なし",
+        "term_end": "2026-10-27",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 418,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.md",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-20214",
+      "region_id": "mun-20214",
+      "pref_code": "20",
+      "pref_name": "長野県",
+      "municipality_code": "20214",
+      "city_name": "茅野市",
+      "city_slug": "chino-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "今井 敦",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-29",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "今井 敦",
+        "term_start": "記載なし",
+        "term_end": "2027-04-29",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 419,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.md",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-20215",
+      "region_id": "mun-20215",
+      "pref_code": "20",
+      "pref_name": "長野県",
+      "municipality_code": "20215",
+      "city_name": "塩尻市",
+      "city_slug": "shiojiri-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "百瀬 敬",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-09-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "百瀬 敬",
+        "term_start": "記載なし",
+        "term_end": "2026-09-30",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 420,
+      "prefecture_city_order": 14,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.md",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-20217",
+      "region_id": "mun-20217",
+      "pref_code": "20",
+      "pref_name": "長野県",
+      "municipality_code": "20217",
+      "city_name": "佐久市",
+      "city_slug": "saku-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "栁田 清二",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "栁田 清二",
+        "term_start": "記載なし",
+        "term_end": "2029-04-23",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 421,
+      "prefecture_city_order": 15,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.md",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-20218",
+      "region_id": "mun-20218",
+      "pref_code": "20",
+      "pref_name": "長野県",
+      "municipality_code": "20218",
+      "city_name": "千曲市",
+      "city_slug": "chikuma-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "小川 修一",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-10",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "小川 修一",
+        "term_start": "記載なし",
+        "term_end": "2028-11-10",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 422,
+      "prefecture_city_order": 16,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.md",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-20219",
+      "region_id": "mun-20219",
+      "pref_code": "20",
+      "pref_name": "長野県",
+      "municipality_code": "20219",
+      "city_name": "東御市",
+      "city_slug": "toumi-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "花岡 利夫",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-24",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "花岡 利夫",
+        "term_start": "記載なし",
+        "term_end": "2028-04-24",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 423,
+      "prefecture_city_order": 17,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.md",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-20220",
+      "region_id": "mun-20220",
+      "pref_code": "20",
+      "pref_name": "長野県",
+      "municipality_code": "20220",
+      "city_name": "安曇野市",
+      "city_slug": "azumino-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "中山 栄樹",
+      "mayor_name_kana": null,
+      "term_start": "2026-01-18",
+      "term_start_display": null,
+      "term_end": "2030-01-17",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "長野県 任期満了日一覧",
+          "url": "https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/senkyo/information/documents/ninkimanryo-cho080406.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.azumino.nagano.jp/site/shicho/2496.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.azumino.nagano.jp/site/shicho/2496.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "安曇野市長プロフィール掲載の任期で確認。",
+      "findings_values": {
+        "mayor_name": "中山 栄樹",
+        "term_start": "2026-01-18",
+        "term_end": "2030-01-17",
+        "note": "安曇野市長プロフィール掲載の任期で確認。"
+      },
+      "public_order": 424,
+      "prefecture_city_order": 18,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.md",
+        "research/current-mayors/findings/20-nagano/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1246 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "15",
+  "pref_slug": "niigata",
+  "pref_name": "新潟県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/15-niigata",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-15208",
+      "region_id": "mun-15208",
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "municipality_code": "15208",
+      "city_name": "小千谷市",
+      "city_slug": "ojiya-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "宮崎 悦男",
+      "mayor_name_kana": null,
+      "term_start": "2022-11-29",
+      "term_start_display": null,
+      "term_end": "2026-11-28",
+      "term_end_display": null,
+      "term_note": "令和4年11月の市長選後の現任期。任期満了日は令和8年11月28日。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "新潟県 任期満了日一覧",
+          "url": "https://www.pref.niigata.lg.jp/site/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "小千谷市長選挙・小千谷市議会議員補欠選挙",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "任期満了日は選挙案内、始期はその翌日で整理。",
+      "findings_values": {
+        "mayor_name": "宮崎 悦男",
+        "term_start": "2022-11-29",
+        "term_end": "2026-11-28",
+        "note": "任期満了日は選挙案内、始期はその翌日で整理。"
+      },
+      "public_order": 9,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.md",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-15100",
+      "region_id": "mun-15100",
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "municipality_code": "15100",
+      "city_name": "新潟市",
+      "city_slug": "niigata-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "中原 八一",
+      "mayor_name_kana": null,
+      "term_start": "2022-11-18",
+      "term_start_display": null,
+      "term_end": "2026-11-17",
+      "term_end_display": null,
+      "term_note": "2022年10月23日執行の市長選で再選。2期目の任期は2022年11月18日から2026年11月17日まで。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "新潟県 任期満了日一覧",
+          "url": "https://www.pref.niigata.lg.jp/site/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市報掲載ページ",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "新潟市の市報掲載ページに現職名と現任期の始終期が明記あり。",
+      "findings_values": {
+        "mayor_name": "中原 八一",
+        "term_start": "2022-11-18",
+        "term_end": "2026-11-17",
+        "note": "新潟市の市報掲載ページに現職名と現任期の始終期が明記あり。"
+      },
+      "public_order": 51,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.md",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-15202",
+      "region_id": "mun-15202",
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "municipality_code": "15202",
+      "city_name": "長岡市",
+      "city_slug": "nagaoka-shi",
+      "macro_region": "北陸",
+      "mayor_name": "磯田 達伸",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-10-15",
+      "term_end_display": null,
+      "term_note": "3期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "新潟県 任期満了日一覧",
+          "url": "https://www.pref.niigata.lg.jp/site/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "磯田 達伸",
+        "term_start": "記載なし",
+        "term_end": "2028-10-15",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 351,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.md",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-15204",
+      "region_id": "mun-15204",
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "municipality_code": "15204",
+      "city_name": "三条市",
+      "city_slug": "sanjou-shi",
+      "macro_region": "北陸",
+      "mayor_name": "滝沢 亮",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-07",
+      "term_end_display": null,
+      "term_note": "2期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "新潟県 任期満了日一覧",
+          "url": "https://www.pref.niigata.lg.jp/site/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "滝沢 亮",
+        "term_start": "記載なし",
+        "term_end": "2028-11-07",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 352,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.md",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-15205",
+      "region_id": "mun-15205",
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "municipality_code": "15205",
+      "city_name": "柏崎市",
+      "city_slug": "kashiwazaki-shi",
+      "macro_region": "北陸",
+      "mayor_name": "桜井 雅浩",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-12-05",
+      "term_end_display": null,
+      "term_note": "3期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "新潟県 任期満了日一覧",
+          "url": "https://www.pref.niigata.lg.jp/site/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "桜井 雅浩",
+        "term_start": "記載なし",
+        "term_end": "2028-12-05",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 353,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.md",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-15206",
+      "region_id": "mun-15206",
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "municipality_code": "15206",
+      "city_name": "新発田市",
+      "city_slug": "shibata-shi",
+      "macro_region": "北陸",
+      "mayor_name": "二階堂 馨",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-11-30",
+      "term_end_display": null,
+      "term_note": "4期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "新潟県 任期満了日一覧",
+          "url": "https://www.pref.niigata.lg.jp/site/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "二階堂 馨",
+        "term_start": "記載なし",
+        "term_end": "2026-11-30",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 354,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.md",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-15209",
+      "region_id": "mun-15209",
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "municipality_code": "15209",
+      "city_name": "加茂市",
+      "city_slug": "kamo-shi",
+      "macro_region": "北陸",
+      "mayor_name": "藤田 明美",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-05-09",
+      "term_end_display": null,
+      "term_note": "2期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "新潟県 任期満了日一覧",
+          "url": "https://www.pref.niigata.lg.jp/site/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "藤田 明美",
+        "term_start": "記載なし",
+        "term_end": "2027-05-09",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 355,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.md",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-15210",
+      "region_id": "mun-15210",
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "municipality_code": "15210",
+      "city_name": "十日町市",
+      "city_slug": "tookamachi-shi",
+      "macro_region": "北陸",
+      "mayor_name": "関口 芳史",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-30",
+      "term_end_display": null,
+      "term_note": "5期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "新潟県 任期満了日一覧",
+          "url": "https://www.pref.niigata.lg.jp/site/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "関口 芳史",
+        "term_start": "記載なし",
+        "term_end": "2029-04-30",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 356,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.md",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-15211",
+      "region_id": "mun-15211",
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "municipality_code": "15211",
+      "city_name": "見附市",
+      "city_slug": "mitsuke-shi",
+      "macro_region": "北陸",
+      "mayor_name": "稲田 亮",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-12-11",
+      "term_end_display": null,
+      "term_note": "2期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "新潟県 任期満了日一覧",
+          "url": "https://www.pref.niigata.lg.jp/site/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "稲田 亮",
+        "term_start": "記載なし",
+        "term_end": "2029-12-11",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 357,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.md",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-15212",
+      "region_id": "mun-15212",
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "municipality_code": "15212",
+      "city_name": "村上市",
+      "city_slug": "murakami-shi",
+      "macro_region": "北陸",
+      "mayor_name": "高橋 邦芳",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-06-27",
+      "term_end_display": null,
+      "term_note": "3期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "新潟県 任期満了日一覧",
+          "url": "https://www.pref.niigata.lg.jp/site/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "高橋 邦芳",
+        "term_start": "記載なし",
+        "term_end": "2027-06-27",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 358,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.md",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-15213",
+      "region_id": "mun-15213",
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "municipality_code": "15213",
+      "city_name": "燕市",
+      "city_slug": "tsubame-shi",
+      "macro_region": "北陸",
+      "mayor_name": "佐野 大輔",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-10-22",
+      "term_end_display": null,
+      "term_note": "1期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "新潟県 任期満了日一覧",
+          "url": "https://www.pref.niigata.lg.jp/site/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "佐野 大輔",
+        "term_start": "記載なし",
+        "term_end": "2029-10-22",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 359,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.md",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-15216",
+      "region_id": "mun-15216",
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "municipality_code": "15216",
+      "city_name": "糸魚川市",
+      "city_slug": "itoigawa-shi",
+      "macro_region": "北陸",
+      "mayor_name": "久保田 郁夫",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-23",
+      "term_end_display": null,
+      "term_note": "1期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "新潟県 任期満了日一覧",
+          "url": "https://www.pref.niigata.lg.jp/site/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "久保田 郁夫",
+        "term_start": "記載なし",
+        "term_end": "2029-04-23",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 360,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.md",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-15217",
+      "region_id": "mun-15217",
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "municipality_code": "15217",
+      "city_name": "妙高市",
+      "city_slug": "myoko-shi",
+      "macro_region": "北陸",
+      "mayor_name": "城戸 陽二",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-11-24",
+      "term_end_display": null,
+      "term_note": "1期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "新潟県 任期満了日一覧",
+          "url": "https://www.pref.niigata.lg.jp/site/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "城戸 陽二",
+        "term_start": "記載なし",
+        "term_end": "2026-11-24",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 361,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.md",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-15218",
+      "region_id": "mun-15218",
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "municipality_code": "15218",
+      "city_name": "五泉市",
+      "city_slug": "gosen-shi",
+      "macro_region": "北陸",
+      "mayor_name": "田邊 正幸",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-01-28",
+      "term_end_display": null,
+      "term_note": "2期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "新潟県 任期満了日一覧",
+          "url": "https://www.pref.niigata.lg.jp/site/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "田邊 正幸",
+        "term_start": "記載なし",
+        "term_end": "2030-01-28",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 362,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.md",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-15222",
+      "region_id": "mun-15222",
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "municipality_code": "15222",
+      "city_name": "上越市",
+      "city_slug": "jouetsu-shi",
+      "macro_region": "北陸",
+      "mayor_name": "小菅 淳一",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-11-08",
+      "term_end_display": null,
+      "term_note": "1期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "新潟県 任期満了日一覧",
+          "url": "https://www.pref.niigata.lg.jp/site/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "小菅 淳一",
+        "term_start": "記載なし",
+        "term_end": "2029-11-08",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 363,
+      "prefecture_city_order": 14,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.md",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-15223",
+      "region_id": "mun-15223",
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "municipality_code": "15223",
+      "city_name": "阿賀野市",
+      "city_slug": "agano-shi",
+      "macro_region": "北陸",
+      "mayor_name": "加藤 博幸",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-24",
+      "term_end_display": null,
+      "term_note": "1期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "新潟県 任期満了日一覧",
+          "url": "https://www.pref.niigata.lg.jp/site/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "加藤 博幸",
+        "term_start": "記載なし",
+        "term_end": "2028-04-24",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 364,
+      "prefecture_city_order": 15,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.md",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-15224",
+      "region_id": "mun-15224",
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "municipality_code": "15224",
+      "city_name": "佐渡市",
+      "city_slug": "sado-shi",
+      "macro_region": "北陸",
+      "mayor_name": "渡辺 竜五",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-17",
+      "term_end_display": null,
+      "term_note": "2期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "新潟県 任期満了日一覧",
+          "url": "https://www.pref.niigata.lg.jp/site/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "渡辺 竜五",
+        "term_start": "記載なし",
+        "term_end": "2028-04-17",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 365,
+      "prefecture_city_order": 16,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.md",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-15225",
+      "region_id": "mun-15225",
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "municipality_code": "15225",
+      "city_name": "魚沼市",
+      "city_slug": "uonuma-shi",
+      "macro_region": "北陸",
+      "mayor_name": "内田 幹夫",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-12-11",
+      "term_end_display": null,
+      "term_note": "2期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "新潟県 任期満了日一覧",
+          "url": "https://www.pref.niigata.lg.jp/site/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "内田 幹夫",
+        "term_start": "記載なし",
+        "term_end": "2028-12-11",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 366,
+      "prefecture_city_order": 17,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.md",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-15226",
+      "region_id": "mun-15226",
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "municipality_code": "15226",
+      "city_name": "南魚沼市",
+      "city_slug": "minamiuonuma-shi",
+      "macro_region": "北陸",
+      "mayor_name": "林 茂男",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-27",
+      "term_end_display": null,
+      "term_note": "3期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "新潟県 任期満了日一覧",
+          "url": "https://www.pref.niigata.lg.jp/site/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "林 茂男",
+        "term_start": "記載なし",
+        "term_end": "2028-11-27",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 367,
+      "prefecture_city_order": 18,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.md",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-15227",
+      "region_id": "mun-15227",
+      "pref_code": "15",
+      "pref_name": "新潟県",
+      "municipality_code": "15227",
+      "city_name": "胎内市",
+      "city_slug": "tainai-shi",
+      "macro_region": "北陸",
+      "mayor_name": "井畑 明彦",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-10-01",
+      "term_end_display": null,
+      "term_note": "3期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "新潟県 任期満了日一覧",
+          "url": "https://www.pref.niigata.lg.jp/site/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.niigata.lg.jp/site/senkyo/1198018603173.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "井畑 明彦",
+        "term_start": "記載なし",
+        "term_end": "2029-10-01",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 368,
+      "prefecture_city_order": 19,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.md",
+        "research/current-mayors/findings/15-niigata/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

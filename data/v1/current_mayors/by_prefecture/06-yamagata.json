@@ -1,0 +1,579 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "06",
+  "pref_slug": "yamagata",
+  "pref_name": "山形県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/06-yamagata",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-06201",
+      "region_id": "mun-06201",
+      "pref_code": "06",
+      "pref_name": "山形県",
+      "municipality_code": "06201",
+      "city_name": "山形市",
+      "city_slug": "yamagata-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "佐藤 孝弘",
+      "mayor_name_kana": null,
+      "term_start": "2023-09-28",
+      "term_start_display": null,
+      "term_end": "2027-09-27",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/murayama/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/murayama/index.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "山形県資料の任期満了日から現任期始期を4年任期で整理。",
+      "findings_values": null,
+      "public_order": 82,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-06202",
+      "region_id": "mun-06202",
+      "pref_code": "06",
+      "pref_name": "山形県",
+      "municipality_code": "06202",
+      "city_name": "米沢市",
+      "city_slug": "yonezawa-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "近藤 洋介",
+      "mayor_name_kana": null,
+      "term_start": "2023-12-22",
+      "term_start_display": null,
+      "term_end": "2027-12-21",
+      "term_end_display": null,
+      "term_note": "第38代",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "県地域概要",
+          "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/okitama.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "県地域概要",
+        "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/okitama.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "米沢市長は近藤洋介氏。任期満了日は県資料、現任期始期は4年任期で2023-12-22と整理。",
+      "findings_values": null,
+      "public_order": 153,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-06203",
+      "region_id": "mun-06203",
+      "pref_code": "06",
+      "pref_name": "山形県",
+      "municipality_code": "06203",
+      "city_name": "鶴岡市",
+      "city_slug": "tsuruoka-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "佐藤 聡",
+      "mayor_name_kana": null,
+      "term_start": "2025-10-23",
+      "term_start_display": null,
+      "term_end": "2029-10-22",
+      "term_end_display": null,
+      "term_note": "第4代",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "profile",
+          "title": "市長の部屋",
+          "url": "https://www.city.tsuruoka.lg.jp/shisei/shicho/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長の部屋",
+        "url": "https://www.city.tsuruoka.lg.jp/shisei/shicho/index.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "鶴岡市公式の市長の部屋で佐藤聡市長と2025-10-23就任を確認。任期満了日は4年任期で整理。",
+      "findings_values": null,
+      "public_order": 154,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/06-yamagata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-06204",
+      "region_id": "mun-06204",
+      "pref_code": "06",
+      "pref_name": "山形県",
+      "municipality_code": "06204",
+      "city_name": "酒田市",
+      "city_slug": "sakata-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "矢口 明子",
+      "mayor_name_kana": null,
+      "term_start": "2023-09-06",
+      "term_start_display": null,
+      "term_end": "2027-09-05",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.sakata.lg.jp/shisei/shicyou/shityoprofile.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": "https://www.city.sakata.lg.jp/shisei/shicyou/shityoprofile.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "酒田市公式の市長プロフィールで矢口明子市長と2023-09-06就任を確認。",
+      "findings_values": null,
+      "public_order": 155,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/06-yamagata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-06205",
+      "region_id": "mun-06205",
+      "pref_code": "06",
+      "pref_name": "山形県",
+      "municipality_code": "06205",
+      "city_name": "新庄市",
+      "city_slug": "shinjou-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "山科 朝則",
+      "mayor_name_kana": null,
+      "term_start": "2023-09-30",
+      "term_start_display": null,
+      "term_end": "2027-09-29",
+      "term_end_display": null,
+      "term_note": "記載なし",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "profile",
+          "title": "市長メッセージ・プロフィール",
+          "url": "https://www.city.shinjo.yamagata.jp/s001/005/20150310145025.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長メッセージ",
+        "url": "https://www.city.shinjo.yamagata.jp/s001/005/20150310145025.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "新庄市公式の市長メッセージ・プロフィールで現職名と任期を確認。",
+      "findings_values": null,
+      "public_order": 156,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/06-yamagata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-06206",
+      "region_id": "mun-06206",
+      "pref_code": "06",
+      "pref_name": "山形県",
+      "municipality_code": "06206",
+      "city_name": "寒河江市",
+      "city_slug": "sagae-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "齋藤 真朗",
+      "mayor_name_kana": null,
+      "term_start": "2025-01-20",
+      "term_start_display": null,
+      "term_end": "2029-01-19",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "profile",
+          "title": "市長のプロフィール",
+          "url": "https://www.city.sagae.yamagata.jp/shisei/shicyou/shicho_profile.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": "https://www.city.sagae.yamagata.jp/shisei/shicyou/shicho_profile.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "寒河江市公式の市長プロフィールに齋藤真朗市長と任期（2025-01-20から2029-01-19）が明記されている。",
+      "findings_values": null,
+      "public_order": 157,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/06-yamagata/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-06207",
+      "region_id": "mun-06207",
+      "pref_code": "06",
+      "pref_name": "山形県",
+      "municipality_code": "06207",
+      "city_name": "上山市",
+      "city_slug": "kaminoyama-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "山本 幸靖",
+      "mayor_name_kana": null,
+      "term_start": "2023-04-26",
+      "term_start_display": null,
+      "term_end": "2027-04-25",
+      "term_end_display": null,
+      "term_note": "記載なし",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "県地域概要",
+          "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/murayama/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "県地域概要",
+        "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/murayama/index.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "上山市長は山本幸靖氏。任期満了日は県資料、現任期始期は4年任期で2023-04-26と整理。",
+      "findings_values": null,
+      "public_order": 158,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-06208",
+      "region_id": "mun-06208",
+      "pref_code": "06",
+      "pref_name": "山形県",
+      "municipality_code": "06208",
+      "city_name": "村山市",
+      "city_slug": "murayama-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "志布 隆夫",
+      "mayor_name_kana": null,
+      "term_start": "2025-09-01",
+      "term_start_display": null,
+      "term_end": "2029-08-31",
+      "term_end_display": null,
+      "term_note": "記載なし",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "県地域概要",
+          "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/murayama/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "県地域概要",
+        "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/murayama/index.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "県資料で現職名と任期満了日を確認。現任期始期は2025-09-01で整理。",
+      "findings_values": null,
+      "public_order": 159,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-06209",
+      "region_id": "mun-06209",
+      "pref_code": "06",
+      "pref_name": "山形県",
+      "municipality_code": "06209",
+      "city_name": "長井市",
+      "city_slug": "nagai-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "内谷 重治",
+      "mayor_name_kana": null,
+      "term_start": "2022-12-15",
+      "term_start_display": null,
+      "term_end": "2026-12-14",
+      "term_end_display": null,
+      "term_note": "5期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/okitama.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/okitama.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "山形県資料の任期満了日から現任期始期を4年任期で整理。",
+      "findings_values": null,
+      "public_order": 160,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-06210",
+      "region_id": "mun-06210",
+      "pref_code": "06",
+      "pref_name": "山形県",
+      "municipality_code": "06210",
+      "city_name": "天童市",
+      "city_slug": "tendou-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "新関 茂",
+      "mayor_name_kana": null,
+      "term_start": "2022-11-16",
+      "term_start_display": null,
+      "term_end": "2026-11-15",
+      "term_end_display": null,
+      "term_note": "記載なし",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/murayama/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/murayama/index.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "山形県資料の任期満了日から現任期始期を4年任期で整理。",
+      "findings_values": null,
+      "public_order": 161,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-06212",
+      "region_id": "mun-06212",
+      "pref_code": "06",
+      "pref_name": "山形県",
+      "municipality_code": "06212",
+      "city_name": "尾花沢市",
+      "city_slug": "obanazawa-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "結城 裕",
+      "mayor_name_kana": null,
+      "term_start": "2022-09-01",
+      "term_start_display": null,
+      "term_end": "2026-08-31",
+      "term_end_display": null,
+      "term_note": "記載なし",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/murayama/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/murayama/index.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "山形県資料の任期満了日から現任期始期を4年任期で整理。",
+      "findings_values": null,
+      "public_order": 162,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-06213",
+      "region_id": "mun-06213",
+      "pref_code": "06",
+      "pref_name": "山形県",
+      "municipality_code": "06213",
+      "city_name": "南陽市",
+      "city_slug": "nanyou-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "白岩 孝夫",
+      "mayor_name_kana": null,
+      "term_start": "2022-07-30",
+      "term_start_display": null,
+      "term_end": "2026-07-29",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/okitama.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/okitama.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "山形県資料の任期満了日から現任期始期を4年任期で整理。",
+      "findings_values": null,
+      "public_order": 202,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-06211",
+      "region_id": "mun-06211",
+      "pref_code": "06",
+      "pref_name": "山形県",
+      "municipality_code": "06211",
+      "city_name": "東根市",
+      "city_slug": "higashine-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "土田 正剛",
+      "mayor_name_kana": null,
+      "term_start": "2023-11-07",
+      "term_start_display": null,
+      "term_end": "2027-11-06",
+      "term_end_display": null,
+      "term_note": "記載なし",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/murayama/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/murayama/index.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "山形県資料の任期満了日から現任期始期を4年任期で整理。",
+      "findings_values": null,
+      "public_order": 184,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    }
+  ]
+}

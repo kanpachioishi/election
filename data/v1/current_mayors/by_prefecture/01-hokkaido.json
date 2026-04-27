@@ -1,0 +1,2105 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "01",
+  "pref_slug": "hokkaido",
+  "pref_name": "北海道",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/01-hokkaido",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-01218",
+      "region_id": "mun-01218",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01218",
+      "city_name": "赤平市",
+      "city_slug": "akabira-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "畠山 渉",
+      "mayor_name_kana": null,
+      "term_start": "2023-05-01",
+      "term_start_display": null,
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "道選管名簿",
+        "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/6/_/05_kubityoumeiR8323%E7%8F%BE%E5%9C%A8.xlsx"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "道選管の市町村長名一覧で畠山渉市長、任期満了日2027-04-30、連続就任2回を確認。現任期始期は2023-05-01と整理。",
+      "findings_values": null,
+      "public_order": 135,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01204",
+      "region_id": "mun-01204",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01204",
+      "city_name": "旭川市",
+      "city_slug": "asahikawa-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "今津 寛介",
+      "mayor_name_kana": null,
+      "term_start": "2025-09-26",
+      "term_start_display": null,
+      "term_end": "2029-09-25",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "道選管名簿",
+        "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/6/_/05_kubityoumeiR8323%E7%8F%BE%E5%9C%A8.xlsx"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "道選管の市町村長名一覧で今津寛介市長、任期満了日2029-09-25、連続就任2回を確認。現任期始期は4年任期から2025-09-26と整理。",
+      "findings_values": null,
+      "public_order": 122,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01216",
+      "region_id": "mun-01216",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01216",
+      "city_name": "芦別市",
+      "city_slug": "ashibetsu-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "北村 真",
+      "mayor_name_kana": null,
+      "term_start": "2025-02-26",
+      "term_start_display": null,
+      "term_end": "2029-02-25",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "道選管名簿",
+        "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/6/_/05_kubityoumeiR8323%E7%8F%BE%E5%9C%A8.xlsx"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "道選管の市町村長名一覧で北村真市長、任期満了日2029-02-25、連続就任1回を確認。",
+      "findings_values": null,
+      "public_order": 133,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01211",
+      "region_id": "mun-01211",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01211",
+      "city_name": "網走市",
+      "city_slug": "abashiri-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "水谷 洋一",
+      "mayor_name_kana": null,
+      "term_start": "2022-12-01",
+      "term_start_display": null,
+      "term_end": "2026-11-30",
+      "term_end_display": null,
+      "term_note": "4期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.abashiri.hokkaido.jp/soshiki/2/1401.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "網走市プロフィールと道選管名簿で水谷洋一市長、任期満了日2026-11-30、4期目を確認。現任期始期は2022-12-01と整理。",
+      "findings_values": null,
+      "public_order": 128,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01235",
+      "region_id": "mun-01235",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01235",
+      "city_name": "石狩市",
+      "city_slug": "ishikari-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "加藤 龍幸",
+      "mayor_name_kana": null,
+      "term_start": "2023-06-27",
+      "term_start_display": null,
+      "term_end": "2027-06-26",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.ishikari.hokkaido.jp/shisei/shiseiunei/1001918/1005656/1004366.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "石狩市の任期満了日ページと道選管名簿で加藤龍幸市長、任期満了日2027-06-26、2期目を確認。現任期始期は2023-06-27と整理。",
+      "findings_values": null,
+      "public_order": 200,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01210",
+      "region_id": "mun-01210",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01210",
+      "city_name": "岩見沢市",
+      "city_slug": "iwamizawa-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "松野 哲",
+      "mayor_name_kana": null,
+      "term_start": "2024-09-09",
+      "term_start_display": null,
+      "term_end": "2028-09-08",
+      "term_end_display": null,
+      "term_note": "4期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.iwamizawa.hokkaido.jp/shiseijoho/shicho_heya/7604.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "岩見沢市プロフィールと道選管名簿で松野哲市長、任期満了日2028-09-08、4期目を確認。現任期始期は2024-09-09と整理。",
+      "findings_values": null,
+      "public_order": 127,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01227",
+      "region_id": "mun-01227",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01227",
+      "city_name": "歌志内市",
+      "city_slug": "utashinai-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "柴田 一孔",
+      "mayor_name_kana": null,
+      "term_start": "2024-10-26",
+      "term_start_display": null,
+      "term_end": "2028-10-25",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "道選管名簿",
+        "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/6/_/05_kubityoumeiR8323%E7%8F%BE%E5%9C%A8.xlsx"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "道選管の市町村長名一覧で柴田一孔市長、任期満了日2028-10-25、連続就任2回を確認。現任期始期は2024-10-26と整理。",
+      "findings_values": null,
+      "public_order": 193,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01231",
+      "region_id": "mun-01231",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01231",
+      "city_name": "恵庭市",
+      "city_slug": "eniwa-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "原田 裕",
+      "mayor_name_kana": null,
+      "term_start": "2025-11-26",
+      "term_start_display": null,
+      "term_end": "2029-11-25",
+      "term_end_display": null,
+      "term_note": "5期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "道選管名簿",
+        "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/6/_/05_kubityoumeiR8323%E7%8F%BE%E5%9C%A8.xlsx"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "道選管の市町村長名一覧で原田裕市長、任期満了日2029-11-25、連続就任5回を確認。現任期始期は2025-11-26と整理。",
+      "findings_values": null,
+      "public_order": 188,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01217",
+      "region_id": "mun-01217",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01217",
+      "city_name": "江別市",
+      "city_slug": "ebetsu-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "後藤 好人",
+      "mayor_name_kana": null,
+      "term_start": "2023-05-01",
+      "term_start_display": null,
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.ebetsu.hokkaido.jp/site/shicho/3440.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "江別市プロフィールと道選管名簿で後藤好人市長、任期満了日2027-04-30、1期目を確認。現任期始期は2023-05-01と整理。",
+      "findings_values": null,
+      "public_order": 134,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01203",
+      "region_id": "mun-01203",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01203",
+      "city_name": "小樽市",
+      "city_slug": "otaru-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "迫 俊哉",
+      "mayor_name_kana": null,
+      "term_start": "2022-08-26",
+      "term_start_display": null,
+      "term_end": "2026-08-25",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満一级特黄大片（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "道選管名簿",
+        "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/6/_/05_kubityoumeiR8323%E7%8F%BE%E5%9C%A8.xlsx"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "道選管の市町村長名一覧で迫俊哉市長、任期満了日2026-08-25、連続就任2回を確認。",
+      "findings_values": null,
+      "public_order": 121,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01207",
+      "region_id": "mun-01207",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01207",
+      "city_name": "帯広市",
+      "city_slug": "obihiro-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "上野 庸介",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-21",
+      "term_start_display": null,
+      "term_end": "2030-04-20",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "開票速報",
+          "url": "https://www.city.obihiro.hokkaido.jp/shisei/senkyo/1023175/1023178.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_schedule",
+          "title": "帯広市長選挙の選挙期日等について",
+          "url": "https://www.city.obihiro.hokkaido.jp/shisei/senkyo/iinkai/1021406.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "開票速報",
+        "url": "https://www.city.obihiro.hokkaido.jp/shisei/senkyo/1023175/1023178.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-12執行の帯広市長選開票速報で上野ようすけ（上野庸介）氏当選を確認。旧任期満了日2026-04-20の翌日から現任期と整理。",
+      "findings_values": {
+        "mayor_name": "上野 ようすけ",
+        "term_start": "2026-04-21",
+        "term_end": "2030-04-20",
+        "note": "2026-04-12 執行の帯広市長選挙開票結果で 上野 ようすけ 氏当選を確認。前任期満了日 2026-04-20 の翌日を現任期始期として整理。"
+      },
+      "public_order": 190,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.md",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01234",
+      "region_id": "mun-01234",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01234",
+      "city_name": "北広島市",
+      "city_slug": "kitahiroshima-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "上野 正三",
+      "mayor_name_kana": null,
+      "term_start": "2025-07-23",
+      "term_start_display": null,
+      "term_end": "2029-07-22",
+      "term_end_display": null,
+      "term_note": "6期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長略歴",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長略歴に就任日が期ごとに明記。",
+      "findings_values": null,
+      "public_order": 118,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01208",
+      "region_id": "mun-01208",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01208",
+      "city_name": "北見市",
+      "city_slug": "kitami-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "辻 直孝",
+      "mayor_name_kana": null,
+      "term_start": "2023-09-27",
+      "term_start_display": null,
+      "term_end": "2027-09-26",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.kitami.lg.jp/administration/detail.php?content=8813"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "北見市プロフィールと道選管名簿で辻直孝市長、任期満了日2027-09-26、3期目を確認。現任期始期は2023-09-27と整理。",
+      "findings_values": null,
+      "public_order": 125,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01206",
+      "region_id": "mun-01206",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01206",
+      "city_name": "釧路市",
+      "city_slug": "kushiro-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "鶴間 秀典",
+      "mayor_name_kana": null,
+      "term_start": "2024-11-02",
+      "term_start_display": null,
+      "term_end": "2028-11-01",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "道選管名簿",
+        "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/6/_/05_kubityoumeiR8323%E7%8F%BE%E5%9C%A8.xlsx"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "道選管の市町村長名一覧で鶴間秀典市長、任期満了日2028-11-01、連続就任1回を確認。現任期始期は2024-11-02と整理。",
+      "findings_values": null,
+      "public_order": 124,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01100",
+      "region_id": "mun-01100",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01100",
+      "city_name": "札幌市",
+      "city_slug": "sapporo-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "秋元 克広",
+      "mayor_name_kana": null,
+      "term_start": "2023-05-02",
+      "term_start_display": null,
+      "term_end": "2027-05-01",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "札幌市公式プロフィールで2015年当選（任期5月2日から）、2019年再選、2023年三選を確認。現任期はそこから整理。",
+      "findings_values": null,
+      "public_order": 93,
+      "prefecture_city_order": 14,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01220",
+      "region_id": "mun-01220",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01220",
+      "city_name": "士別市",
+      "city_slug": "shibetsu-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "渡辺 英次",
+      "mayor_name_kana": null,
+      "term_start": "2025-09-25",
+      "term_start_display": null,
+      "term_end": "2029-09-24",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "理事者プロフィールに就任日が日付つきで明記。term_end_date は4年任期で整理。",
+      "findings_values": null,
+      "public_order": 111,
+      "prefecture_city_order": 15,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01226",
+      "region_id": "mun-01226",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01226",
+      "city_name": "砂川市",
+      "city_slug": "sunagawa-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "飯澤 明彦",
+      "mayor_name_kana": null,
+      "term_start": "2023-04-27",
+      "term_start_display": null,
+      "term_end": "2027-04-26",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "道選管名簿",
+        "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/6/_/05_kubityoumeiR8323%E7%8F%BE%E5%9C%A8.xlsx"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "道選管の市町村長名一覧で飯澤明彦市長、任期満了日2027-04-26、連続就任1回を確認。現任期始期は2023-04-27と整理。",
+      "findings_values": null,
+      "public_order": 192,
+      "prefecture_city_order": 16,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01225",
+      "region_id": "mun-01225",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01225",
+      "city_name": "滝川市",
+      "city_slug": "takikawa-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "前田 康吉",
+      "mayor_name_kana": null,
+      "term_start": "2023-04-27",
+      "term_start_display": null,
+      "term_end": "2027-04-26",
+      "term_end_display": null,
+      "term_note": "4期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "道選管名簿",
+        "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/6/_/05_kubityoumeiR8323%E7%8F%BE%E5%9C%A8.xlsx"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "道選管の市町村長名一覧で前田康吉市長、任期満了日2027-04-26、連続就任4回を確認。現任期始期は2023-04-27と整理。",
+      "findings_values": null,
+      "public_order": 114,
+      "prefecture_city_order": 17,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01233",
+      "region_id": "mun-01233",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01233",
+      "city_name": "伊達市",
+      "city_slug": "date-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "堀井 敬太",
+      "mayor_name_kana": null,
+      "term_start": "2023-05-01",
+      "term_start_display": null,
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満一级a（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "プロフィールで『2023年(令和5年)5月 伊達市長就任（1期目）』確認。日付は月のみのため1日始まりで整理。",
+      "findings_values": null,
+      "public_order": 117,
+      "prefecture_city_order": 18,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01224",
+      "region_id": "mun-01224",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01224",
+      "city_name": "千歳市",
+      "city_slug": "chitose-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "横田 隆一",
+      "mayor_name_kana": null,
+      "term_start": "2023-04-27",
+      "term_start_display": null,
+      "term_end": "2027-04-26",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満一级a（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "千歳市『入札・契約における市長名の取扱いについて』で『令和5年4月27日から新市長(横田 隆一)が就任』を確認。任期満了日は千歳市『議員等の任期』で令和9年4月26日を確認。",
+      "findings_values": null,
+      "public_order": 191,
+      "prefecture_city_order": 19,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01213",
+      "region_id": "mun-01213",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01213",
+      "city_name": "苫小牧市",
+      "city_slug": "tomakomai-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "金澤 俊",
+      "mayor_name_kana": null,
+      "term_start": "2024-12-08",
+      "term_start_display": null,
+      "term_end": "2028-12-07",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満平台总代（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "道選管名簿",
+        "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/6/_/05_kubityoumeiR8323%E7%8F%BE%E5%9C%A8.xlsx"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "道選管の市町村長名一覧で金澤俊市長、任期満了日2028-12-07、連続就任1回を確認。",
+      "findings_values": null,
+      "public_order": 130,
+      "prefecture_city_order": 20,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01221",
+      "region_id": "mun-01221",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01221",
+      "city_name": "名寄市",
+      "city_slug": "nayoro-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "加藤 剛士",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-23",
+      "term_start_display": null,
+      "term_end": "2030-04-22",
+      "term_end_display": null,
+      "term_note": "5期目",
+      "status": "needs_review",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_schedule",
+          "title": "名寄市長選挙及び名寄市議会議員補欠選挙",
+          "url": "https://www.city.nayoro.lg.jp/section/senkyo/prkeql0000045bcn.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長選日程",
+        "url": "https://www.city.nayoro.lg.jp/section/senkyo/prkeql0000045bcn.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "名寄市選管ページで2026-04-12告示・2026-04-19投票日程を確認。無投票当選は選挙報道で補完し、旧任期満了日2026-04-22の翌日から5期目と整理。",
+      "findings_values": {
+        "mayor_name": "加藤 剛士",
+        "term_start": "2022-04-23",
+        "term_end": "2026-04-22",
+        "note": "公式日程ページで 2026-04-19 投票予定は確認したが、2026-04-23 時点で公式の立候補届出状況または結果ページを確認できず、現任期更新の確定は保留。"
+      },
+      "public_order": 199,
+      "prefecture_city_order": 21,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.md",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01223",
+      "region_id": "mun-01223",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01223",
+      "city_name": "根室市",
+      "city_slug": "nemuro-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "石垣 雅敏",
+      "mayor_name_kana": null,
+      "term_start": "2022-09-29",
+      "term_start_display": null,
+      "term_end": "2026-09-28",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "プロフィールに任期が期ごとに明記あり。",
+      "findings_values": null,
+      "public_order": 113,
+      "prefecture_city_order": 22,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01230",
+      "region_id": "mun-01230",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01230",
+      "city_name": "登別市",
+      "city_slug": "noboribetsu-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "小笠原 春一",
+      "mayor_name_kana": null,
+      "term_start": "2024-08-28",
+      "term_start_display": null,
+      "term_end": "2028-08-27",
+      "term_end_display": null,
+      "term_note": "5期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "プロフィールは4期目まで掲載だが、任期が『令和6年8月27日まで』と明記されている。現職継続として次期を整理。",
+      "findings_values": null,
+      "public_order": 116,
+      "prefecture_city_order": 23,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01202",
+      "region_id": "mun-01202",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01202",
+      "city_name": "函館市",
+      "city_slug": "hakodate-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "大泉 潤",
+      "mayor_name_kana": null,
+      "term_start": "2023-04-27",
+      "term_start_display": null,
+      "term_end": "2027-04-26",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.hakodate.hokkaido.jp/mayor/index.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "函館市の市長ページと道選管名簿で大泉潤市長、任期満了日2027-04-26、1期目を確認。現任期始期は2023-04-27と整理。",
+      "findings_values": null,
+      "public_order": 120,
+      "prefecture_city_order": 24,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01215",
+      "region_id": "mun-01215",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01215",
+      "city_name": "美唄市",
+      "city_slug": "bibai-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "桜井 恒",
+      "mayor_name_kana": null,
+      "term_start": "2023-07-03",
+      "term_start_display": null,
+      "term_end": "2027-07-02",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.bibai.hokkaido.jp/site/mayor/354.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "美唄市プロフィールと道選管名簿で桜井恒市長、任期満了日2027-07-02、1期目を確認。現任期始期は2023-07-03と整理。",
+      "findings_values": null,
+      "public_order": 132,
+      "prefecture_city_order": 25,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01228",
+      "region_id": "mun-01228",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01228",
+      "city_name": "深川市",
+      "city_slug": "fukagawa-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "田中 昌幸",
+      "mayor_name_kana": null,
+      "term_start": "2023-01-21",
+      "term_start_display": null,
+      "term_end": "2027-01-20",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満分时时彩（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "道選管名簿",
+        "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/6/_/05_kubityoumeiR8323%E7%8F%BE%E5%9C%A8.xlsx"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "道選管の市町村長名一覧で田中昌幸市長、任期満了日2027-01-20、連続就任1回を確認。現任期始期は2023-01-21と整理。",
+      "findings_values": null,
+      "public_order": 115,
+      "prefecture_city_order": 26,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01229",
+      "region_id": "mun-01229",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01229",
+      "city_name": "富良野市",
+      "city_slug": "furano-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "北 猛俊",
+      "mayor_name_kana": null,
+      "term_start": "2026-05-15",
+      "term_start_display": null,
+      "term_end": "2030-05-14",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_notice",
+          "title": "富良野市長選挙のお知らせ",
+          "url": "https://www.city.furano.hokkaido.jp/life/docs/1890373.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_result",
+          "title": "富良野市長選挙の無投票のお知らせ",
+          "url": "https://www.city.furano.hokkaido.jp/life/docs/1903837.html?cat=%2Flife%2Fgyosei%2Fcity_oshirase%2F",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "無投票告知",
+        "url": "https://www.city.furano.hokkaido.jp/life/docs/1903837.html?cat=%2Flife%2Fgyosei%2Fcity_oshirase%2F"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-12公開の無投票告知で北猛俊氏のみ届出を確認。現任期満了日2026-05-14の翌日から3期目として整理。",
+      "findings_values": {
+        "mayor_name": "北猛俊",
+        "term_start": "2022-05-15",
+        "term_end": "2026-05-14",
+        "note": "2026-04-12 告示の市長選は立候補届出者1名のため無投票。2026-04-19 の投票・開票は行われず、現職 北 猛俊 氏の次期当選が決定。"
+      },
+      "public_order": 187,
+      "prefecture_city_order": 27,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.md",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01236",
+      "region_id": "mun-01236",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01236",
+      "city_name": "北斗市",
+      "city_slug": "hokuto-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "池田 達雄",
+      "mayor_name_kana": null,
+      "term_start": "2026-01-28",
+      "term_start_display": null,
+      "term_end": "2030-01-27",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満了一等奖（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "道選管名簿",
+        "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/6/_/05_kubityoumeiR8323%E7%8F%BE%E5%9C%A8.xlsx"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "道選管の市町村長名一覧で池田達雄市長、任期満了日2030-01-27、連続就任3回を確認。現任期始期は2026-01-28と整理。",
+      "findings_values": null,
+      "public_order": 119,
+      "prefecture_city_order": 28,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01222",
+      "region_id": "mun-01222",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01222",
+      "city_name": "三笠市",
+      "city_slug": "mikasa-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "西城 賢策",
+      "mayor_name_kana": null,
+      "term_start": "2023-05-01",
+      "term_start_display": null,
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満牲交（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "道選管名簿",
+        "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/6/_/05_kubityoumeiR8323%E7%8F%BE%E5%9C%A8.xlsx"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "道選管の市町村長名一覧で西城賢策市長、任期満了日2027-04-30、連続就任3回を確認。現任期始期は4年任期から2023-05-01と整理。",
+      "findings_values": null,
+      "public_order": 112,
+      "prefecture_city_order": 29,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01205",
+      "region_id": "mun-01205",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01205",
+      "city_name": "室蘭市",
+      "city_slug": "muroran-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "青山 剛",
+      "mayor_name_kana": null,
+      "term_start": "2023-05-01",
+      "term_start_display": null,
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "4期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.muroran.lg.jp/content/?content=2070"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "室蘭市プロフィールと道選管名簿で青山剛市長、任期満了日2027-04-30、4期目を確認。",
+      "findings_values": null,
+      "public_order": 123,
+      "prefecture_city_order": 30,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01219",
+      "region_id": "mun-01219",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01219",
+      "city_name": "紋別市",
+      "city_slug": "mombetsu-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "山崎 彰則",
+      "mayor_name_kana": null,
+      "term_start": "2025-06-30",
+      "term_start_display": null,
+      "term_end": "2029-06-29",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "道選管名簿",
+        "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/6/_/05_kubityoumeiR8323%E7%8F%BE%E5%9C%A8.xlsx"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "道選管の市町村長名一覧で山崎彰則市長、任期満了日2029-06-29、連続就任1回を確認。現任期始期は4年任期から2025-06-30と整理。",
+      "findings_values": null,
+      "public_order": 110,
+      "prefecture_city_order": 31,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01209",
+      "region_id": "mun-01209",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01209",
+      "city_name": "夕張市",
+      "city_slug": "yubari-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "厚谷 司",
+      "mayor_name_kana": null,
+      "term_start": "2023-04-23",
+      "term_start_display": null,
+      "term_end": "2027-04-22",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.yubari.lg.jp/site/mayor/1093.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "夕張市プロフィールと道選管名簿で厚谷司市長、任期満了日2027-04-22、2期目を確認。現任期始期は2023-04-23と整理。",
+      "findings_values": null,
+      "public_order": 126,
+      "prefecture_city_order": 32,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01212",
+      "region_id": "mun-01212",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01212",
+      "city_name": "留萌市",
+      "city_slug": "e-rumoi-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "益田 克己",
+      "mayor_name_kana": null,
+      "term_start": "2026-03-10",
+      "term_start_display": null,
+      "term_end": "2030-03-09",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "道選管名簿",
+        "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/6/_/05_kubityoumeiR8323%E7%8F%BE%E5%9C%A8.xlsx"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "道選管の市町村長名一覧で益田克己市長、任期満了日2030-03-09、連続就任1回を確認。2026-03-10就任式記事とも整合する。",
+      "findings_values": null,
+      "public_order": 129,
+      "prefecture_city_order": 33,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-01214",
+      "region_id": "mun-01214",
+      "pref_code": "01",
+      "pref_name": "北海道",
+      "municipality_code": "01214",
+      "city_name": "稚内市",
+      "city_slug": "wakkanai-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "工藤 広",
+      "mayor_name_kana": null,
+      "term_start": "2023-05-01",
+      "term_start_display": null,
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "4期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "市町村における長の選挙結果（市分）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/1/0/7/9/8/_/00_shi_080327.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村の長及び議会議員の任期満一覧（令和8年3月23日現在）",
+          "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/3/_/06_ninmanR8323%E7%8F%BE%E5%9C%A8.xlsx",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "道選管名簿",
+        "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/0/8/5/4/6/_/05_kubityoumeiR8323%E7%8F%BE%E5%9C%A8.xlsx"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "道選管の市町村長名一覧で工藤広市長、任期満了日2027-04-30、連続就任4回を確認。",
+      "findings_values": null,
+      "public_order": 131,
+      "prefecture_city_order": 34,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/01-hokkaido/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

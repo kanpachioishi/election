@@ -1,0 +1,2423 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "27",
+  "pref_slug": "osaka",
+  "pref_name": "大阪府",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/27-osaka",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-27140",
+      "region_id": "mun-27140",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27140",
+      "city_name": "堺市",
+      "city_slug": "sakai-shi",
+      "macro_region": "関西",
+      "mayor_name": "永藤 英機",
+      "mayor_name_kana": null,
+      "term_start": "2023-06-09",
+      "term_start_display": null,
+      "term_end": "2027-06-08",
+      "term_end_display": null,
+      "term_note": "公式プロフィールで2期目、選挙日程ページで任期満了日は令和9年6月8日。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長名と2期目は堺市公式プロフィール、任期満了日は堺市公式選挙日程で確認。始期は満了日の翌日として補完。",
+      "findings_values": {
+        "mayor_name": "永藤 英機",
+        "term_start": "2023-06-09",
+        "term_end": "2027-06-08",
+        "note": "市長名と2期目は堺市公式プロフィール、任期満了日は堺市公式選挙日程で確認。始期は満了日の翌日として補完。"
+      },
+      "public_order": 39,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27100",
+      "region_id": "mun-27100",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27100",
+      "city_name": "大阪市",
+      "city_slug": "osaka-shi",
+      "macro_region": "関西",
+      "mayor_name": "横山 英幸",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-08",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管の『議員・首長の任期満了日』PDFで確認。",
+      "findings_values": {
+        "mayor_name": "横山 英幸",
+        "term_start": "記載なし",
+        "term_end": "2027-04-08",
+        "note": "大阪府選管の『議員・首長の任期満了日』PDFで確認。"
+      },
+      "public_order": 533,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27202",
+      "region_id": "mun-27202",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27202",
+      "city_name": "岸和田市",
+      "city_slug": "kishiwada-shi",
+      "macro_region": "関西",
+      "mayor_name": "佐野 英利",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-05",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "佐野 英利",
+        "term_start": "記載なし",
+        "term_end": "2029-04-05",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 534,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27203",
+      "region_id": "mun-27203",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27203",
+      "city_name": "豊中市",
+      "city_slug": "toyonaka-shi",
+      "macro_region": "関西",
+      "mayor_name": "長内 繁樹",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-05-14",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "今後の選挙予定",
+          "url": "https://www.city.toyonaka.osaka.jp/joho/sanka/senkyo/sennkyoyotei.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "今後の選挙予定",
+        "url": "https://www.city.toyonaka.osaka.jp/joho/sanka/senkyo/sennkyoyotei.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "大阪府選管PDFで任期満了日を確認。次回豊中市長選は2026-04-19投開票。",
+      "findings_values": {
+        "mayor_name": "長内 繁樹",
+        "term_start": "記載なし",
+        "term_end": "2026-05-14",
+        "note": "大阪府選管PDFで任期満了日を確認。次回豊中市長選は2026-04-19投開票。"
+      },
+      "public_order": 535,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27204",
+      "region_id": "mun-27204",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27204",
+      "city_name": "池田市",
+      "city_slug": "ikeda-shi",
+      "macro_region": "関西",
+      "mayor_name": "瀧澤 智子",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-08-28",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "瀧澤 智子",
+        "term_start": "記載なし",
+        "term_end": "2029-08-28",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 536,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27205",
+      "region_id": "mun-27205",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27205",
+      "city_name": "吹田市",
+      "city_slug": "suita-shi",
+      "macro_region": "関西",
+      "mayor_name": "後藤 圭二",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-05-13",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "後藤 圭二",
+        "term_start": "記載なし",
+        "term_end": "2027-05-13",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 537,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27206",
+      "region_id": "mun-27206",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27206",
+      "city_name": "泉大津市",
+      "city_slug": "izumiootsu-shi",
+      "macro_region": "関西",
+      "mayor_name": "南出 賢一",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-01-12",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "南出 賢一",
+        "term_start": "記載なし",
+        "term_end": "2029-01-12",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 538,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27207",
+      "region_id": "mun-27207",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27207",
+      "city_name": "高槻市",
+      "city_slug": "takatsuki-shi",
+      "macro_region": "関西",
+      "mayor_name": "濱田 剛史",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "濱田 剛史",
+        "term_start": "記載なし",
+        "term_end": "2027-04-30",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 539,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27208",
+      "region_id": "mun-27208",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27208",
+      "city_name": "貝塚市",
+      "city_slug": "kaizuka-shi",
+      "macro_region": "関西",
+      "mayor_name": "牛尾 治朗",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-02-10",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "牛尾 治朗",
+        "term_start": "記載なし",
+        "term_end": "2030-02-10",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 540,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27209",
+      "region_id": "mun-27209",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27209",
+      "city_name": "守口市",
+      "city_slug": "moriguchi-shi",
+      "macro_region": "関西",
+      "mayor_name": "瀬野 憲一",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-22",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "瀬野 憲一",
+        "term_start": "記載なし",
+        "term_end": "2027-04-22",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 541,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27210",
+      "region_id": "mun-27210",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27210",
+      "city_name": "枚方市",
+      "city_slug": "hirakata-shi",
+      "macro_region": "関西",
+      "mayor_name": "伏見 隆",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-09-22",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "伏見 隆",
+        "term_start": "記載なし",
+        "term_end": "2027-09-22",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 542,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27211",
+      "region_id": "mun-27211",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27211",
+      "city_name": "茨木市",
+      "city_slug": "ibaraki-shi",
+      "macro_region": "関西",
+      "mayor_name": "福岡 洋一",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-17",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "福岡 洋一",
+        "term_start": "記載なし",
+        "term_end": "2028-04-17",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 543,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27212",
+      "region_id": "mun-27212",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27212",
+      "city_name": "八尾市",
+      "city_slug": "yao-shi",
+      "macro_region": "関西",
+      "mayor_name": "大松 桂右",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "大松 桂右",
+        "term_start": "記載なし",
+        "term_end": "2027-04-30",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 544,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27213",
+      "region_id": "mun-27213",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27213",
+      "city_name": "泉佐野市",
+      "city_slug": "izumisano-shi",
+      "macro_region": "関西",
+      "mayor_name": "千代松 大耕",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-25",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "千代松 大耕",
+        "term_start": "記載なし",
+        "term_end": "2027-04-25",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 545,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27214",
+      "region_id": "mun-27214",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27214",
+      "city_name": "富田林市",
+      "city_slug": "tondabayashi-shi",
+      "macro_region": "関西",
+      "mayor_name": "吉村 善美",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "吉村 善美",
+        "term_start": "記載なし",
+        "term_end": "2027-04-30",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 546,
+      "prefecture_city_order": 14,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27215",
+      "region_id": "mun-27215",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27215",
+      "city_name": "寝屋川市",
+      "city_slug": "neyagawa-shi",
+      "macro_region": "関西",
+      "mayor_name": "広瀬 慶輔",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-05-28",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "広瀬 慶輔",
+        "term_start": "記載なし",
+        "term_end": "2027-05-28",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 547,
+      "prefecture_city_order": 15,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27216",
+      "region_id": "mun-27216",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27216",
+      "city_name": "河内長野市",
+      "city_slug": "kawachinagano-shi",
+      "macro_region": "関西",
+      "mayor_name": "西野 修平",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-08-02",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "西野 修平",
+        "term_start": "記載なし",
+        "term_end": "2028-08-02",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 548,
+      "prefecture_city_order": 16,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27217",
+      "region_id": "mun-27217",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27217",
+      "city_name": "松原市",
+      "city_slug": "matsubara-shi",
+      "macro_region": "関西",
+      "mayor_name": "澤井 宏文",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-06-16",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "澤井 宏文",
+        "term_start": "記載なし",
+        "term_end": "2029-06-16",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 549,
+      "prefecture_city_order": 17,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27218",
+      "region_id": "mun-27218",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27218",
+      "city_name": "大東市",
+      "city_slug": "daitou-shi",
+      "macro_region": "関西",
+      "mayor_name": "逢坂 伸子",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-05-04",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "逢坂 伸子",
+        "term_start": "記載なし",
+        "term_end": "2028-05-04",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 550,
+      "prefecture_city_order": 18,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27219",
+      "region_id": "mun-27219",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27219",
+      "city_name": "和泉市",
+      "city_slug": "izumi-shi",
+      "macro_region": "関西",
+      "mayor_name": "辻 宏康",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-06-18",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "辻 宏康",
+        "term_start": "記載なし",
+        "term_end": "2029-06-18",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 551,
+      "prefecture_city_order": 19,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27220",
+      "region_id": "mun-27220",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27220",
+      "city_name": "箕面市",
+      "city_slug": "minoo-shi",
+      "macro_region": "関西",
+      "mayor_name": "原田 亮",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-08-26",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "原田 亮",
+        "term_start": "記載なし",
+        "term_end": "2028-08-26",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 552,
+      "prefecture_city_order": 20,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27221",
+      "region_id": "mun-27221",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27221",
+      "city_name": "柏原市",
+      "city_slug": "kashiwara-shi",
+      "macro_region": "関西",
+      "mayor_name": "冨宅 正浩",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-03-10",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "冨宅 正浩",
+        "term_start": "記載なし",
+        "term_end": "2029-03-10",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 553,
+      "prefecture_city_order": 21,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27222",
+      "region_id": "mun-27222",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27222",
+      "city_name": "羽曳野市",
+      "city_slug": "habikino-shi",
+      "macro_region": "関西",
+      "mayor_name": "山入端 創",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-07-24",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "山入端 創",
+        "term_start": "記載なし",
+        "term_end": "2028-07-24",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 554,
+      "prefecture_city_order": 22,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27223",
+      "region_id": "mun-27223",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27223",
+      "city_name": "門真市",
+      "city_slug": "kadoma-shi",
+      "macro_region": "関西",
+      "mayor_name": "宮本 一孝",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-07-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "宮本 一孝",
+        "term_start": "記載なし",
+        "term_end": "2028-07-23",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 555,
+      "prefecture_city_order": 23,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27224",
+      "region_id": "mun-27224",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27224",
+      "city_name": "摂津市",
+      "city_slug": "settsu-shi",
+      "macro_region": "関西",
+      "mayor_name": "嶋野 浩一朗",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-10-11",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "嶋野 浩一朗",
+        "term_start": "記載なし",
+        "term_end": "2028-10-11",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 556,
+      "prefecture_city_order": 24,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27225",
+      "region_id": "mun-27225",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27225",
+      "city_name": "高石市",
+      "city_slug": "takaishi-shi",
+      "macro_region": "関西",
+      "mayor_name": "畑中 政昭",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-26",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "畑中 政昭",
+        "term_start": "記載なし",
+        "term_end": "2027-04-26",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 557,
+      "prefecture_city_order": 25,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27226",
+      "region_id": "mun-27226",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27226",
+      "city_name": "藤井寺市",
+      "city_slug": "fujiidera-shi",
+      "macro_region": "関西",
+      "mayor_name": "岡田 一樹",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-05-16",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "岡田 一樹",
+        "term_start": "記載なし",
+        "term_end": "2027-05-16",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 558,
+      "prefecture_city_order": 26,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27227",
+      "region_id": "mun-27227",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27227",
+      "city_name": "東大阪市",
+      "city_slug": "higashioosaka-shi",
+      "macro_region": "関西",
+      "mayor_name": "野田 義和",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-10-27",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "野田 義和",
+        "term_start": "記載なし",
+        "term_end": "2027-10-27",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 559,
+      "prefecture_city_order": 27,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27228",
+      "region_id": "mun-27228",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27228",
+      "city_name": "泉南市",
+      "city_slug": "sennan-shi",
+      "macro_region": "関西",
+      "mayor_name": "山本 優真",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-05-21",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "選挙日程",
+          "url": "https://www.city.sennan.lg.jp/kakuka/gyousei/senkyokanri/11384.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "選挙日程",
+        "url": "https://www.city.sennan.lg.jp/kakuka/gyousei/senkyokanri/11384.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "大阪府選管PDFで任期満了日を確認。次回泉南市長選は2026-04-26投票。",
+      "findings_values": {
+        "mayor_name": "山本 優真",
+        "term_start": "記載なし",
+        "term_end": "2026-05-21",
+        "note": "大阪府選管PDFで任期満了日を確認。次回泉南市長選は2026-04-26投票。"
+      },
+      "public_order": 560,
+      "prefecture_city_order": 28,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27229",
+      "region_id": "mun-27229",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27229",
+      "city_name": "四條畷市",
+      "city_slug": "shijiyounawate-shi",
+      "macro_region": "関西",
+      "mayor_name": "銭谷 翔",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-01-19",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "銭谷 翔",
+        "term_start": "記載なし",
+        "term_end": "2029-01-19",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 561,
+      "prefecture_city_order": 29,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27230",
+      "region_id": "mun-27230",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27230",
+      "city_name": "交野市",
+      "city_slug": "katano-shi",
+      "macro_region": "関西",
+      "mayor_name": "山本 景",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-09-17",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "山本 景",
+        "term_start": "記載なし",
+        "term_end": "2026-09-17",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 562,
+      "prefecture_city_order": 30,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27231",
+      "region_id": "mun-27231",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27231",
+      "city_name": "大阪狭山市",
+      "city_slug": "oosakasayama-shi",
+      "macro_region": "関西",
+      "mayor_name": "古川 照人",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-26",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "古川 照人",
+        "term_start": "記載なし",
+        "term_end": "2027-04-26",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 563,
+      "prefecture_city_order": 31,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-27232",
+      "region_id": "mun-27232",
+      "pref_code": "27",
+      "pref_name": "大阪府",
+      "municipality_code": "27232",
+      "city_name": "阪南市",
+      "city_slug": "hannan-shi",
+      "macro_region": "関西",
+      "mayor_name": "上甲 誠",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-11",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "大阪府内の市町村",
+          "url": "https://www.pref.osaka.lg.jp/o070050/koho/links/city.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "大阪府 府内の選挙日程及び議員・首長の任期満了日",
+          "url": "https://www.pref.osaka.lg.jp/o190010/senkan/yotei/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.osaka.lg.jp/documents/15148/r080226ninki_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大阪府選管PDFで確認。",
+      "findings_values": {
+        "mayor_name": "上甲 誠",
+        "term_start": "記載なし",
+        "term_end": "2028-11-11",
+        "note": "大阪府選管PDFで確認。"
+      },
+      "public_order": 564,
+      "prefecture_city_order": 32,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.md",
+        "research/current-mayors/findings/27-osaka/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

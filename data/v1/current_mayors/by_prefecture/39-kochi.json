@@ -1,0 +1,839 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "39",
+  "pref_slug": "kochi",
+  "pref_name": "高知県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/39-kochi",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-39201",
+      "region_id": "mun-39201",
+      "pref_code": "39",
+      "pref_name": "高知県",
+      "municipality_code": "39201",
+      "city_name": "高知市",
+      "city_slug": "kouchi-shi",
+      "macro_region": "四国",
+      "mayor_name": "桑名 龍吾",
+      "mayor_name_kana": null,
+      "term_start": "2023-11-30",
+      "term_start_display": null,
+      "term_end": "2027-11-29",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "term_expiry_list",
+          "title": "選挙の種類とそれぞれの任期の満了日について",
+          "url": "https://www.city.kochi.kochi.jp/soshiki/99/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "inauguration_notice",
+          "title": "新市長就任に伴う工事関係書類の宛先について",
+          "url": "https://www.city.kochi.kochi.jp/soshiki/123/sinsityou-kankeisyorui.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.kochi.kochi.jp/soshiki/174/puro.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": "https://www.city.kochi.kochi.jp/soshiki/174/puro.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "高知市公式の就任告知で2023-11-30就任を確認し、市長プロフィールと選管の任期一覧で1期目・満了日を確認。",
+      "findings_values": {
+        "mayor_name": "桑名 龍吾",
+        "term_start": "2023-11-30",
+        "term_end": "2027-11-29",
+        "note": "令和5年11月30日より新市長が就任 と高知市選管の任期満了日一覧を確認。1期目。"
+      },
+      "public_order": 70,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.md",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-39202",
+      "region_id": "mun-39202",
+      "pref_code": "39",
+      "pref_name": "高知県",
+      "municipality_code": "39202",
+      "city_name": "室戸市",
+      "city_slug": "muroto-shi",
+      "macro_region": "四国",
+      "mayor_name": "植田 壯一郎",
+      "mayor_name_kana": null,
+      "term_start": "2022-12-04",
+      "term_start_display": null,
+      "term_end": "2026-12-03",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和4年11月20日執行 室戸市長選挙開票結果",
+          "url": "https://www.city.muroto.kochi.jp/pages/page2348.php",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "地方公共団体の議会の議員及び長の任期満了調",
+          "url": "https://www.pref.kochi.lg.jp/doc/sityouson-senkyoteisu/file_contents/file_2026173173025_1.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.muroto.kochi.jp/pages/page0553.php",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長選結果",
+        "url": "https://www.city.muroto.kochi.jp/pages/page2348.php"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2022-11-20執行の室戸市長選挙開票結果と県の任期満了調で確認。初当選後の現任期。",
+      "findings_values": {
+        "mayor_name": "植田 壯一郎",
+        "term_start": "2022-12-04",
+        "term_end": "2026-12-03",
+        "note": "2022-11-20 執行の室戸市長選挙開票結果と県の任期満了調で確認。初当選後の現任期として 1期目。"
+      },
+      "public_order": 679,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.md",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-39203",
+      "region_id": "mun-39203",
+      "pref_code": "39",
+      "pref_name": "高知県",
+      "municipality_code": "39203",
+      "city_name": "安芸市",
+      "city_slug": "aki-shi",
+      "macro_region": "四国",
+      "mayor_name": "西内 直彦",
+      "mayor_name_kana": null,
+      "term_start": "2025-09-03",
+      "term_start_display": null,
+      "term_end": "2029-09-02",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "安芸市長選挙及び安芸市議会議員補欠選挙は無投票となりました",
+          "url": "https://www.city.aki.kochi.jp/life/dtl.php?hdnKey=3768",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長の部屋",
+          "url": "https://www.city.aki.kochi.jp/life/dtl.php?hdnKey=674",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "地方公共団体の議会の議員及び長の任期満了調",
+          "url": "https://www.pref.kochi.lg.jp/doc/sityouson-senkyoteisu/file_contents/file_2026173173025_1.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "無投票告知",
+        "url": "https://www.city.aki.kochi.jp/life/dtl.php?hdnKey=3768"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "安芸市公式の無投票告知と市長の部屋に令和7年9月市長就任とあり、1期目と確認。",
+      "findings_values": {
+        "mayor_name": "西内 直彦",
+        "term_start": "2025-09-03",
+        "term_end": "2029-09-02",
+        "note": "安芸市公式の市長の部屋に 令和7年9月 安芸市長就任、市長選無投票告知に 西内 直彦 氏当選を確認。1期目。"
+      },
+      "public_order": 680,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.md",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-39204",
+      "region_id": "mun-39204",
+      "pref_code": "39",
+      "pref_name": "高知県",
+      "municipality_code": "39204",
+      "city_name": "南国市",
+      "city_slug": "nankoku-shi",
+      "macro_region": "四国",
+      "mayor_name": "平山 耕三",
+      "mayor_name_kana": null,
+      "term_start": "2025-08-06",
+      "term_start_display": null,
+      "term_end": "2029-08-05",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "市長メッセージ",
+          "url": "https://www.city.nankoku.lg.jp/shichou/",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_schedule",
+          "title": "令和7年 市町村等の議員及び長の任期満了調",
+          "url": "https://www.pref.kochi.lg.jp/doc/sityouson-senkyoteisu/file_contents/file_202512195113254_1.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "地方公共団体の議会の議員及び長の任期満了調",
+          "url": "https://www.pref.kochi.lg.jp/doc/sityouson-senkyoteisu/file_contents/file_2026173173025_1.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長メッセージ",
+        "url": "https://www.city.nankoku.lg.jp/shichou/"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "県選管の令和7年市町村長選挙一覧で2025-07-20執行を確認。再選後の2期目。",
+      "findings_values": {
+        "mayor_name": "平山 耕三",
+        "term_start": "2025-08-06",
+        "term_end": "2029-08-05",
+        "note": "県選管の 令和7年 市町村長選挙一覧で 2025-07-20 執行・無投票を確認。市公式の市長メッセージも現職を 平山 耕三 としており、再選後の 2期目 と整理。"
+      },
+      "public_order": 681,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.md",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-39205",
+      "region_id": "mun-39205",
+      "pref_code": "39",
+      "pref_name": "高知県",
+      "municipality_code": "39205",
+      "city_name": "土佐市",
+      "city_slug": "tosa-shi",
+      "macro_region": "四国",
+      "mayor_name": "板原 啓文",
+      "mayor_name_kana": null,
+      "term_start": "2023-10-29",
+      "term_start_display": null,
+      "term_end": "2027-10-28",
+      "term_end_display": null,
+      "term_note": "4期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_message",
+          "title": "市長就任のあいさつ",
+          "url": "https://www.city.tosa.lg.jp/life/detail.php?hdnKey=5436",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_result_index",
+          "title": "土佐市長選挙",
+          "url": "https://www.city.tosa.lg.jp/life/detail.php?hdnKey=958",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "地方公共団体の議会の議員及び長の任期満了調",
+          "url": "https://www.pref.kochi.lg.jp/doc/sityouson-senkyoteisu/file_contents/file_2026173173025_1.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "就任あいさつ",
+        "url": "https://www.city.tosa.lg.jp/life/detail.php?hdnKey=5436"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "市長就任のあいさつに令和5年10月の市長選後に引き続き市長に就任、4期16年間と明記。",
+      "findings_values": {
+        "mayor_name": "板原 啓文",
+        "term_start": "2023-10-29",
+        "term_end": "2027-10-28",
+        "note": "市長就任のあいさつで 令和5年10月 の市長選後に 引き続き市長に就任、4期16年間 と明記。4期目。"
+      },
+      "public_order": 682,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.md",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-39206",
+      "region_id": "mun-39206",
+      "pref_code": "39",
+      "pref_name": "高知県",
+      "municipality_code": "39206",
+      "city_name": "須崎市",
+      "city_slug": "susaki-shi",
+      "macro_region": "四国",
+      "mayor_name": "楠瀬 耕作",
+      "mayor_name_kana": null,
+      "term_start": "2024-02-01",
+      "term_start_display": null,
+      "term_end": "2028-01-31",
+      "term_end_display": null,
+      "term_note": "4期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "須崎市長選挙 無投票のお知らせ",
+          "url": "https://www.city.susaki.lg.jp/life/detail.php?hdnKey=4876",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長のあいさつ",
+          "url": "https://www.city.susaki.lg.jp/life/detail.php?hdnKey=127",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "地方公共団体の議会の議員及び長の任期満了調",
+          "url": "https://www.pref.kochi.lg.jp/doc/sityouson-senkyoteisu/file_contents/file_2026173173025_1.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長あいさつ",
+        "url": "https://www.city.susaki.lg.jp/life/detail.php?hdnKey=127"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "市長あいさつに平成24年2月須崎市長就任（現在4期目）とあり、2024-01-28の無投票告知と整合。",
+      "findings_values": {
+        "mayor_name": "楠瀬 耕作",
+        "term_start": "2024-02-01",
+        "term_end": "2028-01-31",
+        "note": "須崎市長あいさつに 平成24年2月 須崎市長就任（現在4期目） とあり、2024-01-28 の無投票告知と合わせて 4期目 を確認。"
+      },
+      "public_order": 683,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.md",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-39208",
+      "region_id": "mun-39208",
+      "pref_code": "39",
+      "pref_name": "高知県",
+      "municipality_code": "39208",
+      "city_name": "宿毛市",
+      "city_slug": "sukumo-shi",
+      "macro_region": "四国",
+      "mayor_name": "中平 富宏",
+      "mayor_name_kana": null,
+      "term_start": "2023-12-26",
+      "term_start_display": null,
+      "term_end": "2027-12-25",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "宿毛市長選挙 投開票結果報告",
+          "url": "https://www.city.sukumo.kochi.jp/docs-02/38271.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "official_profile",
+          "title": "宿毛市長 中平 富宏",
+          "url": "https://www.city.sukumo.kochi.jp/docs-05/p0608.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "地方公共団体の議会の議員及び長の任期満了調",
+          "url": "https://www.pref.kochi.lg.jp/doc/sityouson-senkyoteisu/file_contents/file_2026173173025_1.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長選結果",
+        "url": "https://www.city.sukumo.kochi.jp/docs-02/38271.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2023-11-26執行の宿毛市長選挙結果と市長プロフィールに令和5年12月市長3期目当選とある。",
+      "findings_values": {
+        "mayor_name": "中平 富宏",
+        "term_start": "2023-12-26",
+        "term_end": "2027-12-25",
+        "note": "宿毛市長選挙投開票結果で 2023-11-26 当選、宿毛市長ページに 令和5年12月 市長3期目当選 とある。3期目。"
+      },
+      "public_order": 684,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.md",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-39209",
+      "region_id": "mun-39209",
+      "pref_code": "39",
+      "pref_name": "高知県",
+      "municipality_code": "39209",
+      "city_name": "土佐清水市",
+      "city_slug": "tosashimizu-shi",
+      "macro_region": "四国",
+      "mayor_name": "橋本 敏男",
+      "mayor_name_kana": null,
+      "term_start": "2026-01-30",
+      "term_start_display": null,
+      "term_end": "2027-10-21",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_schedule",
+          "title": "令和8年 市町村等の議員及び長の任期満了調",
+          "url": "https://www.pref.kochi.lg.jp/doc/sityouson-senkyoteisu/file_contents/file_2026331285258_1.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "inauguration_message",
+          "title": "令和8年1月30日の市長室（就任のごあいさつ）",
+          "url": "https://www.city.tosashimizu.kochi.jp/kurashi/section/sityou/22860.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_schedule",
+          "title": "選挙執行予定等",
+          "url": "https://www.city.tosashimizu.kochi.jp/kurashi/section/senkyo/008.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "選挙執行予定等",
+        "url": "https://www.city.tosashimizu.kochi.jp/kurashi/section/senkyo/008.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-01-30就任あいさつで現職を確認。市公式の選挙執行予定等では任期満了日が2027-10-21。辞職に伴う市長選後の就任で通常の4年任期ではない。",
+      "findings_values": {
+        "mayor_name": "橋本 敏男",
+        "term_start": "2026-01-30",
+        "term_end": "2027-10-21",
+        "note": "2026-01-30 就任あいさつで現職を確認。土佐清水市公式 選挙執行予定等 では任期満了日が 2027-10-21。辞職に伴う 2026-01-18 市長選後の就任なので、通常の4年任期ではない。"
+      },
+      "public_order": 685,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.md",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-39210",
+      "region_id": "mun-39210",
+      "pref_code": "39",
+      "pref_name": "高知県",
+      "municipality_code": "39210",
+      "city_name": "四万十市",
+      "city_slug": "shimanto-shi",
+      "macro_region": "四国",
+      "mayor_name": "山下 元一郎",
+      "mayor_name_kana": null,
+      "term_start": "2025-05-15",
+      "term_start_display": null,
+      "term_end": "2029-05-14",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "四万十市長選挙 最終開票結果",
+          "url": "https://www.city.shimanto.lg.jp/soshiki/19/20751.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "inauguration_message",
+          "title": "就任挨拶",
+          "url": "https://www.city.shimanto.lg.jp/site/mayor/4432.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "地方公共団体の議会の議員及び長の任期満了調",
+          "url": "https://www.pref.kochi.lg.jp/doc/sityouson-senkyoteisu/file_contents/file_2026173173025_1.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "就任あいさつ",
+        "url": "https://www.city.shimanto.lg.jp/site/mayor/4432.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2025-04-20執行の四万十市長選挙結果と令和7年5月15日就任のあいさつで確認。",
+      "findings_values": {
+        "mayor_name": "山下 元一郎",
+        "term_start": "2025-05-15",
+        "term_end": "2029-05-14",
+        "note": "2025-04-20 執行の四万十市長選挙最終開票結果と 令和7年5月15日就任 の就任挨拶で確認。1期目。"
+      },
+      "public_order": 686,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.md",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-39211",
+      "region_id": "mun-39211",
+      "pref_code": "39",
+      "pref_name": "高知県",
+      "municipality_code": "39211",
+      "city_name": "香南市",
+      "city_slug": "kounan-shi",
+      "macro_region": "四国",
+      "mayor_name": "濱田 豪太",
+      "mayor_name_kana": null,
+      "term_start": "2026-01-30",
+      "term_start_display": null,
+      "term_end": "2030-01-29",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和8年1月25日執行 香南市長選挙は無投票となりました",
+          "url": "https://www.city.kochi-konan.lg.jp/shiseijoho/senkyo/12590.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長の部屋（市長あいさつ）",
+          "url": "https://www.city.kochi-konan.lg.jp/soshikikarasagasu/somuka/shichonoheya/5118.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "city_overview",
+          "title": "香南市 市勢要覧2022",
+          "url": "https://www.city.kochi-konan.lg.jp/material/files/group/2/siryouhenn.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "無投票告知",
+        "url": "https://www.city.kochi-konan.lg.jp/shiseijoho/senkyo/12590.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-01-25執行の香南市長選挙は無投票で、濱田豪太氏は現職候補。現任期は2期目。",
+      "findings_values": {
+        "mayor_name": "濱田 豪太",
+        "term_start": "2026-01-30",
+        "term_end": "2030-01-29",
+        "note": "2026-01-25 執行の香南市長選挙は無投票で、届出候補者 濱田 豪太 氏は 現。市勢要覧2022で前任期開始が 2022-01-30 と確認できるため、現任期は 2期目。"
+      },
+      "public_order": 687,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.md",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-39212",
+      "region_id": "mun-39212",
+      "pref_code": "39",
+      "pref_name": "高知県",
+      "municipality_code": "39212",
+      "city_name": "香美市",
+      "city_slug": "kami-shi",
+      "macro_region": "四国",
+      "mayor_name": "依光 晃一郎",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-09",
+      "term_start_display": null,
+      "term_end": "2030-04-08",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "2026年3月29日執行 香美市長選挙 投開票結果",
+          "url": "https://www.city.kami.lg.jp/soshiki/44/2026shicho.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長の部屋",
+          "url": "https://www.city.kami.lg.jp/adv/ba.php?id=47",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "地方公共団体の議会の議員及び長の任期満了調",
+          "url": "https://www.pref.kochi.lg.jp/doc/sityouson-senkyoteisu/file_contents/file_2026330184935_1.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.kami.lg.jp/soshiki/44/2026shicho.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-03-29執行の香美市長選挙投開票結果で依光晃一郎氏当選を確認。市長の部屋では2022-04-09就任が明記されており、現任期は2026-04-09開始で整理。",
+      "findings_values": {
+        "mayor_name": "依光 晃一郎",
+        "term_start": "2026-04-09",
+        "term_end": "2030-04-08",
+        "note": "2026-03-29 執行の香美市長選挙投開票結果と、市長の部屋の 令和4年4月9日より香美市長 表記から現任期を 2期目 と確認。"
+      },
+      "public_order": 688,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.md",
+        "research/current-mayors/findings/39-kochi/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

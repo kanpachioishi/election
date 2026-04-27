@@ -1,0 +1,882 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "09",
+  "pref_slug": "tochigi",
+  "pref_name": "栃木県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/09-tochigi",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-09203",
+      "region_id": "mun-09203",
+      "pref_code": "09",
+      "pref_name": "栃木県",
+      "municipality_code": "09203",
+      "city_name": "栃木市",
+      "city_slug": "tochigi-shi",
+      "macro_region": "関東",
+      "mayor_name": "ことより 昌男",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-25",
+      "term_start_display": null,
+      "term_end": "2030-04-24",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票速報",
+          "url": "https://www.city.tochigi.lg.jp/soshiki/58/89929.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "開票速報",
+        "url": "https://www.city.tochigi.lg.jp/soshiki/58/89929.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-19執行の栃木市長選開票速報の確定PDFで、ことより昌男氏当選を確認。現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "ことより 昌男",
+        "term_start": "2026-04-25",
+        "term_end": "2030-04-24",
+        "note": "2026-04-19執行の栃木市長選開票速報の確定PDFで、ことより昌男氏当選を確認。現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 20,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.md",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-09216",
+      "region_id": "mun-09216",
+      "pref_code": "09",
+      "pref_name": "栃木県",
+      "municipality_code": "09216",
+      "city_name": "下野市",
+      "city_slug": "shimotsuke-shi",
+      "macro_region": "関東",
+      "mayor_name": "坂村 哲也",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "2022-08",
+      "term_end": "2026-08-05",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "下野市公式プロフィールで『令和4年8月〜現在 下野市長』、今後の選挙予定で任期満了日を確認。",
+      "findings_values": {
+        "mayor_name": "坂村 哲也",
+        "term_start": "2022-08",
+        "term_end": "2026-08-05",
+        "note": "下野市公式プロフィールで『令和4年8月〜現在 下野市長』、今後の選挙予定で任期満了日を確認。"
+      },
+      "public_order": 61,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.md",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-09201",
+      "region_id": "mun-09201",
+      "pref_code": "09",
+      "pref_name": "栃木県",
+      "municipality_code": "09201",
+      "city_name": "宇都宮市",
+      "city_slug": "utsunomiya-shi",
+      "macro_region": "関東",
+      "mayor_name": "佐藤 栄一",
+      "mayor_name_kana": null,
+      "term_start": "2004-11-28",
+      "term_start_display": null,
+      "term_end": "2028-11-27",
+      "term_end_display": null,
+      "term_note": "記載なし",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.utsunomiya.lg.jp/shisei/senkyo/senkan/1010963.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.utsunomiya.lg.jp/shisei/senkyo/senkan/1010963.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "今後執行される選挙で宇都宮市長選挙の任期満了日を確認。現在任期の開始日と期数は明記ページを確認できず。",
+      "findings_values": {
+        "mayor_name": "佐藤 栄一",
+        "term_start": "2004-11-28",
+        "term_end": "2028-11-27",
+        "note": "今後執行される選挙で宇都宮市長選挙の任期満了日を確認。現在任期の開始日と期数は明記ページを確認できず。"
+      },
+      "public_order": 85,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.md",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-09202",
+      "region_id": "mun-09202",
+      "pref_code": "09",
+      "pref_name": "栃木県",
+      "municipality_code": "09202",
+      "city_name": "足利市",
+      "city_slug": "ashikaga-shi",
+      "macro_region": "関東",
+      "mayor_name": "早川 尚秀",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-20",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/21687",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/senkyo/21687"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "2025-04-20執行の市長選結果から現任期4年で整理。",
+      "findings_values": {
+        "mayor_name": "早川 尚秀",
+        "term_start": "記載なし",
+        "term_end": "2029-04-20",
+        "note": "2025-04-20執行の市長選結果から現任期4年で整理。"
+      },
+      "public_order": 227,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.md",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-09204",
+      "region_id": "mun-09204",
+      "pref_code": "09",
+      "pref_name": "栃木県",
+      "municipality_code": "09204",
+      "city_name": "佐野市",
+      "city_slug": "sano-shi",
+      "macro_region": "関東",
+      "mayor_name": "金子 裕",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-13",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/25733",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/senkyo/25733"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "2025-04-13執行の市長選結果から現任期4年で整理。",
+      "findings_values": {
+        "mayor_name": "金子 裕",
+        "term_start": "記載なし",
+        "term_end": "2029-04-13",
+        "note": "2025-04-13執行の市長選結果から現任期4年で整理。"
+      },
+      "public_order": 228,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.md",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-09205",
+      "region_id": "mun-09205",
+      "pref_code": "09",
+      "pref_name": "栃木県",
+      "municipality_code": "09205",
+      "city_name": "鹿沼市",
+      "city_slug": "kanuma-shi",
+      "macro_region": "関東",
+      "mayor_name": "松井 正一",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-06-20",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.kanuma.tochigi.jp/0386/info-0000001468-1.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.kanuma.tochigi.jp/0386/info-0000001468-1.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の選挙予定で確認。",
+      "findings_values": {
+        "mayor_name": "松井 正一",
+        "term_start": "記載なし",
+        "term_end": "2028-06-20",
+        "note": "市の選挙予定で確認。"
+      },
+      "public_order": 229,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.md",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-09206",
+      "region_id": "mun-09206",
+      "pref_code": "09",
+      "pref_name": "栃木県",
+      "municipality_code": "09206",
+      "city_name": "日光市",
+      "city_slug": "nikkou-shi",
+      "macro_region": "関東",
+      "mayor_name": "瀬髙 哲雄",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-27",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/jichitai/840",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/jichitai/840"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "日光市長選挙一覧の2025-04-27執行結果から現任期4年で整理。",
+      "findings_values": {
+        "mayor_name": "瀬髙 哲雄",
+        "term_start": "記載なし",
+        "term_end": "2029-04-27",
+        "note": "日光市長選挙一覧の2025-04-27執行結果から現任期4年で整理。"
+      },
+      "public_order": 230,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.md",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-09208",
+      "region_id": "mun-09208",
+      "pref_code": "09",
+      "pref_name": "栃木県",
+      "municipality_code": "09208",
+      "city_name": "小山市",
+      "city_slug": "oyama-shi",
+      "macro_region": "関東",
+      "mayor_name": "浅野 正富",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-07-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/28367",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/senkyo/28367"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "選挙ドットコムの次回小山市長選挙ページ掲載の任期満了日で確認。",
+      "findings_values": {
+        "mayor_name": "浅野 正富",
+        "term_start": "記載なし",
+        "term_end": "2028-07-30",
+        "note": "選挙ドットコムの次回小山市長選挙ページ掲載の任期満了日で確認。"
+      },
+      "public_order": 231,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.md",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-09209",
+      "region_id": "mun-09209",
+      "pref_code": "09",
+      "pref_name": "栃木県",
+      "municipality_code": "09209",
+      "city_name": "真岡市",
+      "city_slug": "mooka-shi",
+      "macro_region": "関東",
+      "mayor_name": "中村 和彦",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-05-14",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.moka.lg.jp/kakuka/senkyokanri/gyomu/senkyo/kategoribetu/sennkyoseido/1904.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.moka.lg.jp/kakuka/senkyokanri/gyomu/senkyo/kategoribetu/sennkyoseido/1904.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の公職任期満了日で確認。",
+      "findings_values": {
+        "mayor_name": "中村 和彦",
+        "term_start": "記載なし",
+        "term_end": "2029-05-14",
+        "note": "市の公職任期満了日で確認。"
+      },
+      "public_order": 232,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.md",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-09210",
+      "region_id": "mun-09210",
+      "pref_code": "09",
+      "pref_name": "栃木県",
+      "municipality_code": "09210",
+      "city_name": "大田原市",
+      "city_slug": "ootawara-shi",
+      "macro_region": "関東",
+      "mayor_name": "相馬 憲一",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-03-22",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/26495",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/senkyo/26495"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "2026-03-22執行の市長選結果から現任期4年で整理。",
+      "findings_values": {
+        "mayor_name": "相馬 憲一",
+        "term_start": "記載なし",
+        "term_end": "2030-03-22",
+        "note": "2026-03-22執行の市長選結果から現任期4年で整理。"
+      },
+      "public_order": 233,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.md",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-09211",
+      "region_id": "mun-09211",
+      "pref_code": "09",
+      "pref_name": "栃木県",
+      "municipality_code": "09211",
+      "city_name": "矢板市",
+      "city_slug": "yaita-shi",
+      "macro_region": "関東",
+      "mayor_name": "森島 武芳",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-16",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/28195",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/senkyo/28195"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "選挙ドットコムの次回矢板市長選挙ページ掲載の任期満了日で確認。",
+      "findings_values": {
+        "mayor_name": "森島 武芳",
+        "term_start": "記載なし",
+        "term_end": "2028-04-16",
+        "note": "選挙ドットコムの次回矢板市長選挙ページ掲載の任期満了日で確認。"
+      },
+      "public_order": 234,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.md",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-09213",
+      "region_id": "mun-09213",
+      "pref_code": "09",
+      "pref_name": "栃木県",
+      "municipality_code": "09213",
+      "city_name": "那須塩原市",
+      "city_slug": "nasushiobara-shi",
+      "macro_region": "関東",
+      "mayor_name": "渡辺 美知太郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-22",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/27138",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/senkyo/27138"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "選挙ドットコムの次回那須塩原市長選挙ページ掲載の任期満了日で確認。",
+      "findings_values": {
+        "mayor_name": "渡辺 美知太郎",
+        "term_start": "記載なし",
+        "term_end": "2027-04-22",
+        "note": "選挙ドットコムの次回那須塩原市長選挙ページ掲載の任期満了日で確認。"
+      },
+      "public_order": 235,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.md",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-09214",
+      "region_id": "mun-09214",
+      "pref_code": "09",
+      "pref_name": "栃木県",
+      "municipality_code": "09214",
+      "city_name": "さくら市",
+      "city_slug": "sakura-shi",
+      "macro_region": "関東",
+      "mayor_name": "中村 卓資",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.tochigi-sakura.lg.jp/government/000058/000341/p001436.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.tochigi-sakura.lg.jp/government/000058/000341/p001436.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の各種選挙任期等で確認。",
+      "findings_values": {
+        "mayor_name": "中村 卓資",
+        "term_start": "記載なし",
+        "term_end": "2029-04-23",
+        "note": "市の各種選挙任期等で確認。"
+      },
+      "public_order": 236,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.md",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-09215",
+      "region_id": "mun-09215",
+      "pref_code": "09",
+      "pref_name": "栃木県",
+      "municipality_code": "09215",
+      "city_name": "那須烏山市",
+      "city_slug": "nasukarasuyama-shi",
+      "macro_region": "関東",
+      "mayor_name": "川俣 純子",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-10-19",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "栃木県 選挙・任期情報",
+          "url": "https://www.tochigi-senkyo.jp",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/25737",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/senkyo/25737"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "2025-10-19執行の市長選結果から現任期4年で整理。",
+      "findings_values": {
+        "mayor_name": "川俣 純子",
+        "term_start": "記載なし",
+        "term_end": "2029-10-19",
+        "note": "2025-10-19執行の市長選結果から現任期4年で整理。"
+      },
+      "public_order": 237,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.md",
+        "research/current-mayors/findings/09-tochigi/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

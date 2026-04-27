@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "election_id": "el-mun-35206-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-35206-mayor-2026-other-01",
+      "election_id": "el-mun-35206-mayor-2026",
+      "kind": "other",
+      "title": "防府市長選挙の執行日を決定しました",
+      "url": "https://www.city.hofu.yamaguchi.jp/soshiki/52/shichousen-shikkoubi.html",
+      "summary": "防府市長選挙の選挙期日、告示日、任期満了日、野島投票区の繰上投票を確認できる防府市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.hofu.yamaguchi.jp/soshiki/52/shichousen-shikkoubi.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-35206-mayor-2026-early-voting-01",
+      "election_id": "el-mun-35206-mayor-2026",
+      "kind": "early_voting",
+      "title": "期日前投票制度",
+      "url": "https://www.city.hofu.yamaguchi.jp/soshiki/52/kijitumae-seido.html",
+      "summary": "期日前投票の制度、場所や期間の考え方、投票方法を確認できる防府市公式ページ。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.city.hofu.yamaguchi.jp/soshiki/52/kijitumae-seido.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-35206-mayor-2026-polling-place-01",
+      "election_id": "el-mun-35206-mayor-2026",
+      "kind": "polling_place",
+      "title": "投票区と区域の一覧表",
+      "url": "https://www.city.hofu.yamaguchi.jp/soshiki/52/touhyouku.html",
+      "summary": "防府市の投票区、区域、投票所を確認できる公式ページ。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.city.hofu.yamaguchi.jp/soshiki/52/touhyouku.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

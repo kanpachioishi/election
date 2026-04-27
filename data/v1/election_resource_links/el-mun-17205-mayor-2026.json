@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "election_id": "el-mun-17205-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-17205-mayor-2026-other-01",
+      "election_id": "el-mun-17205-mayor-2026",
+      "kind": "other",
+      "title": "令和8年執行珠洲市長選挙の選挙期日等について",
+      "url": "https://www.city.suzu.lg.jp/soshiki/1/24822.html",
+      "summary": "珠洲市長選挙の選挙期日、告示日、立候補予定者説明会を確認できる珠洲市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.suzu.lg.jp/soshiki/1/24822.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

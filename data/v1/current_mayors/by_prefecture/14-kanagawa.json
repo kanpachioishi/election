@@ -1,0 +1,1204 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "14",
+  "pref_slug": "kanagawa",
+  "pref_name": "神奈川県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/14-kanagawa",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-14100",
+      "region_id": "mun-14100",
+      "pref_code": "14",
+      "pref_name": "神奈川県",
+      "municipality_code": "14100",
+      "city_name": "横浜市",
+      "city_slug": "yokohama-shi",
+      "macro_region": "関東",
+      "mayor_name": "山中 竹春",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "2025-08",
+      "term_end": "2029-08-29",
+      "term_end_display": null,
+      "term_note": "2025年8月に第34代横浜市長（2期目）。任期満了日は令和11年8月29日。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "プロフィールで『2025年8月第34代横浜市長（2期目）』を確認。任期満了日は横浜市公式『公職の任期等』で確認。",
+      "findings_values": {
+        "mayor_name": "山中 竹春",
+        "term_start": "2025-08",
+        "term_end": "2029-08-29",
+        "note": "プロフィールで『2025年8月第34代横浜市長（2期目）』を確認。任期満了日は横浜市公式『公職の任期等』で確認。"
+      },
+      "public_order": 49,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-14150",
+      "region_id": "mun-14150",
+      "pref_code": "14",
+      "pref_name": "神奈川県",
+      "municipality_code": "14150",
+      "city_name": "相模原市",
+      "city_slug": "sagamihara-shi",
+      "macro_region": "関東",
+      "mayor_name": "本村 賢太郎",
+      "mayor_name_kana": null,
+      "term_start": "2023-04-22",
+      "term_start_display": null,
+      "term_end": "2027-04-21",
+      "term_end_display": null,
+      "term_note": "令和5年4月22日から現任期。任期満了日は令和9年4月21日。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "歴代市長一覧で『令和5年4月22日～ 本村賢太郎』を確認。任期満了日は選挙の種類と今後の日程で確認。",
+      "findings_values": {
+        "mayor_name": "本村 賢太郎",
+        "term_start": "2023-04-22",
+        "term_end": "2027-04-21",
+        "note": "歴代市長一覧で『令和5年4月22日～ 本村賢太郎』を確認。任期満了日は選挙の種類と今後の日程で確認。"
+      },
+      "public_order": 50,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-14130",
+      "region_id": "mun-14130",
+      "pref_code": "14",
+      "pref_name": "神奈川県",
+      "municipality_code": "14130",
+      "city_name": "川崎市",
+      "city_slug": "kawasaki-shi",
+      "macro_region": "関東",
+      "mayor_name": "福田 紀彦",
+      "mayor_name_kana": null,
+      "term_start": "2025-11-19",
+      "term_start_display": null,
+      "term_end": "2029-11-18",
+      "term_end_display": null,
+      "term_note": "4期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.kawasaki.jp/910/page/0000019034.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.kawasaki.jp/910/page/0000019034.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "選挙情報ページで任期満了日を確認。プロフィールで福田紀彦市長・4期を確認し、開始日は4年任期で逆算整理。",
+      "findings_values": {
+        "mayor_name": "福田 紀彦",
+        "term_start": "2025-11-19",
+        "term_end": "2029-11-18",
+        "note": "選挙情報ページで任期満了日を確認。プロフィールで福田紀彦市長・4期を確認し、開始日は4年任期で逆算整理。"
+      },
+      "public_order": 87,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-14207",
+      "region_id": "mun-14207",
+      "pref_code": "14",
+      "pref_name": "神奈川県",
+      "municipality_code": "14207",
+      "city_name": "茅ヶ崎市",
+      "city_slug": "chigasaki-shi",
+      "macro_region": "関東",
+      "mayor_name": "佐藤 光",
+      "mayor_name_kana": null,
+      "term_start": "2022-11-18",
+      "term_start_display": null,
+      "term_end": "2026-11-17",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.chigasaki.kanagawa.jp/profile/1007341.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.chigasaki.kanagawa.jp/profile/1007341.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "歴代市長ページで現職の就任日を確認。2期目は市長資産公開の『2期目就任時』表記で確認。",
+      "findings_values": {
+        "mayor_name": "佐藤 光",
+        "term_start": "2022-11-18",
+        "term_end": "2026-11-17",
+        "note": "歴代市長ページで現職の就任日を確認。2期目は市長資産公開の『2期目就任時』表記で確認。"
+      },
+      "public_order": 88,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-14208",
+      "region_id": "mun-14208",
+      "pref_code": "14",
+      "pref_name": "神奈川県",
+      "municipality_code": "14208",
+      "city_name": "逗子市",
+      "city_slug": "zushi-shi",
+      "macro_region": "関東",
+      "mayor_name": "桐ケ谷 覚",
+      "mayor_name_kana": null,
+      "term_start": "2022-12-25",
+      "term_start_display": null,
+      "term_end": "2026-12-24",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.zushi.kanagawa.jp/shisei/mayor/1005158.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.zushi.kanagawa.jp/shisei/mayor/1005158.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "歴代市長ページで現職の現任期開始日を確認。2期目は市長プロフィール、満了日は選挙の種類ページで確認。",
+      "findings_values": {
+        "mayor_name": "桐ケ谷 覚",
+        "term_start": "2022-12-25",
+        "term_end": "2026-12-24",
+        "note": "歴代市長ページで現職の現任期開始日を確認。2期目は市長プロフィール、満了日は選挙の種類ページで確認。"
+      },
+      "public_order": 89,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-14212",
+      "region_id": "mun-14212",
+      "pref_code": "14",
+      "pref_name": "神奈川県",
+      "municipality_code": "14212",
+      "city_name": "厚木市",
+      "city_slug": "atsugi-shi",
+      "macro_region": "関東",
+      "mayor_name": "山口 貴裕",
+      "mayor_name_kana": null,
+      "term_start": "2023-02-23",
+      "term_start_display": null,
+      "term_end": "2027-02-22",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.atsugi.kanagawa.jp/soshiki/senkyokanriiinkai/14/8895.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.atsugi.kanagawa.jp/soshiki/senkyokanriiinkai/14/8895.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "議員等の任期で厚木市長の任期満了日を確認。市長プロフィールで現職名と令和5年2月就任を確認し、開始日は4年任期で逆算整理。",
+      "findings_values": {
+        "mayor_name": "山口 貴裕",
+        "term_start": "2023-02-23",
+        "term_end": "2027-02-22",
+        "note": "議員等の任期で厚木市長の任期満了日を確認。市長プロフィールで現職名と令和5年2月就任を確認し、開始日は4年任期で逆算整理。"
+      },
+      "public_order": 90,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-14201",
+      "region_id": "mun-14201",
+      "pref_code": "14",
+      "pref_name": "神奈川県",
+      "municipality_code": "14201",
+      "city_name": "横須賀市",
+      "city_slug": "yokosuka-shi",
+      "macro_region": "関東",
+      "mayor_name": "上地 克明",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-07-09",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.yokosuka.kanagawa.jp/0820/senkyo/ninkimanryoubi.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.yokosuka.kanagawa.jp/0820/senkyo/ninkimanryoubi.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "上地 克明",
+        "term_start": "記載なし",
+        "term_end": "2029-07-09",
+        "note": "市の任期満了日一覧で確認。"
+      },
+      "public_order": 338,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-14203",
+      "region_id": "mun-14203",
+      "pref_code": "14",
+      "pref_name": "神奈川県",
+      "municipality_code": "14203",
+      "city_name": "平塚市",
+      "city_slug": "hiratsuka-shi",
+      "macro_region": "関東",
+      "mayor_name": "落合 克宏",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-29",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.hiratsuka.kanagawa.jp/gyosei/page-c_02269.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.hiratsuka.kanagawa.jp/gyosei/page-c_02269.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "落合 克宏",
+        "term_start": "記載なし",
+        "term_end": "2027-04-29",
+        "note": "市の任期満了日一覧で確認。"
+      },
+      "public_order": 339,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-14204",
+      "region_id": "mun-14204",
+      "pref_code": "14",
+      "pref_name": "神奈川県",
+      "municipality_code": "14204",
+      "city_name": "鎌倉市",
+      "city_slug": "kamakura-shi",
+      "macro_region": "関東",
+      "mayor_name": "松尾 崇",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-10-31",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.kamakura.kanagawa.jp/kisya/data/2025/20250603.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.kamakura.kanagawa.jp/kisya/data/2025/20250603.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市長選挙期日ページの任期満了日（2025-10-31）から現職4年任期で整理。",
+      "findings_values": {
+        "mayor_name": "松尾 崇",
+        "term_start": "記載なし",
+        "term_end": "2029-10-31",
+        "note": "市長選挙期日ページの任期満了日（2025-10-31）から現職4年任期で整理。"
+      },
+      "public_order": 340,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-14205",
+      "region_id": "mun-14205",
+      "pref_code": "14",
+      "pref_name": "神奈川県",
+      "municipality_code": "14205",
+      "city_name": "藤沢市",
+      "city_slug": "fujisawa-shi",
+      "macro_region": "関東",
+      "mayor_name": "鈴木 恒夫",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-02-25",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.fujisawa.kanagawa.jp/documents/8704/20250904092734.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.fujisawa.kanagawa.jp/documents/8704/20250904092734.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の各種選挙の任期と定数PDFで確認。",
+      "findings_values": {
+        "mayor_name": "鈴木 恒夫",
+        "term_start": "記載なし",
+        "term_end": "2028-02-25",
+        "note": "市の各種選挙の任期と定数PDFで確認。"
+      },
+      "public_order": 341,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-14206",
+      "region_id": "mun-14206",
+      "pref_code": "14",
+      "pref_name": "神奈川県",
+      "municipality_code": "14206",
+      "city_name": "小田原市",
+      "city_slug": "odawara-shi",
+      "macro_region": "関東",
+      "mayor_name": "加藤 憲一",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-05-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.odawara.kanagawa.jp/municipality/election/term_of_office.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.odawara.kanagawa.jp/municipality/election/term_of_office.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "加藤 憲一",
+        "term_start": "記載なし",
+        "term_end": "2028-05-23",
+        "note": "市の任期満了日一覧で確認。"
+      },
+      "public_order": 342,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-14210",
+      "region_id": "mun-14210",
+      "pref_code": "14",
+      "pref_name": "神奈川県",
+      "municipality_code": "14210",
+      "city_name": "三浦市",
+      "city_slug": "miura-shi",
+      "macro_region": "関東",
+      "mayor_name": "出口 嘉一",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-06-28",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.miura.kanagawa.jp/soshiki/senkan/10982.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.miura.kanagawa.jp/soshiki/senkan/10982.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市長選挙案内ページの任期満了日（2025-06-28）から現職4年任期で整理。",
+      "findings_values": {
+        "mayor_name": "出口 嘉一",
+        "term_start": "記載なし",
+        "term_end": "2029-06-28",
+        "note": "市長選挙案内ページの任期満了日（2025-06-28）から現職4年任期で整理。"
+      },
+      "public_order": 343,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-14211",
+      "region_id": "mun-14211",
+      "pref_code": "14",
+      "pref_name": "神奈川県",
+      "municipality_code": "14211",
+      "city_name": "秦野市",
+      "city_slug": "hadano-shi",
+      "macro_region": "関東",
+      "mayor_name": "高橋 昌和",
+      "mayor_name_kana": null,
+      "term_start": "2026-01-31",
+      "term_start_display": null,
+      "term_end": "2030-01-30",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.hadano.kanagawa.jp/soshiki/1/1006/1/3207.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.hadano.kanagawa.jp/soshiki/1/1006/1/3207.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "秦野市長プロフィールに令和8年1月31日〜令和12年1月30日（3期目）と明記。",
+      "findings_values": {
+        "mayor_name": "高橋 昌和",
+        "term_start": "2026-01-31",
+        "term_end": "2030-01-30",
+        "note": "秦野市長プロフィールに令和8年1月31日〜令和12年1月30日（3期目）と明記。"
+      },
+      "public_order": 344,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-14213",
+      "region_id": "mun-14213",
+      "pref_code": "14",
+      "pref_name": "神奈川県",
+      "municipality_code": "14213",
+      "city_name": "大和市",
+      "city_slug": "yamato-shi",
+      "macro_region": "関東",
+      "mayor_name": "古谷田 力",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-22",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.yamato.lg.jp/gyosei/soshik/68/20667.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.yamato.lg.jp/gyosei/soshik/68/20667.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大和市の令和5年4月23日執行市長選挙結果ページを根拠に、現任期4年で整理。",
+      "findings_values": {
+        "mayor_name": "古谷田 力",
+        "term_start": "記載なし",
+        "term_end": "2027-04-22",
+        "note": "大和市の令和5年4月23日執行市長選挙結果ページを根拠に、現任期4年で整理。"
+      },
+      "public_order": 345,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-14214",
+      "region_id": "mun-14214",
+      "pref_code": "14",
+      "pref_name": "神奈川県",
+      "municipality_code": "14214",
+      "city_name": "伊勢原市",
+      "city_slug": "isehara-shi",
+      "macro_region": "関東",
+      "mayor_name": "萩原 鉄也",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-09-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.isehara.kanagawa.jp/docs/2024040200020/",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.isehara.kanagawa.jp/docs/2024040200020/"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市長選挙期日ページの任期満了日（2024-09-30）から現職4年任期で整理。",
+      "findings_values": {
+        "mayor_name": "萩原 鉄也",
+        "term_start": "記載なし",
+        "term_end": "2028-09-30",
+        "note": "市長選挙期日ページの任期満了日（2024-09-30）から現職4年任期で整理。"
+      },
+      "public_order": 346,
+      "prefecture_city_order": 14,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-14215",
+      "region_id": "mun-14215",
+      "pref_code": "14",
+      "pref_name": "神奈川県",
+      "municipality_code": "14215",
+      "city_name": "海老名市",
+      "city_slug": "ebina-shi",
+      "macro_region": "関東",
+      "mayor_name": "内野 優",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-12-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.ebina.kanagawa.jp/_res/projects/default_project/_page_/001/015/562/0512.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.ebina.kanagawa.jp/_res/projects/default_project/_page_/001/015/562/0512.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市長選挙期日決定の報道資料にある任期満了日（2023-12-23）から現職4年任期で整理。",
+      "findings_values": {
+        "mayor_name": "内野 優",
+        "term_start": "記載なし",
+        "term_end": "2027-12-23",
+        "note": "市長選挙期日決定の報道資料にある任期満了日（2023-12-23）から現職4年任期で整理。"
+      },
+      "public_order": 347,
+      "prefecture_city_order": 15,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-14216",
+      "region_id": "mun-14216",
+      "pref_code": "14",
+      "pref_name": "神奈川県",
+      "municipality_code": "14216",
+      "city_name": "座間市",
+      "city_slug": "zama-shi",
+      "macro_region": "関東",
+      "mayor_name": "佐藤 弥斗",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-09-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.zama.kanagawa.jp/shisei/senkyo/1010132/index.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.zama.kanagawa.jp/shisei/senkyo/1010132/index.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市長選挙案内ページの任期満了日（2024-09-30）から現職4年任期で整理。",
+      "findings_values": {
+        "mayor_name": "佐藤 弥斗",
+        "term_start": "記載なし",
+        "term_end": "2028-09-30",
+        "note": "市長選挙案内ページの任期満了日（2024-09-30）から現職4年任期で整理。"
+      },
+      "public_order": 348,
+      "prefecture_city_order": 16,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-14217",
+      "region_id": "mun-14217",
+      "pref_code": "14",
+      "pref_name": "神奈川県",
+      "municipality_code": "14217",
+      "city_name": "南足柄市",
+      "city_slug": "minamiashigara-shi",
+      "macro_region": "関東",
+      "mayor_name": "加藤 修平",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-22",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.minamiashigara.kanagawa.jp/machi/senkyo/kekka/050423touhyou.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.minamiashigara.kanagawa.jp/machi/senkyo/kekka/050423touhyou.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "南足柄市の令和5年4月23日執行市長選挙結果ページを根拠に、現任期4年で整理。",
+      "findings_values": {
+        "mayor_name": "加藤 修平",
+        "term_start": "記載なし",
+        "term_end": "2027-04-22",
+        "note": "南足柄市の令和5年4月23日執行市長選挙結果ページを根拠に、現任期4年で整理。"
+      },
+      "public_order": 349,
+      "prefecture_city_order": 17,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-14218",
+      "region_id": "mun-14218",
+      "pref_code": "14",
+      "pref_name": "神奈川県",
+      "municipality_code": "14218",
+      "city_name": "綾瀬市",
+      "city_slug": "ayase-shi",
+      "macro_region": "関東",
+      "mayor_name": "橘川 佳彦",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-07-24",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "神奈川県選挙管理委員会 任期満了日（PDF）",
+          "url": "https://www.pref.kanagawa.jp/documents/7396/ninki.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.ayase.kanagawa.jp/ct/other000013400/senkyo_ninki.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.ayase.kanagawa.jp/ct/other000013400/senkyo_ninki.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "橘川 佳彦",
+        "term_start": "記載なし",
+        "term_end": "2028-07-24",
+        "note": "市の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 350,
+      "prefecture_city_order": 18,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/14-kanagawa/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1802 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "40",
+  "pref_slug": "fukuoka",
+  "pref_name": "福岡県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/40-fukuoka",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-40100",
+      "region_id": "mun-40100",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40100",
+      "city_name": "北九州市",
+      "city_slug": "kitakyushu-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "武内 和久",
+      "mayor_name_kana": null,
+      "term_start": "2023-02-20",
+      "term_start_display": null,
+      "term_end": "2027-02-19",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿と任期満了日一覧で現任期を確認。",
+      "findings_values": {
+        "mayor_name": "武内 和久",
+        "term_start": "2023-02-20",
+        "term_end": "2027-02-19",
+        "note": "県選管の市町村長名簿と任期満了日一覧で現任期を確認。"
+      },
+      "public_order": 56,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40130",
+      "region_id": "mun-40130",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40130",
+      "city_name": "福岡市",
+      "city_slug": "fukuoka-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "高島 宗一郎",
+      "mayor_name_kana": null,
+      "term_start": "2022-12-07",
+      "term_start_display": null,
+      "term_end": "2026-12-06",
+      "term_end_display": null,
+      "term_note": "4期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿と任期満了日一覧で現任期を確認。",
+      "findings_values": {
+        "mayor_name": "高島 宗一郎",
+        "term_start": "2022-12-07",
+        "term_end": "2026-12-06",
+        "note": "県選管資料と現行ページが一致。"
+      },
+      "public_order": 55,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40202",
+      "region_id": "mun-40202",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40202",
+      "city_name": "大牟田市",
+      "city_slug": "omuta-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "関 好孝",
+      "mayor_name_kana": null,
+      "term_start": "2023-12-03",
+      "term_start_display": null,
+      "term_end": "2027-12-02",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿で現職名と当選回数、任期満了日一覧で満了日を確認。現任期の始期は4年任期として整理。",
+      "findings_values": null,
+      "public_order": 689,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40203",
+      "region_id": "mun-40203",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40203",
+      "city_name": "久留米市",
+      "city_slug": "kurume-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "原口 新五",
+      "mayor_name_kana": null,
+      "term_start": "2026-01-31",
+      "term_start_display": null,
+      "term_end": "2030-01-30",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿で現職名と当選回数、任期満了日一覧で満了日を確認。現任期の始期は4年任期として整理。",
+      "findings_values": null,
+      "public_order": 690,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40204",
+      "region_id": "mun-40204",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40204",
+      "city_name": "直方市",
+      "city_slug": "nogata-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "大塚 進弘",
+      "mayor_name_kana": null,
+      "term_start": "2023-04-26",
+      "term_start_display": null,
+      "term_end": "2027-04-25",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿で現職名と当選回数、任期満了日一覧で満了日を確認。現任期の始期は4年任期として整理。",
+      "findings_values": null,
+      "public_order": 691,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40205",
+      "region_id": "mun-40205",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40205",
+      "city_name": "飯塚市",
+      "city_slug": "iizuka-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "武井 政一",
+      "mayor_name_kana": null,
+      "term_start": "2023-11-12",
+      "term_start_display": null,
+      "term_end": "2027-11-11",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿と任期満了日一覧で現任期を確認。",
+      "findings_values": null,
+      "public_order": 692,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40206",
+      "region_id": "mun-40206",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40206",
+      "city_name": "田川市",
+      "city_slug": "joho-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "村上 卓哉",
+      "mayor_name_kana": null,
+      "term_start": "2023-04-30",
+      "term_start_display": null,
+      "term_end": "2027-04-29",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿と任期満了日一覧で現任期を確認。",
+      "findings_values": null,
+      "public_order": 693,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40207",
+      "region_id": "mun-40207",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40207",
+      "city_name": "柳川市",
+      "city_slug": "yanagawa-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "松永 久",
+      "mayor_name_kana": null,
+      "term_start": "2025-04-24",
+      "term_start_display": null,
+      "term_end": "2029-04-23",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿と任期満了日一覧で現任期を確認。",
+      "findings_values": null,
+      "public_order": 694,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40210",
+      "region_id": "mun-40210",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40210",
+      "city_name": "八女市",
+      "city_slug": "yame-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "簑原 悠太朗",
+      "mayor_name_kana": null,
+      "term_start": "2024-11-16",
+      "term_start_display": null,
+      "term_end": "2028-11-15",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿と任期満了日一覧で現任期を確認。",
+      "findings_values": null,
+      "public_order": 695,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40211",
+      "region_id": "mun-40211",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40211",
+      "city_name": "筑後市",
+      "city_slug": "chikugo-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "西田 正治",
+      "mayor_name_kana": null,
+      "term_start": "2025-12-03",
+      "term_start_display": null,
+      "term_end": "2029-12-02",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿で現職名と当選回数、任期満了日一覧で満了日を確認。現任期の始期は4年任期として整理。",
+      "findings_values": null,
+      "public_order": 696,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40212",
+      "region_id": "mun-40212",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40212",
+      "city_name": "大川市",
+      "city_slug": "okawa-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "江藤 義行",
+      "mayor_name_kana": null,
+      "term_start": "2024-10-23",
+      "term_start_display": null,
+      "term_end": "2028-10-22",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿と任期満了日一覧で現任期を確認。",
+      "findings_values": null,
+      "public_order": 697,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40213",
+      "region_id": "mun-40213",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40213",
+      "city_name": "行橋市",
+      "city_slug": "yukuhashi-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "工藤 政宏",
+      "mayor_name_kana": null,
+      "term_start": "2026-03-18",
+      "term_start_display": null,
+      "term_end": "2030-03-17",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿で現職名と当選回数、任期満了日一覧で満了日を確認。現任期の始期は4年任期として整理。",
+      "findings_values": null,
+      "public_order": 18,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40214",
+      "region_id": "mun-40214",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40214",
+      "city_name": "豊前市",
+      "city_slug": "buzen-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "西元 健",
+      "mayor_name_kana": null,
+      "term_start": "2025-04-20",
+      "term_start_display": null,
+      "term_end": "2029-04-19",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿と任期満了日一覧で現任期を確認。",
+      "findings_values": null,
+      "public_order": 698,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40215",
+      "region_id": "mun-40215",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40215",
+      "city_name": "中間市",
+      "city_slug": "nakama-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "福田 健次",
+      "mayor_name_kana": null,
+      "term_start": "2025-06-18",
+      "term_start_display": null,
+      "term_end": "2029-06-17",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_result",
+          "title": "中間市長選挙結果（令和7年6月15日執行）",
+          "url": "https://www.city.nakama.lg.jp/soshiki/32/15741.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "mayor_profile",
+          "title": "プロフィール - 市長の部屋",
+          "url": "https://www.city.nakama.lg.jp/site/shokai-mayor/1426.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "県選管名簿は戸籍名の `福田 浩` 表記だが、市公式プロフィールと市長選結果の `福田 健次` 表記に合わせて整理。任期満了日は県選管資料で確認。",
+      "findings_values": {
+        "mayor_name": "福田 健次",
+        "term_start": "2025-06-18",
+        "term_end": "2029-06-17",
+        "note": "県選管名簿は戸籍名 福田 浩。市公式プロフィールと2025-06-15市長選結果の 福田 健次 表記を公開ページに採用。"
+      },
+      "public_order": 699,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40216",
+      "region_id": "mun-40216",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40216",
+      "city_name": "小郡市",
+      "city_slug": "ogori-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "加地 良光",
+      "mayor_name_kana": null,
+      "term_start": "2025-05-15",
+      "term_start_display": null,
+      "term_end": "2029-05-14",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿で現職名と当選回数、任期満了日一覧で満了日を確認。現任期の始期は4年任期として整理。",
+      "findings_values": null,
+      "public_order": 700,
+      "prefecture_city_order": 14,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40217",
+      "region_id": "mun-40217",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40217",
+      "city_name": "筑紫野市",
+      "city_slug": "chikushino-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "平井 一三",
+      "mayor_name_kana": null,
+      "term_start": "2023-02-01",
+      "term_start_display": null,
+      "term_end": "2027-01-31",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿と任期満了日一覧で現任期を確認。",
+      "findings_values": null,
+      "public_order": 701,
+      "prefecture_city_order": 15,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40218",
+      "region_id": "mun-40218",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40218",
+      "city_name": "春日市",
+      "city_slug": "kasuga-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "井上 澄和",
+      "mayor_name_kana": null,
+      "term_start": "2023-05-01",
+      "term_start_display": null,
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "7期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿で現職名と当選回数、任期満了日一覧で満了日を確認。現任期の始期は4年任期として整理。",
+      "findings_values": null,
+      "public_order": 702,
+      "prefecture_city_order": 16,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40219",
+      "region_id": "mun-40219",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40219",
+      "city_name": "大野城市",
+      "city_slug": "onojo-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "堤 かなめ",
+      "mayor_name_kana": null,
+      "term_start": "2025-09-12",
+      "term_start_display": null,
+      "term_end": "2029-09-11",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿と任期満了日一覧で現任期を確認。",
+      "findings_values": null,
+      "public_order": 703,
+      "prefecture_city_order": 17,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40220",
+      "region_id": "mun-40220",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40220",
+      "city_name": "宗像市",
+      "city_slug": "munakata-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "伊豆 美沙子",
+      "mayor_name_kana": null,
+      "term_start": "2022-05-21",
+      "term_start_display": null,
+      "term_end": "2026-05-20",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿で現職名と当選回数、任期満了日一覧で満了日を確認。現任期の始期は4年任期として整理。宗像市公式案内で次回市長選は2026-04-26執行予定を確認。",
+      "findings_values": null,
+      "public_order": 704,
+      "prefecture_city_order": 18,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40221",
+      "region_id": "mun-40221",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40221",
+      "city_name": "太宰府市",
+      "city_slug": "dazaifu-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "髙原 清",
+      "mayor_name_kana": null,
+      "term_start": "2026-01-01",
+      "term_start_display": null,
+      "term_end": "2029-12-31",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿と任期満了日一覧で現任期を確認。",
+      "findings_values": null,
+      "public_order": 705,
+      "prefecture_city_order": 19,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40223",
+      "region_id": "mun-40223",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40223",
+      "city_name": "古賀市",
+      "city_slug": "koga-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "田辺 一城",
+      "mayor_name_kana": null,
+      "term_start": "2022-12-23",
+      "term_start_display": null,
+      "term_end": "2026-12-22",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "mayor_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.koga.fukuoka.jp/mayor/006.php",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "県選管名簿は `田邊 一城`、市公式プロフィールは `田辺 一城` 表記。公開ページは市公式表記に合わせ、任期は県選管資料で確認。",
+      "findings_values": {
+        "mayor_name": "田辺 一城",
+        "term_start": "2022-12-23",
+        "term_end": "2026-12-22",
+        "note": "県選管名簿は 田邊 一城。市公式プロフィールの 田辺 一城 表記を公開ページに採用。"
+      },
+      "public_order": 706,
+      "prefecture_city_order": 20,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40224",
+      "region_id": "mun-40224",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40224",
+      "city_name": "福津市",
+      "city_slug": "fukutsu-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "福井 崇郎",
+      "mayor_name_kana": null,
+      "term_start": "2025-03-06",
+      "term_start_display": null,
+      "term_end": "2029-03-05",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿と任期満了日一覧で現任期を確認。",
+      "findings_values": null,
+      "public_order": 707,
+      "prefecture_city_order": 21,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40225",
+      "region_id": "mun-40225",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40225",
+      "city_name": "うきは市",
+      "city_slug": "ukiha-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "権藤 英樹",
+      "mayor_name_kana": null,
+      "term_start": "2024-07-15",
+      "term_start_display": null,
+      "term_end": "2028-07-14",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿と任期満了日一覧で現任期を確認。",
+      "findings_values": null,
+      "public_order": 708,
+      "prefecture_city_order": 22,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40226",
+      "region_id": "mun-40226",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40226",
+      "city_name": "宮若市",
+      "city_slug": "miyawaka-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "柴田 裕美子",
+      "mayor_name_kana": null,
+      "term_start": "2026-03-19",
+      "term_start_display": null,
+      "term_end": "2030-03-18",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿と任期満了日一覧で現任期を確認。",
+      "findings_values": null,
+      "public_order": 709,
+      "prefecture_city_order": 23,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40227",
+      "region_id": "mun-40227",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40227",
+      "city_name": "嘉麻市",
+      "city_slug": "kama-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "さえき のりこ",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-23",
+      "term_start_display": null,
+      "term_end": "2030-04-22",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "term_expiry_list_old",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "candidate_list",
+          "title": "候補者の氏名等一覧（嘉麻市長選挙）",
+          "url": "https://www.city.kama.lg.jp/uploaded/attachment/26507.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_result",
+          "title": "嘉麻市長選挙・嘉麻市議会議員補欠選挙速報",
+          "url": "https://www.city.kama.lg.jp/site/senkyo/42627.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "嘉麻市選管",
+        "url": "https://www.city.kama.lg.jp/site/senkyo/42627.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-19執行の嘉麻市長選挙開票速報で、さえき のりこ氏が8,247票で当選。旧任期満了日2026-04-22の翌日から新任期を整理。",
+      "findings_values": {
+        "mayor_name": "さえき のりこ",
+        "term_start": "2026-04-23",
+        "term_end": "2030-04-22",
+        "note": "2026-04-19 執行の嘉麻市長選挙開票速報で さえき のりこ 氏当選を確認。旧任期満了日 2026-04-22 の翌日開始で新任期を整理。"
+      },
+      "public_order": 710,
+      "prefecture_city_order": 24,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round2.md",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round2.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40228",
+      "region_id": "mun-40228",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40228",
+      "city_name": "朝倉市",
+      "city_slug": "asakura-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "中島 ひでき",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-23",
+      "term_start_display": null,
+      "term_end": "2030-04-22",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "term_expiry_list_old",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "candidate_list",
+          "title": "朝倉市長選挙候補者の氏名及び党派別の一覧",
+          "url": "https://www.city.asakura.lg.jp/uploaded/attachment/9622.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_result",
+          "title": "令和8年4月19日執行 朝倉市長選挙 開票速報",
+          "url": "https://www.city.asakura.lg.jp/soshiki/40/12961.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "朝倉市選管",
+        "url": "https://www.city.asakura.lg.jp/soshiki/40/12961.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-19執行の朝倉市長選挙開票速報で、中島 ひでき氏が10,031票で当選。旧任期満了日2026-04-22の翌日から新任期を整理。",
+      "findings_values": {
+        "mayor_name": "中島 ひでき",
+        "term_start": "2026-04-23",
+        "term_end": "2030-04-22",
+        "note": "2026-04-19 執行の朝倉市長選挙開票速報で 中島 ひでき 氏当選を確認。旧任期満了日 2026-04-22 の翌日開始で新任期を整理。"
+      },
+      "public_order": 711,
+      "prefecture_city_order": 25,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round2.md",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round2.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40229",
+      "region_id": "mun-40229",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40229",
+      "city_name": "みやま市",
+      "city_slug": "miyama-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "松嶋 盛人",
+      "mayor_name_kana": null,
+      "term_start": "2022-10-28",
+      "term_start_display": null,
+      "term_end": "2026-10-27",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿で現職名と当選回数、任期満了日一覧で満了日を確認。現任期の始期は4年任期として整理。",
+      "findings_values": null,
+      "public_order": 712,
+      "prefecture_city_order": 26,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40230",
+      "region_id": "mun-40230",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40230",
+      "city_name": "糸島市",
+      "city_slug": "itoshima-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "月形 祐二",
+      "mayor_name_kana": null,
+      "term_start": "2026-02-14",
+      "term_start_display": null,
+      "term_end": "2030-02-13",
+      "term_end_display": null,
+      "term_note": "4期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の市町村長名簿で現職名と当選回数、任期満了日一覧で満了日を確認。現任期の始期は4年任期として整理。",
+      "findings_values": null,
+      "public_order": 17,
+      "prefecture_city_order": 27,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-40231",
+      "region_id": "mun-40231",
+      "pref_code": "40",
+      "pref_name": "福岡県",
+      "municipality_code": "40231",
+      "city_name": "那珂川市",
+      "city_slug": "nakagawa-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "武末 茂喜",
+      "mayor_name_kana": null,
+      "term_start": "2024-08-31",
+      "term_start_display": null,
+      "term_end": "2028-08-30",
+      "term_end_display": null,
+      "term_note": "5期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_roster",
+          "title": "市町村長名簿",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282939.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "mayor_message",
+          "title": "市長メッセージ",
+          "url": "https://www.city.nakagawa.lg.jp/site/sityou/",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282520.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "福岡県選管",
+        "url": "https://www.pref.fukuoka.lg.jp/contents/senkyo-ichiran.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福岡県選管の任期満了日一覧で満了日を確認し、市公式 `市長メッセージ` で氏名表記を再確認。現任期の始期は4年任期として整理。",
+      "findings_values": {
+        "mayor_name": "武末 茂喜",
+        "term_start": "2024-08-31",
+        "term_end": "2028-08-30",
+        "note": "県選管資料で任期満了日を確認し、市公式 市長メッセージ で氏名表記を再確認。"
+      },
+      "public_order": 713,
+      "prefecture_city_order": 28,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/40-fukuoka/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

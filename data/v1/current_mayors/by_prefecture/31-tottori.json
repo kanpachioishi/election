@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "31",
+  "pref_slug": "tottori",
+  "pref_name": "鳥取県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/31-tottori",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-31201",
+      "region_id": "mun-31201",
+      "pref_code": "31",
+      "pref_name": "鳥取県",
+      "municipality_code": "31201",
+      "city_name": "鳥取市",
+      "city_slug": "tottori-shi",
+      "macro_region": "中国",
+      "mayor_name": "深澤 義彦",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "2022-12",
+      "term_end": null,
+      "term_end_display": "2026-12",
+      "term_note": "公式プロフィールで2022年12月に第12代鳥取市長就任。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "鳥取県 県内の市町村",
+          "url": "https://www.pref.tottori.lg.jp/9577.htm",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "鳥取県 市町村長等名簿",
+          "url": "https://www.pref.tottori.lg.jp/12519.htm",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.pref.tottori.lg.jp/12519.htm",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長名と就任月は鳥取市公式プロフィールで確認。任期は月単位で整理。",
+      "findings_values": {
+        "mayor_name": "深澤 義彦",
+        "term_start": "2022-12",
+        "term_end": "2026-12",
+        "note": "市長名と就任月は鳥取市公式プロフィールで確認。任期は月単位で整理。"
+      },
+      "public_order": 42,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/31-tottori/2026-04-24-round1.md",
+        "research/current-mayors/findings/31-tottori/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-31202",
+      "region_id": "mun-31202",
+      "pref_code": "31",
+      "pref_name": "鳥取県",
+      "municipality_code": "31202",
+      "city_name": "米子市",
+      "city_slug": "yonago-shi",
+      "macro_region": "中国",
+      "mayor_name": "伊木 隆司",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "鳥取県 県内の市町村",
+          "url": "https://www.pref.tottori.lg.jp/9577.htm",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "鳥取県 市町村長等名簿",
+          "url": "https://www.pref.tottori.lg.jp/12519.htm",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.tottori.lg.jp/12519.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.tottori.lg.jp/12519.htm"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "鳥取県『鳥取県内市町村の長及び議会の議員の任期満了調』で確認。",
+      "findings_values": {
+        "mayor_name": "伊木 隆司",
+        "term_start": "記載なし",
+        "term_end": "2027-04-23",
+        "note": "鳥取県『鳥取県内市町村の長及び議会の議員の任期満了調』で確認。"
+      },
+      "public_order": 611,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/31-tottori/2026-04-24-round1.md",
+        "research/current-mayors/findings/31-tottori/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-31203",
+      "region_id": "mun-31203",
+      "pref_code": "31",
+      "pref_name": "鳥取県",
+      "municipality_code": "31203",
+      "city_name": "倉吉市",
+      "city_slug": "kurayoshi-shi",
+      "macro_region": "中国",
+      "mayor_name": "広田 一恭",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-05-01",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "鳥取県 県内の市町村",
+          "url": "https://www.pref.tottori.lg.jp/9577.htm",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "鳥取県 市町村長等名簿",
+          "url": "https://www.pref.tottori.lg.jp/12519.htm",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.tottori.lg.jp/12519.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.tottori.lg.jp/12519.htm"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "鳥取県『鳥取県内市町村の長及び議会の議員の任期満了調』で確認。",
+      "findings_values": {
+        "mayor_name": "広田 一恭",
+        "term_start": "記載なし",
+        "term_end": "2029-05-01",
+        "note": "鳥取県『鳥取県内市町村の長及び議会の議員の任期満了調』で確認。"
+      },
+      "public_order": 612,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/31-tottori/2026-04-24-round1.md",
+        "research/current-mayors/findings/31-tottori/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-31204",
+      "region_id": "mun-31204",
+      "pref_code": "31",
+      "pref_name": "鳥取県",
+      "municipality_code": "31204",
+      "city_name": "境港市",
+      "city_slug": "sakaiminato-shi",
+      "macro_region": "中国",
+      "mayor_name": "伊達 憲太郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "鳥取県 県内の市町村",
+          "url": "https://www.pref.tottori.lg.jp/9577.htm",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "鳥取県 市町村長等名簿",
+          "url": "https://www.pref.tottori.lg.jp/12519.htm",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.tottori.lg.jp/12519.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.tottori.lg.jp/12519.htm"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "鳥取県『鳥取県内市町村の長及び議会の議員の任期満了調』で確認。",
+      "findings_values": {
+        "mayor_name": "伊達 憲太郎",
+        "term_start": "記載なし",
+        "term_end": "2028-04-23",
+        "note": "鳥取県『鳥取県内市町村の長及び議会の議員の任期満了調』で確認。"
+      },
+      "public_order": 613,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/31-tottori/2026-04-24-round1.md",
+        "research/current-mayors/findings/31-tottori/2026-04-24-round1.sources.json"
+      ]
+    }
+  ]
+}

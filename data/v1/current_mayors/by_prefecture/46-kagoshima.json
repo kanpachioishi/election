@@ -1,0 +1,1245 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "46",
+  "pref_slug": "kagoshima",
+  "pref_name": "鹿児島県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/46-kagoshima",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-46225",
+      "region_id": "mun-46225",
+      "pref_code": "46",
+      "pref_name": "鹿児島県",
+      "municipality_code": "46225",
+      "city_name": "姶良市",
+      "city_slug": "aira-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "米丸 麻希子",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-25",
+      "term_start_display": null,
+      "term_end": "2030-04-24",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_schedule",
+          "title": "姶良市長・市議会議員選挙",
+          "url": "https://www.city.aira.lg.jp/senkan/senkyo_2026sityosigi.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "news_report",
+          "title": "姶良市長選挙 米丸麻希子氏が初当選",
+          "url": "https://www.fnn.jp/articles/-/1032573",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "姶良市長選 初当選報道",
+        "url": "https://www.fnn.jp/articles/-/1032573"
+      },
+      "last_checked_at": "2026-04-24",
+      "note": "姶良市公式で2026-04-19投開票を確認し、鹿児島テレビ報道で米丸麻希子氏の初当選を確認。現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "米丸 麻希子",
+        "term_start": "2026-04-25",
+        "term_end": "2030-04-24",
+        "note": "姶良市公式で2026-04-19投開票を確認し、鹿児島テレビ報道で米丸麻希子氏の初当選を確認。現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 5,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-46201",
+      "region_id": "mun-46201",
+      "pref_code": "46",
+      "pref_name": "鹿児島県",
+      "municipality_code": "46201",
+      "city_name": "鹿児島市",
+      "city_slug": "kagoshima-shi-16",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "下鶴 隆央",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "2024-12",
+      "term_end": "2028-12-22",
+      "term_end_display": null,
+      "term_note": "2024年12月就任、2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "公式プロフィールで現職名と2024年12月の2期目就任を確認。任期満了日は市FAQで確認。",
+      "findings_values": {
+        "mayor_name": "下鶴 隆央",
+        "term_start": "2024-12-23",
+        "term_end": "2028-12-22",
+        "note": "鹿児島市公式プロフィールと県資料で確認。"
+      },
+      "public_order": 76,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-46203",
+      "region_id": "mun-46203",
+      "pref_code": "46",
+      "pref_name": "鹿児島県",
+      "municipality_code": "46203",
+      "city_name": "鹿屋市",
+      "city_slug": "kagoshima-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "郷原 拓男",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-02-04",
+      "term_end_display": null,
+      "term_note": "1期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の長の任期等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "中西 茂",
+        "term_start": "2024-11-17",
+        "term_end": "2028-11-16",
+        "note": "県の長の任期等一覧で確認。"
+      },
+      "public_order": 766,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-46204",
+      "region_id": "mun-46204",
+      "pref_code": "46",
+      "pref_name": "鹿児島県",
+      "municipality_code": "46204",
+      "city_name": "枕崎市",
+      "city_slug": "makurazaki-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "前田 祝成",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-01-25",
+      "term_end_display": null,
+      "term_note": "3期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の長の任期等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "前田 祝成",
+        "term_start": "記載なし",
+        "term_end": "2030-01-25",
+        "note": "県の長の任期等一覧で確認。"
+      },
+      "public_order": 767,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-46206",
+      "region_id": "mun-46206",
+      "pref_code": "46",
+      "pref_name": "鹿児島県",
+      "municipality_code": "46206",
+      "city_name": "阿久根市",
+      "city_slug": "kagoshima-shi-2",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "西平 良将",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-01-15",
+      "term_end_display": null,
+      "term_note": "4期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の長の任期等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "西平 良将",
+        "term_start": "記載なし",
+        "term_end": "2027-01-15",
+        "note": "県の長の任期等一覧で確認。"
+      },
+      "public_order": 768,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-46208",
+      "region_id": "mun-46208",
+      "pref_code": "46",
+      "pref_name": "鹿児島県",
+      "municipality_code": "46208",
+      "city_name": "出水市",
+      "city_slug": "izumi-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "椎木 伸一",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-23",
+      "term_start_display": null,
+      "term_end": "2030-04-22",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_result",
+          "title": "選挙結果等",
+          "url": "https://www.city.kagoshima-izumi.lg.jp/page/page_10019.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "選挙結果等",
+        "url": "https://www.city.kagoshima-izumi.lg.jp/page/page_10019.html"
+      },
+      "last_checked_at": "2026-04-24",
+      "note": "出水市公式の2026-04-12市長選開票結果で椎木伸一氏の3選を確認。現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "椎木 伸一",
+        "term_start": "2026-04-23",
+        "term_end": "2030-04-22",
+        "note": "出水市公式の2026-04-12市長選開票結果で椎木伸一氏の3選を確認。現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 769,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-46210",
+      "region_id": "mun-46210",
+      "pref_code": "46",
+      "pref_name": "鹿児島県",
+      "municipality_code": "46210",
+      "city_name": "指宿市",
+      "city_slug": "kagoshima-shi-3",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "打越 あかし",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-02-11",
+      "term_end_display": null,
+      "term_note": "2期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の長の任期等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "打越 あかし",
+        "term_start": "記載なし",
+        "term_end": "2030-02-11",
+        "note": "県の長の任期等一覧で確認。"
+      },
+      "public_order": 770,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-46213",
+      "region_id": "mun-46213",
+      "pref_code": "46",
+      "pref_name": "鹿児島県",
+      "municipality_code": "46213",
+      "city_name": "西之表市",
+      "city_slug": "kagoshima-shi-4",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "八板 俊輔",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-03-18",
+      "term_end_display": null,
+      "term_note": "3期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の長の任期等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "八板 俊輔",
+        "term_start": "記載なし",
+        "term_end": "2029-03-18",
+        "note": "県の長の任期等一覧で確認。"
+      },
+      "public_order": 771,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-46214",
+      "region_id": "mun-46214",
+      "pref_code": "46",
+      "pref_name": "鹿児島県",
+      "municipality_code": "46214",
+      "city_name": "垂水市",
+      "city_slug": "kagoshima-shi-5",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "尾脇 雅弥",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-01-26",
+      "term_end_display": null,
+      "term_note": "4期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の長の任期等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "尾脇 雅弥",
+        "term_start": "記載なし",
+        "term_end": "2027-01-26",
+        "note": "県の長の任期等一覧で確認。"
+      },
+      "public_order": 772,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-46215",
+      "region_id": "mun-46215",
+      "pref_code": "46",
+      "pref_name": "鹿児島県",
+      "municipality_code": "46215",
+      "city_name": "薩摩川内市",
+      "city_slug": "kagoshima-shi-6",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "田中 良二",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-06",
+      "term_end_display": null,
+      "term_note": "2期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の長の任期等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "田中 良二",
+        "term_start": "記載なし",
+        "term_end": "2028-11-06",
+        "note": "県の長の任期等一覧で確認。"
+      },
+      "public_order": 773,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-46216",
+      "region_id": "mun-46216",
+      "pref_code": "46",
+      "pref_name": "鹿児島県",
+      "municipality_code": "46216",
+      "city_name": "日置市",
+      "city_slug": "kagoshima-shi-7",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "永山 由高",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-05-28",
+      "term_end_display": null,
+      "term_note": "2期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の長の任期等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "永山 由高",
+        "term_start": "記載なし",
+        "term_end": "2029-05-20",
+        "note": "県の長の任期等一覧で確認。"
+      },
+      "public_order": 774,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-46217",
+      "region_id": "mun-46217",
+      "pref_code": "46",
+      "pref_name": "鹿児島県",
+      "municipality_code": "46217",
+      "city_name": "曽於市",
+      "city_slug": "kagoshima-shi-8",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "竹田 正博",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-07-30",
+      "term_end_display": null,
+      "term_note": "1期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の長の任期等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "五位塚 剛",
+        "term_start": "記載なし",
+        "term_end": "2028-04-24",
+        "note": "県の長の任期等一覧で確認。"
+      },
+      "public_order": 775,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-46218",
+      "region_id": "mun-46218",
+      "pref_code": "46",
+      "pref_name": "鹿児島県",
+      "municipality_code": "46218",
+      "city_name": "霧島市",
+      "city_slug": "kagoshima-shi-9",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "中重 真一",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-11-26",
+      "term_end_display": null,
+      "term_note": "3期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の長の任期等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "中重 真一",
+        "term_start": "2024-11-28",
+        "term_end": "2028-11-27",
+        "note": "現行ページの改選反映を維持。"
+      },
+      "public_order": 776,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-46219",
+      "region_id": "mun-46219",
+      "pref_code": "46",
+      "pref_name": "鹿児島県",
+      "municipality_code": "46219",
+      "city_name": "いちき串木野市",
+      "city_slug": "kagoshima-shi-10",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "中屋 謙治",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-11-12",
+      "term_end_display": null,
+      "term_note": "2期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の長の任期等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "中屋 謙治",
+        "term_start": "記載なし",
+        "term_end": "2029-10-31",
+        "note": "県の長の任期等一覧で確認。"
+      },
+      "public_order": 777,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-46220",
+      "region_id": "mun-46220",
+      "pref_code": "46",
+      "pref_name": "鹿児島県",
+      "municipality_code": "46220",
+      "city_name": "南さつま市",
+      "city_slug": "kagoshima-shi-11",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "本坊 輝雄",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-11-26",
+      "term_end_display": null,
+      "term_note": "5期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の長の任期等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "本坊 輝雄",
+        "term_start": "記載なし",
+        "term_end": "2028-11-20",
+        "note": "県の長の任期等一覧で確認。"
+      },
+      "public_order": 778,
+      "prefecture_city_order": 14,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-46221",
+      "region_id": "mun-46221",
+      "pref_code": "46",
+      "pref_name": "鹿児島県",
+      "municipality_code": "46221",
+      "city_name": "志布志市",
+      "city_slug": "kagoshima-shi-12",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "下平 晴行",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-02-11",
+      "term_end_display": null,
+      "term_note": "3期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の長の任期等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "下平 晴行",
+        "term_start": "記載なし",
+        "term_end": "2029-01-25",
+        "note": "県の長の任期等一覧で確認。"
+      },
+      "public_order": 779,
+      "prefecture_city_order": 15,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-46222",
+      "region_id": "mun-46222",
+      "pref_code": "46",
+      "pref_name": "鹿児島県",
+      "municipality_code": "46222",
+      "city_name": "奄美市",
+      "city_slug": "kagoshima-shi-13",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "安田 壮平",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-11-30",
+      "term_end_display": null,
+      "term_note": "2期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の長の任期等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "安田 壮平",
+        "term_start": "2025-10-24",
+        "term_end": "2029-10-23",
+        "note": "現行ページの改選反映を維持。"
+      },
+      "public_order": 780,
+      "prefecture_city_order": 16,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-46223",
+      "region_id": "mun-46223",
+      "pref_code": "46",
+      "pref_name": "鹿児島県",
+      "municipality_code": "46223",
+      "city_name": "南九州市",
+      "city_slug": "kagoshima-shi-14",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "塗木 弘幸",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-12-22",
+      "term_end_display": null,
+      "term_note": "3期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の長の任期等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "塗木 弘幸",
+        "term_start": "記載なし",
+        "term_end": "2030-01-24",
+        "note": "県の長の任期等一覧で確認。"
+      },
+      "public_order": 781,
+      "prefecture_city_order": 17,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-46224",
+      "region_id": "mun-46224",
+      "pref_code": "46",
+      "pref_name": "鹿児島県",
+      "municipality_code": "46224",
+      "city_name": "伊佐市",
+      "city_slug": "kagoshima-shi-15",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "橋本 欣也",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-29",
+      "term_end_display": null,
+      "term_note": "2期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "市町村情報",
+          "url": "https://www.pref.kagoshima.jp/kensei/shityoson/",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kagoshima.jp/ab08/kensei/shityoson/gyosei/e5032211.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の長の任期等一覧で確認。",
+      "findings_values": {
+        "mayor_name": "橋本 欣也",
+        "term_start": "記載なし",
+        "term_end": "2026-11-27",
+        "note": "県の長の任期等一覧で確認。"
+      },
+      "public_order": 782,
+      "prefecture_city_order": 18,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.md",
+        "research/current-mayors/findings/46-kagoshima/2026-04-24-round1.sources.json"
+      ]
+    }
+  ]
+}

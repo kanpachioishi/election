@@ -653,6 +653,179 @@ code {
   text-underline-offset: 0.16em;
 }
 
+.engagement-feature {
+  padding-top: 0.4rem;
+}
+
+.engagement-report {
+  display: grid;
+  gap: 1rem;
+  padding: clamp(1rem, 2.4vw, 1.45rem);
+  border: 1px solid rgba(127, 230, 213, 0.22);
+  border-radius: 1.35rem;
+  background:
+    linear-gradient(180deg, rgba(127, 230, 213, 0.08), rgba(255, 210, 122, 0.04) 44%, rgba(244, 239, 227, 0.05)),
+    rgba(12, 24, 30, 0.86);
+  box-shadow: var(--shadow);
+}
+
+.engagement-report__hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 280px);
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.engagement-report__label {
+  margin: 0 0 0.55rem;
+  color: var(--teal);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.engagement-report h3 {
+  max-width: 760px;
+  margin: 0;
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: clamp(1.75rem, 4vw, 3rem);
+  line-height: 1.12;
+}
+
+.engagement-report h4 {
+  margin: 0 0 0.65rem;
+  color: var(--ink);
+  font-size: 1rem;
+}
+
+.engagement-report__questions {
+  display: grid;
+  gap: 0.5rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.engagement-report__questions li {
+  padding: 0.62rem 0.78rem;
+  border: 1px solid rgba(127, 230, 213, 0.22);
+  border-radius: 0.8rem;
+  color: #dfe9e9;
+  background: rgba(7, 16, 21, 0.26);
+  line-height: 1.55;
+}
+
+.engagement-report__badge {
+  display: grid;
+  align-content: center;
+  gap: 0.45rem;
+  padding: 1.05rem;
+  border: 1px solid rgba(255, 210, 122, 0.28);
+  border-radius: 1rem;
+  background: rgba(255, 210, 122, 0.08);
+}
+
+.engagement-report__badge strong {
+  color: var(--gold);
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
+
+.engagement-report__badge span {
+  color: #dce5e6;
+  line-height: 1.55;
+}
+
+.engagement-report__focus {
+  display: grid;
+  grid-template-columns: 7rem minmax(0, 1fr);
+  border: 1px solid rgba(255, 210, 122, 0.28);
+  border-radius: 1rem;
+  overflow: hidden;
+  background: rgba(7, 16, 21, 0.22);
+}
+
+.engagement-report__focus > strong {
+  display: grid;
+  place-items: center;
+  padding: 0.9rem;
+  color: #071015;
+  background: var(--gold);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.engagement-report__focus ul {
+  display: grid;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0.9rem 1rem 0.9rem 1.85rem;
+}
+
+.engagement-report__focus li {
+  color: #edf2ef;
+  line-height: 1.6;
+}
+
+.engagement-report__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1rem;
+}
+
+.engagement-report__panel {
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: rgba(244, 239, 227, 0.05);
+}
+
+.engagement-report__panel p,
+.engagement-report__panel li {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.engagement-report__flow {
+  display: grid;
+  gap: 0.72rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.engagement-report__flow li {
+  display: grid;
+  gap: 0.18rem;
+}
+
+.engagement-report__flow span {
+  color: var(--teal);
+  font-size: 0.86rem;
+  font-weight: 800;
+}
+
+.engagement-report__panel .engagement-report__note {
+  margin-top: 0.7rem;
+  font-size: 0.9rem;
+}
+
+.engagement-report__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem 1rem;
+  padding-top: 0.1rem;
+}
+
+.engagement-report__links a {
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+
 .meta-list {
   display: grid;
   gap: 0.6rem;
@@ -1756,6 +1929,8 @@ a:focus-visible {
   .site-intro-grid,
   .info-page-grid,
   .session-grid,
+  .engagement-report__hero,
+  .engagement-report__grid,
   .session-meta {
     grid-template-columns: 1fr;
   }
@@ -1950,6 +2125,24 @@ a:focus-visible {
 
   .notice-card {
     margin-bottom: 2.4rem;
+  }
+
+  .engagement-report {
+    padding: 0.95rem;
+  }
+
+  .engagement-report h3 {
+    font-size: clamp(1.55rem, 8vw, 2.25rem);
+    word-break: normal;
+  }
+
+  .engagement-report__focus {
+    grid-template-columns: 1fr;
+  }
+
+  .engagement-report__focus > strong {
+    justify-content: start;
+    place-items: center start;
   }
 
   .filters {

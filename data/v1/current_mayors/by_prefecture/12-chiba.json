@@ -1,0 +1,2331 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "12",
+  "pref_slug": "chiba",
+  "pref_name": "千葉県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/12-chiba",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-12236",
+      "region_id": "mun-12236",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12236",
+      "city_name": "香取市",
+      "city_slug": "katori-shi",
+      "macro_region": "関東",
+      "mayor_name": "伊藤 友則",
+      "mayor_name_kana": null,
+      "term_start": "2022-04-30",
+      "term_start_display": null,
+      "term_end": "2026-04-29",
+      "term_end_display": null,
+      "term_note": "令和4年4月30日 市長就任。令和8年4月29日任期満了。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "選挙期日決定",
+          "url": "https://www.city.katori.lg.jp/government/senkyo/R08shityoushigihosen.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "選挙期日決定",
+        "url": "https://www.city.katori.lg.jp/government/senkyo/R08shityoushigihosen.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "就任日はプロフィール、任期満了日は選挙期日決定ページで確認。次回市長選は2026-04-26投開票。2026-04-19に立候補受付終了を確認。",
+      "findings_values": {
+        "mayor_name": "伊藤 友則",
+        "term_start": "2022-04-30",
+        "term_end": "2026-04-29",
+        "note": "就任日はプロフィール、任期満了日は選挙期日決定ページで確認。次回市長選は2026-04-26投開票。2026-04-19に立候補受付終了を確認。"
+      },
+      "public_order": 22,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12100",
+      "region_id": "mun-12100",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12100",
+      "city_name": "千葉市",
+      "city_slug": "chiba-shi",
+      "macro_region": "関東",
+      "mayor_name": "神谷 俊一",
+      "mayor_name_kana": null,
+      "term_start": "2025-03-21",
+      "term_start_display": null,
+      "term_end": "2029-03-20",
+      "term_end_display": null,
+      "term_note": "2025年3月に2期目就任。任期満了日は令和11年3月20日。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "市長プロフィール",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "市長プロフィール"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長プロフィールで『2025年3月 千葉市長就任（2期目）』を確認。任期満了日は今後の選挙日程で確認し、開始日は4年任期で逆算整理。",
+      "findings_values": {
+        "mayor_name": "神谷 俊一",
+        "term_start": "2025-03-21",
+        "term_end": "2029-03-20",
+        "note": "市長プロフィールで『2025年3月 千葉市長就任（2期目）』を確認。任期満了日は今後の選挙日程で確認し、開始日は4年任期で逆算整理。"
+      },
+      "public_order": 48,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12230",
+      "region_id": "mun-12230",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12230",
+      "city_name": "八街市",
+      "city_slug": "yachimata-shi",
+      "macro_region": "関東",
+      "mayor_name": "北村 新司",
+      "mayor_name_kana": null,
+      "term_start": "2022-12-11",
+      "term_start_display": null,
+      "term_end": "2026-12-10",
+      "term_end_display": null,
+      "term_note": "4期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "ようこそ市長室へ",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "八街市公式『ようこそ市長室へ』のプロフィール欄で4期目の開始日まで明記あり。",
+      "findings_values": {
+        "mayor_name": "北村 新司",
+        "term_start": "2022-12-11",
+        "term_end": "2026-12-10",
+        "note": "八街市公式『ようこそ市長室へ』のプロフィール欄で4期目の開始日まで明記あり。"
+      },
+      "public_order": 62,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12218",
+      "region_id": "mun-12218",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12218",
+      "city_name": "勝浦市",
+      "city_slug": "katsuura-shi",
+      "macro_region": "関東",
+      "mayor_name": "照川 由美子",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-08-27",
+      "term_end_display": null,
+      "term_note": "記載なし",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の予定選挙一覧で確認。",
+      "findings_values": {
+        "mayor_name": "照川 由美子",
+        "term_start": "記載なし",
+        "term_end": "2026-08-27",
+        "note": "県の予定選挙一覧で確認。"
+      },
+      "public_order": 94,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12225",
+      "region_id": "mun-12225",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12225",
+      "city_name": "君津市",
+      "city_slug": "kimitsu-shi",
+      "macro_region": "関東",
+      "mayor_name": "石井 宏子",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-10-31",
+      "term_end_display": null,
+      "term_note": "記載なし",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の予定選挙一覧で確認。",
+      "findings_values": {
+        "mayor_name": "石井 宏子",
+        "term_start": "記載なし",
+        "term_end": "2026-10-31",
+        "note": "県の予定選挙一覧で確認。"
+      },
+      "public_order": 95,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12202",
+      "region_id": "mun-12202",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12202",
+      "city_name": "銚子市",
+      "city_slug": "choushi-shi",
+      "macro_region": "関東",
+      "mayor_name": "越川 信一",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-05-16",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.choshi.chiba.jp/shisei/page220026.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.choshi.chiba.jp/shisei/page220026.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "銚子市『選挙の種類と任期満了日』掲載の任期満了日で確認。",
+      "findings_values": {
+        "mayor_name": "越川 信一",
+        "term_start": "記載なし",
+        "term_end": "2029-05-16",
+        "note": "銚子市『選挙の種類と任期満了日』掲載の任期満了日で確認。"
+      },
+      "public_order": 283,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12203",
+      "region_id": "mun-12203",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12203",
+      "city_name": "市川市",
+      "city_slug": "ichikawa-shi",
+      "macro_region": "関東",
+      "mayor_name": "田中 甲",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-22",
+      "term_start_display": null,
+      "term_end": "2030-04-21",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票速報",
+          "url": "https://www.city.ichikawa.lg.jp/page/56781.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "開票速報",
+        "url": "https://www.city.ichikawa.lg.jp/page/56781.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-19執行の市川市長選開票速報で田中甲氏当選を確認。現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "田中 甲",
+        "term_start": "2026-04-22",
+        "term_end": "2030-04-21",
+        "note": "2026-04-19執行の市川市長選開票速報で田中甲氏当選を確認。現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 284,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12204",
+      "region_id": "mun-12204",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12204",
+      "city_name": "船橋市",
+      "city_slug": "funabashi-shi",
+      "macro_region": "関東",
+      "mayor_name": "松戸 徹",
+      "mayor_name_kana": null,
+      "term_start": "2025-07-19",
+      "term_start_display": null,
+      "term_end": "2029-07-18",
+      "term_end_display": null,
+      "term_note": "4期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.funabashi.lg.jp/shisei/shoukai/001/p004832.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.funabashi.lg.jp/shisei/shoukai/001/p004832.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長プロフィールに現職名、4期目、現任期の日付が明記。",
+      "findings_values": {
+        "mayor_name": "松戸 徹",
+        "term_start": "2025-07-19",
+        "term_end": "2029-07-18",
+        "note": "市長プロフィールに現職名、4期目、現任期の日付が明記。"
+      },
+      "public_order": 285,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12205",
+      "region_id": "mun-12205",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12205",
+      "city_name": "館山市",
+      "city_slug": "tateyama-shi",
+      "macro_region": "関東",
+      "mayor_name": "森 正一",
+      "mayor_name_kana": null,
+      "term_start": "2022-12-10",
+      "term_start_display": null,
+      "term_end": "2026-12-09",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.tateyama.chiba.jp/files/300373438.pdf",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.tateyama.chiba.jp/files/300373438.pdf"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "館山市長プロフィールPDFに現職名と現任期の日付が明記。",
+      "findings_values": {
+        "mayor_name": "森 正一",
+        "term_start": "2022-12-10",
+        "term_end": "2026-12-09",
+        "note": "館山市長プロフィールPDFに現職名と現任期の日付が明記。"
+      },
+      "public_order": 286,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12206",
+      "region_id": "mun-12206",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12206",
+      "city_name": "木更津市",
+      "city_slug": "kisarazu-shi",
+      "macro_region": "関東",
+      "mayor_name": "渡辺 芳邦",
+      "mayor_name_kana": null,
+      "term_start": "2026-03-31",
+      "term_start_display": null,
+      "term_end": "2030-03-30",
+      "term_end_display": null,
+      "term_note": "4期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.kisarazu.lg.jp/soshiki/somu/hisho/1/3316.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.kisarazu.lg.jp/soshiki/somu/hisho/1/3316.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長プロフィールに4期目の任期が明記。",
+      "findings_values": {
+        "mayor_name": "渡辺 芳邦",
+        "term_start": "2026-03-31",
+        "term_end": "2030-03-30",
+        "note": "市長プロフィールに4期目の任期が明記。"
+      },
+      "public_order": 287,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12207",
+      "region_id": "mun-12207",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12207",
+      "city_name": "松戸市",
+      "city_slug": "matsudo-shi",
+      "macro_region": "関東",
+      "mayor_name": "松戸 隆政",
+      "mayor_name_kana": null,
+      "term_start": "2025-06-03",
+      "term_start_display": null,
+      "term_end": "2029-06-02",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.matsudo.chiba.jp/matumado/index/matsudo_newmayor.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.matsudo.chiba.jp/matumado/index/matsudo_newmayor.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "初登庁記事に現職名と任期日付が明記。",
+      "findings_values": {
+        "mayor_name": "松戸 隆政",
+        "term_start": "2025-06-03",
+        "term_end": "2029-06-02",
+        "note": "初登庁記事に現職名と任期日付が明記。"
+      },
+      "public_order": 288,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12208",
+      "region_id": "mun-12208",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12208",
+      "city_name": "野田市",
+      "city_slug": "noda-shi",
+      "macro_region": "関東",
+      "mayor_name": "鈴木 有",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-07-01",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.noda.chiba.jp/shisei/koho/shiho/1046769/1040946/1040954.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.noda.chiba.jp/shisei/koho/shiho/1046769/1040946/1040954.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市長選挙案内ページと同市の退任・初登庁記事の任期サイクルから現職任期満了日を整理。",
+      "findings_values": {
+        "mayor_name": "鈴木 有",
+        "term_start": "記載なし",
+        "term_end": "2028-07-01",
+        "note": "市長選挙案内ページと同市の退任・初登庁記事の任期サイクルから現職任期満了日を整理。"
+      },
+      "public_order": 289,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12210",
+      "region_id": "mun-12210",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12210",
+      "city_name": "茂原市",
+      "city_slug": "mobara-shi",
+      "macro_region": "関東",
+      "mayor_name": "市原 淳",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-05-20",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.mobara.chiba.jp/0000001411.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.mobara.chiba.jp/0000001411.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "プロフィールで現職名を確認。任期満了日は公職の任期及び定数の別公式ページで確認。始期は未明記。",
+      "findings_values": {
+        "mayor_name": "市原 淳",
+        "term_start": "記載なし",
+        "term_end": "2028-05-20",
+        "note": "プロフィールで現職名を確認。任期満了日は公職の任期及び定数の別公式ページで確認。始期は未明記。"
+      },
+      "public_order": 290,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12211",
+      "region_id": "mun-12211",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12211",
+      "city_name": "成田市",
+      "city_slug": "narita-shi",
+      "macro_region": "関東",
+      "mayor_name": "小泉 一成",
+      "mayor_name_kana": null,
+      "term_start": "2023-01-21",
+      "term_start_display": null,
+      "term_end": "2027-01-20",
+      "term_end_display": null,
+      "term_note": "5期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.narita.chiba.jp/shisei/page003900.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.narita.chiba.jp/shisei/page003900.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長プロフィールに現職名、5期目、現任期の日付が明記。",
+      "findings_values": {
+        "mayor_name": "小泉 一成",
+        "term_start": "2023-01-21",
+        "term_end": "2027-01-20",
+        "note": "市長プロフィールに現職名、5期目、現任期の日付が明記。"
+      },
+      "public_order": 291,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12212",
+      "region_id": "mun-12212",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12212",
+      "city_name": "佐倉市",
+      "city_slug": "sakura-shi",
+      "macro_region": "関東",
+      "mayor_name": "西田 三十五",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-26",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.sakura.lg.jp/soshiki/hishoka/317/4121.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.sakura.lg.jp/soshiki/hishoka/317/4121.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長の部屋で現職名と在職中、令和5年市長選での続投を確認。任期満了日は各種選挙任期満了日の別公式ページで確認。始期日は未明記。",
+      "findings_values": {
+        "mayor_name": "西田 三十五",
+        "term_start": "記載なし",
+        "term_end": "2027-04-26",
+        "note": "市長の部屋で現職名と在職中、令和5年市長選での続投を確認。任期満了日は各種選挙任期満了日の別公式ページで確認。始期日は未明記。"
+      },
+      "public_order": 292,
+      "prefecture_city_order": 14,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12213",
+      "region_id": "mun-12213",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12213",
+      "city_name": "東金市",
+      "city_slug": "tougane-shi",
+      "macro_region": "関東",
+      "mayor_name": "山下 みき",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-25",
+      "term_start_display": null,
+      "term_end": "2030-04-24",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票速報",
+          "url": "https://www.city.togane.chiba.jp/0000009051.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "開票速報",
+        "url": "https://www.city.togane.chiba.jp/0000009051.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-19執行の東金市長選開票結果PDFで山下みき氏当選を確認。現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "山下 みき",
+        "term_start": "2026-04-25",
+        "term_end": "2030-04-24",
+        "note": "2026-04-19執行の東金市長選開票結果PDFで山下みき氏当選を確認。現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 293,
+      "prefecture_city_order": 15,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12215",
+      "region_id": "mun-12215",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12215",
+      "city_name": "旭市",
+      "city_slug": "asahi-shi",
+      "macro_region": "関東",
+      "mayor_name": "米本 弥一郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-07-19",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.asahi.lg.jp/soshiki/33/37409.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.asahi.lg.jp/soshiki/33/37409.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "2025-07-20執行の市長選結果から現任期4年で整理。",
+      "findings_values": {
+        "mayor_name": "米本 弥一郎",
+        "term_start": "記載なし",
+        "term_end": "2029-07-19",
+        "note": "2025-07-20執行の市長選結果から現任期4年で整理。"
+      },
+      "public_order": 294,
+      "prefecture_city_order": 16,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12216",
+      "region_id": "mun-12216",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12216",
+      "city_name": "習志野市",
+      "city_slug": "narashino-shi",
+      "macro_region": "関東",
+      "mayor_name": "宮本 泰介",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-26",
+      "term_end_display": null,
+      "term_note": "4期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.narashino.lg.jp/joho/mayor/shoshin.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.narashino.lg.jp/joho/mayor/shoshin.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市長所信で新任期開始日（2023-04-27）を確認し、4年任期で整理。",
+      "findings_values": {
+        "mayor_name": "宮本 泰介",
+        "term_start": "記載なし",
+        "term_end": "2027-04-26",
+        "note": "市長所信で新任期開始日（2023-04-27）を確認し、4年任期で整理。"
+      },
+      "public_order": 295,
+      "prefecture_city_order": 17,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12217",
+      "region_id": "mun-12217",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12217",
+      "city_name": "柏市",
+      "city_slug": "kashiwa-shi",
+      "macro_region": "関東",
+      "mayor_name": "太田 和美",
+      "mayor_name_kana": null,
+      "term_start": "2025-11-21",
+      "term_start_display": null,
+      "term_end": "2029-11-20",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.kashiwa.lg.jp/hisho/shiseijoho/about_kashiwa/shicho/profile/profile.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.kashiwa.lg.jp/hisho/shiseijoho/about_kashiwa/shicho/profile/profile.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長プロフィールに現職名、2期目、現任期の日付が明記。",
+      "findings_values": {
+        "mayor_name": "太田 和美",
+        "term_start": "2025-11-21",
+        "term_end": "2029-11-20",
+        "note": "市長プロフィールに現職名、2期目、現任期の日付が明記。"
+      },
+      "public_order": 296,
+      "prefecture_city_order": 18,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12219",
+      "region_id": "mun-12219",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12219",
+      "city_name": "市原市",
+      "city_slug": "ichihara-shi",
+      "macro_region": "関東",
+      "mayor_name": "小出 譲治",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-06-15",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/26650",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/senkyo/26650"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "選挙ドットコムの次回市原市長選挙ページ掲載の任期満了日で確認。",
+      "findings_values": {
+        "mayor_name": "小出 譲治",
+        "term_start": "記載なし",
+        "term_end": "2027-06-15",
+        "note": "選挙ドットコムの次回市原市長選挙ページ掲載の任期満了日で確認。"
+      },
+      "public_order": 297,
+      "prefecture_city_order": 19,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12220",
+      "region_id": "mun-12220",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12220",
+      "city_name": "流山市",
+      "city_slug": "nagareyama-shi",
+      "macro_region": "関東",
+      "mayor_name": "井崎 義治",
+      "mayor_name_kana": null,
+      "term_start": "2023-05-06",
+      "term_start_display": null,
+      "term_end": "2027-05-05",
+      "term_end_display": null,
+      "term_note": "6期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.nagareyama.chiba.jp/mayor/1009864/index.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.nagareyama.chiba.jp/mayor/1009864/index.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長プロフィールに現職名、6期目、現任期の日付が明記。",
+      "findings_values": {
+        "mayor_name": "井崎 義治",
+        "term_start": "2023-05-06",
+        "term_end": "2027-05-05",
+        "note": "市長プロフィールに現職名、6期目、現任期の日付が明記。"
+      },
+      "public_order": 298,
+      "prefecture_city_order": 20,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12221",
+      "region_id": "mun-12221",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12221",
+      "city_name": "八千代市",
+      "city_slug": "yachiyo-shi",
+      "macro_region": "関東",
+      "mayor_name": "服部 友則",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-05-25",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.yachiyo.lg.jp/site/sityounoheya/1514.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.yachiyo.lg.jp/site/sityounoheya/1514.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長プロフィールで現職名と3期目を確認。任期満了日は八千代市で行われる選挙の別公式ページで確認。始期日は未明記。",
+      "findings_values": {
+        "mayor_name": "服部 友則",
+        "term_start": "記載なし",
+        "term_end": "2029-05-25",
+        "note": "市長プロフィールで現職名と3期目を確認。任期満了日は八千代市で行われる選挙の別公式ページで確認。始期日は未明記。"
+      },
+      "public_order": 299,
+      "prefecture_city_order": 21,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12222",
+      "region_id": "mun-12222",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12222",
+      "city_name": "我孫子市",
+      "city_slug": "abiko-shi",
+      "macro_region": "関東",
+      "mayor_name": "星野 順一郎",
+      "mayor_name_kana": null,
+      "term_start": "2023-01-25",
+      "term_start_display": null,
+      "term_end": "2027-01-24",
+      "term_end_display": null,
+      "term_note": "5期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.abiko.chiba.jp/shisei/shichoshitsu/shichoshitsu/profile.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.abiko.chiba.jp/shisei/shichoshitsu/shichoshitsu/profile.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "プロフィールで現職名と5期目を確認。任期開始は市長のひとこま、任期満了日は今後の選挙任期満了日の別公式ページで確認。",
+      "findings_values": {
+        "mayor_name": "星野 順一郎",
+        "term_start": "2023-01-25",
+        "term_end": "2027-01-24",
+        "note": "プロフィールで現職名と5期目を確認。任期開始は市長のひとこま、任期満了日は今後の選挙任期満了日の別公式ページで確認。"
+      },
+      "public_order": 300,
+      "prefecture_city_order": 22,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12223",
+      "region_id": "mun-12223",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12223",
+      "city_name": "鴨川市",
+      "city_slug": "kamogawa-shi",
+      "macro_region": "関東",
+      "mayor_name": "佐々木 久之",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-03-15",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.kamogawa.lg.jp/site/senkyo/1072.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.kamogawa.lg.jp/site/senkyo/1072.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の今後の選挙日程ページで確認。",
+      "findings_values": {
+        "mayor_name": "佐々木 久之",
+        "term_start": "記載なし",
+        "term_end": "2029-03-15",
+        "note": "市の今後の選挙日程ページで確認。"
+      },
+      "public_order": 301,
+      "prefecture_city_order": 23,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12224",
+      "region_id": "mun-12224",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12224",
+      "city_name": "鎌ケ谷市",
+      "city_slug": "kamagaya-shi",
+      "macro_region": "関東",
+      "mayor_name": "芝田 裕美",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-07-17",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.kamagaya.chiba.jp/smph/sesakumidashi/senkyo/kamagaya_senkyo/senkyonoshurui.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.kamagaya.chiba.jp/smph/sesakumidashi/senkyo/kamagaya_senkyo/senkyonoshurui.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "鎌ケ谷市『選挙の種類』掲載の任期満了日で確認。",
+      "findings_values": {
+        "mayor_name": "芝田 裕美",
+        "term_start": "記載なし",
+        "term_end": "2029-07-17",
+        "note": "鎌ケ谷市『選挙の種類』掲載の任期満了日で確認。"
+      },
+      "public_order": 302,
+      "prefecture_city_order": 24,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12226",
+      "region_id": "mun-12226",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12226",
+      "city_name": "富津市",
+      "city_slug": "futtsu-shi",
+      "macro_region": "関東",
+      "mayor_name": "高橋 恭市",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-10-05",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.futtsu.lg.jp/0000007841.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.futtsu.lg.jp/0000007841.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市長選挙案内ページの任期満了日（2024-10-05）から現職4年任期で整理。",
+      "findings_values": {
+        "mayor_name": "高橋 恭市",
+        "term_start": "記載なし",
+        "term_end": "2028-10-05",
+        "note": "市長選挙案内ページの任期満了日（2024-10-05）から現職4年任期で整理。"
+      },
+      "public_order": 303,
+      "prefecture_city_order": 25,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12227",
+      "region_id": "mun-12227",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12227",
+      "city_name": "浦安市",
+      "city_slug": "urayasu-shi",
+      "macro_region": "関東",
+      "mayor_name": "内田 悦嗣",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-03-25",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.urayasu.lg.jp/shisei/senkyo/tohyo/1003195.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.urayasu.lg.jp/shisei/senkyo/tohyo/1003195.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の今後予定されている選挙ページで確認。",
+      "findings_values": {
+        "mayor_name": "内田 悦嗣",
+        "term_start": "記載なし",
+        "term_end": "2029-03-25",
+        "note": "市の今後予定されている選挙ページで確認。"
+      },
+      "public_order": 304,
+      "prefecture_city_order": 26,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12228",
+      "region_id": "mun-12228",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12228",
+      "city_name": "四街道市",
+      "city_slug": "yotsukaidou-shi",
+      "macro_region": "関東",
+      "mayor_name": "鈴木 陽介",
+      "mayor_name_kana": null,
+      "term_start": "2026-02-28",
+      "term_start_display": null,
+      "term_end": "2030-02-27",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.yotsukaido.chiba.jp/shichonoheya/index.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.yotsukaido.chiba.jp/shichonoheya/index.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "四街道市長の部屋と2026-03-15号広報で引き続き鈴木陽介市長を確認。現任期は前任期満了翌日の2026-02-28から整理。",
+      "findings_values": {
+        "mayor_name": "鈴木 陽介",
+        "term_start": "2026-02-28",
+        "term_end": "2030-02-27",
+        "note": "四街道市長の部屋と2026-03-15号広報で引き続き鈴木陽介市長を確認。現任期は前任期満了翌日の2026-02-28から整理。"
+      },
+      "public_order": 305,
+      "prefecture_city_order": 27,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12229",
+      "region_id": "mun-12229",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12229",
+      "city_name": "袖ケ浦市",
+      "city_slug": "sodegaura-shi",
+      "macro_region": "関東",
+      "mayor_name": "粕谷 智浩",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-11-22",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.sodegaura.lg.jp/soshiki/senkyo/kakushuninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.sodegaura.lg.jp/soshiki/senkyo/kakushuninnki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の選挙に関する各種任期ページで確認。",
+      "findings_values": {
+        "mayor_name": "粕谷 智浩",
+        "term_start": "記載なし",
+        "term_end": "2027-11-22",
+        "note": "市の選挙に関する各種任期ページで確認。"
+      },
+      "public_order": 306,
+      "prefecture_city_order": 28,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12231",
+      "region_id": "mun-12231",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12231",
+      "city_name": "印西市",
+      "city_slug": "inzai-shi",
+      "macro_region": "関東",
+      "mayor_name": "藤代 健吾",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-07-27",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.inzai.lg.jp/0000000466.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.inzai.lg.jp/0000000466.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市長プロフィールの任期欄で確認。",
+      "findings_values": {
+        "mayor_name": "藤代 健吾",
+        "term_start": "記載なし",
+        "term_end": "2028-07-27",
+        "note": "市長プロフィールの任期欄で確認。"
+      },
+      "public_order": 307,
+      "prefecture_city_order": 29,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12232",
+      "region_id": "mun-12232",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12232",
+      "city_name": "白井市",
+      "city_slug": "shiroi-shi",
+      "macro_region": "関東",
+      "mayor_name": "笠井 喜久雄",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": null,
+      "term_end_display": "2029-05",
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.shiroi.chiba.jp/soshiki/somu/s07/hisyo011/hisyo/hik019/12321.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.shiroi.chiba.jp/soshiki/somu/s07/hisyo011/hisyo/hik019/12321.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市長2期目就任あいさつにある就任月（2023-05）から月単位で整理。",
+      "findings_values": {
+        "mayor_name": "笠井 喜久雄",
+        "term_start": "記載なし",
+        "term_end": "2029-05",
+        "note": "市長2期目就任あいさつにある就任月（2023-05）から月単位で整理。"
+      },
+      "public_order": 308,
+      "prefecture_city_order": 30,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12233",
+      "region_id": "mun-12233",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12233",
+      "city_name": "富里市",
+      "city_slug": "tomisato-shi",
+      "macro_region": "関東",
+      "mayor_name": "五十嵐 博文",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-08-24",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.tomisato.lg.jp/0000014693.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.tomisato.lg.jp/0000014693.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の今後の選挙予定ページで確認。",
+      "findings_values": {
+        "mayor_name": "五十嵐 博文",
+        "term_start": "記載なし",
+        "term_end": "2027-08-24",
+        "note": "市の今後の選挙予定ページで確認。"
+      },
+      "public_order": 309,
+      "prefecture_city_order": 31,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12234",
+      "region_id": "mun-12234",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12234",
+      "city_name": "南房総市",
+      "city_slug": "minamibousou-shi",
+      "macro_region": "関東",
+      "mayor_name": "渡辺 秀和",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-23",
+      "term_start_display": null,
+      "term_end": "2030-04-22",
+      "term_end_display": null,
+      "term_note": "2026-04-12執行の市長選で当選",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票速報",
+          "url": "https://www.city.minamiboso.chiba.jp/0000024161.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "開票速報",
+        "url": "https://www.city.minamiboso.chiba.jp/0000024161.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-12執行の南房総市長選開票速報で渡辺秀和氏当選を確認。現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "渡辺 秀和",
+        "term_start": "2026-04-23",
+        "term_end": "2030-04-22",
+        "note": "2026-04-12執行の南房総市長選開票速報で渡辺秀和氏当選を確認。現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 310,
+      "prefecture_city_order": 32,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12235",
+      "region_id": "mun-12235",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12235",
+      "city_name": "匝瑳市",
+      "city_slug": "sousa-shi",
+      "macro_region": "関東",
+      "mayor_name": "宮内 康幸",
+      "mayor_name_kana": null,
+      "term_start": "2026-02-26",
+      "term_start_display": null,
+      "term_end": "2030-02-25",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.sosa.lg.jp/sp/page/page006885.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.sosa.lg.jp/sp/page/page006885.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "2026-02-08執行の匝瑳市長選挙開票結果で宮内康幸氏の再選を確認。現任期は前任期満了翌日の2026-02-26から整理。",
+      "findings_values": {
+        "mayor_name": "宮内 康幸",
+        "term_start": "2026-02-26",
+        "term_end": "2030-02-25",
+        "note": "2026-02-08執行の匝瑳市長選挙開票結果で宮内康幸氏の再選を確認。現任期は前任期満了翌日の2026-02-26から整理。"
+      },
+      "public_order": 311,
+      "prefecture_city_order": 33,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12237",
+      "region_id": "mun-12237",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12237",
+      "city_name": "山武市",
+      "city_slug": "sanmu-shi",
+      "macro_region": "関東",
+      "mayor_name": "小野崎 まさき",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-23",
+      "term_start_display": null,
+      "term_end": "2030-04-22",
+      "term_end_display": null,
+      "term_note": "2026-04-19執行の市長選で当選",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票結果",
+          "url": "https://www.city.sammu.lg.jp/bousai-syobo/bousai-kikinogashi/page008269.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "開票結果",
+        "url": "https://www.city.sammu.lg.jp/bousai-syobo/bousai-kikinogashi/page008269.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-19執行の山武市長選開票結果で小野崎まさき氏当選を確認。現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "小野崎 まさき",
+        "term_start": "2026-04-23",
+        "term_end": "2030-04-22",
+        "note": "2026-04-19執行の山武市長選開票結果で小野崎まさき氏当選を確認。現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 312,
+      "prefecture_city_order": 34,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12238",
+      "region_id": "mun-12238",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12238",
+      "city_name": "いすみ市",
+      "city_slug": "isumi-shi",
+      "macro_region": "関東",
+      "mayor_name": "小路 正和",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-12-24",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.isumi.lg.jp/soshikikarasagasu/senkyokanriiinkaijimukyoku/7137.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.isumi.lg.jp/soshikikarasagasu/senkyokanriiinkaijimukyoku/7137.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市長選挙案内ページの任期満了日（2025-12-24）から現職4年任期で整理。",
+      "findings_values": {
+        "mayor_name": "小路 正和",
+        "term_start": "記載なし",
+        "term_end": "2029-12-24",
+        "note": "市長選挙案内ページの任期満了日（2025-12-24）から現職4年任期で整理。"
+      },
+      "public_order": 313,
+      "prefecture_city_order": 35,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-12239",
+      "region_id": "mun-12239",
+      "pref_code": "12",
+      "pref_name": "千葉県",
+      "municipality_code": "12239",
+      "city_name": "大網白里市",
+      "city_slug": "ooamishirasato-shi",
+      "macro_region": "関東",
+      "mayor_name": "金坂 昌典",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-12-17",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "千葉県 予定選挙一覧",
+          "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.oamishirasato.lg.jp/0000012682.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.oamishirasato.lg.jp/0000012682.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "2022-12-18執行の市長選結果から現任期4年で整理。",
+      "findings_values": {
+        "mayor_name": "金坂 昌典",
+        "term_start": "記載なし",
+        "term_end": "2026-12-17",
+        "note": "2022-12-18執行の市長選結果から現任期4年で整理。"
+      },
+      "public_order": 314,
+      "prefecture_city_order": 36,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.md",
+        "research/current-mayors/findings/12-chiba/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

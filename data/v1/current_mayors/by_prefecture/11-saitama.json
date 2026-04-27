@@ -1,0 +1,2492 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "11",
+  "pref_slug": "saitama",
+  "pref_name": "埼玉県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/11-saitama",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-11232",
+      "region_id": "mun-11232",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11232",
+      "city_name": "久喜市",
+      "city_slug": "kuki-shi",
+      "macro_region": "関東",
+      "mayor_name": "きし 信智",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-25",
+      "term_start_display": null,
+      "term_end": "2030-04-24",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票結果",
+          "url": "https://www.city.kuki.lg.jp/shisei/senkyo/shicho-shigi/1012730.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "開票結果",
+        "url": "https://www.city.kuki.lg.jp/shisei/senkyo/shicho-shigi/1012730.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-19執行の久喜市長選開票結果で、きし信智氏当選を確認。現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "きし 信智",
+        "term_start": "2026-04-25",
+        "term_end": "2030-04-24",
+        "note": "2026-04-19執行の久喜市長選開票結果で、きし信智氏当選を確認。現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 2,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11216",
+      "region_id": "mun-11216",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11216",
+      "city_name": "羽生市",
+      "city_slug": "hanyu-shi",
+      "macro_region": "関東",
+      "mayor_name": "河田 晃明",
+      "mayor_name_kana": null,
+      "term_start": "2022-06-11",
+      "term_start_display": null,
+      "term_end": "2026-06-10",
+      "term_end_display": null,
+      "term_note": "令和8年6月10日任期満了。現任期の始期は満了日の翌日で整理。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "羽生市長選挙及び羽生市議会議員補欠選挙のお知らせ",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長名は市長の部屋・市公式記事、任期満了は選挙告知で確認。始期は満了日から整理。",
+      "findings_values": {
+        "mayor_name": "河田 晃明",
+        "term_start": "2022-06-11",
+        "term_end": "2026-06-10",
+        "note": "市長名は市長の部屋・市公式記事、任期満了は選挙告知で確認。始期は満了日から整理。"
+      },
+      "public_order": 13,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11238",
+      "region_id": "mun-11238",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11238",
+      "city_name": "蓮田市",
+      "city_slug": "hasuda-shi",
+      "macro_region": "関東",
+      "mayor_name": "山口 京子",
+      "mayor_name_kana": null,
+      "term_start": "2022-05-31",
+      "term_start_display": null,
+      "term_end": "2026-05-30",
+      "term_end_display": null,
+      "term_note": "令和8年5月30日任期満了。現任期の始期は満了日の翌日で整理。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "蓮田市長選挙",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長名は市長の部屋、任期満了は選挙案内で確認。始期は満了日から整理。",
+      "findings_values": {
+        "mayor_name": "山口 京子",
+        "term_start": "2022-05-31",
+        "term_end": "2026-05-30",
+        "note": "市長名は市長の部屋、任期満了は選挙案内で確認。始期は満了日から整理。"
+      },
+      "public_order": 14,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11100",
+      "region_id": "mun-11100",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11100",
+      "city_name": "さいたま市",
+      "city_slug": "saitama-shi",
+      "macro_region": "関東",
+      "mayor_name": "清水 勇人",
+      "mayor_name_kana": null,
+      "term_start": "2025-05-27",
+      "term_start_display": null,
+      "term_end": "2029-05-26",
+      "term_end_display": null,
+      "term_note": "令和7年に5期目就任。前任期は令和7年5月26日満了。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長プロフィールで『令和7年 さいたま市長（5期目）』を確認。任期満了日は市長選日程ページで確認。",
+      "findings_values": {
+        "mayor_name": "清水 勇人",
+        "term_start": "2025-05-27",
+        "term_end": "2029-05-26",
+        "note": "市長プロフィールで『令和7年 さいたま市長（5期目）』を確認。任期満了日は市長選日程ページで確認。"
+      },
+      "public_order": 47,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11201",
+      "region_id": "mun-11201",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11201",
+      "city_name": "川越市",
+      "city_slug": "kawagoe-shi",
+      "macro_region": "関東",
+      "mayor_name": "森田 初恵",
+      "mayor_name_kana": null,
+      "term_start": "2025-02-08",
+      "term_start_display": null,
+      "term_end": "2029-02-07",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.kawagoe.saitama.jp/shisei/mayor/1007287.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.kawagoe.saitama.jp/shisei/mayor/1007287.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長プロフィールに任期明記。",
+      "findings_values": {
+        "mayor_name": "森田 初恵",
+        "term_start": "2025-02-08",
+        "term_end": "2029-02-07",
+        "note": "市長プロフィールに任期明記。"
+      },
+      "public_order": 247,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11202",
+      "region_id": "mun-11202",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11202",
+      "city_name": "熊谷市",
+      "city_slug": "kumagaya-shi",
+      "macro_region": "関東",
+      "mayor_name": "小林 哲也",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-11-05",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了一覧で確認。",
+      "findings_values": {
+        "mayor_name": "小林 哲也",
+        "term_start": "記載なし",
+        "term_end": "2029-11-05",
+        "note": "県の任期満了一覧で確認。"
+      },
+      "public_order": 248,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11203",
+      "region_id": "mun-11203",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11203",
+      "city_name": "川口市",
+      "city_slug": "kawaguchi-shi",
+      "macro_region": "関東",
+      "mayor_name": "岡村 ゆり子",
+      "mayor_name_kana": null,
+      "term_start": "2026-02-09",
+      "term_start_display": null,
+      "term_end": "2030-02-08",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.kawaguchi.lg.jp/shichoshitsu/index.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.kawaguchi.lg.jp/shichoshitsu/index.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "2026-02-20更新の川口市長室で岡村ゆり子市長を確認。現任期は前任期満了翌日の2026-02-09から整理。",
+      "findings_values": {
+        "mayor_name": "岡村 ゆり子",
+        "term_start": "2026-02-09",
+        "term_end": "2030-02-08",
+        "note": "2026-02-20更新の川口市長室で岡村ゆり子市長を確認。現任期は前任期満了翌日の2026-02-09から整理。"
+      },
+      "public_order": 249,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11206",
+      "region_id": "mun-11206",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11206",
+      "city_name": "行田市",
+      "city_slug": "giyouda-shi",
+      "macro_region": "関東",
+      "mayor_name": "行田 邦子",
+      "mayor_name_kana": null,
+      "term_start": "2023-05-01",
+      "term_start_display": null,
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.gyoda.lg.jp/soshiki/sougouseisakubu/hisho/gyomu/mayor/9166.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.gyoda.lg.jp/soshiki/sougouseisakubu/hisho/gyomu/mayor/9166.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長氏名表記ページで就任日、任期満了日は任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "行田 邦子",
+        "term_start": "2023-05-01",
+        "term_end": "2027-04-30",
+        "note": "市長氏名表記ページで就任日、任期満了日は任期満了日一覧で確認。"
+      },
+      "public_order": 250,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11207",
+      "region_id": "mun-11207",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11207",
+      "city_name": "秩父市",
+      "city_slug": "chichibu-shi",
+      "macro_region": "関東",
+      "mayor_name": "清野 和彦",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了一覧で確認。",
+      "findings_values": {
+        "mayor_name": "清野 和彦",
+        "term_start": "記載なし",
+        "term_end": "2029-04-30",
+        "note": "県の任期満了一覧で確認。"
+      },
+      "public_order": 251,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11208",
+      "region_id": "mun-11208",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11208",
+      "city_name": "所沢市",
+      "city_slug": "tokorozawa-shi",
+      "macro_region": "関東",
+      "mayor_name": "小野塚 勝俊",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-10-29",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.tokorozawa.saitama.jp/shiseijoho/senkyo/term_of_office.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.tokorozawa.saitama.jp/shiseijoho/senkyo/term_of_office.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の任期満了日ページで確認。",
+      "findings_values": {
+        "mayor_name": "小野塚 勝俊",
+        "term_start": "記載なし",
+        "term_end": "2027-10-29",
+        "note": "市の任期満了日ページで確認。"
+      },
+      "public_order": 252,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11209",
+      "region_id": "mun-11209",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11209",
+      "city_name": "飯能市",
+      "city_slug": "hannou-shi",
+      "macro_region": "関東",
+      "mayor_name": "新井 重治",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-08-07",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.hanno.lg.jp/shisei/senkyo/1004238.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.hanno.lg.jp/shisei/senkyo/1004238.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の選挙管理委員会ページで確認。",
+      "findings_values": {
+        "mayor_name": "新井 重治",
+        "term_start": "記載なし",
+        "term_end": "2029-08-07",
+        "note": "市の選挙管理委員会ページで確認。"
+      },
+      "public_order": 253,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11210",
+      "region_id": "mun-11210",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11210",
+      "city_name": "加須市",
+      "city_slug": "kazo-shi",
+      "macro_region": "関東",
+      "mayor_name": "高橋 としひろ",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-25",
+      "term_start_display": null,
+      "term_end": "2030-04-24",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票速報",
+          "url": "https://www.city.kazo.lg.jp/soshiki/gyousei/senkyokanriiinkai/kazoshityosenkyooyobikazosigikaigiinhoketsusenkyo/toukaihyonitsuite/28382.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "開票速報",
+        "url": "https://www.city.kazo.lg.jp/soshiki/gyousei/senkyokanriiinkai/kazoshityosenkyooyobikazosigikaigiinhoketsusenkyo/toukaihyonitsuite/28382.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-12執行の加須市長選開票速報で高橋としひろ氏当選を確認。現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "高橋 としひろ",
+        "term_start": "2026-04-25",
+        "term_end": "2030-04-24",
+        "note": "2026-04-12執行の加須市長選開票速報で高橋としひろ氏当選を確認。現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 254,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11211",
+      "region_id": "mun-11211",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11211",
+      "city_name": "本庄市",
+      "city_slug": "honjiyou-shi",
+      "macro_region": "関東",
+      "mayor_name": "吉田 信解",
+      "mayor_name_kana": null,
+      "term_start": "2026-02-05",
+      "term_start_display": null,
+      "term_end": "2030-02-04",
+      "term_end_display": null,
+      "term_note": "6期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.honjo.lg.jp/shiseijoho/senkyo/1572504339085.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.honjo.lg.jp/shiseijoho/senkyo/1572504339085.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "吉田 信解",
+        "term_start": "2026-02-05",
+        "term_end": "2030-02-04",
+        "note": "市の任期満了日一覧で確認。"
+      },
+      "public_order": 255,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11212",
+      "region_id": "mun-11212",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11212",
+      "city_name": "東松山市",
+      "city_slug": "higashimatsuyama-shi",
+      "macro_region": "関東",
+      "mayor_name": "森田 光一",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-08-04",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/43/27863.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/43/27863.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "森田 光一",
+        "term_start": "記載なし",
+        "term_end": "2026-08-04",
+        "note": "市の任期満了日一覧で確認。"
+      },
+      "public_order": 256,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11214",
+      "region_id": "mun-11214",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11214",
+      "city_name": "春日部市",
+      "city_slug": "kasukabe-shi",
+      "macro_region": "関東",
+      "mayor_name": "岩谷 一弘",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-11-05",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.kasukabe.lg.jp/shisei/shiyakusho/senkyo/1001959.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.kasukabe.lg.jp/shisei/shiyakusho/senkyo/1001959.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の選挙執行予定で確認。",
+      "findings_values": {
+        "mayor_name": "岩谷 一弘",
+        "term_start": "記載なし",
+        "term_end": "2027-11-05",
+        "note": "市の選挙執行予定で確認。"
+      },
+      "public_order": 257,
+      "prefecture_city_order": 14,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11215",
+      "region_id": "mun-11215",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11215",
+      "city_name": "狭山市",
+      "city_slug": "sayama-shi",
+      "macro_region": "関東",
+      "mayor_name": "小谷野 剛",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-07-26",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.sayama.saitama.jp/shisei/senkyo/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.sayama.saitama.jp/shisei/senkyo/ninki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "小谷野 剛",
+        "term_start": "記載なし",
+        "term_end": "2027-07-26",
+        "note": "市の任期満了日一覧で確認。"
+      },
+      "public_order": 258,
+      "prefecture_city_order": 15,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11217",
+      "region_id": "mun-11217",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11217",
+      "city_name": "鴻巣市",
+      "city_slug": "kounosu-shi",
+      "macro_region": "関東",
+      "mayor_name": "並木 正年",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-07-31",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.kounosu.saitama.jp/site/mayor/3020.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.kounosu.saitama.jp/site/mayor/3020.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "プロフィールで現職名、任期満了日は任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "並木 正年",
+        "term_start": "記載なし",
+        "term_end": "2026-07-31",
+        "note": "プロフィールで現職名、任期満了日は任期満了日一覧で確認。"
+      },
+      "public_order": 259,
+      "prefecture_city_order": 16,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11218",
+      "region_id": "mun-11218",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11218",
+      "city_name": "深谷市",
+      "city_slug": "fukaya-shi",
+      "macro_region": "関東",
+      "mayor_name": "小島 進",
+      "mayor_name_kana": null,
+      "term_start": "2026-02-12",
+      "term_start_display": null,
+      "term_end": "2030-02-11",
+      "term_end_display": null,
+      "term_note": "5期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.fukaya.saitama.jp/soshiki/hisho/hisho/tanto/hukaya/1389317798140.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.fukaya.saitama.jp/soshiki/hisho/hisho/tanto/hukaya/1389317798140.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "2026-01-25執行の深谷市長選挙で小島すすむ氏当選。2026-02-12更新の市長・副市長・教育長で現在5期目を確認し、現任期開始は前任期満了翌日で整理。",
+      "findings_values": {
+        "mayor_name": "小島 進",
+        "term_start": "2026-02-12",
+        "term_end": "2030-02-11",
+        "note": "2026-01-25執行の深谷市長選挙で小島すすむ氏当選。2026-02-12更新の市長・副市長・教育長で現在5期目を確認し、現任期開始は前任期満了翌日で整理。"
+      },
+      "public_order": 260,
+      "prefecture_city_order": 17,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11219",
+      "region_id": "mun-11219",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11219",
+      "city_name": "上尾市",
+      "city_slug": "ageo-shi",
+      "macro_region": "関東",
+      "mayor_name": "畠山 稔",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-12-16",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満“一覧で確認。",
+      "findings_values": {
+        "mayor_name": "畠山 稔",
+        "term_start": "記載なし",
+        "term_end": "2029-12-16",
+        "note": "県の任期満“一覧で確認。"
+      },
+      "public_order": 261,
+      "prefecture_city_order": 18,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11221",
+      "region_id": "mun-11221",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11221",
+      "city_name": "草加市",
+      "city_slug": "soka-shi",
+      "macro_region": "関東",
+      "mayor_name": "山川 百合子",
+      "mayor_name_kana": null,
+      "term_start": "2022-10-29",
+      "term_start_display": null,
+      "term_end": "2026-10-28",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.soka.saitama.jp/li/060/010/120/index.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.soka.saitama.jp/li/060/010/120/index.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長の部屋で1期目、就任日は氏名表記ページ、任期満了日は選挙の種類と任期満了日で確認。",
+      "findings_values": {
+        "mayor_name": "山川 百合子",
+        "term_start": "2022-10-29",
+        "term_end": "2026-10-28",
+        "note": "市長の部屋で1期目、就任日は氏名表記ページ、任期満了日は選挙の種類と任期満了日で確認。"
+      },
+      "public_order": 262,
+      "prefecture_city_order": 19,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11222",
+      "region_id": "mun-11222",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11222",
+      "city_name": "越谷市",
+      "city_slug": "koshigaya-shi",
+      "macro_region": "関東",
+      "mayor_name": "福田 晃",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-11-10",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了一覧で確認。",
+      "findings_values": {
+        "mayor_name": "福田 晃",
+        "term_start": "記載なし",
+        "term_end": "2029-11-10",
+        "note": "県の任期満了一覧で確認。"
+      },
+      "public_order": 263,
+      "prefecture_city_order": 20,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11223",
+      "region_id": "mun-11223",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11223",
+      "city_name": "蕨市",
+      "city_slug": "warabi-shi",
+      "macro_region": "関東",
+      "mayor_name": "頼高 英雄",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-06-04",
+      "term_end_display": null,
+      "term_note": "5期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.warabi.saitama.jp/shisei/mayor/manifest/1002816.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.warabi.saitama.jp/shisei/mayor/manifest/1002816.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長マニフェストで5選確認、任期満了日は任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "頼高 英雄",
+        "term_start": "記載なし",
+        "term_end": "2027-06-04",
+        "note": "市長マニフェストで5選確認、任期満了日は任期満了日一覧で確認。"
+      },
+      "public_order": 264,
+      "prefecture_city_order": 21,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11224",
+      "region_id": "mun-11224",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11224",
+      "city_name": "戸田市",
+      "city_slug": "toda-shi",
+      "macro_region": "関東",
+      "mayor_name": "菅原 文仁",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-03-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.toda.saitama.jp/soshiki/391/senkan-08shichou-shigi.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.toda.saitama.jp/soshiki/391/senkan-08shichou-shigi.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "2026市長選無投票で当選確認。任期満了日は各種選挙任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "菅原 文仁",
+        "term_start": "記載なし",
+        "term_end": "2030-03-30",
+        "note": "2026市長選無投票で当選確認。任期満了日は各種選挙任期満了日一覧で確認。"
+      },
+      "public_order": 265,
+      "prefecture_city_order": 22,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11225",
+      "region_id": "mun-11225",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11225",
+      "city_name": "入間市",
+      "city_slug": "iruma-shi",
+      "macro_region": "関東",
+      "mayor_name": "杉島 理一郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-11-17",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "杉島 理一郎",
+        "term_start": "記載なし",
+        "term_end": "2029-11-17",
+        "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認"
+      },
+      "public_order": 266,
+      "prefecture_city_order": 23,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11227",
+      "region_id": "mun-11227",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11227",
+      "city_name": "朝霞市",
+      "city_slug": "asaka-shi",
+      "macro_region": "関東",
+      "mayor_name": "松下 昌代",
+      "mayor_name_kana": null,
+      "term_start": "2025-03-17",
+      "term_start_display": null,
+      "term_end": "2029-03-16",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.asaka.lg.jp/soshiki/1/masterprofile.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.asaka.lg.jp/soshiki/1/masterprofile.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "朝霞市長プロフィールで松下昌代市長の任期が2025-03-17〜2029-03-16と明記。市長就任あいさつでも2025-03-17就任を確認。",
+      "findings_values": {
+        "mayor_name": "松下 昌代",
+        "term_start": "2025-03-17",
+        "term_end": "2029-03-16",
+        "note": "朝霞市長プロフィールで松下昌代市長の任期が2025-03-17〜2029-03-16と明記。市長就任あいさつでも2025-03-17就任を確認。"
+      },
+      "public_order": 267,
+      "prefecture_city_order": 24,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11228",
+      "region_id": "mun-11228",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11228",
+      "city_name": "志木市",
+      "city_slug": "shiki-shi",
+      "macro_region": "関東",
+      "mayor_name": "香川 武文",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-06-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "香川 武文",
+        "term_start": "記載なし",
+        "term_end": "2026-06-30",
+        "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認"
+      },
+      "public_order": 268,
+      "prefecture_city_order": 25,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11229",
+      "region_id": "mun-11229",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11229",
+      "city_name": "和光市",
+      "city_slug": "wakou-shi",
+      "macro_region": "関東",
+      "mayor_name": "柴﨑 光子",
+      "mayor_name_kana": null,
+      "term_start": "2025-05-23",
+      "term_start_display": null,
+      "term_end": "2029-05-22",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.city.wako.lg.jp/shisei/1008134/1009418/1008135.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": "https://www.city.wako.lg.jp/shisei/1008134/1009418/1008135.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "和光市公式プロフィールで2期目の任期が2025-05-23から2029-05-22までと明記されていることを確認。",
+      "findings_values": {
+        "mayor_name": "柴﨑 光子",
+        "term_start": "2025-05-23",
+        "term_end": "2029-05-22",
+        "note": "和光市公式プロフィールで2期目の任期が2025-05-23から2029-05-22までと明記されていることを確認。"
+      },
+      "public_order": 269,
+      "prefecture_city_order": 26,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11230",
+      "region_id": "mun-11230",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11230",
+      "city_name": "新座市",
+      "city_slug": "niiza-shi",
+      "macro_region": "関東",
+      "mayor_name": "並木 傑",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-07-25",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "並木 傑",
+        "term_start": "記載なし",
+        "term_end": "2028-07-25",
+        "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認"
+      },
+      "public_order": 270,
+      "prefecture_city_order": 27,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11231",
+      "region_id": "mun-11231",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11231",
+      "city_name": "桶川市",
+      "city_slug": "okegawa-shi",
+      "macro_region": "関東",
+      "mayor_name": "小野 かつのり",
+      "mayor_name_kana": null,
+      "term_start": "2025-04-23",
+      "term_start_display": null,
+      "term_end": "2029-04-22",
+      "term_end_display": null,
+      "term_note": "4期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "選挙結果PDF",
+          "url": "https://www.city.okegawa.lg.jp/material/files/group/44/R7shichousen.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "選挙結果PDF",
+        "url": "https://www.city.okegawa.lg.jp/material/files/group/44/R7shichousen.pdf"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "令和7年4月13日執行の桶川市長選挙結果PDFで小野かつのり氏の4選を確認。現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "小野 かつのり",
+        "term_start": "2025-04-23",
+        "term_end": "2029-04-22",
+        "note": "令和7年4月13日執行の桶川市長選挙結果PDFで小野かつのり氏の4選を確認。現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 271,
+      "prefecture_city_order": 28,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11233",
+      "region_id": "mun-11233",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11233",
+      "city_name": "北本市",
+      "city_slug": "kitamoto-shi",
+      "macro_region": "関東",
+      "mayor_name": "三宮 幸雄",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "三宮 幸雄",
+        "term_start": "記載なし",
+        "term_end": "2027-04-30",
+        "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認"
+      },
+      "public_order": 272,
+      "prefecture_city_order": 29,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11234",
+      "region_id": "mun-11234",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11234",
+      "city_name": "八潮市",
+      "city_slug": "yashio-shi",
+      "macro_region": "関東",
+      "mayor_name": "大山 忍",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-09-15",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "大山 忍",
+        "term_start": "記載なし",
+        "term_end": "2026-09-15",
+        "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認"
+      },
+      "public_order": 273,
+      "prefecture_city_order": 30,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11235",
+      "region_id": "mun-11235",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11235",
+      "city_name": "富士見市",
+      "city_slug": "fujimi-shi",
+      "macro_region": "関東",
+      "mayor_name": "星野 光弘",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-08-19",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "星野 光弘",
+        "term_start": "記載なし",
+        "term_end": "2028-08-19",
+        "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認"
+      },
+      "public_order": 274,
+      "prefecture_city_order": 31,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11237",
+      "region_id": "mun-11237",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11237",
+      "city_name": "三郷市",
+      "city_slug": "misato-shi",
+      "macro_region": "関東",
+      "mayor_name": "木津 雅晟",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-11-13",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "木津 雅晟",
+        "term_start": "記載なし",
+        "term_end": "2026-11-13",
+        "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認"
+      },
+      "public_order": 275,
+      "prefecture_city_order": 32,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11239",
+      "region_id": "mun-11239",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11239",
+      "city_name": "坂戸市",
+      "city_slug": "sakado-shi",
+      "macro_region": "関東",
+      "mayor_name": "石川 清",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-05-11",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "石川 清",
+        "term_start": "記載なし",
+        "term_end": "2028-05-11",
+        "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認"
+      },
+      "public_order": 276,
+      "prefecture_city_order": 33,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11240",
+      "region_id": "mun-11240",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11240",
+      "city_name": "幸手市",
+      "city_slug": "satte-shi",
+      "macro_region": "関東",
+      "mayor_name": "木村 純夫",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-10-05",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "木村 純夫",
+        "term_start": "記載なし",
+        "term_end": "2027-10-05",
+        "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認"
+      },
+      "public_order": 277,
+      "prefecture_city_order": 34,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11241",
+      "region_id": "mun-11241",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11241",
+      "city_name": "鶴ヶ島市",
+      "city_slug": "tsurugashima-shi",
+      "macro_region": "関東",
+      "mayor_name": "小川 尋海",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "埼玉県『任期満了日一覧』で確認。",
+      "findings_values": {
+        "mayor_name": "小川 尋海",
+        "term_start": "記載なし",
+        "term_end": "2029-04-30",
+        "note": "埼玉県『任期満了日一覧』で確認。"
+      },
+      "public_order": 278,
+      "prefecture_city_order": 35,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11242",
+      "region_id": "mun-11242",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11242",
+      "city_name": "日高市",
+      "city_slug": "hidaka-shi",
+      "macro_region": "関東",
+      "mayor_name": "谷ケ﨑 照雄",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-05-19",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.hidaka.lg.jp/soshiki/somubu/senkyo/1/1/27236.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.hidaka.lg.jp/soshiki/somubu/senkyo/1/1/27236.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の公職任期満了日で確認。",
+      "findings_values": {
+        "mayor_name": "谷ケ﨑 照雄",
+        "term_start": "記載なし",
+        "term_end": "2028-05-19",
+        "note": "市の公職任期満了日で確認。"
+      },
+      "public_order": 279,
+      "prefecture_city_order": 36,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11243",
+      "region_id": "mun-11243",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11243",
+      "city_name": "吉川市",
+      "city_slug": "yoshikawa-shi",
+      "macro_region": "関東",
+      "mayor_name": "中原 恵人",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-03-06",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/27,102980,227,html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/27,102980,227,html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "中原 恵人",
+        "term_start": "記載なし",
+        "term_end": "2027-03-06",
+        "note": "市の任期満了日一覧で確認。"
+      },
+      "public_order": 280,
+      "prefecture_city_order": 37,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11245",
+      "region_id": "mun-11245",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11245",
+      "city_name": "ふじみ野市",
+      "city_slug": "fujimino-shi",
+      "macro_region": "関東",
+      "mayor_name": "高畑 博",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-11-12",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.fujimino.saitama.jp/soshikiichiran/senkyokanriiinkai/senkyo/1882.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.fujimino.saitama.jp/soshikiichiran/senkyokanriiinkai/senkyo/1882.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の選挙管理委員会ページで確認。",
+      "findings_values": {
+        "mayor_name": "高畑 博",
+        "term_start": "記載なし",
+        "term_end": "2029-11-12",
+        "note": "市の選挙管理委員会ページで確認。"
+      },
+      "public_order": 281,
+      "prefecture_city_order": 38,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-11246",
+      "region_id": "mun-11246",
+      "pref_code": "11",
+      "pref_name": "埼玉県",
+      "municipality_code": "11246",
+      "city_name": "白岡市",
+      "city_slug": "shiraoka-shi",
+      "macro_region": "関東",
+      "mayor_name": "藤井 栄一郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-25",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.shiraoka.lg.jp/soshiki/senkyokanriiinkaijimukyoku/osirase/9209.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.shiraoka.lg.jp/soshiki/senkyokanriiinkaijimukyoku/osirase/9209.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市の今後の選挙一覧で確認。",
+      "findings_values": {
+        "mayor_name": "藤井 栄一郎",
+        "term_start": "記載なし",
+        "term_end": "2028-11-25",
+        "note": "市の今後の選挙一覧で確認。"
+      },
+      "public_order": 282,
+      "prefecture_city_order": 39,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.md",
+        "research/current-mayors/findings/11-saitama/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

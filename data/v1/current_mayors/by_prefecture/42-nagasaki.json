@@ -1,0 +1,859 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "42",
+  "pref_slug": "nagasaki",
+  "pref_name": "長崎県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/42-nagasaki",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-42214",
+      "region_id": "mun-42214",
+      "pref_code": "42",
+      "pref_name": "長崎県",
+      "municipality_code": "42214",
+      "city_name": "南島原市",
+      "city_slug": "minamishimabara-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "松本政博",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "2022-07",
+      "term_end": null,
+      "term_end_display": "2026-07",
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.city.minamishimabara.lg.jp/kiji0034404/index.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.minamishimabara.lg.jp/kiji0034404/index.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "氏名・3期目は市長プロフィール、任期月は令和4所信表明/令和8市政報告で確認",
+      "findings_values": {
+        "mayor_name": "松本政博",
+        "term_start": "2022-07",
+        "term_end": "2026-07",
+        "note": "氏名・3期目は市長プロフィール、任期月は令和4所信表明/令和8市政報告で確認"
+      },
+      "public_order": 31,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-42201",
+      "region_id": "mun-42201",
+      "pref_code": "42",
+      "pref_name": "長崎県",
+      "municipality_code": "42201",
+      "city_name": "長崎市",
+      "city_slug": "nagasaki-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "鈴木史朗",
+      "mayor_name_kana": null,
+      "term_start": "2023-04-26",
+      "term_start_display": null,
+      "term_end": "2027-04-25",
+      "term_end_display": null,
+      "term_note": "第36代",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.city.nagasaki.lg.jp/page/6033.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.nagasaki.lg.jp/page/6033.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "氏名・就任日は歴代市長等、満了日は選管『公職の任期・定数』で確認",
+      "findings_values": {
+        "mayor_name": "鈴木史朗",
+        "term_start": "2023-04-26",
+        "term_end": "2027-04-25",
+        "note": "氏名・就任日は歴代市長等、満了日は選管『公職の任期・定数』で確認"
+      },
+      "public_order": 72,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-42202",
+      "region_id": "mun-42202",
+      "pref_code": "42",
+      "pref_name": "長崎県",
+      "municipality_code": "42202",
+      "city_name": "佐世保市",
+      "city_slug": "nagasaki-shi-2",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "宮島 大典",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-29",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長名簿で確認。",
+      "findings_values": {
+        "mayor_name": "宮島 大典",
+        "term_start": "記載なし",
+        "term_end": "2027-04-29",
+        "note": "県の市町長名簿で確認。"
+      },
+      "public_order": 722,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-42203",
+      "region_id": "mun-42203",
+      "pref_code": "42",
+      "pref_name": "長崎県",
+      "municipality_code": "42203",
+      "city_name": "島原市",
+      "city_slug": "nagasaki-shi-3",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "古川 隆三郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-12-17",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長名簿で確認。",
+      "findings_values": {
+        "mayor_name": "古川 隆三郎",
+        "term_start": "記載なし",
+        "term_end": "2028-12-17",
+        "note": "県の市町長名簿で確認。"
+      },
+      "public_order": 723,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-42204",
+      "region_id": "mun-42204",
+      "pref_code": "42",
+      "pref_name": "長崎県",
+      "municipality_code": "42204",
+      "city_name": "諫早市",
+      "city_slug": "nagasaki-shi-4",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "大久保 潔重",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-09",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長名簿で確認。",
+      "findings_values": {
+        "mayor_name": "大久保 潔重",
+        "term_start": "記載なし",
+        "term_end": "2029-04-09",
+        "note": "県の市町長名簿で確認。"
+      },
+      "public_order": 724,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-42205",
+      "region_id": "mun-42205",
+      "pref_code": "42",
+      "pref_name": "長崎県",
+      "municipality_code": "42205",
+      "city_name": "大村市",
+      "city_slug": "nagasaki-shi-5",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "園田 裕史",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-11-07",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長名簿で確認。",
+      "findings_values": {
+        "mayor_name": "園田 裕史",
+        "term_start": "記載なし",
+        "term_end": "2027-11-07",
+        "note": "県の市町長名簿で確認。"
+      },
+      "public_order": 725,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-42207",
+      "region_id": "mun-42207",
+      "pref_code": "42",
+      "pref_name": "長崎県",
+      "municipality_code": "42207",
+      "city_name": "平戸市",
+      "city_slug": "hirado-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "松尾 有嗣",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-11-05",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長名簿で確認。",
+      "findings_values": {
+        "mayor_name": "松尾 有嗣",
+        "term_start": "記載なし",
+        "term_end": "2029-11-05",
+        "note": "県の市町長名簿で確認。"
+      },
+      "public_order": 726,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-42208",
+      "region_id": "mun-42208",
+      "pref_code": "42",
+      "pref_name": "長崎県",
+      "municipality_code": "42208",
+      "city_name": "松浦市",
+      "city_slug": "nagasaki-shi-6",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "友田 吉泰",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-02-04",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長名簿で確認。",
+      "findings_values": {
+        "mayor_name": "友田 吉泰",
+        "term_start": "記載なし",
+        "term_end": "2030-02-04",
+        "note": "県の市町長名簿で確認。"
+      },
+      "public_order": 727,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-42209",
+      "region_id": "mun-42209",
+      "pref_code": "42",
+      "pref_name": "長崎県",
+      "municipality_code": "42209",
+      "city_name": "対馬市",
+      "city_slug": "tsushima-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "比田勝 尚喜",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-03-27",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長名簿で確認。",
+      "findings_values": {
+        "mayor_name": "比田勝 尚喜",
+        "term_start": "記載なし",
+        "term_end": "2028-03-27",
+        "note": "県の市町長名簿で確認。"
+      },
+      "public_order": 728,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-42210",
+      "region_id": "mun-42210",
+      "pref_code": "42",
+      "pref_name": "長崎県",
+      "municipality_code": "42210",
+      "city_name": "壱岐市",
+      "city_slug": "nagasaki-shi-7",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "篠原 一生",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-17",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長名簿で確認。",
+      "findings_values": {
+        "mayor_name": "篠原 一生",
+        "term_start": "記載なし",
+        "term_end": "2028-04-17",
+        "note": "県の市町長名簿で確認。"
+      },
+      "public_order": 729,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-42211",
+      "region_id": "mun-42211",
+      "pref_code": "42",
+      "pref_name": "長崎県",
+      "municipality_code": "42211",
+      "city_name": "五島市",
+      "city_slug": "nagasaki-shi-8",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "出口 太",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-09-04",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長名簿で確認。",
+      "findings_values": {
+        "mayor_name": "出口 太",
+        "term_start": "記載なし",
+        "term_end": "2028-09-04",
+        "note": "県の市町長名簿で確認。"
+      },
+      "public_order": 730,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-42212",
+      "region_id": "mun-42212",
+      "pref_code": "42",
+      "pref_name": "長崎県",
+      "municipality_code": "42212",
+      "city_name": "西海市",
+      "city_slug": "nagasaki-shi-9",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "瀬川 光之",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長名簿で確認。",
+      "findings_values": {
+        "mayor_name": "瀬川 光之",
+        "term_start": "記載なし",
+        "term_end": "2029-04-30",
+        "note": "県の市町長名簿で確認。"
+      },
+      "public_order": 731,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-42213",
+      "region_id": "mun-42213",
+      "pref_code": "42",
+      "pref_name": "長崎県",
+      "municipality_code": "42213",
+      "city_name": "雲仙市",
+      "city_slug": "nagasaki-shi-10",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "金澤 秀三郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-01-12",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "令和5年度財政状況資料集(県内市町)",
+          "url": "https://www.pref.nagasaki.jp/doc/page-716169.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.nagasaki.jp/doc/page-412855.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nagasaki.jp/doc/page-412855.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長名簿で確認。",
+      "findings_values": {
+        "mayor_name": "金澤 秀三郎",
+        "term_start": "記載なし",
+        "term_end": "2029-01-12",
+        "note": "県の市町長名簿で確認。"
+      },
+      "public_order": 732,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/42-nagasaki/2026-04-24-round1.sources.json"
+      ]
+    }
+  ]
+}

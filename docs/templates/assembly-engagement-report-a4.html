@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>市議会関心喚起資料 A4テンプレート</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 9mm;
+    }
+
+    :root {
+      --blue: #0b82b5;
+      --blue-dark: #075f86;
+      --blue-soft: #e7f5fb;
+      --red: #b93655;
+      --yellow: #f2d64b;
+      --green: #16845e;
+      --ink: #26323b;
+      --muted: #66737d;
+      --line: #cfdbe2;
+      --paper: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: #dfeaf0;
+      font-family: "BIZ UDPGothic", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      line-height: 1.62;
+    }
+
+    .sheet {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      padding: 10mm;
+      background: var(--paper);
+      border-top: 8mm solid var(--blue);
+      border-bottom: 8mm solid var(--blue);
+    }
+
+    .kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.24rem 0.55rem;
+      border: 2px solid var(--blue-dark);
+      color: var(--blue-dark);
+      font-size: 0.84rem;
+      font-weight: 800;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 42mm;
+      gap: 7mm;
+      align-items: end;
+      margin-top: 6mm;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24pt;
+      line-height: 1.14;
+      letter-spacing: 0;
+    }
+
+    h1 .red {
+      color: var(--red);
+    }
+
+    .body-badge {
+      display: grid;
+      place-items: center;
+      min-height: 38mm;
+      padding: 4mm;
+      border: 2px solid var(--blue);
+      background: var(--blue-soft);
+      color: var(--blue-dark);
+      text-align: center;
+      font-size: 15pt;
+      font-weight: 900;
+    }
+
+    .question-list {
+      display: grid;
+      gap: 1.5mm;
+      margin: 5mm 0 0;
+      padding: 0;
+      list-style: none;
+      color: var(--blue-dark);
+      font-weight: 800;
+    }
+
+    .question-list li {
+      border: 2px solid #89c4dc;
+      border-radius: 4mm;
+      padding: 1.5mm 3mm;
+      background: #f7fcff;
+    }
+
+    .section-ribbon {
+      display: flex;
+      align-items: center;
+      gap: 2.4mm;
+      margin-top: 6mm;
+      padding: 2mm 4mm;
+      background: var(--blue);
+      color: #fff;
+      font-size: 14pt;
+      font-weight: 900;
+    }
+
+    .check {
+      display: inline-grid;
+      place-items: center;
+      width: 7mm;
+      height: 7mm;
+      border: 1.5px solid #26323b;
+      background: #fff;
+      color: var(--red);
+      font-weight: 900;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 5mm;
+      margin-top: 4mm;
+    }
+
+    .box {
+      border: 2px solid var(--line);
+      padding: 4mm;
+      background: #fff;
+    }
+
+    .box.blue {
+      border-color: var(--blue);
+      background: #f7fcff;
+    }
+
+    .point {
+      display: grid;
+      grid-template-columns: 28mm 1fr;
+      align-items: stretch;
+      border: 2px solid #d9bc2a;
+      margin-top: 4mm;
+      background: #fffdf0;
+    }
+
+    .point strong {
+      display: grid;
+      place-items: center;
+      background: var(--yellow);
+      color: #3f3a16;
+      font-size: 13pt;
+      letter-spacing: 0;
+    }
+
+    .point ul {
+      margin: 0;
+      padding: 3mm 4mm 3mm 8mm;
+      font-weight: 800;
+    }
+
+    h2,
+    h3 {
+      margin: 0 0 2mm;
+      letter-spacing: 0;
+      line-height: 1.25;
+    }
+
+    h2 {
+      color: var(--blue-dark);
+      font-size: 16pt;
+    }
+
+    h3 {
+      font-size: 12pt;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .muted {
+      color: var(--muted);
+      font-size: 9pt;
+    }
+
+    .vote-map {
+      display: grid;
+      grid-template-columns: 1fr 14mm 14mm 1fr;
+      gap: 3mm;
+      align-items: center;
+      margin-top: 3mm;
+    }
+
+    .groups {
+      display: grid;
+      gap: 2mm;
+    }
+
+    .group {
+      border: 2px solid var(--line);
+      padding: 2mm;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .group.green {
+      border-color: var(--green);
+      color: var(--green);
+    }
+
+    .group.blue {
+      border-color: var(--blue);
+      color: var(--blue-dark);
+    }
+
+    .group.red {
+      border-color: var(--red);
+      color: var(--red);
+    }
+
+    .vote-count {
+      display: grid;
+      place-items: center;
+      min-height: 42mm;
+      color: #fff;
+      font-size: 18pt;
+      font-weight: 900;
+      writing-mode: vertical-rl;
+    }
+
+    .yes {
+      background: var(--blue);
+    }
+
+    .no {
+      background: var(--red);
+    }
+
+    .election-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 2mm;
+      font-size: 10pt;
+    }
+
+    .election-table th,
+    .election-table td {
+      border-bottom: 1px solid var(--line);
+      padding: 2mm;
+      text-align: left;
+    }
+
+    .big-number {
+      color: var(--red);
+      font-size: 22pt;
+      font-weight: 900;
+      line-height: 1;
+    }
+
+    .sources {
+      margin-top: 5mm;
+      padding: 3mm;
+      border: 2px solid var(--blue);
+      font-size: 8.6pt;
+    }
+
+    .footer {
+      display: grid;
+      grid-template-columns: 1fr 34mm;
+      gap: 4mm;
+      margin-top: 5mm;
+      padding: 4mm;
+      background: var(--blue);
+      color: #fff;
+    }
+
+    .qr-placeholder {
+      display: grid;
+      place-items: center;
+      aspect-ratio: 1;
+      border: 2px solid #fff;
+      font-size: 9pt;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      .sheet {
+        margin: 0;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="sheet">
+    <span class="kicker">市議会関心喚起資料 TEMPLATE</span>
+
+    <section class="hero">
+      <div>
+        <h1>なぜ <span class="red">地方政治</span> は<br>遠く感じるのか</h1>
+        <ul class="question-list">
+          <li>議会で何が起こっているか分からないから?</li>
+          <li>決まったことが生活にどう関わるか見えにくいから?</li>
+          <li>選挙で1票がどう効くか実感しにくいから?</li>
+        </ul>
+      </div>
+      <div class="body-badge">[市名]<br>[市議会]</div>
+    </section>
+
+    <div class="section-ribbon"><span class="check">✓</span>今回の1テーマ | [会期名] [議案・決定名]</div>
+
+    <section class="grid-2">
+      <article class="box blue">
+        <h2>議会は何をするところなのか</h2>
+        <p>ざっくり言うと、市役所が提案した予算、条例、契約、施設運営などを確認し、住民を代表して大事なことを決める場所です。</p>
+      </article>
+      <article class="box">
+        <h2>今回のメインテーマ</h2>
+        <p>[生活に関わる制度・予算・施設名] について、[可決・否決・修正可決など] となりました。</p>
+        <p class="muted">確認日: [YYYY-MM-DD] / 出典: [議決結果・議案一覧]</p>
+      </article>
+    </section>
+
+    <div class="point">
+      <strong>POINT</strong>
+      <ul>
+        <li>[市民生活に関わる確認済み事実]</li>
+        <li>[賛否や審査で分かれた論点]</li>
+        <li>[原文を確認するための入口]</li>
+      </ul>
+    </div>
+
+    <div class="section-ribbon"><span class="check">✓</span>紙一重の決定 | 会派別の賛否を見る</div>
+
+    <section class="box">
+      <h2>この議決は [賛成数] 対 [反対数] でした</h2>
+      <p class="muted">公式資料で会派別または議員別の賛否を確認できる場合だけ、この図を使います。</p>
+      <div class="vote-map">
+        <div class="groups">
+          <div class="group green">[会派A] [人数]</div>
+          <div class="group blue">[会派B] [人数]</div>
+          <div class="group">[無所属など] [人数]</div>
+        </div>
+        <div class="vote-count yes">賛成<br>[数]</div>
+        <div class="vote-count no">反対<br>[数]</div>
+        <div class="groups">
+          <div class="group red">[会派C] [人数]</div>
+          <div class="group">[会派D] [人数]</div>
+          <div class="group">[欠席・棄権など]</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid-2">
+      <article class="box">
+        <h2>選挙に行って何の意味があるの?</h2>
+        <p>前回の [市議会議員選挙] では、当落線付近の差は <span class="big-number">[票差]</span> 票でした。</p>
+        <table class="election-table">
+          <thead>
+            <tr><th>順位</th><th>結果</th><th>得票</th><th>所属等</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>[定数内最下位]</td><td>当選</td><td>[票]</td><td>[表記]</td></tr>
+            <tr><td>[次点]</td><td>落選</td><td>[票]</td><td>[表記]</td></tr>
+          </tbody>
+        </table>
+      </article>
+      <article class="box blue">
+        <h2>暮らしとの関わり</h2>
+        <p>[議決・予算・条例] は、[施設/制度/サービス] に関わります。詳しい対象や金額は、議案資料と会議録で確認します。</p>
+        <p class="muted">断定できない影響は書かず、公式資料で確認できる範囲だけ掲載します。</p>
+      </article>
+    </section>
+
+    <section class="sources">
+      <strong>出典</strong>
+      <p>会期日程: [URL] / 議案一覧: [URL] / 議決結果: [URL] / 会派構成: [URL] / 選挙結果: [URL] / 確認日: [YYYY-MM-DD]</p>
+      <p>この資料は公式資料をもとにした要点整理です。要約と原文で差がある場合は、必ず公式資料を優先してください。</p>
+    </section>
+
+    <footer class="footer">
+      <div>
+        <strong>自分で確認する</strong>
+        <p>議会公式ページ、会議録、議会だより、選挙結果をQRコードまたはURLから確認できます。</p>
+      </div>
+      <div class="qr-placeholder">公式ページ<br>QR</div>
+    </footer>
+  </main>
+</body>
+</html>

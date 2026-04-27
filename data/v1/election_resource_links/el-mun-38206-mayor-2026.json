@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "election_id": "el-mun-38206-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-38206-mayor-2026-other-01",
+      "election_id": "el-mun-38206-mayor-2026",
+      "kind": "other",
+      "title": "西条市長選挙の選挙期日が決まりました",
+      "url": "https://www.city.saijo.ehime.jp/soshiki/senkan/shityousen-senkyokijitu.html",
+      "summary": "西条市長選挙の投票日、告示日、投票所、投票時間、開票日を確認できる西条市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.saijo.ehime.jp/soshiki/senkan/shityousen-senkyokijitu.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-38206-mayor-2026-early-voting-01",
+      "election_id": "el-mun-38206-mayor-2026",
+      "kind": "early_voting",
+      "title": "期日前投票制度",
+      "url": "https://www.city.saijo.ehime.jp/soshiki/senkan/kijitsuzen.html",
+      "summary": "期日前投票の制度、投票対象者、投票できる期間や場所を確認できる西条市公式ページ。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.city.saijo.ehime.jp/soshiki/senkan/kijitsuzen.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-38206-mayor-2026-polling-place-01",
+      "election_id": "el-mun-38206-mayor-2026",
+      "kind": "polling_place",
+      "title": "投票所一覧表",
+      "url": "https://www.city.saijo.ehime.jp/soshiki/senkan/tohyosho.html",
+      "summary": "西条市の投票所一覧を確認できる公式ページ。西条市長選挙の選挙期日ページでも投票所は市内65か所と案内されている。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.city.saijo.ehime.jp/soshiki/senkan/tohyosho.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

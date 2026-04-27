@@ -1,0 +1,576 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "07",
+  "pref_slug": "fukushima",
+  "pref_name": "福島県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/07-fukushima",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-07201",
+      "region_id": "mun-07201",
+      "pref_code": "07",
+      "pref_name": "福島県",
+      "municipality_code": "07201",
+      "city_name": "福島市",
+      "city_slug": "fukushima-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "馬場 雄基",
+      "mayor_name_kana": null,
+      "term_start": "2025-12-08",
+      "term_start_display": null,
+      "term_end": "2029-12-07",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式",
+          "url": "https://www.city.fukushima.fukushima.jp/shichonoheya/hokoku_1/1/16491.html",
+          "checked_at": "2026-04-20",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.fukushima.fukushima.jp/shichonoheya/hokoku_1/1/16491.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長就任記者会見で2025-12-08時点の就任を確認。任期満了日は4年任期で整理。",
+      "findings_values": null,
+      "public_order": 83,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-07202",
+      "region_id": "mun-07202",
+      "pref_code": "07",
+      "pref_name": "福島県",
+      "municipality_code": "07202",
+      "city_name": "会津若松市",
+      "city_slug": "aizuwakamatsu-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "室井 照平",
+      "mayor_name_kana": null,
+      "term_start": "2023-08-07",
+      "term_start_display": null,
+      "term_end": "2027-08-06",
+      "term_end_display": null,
+      "term_note": "2023年8月7日就任、4期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "県任期一覧",
+          "url": "https://www.pref.fukushima.lg.jp/sec/01145a/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "県任期一覧",
+        "url": "https://www.pref.fukushima.lg.jp/sec/01145a/ninki.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福島県の市町村長任期一覧で現職名と任期を再確認。",
+      "findings_values": null,
+      "public_order": 136,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-07203",
+      "region_id": "mun-07203",
+      "pref_code": "07",
+      "pref_name": "福島県",
+      "municipality_code": "07203",
+      "city_name": "郡山市",
+      "city_slug": "koriyama-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "椎根健雄",
+      "mayor_name_kana": null,
+      "term_start": "2025-04-27",
+      "term_start_display": null,
+      "term_end": "2029-04-26",
+      "term_end_display": null,
+      "term_note": "1期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/740269.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/740269.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "福島県任期一覧（令和8年4月1日現在）",
+      "findings_values": null,
+      "public_order": 137,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-07204",
+      "region_id": "mun-07204",
+      "pref_code": "07",
+      "pref_name": "福島県",
+      "municipality_code": "07204",
+      "city_name": "いわき市",
+      "city_slug": "iwaki-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "内田広之",
+      "mayor_name_kana": null,
+      "term_start": "2025-09-28",
+      "term_start_display": null,
+      "term_end": "2029-09-27",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/740269.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/740269.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "福島県任期一覧（令和8年4月1日現在）",
+      "findings_values": null,
+      "public_order": 138,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-07205",
+      "region_id": "mun-07205",
+      "pref_code": "07",
+      "pref_name": "福島県",
+      "municipality_code": "07205",
+      "city_name": "白河市",
+      "city_slug": "shirakawa-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "鈴木 和夫",
+      "mayor_name_kana": null,
+      "term_start": "2023-07-29",
+      "term_start_display": null,
+      "term_end": "2027-07-28",
+      "term_end_display": null,
+      "term_note": "2023年7月29日就任、5期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "県任期一覧",
+          "url": "https://www.pref.fukushima.lg.jp/sec/01145a/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "県任期一覧",
+        "url": "https://www.pref.fukushima.lg.jp/sec/01145a/ninki.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福島県の市町村長任期一覧で現職名と任期を再確認。",
+      "findings_values": null,
+      "public_order": 139,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-07207",
+      "region_id": "mun-07207",
+      "pref_code": "07",
+      "pref_name": "福島県",
+      "municipality_code": "07207",
+      "city_name": "須賀川市",
+      "city_slug": "sukagawa-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "大寺正晃",
+      "mayor_name_kana": null,
+      "term_start": "2024-08-11",
+      "term_start_display": null,
+      "term_end": "2028-08-10",
+      "term_end_display": null,
+      "term_note": "1期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/740269.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/740269.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "福島県任期一覧（令和8年4月1日現在）",
+      "findings_values": null,
+      "public_order": 140,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-07208",
+      "region_id": "mun-07208",
+      "pref_code": "07",
+      "pref_name": "福島県",
+      "municipality_code": "07208",
+      "city_name": "喜多方市",
+      "city_slug": "kitakata-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "遠藤忠一",
+      "mayor_name_kana": null,
+      "term_start": "2026-02-12",
+      "term_start_display": null,
+      "term_end": "2030-02-11",
+      "term_end_display": null,
+      "term_note": "3期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/740269.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/740269.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "福島県任期一覧（令和8年4月1日現在）",
+      "findings_values": null,
+      "public_order": 141,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-07209",
+      "region_id": "mun-07209",
+      "pref_code": "07",
+      "pref_name": "福島県",
+      "municipality_code": "07209",
+      "city_name": "相馬市",
+      "city_slug": "souma-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "阿部 勝弘",
+      "mayor_name_kana": null,
+      "term_start": "2026-01-19",
+      "term_start_display": null,
+      "term_end": "2030-01-18",
+      "term_end_display": null,
+      "term_note": "2026年1月19日就任、1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "県任期一覧",
+          "url": "https://www.pref.fukushima.lg.jp/sec/01145a/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "県任期一覧",
+        "url": "https://www.pref.fukushima.lg.jp/sec/01145a/ninki.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福島県の市町村長任期一覧で現職名と任期を再確認。",
+      "findings_values": null,
+      "public_order": 142,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-07210",
+      "region_id": "mun-07210",
+      "pref_code": "07",
+      "pref_name": "福島県",
+      "municipality_code": "07210",
+      "city_name": "二本松市",
+      "city_slug": "nihonmatsu-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "三保 恵一",
+      "mayor_name_kana": null,
+      "term_start": "2025-11-30",
+      "term_start_display": null,
+      "term_end": "2029-11-29",
+      "term_end_display": null,
+      "term_note": "4期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "二本松市長選挙結果",
+          "url": "https://www.city.nihonmatsu.lg.jp/shisei/senkyo/page013504.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_list",
+          "title": "市町村長任期一覧",
+          "url": "https://www.pref.fukushima.lg.jp/sec/01145a/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.nihonmatsu.lg.jp/shisei/senkyo/page013504.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2025-11-30執行の二本松市長選挙結果ページと現職継続の市長情報をもとに、現任期4年で整理。",
+      "findings_values": null,
+      "public_order": 185,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/07-fukushima/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-07211",
+      "region_id": "mun-07211",
+      "pref_code": "07",
+      "pref_name": "福島県",
+      "municipality_code": "07211",
+      "city_name": "田村市",
+      "city_slug": "tamura-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "白石高司",
+      "mayor_name_kana": null,
+      "term_start": "2025-04-17",
+      "term_start_display": null,
+      "term_end": "2029-04-16",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/740269.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/740269.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "福島県任期一覧（令和8年4月1日現在）",
+      "findings_values": null,
+      "public_order": 143,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-07212",
+      "region_id": "mun-07212",
+      "pref_code": "07",
+      "pref_name": "福島県",
+      "municipality_code": "07212",
+      "city_name": "南相馬市",
+      "city_slug": "minamisouma-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "門馬 和夫",
+      "mayor_name_kana": null,
+      "term_start": "2026-01-29",
+      "term_start_display": null,
+      "term_end": "2030-01-28",
+      "term_end_display": null,
+      "term_note": "2026年1月29日就任、3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "県任期一覧",
+          "url": "https://www.pref.fukushima.lg.jp/sec/01145a/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "県任期一覧",
+        "url": "https://www.pref.fukushima.lg.jp/sec/01145a/ninki.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福島県の市町村長任期一覧で現職名と任期を再確認。",
+      "findings_values": null,
+      "public_order": 144,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-07213",
+      "region_id": "mun-07213",
+      "pref_code": "07",
+      "pref_name": "福島県",
+      "municipality_code": "07213",
+      "city_name": "伊達市",
+      "city_slug": "date-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "須田 博行",
+      "mayor_name_kana": null,
+      "term_start": "2026-02-12",
+      "term_start_display": null,
+      "term_end": "2030-02-11",
+      "term_end_display": null,
+      "term_note": "2026年2月12日就任、3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "県任期一覧",
+          "url": "https://www.pref.fukushima.lg.jp/sec/01145a/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "県任期一覧",
+        "url": "https://www.pref.fukushima.lg.jp/sec/01145a/ninki.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福島県の市町村長任期一覧で現職名と任期を再確認。",
+      "findings_values": null,
+      "public_order": 145,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-07214",
+      "region_id": "mun-07214",
+      "pref_code": "07",
+      "pref_name": "福島県",
+      "municipality_code": "07214",
+      "city_name": "本宮市",
+      "city_slug": "motomiya-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "高松 義行",
+      "mayor_name_kana": null,
+      "term_start": "2023-02-04",
+      "term_start_display": null,
+      "term_end": "2027-02-03",
+      "term_end_display": null,
+      "term_note": "2023年2月4日就任、4期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "県任期一覧",
+          "url": "https://www.pref.fukushima.lg.jp/sec/01145a/ninki.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "県任期一覧",
+        "url": "https://www.pref.fukushima.lg.jp/sec/01145a/ninki.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "福島県の市町村長任期一覧で現職名と任期を再確認。",
+      "findings_values": null,
+      "public_order": 146,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    }
+  ]
+}

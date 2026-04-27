@@ -25,6 +25,15 @@ const CANDIDATE_PROFILE_STATUSES = new Set(["official_candidate", "reported_cand
 const CANDIDATE_PROFILE_LINK_KINDS = new Set(["official_profile", "institution_profile", "personal_profile", "policy"]);
 const PAGE_STATUS_OFFICIAL_CANDIDATE_LIST_STATUSES = new Set(["not_included", "published"]);
 const LOCAL_GOVERNMENT_SITE_KINDS = new Set(["municipality_home", "prefecture_home", "election_commission", "assembly", "mayor", "governor"]);
+const PREFECTURAL_ASSEMBLY_OFFICIAL_LINK_KINDS = new Set([
+  "election_hub",
+  "election_commission",
+  "assembly_home",
+  "member_roster",
+  "districts",
+  "recent_regular_election",
+  "candidate_bulletin_archive",
+]);
 
 const KEBAB_CASE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const PREF_CODE = /^\d{2}$/;
@@ -286,16 +295,34 @@ async function listJsonFilesIfExists(dirPath) {
 const regionsPath = path.join(dataRoot, "regions.json");
 const electionsPath = path.join(dataRoot, "elections.json");
 const localGovernmentSitesPath = path.join(dataRoot, "local_government_sites.json");
+const prefecturalAssemblyTermsPath = path.join(dataRoot, "prefectural_assembly_terms.json");
+const prefecturalAssemblyDistrictsPath = path.join(dataRoot, "prefectural_assembly_districts.json");
+const prefecturalAssemblyOfficialLinksPath = path.join(dataRoot, "prefectural_assembly_official_links.json");
 const postalDir = path.join(dataRoot, "postal_code_mappings");
 const resourceDir = path.join(dataRoot, "election_resource_links");
 const candidateSignalDir = path.join(dataRoot, "candidate_signals");
 const candidateEndorsementDir = path.join(dataRoot, "candidate_endorsements");
 const candidateProfileDir = path.join(dataRoot, "candidate_profiles");
 
-const [regionsData, electionsData, localGovernmentSitesData, postalFiles, resourceFiles, candidateSignalFiles, candidateEndorsementFiles, candidateProfileFiles] = await Promise.all([
+const [
+  regionsData,
+  electionsData,
+  localGovernmentSitesData,
+  prefecturalAssemblyTermsData,
+  prefecturalAssemblyDistrictsData,
+  prefecturalAssemblyOfficialLinksData,
+  postalFiles,
+  resourceFiles,
+  candidateSignalFiles,
+  candidateEndorsementFiles,
+  candidateProfileFiles,
+] = await Promise.all([
   readJson(regionsPath),
   readJson(electionsPath),
   readJson(localGovernmentSitesPath),
+  readJson(prefecturalAssemblyTermsPath),
+  readJson(prefecturalAssemblyDistrictsPath),
+  readJson(prefecturalAssemblyOfficialLinksPath),
   listJsonFiles(postalDir),
   listJsonFiles(resourceDir),
   listJsonFilesIfExists(candidateSignalDir),
@@ -319,6 +346,18 @@ if (electionsData) {
 
 if (localGovernmentSitesData) {
   validateCollectionRoot(localGovernmentSitesData, localGovernmentSitesPath);
+}
+
+if (prefecturalAssemblyTermsData) {
+  validateCollectionRoot(prefecturalAssemblyTermsData, prefecturalAssemblyTermsPath);
+}
+
+if (prefecturalAssemblyDistrictsData) {
+  validateCollectionRoot(prefecturalAssemblyDistrictsData, prefecturalAssemblyDistrictsPath);
+}
+
+if (prefecturalAssemblyOfficialLinksData) {
+  validateCollectionRoot(prefecturalAssemblyOfficialLinksData, prefecturalAssemblyOfficialLinksPath);
 }
 
 for (const [filePath, data] of postalDataList) {
@@ -653,6 +692,443 @@ if (localGovernmentSitesData?.records) {
       if (record.site_kind === "governor" && region.level !== "prefecture") {
         pushError(localGovernmentSitesPath, `${label}.region_id must reference a prefecture for governor`);
       }
+    }
+  }
+}
+
+const prefecturalAssemblyTermIds = new Set();
+const prefecturalAssemblyTermPrefCodes = new Set();
+const prefecturalAssemblyTermByPrefCode = new Map();
+let prefecturalAssemblyTermRecordCount = 0;
+
+if (prefecturalAssemblyTermsData?.records) {
+  if (!isPlainObject(prefecturalAssemblyTermsData.source)) {
+    pushError(prefecturalAssemblyTermsPath, "source must be an object");
+  } else {
+    const source = prefecturalAssemblyTermsData.source;
+
+    if (!isNonEmptyString(source.label)) {
+      pushError(prefecturalAssemblyTermsPath, "source.label must be a non-empty string");
+    }
+
+    if (!isValidUrl(source.url)) {
+      pushError(prefecturalAssemblyTermsPath, "source.url must be an absolute URL");
+    }
+
+    if (!SOURCE_TYPES.has(source.source_type)) {
+      pushError(prefecturalAssemblyTermsPath, "source.source_type is invalid");
+    }
+
+    if (!isValidDateTime(source.retrieved_at ?? "")) {
+      pushError(prefecturalAssemblyTermsPath, "source.retrieved_at must be RFC 3339");
+    }
+
+    if (!isNonEmptyString(source.snapshot_path)) {
+      pushError(prefecturalAssemblyTermsPath, "source.snapshot_path must be a non-empty string");
+    }
+  }
+
+  for (let index = 0; index < prefecturalAssemblyTermsData.records.length; index += 1) {
+    const record = prefecturalAssemblyTermsData.records[index];
+    const label = `records[${index}]`;
+
+    if (!isPlainObject(record)) {
+      pushError(prefecturalAssemblyTermsPath, `${label} must be an object`);
+      continue;
+    }
+
+    prefecturalAssemblyTermRecordCount += 1;
+
+    if (!isNonEmptyString(record.id) || !KEBAB_CASE.test(record.id)) {
+      pushError(prefecturalAssemblyTermsPath, `${label}.id must be kebab-case`);
+    } else if (prefecturalAssemblyTermIds.has(record.id)) {
+      pushError(prefecturalAssemblyTermsPath, `${label}.id must be unique`);
+    } else {
+      prefecturalAssemblyTermIds.add(record.id);
+    }
+
+    if (!PREF_CODE.test(record.pref_code ?? "")) {
+      pushError(prefecturalAssemblyTermsPath, `${label}.pref_code must be a 2-digit string`);
+    } else if (prefecturalAssemblyTermPrefCodes.has(record.pref_code)) {
+      pushError(prefecturalAssemblyTermsPath, `${label}.pref_code must be unique`);
+    } else {
+      prefecturalAssemblyTermPrefCodes.add(record.pref_code);
+      prefecturalAssemblyTermByPrefCode.set(record.pref_code, record);
+    }
+
+    if (isNonEmptyString(record.id) && PREF_CODE.test(record.pref_code ?? "") && record.id !== `pref-assembly-term-${record.pref_code}`) {
+      pushError(prefecturalAssemblyTermsPath, `${label}.id must match pref_code`);
+    }
+
+    if (!isNonEmptyString(record.prefecture_name)) {
+      pushError(prefecturalAssemblyTermsPath, `${label}.prefecture_name must be a non-empty string`);
+    }
+
+    if (!isNonEmptyString(record.region_id)) {
+      pushError(prefecturalAssemblyTermsPath, `${label}.region_id must be a non-empty string`);
+    } else {
+      const region = regionIdToRecord.get(record.region_id);
+
+      if (!region) {
+        pushError(prefecturalAssemblyTermsPath, `${label}.region_id must reference an existing region`);
+      } else {
+        if (region.level !== "prefecture") {
+          pushError(prefecturalAssemblyTermsPath, `${label}.region_id must reference a prefecture`);
+        }
+
+        if (isNonEmptyString(record.pref_code) && region.pref_code !== record.pref_code) {
+          pushError(prefecturalAssemblyTermsPath, `${label}.pref_code must match region.pref_code`);
+        }
+
+        if (isNonEmptyString(record.prefecture_name) && region.name !== record.prefecture_name) {
+          pushError(prefecturalAssemblyTermsPath, `${label}.prefecture_name must match region.name`);
+        }
+      }
+    }
+
+    if (!isNonEmptyString(record.election_name)) {
+      pushError(prefecturalAssemblyTermsPath, `${label}.election_name must be a non-empty string`);
+    }
+
+    if (!isValidDate(record.last_regular_election_vote_date ?? "")) {
+      pushError(prefecturalAssemblyTermsPath, `${label}.last_regular_election_vote_date must be YYYY-MM-DD`);
+    }
+
+    if (!isValidDate(record.term_end ?? "")) {
+      pushError(prefecturalAssemblyTermsPath, `${label}.term_end must be YYYY-MM-DD`);
+    }
+
+    if (isValidDate(record.last_regular_election_vote_date ?? "") && isValidDate(record.term_end ?? "") && record.last_regular_election_vote_date > record.term_end) {
+      pushError(prefecturalAssemblyTermsPath, `${label}.last_regular_election_vote_date must not be after term_end`);
+    }
+
+    if (!Number.isInteger(record.district_count) || record.district_count < 1) {
+      pushError(prefecturalAssemblyTermsPath, `${label}.district_count must be an integer >= 1`);
+    }
+
+    if (!Number.isInteger(record.seat_count) || record.seat_count < 1) {
+      pushError(prefecturalAssemblyTermsPath, `${label}.seat_count must be an integer >= 1`);
+    }
+
+    for (const fieldName of ["turnout_percent", "previous_turnout_percent"]) {
+      if (typeof record[fieldName] !== "number" || record[fieldName] < 0 || record[fieldName] > 100) {
+        pushError(prefecturalAssemblyTermsPath, `${label}.${fieldName} must be a number from 0 to 100`);
+      }
+    }
+
+    if (typeof record.unified_local_election_cycle !== "boolean") {
+      pushError(prefecturalAssemblyTermsPath, `${label}.unified_local_election_cycle must be boolean`);
+    }
+
+    if (!(record.note === null || typeof record.note === "string")) {
+      pushError(prefecturalAssemblyTermsPath, `${label}.note must be string or null`);
+    }
+
+    validateVerification(record.verification, prefecturalAssemblyTermsPath, label);
+  }
+
+  if (prefecturalAssemblyTermRecordCount !== 47) {
+    pushError(prefecturalAssemblyTermsPath, "records must contain 47 prefectural assembly term records");
+  }
+}
+
+const prefecturalAssemblyDistrictIds = new Set();
+const prefecturalAssemblyDistrictKeys = new Set();
+const prefecturalAssemblyDistrictStatsByPrefCode = new Map();
+let prefecturalAssemblyDistrictRecordCount = 0;
+
+if (prefecturalAssemblyDistrictsData?.records) {
+  if (!isPlainObject(prefecturalAssemblyDistrictsData.coverage)) {
+    pushError(prefecturalAssemblyDistrictsPath, "coverage must be an object");
+  } else {
+    const coverage = prefecturalAssemblyDistrictsData.coverage;
+
+    if (!isNonEmptyString(coverage.status)) {
+      pushError(prefecturalAssemblyDistrictsPath, "coverage.status must be a non-empty string");
+    }
+
+    for (const fieldName of ["prefecture_count", "district_count", "seat_count"]) {
+      if (!Number.isInteger(coverage[fieldName]) || coverage[fieldName] < 0) {
+        pushError(prefecturalAssemblyDistrictsPath, `coverage.${fieldName} must be an integer >= 0`);
+      }
+    }
+
+    if (!(coverage.note === null || typeof coverage.note === "string")) {
+      pushError(prefecturalAssemblyDistrictsPath, "coverage.note must be string or null");
+    }
+  }
+
+  for (let index = 0; index < prefecturalAssemblyDistrictsData.records.length; index += 1) {
+    const record = prefecturalAssemblyDistrictsData.records[index];
+    const label = `records[${index}]`;
+
+    if (!isPlainObject(record)) {
+      pushError(prefecturalAssemblyDistrictsPath, `${label} must be an object`);
+      continue;
+    }
+
+    prefecturalAssemblyDistrictRecordCount += 1;
+
+    if (!isNonEmptyString(record.id) || !KEBAB_CASE.test(record.id)) {
+      pushError(prefecturalAssemblyDistrictsPath, `${label}.id must be kebab-case`);
+    } else if (prefecturalAssemblyDistrictIds.has(record.id)) {
+      pushError(prefecturalAssemblyDistrictsPath, `${label}.id must be unique`);
+    } else {
+      prefecturalAssemblyDistrictIds.add(record.id);
+    }
+
+    if (!PREF_CODE.test(record.pref_code ?? "")) {
+      pushError(prefecturalAssemblyDistrictsPath, `${label}.pref_code must be a 2-digit string`);
+    }
+
+    if (isNonEmptyString(record.id) && PREF_CODE.test(record.pref_code ?? "") && !record.id.startsWith(`pref-assembly-district-${record.pref_code}-`)) {
+      pushError(prefecturalAssemblyDistrictsPath, `${label}.id must include pref_code`);
+    }
+
+    if (!isNonEmptyString(record.prefecture_name)) {
+      pushError(prefecturalAssemblyDistrictsPath, `${label}.prefecture_name must be a non-empty string`);
+    }
+
+    if (!isNonEmptyString(record.region_id)) {
+      pushError(prefecturalAssemblyDistrictsPath, `${label}.region_id must be a non-empty string`);
+    } else {
+      const region = regionIdToRecord.get(record.region_id);
+
+      if (!region) {
+        pushError(prefecturalAssemblyDistrictsPath, `${label}.region_id must reference an existing region`);
+      } else {
+        if (region.level !== "prefecture") {
+          pushError(prefecturalAssemblyDistrictsPath, `${label}.region_id must reference a prefecture`);
+        }
+
+        if (isNonEmptyString(record.pref_code) && region.pref_code !== record.pref_code) {
+          pushError(prefecturalAssemblyDistrictsPath, `${label}.pref_code must match region.pref_code`);
+        }
+
+        if (isNonEmptyString(record.prefecture_name) && region.name !== record.prefecture_name) {
+          pushError(prefecturalAssemblyDistrictsPath, `${label}.prefecture_name must match region.name`);
+        }
+      }
+    }
+
+    if (!isNonEmptyString(record.district_name)) {
+      pushError(prefecturalAssemblyDistrictsPath, `${label}.district_name must be a non-empty string`);
+    }
+
+    if (!(record.area_label === null || isNonEmptyString(record.area_label))) {
+      pushError(prefecturalAssemblyDistrictsPath, `${label}.area_label must be string or null`);
+    }
+
+    if (!Number.isInteger(record.seat_count) || record.seat_count < 1) {
+      pushError(prefecturalAssemblyDistrictsPath, `${label}.seat_count must be an integer >= 1`);
+    }
+
+    if (!Number.isInteger(record.display_order) || record.display_order < 1) {
+      pushError(prefecturalAssemblyDistrictsPath, `${label}.display_order must be an integer >= 1`);
+    }
+
+    if (!isNonEmptyString(record.applies_to)) {
+      pushError(prefecturalAssemblyDistrictsPath, `${label}.applies_to must be a non-empty string`);
+    }
+
+    if (!isNonEmptyString(record.source_snapshot_path)) {
+      pushError(prefecturalAssemblyDistrictsPath, `${label}.source_snapshot_path must be a non-empty string`);
+    }
+
+    if (!(record.note === null || typeof record.note === "string")) {
+      pushError(prefecturalAssemblyDistrictsPath, `${label}.note must be string or null`);
+    }
+
+    validateVerification(record.verification, prefecturalAssemblyDistrictsPath, label);
+
+    if (isNonEmptyString(record.pref_code) && isNonEmptyString(record.district_name)) {
+      const key = `${record.pref_code}|${record.district_name}`;
+      if (prefecturalAssemblyDistrictKeys.has(key)) {
+        pushError(prefecturalAssemblyDistrictsPath, `${label} duplicates pref_code + district_name`);
+      } else {
+        prefecturalAssemblyDistrictKeys.add(key);
+      }
+    }
+
+    if (PREF_CODE.test(record.pref_code ?? "")) {
+      const stats = prefecturalAssemblyDistrictStatsByPrefCode.get(record.pref_code) ?? { districtCount: 0, seatCount: 0 };
+      stats.districtCount += 1;
+      stats.seatCount += Number.isInteger(record.seat_count) ? record.seat_count : 0;
+      prefecturalAssemblyDistrictStatsByPrefCode.set(record.pref_code, stats);
+    }
+  }
+
+  if (isPlainObject(prefecturalAssemblyDistrictsData.coverage)) {
+    const coverage = prefecturalAssemblyDistrictsData.coverage;
+    if (coverage.prefecture_count !== prefecturalAssemblyDistrictStatsByPrefCode.size) {
+      pushError(prefecturalAssemblyDistrictsPath, "coverage.prefecture_count must match covered prefectures");
+    }
+
+    if (coverage.district_count !== prefecturalAssemblyDistrictRecordCount) {
+      pushError(prefecturalAssemblyDistrictsPath, "coverage.district_count must match records length");
+    }
+
+    const seatCount = [...prefecturalAssemblyDistrictStatsByPrefCode.values()].reduce((sum, stats) => sum + stats.seatCount, 0);
+    if (coverage.seat_count !== seatCount) {
+      pushError(prefecturalAssemblyDistrictsPath, "coverage.seat_count must match records seat_count total");
+    }
+  }
+
+  for (const [prefCode, stats] of prefecturalAssemblyDistrictStatsByPrefCode) {
+    const termRecord = prefecturalAssemblyTermByPrefCode.get(prefCode);
+    if (!termRecord) {
+      pushError(prefecturalAssemblyDistrictsPath, `pref_code ${prefCode} must exist in prefectural_assembly_terms`);
+      continue;
+    }
+
+    if (stats.districtCount !== termRecord.district_count) {
+      pushError(prefecturalAssemblyDistrictsPath, `pref_code ${prefCode} district_count must match prefectural_assembly_terms`);
+    }
+
+    if (stats.seatCount !== termRecord.seat_count) {
+      pushError(prefecturalAssemblyDistrictsPath, `pref_code ${prefCode} seat_count must match prefectural_assembly_terms`);
+    }
+  }
+}
+
+const prefecturalAssemblyOfficialLinkIds = new Set();
+const prefecturalAssemblyOfficialLinkKeys = new Set();
+const prefecturalAssemblyOfficialLinkPrefs = new Set();
+let prefecturalAssemblyOfficialLinkRecordCount = 0;
+
+if (prefecturalAssemblyOfficialLinksData?.records) {
+  if (!isPlainObject(prefecturalAssemblyOfficialLinksData.coverage)) {
+    pushError(prefecturalAssemblyOfficialLinksPath, "coverage must be an object");
+  } else {
+    const coverage = prefecturalAssemblyOfficialLinksData.coverage;
+
+    if (!isNonEmptyString(coverage.status)) {
+      pushError(prefecturalAssemblyOfficialLinksPath, "coverage.status must be a non-empty string");
+    }
+
+    for (const fieldName of ["prefecture_count", "link_count"]) {
+      if (!Number.isInteger(coverage[fieldName]) || coverage[fieldName] < 0) {
+        pushError(prefecturalAssemblyOfficialLinksPath, `coverage.${fieldName} must be an integer >= 0`);
+      }
+    }
+
+    if (!(coverage.note === null || typeof coverage.note === "string")) {
+      pushError(prefecturalAssemblyOfficialLinksPath, "coverage.note must be string or null");
+    }
+  }
+
+  for (let index = 0; index < prefecturalAssemblyOfficialLinksData.records.length; index += 1) {
+    const record = prefecturalAssemblyOfficialLinksData.records[index];
+    const label = `records[${index}]`;
+
+    if (!isPlainObject(record)) {
+      pushError(prefecturalAssemblyOfficialLinksPath, `${label} must be an object`);
+      continue;
+    }
+
+    prefecturalAssemblyOfficialLinkRecordCount += 1;
+
+    if (!isNonEmptyString(record.id) || !KEBAB_CASE.test(record.id)) {
+      pushError(prefecturalAssemblyOfficialLinksPath, `${label}.id must be kebab-case`);
+    } else if (prefecturalAssemblyOfficialLinkIds.has(record.id)) {
+      pushError(prefecturalAssemblyOfficialLinksPath, `${label}.id must be unique`);
+    } else {
+      prefecturalAssemblyOfficialLinkIds.add(record.id);
+    }
+
+    if (!PREF_CODE.test(record.pref_code ?? "")) {
+      pushError(prefecturalAssemblyOfficialLinksPath, `${label}.pref_code must be a 2-digit string`);
+    } else {
+      prefecturalAssemblyOfficialLinkPrefs.add(record.pref_code);
+
+      if (!prefecturalAssemblyTermByPrefCode.has(record.pref_code)) {
+        pushError(prefecturalAssemblyOfficialLinksPath, `${label}.pref_code must exist in prefectural_assembly_terms`);
+      }
+    }
+
+    if (isNonEmptyString(record.id) && PREF_CODE.test(record.pref_code ?? "") && !record.id.startsWith(`pref-assembly-link-${record.pref_code}-`)) {
+      pushError(prefecturalAssemblyOfficialLinksPath, `${label}.id must include pref_code`);
+    }
+
+    if (!isNonEmptyString(record.prefecture_name)) {
+      pushError(prefecturalAssemblyOfficialLinksPath, `${label}.prefecture_name must be a non-empty string`);
+    }
+
+    if (!isNonEmptyString(record.region_id)) {
+      pushError(prefecturalAssemblyOfficialLinksPath, `${label}.region_id must be a non-empty string`);
+    } else {
+      const region = regionIdToRecord.get(record.region_id);
+
+      if (!region) {
+        pushError(prefecturalAssemblyOfficialLinksPath, `${label}.region_id must reference an existing region`);
+      } else {
+        if (region.level !== "prefecture") {
+          pushError(prefecturalAssemblyOfficialLinksPath, `${label}.region_id must reference a prefecture`);
+        }
+
+        if (isNonEmptyString(record.pref_code) && region.pref_code !== record.pref_code) {
+          pushError(prefecturalAssemblyOfficialLinksPath, `${label}.pref_code must match region.pref_code`);
+        }
+
+        if (isNonEmptyString(record.prefecture_name) && region.name !== record.prefecture_name) {
+          pushError(prefecturalAssemblyOfficialLinksPath, `${label}.prefecture_name must match region.name`);
+        }
+      }
+    }
+
+    if (!PREFECTURAL_ASSEMBLY_OFFICIAL_LINK_KINDS.has(record.link_kind)) {
+      pushError(prefecturalAssemblyOfficialLinksPath, `${label}.link_kind is invalid`);
+    }
+
+    if (!isNonEmptyString(record.title)) {
+      pushError(prefecturalAssemblyOfficialLinksPath, `${label}.title must be a non-empty string`);
+    }
+
+    if (!isValidUrl(record.url)) {
+      pushError(prefecturalAssemblyOfficialLinksPath, `${label}.url must be an absolute URL`);
+    }
+
+    if (!isNonEmptyString(record.summary)) {
+      pushError(prefecturalAssemblyOfficialLinksPath, `${label}.summary must be a non-empty string`);
+    }
+
+    if (!Number.isInteger(record.display_order) || record.display_order < 1) {
+      pushError(prefecturalAssemblyOfficialLinksPath, `${label}.display_order must be an integer >= 1`);
+    }
+
+    if (record.is_official !== true) {
+      pushError(prefecturalAssemblyOfficialLinksPath, `${label}.is_official must be true`);
+    }
+
+    if (!isValidDateTime(record.last_checked_at)) {
+      pushError(prefecturalAssemblyOfficialLinksPath, `${label}.last_checked_at must be RFC 3339`);
+    }
+
+    validateVerification(record.verification, prefecturalAssemblyOfficialLinksPath, label);
+
+    if (isValidUrl(record.url) && isValidUrl(record.verification?.source_url) && record.url !== record.verification.source_url) {
+      pushError(prefecturalAssemblyOfficialLinksPath, `${label}.verification.source_url must match url`);
+    }
+
+    if (isNonEmptyString(record.pref_code) && isNonEmptyString(record.link_kind)) {
+      const key = `${record.pref_code}|${record.link_kind}`;
+      if (prefecturalAssemblyOfficialLinkKeys.has(key)) {
+        pushError(prefecturalAssemblyOfficialLinksPath, `${label} duplicates pref_code + link_kind`);
+      } else {
+        prefecturalAssemblyOfficialLinkKeys.add(key);
+      }
+    }
+  }
+
+  if (isPlainObject(prefecturalAssemblyOfficialLinksData.coverage)) {
+    const coverage = prefecturalAssemblyOfficialLinksData.coverage;
+
+    if (coverage.prefecture_count !== prefecturalAssemblyOfficialLinkPrefs.size) {
+      pushError(prefecturalAssemblyOfficialLinksPath, "coverage.prefecture_count must match covered prefectures");
+    }
+
+    if (coverage.link_count !== prefecturalAssemblyOfficialLinkRecordCount) {
+      pushError(prefecturalAssemblyOfficialLinksPath, "coverage.link_count must match records length");
     }
   }
 }
@@ -1339,6 +1815,9 @@ console.log(
     `regions=${regionsData?.records?.length ?? 0}`,
     `elections=${electionsData?.records?.length ?? 0}`,
     `local_government_sites=${localGovernmentSiteRecordCount}`,
+    `prefectural_assembly_terms=${prefecturalAssemblyTermRecordCount}`,
+    `prefectural_assembly_districts=${prefecturalAssemblyDistrictRecordCount}`,
+    `prefectural_assembly_official_links=${prefecturalAssemblyOfficialLinkRecordCount}`,
     `postal_code_mappings=${postalRecordCount}`,
     `election_resource_links=${resourceRecordCount}`,
     `candidate_signals=${candidateSignalRecordCount}`,

@@ -1,0 +1,833 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "19",
+  "pref_slug": "yamanashi",
+  "pref_name": "山梨県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/19-yamanashi",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-19201",
+      "region_id": "mun-19201",
+      "pref_code": "19",
+      "pref_name": "山梨県",
+      "municipality_code": "19201",
+      "city_name": "甲府市",
+      "city_slug": "koufu-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "樋口 雄一",
+      "mayor_name_kana": null,
+      "term_start": "2023-02-02",
+      "term_start_display": null,
+      "term_end": "2027-02-01",
+      "term_end_display": null,
+      "term_note": "3期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山梨県 任期満了日一覧",
+          "url": "https://www.pref.yamanashi.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamanashi.jp/documents/8170/ninkimanryouichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamanashi.jp/documents/8170/ninkimanryouichiran.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "樋口 雄一",
+        "term_start": "2023-02-02",
+        "term_end": "2027-02-01",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 32,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.md",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-19202",
+      "region_id": "mun-19202",
+      "pref_code": "19",
+      "pref_name": "山梨県",
+      "municipality_code": "19202",
+      "city_name": "富士吉田市",
+      "city_slug": "fujiyoshida-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "堀内 茂",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-26",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山梨県 任期満了日一覧",
+          "url": "https://www.pref.yamanashi.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamanashi.jp/documents/8170/ninkir6r9.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamanashi.jp/documents/8170/ninkir6r9.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "山梨県『任期満了日一覧表 令和6〜9年分』で確認。",
+      "findings_values": {
+        "mayor_name": "堀内 茂",
+        "term_start": "記載なし",
+        "term_end": "2029-04-26",
+        "note": "山梨県『任期満了日一覧表 令和6〜9年分』で確認。"
+      },
+      "public_order": 395,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.md",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-19204",
+      "region_id": "mun-19204",
+      "pref_code": "19",
+      "pref_name": "山梨県",
+      "municipality_code": "19204",
+      "city_name": "都留市",
+      "city_slug": "tsuru-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "日向 美徳",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-12-07",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山梨県 任期満了日一覧",
+          "url": "https://www.pref.yamanashi.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamanashi.jp/documents/8170/ninkimanryouichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamanashi.jp/documents/8170/ninkimanryouichiran.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "日向 美徳",
+        "term_start": "記載なし",
+        "term_end": "2029-12-07",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 396,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.md",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-19205",
+      "region_id": "mun-19205",
+      "pref_code": "19",
+      "pref_name": "山梨県",
+      "municipality_code": "19205",
+      "city_name": "山梨市",
+      "city_slug": "yamanashi-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "高木 晴雄",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-09-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山梨県 任期満了日一覧",
+          "url": "https://www.pref.yamanashi.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamanashi.jp/documents/8170/ninkimanryouichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamanashi.jp/documents/8170/ninkimanryouichiran.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "高木 晴雄",
+        "term_start": "記載なし",
+        "term_end": "2029-09-30",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 397,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.md",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-19206",
+      "region_id": "mun-19206",
+      "pref_code": "19",
+      "pref_name": "山梨県",
+      "municipality_code": "19206",
+      "city_name": "大月市",
+      "city_slug": "ootsuki-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "小林 信保",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-08-05",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山梨県 任期満了日一覧",
+          "url": "https://www.pref.yamanashi.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamanashi.jp/documents/8170/ninkir6r9.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamanashi.jp/documents/8170/ninkir6r9.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "山梨県『任期満了日一覧表 令和6〜9年分』で確認。",
+      "findings_values": {
+        "mayor_name": "小林 信保",
+        "term_start": "記載なし",
+        "term_end": "2029-08-05",
+        "note": "山梨県『任期満了日一覧表 令和6〜9年分』で確認。"
+      },
+      "public_order": 398,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.md",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-19207",
+      "region_id": "mun-19207",
+      "pref_code": "19",
+      "pref_name": "山梨県",
+      "municipality_code": "19207",
+      "city_name": "韮崎市",
+      "city_slug": "nirasaki-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "内藤 久夫",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-11-27",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山梨県 任期満了日一覧",
+          "url": "https://www.pref.yamanashi.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamanashi.jp/documents/8170/ninkimanryouichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamanashi.jp/documents/8170/ninkimanryouichiran.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "内藤 久夫",
+        "term_start": "記載なし",
+        "term_end": "2026-11-27",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 399,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.md",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-19208",
+      "region_id": "mun-19208",
+      "pref_code": "19",
+      "pref_name": "山梨県",
+      "municipality_code": "19208",
+      "city_name": "南アルプス市",
+      "city_slug": "minamiarupusu-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "金丸 一元",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-26",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山梨県 任期満了日一覧",
+          "url": "https://www.pref.yamanashi.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamanashi.jp/documents/8170/ninkir6r9.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamanashi.jp/documents/8170/ninkir6r9.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "山梨県『任期満了日一覧表 令和6〜9年分』で確認。",
+      "findings_values": {
+        "mayor_name": "金丸 一元",
+        "term_start": "記載なし",
+        "term_end": "2029-04-26",
+        "note": "山梨県『任期満了日一覧表 令和6〜9年分』で確認。"
+      },
+      "public_order": 400,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.md",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-19209",
+      "region_id": "mun-19209",
+      "pref_code": "19",
+      "pref_name": "山梨県",
+      "municipality_code": "19209",
+      "city_name": "北杜市",
+      "city_slug": "hokuto-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "大柴 邦彦",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-27",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山梨県 任期満了日一覧",
+          "url": "https://www.pref.yamanashi.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamanashi.jp/documents/8170/ninkimanryouichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamanashi.jp/documents/8170/ninkimanryouichiran.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "大柴 邦彦",
+        "term_start": "記載なし",
+        "term_end": "2028-11-27",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 401,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.md",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-19210",
+      "region_id": "mun-19210",
+      "pref_code": "19",
+      "pref_name": "山梨県",
+      "municipality_code": "19210",
+      "city_name": "甲斐市",
+      "city_slug": "kai-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "保坂 武",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-10-02",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山梨県 任期満了日一覧",
+          "url": "https://www.pref.yamanashi.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamanashi.jp/documents/8170/ninkimanryouichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamanashi.jp/documents/8170/ninkimanryouichiran.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "保坂 武",
+        "term_start": "記載なし",
+        "term_end": "2028-10-02",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 402,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.md",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-19211",
+      "region_id": "mun-19211",
+      "pref_code": "19",
+      "pref_name": "山梨県",
+      "municipality_code": "19211",
+      "city_name": "笛吹市",
+      "city_slug": "fuefuki-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "山下 政樹",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-13",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山梨県 任期満了日一覧",
+          "url": "https://www.pref.yamanashi.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamanashi.jp/documents/8170/ninkimanryouichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamanashi.jp/documents/8170/ninkimanryouichiran.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "山下 政樹",
+        "term_start": "記載なし",
+        "term_end": "2028-11-13",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 403,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.md",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-19212",
+      "region_id": "mun-19212",
+      "pref_code": "19",
+      "pref_name": "山梨県",
+      "municipality_code": "19212",
+      "city_name": "上野原市",
+      "city_slug": "uenohara-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "村上 信行",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-03-19",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山梨県 任期満了日一覧",
+          "url": "https://www.pref.yamanashi.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamanashi.jp/documents/8170/ninkimanryouichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamanashi.jp/documents/8170/ninkimanryouichiran.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "村上 信行",
+        "term_start": "記載なし",
+        "term_end": "2029-03-19",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 404,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.md",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-19213",
+      "region_id": "mun-19213",
+      "pref_code": "19",
+      "pref_name": "山梨県",
+      "municipality_code": "19213",
+      "city_name": "甲州市",
+      "city_slug": "koushuu-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "鈴木 幹夫",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-02-08",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山梨県 任期満了日一覧",
+          "url": "https://www.pref.yamanashi.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamanashi.jp/documents/8170/ninkimanryouichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamanashi.jp/documents/8170/ninkimanryouichiran.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "鈴木 幹夫",
+        "term_start": "記載なし",
+        "term_end": "2028-02-08",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 405,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.md",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-19214",
+      "region_id": "mun-19214",
+      "pref_code": "19",
+      "pref_name": "山梨県",
+      "municipality_code": "19214",
+      "city_name": "中央市",
+      "city_slug": "chuo-shi",
+      "macro_region": "甲信越",
+      "mayor_name": "望月 智",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-09",
+      "term_start_display": null,
+      "term_end": "2030-04-08",
+      "term_end_display": null,
+      "term_note": "再選",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山梨県 任期満了日一覧",
+          "url": "https://www.pref.yamanashi.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.chuo.yamanashi.jp/soshiki/senkyo/osirase/14486.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.chuo.yamanashi.jp/soshiki/senkyo/osirase/14486.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "2026-03-29執行の中央市長選挙で望月智氏が無投票当選。現任期は前任期満了翌日の2026-04-09から整理。",
+      "findings_values": {
+        "mayor_name": "望月 智",
+        "term_start": "2026-04-09",
+        "term_end": "2030-04-08",
+        "note": "2026-03-29執行の中央市長選挙で望月智氏が無投票当選。現任期は前任期満了翌日の2026-04-09から整理。"
+      },
+      "public_order": 406,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.md",
+        "research/current-mayors/findings/19-yamanashi/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

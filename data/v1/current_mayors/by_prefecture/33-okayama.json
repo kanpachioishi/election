@@ -1,0 +1,1109 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "33",
+  "pref_slug": "okayama",
+  "pref_name": "岡山県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/33-okayama",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-33100",
+      "region_id": "mun-33100",
+      "pref_code": "33",
+      "pref_name": "岡山県",
+      "municipality_code": "33100",
+      "city_name": "岡山市",
+      "city_slug": "okayama-shi",
+      "macro_region": "中国",
+      "mayor_name": "大森 雅夫",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "2025-10",
+      "term_end": null,
+      "term_end_display": "2029-10",
+      "term_note": "公式プロフィールで2025年10月に岡山市長4期目。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.pref.okayama.jp/page/351682.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長名と4期目の開始月は岡山市公式プロフィールで確認。任期は月単位で整理。",
+      "findings_values": {
+        "mayor_name": "大森 雅夫",
+        "term_start": "2025-10",
+        "term_end": "2029-10",
+        "note": "市長名と4期目の開始月は岡山市公式プロフィールで確認。任期は月単位で整理。"
+      },
+      "public_order": 43,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.md",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-33202",
+      "region_id": "mun-33202",
+      "pref_code": "33",
+      "pref_name": "岡山県",
+      "municipality_code": "33202",
+      "city_name": "倉敷市",
+      "city_slug": "kurashiki-shi",
+      "macro_region": "中国",
+      "mayor_name": "伊東 香織",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-05-18",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.okayama.jp/uploaded/life/1013152_9777982_misc.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.okayama.jp/uploaded/life/1013152_9777982_misc.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "伊東 香織",
+        "term_start": "記載なし",
+        "term_end": "2028-05-18",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 620,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.md",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-33203",
+      "region_id": "mun-33203",
+      "pref_code": "33",
+      "pref_name": "岡山県",
+      "municipality_code": "33203",
+      "city_name": "津山市",
+      "city_slug": "tsuyama-shi",
+      "macro_region": "中国",
+      "mayor_name": "光井 聡",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-02-26",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/jichitai/2806/head",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/jichitai/2806/head"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "2026-02-08執行の市長選結果と前任期満了サイクルから現任期を整理。",
+      "findings_values": {
+        "mayor_name": "光井 聡",
+        "term_start": "記載なし",
+        "term_end": "2030-02-26",
+        "note": "2026-02-08執行の市長選結果と前任期満了サイクルから現任期を整理。"
+      },
+      "public_order": 621,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.md",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-33204",
+      "region_id": "mun-33204",
+      "pref_code": "33",
+      "pref_name": "岡山県",
+      "municipality_code": "33204",
+      "city_name": "玉野市",
+      "city_slug": "tamano-shi",
+      "macro_region": "中国",
+      "mayor_name": "柴田 義朗",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-10-28",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.tamano.lg.jp/site/senkyo/42756.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.tamano.lg.jp/site/senkyo/42756.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "玉野市長選挙の公式結果ページ掲載の現任期（2025-10-29開始）ベースで確認。",
+      "findings_values": {
+        "mayor_name": "柴田 義朗",
+        "term_start": "記載なし",
+        "term_end": "2029-10-28",
+        "note": "玉野市長選挙の公式結果ページ掲載の現任期（2025-10-29開始）ベースで確認。"
+      },
+      "public_order": 622,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.md",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-33205",
+      "region_id": "mun-33205",
+      "pref_code": "33",
+      "pref_name": "岡山県",
+      "municipality_code": "33205",
+      "city_name": "笠岡市",
+      "city_slug": "kasaoka-shi",
+      "macro_region": "中国",
+      "mayor_name": "栗尾 典子",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.okayama.jp/uploaded/life/1013152_9777982_misc.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.okayama.jp/uploaded/life/1013152_9777982_misc.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "栗尾 典子",
+        "term_start": "記載なし",
+        "term_end": "2028-04-23",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 623,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.md",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-33207",
+      "region_id": "mun-33207",
+      "pref_code": "33",
+      "pref_name": "岡山県",
+      "municipality_code": "33207",
+      "city_name": "井原市",
+      "city_slug": "ibara-shi",
+      "macro_region": "中国",
+      "mayor_name": "大舌 勲",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-09-15",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.okayama.jp/uploaded/life/1013152_9777982_misc.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.okayama.jp/uploaded/life/1013152_9777982_misc.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "大舌 勲",
+        "term_start": "記載なし",
+        "term_end": "2026-09-15",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 624,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.md",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-33208",
+      "region_id": "mun-33208",
+      "pref_code": "33",
+      "pref_name": "岡山県",
+      "municipality_code": "33208",
+      "city_name": "総社市",
+      "city_slug": "soujiya-shi",
+      "macro_region": "中国",
+      "mayor_name": "片岡 聡一",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-10-13",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.okayama.jp/uploaded/life/1013152_9777982_misc.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.okayama.jp/uploaded/life/1013152_9777982_misc.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "片岡 聡一",
+        "term_start": "記載なし",
+        "term_end": "2027-10-13",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 625,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.md",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-33209",
+      "region_id": "mun-33209",
+      "pref_code": "33",
+      "pref_name": "岡山県",
+      "municipality_code": "33209",
+      "city_name": "高梁市",
+      "city_slug": "takahashi-shi",
+      "macro_region": "中国",
+      "mayor_name": "石田 芳生",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-10-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.okayama.jp/uploaded/life/1013152_9777982_misc.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.okayama.jp/uploaded/life/1013152_9777982_misc.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "石田 芳生",
+        "term_start": "記載なし",
+        "term_end": "2028-10-23",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 626,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.md",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-33210",
+      "region_id": "mun-33210",
+      "pref_code": "33",
+      "pref_name": "岡山県",
+      "municipality_code": "33210",
+      "city_name": "新見市",
+      "city_slug": "niimi-shi",
+      "macro_region": "中国",
+      "mayor_name": "石田 實",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-12-02",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.okayama.jp/uploaded/life/1013152_9777982_misc.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.okayama.jp/uploaded/life/1013152_9777982_misc.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "石田 實",
+        "term_start": "記載なし",
+        "term_end": "2028-12-02",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 627,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.md",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-33211",
+      "region_id": "mun-33211",
+      "pref_code": "33",
+      "pref_name": "岡山県",
+      "municipality_code": "33211",
+      "city_name": "備前市",
+      "city_slug": "bizen-shi",
+      "macro_region": "中国",
+      "mayor_name": "長﨑 信行",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/jichitai/2813",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/jichitai/2813"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "2025-04-20執行の市長選結果と前任期満了サイクルから現任期を整理。",
+      "findings_values": {
+        "mayor_name": "長﨑 信行",
+        "term_start": "記載なし",
+        "term_end": "2029-04-23",
+        "note": "2025-04-20執行の市長選結果と前任期満了サイクルから現任期を整理。"
+      },
+      "public_order": 628,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.md",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-33212",
+      "region_id": "mun-33212",
+      "pref_code": "33",
+      "pref_name": "岡山県",
+      "municipality_code": "33212",
+      "city_name": "瀬戸内市",
+      "city_slug": "setouchi-shi",
+      "macro_region": "中国",
+      "mayor_name": "黒石 健太郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-06-15",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/jichitai/2814/head",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/jichitai/2814/head"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "瀬戸内市長選挙一覧と現任市長の当選日から現任期を整理。",
+      "findings_values": {
+        "mayor_name": "黒石 健太郎",
+        "term_start": "記載なし",
+        "term_end": "2029-06-15",
+        "note": "瀬戸内市長選挙一覧と現任市長の当選日から現任期を整理。"
+      },
+      "public_order": 629,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.md",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-33213",
+      "region_id": "mun-33213",
+      "pref_code": "33",
+      "pref_name": "岡山県",
+      "municipality_code": "33213",
+      "city_name": "赤磐市",
+      "city_slug": "akaiwa-shi",
+      "macro_region": "中国",
+      "mayor_name": "前田 正之",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-16",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/25554",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/senkyo/25554"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "2025-04-13執行の市長選結果から現任期4年で整理。",
+      "findings_values": {
+        "mayor_name": "前田 正之",
+        "term_start": "記載なし",
+        "term_end": "2029-04-16",
+        "note": "2025-04-13執行の市長選結果から現任期4年で整理。"
+      },
+      "public_order": 630,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.md",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-33214",
+      "region_id": "mun-33214",
+      "pref_code": "33",
+      "pref_name": "岡山県",
+      "municipality_code": "33214",
+      "city_name": "真庭市",
+      "city_slug": "maniwa-shi",
+      "macro_region": "中国",
+      "mayor_name": "太田 昇",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/25552",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/senkyo/25552"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "2025-04-13執行の市長選と岡山県一覧の任期満了日から現任期4年で整理。",
+      "findings_values": {
+        "mayor_name": "太田 昇",
+        "term_start": "記載なし",
+        "term_end": "2029-04-23",
+        "note": "2025-04-13執行の市長選と岡山県一覧の任期満了日から現任期4年で整理。"
+      },
+      "public_order": 631,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.md",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-33215",
+      "region_id": "mun-33215",
+      "pref_code": "33",
+      "pref_name": "岡山県",
+      "municipality_code": "33215",
+      "city_name": "美作市",
+      "city_slug": "mimasaka-shi",
+      "macro_region": "中国",
+      "mayor_name": "萩原 誠司",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-03-29",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://go2senkyo.com/local/senkyo/25190",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://go2senkyo.com/local/senkyo/25190"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "2026-03-15執行の市長選結果と前任期満了サイクルから現任期を整理。",
+      "findings_values": {
+        "mayor_name": "萩原 誠司",
+        "term_start": "記載なし",
+        "term_end": "2030-03-29",
+        "note": "2026-03-15執行の市長選結果と前任期満了サイクルから現任期を整理。"
+      },
+      "public_order": 632,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.md",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-33216",
+      "region_id": "mun-33216",
+      "pref_code": "33",
+      "pref_name": "岡山県",
+      "municipality_code": "33216",
+      "city_name": "浅口市",
+      "city_slug": "asakuchi-shi",
+      "macro_region": "中国",
+      "mayor_name": "栗山 康彦",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-23",
+      "term_start_display": null,
+      "term_end": "2030-04-22",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "岡山県 市町村のデータ集",
+          "url": "https://www.pref.okayama.jp/page/965881.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "岡山県 県・市町村の選挙予定一覧、任期満了一覧",
+          "url": "https://www.pref.okayama.jp/page/351682.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "選挙情報",
+          "url": "https://www.city.asakuchi.lg.jp/page/16884.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "選挙情報",
+        "url": "https://www.city.asakuchi.lg.jp/page/16884.html"
+      },
+      "last_checked_at": "2026-04-24",
+      "note": "浅口市公式で2026-04-12執行市長選は候補者1名のため投票なしと確認。現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "栗山 康彦",
+        "term_start": "2026-04-23",
+        "term_end": "2030-04-22",
+        "note": "浅口市公式で2026-04-12執行市長選は候補者1名のため投票なしと確認。現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 633,
+      "prefecture_city_order": 14,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.md",
+        "research/current-mayors/findings/33-okayama/2026-04-24-round1.sources.json"
+      ]
+    }
+  ]
+}

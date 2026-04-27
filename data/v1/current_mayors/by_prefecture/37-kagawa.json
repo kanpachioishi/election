@@ -1,0 +1,565 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "37",
+  "pref_slug": "kagawa",
+  "pref_name": "香川県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/37-kagawa",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-37201",
+      "region_id": "mun-37201",
+      "pref_code": "37",
+      "pref_name": "香川県",
+      "municipality_code": "37201",
+      "city_name": "高松市",
+      "city_slug": "takamatsu-shi",
+      "macro_region": "四国",
+      "mayor_name": "大西 秀人",
+      "mayor_name_kana": null,
+      "term_start": "2023-05-02",
+      "term_start_display": null,
+      "term_end": "2027-05-01",
+      "term_end_display": null,
+      "term_note": "5期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "市長のプロフィール",
+          "url": "https://www.city.takamatsu.kagawa.jp/kurashi/shichoushitsu/sicho_up20180823.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "inaugural_statement",
+          "title": "令和5年第3回高松市議会臨時会長提案説明（所信表明）",
+          "url": "https://www.city.takamatsu.kagawa.jp/kurashi/shichoushitsu/hatsugen/shoshin/R5-3syoshin.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.kagawa.lg.jp/documents/20223/ninkimanryoubi.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": "https://www.city.takamatsu.kagawa.jp/kurashi/shichoushitsu/sicho_up20180823.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "高松市公式プロフィールと所信表明で現職名と令和5年4月高松市長選挙で五選を確認。連続再任として任期を整理。",
+      "findings_values": null,
+      "public_order": 53,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/37-kagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-37202",
+      "region_id": "mun-37202",
+      "pref_code": "37",
+      "pref_name": "香川県",
+      "municipality_code": "37202",
+      "city_name": "丸亀市",
+      "city_slug": "marugame-shi",
+      "macro_region": "四国",
+      "mayor_name": "松永 恭二",
+      "mayor_name_kana": null,
+      "term_start": "2025-04-24",
+      "term_start_display": null,
+      "term_end": "2029-04-23",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和7年4月20日執行 丸亀市長・市議会議員選挙の結果",
+          "url": "https://www.city.marugame.lg.jp/page/34859.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.marugame.lg.jp/page/10903.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長選結果",
+        "url": "https://www.city.marugame.lg.jp/page/34859.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2025-04-20執行の丸亀市長選は無投票。市公式プロフィールで令和7年4月2期目当選を確認。",
+      "findings_values": null,
+      "public_order": 664,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/37-kagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-37203",
+      "region_id": "mun-37203",
+      "pref_code": "37",
+      "pref_name": "香川県",
+      "municipality_code": "37203",
+      "city_name": "坂出市",
+      "city_slug": "sakaide-shi",
+      "macro_region": "四国",
+      "mayor_name": "有福 哲二",
+      "mayor_name_kana": null,
+      "term_start": "2025-06-04",
+      "term_start_display": null,
+      "term_end": "2029-06-03",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "選挙の結果",
+          "url": "https://www.city.sakaide.lg.jp/soshiki/senkyo/senkyokekka.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.sakaide.lg.jp/site/mayor/profile.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.kagawa.lg.jp/documents/20223/ninkimanryoubi.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "選挙結果",
+        "url": "https://www.city.sakaide.lg.jp/soshiki/senkyo/senkyokekka.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2025年の市長選は無投票。市公式プロフィールで令和7年6月坂出市長2期目を確認。",
+      "findings_values": null,
+      "public_order": 665,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/37-kagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-37204",
+      "region_id": "mun-37204",
+      "pref_code": "37",
+      "pref_name": "香川県",
+      "municipality_code": "37204",
+      "city_name": "善通寺市",
+      "city_slug": "zentsuji-shi",
+      "macro_region": "四国",
+      "mayor_name": "辻村 修",
+      "mayor_name_kana": null,
+      "term_start": "2026-05-10",
+      "term_start_display": null,
+      "term_end": "2030-05-09",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_schedule",
+          "title": "善通寺市長選挙の選挙期日のお知らせ",
+          "url": "https://www.city.zentsuji.kagawa.jp/soshiki/67/shichosenkyor8.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_result",
+          "title": "選挙管理委員会事務局",
+          "url": "https://www.city.zentsuji.kagawa.jp/soshiki/67/index-2.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.zentsuji.kagawa.jp/site/shichyounoheya/sityoupurofi-ru.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長選日程",
+        "url": "https://www.city.zentsuji.kagawa.jp/soshiki/67/shichosenkyor8.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-19執行の善通寺市長選挙は無投票。市公式プロフィールの任期開始日記載を基準に次期任期を整理。",
+      "findings_values": {
+        "mayor_name": "辻村 修",
+        "term_start": "2026-05-10",
+        "term_end": "2030-05-09",
+        "note": "2026-04-19 執行の善通寺市長選挙は 2026-04-12 告示時点で無投票。市公式プロフィールの 令和4年4月善通寺市長選挙で初当選。5月10日から任期が始まる 記載を基準に、次期任期を 2026-05-10 開始の 2期目 と整理。"
+      },
+      "public_order": 666,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/37-kagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/37-kagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-37205",
+      "region_id": "mun-37205",
+      "pref_code": "37",
+      "pref_name": "香川県",
+      "municipality_code": "37205",
+      "city_name": "観音寺市",
+      "city_slug": "kanonji-shi",
+      "macro_region": "四国",
+      "mayor_name": "佐伯 明浩",
+      "mayor_name_kana": null,
+      "term_start": "2025-11-20",
+      "term_start_display": null,
+      "term_end": "2029-11-19",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "市長の部屋へようこそ",
+          "url": "https://www.city.kanonji.kagawa.jp/site/shicho/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.kagawa.lg.jp/documents/20223/ninkimanryoubi.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長の部屋",
+        "url": "https://www.city.kanonji.kagawa.jp/site/shicho/index.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "市長の部屋で2025年観音寺市長2期目を確認。始期は県の任期満了日一覧から補完。",
+      "findings_values": null,
+      "public_order": 667,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/37-kagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-37206",
+      "region_id": "mun-37206",
+      "pref_code": "37",
+      "pref_name": "香川県",
+      "municipality_code": "37206",
+      "city_name": "さぬき市",
+      "city_slug": "sanuki-shi",
+      "macro_region": "四国",
+      "mayor_name": "大山 茂樹",
+      "mayor_name_kana": null,
+      "term_start": "2022-05-12",
+      "term_start_display": null,
+      "term_end": "2026-05-11",
+      "term_end_display": null,
+      "term_note": "5期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.sanuki.kagawa.jp/executive/mayor/mayor_profile",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.kagawa.lg.jp/documents/20223/ninkimanryoubi.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_schedule",
+          "title": "選挙の種類",
+          "url": "https://www.city.sanuki.kagawa.jp/executive/election/type",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": "https://www.city.sanuki.kagawa.jp/executive/mayor/mayor_profile"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "市公式プロフィールに任期は令和4年5月12日から、現在五期目とある。次回市長選は2026-04-26。",
+      "findings_values": {
+        "mayor_name": "大山 茂樹",
+        "term_start": "2022-05-12",
+        "term_end": "2026-05-11",
+        "note": "市公式プロフィールの 任期: 令和4年5月12日〜 と 現在五期目 を確認。任期満了日が調査日から30日以内のため、香川県の任期満了日一覧 PDF にある次回市長選 2026-04-26 を note に残す前提。"
+      },
+      "public_order": 668,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/37-kagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/37-kagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-37207",
+      "region_id": "mun-37207",
+      "pref_code": "37",
+      "pref_name": "香川県",
+      "municipality_code": "37207",
+      "city_name": "東かがわ市",
+      "city_slug": "higashikagawa-shi",
+      "macro_region": "四国",
+      "mayor_name": "上村 一郎",
+      "mayor_name_kana": null,
+      "term_start": "2023-04-27",
+      "term_start_display": null,
+      "term_end": "2027-04-26",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_profile",
+          "title": "市長の部屋",
+          "url": "https://www.higashikagawa.jp/soshikikarasagasu/somuka/gyomuannai/6/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "inaugural_statement",
+          "title": "所信表明",
+          "url": "https://www.higashikagawa.jp/soshikikarasagasu/somuka/gyomuannai/6/3/1405.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.kagawa.lg.jp/documents/20223/ninkimanryoubi.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長の部屋",
+        "url": "https://www.higashikagawa.jp/soshikikarasagasu/somuka/gyomuannai/6/index.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "市長の部屋と所信表明で上村一郎市長の再任を確認。始期は県の任期満了日一覧から補完。",
+      "findings_values": null,
+      "public_order": 669,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/37-kagawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-37208",
+      "region_id": "mun-37208",
+      "pref_code": "37",
+      "pref_name": "香川県",
+      "municipality_code": "37208",
+      "city_name": "三豊市",
+      "city_slug": "mitoyo-shi",
+      "macro_region": "四国",
+      "mayor_name": "山下 昭史",
+      "mayor_name_kana": null,
+      "term_start": "2026-01-25",
+      "term_start_display": null,
+      "term_end": "2030-01-24",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和8年1月25日執行 三豊市長選挙及び三豊市議会議員選挙のお知らせ",
+          "url": "https://www.city.mitoyo.lg.jp/kakuka/senkyo/2/senkyokijitu_1/14398.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "official_profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.mitoyo.lg.jp/kakuka/soumu/hisho/12/2041.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "任期満了日一覧",
+          "url": "https://www.pref.kagawa.lg.jp/documents/20223/ninkimanryoubi.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長選案内",
+        "url": "https://www.city.mitoyo.lg.jp/kakuka/senkyo/2/senkyokijitu_1/14398.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-01-25執行の市長選挙は無投票。市公式プロフィールで令和8年1月三豊市長3期目を確認。",
+      "findings_values": {
+        "mayor_name": "山下 昭史",
+        "term_start": "2026-01-25",
+        "term_end": "2030-01-24",
+        "note": "2026-01-25 執行の三豊市長選挙は無投票。市公式プロフィールの 令和8年1月 三豊市長(3期目) 記載と市公式選挙案内を基準に、現任期を 3期目 と整理。"
+      },
+      "public_order": 670,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/37-kagawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/37-kagawa/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

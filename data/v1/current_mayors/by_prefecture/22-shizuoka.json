@@ -1,0 +1,1449 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "22",
+  "pref_slug": "shizuoka",
+  "pref_name": "静岡県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/22-shizuoka",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-22100",
+      "region_id": "mun-22100",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22100",
+      "city_name": "静岡市",
+      "city_slug": "shizuoka-shi",
+      "macro_region": "東海",
+      "mayor_name": "難波 喬司",
+      "mayor_name_kana": null,
+      "term_start": "2023-04-13",
+      "term_start_display": null,
+      "term_end": "2027-04-12",
+      "term_end_display": null,
+      "term_note": "公式プロフィールで2023年4月13日静岡市長就任。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "就任日は静岡市公式プロフィールに明記。終期は4年任期で補完。",
+      "findings_values": {
+        "mayor_name": "難波 喬司",
+        "term_start": "2023-04-13",
+        "term_end": "2027-04-12",
+        "note": "就任日は静岡市公式プロフィールに明記。終期は4年任期で補完。"
+      },
+      "public_order": 34,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22130",
+      "region_id": "mun-22130",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22130",
+      "city_name": "浜松市",
+      "city_slug": "hamamatsu-shi",
+      "macro_region": "東海",
+      "mayor_name": "中野祐介",
+      "mayor_name_kana": null,
+      "term_start": "2023-05-01",
+      "term_start_display": null,
+      "term_end": null,
+      "term_end_display": "2027-05",
+      "term_note": "公式プロフィールで2023年5月に第14代浜松市長就任。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.hamamatsu.shizuoka.jp/documents/8881/gaiyo_2025_1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.hamamatsu.shizuoka.jp/documents/8881/gaiyo_2025_1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "公式PDF『浜松市政の概要2025』の歴代市長欄で、第30代 中野祐介・令和5年5月1日〜を確認。任期満了日と期数表示は未記載",
+      "findings_values": {
+        "mayor_name": "中野祐介",
+        "term_start": "2023-05-01",
+        "term_end": "2027-05",
+        "note": "公式PDF『浜松市政の概要2025』の歴代市長欄で、第30代 中野祐介・令和5年5月1日〜を確認。任期満了日と期数表示は未記載"
+      },
+      "public_order": 35,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22203",
+      "region_id": "mun-22203",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22203",
+      "city_name": "沼津市",
+      "city_slug": "numazu-shi",
+      "macro_region": "東海",
+      "mayor_name": "賴重 秀一",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-04-28",
+      "term_end_display": null,
+      "term_note": "2回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市新着情報",
+          "url": "https://www.city.numazu.shizuoka.jp/shinchaku/",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市新着情報",
+        "url": "https://www.city.numazu.shizuoka.jp/shinchaku/"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "静岡県公式の任期一覧で確認。次回沼津市長選は2026-04-26投票で、市公式新着情報でも案内を確認。",
+      "findings_values": {
+        "mayor_name": "賴重 秀一",
+        "term_start": "記載なし",
+        "term_end": "2026-04-28",
+        "note": "静岡県公式の任期一覧で確認。次回沼津市長選は2026-04-26投票で、市公式新着情報でも案内を確認。"
+      },
+      "public_order": 444,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22205",
+      "region_id": "mun-22205",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22205",
+      "city_name": "熱海市",
+      "city_slug": "atami-shi",
+      "macro_region": "東海",
+      "mayor_name": "齊藤 栄",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-09-13",
+      "term_end_display": null,
+      "term_note": "5回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "静岡県公式『市町長及び議会議員の任期』で確認",
+      "findings_values": {
+        "mayor_name": "齊藤 栄",
+        "term_start": "記載なし",
+        "term_end": "2026-09-13",
+        "note": "静岡県公式『市町長及び議会議員の任期』で確認"
+      },
+      "public_order": 445,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22206",
+      "region_id": "mun-22206",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22206",
+      "city_name": "三島市",
+      "city_slug": "mishima-shi",
+      "macro_region": "東海",
+      "mayor_name": "豊岡 武士",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-12-19",
+      "term_end_display": null,
+      "term_note": "4回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "静岡県公式『市町長及び議会議員の任期』で確認",
+      "findings_values": {
+        "mayor_name": "豊岡 武士",
+        "term_start": "記載なし",
+        "term_end": "2026-12-19",
+        "note": "静岡県公式『市町長及び議会議員の任期』で確認"
+      },
+      "public_order": 446,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22207",
+      "region_id": "mun-22207",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22207",
+      "city_name": "富士宮市",
+      "city_slug": "fujinomiya-shi",
+      "macro_region": "東海",
+      "mayor_name": "須藤 秀忠",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-26",
+      "term_end_display": null,
+      "term_note": "4回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "静岡県公式『市町長及び議会議員の任期』で確認",
+      "findings_values": {
+        "mayor_name": "須藤 秀忠",
+        "term_start": "記載なし",
+        "term_end": "2027-04-26",
+        "note": "静岡県公式『市町長及び議会議員の任期』で確認"
+      },
+      "public_order": 447,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22208",
+      "region_id": "mun-22208",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22208",
+      "city_name": "伊東市",
+      "city_slug": "ito-shi",
+      "macro_region": "東海",
+      "mayor_name": "杉本 憲也",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-12-13",
+      "term_end_display": null,
+      "term_note": "1回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "静岡県公式『市町長及び議会議員の任期』で確認",
+      "findings_values": {
+        "mayor_name": "杉本 憲也",
+        "term_start": "記載なし",
+        "term_end": "2029-12-13",
+        "note": "静岡県公式『市町長及び議会議員の任期』で確認"
+      },
+      "public_order": 448,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22209",
+      "region_id": "mun-22209",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22209",
+      "city_name": "島田市",
+      "city_slug": "shimada-shi",
+      "macro_region": "東海",
+      "mayor_name": "染谷 絹代",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-05-28",
+      "term_end_display": null,
+      "term_note": "4回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "静岡県公式『市町長及び議会議員の任期』で確認",
+      "findings_values": {
+        "mayor_name": "染谷 絹代",
+        "term_start": "記載なし",
+        "term_end": "2029-05-28",
+        "note": "静岡県公式『市町長及び議会議員の任期』で確認"
+      },
+      "public_order": 449,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22210",
+      "region_id": "mun-22210",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22210",
+      "city_name": "富士市",
+      "city_slug": "fuji-shi",
+      "macro_region": "東海",
+      "mayor_name": "金指 祐樹",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-01-18",
+      "term_end_display": null,
+      "term_note": "1回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "静岡県公式『市町長及び議会議員の任期』で確認",
+      "findings_values": {
+        "mayor_name": "金指 祐樹",
+        "term_start": "記載なし",
+        "term_end": "2030-01-18",
+        "note": "静岡県公式『市町長及び議会議員の任期』で確認"
+      },
+      "public_order": 450,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22211",
+      "region_id": "mun-22211",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22211",
+      "city_name": "磐田市",
+      "city_slug": "iwata-shi",
+      "macro_region": "東海",
+      "mayor_name": "草地 博昭",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-23",
+      "term_end_display": null,
+      "term_note": "2回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "静岡県公式『市町長及び議会議員の任期』で確認",
+      "findings_values": {
+        "mayor_name": "草地 博昭",
+        "term_start": "記載なし",
+        "term_end": "2029-04-23",
+        "note": "静岡県公式『市町長及び議会議員の任期』で確認"
+      },
+      "public_order": 451,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22212",
+      "region_id": "mun-22212",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22212",
+      "city_name": "焼津市",
+      "city_slug": "yaizu-shi",
+      "macro_region": "東海",
+      "mayor_name": "中野 弘道",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-12-23",
+      "term_end_display": null,
+      "term_note": "4回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "静岡県公式『市町長及び議会議員の任期』で確認",
+      "findings_values": {
+        "mayor_name": "中野 弘道",
+        "term_start": "記載なし",
+        "term_end": "2028-12-23",
+        "note": "静岡県公式『市町長及び議会議員の任期』で確認"
+      },
+      "public_order": 452,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22213",
+      "region_id": "mun-22213",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22213",
+      "city_name": "掛川市",
+      "city_slug": "kakegawa-shi",
+      "macro_region": "東海",
+      "mayor_name": "久保田 崇",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-23",
+      "term_end_display": null,
+      "term_note": "2回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "静岡県公式『市町長及び議会議員の任期』で確認",
+      "findings_values": {
+        "mayor_name": "久保田 崇",
+        "term_start": "記載なし",
+        "term_end": "2029-04-23",
+        "note": "静岡県公式『市町長及び議会議員の任期』で確認"
+      },
+      "public_order": 453,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22214",
+      "region_id": "mun-22214",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22214",
+      "city_name": "藤枝市",
+      "city_slug": "fujieda-shi",
+      "macro_region": "東海",
+      "mayor_name": "北村 正平",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-06-19",
+      "term_end_display": null,
+      "term_note": "5回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "静岡県公式『市町長及び議会議員の任期』で確認",
+      "findings_values": {
+        "mayor_name": "北村 正平",
+        "term_start": "記載なし",
+        "term_end": "2028-06-19",
+        "note": "静岡県公式『市町長及び議会議員の任期』で確認"
+      },
+      "public_order": 454,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22215",
+      "region_id": "mun-22215",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22215",
+      "city_name": "御殿場市",
+      "city_slug": "gotenba-shi",
+      "macro_region": "東海",
+      "mayor_name": "勝又 正美",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-10-02",
+      "term_end_display": null,
+      "term_note": "2回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "静岡県公式『市町長及び議会議員の任期』で確認",
+      "findings_values": {
+        "mayor_name": "勝又 正美",
+        "term_start": "記載なし",
+        "term_end": "2029-10-02",
+        "note": "静岡県公式『市町長及び議会議員の任期』で確認"
+      },
+      "public_order": 455,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22216",
+      "region_id": "mun-22216",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22216",
+      "city_name": "袋井市",
+      "city_slug": "fukuroi-shi",
+      "macro_region": "東海",
+      "mayor_name": "大場 規之",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-23",
+      "term_end_display": null,
+      "term_note": "2回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "静岡県公式『市町長及び議会議員の任期』で確認",
+      "findings_values": {
+        "mayor_name": "大場 規之",
+        "term_start": "記載なし",
+        "term_end": "2029-04-23",
+        "note": "静岡県公式『市町長及び議会議員の任期』で確認"
+      },
+      "public_order": 456,
+      "prefecture_city_order": 14,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22219",
+      "region_id": "mun-22219",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22219",
+      "city_name": "下田市",
+      "city_slug": "shimoda-shi",
+      "macro_region": "東海",
+      "mayor_name": "松木 正一郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-07-04",
+      "term_end_display": null,
+      "term_note": "2回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "静岡県公式『市町長及び議会議員の任期』で確認",
+      "findings_values": {
+        "mayor_name": "松木 正一郎",
+        "term_start": "記載なし",
+        "term_end": "2028-07-04",
+        "note": "静岡県公式『市町長及び議会議員の任期』で確認"
+      },
+      "public_order": 457,
+      "prefecture_city_order": 15,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22220",
+      "region_id": "mun-22220",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22220",
+      "city_name": "裾野市",
+      "city_slug": "susono-shi",
+      "macro_region": "東海",
+      "mayor_name": "村田 悠",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-01-28",
+      "term_end_display": null,
+      "term_note": "2回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "静岡県公式『市町長及び議会議員の任期』で確認",
+      "findings_values": {
+        "mayor_name": "村田 悠",
+        "term_start": "記載なし",
+        "term_end": "2030-01-28",
+        "note": "静岡県公式『市町長及び議会議員の任期』で確認"
+      },
+      "public_order": 458,
+      "prefecture_city_order": 16,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22221",
+      "region_id": "mun-22221",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22221",
+      "city_name": "湖西市",
+      "city_slug": "kosai-shi",
+      "macro_region": "東海",
+      "mayor_name": "田内 浩之",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-12-05",
+      "term_end_display": null,
+      "term_note": "1回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "静岡県公式『市町長及び議会議員の任期』で確認",
+      "findings_values": {
+        "mayor_name": "田内 浩之",
+        "term_start": "記載なし",
+        "term_end": "2028-12-05",
+        "note": "静岡県公式『市町長及び議会議員の任期』で確認"
+      },
+      "public_order": 459,
+      "prefecture_city_order": 17,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22222",
+      "region_id": "mun-22222",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22222",
+      "city_name": "伊豆市",
+      "city_slug": "izu-shi",
+      "macro_region": "東海",
+      "mayor_name": "菊地 豊",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-24",
+      "term_end_display": null,
+      "term_note": "5回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "静岡県公式『市町長及び議会議員の任期』で確認",
+      "findings_values": {
+        "mayor_name": "菊地 豊",
+        "term_start": "記載なし",
+        "term_end": "2028-04-24",
+        "note": "静岡県公式『市町長及び議会議員の任期』で確認"
+      },
+      "public_order": 460,
+      "prefecture_city_order": 18,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22223",
+      "region_id": "mun-22223",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22223",
+      "city_name": "御前崎市",
+      "city_slug": "omaezaki-shi",
+      "macro_region": "東海",
+      "mayor_name": "下村 勝",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-17",
+      "term_end_display": null,
+      "term_note": "1回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "静岡県公式『市町長及び議会議員の任期』で確認",
+      "findings_values": {
+        "mayor_name": "下村 勝",
+        "term_start": "記載なし",
+        "term_end": "2028-04-17",
+        "note": "静岡県公式『市町長及び議会議員の任期』で確認"
+      },
+      "public_order": 461,
+      "prefecture_city_order": 19,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22224",
+      "region_id": "mun-22224",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22224",
+      "city_name": "菊川市",
+      "city_slug": "kikugawa-shi",
+      "macro_region": "東海",
+      "mayor_name": "長谷川 寬彦",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-01-29",
+      "term_end_display": null,
+      "term_note": "2回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "静岡県公式『市町長及び議会議員の任期』で確認",
+      "findings_values": {
+        "mayor_name": "長谷川 寬彦",
+        "term_start": "記載なし",
+        "term_end": "2029-01-29",
+        "note": "静岡県公式『市町長及び議会議員の任期』で確認"
+      },
+      "public_order": 462,
+      "prefecture_city_order": 20,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22225",
+      "region_id": "mun-22225",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22225",
+      "city_name": "伊豆の国市",
+      "city_slug": "izunokuni-shi",
+      "macro_region": "東海",
+      "mayor_name": "山下 正行",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-23",
+      "term_end_display": null,
+      "term_note": "2回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "静岡県公式『市町長及び議会議員の任期』で確認",
+      "findings_values": {
+        "mayor_name": "山下 正行",
+        "term_start": "記載なし",
+        "term_end": "2029-04-23",
+        "note": "静岡県公式『市町長及び議会議員の任期』で確認"
+      },
+      "public_order": 463,
+      "prefecture_city_order": 21,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-22226",
+      "region_id": "mun-22226",
+      "pref_code": "22",
+      "pref_name": "静岡県",
+      "municipality_code": "22226",
+      "city_name": "牧之原市",
+      "city_slug": "makinohara-shi",
+      "macro_region": "東海",
+      "mayor_name": "杉本 基久雄",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-10-29",
+      "term_end_display": null,
+      "term_note": "3回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "静岡県 市町長及び議会議員の任期",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shizuoka.jp/kensei/senkyo/senkan/1032132.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "静岡県公式『市町長及び議会議員の任期』で確認",
+      "findings_values": {
+        "mayor_name": "杉本 基久雄",
+        "term_start": "記載なし",
+        "term_end": "2029-10-29",
+        "note": "静岡県公式『市町長及び議会議員の任期』で確認"
+      },
+      "public_order": 464,
+      "prefecture_city_order": 22,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.md",
+        "research/current-mayors/findings/22-shizuoka/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

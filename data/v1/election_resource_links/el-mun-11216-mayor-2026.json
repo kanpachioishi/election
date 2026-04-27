@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "election_id": "el-mun-11216-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-11216-mayor-2026-other-01",
+      "election_id": "el-mun-11216-mayor-2026",
+      "kind": "other",
+      "title": "羽生市長選挙・羽生市議会議員補欠選挙 特集ページ",
+      "url": "https://www.city.hanyu.lg.jp/docs/2017022200033/",
+      "summary": "羽生市長選挙・羽生市議会議員補欠選挙の選挙日程、投票できる方、投票所、期日前投票を確認できる羽生市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.hanyu.lg.jp/docs/2017022200033/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-11216-mayor-2026-early-voting-01",
+      "election_id": "el-mun-11216-mayor-2026",
+      "kind": "early_voting",
+      "title": "羽生市長選挙・羽生市議会議員補欠選挙 期日前投票",
+      "url": "https://www.city.hanyu.lg.jp/docs/2017022200033/",
+      "summary": "羽生市長選挙・羽生市議会議員補欠選挙の期日前投票期間、時間、投票所を確認できる公式ページ。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.city.hanyu.lg.jp/docs/2017022200033/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-11216-mayor-2026-polling-place-01",
+      "election_id": "el-mun-11216-mayor-2026",
+      "kind": "polling_place",
+      "title": "羽生市長選挙・羽生市議会議員補欠選挙 市内投票所一覧（PDF）",
+      "url": "https://www.city.hanyu.lg.jp/docs/2017022200033/file_contents/file_20263242105028_1.pdf",
+      "summary": "羽生市長選挙・羽生市議会議員補欠選挙の投票所一覧を確認できる羽生市公式PDF。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.city.hanyu.lg.jp/docs/2017022200033/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
+        "status": "verified",
+        "note": "羽生市公式特集ページからPDFへの導線を確認。"
+      }
+    }
+  ]
+}

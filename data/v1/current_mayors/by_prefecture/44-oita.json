@@ -1,0 +1,910 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "44",
+  "pref_slug": "oita",
+  "pref_name": "大分県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/44-oita",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-44201",
+      "region_id": "mun-44201",
+      "pref_code": "44",
+      "pref_name": "大分県",
+      "municipality_code": "44201",
+      "city_name": "大分市",
+      "city_slug": "ooita-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "足立 信也",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "2023",
+      "term_end": "2027-04-22",
+      "term_end_display": null,
+      "term_note": "2023年市長就任、1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "公式プロフィールで現職名と2023年市長就任を確認。任期満了日は大分市『今後予定されている選挙』で確認。",
+      "findings_values": {
+        "mayor_name": "足立 信也",
+        "term_start": "2023",
+        "term_end": "2027-04-22",
+        "note": "公式プロフィールで現職名と2023年市長就任を確認。任期満了日は大分市『今後予定されている選挙』で確認。"
+      },
+      "public_order": 74,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.md",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-44202",
+      "region_id": "mun-44202",
+      "pref_code": "44",
+      "pref_name": "大分県",
+      "municipality_code": "44202",
+      "city_name": "別府市",
+      "city_slug": "oita-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "長野 恭紘",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-29",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "長野 恭紘",
+        "term_start": "記載なし",
+        "term_end": "2027-04-29",
+        "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認"
+      },
+      "public_order": 746,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.md",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-44203",
+      "region_id": "mun-44203",
+      "pref_code": "44",
+      "pref_name": "大分県",
+      "municipality_code": "44203",
+      "city_name": "中津市",
+      "city_slug": "oita-shi-2",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "奥塚 正典",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-11-16",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "奥塚 正典",
+        "term_start": "記載なし",
+        "term_end": "2027-11-16",
+        "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認"
+      },
+      "public_order": 747,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.md",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-44204",
+      "region_id": "mun-44204",
+      "pref_code": "44",
+      "pref_name": "大分県",
+      "municipality_code": "44204",
+      "city_name": "日田市",
+      "city_slug": "hita-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "椋野 美智子",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-08-04",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "椋野 美智子",
+        "term_start": "記載なし",
+        "term_end": "2027-08-04",
+        "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認"
+      },
+      "public_order": 748,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.md",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-44205",
+      "region_id": "mun-44205",
+      "pref_code": "44",
+      "pref_name": "大分県",
+      "municipality_code": "44205",
+      "city_name": "佐伯市",
+      "city_slug": "oita-shi-3",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "冨髙 国子",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-16",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "冨髙 国子",
+        "term_start": "記載なし",
+        "term_end": "2029-04-16",
+        "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認"
+      },
+      "public_order": 749,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.md",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-44206",
+      "region_id": "mun-44206",
+      "pref_code": "44",
+      "pref_name": "大分県",
+      "municipality_code": "44206",
+      "city_name": "臼杵市",
+      "city_slug": "oita-shi-4",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "西岡 隆",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-01-19",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "西岡 隆",
+        "term_start": "記載なし",
+        "term_end": "2029-01-19",
+        "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認"
+      },
+      "public_order": 750,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.md",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-44207",
+      "region_id": "mun-44207",
+      "pref_code": "44",
+      "pref_name": "大分県",
+      "municipality_code": "44207",
+      "city_name": "津久見市",
+      "city_slug": "oita-shi-5",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "石川 正史",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-12-25",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "石川 正史",
+        "term_start": "記載なし",
+        "term_end": "2027-12-25",
+        "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認"
+      },
+      "public_order": 751,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.md",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-44208",
+      "region_id": "mun-44208",
+      "pref_code": "44",
+      "pref_name": "大分県",
+      "municipality_code": "44208",
+      "city_name": "竹田市",
+      "city_slug": "oita-shi-6",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "土居 昌弘",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "土居 昌弘",
+        "term_start": "記載なし",
+        "term_end": "2029-04-23",
+        "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認"
+      },
+      "public_order": 752,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.md",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-44209",
+      "region_id": "mun-44209",
+      "pref_code": "44",
+      "pref_name": "大分県",
+      "municipality_code": "44209",
+      "city_name": "豊後高田市",
+      "city_slug": "oita-shi-7",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "佐々木 敏夫",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "佐々木 敏夫",
+        "term_start": "記載なし",
+        "term_end": "2029-04-23",
+        "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認"
+      },
+      "public_order": 753,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.md",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-44210",
+      "region_id": "mun-44210",
+      "pref_code": "44",
+      "pref_name": "大分県",
+      "municipality_code": "44210",
+      "city_name": "杵築市",
+      "city_slug": "kitsuki-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "永松 悟",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-10-22",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "永松 悟",
+        "term_start": "記載なし",
+        "term_end": "2029-10-22",
+        "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認"
+      },
+      "public_order": 754,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.md",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-44211",
+      "region_id": "mun-44211",
+      "pref_code": "44",
+      "pref_name": "大分県",
+      "municipality_code": "44211",
+      "city_name": "宇佐市",
+      "city_slug": "oita-shi-8",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "後藤 竜也",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "後藤 竜也",
+        "term_start": "記載なし",
+        "term_end": "2029-04-23",
+        "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認"
+      },
+      "public_order": 755,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.md",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-44212",
+      "region_id": "mun-44212",
+      "pref_code": "44",
+      "pref_name": "大分県",
+      "municipality_code": "44212",
+      "city_name": "豊後大野市",
+      "city_slug": "oita-shi-9",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "川野 文敏",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "川野 文敏",
+        "term_start": "記載なし",
+        "term_end": "2029-04-23",
+        "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認"
+      },
+      "public_order": 756,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.md",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-44213",
+      "region_id": "mun-44213",
+      "pref_code": "44",
+      "pref_name": "大分県",
+      "municipality_code": "44213",
+      "city_name": "由布市",
+      "city_slug": "oita-shi-10",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "相馬 尊重",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-10-29",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "相馬 尊重",
+        "term_start": "記載なし",
+        "term_end": "2029-10-29",
+        "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認"
+      },
+      "public_order": 757,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.md",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-44214",
+      "region_id": "mun-44214",
+      "pref_code": "44",
+      "pref_name": "大分県",
+      "municipality_code": "44214",
+      "city_name": "国東市",
+      "city_slug": "oita-shi-11",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "松井 督治",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-03-03",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "大分県の市町村",
+          "url": "https://www.pref.oita.jp/site/kids/sichoson.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.oita.jp/site/senkyo/ninnki.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認",
+      "findings_values": {
+        "mayor_name": "松井 督治",
+        "term_start": "記載なし",
+        "term_end": "2027-03-03",
+        "note": "大分県選挙管理委員会『長・議員の任期満了一覧表』で任期満了日を確認"
+      },
+      "public_order": 758,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.md",
+        "research/current-mayors/findings/44-oita/2026-04-24-round1.sources.json"
+      ]
+    }
+  ]
+}

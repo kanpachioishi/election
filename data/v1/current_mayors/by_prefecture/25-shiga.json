@@ -1,0 +1,963 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "25",
+  "pref_slug": "shiga",
+  "pref_name": "滋賀県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/25-shiga",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-25201",
+      "region_id": "mun-25201",
+      "pref_code": "25",
+      "pref_name": "滋賀県",
+      "municipality_code": "25201",
+      "city_name": "大津市",
+      "city_slug": "ootsu-shi",
+      "macro_region": "関西",
+      "mayor_name": "佐藤 健司",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "2024-01",
+      "term_end": null,
+      "term_end_display": "2028-01",
+      "term_note": "公式プロフィールで2024年1月市長就任。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "滋賀県 市町別一覧",
+          "url": "https://www.pref.shiga.lg.jp/suigaijyouhou/city/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "近江八幡市 市長選挙",
+          "url": "https://www.city.omihachiman.lg.jp/gyosei/senkyo/sityo/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.city.omihachiman.lg.jp/gyosei/senkyo/sityo/index.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長名と就任月は大津市公式プロフィールで確認。任期は月単位で整理。",
+      "findings_values": {
+        "mayor_name": "佐藤 健司",
+        "term_start": "2024-01",
+        "term_end": "2028-01",
+        "note": "市長名と就任月は大津市公式プロフィールで確認。任期は月単位で整理。"
+      },
+      "public_order": 37,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.md",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-25204",
+      "region_id": "mun-25204",
+      "pref_code": "25",
+      "pref_name": "滋賀県",
+      "municipality_code": "25204",
+      "city_name": "近江八幡市",
+      "city_slug": "omihachiman-shi",
+      "macro_region": "関西",
+      "mayor_name": "小西 理",
+      "mayor_name_kana": null,
+      "term_start": "2022-04-25",
+      "term_start_display": null,
+      "term_end": "2026-04-24",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "滋賀県 市町別一覧",
+          "url": "https://www.pref.shiga.lg.jp/suigaijyouhou/city/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "近江八幡市 市長選挙",
+          "url": "https://www.city.omihachiman.lg.jp/gyosei/senkyo/sityo/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.city.omihachiman.lg.jp/gyosei/senkyo/sityo/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "近江八幡市公式の市長プロフィールに任期が明記。次回市長選は2026-04-19投票。",
+      "findings_values": {
+        "mayor_name": "小西 理",
+        "term_start": "2022-04-25",
+        "term_end": "2026-04-24",
+        "note": "近江八幡市公式の市長プロフィールに任期が明記。次回市長選は2026-04-19投票。"
+      },
+      "public_order": 66,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.md",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-25208",
+      "region_id": "mun-25208",
+      "pref_code": "25",
+      "pref_name": "滋賀県",
+      "municipality_code": "25208",
+      "city_name": "栗東市",
+      "city_slug": "ritto-shi",
+      "macro_region": "関西",
+      "mayor_name": "竹村 健",
+      "mayor_name_kana": null,
+      "term_start": "2022-11-18",
+      "term_start_display": null,
+      "term_end": "2026-11-17",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "滋賀県 市町別一覧",
+          "url": "https://www.pref.shiga.lg.jp/suigaijyouhou/city/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "近江八幡市 市長選挙",
+          "url": "https://www.city.omihachiman.lg.jp/gyosei/senkyo/sityo/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.city.omihachiman.lg.jp/gyosei/senkyo/sityo/index.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "栗東市公式の市長プロフィールに任期が明記。",
+      "findings_values": {
+        "mayor_name": "竹村 健",
+        "term_start": "2022-11-18",
+        "term_end": "2026-11-17",
+        "note": "栗東市公式の市長プロフィールに任期が明記。"
+      },
+      "public_order": 67,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.md",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-25202",
+      "region_id": "mun-25202",
+      "pref_code": "25",
+      "pref_name": "滋賀県",
+      "municipality_code": "25202",
+      "city_name": "彦根市",
+      "city_slug": "hikone-shi",
+      "macro_region": "関西",
+      "mayor_name": "田島 一成",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-05-09",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "滋賀県 市町別一覧",
+          "url": "https://www.pref.shiga.lg.jp/suigaijyouhou/city/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "近江八幡市 市長選挙",
+          "url": "https://www.city.omihachiman.lg.jp/gyosei/senkyo/sityo/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shiga.lg.jp/file/attachment/5601701.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shiga.lg.jp/file/attachment/5601701.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "田島 一成",
+        "term_start": "記載なし",
+        "term_end": "2029-05-09",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 509,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.md",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-25203",
+      "region_id": "mun-25203",
+      "pref_code": "25",
+      "pref_name": "滋賀県",
+      "municipality_code": "25203",
+      "city_name": "長浜市",
+      "city_slug": "nagahama-shi",
+      "macro_region": "関西",
+      "mayor_name": "浅見 宣義",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-03-04",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "滋賀県 市町別一覧",
+          "url": "https://www.pref.shiga.lg.jp/suigaijyouhou/city/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "近江八幡市 市長選挙",
+          "url": "https://www.city.omihachiman.lg.jp/gyosei/senkyo/sityo/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shiga.lg.jp/file/attachment/5601701.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shiga.lg.jp/file/attachment/5601701.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "浅見 宣義",
+        "term_start": "記載なし",
+        "term_end": "2030-03-04",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 510,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.md",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-25206",
+      "region_id": "mun-25206",
+      "pref_code": "25",
+      "pref_name": "滋賀県",
+      "municipality_code": "25206",
+      "city_name": "草津市",
+      "city_slug": "kusatsu-shi",
+      "macro_region": "関西",
+      "mayor_name": "橋川 渉",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-03-20",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "滋賀県 市町別一覧",
+          "url": "https://www.pref.shiga.lg.jp/suigaijyouhou/city/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "近江八幡市 市長選挙",
+          "url": "https://www.city.omihachiman.lg.jp/gyosei/senkyo/sityo/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shiga.lg.jp/file/attachment/5601701.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shiga.lg.jp/file/attachment/5601701.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "橋川 渉",
+        "term_start": "記載なし",
+        "term_end": "2028-03-20",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 511,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.md",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-25207",
+      "region_id": "mun-25207",
+      "pref_code": "25",
+      "pref_name": "滋賀県",
+      "municipality_code": "25207",
+      "city_name": "守山市",
+      "city_slug": "moriyama-shi",
+      "macro_region": "関西",
+      "mayor_name": "森中 高史",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-02-19",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "滋賀県 市町別一覧",
+          "url": "https://www.pref.shiga.lg.jp/suigaijyouhou/city/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "近江八幡市 市長選挙",
+          "url": "https://www.city.omihachiman.lg.jp/gyosei/senkyo/sityo/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shiga.lg.jp/file/attachment/5601701.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shiga.lg.jp/file/attachment/5601701.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "森中 高史",
+        "term_start": "記載なし",
+        "term_end": "2027-02-19",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 512,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.md",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-25209",
+      "region_id": "mun-25209",
+      "pref_code": "25",
+      "pref_name": "滋賀県",
+      "municipality_code": "25209",
+      "city_name": "甲賀市",
+      "city_slug": "kouka-shi",
+      "macro_region": "関西",
+      "mayor_name": "岩永 裕貴",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-10-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "滋賀県 市町別一覧",
+          "url": "https://www.pref.shiga.lg.jp/suigaijyouhou/city/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "近江八幡市 市長選挙",
+          "url": "https://www.city.omihachiman.lg.jp/gyosei/senkyo/sityo/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shiga.lg.jp/file/attachment/5601701.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shiga.lg.jp/file/attachment/5601701.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "岩永 裕貴",
+        "term_start": "記載なし",
+        "term_end": "2028-10-30",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 513,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.md",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-25210",
+      "region_id": "mun-25210",
+      "pref_code": "25",
+      "pref_name": "滋賀県",
+      "municipality_code": "25210",
+      "city_name": "野洲市",
+      "city_slug": "yasu-shi",
+      "macro_region": "関西",
+      "mayor_name": "櫻本 直樹",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-10-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "滋賀県 市町別一覧",
+          "url": "https://www.pref.shiga.lg.jp/suigaijyouhou/city/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "近江八幡市 市長選挙",
+          "url": "https://www.city.omihachiman.lg.jp/gyosei/senkyo/sityo/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shiga.lg.jp/file/attachment/5601701.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shiga.lg.jp/file/attachment/5601701.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "櫻本 直樹",
+        "term_start": "記載なし",
+        "term_end": "2028-10-30",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 514,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.md",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-25211",
+      "region_id": "mun-25211",
+      "pref_code": "25",
+      "pref_name": "滋賀県",
+      "municipality_code": "25211",
+      "city_name": "湖南市",
+      "city_slug": "konan-shi",
+      "macro_region": "関西",
+      "mayor_name": "松浦 加代子",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-06",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "滋賀県 市町別一覧",
+          "url": "https://www.pref.shiga.lg.jp/suigaijyouhou/city/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "近江八幡市 市長選挙",
+          "url": "https://www.city.omihachiman.lg.jp/gyosei/senkyo/sityo/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shiga.lg.jp/file/attachment/5601701.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shiga.lg.jp/file/attachment/5601701.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "松浦 加代子",
+        "term_start": "記載なし",
+        "term_end": "2028-11-06",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 515,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.md",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-25212",
+      "region_id": "mun-25212",
+      "pref_code": "25",
+      "pref_name": "滋賀県",
+      "municipality_code": "25212",
+      "city_name": "高島市",
+      "city_slug": "takashima-shi",
+      "macro_region": "関西",
+      "mayor_name": "今城 克啓",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-02-12",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "滋賀県 市町別一覧",
+          "url": "https://www.pref.shiga.lg.jp/suigaijyouhou/city/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "近江八幡市 市長選挙",
+          "url": "https://www.city.omihachiman.lg.jp/gyosei/senkyo/sityo/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shiga.lg.jp/file/attachment/5601701.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shiga.lg.jp/file/attachment/5601701.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "今城 克啓",
+        "term_start": "記載なし",
+        "term_end": "2029-02-12",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 516,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.md",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-25213",
+      "region_id": "mun-25213",
+      "pref_code": "25",
+      "pref_name": "滋賀県",
+      "municipality_code": "25213",
+      "city_name": "東近江市",
+      "city_slug": "higashioumi-shi",
+      "macro_region": "関西",
+      "mayor_name": "小椋 正清",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-02-26",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "滋賀県 市町別一覧",
+          "url": "https://www.pref.shiga.lg.jp/suigaijyouhou/city/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "近江八幡市 市長選挙",
+          "url": "https://www.city.omihachiman.lg.jp/gyosei/senkyo/sityo/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shiga.lg.jp/file/attachment/5601701.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shiga.lg.jp/file/attachment/5601701.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "小椋 正清",
+        "term_start": "記載なし",
+        "term_end": "2029-02-26",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 517,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.md",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-25214",
+      "region_id": "mun-25214",
+      "pref_code": "25",
+      "pref_name": "滋賀県",
+      "municipality_code": "25214",
+      "city_name": "米原市",
+      "city_slug": "maibara-shi",
+      "macro_region": "関西",
+      "mayor_name": "角田 航也",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-09",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "滋賀県 市町別一覧",
+          "url": "https://www.pref.shiga.lg.jp/suigaijyouhou/city/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "近江八幡市 市長選挙",
+          "url": "https://www.city.omihachiman.lg.jp/gyosei/senkyo/sityo/index.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.shiga.lg.jp/file/attachment/5601701.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.shiga.lg.jp/file/attachment/5601701.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "角田 航也",
+        "term_start": "記載なし",
+        "term_end": "2028-11-09",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 518,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.md",
+        "research/current-mayors/findings/25-shiga/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

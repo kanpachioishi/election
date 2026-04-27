@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "election_id": "el-mun-23206-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-23206-mayor-2026-other-01",
+      "election_id": "el-mun-23206-mayor-2026",
+      "kind": "other",
+      "title": "春日井市長選挙及び春日井市議会議員補欠選挙について",
+      "url": "https://www.city.kasugai.lg.jp/shisei/senkan/1012166.html",
+      "summary": "春日井市長選挙の選挙期日、告示日、投票時間、立候補予定者説明会を確認できる春日井市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.kasugai.lg.jp/shisei/senkan/1012166.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-23206-mayor-2026-early-voting-01",
+      "election_id": "el-mun-23206-mayor-2026",
+      "kind": "early_voting",
+      "title": "投票の方法",
+      "url": "https://www.city.kasugai.lg.jp/shisei/senkan/senkyonosikumi/index.html",
+      "summary": "期日前投票、不在者投票、代理投票など投票方法を確認できる春日井市公式ページ。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.city.kasugai.lg.jp/shisei/senkan/senkyonosikumi/index.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-23206-mayor-2026-polling-place-01",
+      "election_id": "el-mun-23206-mayor-2026",
+      "kind": "polling_place",
+      "title": "投票所設置場所・投票区域のご案内",
+      "url": "https://www.city.kasugai.lg.jp/shisei/senkan/touhyoujo.html",
+      "summary": "春日井市の投票所設置場所と投票区域を確認できる公式ページ。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.city.kasugai.lg.jp/shisei/senkan/touhyoujo.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

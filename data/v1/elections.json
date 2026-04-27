@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-04-21T22:14:26+09:00",
+  "generated_at": "2026-04-27T00:00:00+09:00",
   "records": [
     {
       "id": "el-pref-01-governor-2023",
@@ -946,12 +946,12 @@
       "primary_region_id": "mun-11238",
       "included_region_ids": null,
       "verification": {
-        "source_url": "https://www.pref.saitama.lg.jp/e1701/election-schedule.html",
+        "source_url": "https://www.city.hasuda.saitama.jp/senkyo/r8sityousensennkyokijitu.html",
         "source_type": "official",
-        "confirmed_at": "2026-04-15T23:30:00+09:00",
-        "last_checked_at": "2026-04-15T23:30:00+09:00",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
         "status": "verified",
-        "note": "2026-04-15時点で埼玉県の公式日程ページに掲載があり、upcoming として確認。"
+        "note": "2026-04-27時点で蓮田市公式の選挙ページからリンクされた「蓮田市長選挙のお知らせ」に、投票日 2026-05-24 と告示日 2026-05-17 の記載があるため upcoming として確認。"
       }
     },
     {
@@ -968,12 +968,34 @@
       "primary_region_id": "mun-11216",
       "included_region_ids": null,
       "verification": {
-        "source_url": "https://www.pref.saitama.lg.jp/e1701/election-schedule.html",
+        "source_url": "https://www.city.hanyu.lg.jp/docs/2017022200033/",
         "source_type": "official",
-        "confirmed_at": "2026-04-15T23:30:00+09:00",
-        "last_checked_at": "2026-04-15T23:30:00+09:00",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
         "status": "verified",
-        "note": "2026-04-15時点で埼玉県の公式日程ページに掲載があり、upcoming として確認。"
+        "note": "2026-04-27時点で羽生市公式の特集ページに、投票日時 2026-05-24 と告示日 2026-05-17 の記載があるため upcoming として確認。同日に羽生市議会議員補欠選挙も執行。"
+      }
+    },
+    {
+      "id": "el-by-mun-11216-assembly-2026-01",
+      "slug": "hanyu-city-assembly-by-election-2026-01",
+      "name": "羽生市議会議員補欠選挙",
+      "type": "by_election",
+      "subtype": "assembly",
+      "phase": "upcoming",
+      "vote_date": "2026-05-24",
+      "notice_date": "2026-05-17",
+      "description": "羽生市議会議員の欠員に伴う補欠選挙です。",
+      "scope_type": "region",
+      "primary_region_id": "mun-11216",
+      "included_region_ids": null,
+      "verification": {
+        "source_url": "https://www.city.hanyu.lg.jp/docs/2017022200033/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
+        "status": "verified",
+        "note": "2026-04-27時点で羽生市公式の特集ページに、羽生市長選挙と羽生市議会議員補欠選挙を併せて行う旨と投票日時 2026-05-24 の記載があるため upcoming として確認。告示日は同時選挙ページの 2026-05-17 を採用。"
       }
     },
     {
@@ -2354,12 +2376,12 @@
       "primary_region_id": "mun-32207",
       "included_region_ids": null,
       "verification": {
-        "source_url": "https://www.pref.shimane.lg.jp/admin/commission/senkyo/shimane_senkyo/anatano/shikkouyotei.data/R080202_senkyo_yotei.pdf",
+        "source_url": "https://www.city.gotsu.lg.jp/soshiki/27/7363.html",
         "source_type": "official",
-        "confirmed_at": "2026-04-15T23:55:00+09:00",
-        "last_checked_at": "2026-04-15T23:55:00+09:00",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
         "status": "verified",
-        "note": "2026-04-15時点で島根県の選挙執行予定 PDF に告示日と投票日の記載があり、投票日は 2026-05-31 のため upcoming として確認。"
+        "note": "2026-04-27時点で江津市公式の投開票日ページに、投票日 2026-05-31 と告示日 2026-05-24 の記載があるため upcoming として確認。"
       }
     },
     {
@@ -2412,20 +2434,20 @@
       "name": "あま市長選挙",
       "type": "municipal",
       "subtype": "mayor",
-      "phase": "upcoming",
-      "vote_date": "2026-05-24",
-      "notice_date": "2026-05-17",
+      "phase": "archived",
+      "vote_date": "2026-04-19",
+      "notice_date": "2026-04-12",
       "description": "あま市長を選出する選挙です。",
       "scope_type": "region",
       "primary_region_id": "mun-23237",
       "included_region_ids": null,
       "verification": {
-        "source_url": "https://www.pref.aichi.jp/soshiki/gyousei-kansa/0000012260.html",
+        "source_url": "https://www.city.ama.aichi.jp/shisei/senkyo/1007574.html",
         "source_type": "official",
-        "confirmed_at": "2026-04-15T23:59:00+09:00",
-        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
         "status": "verified",
-        "note": "2026-04-15時点で愛知県の選挙執行予定ページに告示日と選挙期日の記載があり、投票日は 2026-05-24 のため upcoming として確認。"
+        "note": "2026-04-27時点であま市公式ページに、投票日 2026-04-19 と告示日 2026-04-12 の記載があるため archived として確認。同日にあま市議会議員補欠選挙も執行。"
       }
     },
     {
@@ -2457,19 +2479,41 @@
       "type": "municipal",
       "subtype": "mayor",
       "phase": "upcoming",
-      "vote_date": "2026-07-12",
-      "notice_date": "2026-07-05",
+      "vote_date": "2026-05-24",
+      "notice_date": "2026-05-17",
       "description": "春日井市長を選出する選挙です。",
       "scope_type": "region",
       "primary_region_id": "mun-23206",
       "included_region_ids": null,
       "verification": {
-        "source_url": "https://www.pref.aichi.jp/soshiki/gyousei-kansa/0000012260.html",
+        "source_url": "https://www.city.kasugai.lg.jp/shisei/senkan/1012166.html",
         "source_type": "official",
-        "confirmed_at": "2026-04-15T23:59:00+09:00",
-        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
         "status": "verified",
-        "note": "2026-04-15時点で愛知県の選挙執行予定ページに告示日と選挙期日の記載があり、投票日は 2026-07-12 のため upcoming として確認。"
+        "note": "2026-04-27時点で春日井市公式ページに、選挙期日 2026-05-24 と告示日 2026-05-17 の記載があるため upcoming として確認。同日に春日井市議会議員補欠選挙も執行。"
+      }
+    },
+    {
+      "id": "el-by-mun-23206-assembly-2026-01",
+      "slug": "kasugai-city-assembly-by-election-2026-01",
+      "name": "春日井市議会議員補欠選挙",
+      "type": "by_election",
+      "subtype": "assembly",
+      "phase": "upcoming",
+      "vote_date": "2026-05-24",
+      "notice_date": "2026-05-17",
+      "description": "春日井市議会議員の欠員に伴う補欠選挙です。",
+      "scope_type": "region",
+      "primary_region_id": "mun-23206",
+      "included_region_ids": null,
+      "verification": {
+        "source_url": "https://www.city.kasugai.lg.jp/shisei/senkan/1012166.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
+        "status": "verified",
+        "note": "2026-04-27時点で春日井市公式ページに、春日井市議会議員補欠選挙も同日に執行する旨、選挙期日 2026-05-24、告示日 2026-05-17 の記載があるため upcoming として確認。"
       }
     },
     {
@@ -2552,12 +2596,12 @@
       "primary_region_id": "mun-38206",
       "included_region_ids": null,
       "verification": {
-        "source_url": "https://www.pref.ehime.jp/site/senkyo/48160.html",
+        "source_url": "https://www.city.saijo.ehime.jp/soshiki/senkan/shityousen-senkyokijitu.html",
         "source_type": "official",
-        "confirmed_at": "2026-04-15T23:59:00+09:00",
-        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
         "status": "verified",
-        "note": "2026-04-15時点で愛媛県の選挙執行予定ページに告示日と選挙期日の記載があり、投票日は 2026-05-17 のため upcoming として確認。"
+        "note": "2026-04-27時点で西条市公式ページに、不信任決議に伴う西条市長選挙の投票日 2026-05-17 と告示日 2026-05-10 の記載があるため upcoming として確認。"
       }
     },
     {
@@ -2787,19 +2831,19 @@
       "type": "municipal",
       "subtype": "mayor",
       "phase": "upcoming",
-      "vote_date": "2026-05-17",
-      "notice_date": "2026-05-10",
+      "vote_date": "2026-11-15",
+      "notice_date": "2026-11-08",
       "description": "小千谷市長を選出する選挙です。",
       "scope_type": "region",
       "primary_region_id": "mun-15208",
       "included_region_ids": null,
       "verification": {
-        "source_url": "https://www.pref.niigata.lg.jp/site/senkyo/r8-shicyouson-senkyonittei.html",
+        "source_url": "https://www.pref.niigata.lg.jp/site/senkyo/r8-senkyoichiran.html",
         "source_type": "official",
-        "confirmed_at": "2026-04-15T23:59:00+09:00",
-        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
         "status": "verified",
-        "note": "2026-04-15時点で新潟県の市町村選挙日程ページに告示日と選挙期日の記載があり、投票日は 2026-05-17 のため upcoming として確認。"
+        "note": "2026-04-27時点で新潟県の令和8年選挙執行一覧に、小千谷市長選挙の投票日 2026-11-15 と告示日 2026-11-08 の記載があるため upcoming として確認。"
       }
     },
     {
@@ -2918,9 +2962,9 @@
       "name": "糸島市長選挙",
       "type": "municipal",
       "subtype": "mayor",
-      "phase": "upcoming",
-      "vote_date": "2026-05-24",
-      "notice_date": "2026-05-17",
+      "phase": "archived",
+      "vote_date": "2026-02-01",
+      "notice_date": "2026-01-25",
       "description": "糸島市長を選出する選挙です。",
       "scope_type": "region",
       "primary_region_id": "mun-40230",
@@ -2928,10 +2972,10 @@
       "verification": {
         "source_url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282718.pdf",
         "source_type": "official",
-        "confirmed_at": "2026-04-15T23:59:00+09:00",
-        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
         "status": "verified",
-        "note": "2026-04-15時点で福岡県の選挙日程 PDF に告示日と選挙期日の記載があり、投票日は 2026-05-24 のため upcoming として確認。"
+        "note": "2026-04-27時点で福岡県の市長・町長・村長選挙一覧 PDF に、糸島市長選挙の投票日 2026-02-01 と告示日 2026-01-25 の記載があるため archived として確認。"
       }
     },
     {
@@ -2940,20 +2984,20 @@
       "name": "行橋市長選挙",
       "type": "municipal",
       "subtype": "mayor",
-      "phase": "upcoming",
-      "vote_date": "2026-05-31",
-      "notice_date": "2026-05-24",
+      "phase": "archived",
+      "vote_date": "2026-02-22",
+      "notice_date": "2026-02-15",
       "description": "行橋市長を選出する選挙です。",
       "scope_type": "region",
       "primary_region_id": "mun-40213",
       "included_region_ids": null,
       "verification": {
-        "source_url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282718.pdf",
+        "source_url": "https://www.city.yukuhashi.fukuoka.jp/site/senkyo/43159.html",
         "source_type": "official",
-        "confirmed_at": "2026-04-15T23:59:00+09:00",
-        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
         "status": "verified",
-        "note": "2026-04-15時点で福岡県の選挙日程 PDF に告示日と選挙期日の記載があり、投票日は 2026-05-31 のため upcoming として確認。"
+        "note": "2026-04-27時点で行橋市公式の開票結果ページに、令和8年2月22日執行の行橋市長選挙結果が掲載されているため archived として確認。告示日は福岡県の市長・町長・村長選挙一覧 PDF の 2026-02-15 を採用。"
       }
     },
     {
@@ -3190,12 +3234,34 @@
       "primary_region_id": "mun-35206",
       "included_region_ids": null,
       "verification": {
-        "source_url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/237065.pdf",
+        "source_url": "https://www.city.hofu.yamaguchi.jp/soshiki/52/shichousen-shikkoubi.html",
         "source_type": "official",
-        "confirmed_at": "2026-04-16T00:12:00+09:00",
-        "last_checked_at": "2026-04-16T00:12:00+09:00",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
         "status": "verified",
-        "note": "2026-04-16時点で山口県の市町選挙一覧 PDF に告示日と投票日の記載があり、投票日は 2026-05-24 のため upcoming として確認。"
+        "note": "2026-04-27時点で防府市公式ページに、選挙期日 2026-05-24 と告示日 2026-05-17 の記載があるため upcoming として確認。野島投票区は 2026-05-23 に繰上投票。"
+      }
+    },
+    {
+      "id": "el-mun-17205-mayor-2026",
+      "slug": "suzu-mayor-2026",
+      "name": "珠洲市長選挙",
+      "type": "municipal",
+      "subtype": "mayor",
+      "phase": "upcoming",
+      "vote_date": "2026-05-24",
+      "notice_date": "2026-05-17",
+      "description": "珠洲市長を選出する選挙です。",
+      "scope_type": "region",
+      "primary_region_id": "mun-17205",
+      "included_region_ids": null,
+      "verification": {
+        "source_url": "https://www.city.suzu.lg.jp/soshiki/1/24822.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
+        "status": "verified",
+        "note": "2026-04-27時点で珠洲市公式ページに、選挙期日 2026-05-24 と告示日 2026-05-17 の記載があるため upcoming として確認。"
       }
     },
     {

@@ -1,0 +1,567 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "18",
+  "pref_slug": "fukui",
+  "pref_name": "福井県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/18-fukui",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-18210",
+      "region_id": "mun-18210",
+      "pref_code": "18",
+      "pref_name": "福井県",
+      "municipality_code": "18210",
+      "city_name": "坂井市",
+      "city_slug": "sakai-shi",
+      "macro_region": "北陸",
+      "mayor_name": "池田 よしたか",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-23",
+      "term_start_display": null,
+      "term_end": "2030-04-22",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "福井県 任期満了日一覧",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票結果",
+          "url": "https://www.city.fukui-sakai.lg.jp/somu/shisei/senkyo/kekka/r8senkyokekka.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "開票結果",
+        "url": "https://www.city.fukui-sakai.lg.jp/somu/shisei/senkyo/kekka/r8senkyokekka.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-19執行の坂井市長選開票結果で池田よしたか氏の当選を確認。現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "池田 よしたか",
+        "term_start": "2026-04-23",
+        "term_end": "2030-04-22",
+        "note": "2026-04-19執行の坂井市長選開票結果で池田よしたか氏の当選を確認。現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 21,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/18-fukui/2026-04-23-round1.md",
+        "research/current-mayors/findings/18-fukui/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-18205",
+      "region_id": "mun-18205",
+      "pref_code": "18",
+      "pref_name": "福井県",
+      "municipality_code": "18205",
+      "city_name": "大野市",
+      "city_slug": "ono-shi",
+      "macro_region": "北陸",
+      "mayor_name": "石山 志保",
+      "mayor_name_kana": null,
+      "term_start": "2022-07-07",
+      "term_start_display": null,
+      "term_end": "2026-07-06",
+      "term_end_display": null,
+      "term_note": "令和4年7月7日から2期目。任期満了日は令和8年7月6日。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "福井県 任期満了日一覧",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "今後予定される選挙",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "就任日はプロフィール、任期満了日は今後予定される選挙で確認。",
+      "findings_values": {
+        "mayor_name": "石山 志保",
+        "term_start": "2022-07-07",
+        "term_end": "2026-07-06",
+        "note": "就任日はプロフィール、任期満了日は今後予定される選挙で確認。"
+      },
+      "public_order": 30,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/18-fukui/2026-04-23-round1.md",
+        "research/current-mayors/findings/18-fukui/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-18201",
+      "region_id": "mun-18201",
+      "pref_code": "18",
+      "pref_name": "福井県",
+      "municipality_code": "18201",
+      "city_name": "福井市",
+      "city_slug": "fukui-shi",
+      "macro_region": "北陸",
+      "mayor_name": "西行 茂",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-12-22",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "福井県 任期満了日一覧",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了一覧で確認。",
+      "findings_values": {
+        "mayor_name": "西行 茂",
+        "term_start": "記載なし",
+        "term_end": "2027-12-22",
+        "note": "県の任期満了一覧で確認。"
+      },
+      "public_order": 388,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/18-fukui/2026-04-23-round1.md",
+        "research/current-mayors/findings/18-fukui/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-18202",
+      "region_id": "mun-18202",
+      "pref_code": "18",
+      "pref_name": "福井県",
+      "municipality_code": "18202",
+      "city_name": "敦賀市",
+      "city_slug": "tsuruga-shi",
+      "macro_region": "北陸",
+      "mayor_name": "米澤 光治",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-29",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "福井県 任期満了日一覧",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満“一覧で確認。",
+      "findings_values": {
+        "mayor_name": "米澤 光治",
+        "term_start": "記載なし",
+        "term_end": "2027-04-29",
+        "note": "県の任期満“一覧で確認。"
+      },
+      "public_order": 389,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/18-fukui/2026-04-23-round1.md",
+        "research/current-mayors/findings/18-fukui/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-18204",
+      "region_id": "mun-18204",
+      "pref_code": "18",
+      "pref_name": "福井県",
+      "municipality_code": "18204",
+      "city_name": "小浜市",
+      "city_slug": "obama-shi",
+      "macro_region": "北陸",
+      "mayor_name": "杉本 和範",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-08-04",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "福井県 任期満了日一覧",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満“一覧で確認。",
+      "findings_values": {
+        "mayor_name": "杉本 和範",
+        "term_start": "記載なし",
+        "term_end": "2028-08-04",
+        "note": "県の任期満“一覧で確認。"
+      },
+      "public_order": 390,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/18-fukui/2026-04-23-round1.md",
+        "research/current-mayors/findings/18-fukui/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-18206",
+      "region_id": "mun-18206",
+      "pref_code": "18",
+      "pref_name": "福井県",
+      "municipality_code": "18206",
+      "city_name": "勝山市",
+      "city_slug": "katsuyama-shi",
+      "macro_region": "北陸",
+      "mayor_name": "水上 実喜夫",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-12-25",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "福井県 任期満了日一覧",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満“一覧で確認。",
+      "findings_values": {
+        "mayor_name": "水上 実喜夫",
+        "term_start": "記載なし",
+        "term_end": "2028-12-25",
+        "note": "県の任期満“一覧で確認。"
+      },
+      "public_order": 391,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/18-fukui/2026-04-23-round1.md",
+        "research/current-mayors/findings/18-fukui/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-18207",
+      "region_id": "mun-18207",
+      "pref_code": "18",
+      "pref_name": "福井県",
+      "municipality_code": "18207",
+      "city_name": "鯖江市",
+      "city_slug": "sabae-shi",
+      "macro_region": "北陸",
+      "mayor_name": "佐々木 勝久",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-10-16",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "福井県 任期満了日一覧",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満“一覧で確認。",
+      "findings_values": {
+        "mayor_name": "佐々木 勝久",
+        "term_start": "記載なし",
+        "term_end": "2028-10-16",
+        "note": "県の任期満“一覧で確認。"
+      },
+      "public_order": 392,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/18-fukui/2026-04-23-round1.md",
+        "research/current-mayors/findings/18-fukui/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-18208",
+      "region_id": "mun-18208",
+      "pref_code": "18",
+      "pref_name": "福井県",
+      "municipality_code": "18208",
+      "city_name": "あわら市",
+      "city_slug": "awara-shi",
+      "macro_region": "北陸",
+      "mayor_name": "森 之嗣",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-02-03",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "福井県 任期満了日一覧",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満“一覧で確認。",
+      "findings_values": {
+        "mayor_name": "森 之嗣",
+        "term_start": "記載なし",
+        "term_end": "2030-02-03",
+        "note": "県の任期満“一覧で確認。"
+      },
+      "public_order": 393,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/18-fukui/2026-04-23-round1.md",
+        "research/current-mayors/findings/18-fukui/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-18209",
+      "region_id": "mun-18209",
+      "pref_code": "18",
+      "pref_name": "福井県",
+      "municipality_code": "18209",
+      "city_name": "越前市",
+      "city_slug": "echizen-shi",
+      "macro_region": "北陸",
+      "mayor_name": "平林 透",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-02-07",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "福井県 任期満了日一覧",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/kousenshoku-itiran.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満“一覧で確認。",
+      "findings_values": {
+        "mayor_name": "平林 透",
+        "term_start": "記載なし",
+        "term_end": "2030-02-07",
+        "note": "県の任期満“一覧で確認。"
+      },
+      "public_order": 394,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/18-fukui/2026-04-23-round1.md",
+        "research/current-mayors/findings/18-fukui/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

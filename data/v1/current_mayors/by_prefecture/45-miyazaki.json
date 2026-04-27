@@ -1,0 +1,599 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "45",
+  "pref_slug": "miyazaki",
+  "pref_name": "宮崎県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/45-miyazaki",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-45205",
+      "region_id": "mun-45205",
+      "pref_code": "45",
+      "pref_name": "宮崎県",
+      "municipality_code": "45205",
+      "city_name": "小林市",
+      "city_slug": "kobayashi-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "堀 研二郎",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-23",
+      "term_start_display": null,
+      "term_end": "2030-04-22",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町村一覧",
+          "url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/shichoson/shichosonmap.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "投開票結果",
+          "url": "https://www.city.kobayashi.lg.jp/soshikikarasagasu/senkyokanriiinkaijimukyoku/oshirase/11104.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "投開票結果",
+        "url": "https://www.city.kobayashi.lg.jp/soshikikarasagasu/senkyokanriiinkaijimukyoku/oshirase/11104.html"
+      },
+      "last_checked_at": "2026-04-24",
+      "note": "小林市公式の2026-04-19執行市長選投開票結果で堀研二郎氏当選を確認。現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "堀 研二郎",
+        "term_start": "2026-04-23",
+        "term_end": "2030-04-22",
+        "note": "小林市公式の2026-04-19執行市長選投開票結果で新市長を確認。"
+      },
+      "public_order": 10,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/45-miyazaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/45-miyazaki/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-45201",
+      "region_id": "mun-45201",
+      "pref_code": "45",
+      "pref_name": "宮崎県",
+      "municipality_code": "45201",
+      "city_name": "宮崎市",
+      "city_slug": "miyazaki-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "清山 知憲",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "2026-02",
+      "term_end": null,
+      "term_end_display": "2030-02",
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町村一覧",
+          "url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/shichoson/shichosonmap.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式",
+          "url": "https://www.city.miyazaki.miyazaki.jp/mayor/activity_log2/409048.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.miyazaki.miyazaki.jp/mayor/activity_log2/409048.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "2026年1月活動記録で1月25日の市長選後『2期目に向けて』を確認。現任期は月単位で整理。",
+      "findings_values": {
+        "mayor_name": "清山 知憲",
+        "term_start": "2026-02",
+        "term_end": "2030-02",
+        "note": "2026年1月活動記録で1月25日の市長選後『2期目に向けて』を確認。現任期は月単位で整理。"
+      },
+      "public_order": 75,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/45-miyazaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/45-miyazaki/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-45202",
+      "region_id": "mun-45202",
+      "pref_code": "45",
+      "pref_name": "宮崎県",
+      "municipality_code": "45202",
+      "city_name": "都城市",
+      "city_slug": "miyazaki-shi-2",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "池田 宜永",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-11-21",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町村一覧",
+          "url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/shichoson/shichosonmap.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の公職任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "池田 宜永",
+        "term_start": "記載なし",
+        "term_end": "2029-11-21",
+        "note": "県の公職任期満了日一覧PDFで確認。"
+      },
+      "public_order": 759,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/45-miyazaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/45-miyazaki/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-45203",
+      "region_id": "mun-45203",
+      "pref_code": "45",
+      "pref_name": "宮崎県",
+      "municipality_code": "45203",
+      "city_name": "延岡市",
+      "city_slug": "nobeoka-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "三浦 久知",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-07-19",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町村一覧",
+          "url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/shichoson/shichosonmap.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の公職任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "三浦 久知",
+        "term_start": "記載なし",
+        "term_end": "2029-07-19",
+        "note": "県の公職任期満了日一覧PDFで確認。"
+      },
+      "public_order": 760,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/45-miyazaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/45-miyazaki/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-45204",
+      "region_id": "mun-45204",
+      "pref_code": "45",
+      "pref_name": "宮崎県",
+      "municipality_code": "45204",
+      "city_name": "日南市",
+      "city_slug": "miyazaki-shi-3",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "髙橋 透",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-25",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町村一覧",
+          "url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/shichoson/shichosonmap.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の公職任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "髙橋 透",
+        "term_start": "記載なし",
+        "term_end": "2029-04-25",
+        "note": "県の公職任期満了日一覧PDFで確認。"
+      },
+      "public_order": 761,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/45-miyazaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/45-miyazaki/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-45206",
+      "region_id": "mun-45206",
+      "pref_code": "45",
+      "pref_name": "宮崎県",
+      "municipality_code": "45206",
+      "city_name": "日向市",
+      "city_slug": "miyazaki-shi-4",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "西村 賢",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-03-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町村一覧",
+          "url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/shichoson/shichosonmap.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の公職任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "西村 賢",
+        "term_start": "記載なし",
+        "term_end": "2028-03-30",
+        "note": "県の公職任期満了日一覧PDFで確認。"
+      },
+      "public_order": 762,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/45-miyazaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/45-miyazaki/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-45207",
+      "region_id": "mun-45207",
+      "pref_code": "45",
+      "pref_name": "宮崎県",
+      "municipality_code": "45207",
+      "city_name": "串間市",
+      "city_slug": "miyazaki-shi-5",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "武田 浩一",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-10-07",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町村一覧",
+          "url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/shichoson/shichosonmap.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の公職任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "武田 浩一",
+        "term_start": "記載なし",
+        "term_end": "2028-10-07",
+        "note": "県の公職任期満了日一覧PDFで確認。"
+      },
+      "public_order": 763,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/45-miyazaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/45-miyazaki/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-45208",
+      "region_id": "mun-45208",
+      "pref_code": "45",
+      "pref_name": "宮崎県",
+      "municipality_code": "45208",
+      "city_name": "西都市",
+      "city_slug": "miyazaki-shi-6",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "押川 修一郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-02-04",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町村一覧",
+          "url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/shichoson/shichosonmap.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の公職任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "押川 修一郎",
+        "term_start": "記載なし",
+        "term_end": "2029-02-04",
+        "note": "県の公職任期満了日一覧PDFで確認。"
+      },
+      "public_order": 764,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/45-miyazaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/45-miyazaki/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-45209",
+      "region_id": "mun-45209",
+      "pref_code": "45",
+      "pref_name": "宮崎県",
+      "municipality_code": "45209",
+      "city_name": "えびの市",
+      "city_slug": "miyazaki-shi-7",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "中山 義彦",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-10-11",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "県内市町村一覧",
+          "url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/shichoson/shichosonmap.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.miyazaki.lg.jp/documents/915/915_20260108105825-1.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の公職任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "中山 義彦",
+        "term_start": "記載なし",
+        "term_end": "2028-10-11",
+        "note": "県の公職任期満了日一覧PDFで確認。"
+      },
+      "public_order": 765,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/45-miyazaki/2026-04-24-round1.md",
+        "research/current-mayors/findings/45-miyazaki/2026-04-24-round1.sources.json"
+      ]
+    }
+  ]
+}

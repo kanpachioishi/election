@@ -44,6 +44,46 @@
 - `checked_at`
 - `status`
 
+## assembly_engagement_report
+- `id`
+- `hub_id`
+- `status`: `draft`, `review`, `published`, `archived`
+- `report_label`: 例 `札幌市議会を知るための市政レポート`
+- `report_year`
+- `reference_date`: 資料内の事実をどの日付時点で扱うか
+- `checked_at`: 公式資料を最後に確認した日
+- `target_audience`: 例 `初めて市議会を見る人`
+- `primary_question`: 例 `なぜ地方政治は遠く感じるのか`
+- `primary_message`: 資料全体で伝える短い文
+- `featured_session_id`: 関連する `assembly_session_summary.id`
+- `featured_topic`: 例 `令和8年度予算`, `使用料改定`, `公共施設整備`
+- `featured_decision`
+  - `title`
+  - `decision_date`
+  - `result_label`: `可決`, `否決`, `修正可決`, `同意` など
+  - `yes_count`
+  - `no_count`
+  - `other_count`
+  - `vote_basis`: `member_vote`, `group_vote`, `total_only`, `unknown`
+- `group_composition`
+  - `basis_date`
+  - `basis_label`: `現在`, `議決当時` など
+  - `groups`: `name`, `seat_count`, `source_id`
+- `election_signal`
+  - `election_name`
+  - `election_date`
+  - `turnout`
+  - `seat_count`
+  - `candidate_count`
+  - `last_elected_votes`
+  - `runner_up_votes`
+  - `margin_votes`
+  - `source_id`
+- `life_impact_points`: 生活との関わりを示す短文配列
+- `source_links`: `id`, `kind`, `title`, `url`, `published_on`, `retrieved_on`
+- `caveats`: 原文優先、会派構成の時点、未確認事項など
+- `publish_assets`: 完成版HTML、PDF、画像などを公開する場合のパス
+
 ## Top Page Fields
 - `title`
 - `summary`

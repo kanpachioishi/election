@@ -1,0 +1,934 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "43",
+  "pref_slug": "kumamoto",
+  "pref_name": "熊本県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/43-kumamoto",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-43100",
+      "region_id": "mun-43100",
+      "pref_code": "43",
+      "pref_name": "熊本県",
+      "municipality_code": "43100",
+      "city_name": "熊本市",
+      "city_slug": "kumamoto-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "大西 一史",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "2022-12",
+      "term_end": null,
+      "term_end_display": "2026-12",
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "任期満了日について",
+          "url": "https://www.pref.kumamoto.jp/soshiki/147/182198.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式",
+          "url": "https://www.city.kumamoto.jp/dynamic/sicho/hpkiji/pub/detail.aspx?c_id=3&amp;class_id=101&amp;id=7065",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.kumamoto.jp/dynamic/sicho/hpkiji/pub/detail.aspx?c_id=3&class_id=101&id=7065"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "プロフィールで現職名、2022年11月3期目当選、2022年12月第34代熊本市長就任を確認。現任期は月単位で整理。",
+      "findings_values": {
+        "mayor_name": "大西 一史",
+        "term_start": "2022-12",
+        "term_end": "2026-12",
+        "note": "プロフィールで現職名、2022年11月3期目当選、2022年12月第34代熊本市長就任を確認。現任期は月単位で整理。"
+      },
+      "public_order": 73,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.md",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-43202",
+      "region_id": "mun-43202",
+      "pref_code": "43",
+      "pref_name": "熊本県",
+      "municipality_code": "43202",
+      "city_name": "八代市",
+      "city_slug": "yatsushiro-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "小野 泰輔",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-03-28",
+      "term_end_display": null,
+      "term_note": "1期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "任期満了日について",
+          "url": "https://www.pref.kumamoto.jp/soshiki/147/182198.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認",
+      "findings_values": {
+        "mayor_name": "小野 泰輔",
+        "term_start": "記載なし",
+        "term_end": "2027-03-28",
+        "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認。"
+      },
+      "public_order": 733,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.md",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-43203",
+      "region_id": "mun-43203",
+      "pref_code": "43",
+      "pref_name": "熊本県",
+      "municipality_code": "43203",
+      "city_name": "人吉市",
+      "city_slug": "kumamoto-shi-2",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "松岡 隼人",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "3期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "任期満了日について",
+          "url": "https://www.pref.kumamoto.jp/soshiki/147/182198.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認",
+      "findings_values": {
+        "mayor_name": "松岡 隼人",
+        "term_start": "記載なし",
+        "term_end": "2027-04-30",
+        "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認。"
+      },
+      "public_order": 734,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.md",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-43204",
+      "region_id": "mun-43204",
+      "pref_code": "43",
+      "pref_name": "熊本県",
+      "municipality_code": "43204",
+      "city_name": "荒尾市",
+      "city_slug": "kumamoto-shi-3",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "浅田 敏彦",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "3期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "任期満了日について",
+          "url": "https://www.pref.kumamoto.jp/soshiki/147/182198.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認",
+      "findings_values": {
+        "mayor_name": "浅田 敏彦",
+        "term_start": "記載なし",
+        "term_end": "2027-04-30",
+        "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認。"
+      },
+      "public_order": 735,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.md",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-43205",
+      "region_id": "mun-43205",
+      "pref_code": "43",
+      "pref_name": "熊本県",
+      "municipality_code": "43205",
+      "city_name": "水俣市",
+      "city_slug": "kumamoto-shi-4",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "髙岡 利治",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "3期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "任期満了日について",
+          "url": "https://www.pref.kumamoto.jp/soshiki/147/182198.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認",
+      "findings_values": {
+        "mayor_name": "髙岡 利治",
+        "term_start": "記載なし",
+        "term_end": "2027-04-30",
+        "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認。"
+      },
+      "public_order": 736,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.md",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-43206",
+      "region_id": "mun-43206",
+      "pref_code": "43",
+      "pref_name": "熊本県",
+      "municipality_code": "43206",
+      "city_name": "玉名市",
+      "city_slug": "kumamoto-shi-5",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "藏原 隆浩",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-11-12",
+      "term_end_display": null,
+      "term_note": "3期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "任期満了日について",
+          "url": "https://www.pref.kumamoto.jp/soshiki/147/182198.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認",
+      "findings_values": {
+        "mayor_name": "藏原 隆浩",
+        "term_start": "記載なし",
+        "term_end": "2029-11-12",
+        "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認。"
+      },
+      "public_order": 737,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.md",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-43208",
+      "region_id": "mun-43208",
+      "pref_code": "43",
+      "pref_name": "熊本県",
+      "municipality_code": "43208",
+      "city_name": "山鹿市",
+      "city_slug": "kumamoto-shi-6",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "早田 順一",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-02-19",
+      "term_end_display": null,
+      "term_note": "2期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "任期満了日について",
+          "url": "https://www.pref.kumamoto.jp/soshiki/147/182198.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認",
+      "findings_values": {
+        "mayor_name": "早田 順一",
+        "term_start": "記載なし",
+        "term_end": "2029-02-19",
+        "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認。"
+      },
+      "public_order": 738,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.md",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-43210",
+      "region_id": "mun-43210",
+      "pref_code": "43",
+      "pref_name": "熊本県",
+      "municipality_code": "43210",
+      "city_name": "菊池市",
+      "city_slug": "kumamoto-shi-7",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "江頭 実",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-23",
+      "term_end_display": null,
+      "term_note": "4期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "任期満了日について",
+          "url": "https://www.pref.kumamoto.jp/soshiki/147/182198.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認",
+      "findings_values": {
+        "mayor_name": "江頭 実",
+        "term_start": "記載なし",
+        "term_end": "2029-04-23",
+        "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認。"
+      },
+      "public_order": 739,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.md",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-43211",
+      "region_id": "mun-43211",
+      "pref_code": "43",
+      "pref_name": "熊本県",
+      "municipality_code": "43211",
+      "city_name": "宇土市",
+      "city_slug": "uto-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "光井 正吾",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-29",
+      "term_start_display": null,
+      "term_end": "2030-04-28",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "任期満了日について",
+          "url": "https://www.pref.kumamoto.jp/soshiki/147/182198.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_schedule",
+          "title": "選挙の種類",
+          "url": "https://www.city.uto.lg.jp/article/view/1147/1422.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "news_report",
+          "title": "宇土市長選挙 元副市長の光井正吾氏 初当選",
+          "url": "https://www.fnn.jp/articles/-/1018975",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "宇土市長選 初当選報道",
+        "url": "https://www.fnn.jp/articles/-/1018975"
+      },
+      "last_checked_at": "2026-04-24",
+      "note": "宇土市公式『選挙の種類』で旧任期満了日を確認し、テレビ熊本報道で2026-03-22告示の無投票初当選を確認。現任期は2026-04-29開始で整理。",
+      "findings_values": {
+        "mayor_name": "光井 正吾",
+        "term_start": "2026-04-29",
+        "term_end": "2030-04-28",
+        "note": "宇土市公式『選挙の種類』で旧任期満了日を確認し、テレビ熊本報道で2026-03-22告示の無投票初当選を確認。現任期は2026-04-29開始で整理。"
+      },
+      "public_order": 740,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.md",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-43212",
+      "region_id": "mun-43212",
+      "pref_code": "43",
+      "pref_name": "熊本県",
+      "municipality_code": "43212",
+      "city_name": "上天草市",
+      "city_slug": "kumamoto-shi-8",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "堀江 隆臣",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-30",
+      "term_end_display": null,
+      "term_note": "3期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "任期満了日について",
+          "url": "https://www.pref.kumamoto.jp/soshiki/147/182198.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認",
+      "findings_values": {
+        "mayor_name": "堀江 隆臣",
+        "term_start": "記載なし",
+        "term_end": "2029-04-30",
+        "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認。"
+      },
+      "public_order": 741,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.md",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-43213",
+      "region_id": "mun-43213",
+      "pref_code": "43",
+      "pref_name": "熊本県",
+      "municipality_code": "43213",
+      "city_name": "宇城市",
+      "city_slug": "uki-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "末松 直洋",
+      "mayor_name_kana": null,
+      "term_start": "2025-02-27",
+      "term_start_display": null,
+      "term_end": "2029-02-26",
+      "term_end_display": null,
+      "term_note": "1期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "任期満了日について",
+          "url": "https://www.pref.kumamoto.jp/soshiki/147/182198.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "宇城市長選挙及び宇城市議会議員補欠選挙の投票結果・開票速報",
+          "url": "https://www.city.uki.kumamoto.jp/gyousei/sonota_gyosei/2458670",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "宇城市長選挙及び宇城市議会議員補欠選挙の投票結果・開票速報",
+        "url": "https://www.city.uki.kumamoto.jp/gyousei/sonota_gyosei/2458670"
+      },
+      "last_checked_at": "2026-04-24",
+      "note": "宇城市公式の2025-02-09市長選結果と『選挙』ページの任期満了日一覧で確認。現任期は2025-02-27から2029-02-26。",
+      "findings_values": {
+        "mayor_name": "末松 直洋",
+        "term_start": "2025-02-27",
+        "term_end": "2029-02-26",
+        "note": "宇城市公式の市長選結果ページと選挙種別一覧で現任期を確認。"
+      },
+      "public_order": 742,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.md",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-43214",
+      "region_id": "mun-43214",
+      "pref_code": "43",
+      "pref_name": "熊本県",
+      "municipality_code": "43214",
+      "city_name": "阿蘇市",
+      "city_slug": "kumamoto-shi-9",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "松嶋 和子",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-02-10",
+      "term_end_display": null,
+      "term_note": "1期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "任期満了日について",
+          "url": "https://www.pref.kumamoto.jp/soshiki/147/182198.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認",
+      "findings_values": {
+        "mayor_name": "松嶋 和子",
+        "term_start": "記載なし",
+        "term_end": "2027-02-10",
+        "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認。"
+      },
+      "public_order": 743,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.md",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-43215",
+      "region_id": "mun-43215",
+      "pref_code": "43",
+      "pref_name": "熊本県",
+      "municipality_code": "43215",
+      "city_name": "天草市",
+      "city_slug": "kumamoto-shi-10",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "馬場 昭治",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-02-20",
+      "term_end_display": null,
+      "term_note": "2期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "任期満了日について",
+          "url": "https://www.pref.kumamoto.jp/soshiki/147/182198.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認",
+      "findings_values": {
+        "mayor_name": "馬場 昭治",
+        "term_start": "記載なし",
+        "term_end": "2029-02-20",
+        "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認。"
+      },
+      "public_order": 744,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.md",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-43216",
+      "region_id": "mun-43216",
+      "pref_code": "43",
+      "pref_name": "熊本県",
+      "municipality_code": "43216",
+      "city_name": "合志市",
+      "city_slug": "koshi-shi",
+      "macro_region": "九州・沖縄",
+      "mayor_name": "荒木 義行",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "4期",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "municipality_list",
+          "title": "任期満了日について",
+          "url": "https://www.pref.kumamoto.jp/soshiki/147/182198.html",
+          "checked_at": "2026-04-24",
+          "used_for": [
+            "municipality_scope"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "row_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.kumamoto.jp/uploaded/attachment/302665.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認",
+      "findings_values": {
+        "mayor_name": "荒木 義行",
+        "term_start": "記載なし",
+        "term_end": "2027-04-30",
+        "note": "熊本県選挙管理委員会『市町村長・議員任期満了日(R8.2.24現在)』で任期満了日と当選回数を確認。"
+      },
+      "public_order": 745,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.md",
+        "research/current-mayors/findings/43-kumamoto/2026-04-24-round1.sources.json"
+      ]
+    }
+  ]
+}

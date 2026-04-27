@@ -1,0 +1,707 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "17",
+  "pref_slug": "ishikawa",
+  "pref_name": "石川県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/17-ishikawa",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-17201",
+      "region_id": "mun-17201",
+      "pref_code": "17",
+      "pref_name": "石川県",
+      "municipality_code": "17201",
+      "city_name": "金沢市",
+      "city_slug": "kanazawa-shi",
+      "macro_region": "北陸",
+      "mayor_name": "村山 卓",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "2026-03",
+      "term_end": null,
+      "term_end_display": "2030-03",
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/kohokochoka/gyomuannai/9/4878.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/kohokochoka/gyomuannai/9/4878.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "現職名と令和8年3月の再任（2期目）をプロフィールで確認。現任期は月単位で整理。",
+      "findings_values": {
+        "mayor_name": "村山 卓",
+        "term_start": "2026-03",
+        "term_end": "2030-03",
+        "note": "現職名と令和8年3月の再任（2期目）をプロフィールで確認。現任期は月単位で整理。"
+      },
+      "public_order": 97,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-17202",
+      "region_id": "mun-17202",
+      "pref_code": "17",
+      "pref_name": "石川県",
+      "municipality_code": "17202",
+      "city_name": "七尾市",
+      "city_slug": "nanao-shi",
+      "macro_region": "北陸",
+      "mayor_name": "茶谷 義隆",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-06",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "茶谷 義隆",
+        "term_start": "記載なし",
+        "term_end": "2028-11-06",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 378,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-17203",
+      "region_id": "mun-17203",
+      "pref_code": "17",
+      "pref_name": "石川県",
+      "municipality_code": "17203",
+      "city_name": "小松市",
+      "city_slug": "komatsu-shi",
+      "macro_region": "北陸",
+      "mayor_name": "宮橋 勝栄",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-12",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "宮橋 勝栄",
+        "term_start": "記載なし",
+        "term_end": "2029-04-12",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 379,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-17204",
+      "region_id": "mun-17204",
+      "pref_code": "17",
+      "pref_name": "石川県",
+      "municipality_code": "17204",
+      "city_name": "輪島市",
+      "city_slug": "wajima-shi",
+      "macro_region": "北陸",
+      "mayor_name": "坂口 茂",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-03-18",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "坂口 茂",
+        "term_start": "記載なし",
+        "term_end": "2030-03-18",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 380,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-17205",
+      "region_id": "mun-17205",
+      "pref_code": "17",
+      "pref_name": "石川県",
+      "municipality_code": "17205",
+      "city_name": "珠洲市",
+      "city_slug": "suzu-shi",
+      "macro_region": "北陸",
+      "mayor_name": "泉谷 満寿裕",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-06-10",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "泉谷 満寿裕",
+        "term_start": "記載なし",
+        "term_end": "2026-06-10",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 381,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-17206",
+      "region_id": "mun-17206",
+      "pref_code": "17",
+      "pref_name": "石川県",
+      "municipality_code": "17206",
+      "city_name": "加賀市",
+      "city_slug": "kaga-shi",
+      "macro_region": "北陸",
+      "mayor_name": "山田 利明",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-10-29",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "山田 利明",
+        "term_start": "記載なし",
+        "term_end": "2029-10-29",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 382,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-17207",
+      "region_id": "mun-17207",
+      "pref_code": "17",
+      "pref_name": "石川県",
+      "municipality_code": "17207",
+      "city_name": "羽咋市",
+      "city_slug": "hakui-shi",
+      "macro_region": "北陸",
+      "mayor_name": "岸 博一",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-10-31",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "岸 博一",
+        "term_start": "記載なし",
+        "term_end": "2028-10-31",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 383,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-17209",
+      "region_id": "mun-17209",
+      "pref_code": "17",
+      "pref_name": "石川県",
+      "municipality_code": "17209",
+      "city_name": "かほく市",
+      "city_slug": "kahoku-shi",
+      "macro_region": "北陸",
+      "mayor_name": "油野 和一郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-10",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "油野 和一郎",
+        "term_start": "記載なし",
+        "term_end": "2028-04-10",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 384,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-17210",
+      "region_id": "mun-17210",
+      "pref_code": "17",
+      "pref_name": "石川県",
+      "municipality_code": "17210",
+      "city_name": "白山市",
+      "city_slug": "hakusan-shi",
+      "macro_region": "北陸",
+      "mayor_name": "田村 敏和",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-22",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "田村 敏和",
+        "term_start": "記載なし",
+        "term_end": "2027-04-22",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 385,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-17211",
+      "region_id": "mun-17211",
+      "pref_code": "17",
+      "pref_name": "石川県",
+      "municipality_code": "17211",
+      "city_name": "能美市",
+      "city_slug": "nomi-shi",
+      "macro_region": "北陸",
+      "mayor_name": "井出 敏朗",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-02-26",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "井出 敏朗",
+        "term_start": "記載なし",
+        "term_end": "2029-02-26",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 386,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-17212",
+      "region_id": "mun-17212",
+      "pref_code": "17",
+      "pref_name": "石川県",
+      "municipality_code": "17212",
+      "city_name": "野々市市",
+      "city_slug": "nonoichi-shi",
+      "macro_region": "北陸",
+      "mayor_name": "粟 貴章",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-06-09",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "石川県 任期満了日一覧",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.ishikawa.lg.jp/senkan/sub6.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "粟 貴章",
+        "term_start": "記載なし",
+        "term_end": "2027-06-09",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 387,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.md",
+        "research/current-mayors/findings/17-ishikawa/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

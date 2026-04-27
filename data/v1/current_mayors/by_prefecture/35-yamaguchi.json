@@ -1,0 +1,963 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "35",
+  "pref_slug": "yamaguchi",
+  "pref_name": "山口県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/35-yamaguchi",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-35204",
+      "region_id": "mun-35204",
+      "pref_code": "35",
+      "pref_name": "山口県",
+      "municipality_code": "35204",
+      "city_name": "萩市",
+      "city_slug": "hagi-shi",
+      "macro_region": "中国",
+      "mayor_name": "田中 文夫",
+      "mayor_name_kana": null,
+      "term_start": "2025-03-27",
+      "term_start_display": null,
+      "term_end": "2029-03-26",
+      "term_end_display": null,
+      "term_note": "令和7年3月の選挙後に2期目。任期満了日は令和11年3月26日。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "今後の選挙",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "今後の選挙",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "2期目はプロフィール、任期満了日は今後の選挙で確認。現任期始期は満了日の翌日で補完。",
+      "findings_values": {
+        "mayor_name": "田中 文夫",
+        "term_start": "2025-03-27",
+        "term_end": "2029-03-26",
+        "note": "2期目はプロフィール、任期満了日は今後の選挙で確認。現任期始期は満了日の翌日で補完。"
+      },
+      "public_order": 8,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.md",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-35206",
+      "region_id": "mun-35206",
+      "pref_code": "35",
+      "pref_name": "山口県",
+      "municipality_code": "35206",
+      "city_name": "防府市",
+      "city_slug": "hofu-shi",
+      "macro_region": "中国",
+      "mayor_name": "池田豊",
+      "mayor_name_kana": null,
+      "term_start": "2022-06-21",
+      "term_start_display": null,
+      "term_end": "2026-06-20",
+      "term_end_display": null,
+      "term_note": "二期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.hofu.yamaguchi.jp/uploaded/attachment/121030.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.hofu.yamaguchi.jp/uploaded/attachment/121030.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市広報の『市長就任のご挨拶』で氏名・任期・二期目を確認",
+      "findings_values": {
+        "mayor_name": "池田豊",
+        "term_start": "2022-06-21",
+        "term_end": "2026-06-20",
+        "note": "市広報の『市長就任のご挨拶』で氏名・任期・二期目を確認"
+      },
+      "public_order": 16,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.md",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-35203",
+      "region_id": "mun-35203",
+      "pref_code": "35",
+      "pref_name": "山口県",
+      "municipality_code": "35203",
+      "city_name": "山口市",
+      "city_slug": "yamaguchi-shi",
+      "macro_region": "中国",
+      "mayor_name": "伊藤 和貴",
+      "mayor_name_kana": null,
+      "term_start": "2025-11-13",
+      "term_start_display": null,
+      "term_end": "2029-11-12",
+      "term_end_display": null,
+      "term_note": "令和7年11月13日から2期目。任期満了日は令和11年11月12日。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "これからの選挙の予定",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "これからの選挙の予定",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "2期目入りは市長プロフィール、任期満了日はこれからの選挙の予定で確認。",
+      "findings_values": {
+        "mayor_name": "伊藤 和貴",
+        "term_start": "2025-11-13",
+        "term_end": "2029-11-12",
+        "note": "2期目入りは市長プロフィール、任期満了日はこれからの選挙の予定で確認。"
+      },
+      "public_order": 25,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.md",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-35201",
+      "region_id": "mun-35201",
+      "pref_code": "35",
+      "pref_name": "山口県",
+      "municipality_code": "35201",
+      "city_name": "下関市",
+      "city_slug": "shimonoseki-shi",
+      "macro_region": "中国",
+      "mayor_name": "前田 晋太郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-02-12",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長任期満了日PDFで確認。",
+      "findings_values": {
+        "mayor_name": "前田 晋太郎",
+        "term_start": "記載なし",
+        "term_end": "2028-02-12",
+        "note": "県の市町長任期満了日PDFで確認。"
+      },
+      "public_order": 647,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.md",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-35202",
+      "region_id": "mun-35202",
+      "pref_code": "35",
+      "pref_name": "山口県",
+      "municipality_code": "35202",
+      "city_name": "宇部市",
+      "city_slug": "ube-shi",
+      "macro_region": "中国",
+      "mayor_name": "篠﨑 圭二",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-11-21",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長任期満了日PDFで確認。",
+      "findings_values": {
+        "mayor_name": "篠﨑 圭二",
+        "term_start": "記載なし",
+        "term_end": "2026-11-21",
+        "note": "県の市町長任期満了日PDFで確認。"
+      },
+      "public_order": 648,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.md",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-35207",
+      "region_id": "mun-35207",
+      "pref_code": "35",
+      "pref_name": "山口県",
+      "municipality_code": "35207",
+      "city_name": "下松市",
+      "city_slug": "kudamatsu-shi",
+      "macro_region": "中国",
+      "mayor_name": "国井 益雄",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-19",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長任期満了日PDFで確認。",
+      "findings_values": {
+        "mayor_name": "国井 益雄",
+        "term_start": "記載なし",
+        "term_end": "2028-04-19",
+        "note": "県の市町長任期満了日PDFで確認。"
+      },
+      "public_order": 649,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.md",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-35208",
+      "region_id": "mun-35208",
+      "pref_code": "35",
+      "pref_name": "山口県",
+      "municipality_code": "35208",
+      "city_name": "岩国市",
+      "city_slug": "iwakuni-shi",
+      "macro_region": "中国",
+      "mayor_name": "福田 良彦",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-10-31",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長任期満了日PDFで確認。",
+      "findings_values": {
+        "mayor_name": "福田 良彦",
+        "term_start": "記載なし",
+        "term_end": "2027-10-31",
+        "note": "県の市町長任期満了日PDFで確認。"
+      },
+      "public_order": 650,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.md",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-35210",
+      "region_id": "mun-35210",
+      "pref_code": "35",
+      "pref_name": "山口県",
+      "municipality_code": "35210",
+      "city_name": "光市",
+      "city_slug": "hikari-shi",
+      "macro_region": "中国",
+      "mayor_name": "芳岡 統",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-11-13",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長任期満了日PDFで確認。",
+      "findings_values": {
+        "mayor_name": "芳岡 統",
+        "term_start": "記載なし",
+        "term_end": "2029-11-13",
+        "note": "県の市町長任期満了日PDFで確認。"
+      },
+      "public_order": 651,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.md",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-35211",
+      "region_id": "mun-35211",
+      "pref_code": "35",
+      "pref_name": "山口県",
+      "municipality_code": "35211",
+      "city_name": "長門市",
+      "city_slug": "nagato-shi",
+      "macro_region": "中国",
+      "mayor_name": "江原 達也",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長任期満了日PDFで確認。",
+      "findings_values": {
+        "mayor_name": "江原 達也",
+        "term_start": "記載なし",
+        "term_end": "2027-04-23",
+        "note": "県の市町長任期満了日PDFで確認。"
+      },
+      "public_order": 652,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.md",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-35212",
+      "region_id": "mun-35212",
+      "pref_code": "35",
+      "pref_name": "山口県",
+      "municipality_code": "35212",
+      "city_name": "柳井市",
+      "city_slug": "yanai-shi",
+      "macro_region": "中国",
+      "mayor_name": "井原 健太郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-03-26",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長任期満了日PDFで確認。",
+      "findings_values": {
+        "mayor_name": "井原 健太郎",
+        "term_start": "記載なし",
+        "term_end": "2029-03-26",
+        "note": "県の市町長任期満了日PDFで確認。"
+      },
+      "public_order": 653,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.md",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-35213",
+      "region_id": "mun-35213",
+      "pref_code": "35",
+      "pref_name": "山口県",
+      "municipality_code": "35213",
+      "city_name": "美祢市",
+      "city_slug": "mine-shi",
+      "macro_region": "中国",
+      "mayor_name": "篠田 洋司",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-26",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長任期満了日PDFで確認。",
+      "findings_values": {
+        "mayor_name": "篠田 洋司",
+        "term_start": "記載なし",
+        "term_end": "2028-04-26",
+        "note": "県の市町長任期満了日PDFで確認。"
+      },
+      "public_order": 654,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.md",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-35215",
+      "region_id": "mun-35215",
+      "pref_code": "35",
+      "pref_name": "山口県",
+      "municipality_code": "35215",
+      "city_name": "周南市",
+      "city_slug": "shuunan-shi",
+      "macro_region": "中国",
+      "mayor_name": "藤井 律子",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-05-24",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長任期満了日PDFで確認。",
+      "findings_values": {
+        "mayor_name": "藤井 律子",
+        "term_start": "記載なし",
+        "term_end": "2029-05-24",
+        "note": "県の市町長任期満了日PDFで確認。"
+      },
+      "public_order": 655,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.md",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-35216",
+      "region_id": "mun-35216",
+      "pref_code": "35",
+      "pref_name": "山口県",
+      "municipality_code": "35216",
+      "city_name": "山陽小野田市",
+      "city_slug": "sanyouonoda-shi",
+      "macro_region": "中国",
+      "mayor_name": "藤田 剛二",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-10-09",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-24",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "山口県 市町課",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/31/index.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "山口県 任期満了年月日等一覧・任期満了年月日等",
+          "url": "https://www.pref.yamaguchi.lg.jp/soshiki/176/25858.html",
+          "checked_at": "2026-04-24",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/228841.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の市町長任期満了日PDFで確認。",
+      "findings_values": {
+        "mayor_name": "藤田 剛二",
+        "term_start": "記載なし",
+        "term_end": "2027-10-09",
+        "note": "県の市町長任期満了日PDFで確認。"
+      },
+      "public_order": 656,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.md",
+        "research/current-mayors/findings/35-yamaguchi/2026-04-24-round1.sources.json"
+      ]
+    }
+  ]
+}

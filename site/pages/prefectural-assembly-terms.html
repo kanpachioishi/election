@@ -1,0 +1,928 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>県議会任期台帳 - わたしの選挙</title>
+    <meta name="description" content="都道府県議会議員選挙の前回投票日、任期満了日、定数、選挙区数を確認するための台帳です。">
+    <meta name="theme-color" content="#0b1219">
+    <link rel="manifest" href="../manifest.webmanifest">
+    <link rel="icon" href="../icons/app-icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="../icons/app-icon.svg">
+    <link rel="stylesheet" href="../assets/styles.css">
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #07131d;
+        --panel: #102131;
+        --line: rgba(244, 239, 227, 0.14);
+        --text: #f4efe3;
+        --muted: #a9bdd0;
+        --accent: #ffd27a;
+        --ok: #8bd8a9;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: linear-gradient(135deg, #122230 0%, var(--bg) 52%, #163748 100%);
+        color: var(--text);
+        font-family: "BIZ UDPGothic", "Yu Gothic", sans-serif;
+      }
+
+      main {
+        width: min(1440px, calc(100% - 32px));
+        margin: 48px auto 64px;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+        font-size: clamp(2.1rem, 4.8vw, 3.4rem);
+        font-weight: 500;
+        line-height: 1.08;
+      }
+
+      p {
+        margin: 0 0 24px;
+        color: var(--muted);
+        line-height: 1.8;
+      }
+
+      .source-panel,
+      .filter-bar {
+        margin: 0 0 20px;
+        padding: 16px 18px;
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        background: rgba(16, 33, 49, 0.88);
+        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.24);
+      }
+
+      .source-panel {
+        display: grid;
+        gap: 8px;
+      }
+
+      .source-panel dl {
+        display: grid;
+        grid-template-columns: max-content 1fr;
+        gap: 8px 16px;
+        margin: 0;
+      }
+
+      .source-panel dt {
+        color: var(--muted);
+        font-weight: 800;
+      }
+
+      .source-panel dd {
+        margin: 0;
+      }
+
+      .source-panel a,
+      td a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .source-panel a:hover,
+      .source-panel a:focus-visible,
+      td a:hover,
+      td a:focus-visible {
+        text-decoration: underline;
+      }
+
+      .filter-bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      .filter-field {
+        display: grid;
+        gap: 6px;
+        min-width: 220px;
+      }
+
+      .filter-field label {
+        color: var(--muted);
+        font-size: 0.82rem;
+        font-weight: 800;
+        letter-spacing: 0.03em;
+      }
+
+      .filter-field select {
+        min-height: 44px;
+        padding: 10px 12px;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: rgba(7, 19, 29, 0.9);
+        color: var(--text);
+        font: inherit;
+      }
+
+      .summary-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+        margin: 0 0 20px;
+      }
+
+      .summary-item {
+        padding: 14px 16px;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: rgba(16, 33, 49, 0.84);
+      }
+
+      .summary-item span {
+        display: block;
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-weight: 800;
+      }
+
+      .summary-item strong {
+        display: block;
+        margin-top: 4px;
+        color: var(--text);
+        font-size: 1.35rem;
+      }
+
+      .count-note {
+        margin: 0 0 14px;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      .table-wrap {
+        overflow: auto;
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        background: rgba(16, 33, 49, 0.92);
+        box-shadow: 0 22px 48px rgba(0, 0, 0, 0.28);
+      }
+
+      table {
+        width: 100%;
+        min-width: 1120px;
+        border-collapse: collapse;
+      }
+
+      thead th {
+        position: sticky;
+        top: 0;
+        background: rgba(12, 23, 34, 0.98);
+        color: var(--accent);
+        text-align: left;
+        font-size: 0.9rem;
+        font-weight: 800;
+        letter-spacing: 0.03em;
+      }
+
+      th,
+      td {
+        padding: 14px 16px;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+        white-space: nowrap;
+      }
+
+      tbody tr:hover {
+        background: rgba(255, 210, 122, 0.05);
+      }
+
+      tbody tr[hidden] {
+        display: none;
+      }
+
+      @media (max-width: 760px) {
+        main {
+          width: min(100% - 20px, 1440px);
+          margin: 28px auto 48px;
+        }
+
+        .summary-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .source-panel dl {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../index.html" aria-label="わたしの選挙トップ">
+        <span class="brand-mark" aria-hidden="true">票</span>
+        <span>
+          <strong>わたしの選挙</strong>
+          <small>公式情報への案内</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="主なナビゲーション">
+        <a href="../index.html">トップ</a>
+        <a href="about.html">このサイトについて</a>
+        <a href="verification-policy.html">情報の確認基準</a>
+        <a href="current-mayors.html">現職市長台帳</a>
+        <a href="current-governors.html">現職知事台帳</a>
+        <a href="prefectural-assembly-terms.html" aria-current="page">県議会任期台帳</a>
+        <a href="prefectural-assembly-districts.html">県議選挙区台帳</a>
+        <a href="prefectural-assembly-official-links.html">県議公式リンク台帳</a>
+        <a href="privacy.html">プライバシーと通知</a>
+        <a href="contact.html">お問い合わせ</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>県議会任期台帳</h1>
+      <p>都道府県議会議員選挙の前回投票日、任期満了日、選挙区数、定数を一覧できます。知事選確認時に、県議選や県議補選の見落としを防ぐための台帳です。</p>
+
+      <section class="source-panel" aria-label="台帳の確認元">
+        <dl>
+          <dt>確認元</dt>
+          <dd><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">都道府県選挙管理委員会連合会 都道府県の選挙</a></dd>
+          <dt>生成日</dt>
+          <dd>2026-04-27</dd>
+          <dt>保存スナップショット</dt>
+          <dd>artifacts/private/sources/prefectural-assembly-terms/todofuken-senkan-pref-2026-04-27.html</dd>
+        </dl>
+      </section>
+
+      <section class="summary-grid" aria-label="台帳概要">
+        <div class="summary-item">
+          <span>登録件数</span>
+          <strong>47件</strong>
+        </div>
+        <div class="summary-item">
+          <span>統一地方選サイクル</span>
+          <strong>41県</strong>
+        </div>
+        <div class="summary-item">
+          <span>非統一</span>
+          <strong>6県</strong>
+        </div>
+        <div class="summary-item">
+          <span>最短任期満了</span>
+          <strong>2027/01/07</strong>
+        </div>
+      </section>
+
+      <div class="filter-bar">
+        <div class="filter-field">
+          <label for="cycleFilter">選挙サイクル</label>
+          <select id="cycleFilter">
+            <option value="all">すべて</option>
+            <option value="unified">統一地方選サイクル</option>
+            <option value="non-unified">非統一</option>
+          </select>
+        </div>
+        <div class="filter-field">
+          <label for="termYearFilter">任期満了年</label>
+          <select id="termYearFilter">
+            <option value="all">すべて</option>
+            <option value="2027">2027年</option>
+            <option value="2028">2028年</option>
+            <option value="2029">2029年</option>
+          </select>
+        </div>
+        <div class="filter-field">
+          <label for="termEndSort">任期満了日</label>
+          <select id="termEndSort">
+            <option value="asc">日付が近い順</option>
+            <option value="desc">日付が遠い順</option>
+          </select>
+        </div>
+      </div>
+
+      <p class="count-note" id="countNote">47件表示</p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>都道府県</th>
+              <th>前回投票日</th>
+              <th>任期満了日</th>
+              <th>選挙区数</th>
+              <th>定数</th>
+              <th>投票率</th>
+              <th>前回投票率</th>
+              <th>サイクル</th>
+              <th>確認日</th>
+              <th>確認元</th>
+            </tr>
+          </thead>
+          <tbody id="assemblyTermRows">
+            <tr data-cycle="non-unified" data-term-year="2027" data-term-end="2027-01-07">
+              <td>茨城県</td>
+              <td>2022/12/11</td>
+              <td>2027/01/07</td>
+              <td>32</td>
+              <td>62</td>
+              <td>38.54%</td>
+              <td>41.86%</td>
+              <td>非統一</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-09">
+              <td>熊本県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/09</td>
+              <td>21</td>
+              <td>49</td>
+              <td>43.41%</td>
+              <td>46.53%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>北海道</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>46</td>
+              <td>100</td>
+              <td>50.92%</td>
+              <td>56.6%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>青森県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>16</td>
+              <td>48</td>
+              <td>42.64%</td>
+              <td>48.38%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>秋田県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>14</td>
+              <td>41</td>
+              <td>52.53%</td>
+              <td>52.87%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>山形県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>17</td>
+              <td>43</td>
+              <td>50.96%</td>
+              <td>54.32%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>栃木県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>16</td>
+              <td>50</td>
+              <td>38.02%</td>
+              <td>40.44%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>群馬県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>18</td>
+              <td>50</td>
+              <td>39.51%</td>
+              <td>43.49%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>埼玉県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>51</td>
+              <td>93</td>
+              <td>34.92%</td>
+              <td>35.52%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>千葉県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>41</td>
+              <td>95</td>
+              <td>35.99%</td>
+              <td>36.26%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>神奈川県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>47</td>
+              <td>95</td>
+              <td>41.37%</td>
+              <td>41.16%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>新潟県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>27</td>
+              <td>53</td>
+              <td>46.38%</td>
+              <td>49.77%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>富山県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>13</td>
+              <td>40</td>
+              <td>45.69%</td>
+              <td>47.08%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>石川県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>14</td>
+              <td>41</td>
+              <td>46.36%</td>
+              <td>44.72%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>福井県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>8</td>
+              <td>37</td>
+              <td>51.78%</td>
+              <td>59.4%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>山梨県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>16</td>
+              <td>37</td>
+              <td>47.24%</td>
+              <td>51.69%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>長野県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>23</td>
+              <td>57</td>
+              <td>44.47%</td>
+              <td>47.57%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>岐阜県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>26</td>
+              <td>46</td>
+              <td>41.6%</td>
+              <td>41.55%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>静岡県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>34</td>
+              <td>68</td>
+              <td>44.62%</td>
+              <td>46.85%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>愛知県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>55</td>
+              <td>102</td>
+              <td>35.1%</td>
+              <td>37.01%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>三重県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>16</td>
+              <td>55</td>
+              <td>41.52%</td>
+              <td>46.68%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>滋賀県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>13</td>
+              <td>44</td>
+              <td>42.51%</td>
+              <td>43.13%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>京都府</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>25</td>
+              <td>60</td>
+              <td>40.23%</td>
+              <td>40.03%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>大阪府</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>53</td>
+              <td>79</td>
+              <td>47.74%</td>
+              <td>49.81%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>兵庫県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>39</td>
+              <td>86</td>
+              <td>39.01%</td>
+              <td>38.64%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>奈良県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>16</td>
+              <td>43</td>
+              <td>54.96%</td>
+              <td>49.72%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>和歌山県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>14</td>
+              <td>42</td>
+              <td>43.96%</td>
+              <td>47.21%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>鳥取県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>9</td>
+              <td>35</td>
+              <td>49.15%</td>
+              <td>52.7%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>島根県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>12</td>
+              <td>36</td>
+              <td>55.82%</td>
+              <td>61.09%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>岡山県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>19</td>
+              <td>55</td>
+              <td>39.73%</td>
+              <td>42.3%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>広島県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>23</td>
+              <td>64</td>
+              <td>35.87%</td>
+              <td>39.75%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>山口県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>15</td>
+              <td>47</td>
+              <td>39.75%</td>
+              <td>44.03%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>徳島県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>13</td>
+              <td>38</td>
+              <td>53.64%</td>
+              <td>45.77%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>香川県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>13</td>
+              <td>41</td>
+              <td>40.18%</td>
+              <td>38.4%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>愛媛県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>13</td>
+              <td>47</td>
+              <td>38.06%</td>
+              <td>40.39%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>高知県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>17</td>
+              <td>37</td>
+              <td>41.29%</td>
+              <td>46.58%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>福岡県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>44</td>
+              <td>87</td>
+              <td>35.5%</td>
+              <td>43.32%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>佐賀県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>13</td>
+              <td>38</td>
+              <td>42.44%</td>
+              <td>46.12%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>長崎県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>16</td>
+              <td>46</td>
+              <td>46.58%</td>
+              <td>48.02%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>大分県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>16</td>
+              <td>43</td>
+              <td>51.62%</td>
+              <td>48.82%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>宮崎県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>14</td>
+              <td>39</td>
+              <td>40.75%</td>
+              <td>39.76%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="unified" data-term-year="2027" data-term-end="2027-04-29">
+              <td>鹿児島県</td>
+              <td>2023/04/09</td>
+              <td>2027/04/29</td>
+              <td>21</td>
+              <td>51</td>
+              <td>42.97%</td>
+              <td>44.38%</td>
+              <td>統一地方選</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="non-unified" data-term-year="2027" data-term-end="2027-09-10">
+              <td>岩手県</td>
+              <td>2023/09/03</td>
+              <td>2027/09/10</td>
+              <td>14</td>
+              <td>48</td>
+              <td>56.08%</td>
+              <td>54.87%</td>
+              <td>非統一</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="non-unified" data-term-year="2027" data-term-end="2027-11-12">
+              <td>宮城県</td>
+              <td>2023/10/22</td>
+              <td>2027/11/12</td>
+              <td>23</td>
+              <td>59</td>
+              <td>35.93%</td>
+              <td>34.8%</td>
+              <td>非統一</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="non-unified" data-term-year="2027" data-term-end="2027-11-19">
+              <td>福島県</td>
+              <td>2023/11/12</td>
+              <td>2027/11/19</td>
+              <td>19</td>
+              <td>58</td>
+              <td>40.73%</td>
+              <td>41.68%</td>
+              <td>非統一</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="non-unified" data-term-year="2028" data-term-end="2028-06-24">
+              <td>沖縄県</td>
+              <td>2024/06/16</td>
+              <td>2028/06/24</td>
+              <td>13</td>
+              <td>48</td>
+              <td>45.26%</td>
+              <td>46.96%</td>
+              <td>非統一</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+            <tr data-cycle="non-unified" data-term-year="2029" data-term-end="2029-07-22">
+              <td>東京都</td>
+              <td>2025/06/22</td>
+              <td>2029/07/22</td>
+              <td>42</td>
+              <td>127</td>
+              <td>47.59%</td>
+              <td>42.39%</td>
+              <td>非統一</td>
+              <td>2026-04-27</td>
+              <td><a href="https://todofuken-senkan.jp/pref/" target="_blank" rel="noopener noreferrer">確認元</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <script>
+      const rows = Array.from(document.querySelectorAll("#assemblyTermRows tr"));
+      const cycleFilter = document.querySelector("#cycleFilter");
+      const termYearFilter = document.querySelector("#termYearFilter");
+      const termEndSort = document.querySelector("#termEndSort");
+      const countNote = document.querySelector("#countNote");
+      const tbody = document.querySelector("#assemblyTermRows");
+
+      function applyFilters() {
+        const cycleValue = cycleFilter.value;
+        const yearValue = termYearFilter.value;
+
+        const orderedRows = rows.slice().sort((left, right) => {
+          const result = left.dataset.termEnd.localeCompare(right.dataset.termEnd);
+          return termEndSort.value === "desc" ? -result : result;
+        });
+
+        let visibleCount = 0;
+
+        for (const row of orderedRows) {
+          const matchesCycle = cycleValue === "all" || row.dataset.cycle === cycleValue;
+          const matchesYear = yearValue === "all" || row.dataset.termYear === yearValue;
+          const visible = matchesCycle && matchesYear;
+          row.hidden = !visible;
+          if (visible) visibleCount += 1;
+          tbody.appendChild(row);
+        }
+
+        countNote.textContent = visibleCount.toLocaleString("ja-JP") + "件表示";
+      }
+
+      cycleFilter.addEventListener("change", applyFilters);
+      termYearFilter.addEventListener("change", applyFilters);
+      termEndSort.addEventListener("change", applyFilters);
+      applyFilters();
+    </script>
+  </body>
+</html>

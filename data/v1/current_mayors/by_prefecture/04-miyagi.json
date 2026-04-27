@@ -1,0 +1,646 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "04",
+  "pref_slug": "miyagi",
+  "pref_name": "宮城県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/04-miyagi",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-04100",
+      "region_id": "mun-04100",
+      "pref_code": "04",
+      "pref_name": "宮城県",
+      "municipality_code": "04100",
+      "city_name": "仙台市",
+      "city_slug": "sendai-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "郡 和子",
+      "mayor_name_kana": null,
+      "term_start": "2025-08-22",
+      "term_start_display": null,
+      "term_end": "2029-08-21",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "県の任期満了一覧PDFで確認。現任期始期は4年任期で整理。",
+      "findings_values": null,
+      "public_order": 163,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-04202",
+      "region_id": "mun-04202",
+      "pref_code": "04",
+      "pref_name": "宮城県",
+      "municipality_code": "04202",
+      "city_name": "石巻市",
+      "city_slug": "ishinomaki-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "齋藤 正美",
+      "mayor_name_kana": null,
+      "term_start": "2025-04-29",
+      "term_start_display": null,
+      "term_end": "2029-04-28",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.ishinomaki.lg.jp/cont/10151000/6547/profile.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": "https://www.city.ishinomaki.lg.jp/cont/10151000/6547/profile.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "石巻市公式プロフィールで現職名、2期目、現任期を確認。",
+      "findings_values": null,
+      "public_order": 164,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/04-miyagi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-04203",
+      "region_id": "mun-04203",
+      "pref_code": "04",
+      "pref_name": "宮城県",
+      "municipality_code": "04203",
+      "city_name": "塩竈市",
+      "city_slug": "shiogama-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "佐藤 光樹",
+      "mayor_name_kana": null,
+      "term_start": "2023-09-11",
+      "term_start_display": null,
+      "term_end": "2027-09-10",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "profile",
+          "title": "市長プロフィール",
+          "url": "https://www.city.shiogama.miyagi.jp/soshiki/48/3018.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": "https://www.city.shiogama.miyagi.jp/soshiki/48/3018.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "塩竈市公式プロフィールで現職名、2期目、現任期を確認。",
+      "findings_values": null,
+      "public_order": 165,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/04-miyagi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-04205",
+      "region_id": "mun-04205",
+      "pref_code": "04",
+      "pref_name": "宮城県",
+      "municipality_code": "04205",
+      "city_name": "気仙沼市",
+      "city_slug": "kesennuma-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "菅原 茂",
+      "mayor_name_kana": null,
+      "term_start": "2022-04-30",
+      "term_start_display": null,
+      "term_end": "2026-04-29",
+      "term_end_display": null,
+      "term_note": "令和4年4月30日 第5代市長就任。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "profile",
+          "title": "市長のプロフィール",
+          "url": "https://www.kesennuma.miyagi.jp/sec/s002/020/010/1356677463972.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_schedule",
+          "title": "気仙沼市長選挙及び気仙沼市議会議員一般選挙の日程について",
+          "url": "https://www.kesennuma.miyagi.jp/sec/s157/010/010/020/040/nitteikettei_si2.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "選挙日程",
+        "url": "https://www.kesennuma.miyagi.jp/sec/s157/010/010/020/040/nitteikettei_si2.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "任期は現行のまま。任期満了日が近いため、次回市長選は2026-04-26執行予定と記録。",
+      "findings_values": null,
+      "public_order": 4,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/04-miyagi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-04206",
+      "region_id": "mun-04206",
+      "pref_code": "04",
+      "pref_name": "宮城県",
+      "municipality_code": "04206",
+      "city_name": "白石市",
+      "city_slug": "shiroishi-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "山田 裕一",
+      "mayor_name_kana": null,
+      "term_start": "2024-11-14",
+      "term_start_display": null,
+      "term_end": "2028-11-13",
+      "term_end_display": null,
+      "term_note": "記載なし",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了一覧PDFで確認。",
+      "findings_values": null,
+      "public_order": 166,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-04207",
+      "region_id": "mun-04207",
+      "pref_code": "04",
+      "pref_name": "宮城県",
+      "municipality_code": "04207",
+      "city_name": "名取市",
+      "city_slug": "natori-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "山田 司郎",
+      "mayor_name_kana": null,
+      "term_start": "2024-07-25",
+      "term_start_display": null,
+      "term_end": "2028-07-24",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "県の任期満“一覧PDFで確認。現任期始期は4年任期で整理。",
+      "findings_values": null,
+      "public_order": 167,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-04208",
+      "region_id": "mun-04208",
+      "pref_code": "04",
+      "pref_name": "宮城県",
+      "municipality_code": "04208",
+      "city_name": "角田市",
+      "city_slug": "kakuda-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "黑須 貫",
+      "mayor_name_kana": null,
+      "term_start": "2024-08-10",
+      "term_start_display": null,
+      "term_end": "2028-08-09",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了一覧PDFで確認。",
+      "findings_values": null,
+      "public_order": 168,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-04209",
+      "region_id": "mun-04209",
+      "pref_code": "04",
+      "pref_name": "宮城県",
+      "municipality_code": "04209",
+      "city_name": "多賀城市",
+      "city_slug": "tagajou-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "深谷 晃祐",
+      "mayor_name_kana": null,
+      "term_start": "2024-10-25",
+      "term_start_display": null,
+      "term_end": "2028-10-24",
+      "term_end_display": null,
+      "term_note": "記載なし",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了一覧PDFで確認。",
+      "findings_values": null,
+      "public_order": 169,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-04211",
+      "region_id": "mun-04211",
+      "pref_code": "04",
+      "pref_name": "宮城県",
+      "municipality_code": "04211",
+      "city_name": "岩沼市",
+      "city_slug": "iwanuma-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "佐藤 淳一",
+      "mayor_name_kana": null,
+      "term_start": "2022-06-23",
+      "term_start_display": null,
+      "term_end": "2026-06-22",
+      "term_end_display": null,
+      "term_note": "令和4年6月の岩沼市長選挙で初当選。任期満了日は令和8年6月22日。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "県任期一覧",
+          "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "県任期一覧",
+        "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "市長名はプロフィール、任期満了日は県の任期満了一覧で確認。",
+      "findings_values": null,
+      "public_order": 28,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-04212",
+      "region_id": "mun-04212",
+      "pref_code": "04",
+      "pref_name": "宮城県",
+      "municipality_code": "04212",
+      "city_name": "登米市",
+      "city_slug": "tome-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "熊谷 康信",
+      "mayor_name_kana": null,
+      "term_start": "2025-04-29",
+      "term_start_display": null,
+      "term_end": "2029-04-28",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了一覧PDFで確認。",
+      "findings_values": null,
+      "public_order": 170,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-04213",
+      "region_id": "mun-04213",
+      "pref_code": "04",
+      "pref_name": "宮城県",
+      "municipality_code": "04213",
+      "city_name": "栗原市",
+      "city_slug": "kurihara-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "佐藤 智",
+      "mayor_name_kana": null,
+      "term_start": "2025-05-01",
+      "term_start_display": null,
+      "term_end": "2029-04-30",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了一覧PDFで確認。",
+      "findings_values": null,
+      "public_order": 183,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-04214",
+      "region_id": "mun-04214",
+      "pref_code": "04",
+      "pref_name": "宮城県",
+      "municipality_code": "04214",
+      "city_name": "東松島市",
+      "city_slug": "higashimatsushima-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "渥美 巖",
+      "mayor_name_kana": null,
+      "term_start": "2025-04-29",
+      "term_start_display": null,
+      "term_end": "2029-04-28",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "県の任期満“一覧PDFで確認。現任期始期は4年任期で整理。",
+      "findings_values": null,
+      "public_order": 171,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    },
+    {
+      "id": "mayor-mun-04215",
+      "region_id": "mun-04215",
+      "pref_code": "04",
+      "pref_name": "宮城県",
+      "municipality_code": "04215",
+      "city_name": "大崎市",
+      "city_slug": "osaki-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "中島 もとはる",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-30",
+      "term_start_display": null,
+      "term_end": "2030-04-29",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_schedule",
+          "title": "大崎市長選挙・大崎市議会議員一般選挙について",
+          "url": "https://www.city.osaki.miyagi.jp/shisei/emergency/22250.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_result",
+          "title": "令和8年4月19日執行大崎市長選挙・大崎市議会議員一般選挙の投開票速報",
+          "url": "https://www.city.osaki.miyagi.jp/shisei/emergency/22294.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "開票速報",
+        "url": "https://www.city.osaki.miyagi.jp/shisei/emergency/22294.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-19執行の大崎市長選開票速報で中島もとはる氏当選を確認。旧任期満了日2026-04-29の翌日から現任期と整理。",
+      "findings_values": null,
+      "public_order": 1,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/04-miyagi/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-04216",
+      "region_id": "mun-04216",
+      "pref_code": "04",
+      "pref_name": "宮城県",
+      "municipality_code": "04216",
+      "city_name": "富谷市",
+      "city_slug": "tomiya-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "若生 裕俊",
+      "mayor_name_kana": null,
+      "term_start": "2023-02-11",
+      "term_start_display": null,
+      "term_end": "2027-02-10",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "public_page_source",
+          "title": "公式ページ",
+          "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [],
+          "publisher": null,
+          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.miyagi.jp/documents/44063/manryou.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満“一覧PDFで確認。",
+      "findings_values": null,
+      "public_order": 172,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html"
+      ]
+    }
+  ]
+}

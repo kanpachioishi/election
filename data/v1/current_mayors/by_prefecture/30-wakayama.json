@@ -1,0 +1,671 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "30",
+  "pref_slug": "wakayama",
+  "pref_name": "和歌山県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/30-wakayama",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-30201",
+      "region_id": "mun-30201",
+      "pref_code": "30",
+      "pref_name": "和歌山県",
+      "municipality_code": "30201",
+      "city_name": "和歌山市",
+      "city_slug": "wakayama-shi",
+      "macro_region": "関西",
+      "mayor_name": "尾花 正啓",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "2022-08",
+      "term_end": null,
+      "term_end_display": "2026-08",
+      "term_note": "公式プロフィールで2022年8月に2期目の和歌山市長就任。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "和歌山県 関連リンク 市町村",
+          "url": "https://www.pref.wakayama.lg.jp/link/shichoson.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "和歌山県 市町村役場の所在地一覧",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": null
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "市長名と就任月は和歌山市公式プロフィールで確認。任期は月単位で整理。",
+      "findings_values": {
+        "mayor_name": "尾花 正啓",
+        "term_start": "2022-08",
+        "term_end": "2026-08",
+        "note": "市長名と就任月は和歌山市公式プロフィールで確認。任期は月単位で整理。"
+      },
+      "public_order": 41,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/30-wakayama/2026-04-23-round1.md",
+        "research/current-mayors/findings/30-wakayama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-30202",
+      "region_id": "mun-30202",
+      "pref_code": "30",
+      "pref_name": "和歌山県",
+      "municipality_code": "30202",
+      "city_name": "海南市",
+      "city_slug": "kainan-shi",
+      "macro_region": "関西",
+      "mayor_name": "神出 政巳",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "和歌山県 関連リンク 市町村",
+          "url": "https://www.pref.wakayama.lg.jp/link/shichoson.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "和歌山県 市町村役場の所在地一覧",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "神出 政巳",
+        "term_start": "記載なし",
+        "term_end": "2029-04-23",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 603,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/30-wakayama/2026-04-23-round1.md",
+        "research/current-mayors/findings/30-wakayama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-30203",
+      "region_id": "mun-30203",
+      "pref_code": "30",
+      "pref_name": "和歌山県",
+      "municipality_code": "30203",
+      "city_name": "橋本市",
+      "city_slug": "hashimoto-shi",
+      "macro_region": "関西",
+      "mayor_name": "平木 哲朗",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-04-01",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "和歌山県 関連リンク 市町村",
+          "url": "https://www.pref.wakayama.lg.jp/link/shichoson.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "和歌山県 市町村役場の所在地一覧",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.hashimoto.lg.jp/shisei/shicho_room/mayor_profile.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.hashimoto.lg.jp/shisei/shicho_room/mayor_profile.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "市長プロフィールの就任期記載から現職任期を確認。",
+      "findings_values": {
+        "mayor_name": "平木 哲朗",
+        "term_start": "記載なし",
+        "term_end": "2030-04-01",
+        "note": "市長プロフィールの就任期記載から現職任期を確認。"
+      },
+      "public_order": 604,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/30-wakayama/2026-04-23-round1.md",
+        "research/current-mayors/findings/30-wakayama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-30204",
+      "region_id": "mun-30204",
+      "pref_code": "30",
+      "pref_name": "和歌山県",
+      "municipality_code": "30204",
+      "city_name": "有田市",
+      "city_slug": "arida-shi",
+      "macro_region": "関西",
+      "mayor_name": "玉木 久登",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-09-16",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "和歌山県 関連リンク 市町村",
+          "url": "https://www.pref.wakayama.lg.jp/link/shichoson.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "和歌山県 市町村役場の所在地一覧",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "玉木 久登",
+        "term_start": "記載なし",
+        "term_end": "2028-09-16",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 605,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/30-wakayama/2026-04-23-round1.md",
+        "research/current-mayors/findings/30-wakayama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-30205",
+      "region_id": "mun-30205",
+      "pref_code": "30",
+      "pref_name": "和歌山県",
+      "municipality_code": "30205",
+      "city_name": "御坊市",
+      "city_slug": "gobou-shi",
+      "macro_region": "関西",
+      "mayor_name": "三浦 源吾",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-06-10",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "和歌山県 関連リンク 市町村",
+          "url": "https://www.pref.wakayama.lg.jp/link/shichoson.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "和歌山県 市町村役場の所在地一覧",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "三浦 源吾",
+        "term_start": "記載なし",
+        "term_end": "2028-06-10",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 606,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/30-wakayama/2026-04-23-round1.md",
+        "research/current-mayors/findings/30-wakayama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-30206",
+      "region_id": "mun-30206",
+      "pref_code": "30",
+      "pref_name": "和歌山県",
+      "municipality_code": "30206",
+      "city_name": "田辺市",
+      "city_slug": "tanabe-shi",
+      "macro_region": "関西",
+      "mayor_name": "真砂 充敏",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-05-21",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "和歌山県 関連リンク 市町村",
+          "url": "https://www.pref.wakayama.lg.jp/link/shichoson.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "和歌山県 市町村役場の所在地一覧",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "真砂 充敏",
+        "term_start": "記載なし",
+        "term_end": "2029-05-21",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 607,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/30-wakayama/2026-04-23-round1.md",
+        "research/current-mayors/findings/30-wakayama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-30207",
+      "region_id": "mun-30207",
+      "pref_code": "30",
+      "pref_name": "和歌山県",
+      "municipality_code": "30207",
+      "city_name": "新宮市",
+      "city_slug": "shinguu-shi",
+      "macro_region": "関西",
+      "mayor_name": "上田 勝之",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-10-29",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "和歌山県 関連リンク 市町村",
+          "url": "https://www.pref.wakayama.lg.jp/link/shichoson.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "和歌山県 市町村役場の所在地一覧",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "上田 勝之",
+        "term_start": "記載なし",
+        "term_end": "2029-10-29",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 608,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/30-wakayama/2026-04-23-round1.md",
+        "research/current-mayors/findings/30-wakayama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-30208",
+      "region_id": "mun-30208",
+      "pref_code": "30",
+      "pref_name": "和歌山県",
+      "municipality_code": "30208",
+      "city_name": "紀の川市",
+      "city_slug": "kinokawa-shi",
+      "macro_region": "関西",
+      "mayor_name": "岸本 健",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2030-02-26",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "和歌山県 関連リンク 市町村",
+          "url": "https://www.pref.wakayama.lg.jp/link/shichoson.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "和歌山県 市町村役場の所在地一覧",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "岸本 健",
+        "term_start": "記載なし",
+        "term_end": "2030-02-26",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 609,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/30-wakayama/2026-04-23-round1.md",
+        "research/current-mayors/findings/30-wakayama/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-30209",
+      "region_id": "mun-30209",
+      "pref_code": "30",
+      "pref_name": "和歌山県",
+      "municipality_code": "30209",
+      "city_name": "岩出市",
+      "city_slug": "iwade-shi",
+      "macro_region": "関西",
+      "mayor_name": "中芝 正幸",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-10-18",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "和歌山県 関連リンク 市町村",
+          "url": "https://www.pref.wakayama.lg.jp/link/shichoson.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "和歌山県 市町村役場の所在地一覧",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan_d/fil/ninkiichiran.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧PDFで確認。",
+      "findings_values": {
+        "mayor_name": "中芝 正幸",
+        "term_start": "記載なし",
+        "term_end": "2028-10-18",
+        "note": "県の任期満了日一覧PDFで確認。"
+      },
+      "public_order": 610,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/30-wakayama/2026-04-23-round1.md",
+        "research/current-mayors/findings/30-wakayama/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

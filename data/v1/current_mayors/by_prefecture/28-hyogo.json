@@ -1,0 +1,2131 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "28",
+  "pref_slug": "hyogo",
+  "pref_name": "兵庫県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/28-hyogo",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-28210",
+      "region_id": "mun-28210",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28210",
+      "city_name": "加古川市",
+      "city_slug": "kakogawa-shi",
+      "macro_region": "関西",
+      "mayor_name": "岡田 康裕",
+      "mayor_name_kana": null,
+      "term_start": "2022-07-09",
+      "term_start_display": null,
+      "term_end": "2026-07-08",
+      "term_end_display": null,
+      "term_note": "令和4年7月9日から令和8年7月8日まで。3期目。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "岡田 康裕",
+        "term_start": "2022-07-09",
+        "term_end": "2026-07-08",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 29,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28100",
+      "region_id": "mun-28100",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28100",
+      "city_name": "神戸市",
+      "city_slug": "koube-shi",
+      "macro_region": "関西",
+      "mayor_name": "久元 喜造",
+      "mayor_name_kana": null,
+      "term_start": "2025-11-20",
+      "term_start_display": null,
+      "term_end": "2029-11-19",
+      "term_end_display": null,
+      "term_note": "公式ページで2025年11月に4期目就任、選挙日程ページで前任期満了日は2025年11月19日。",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "兵庫県『各種データ』の任期満了日一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "久元 喜造",
+        "term_start": "2025-11-20",
+        "term_end": "2029-11-19",
+        "note": "兵庫県『各種データ』の任期満了日一覧表で確認。"
+      },
+      "public_order": 40,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28201",
+      "region_id": "mun-28201",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28201",
+      "city_name": "姫路市",
+      "city_slug": "himeji-shi",
+      "macro_region": "関西",
+      "mayor_name": "清元 秀泰",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-29",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "兵庫県『各種データ』の任期満了日一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "清元 秀泰",
+        "term_start": "記載なし",
+        "term_end": "2027-04-29",
+        "note": "兵庫県『各種データ』の任期満了日一覧表で確認。"
+      },
+      "public_order": 565,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28202",
+      "region_id": "mun-28202",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28202",
+      "city_name": "尼崎市",
+      "city_slug": "amagasaki-shi",
+      "macro_region": "関西",
+      "mayor_name": "松本 眞",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-12-01",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "兵庫県『各種データ』の任期満了日一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "松本 眞",
+        "term_start": "記載なし",
+        "term_end": "2026-12-01",
+        "note": "兵庫県『各種データ』の任期満了日一覧表で確認。"
+      },
+      "public_order": 566,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28203",
+      "region_id": "mun-28203",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28203",
+      "city_name": "明石市",
+      "city_slug": "akashi-shi",
+      "macro_region": "関西",
+      "mayor_name": "丸谷 聡子",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "兵庫県『各種データ』の任期満了日一覧表で確認。",
+      "findings_values": {
+        "mayor_name": "丸谷 聡子",
+        "term_start": "記載なし",
+        "term_end": "2027-04-30",
+        "note": "兵庫県『各種データ』の任期満了日一覧表で確認。"
+      },
+      "public_order": 567,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28204",
+      "region_id": "mun-28204",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28204",
+      "city_name": "西宮市",
+      "city_slug": "nishinomiya-shi",
+      "macro_region": "関西",
+      "mayor_name": "石井 登志郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-14",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "石井 登志郎",
+        "term_start": "記載なし",
+        "term_end": "2028-04-14",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 568,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28205",
+      "region_id": "mun-28205",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28205",
+      "city_name": "洲本市",
+      "city_slug": "sumoto-shi",
+      "macro_region": "関西",
+      "mayor_name": "吉平 敏孝",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-03-18",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "吉平 敏孝",
+        "term_start": "記載なし",
+        "term_end": "2028-03-18",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 569,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28206",
+      "region_id": "mun-28206",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28206",
+      "city_name": "芦屋市",
+      "city_slug": "ashiya-shi",
+      "macro_region": "関西",
+      "mayor_name": "髙島 崚輔",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "髙島 崚輔",
+        "term_start": "記載なし",
+        "term_end": "2027-04-30",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 570,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28207",
+      "region_id": "mun-28207",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28207",
+      "city_name": "伊丹市",
+      "city_slug": "itami-shi",
+      "macro_region": "関西",
+      "mayor_name": "中田 慎也",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-23",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "中田 慎也",
+        "term_start": "記載なし",
+        "term_end": "2028-04-23",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 571,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28208",
+      "region_id": "mun-28208",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28208",
+      "city_name": "相生市",
+      "city_slug": "aioi-shi",
+      "macro_region": "関西",
+      "mayor_name": "谷口 芳紀",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-06-13",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "谷口 芳紀",
+        "term_start": "記載なし",
+        "term_end": "2027-06-13",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 572,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28209",
+      "region_id": "mun-28209",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28209",
+      "city_name": "豊岡市",
+      "city_slug": "toyooka-shi",
+      "macro_region": "関西",
+      "mayor_name": "門間 雄司",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "門間 雄司",
+        "term_start": "記載なし",
+        "term_end": "2028-04-30",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 573,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28212",
+      "region_id": "mun-28212",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28212",
+      "city_name": "赤穂市",
+      "city_slug": "akou-shi",
+      "macro_region": "関西",
+      "mayor_name": "牟礼 正稔",
+      "mayor_name_kana": null,
+      "term_start": "2023-01-27",
+      "term_start_display": null,
+      "term_end": "2027-01-26",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.ako.lg.jp/senkan/senkyokekka.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.ako.lg.jp/senkan/senkyokekka.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "赤穂市の選挙結果で2023-01-22市長選無投票当選を確認。今後の選挙の予定では赤穂市長選の任期満了日が2027-01-26と明記。",
+      "findings_values": {
+        "mayor_name": "牟礼 正稔",
+        "term_start": "2023-01-27",
+        "term_end": "2027-01-26",
+        "note": "赤穂市の選挙結果で2023-01-22市長選無投票当選を確認。今後の選挙の予定では赤穂市長選の任期満了日が2027-01-26と明記。"
+      },
+      "public_order": 574,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28213",
+      "region_id": "mun-28213",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28213",
+      "city_name": "西脇市",
+      "city_slug": "nishiwaki-shi",
+      "macro_region": "関西",
+      "mayor_name": "片山 象三",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-12",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "片山 象三",
+        "term_start": "記載なし",
+        "term_end": "2028-11-12",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 575,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28214",
+      "region_id": "mun-28214",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28214",
+      "city_name": "宝塚市",
+      "city_slug": "takarazuka-shi",
+      "macro_region": "関西",
+      "mayor_name": "森 臨太郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-18",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "森 臨太郎",
+        "term_start": "記載なし",
+        "term_end": "2028-04-18",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 576,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28215",
+      "region_id": "mun-28215",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28215",
+      "city_name": "三木市",
+      "city_slug": "miki-shi",
+      "macro_region": "関西",
+      "mayor_name": "仲田 一彦",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-07-01",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "仲田 一彦",
+        "term_start": "記載なし",
+        "term_end": "2028-07-01",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 577,
+      "prefecture_city_order": 14,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28216",
+      "region_id": "mun-28216",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28216",
+      "city_name": "高砂市",
+      "city_slug": "takasago-shi",
+      "macro_region": "関西",
+      "mayor_name": "都倉 達殊",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-12",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "都倉 達殊",
+        "term_start": "記載なし",
+        "term_end": "2027-04-12",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 578,
+      "prefecture_city_order": 15,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28217",
+      "region_id": "mun-28217",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28217",
+      "city_name": "川西市",
+      "city_slug": "kawanishi-shi",
+      "macro_region": "関西",
+      "mayor_name": "越田 謙治郎",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-10-27",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "越田 謙治郎",
+        "term_start": "記載なし",
+        "term_end": "2026-10-27",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 579,
+      "prefecture_city_order": 16,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28218",
+      "region_id": "mun-28218",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28218",
+      "city_name": "小野市",
+      "city_slug": "ono-shi",
+      "macro_region": "関西",
+      "mayor_name": "蓬莱 務",
+      "mayor_name_kana": null,
+      "term_start": "2023-02-07",
+      "term_start_display": null,
+      "term_end": "2027-02-06",
+      "term_end_display": null,
+      "term_note": "7期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.ono.hyogo.jp/soshikikarasagasu/hishoka/gyomuannai/1/4174.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.ono.hyogo.jp/soshikikarasagasu/hishoka/gyomuannai/1/4174.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "2023-02-05執行の小野市長選挙で蓬萊務氏当選。市長プロフィールでは市長就任日が1999-02-07で現在7期と明記されており、現任期は2023-02-07開始で整理。",
+      "findings_values": {
+        "mayor_name": "蓬莱 務",
+        "term_start": "2023-02-07",
+        "term_end": "2027-02-06",
+        "note": "2023-02-05執行の小野市長選挙で蓬萊務氏当選。市長プロフィールでは市長就任日が1999-02-07で現在7期と明記されており、現任期は2023-02-07開始で整理。"
+      },
+      "public_order": 580,
+      "prefecture_city_order": 17,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28219",
+      "region_id": "mun-28219",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28219",
+      "city_name": "三田市",
+      "city_slug": "sanda-shi",
+      "macro_region": "関西",
+      "mayor_name": "田村 克也",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-08-07",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "田村 克也",
+        "term_start": "記載なし",
+        "term_end": "2026-08-07",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 581,
+      "prefecture_city_order": 18,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28220",
+      "region_id": "mun-28220",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28220",
+      "city_name": "加西市",
+      "city_slug": "kasai-shi",
+      "macro_region": "関西",
+      "mayor_name": "高橋 晴彦",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-06-16",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "高橋 晴彦",
+        "term_start": "記載なし",
+        "term_end": "2026-06-16",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 582,
+      "prefecture_city_order": 19,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28221",
+      "region_id": "mun-28221",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28221",
+      "city_name": "丹波篠山市",
+      "city_slug": "tanbasasayama-shi",
+      "macro_region": "関西",
+      "mayor_name": "酒井 隆明",
+      "mayor_name_kana": null,
+      "term_start": "2023-02-25",
+      "term_start_display": null,
+      "term_end": "2027-02-24",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.tambasasayama.lg.jp/soshikikarasagasu/shichokoshitsu/hishogakari/5/5010.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.tambasasayama.lg.jp/soshikikarasagasu/shichokoshitsu/hishogakari/5/5010.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "丹波篠山市長プロフィールでは酒井隆明市長が2007-02-25〜現在と明記。2026年の市長日記・こんにちは市長室でも現職を確認し、現任期は2023-02-25開始で整理。",
+      "findings_values": {
+        "mayor_name": "酒井 隆明",
+        "term_start": "2023-02-25",
+        "term_end": "2027-02-24",
+        "note": "丹波篠山市長プロフィールでは酒井隆明市長が2007-02-25〜現在と明記。2026年の市長日記・こんにちは市長室でも現職を確認し、現任期は2023-02-25開始で整理。"
+      },
+      "public_order": 583,
+      "prefecture_city_order": 20,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28222",
+      "region_id": "mun-28222",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28222",
+      "city_name": "養父市",
+      "city_slug": "yabu-shi",
+      "macro_region": "関西",
+      "mayor_name": "大林 賢一",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-10-31",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "大林 賢一",
+        "term_start": "記載なし",
+        "term_end": "2027-10-31",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 584,
+      "prefecture_city_order": 21,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28223",
+      "region_id": "mun-28223",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28223",
+      "city_name": "丹波市",
+      "city_slug": "tanba-shi",
+      "macro_region": "関西",
+      "mayor_name": "林 時彦",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-12-04",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "林 時彦",
+        "term_start": "記載なし",
+        "term_end": "2026-12-04",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 585,
+      "prefecture_city_order": 22,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28224",
+      "region_id": "mun-28224",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28224",
+      "city_name": "南あわじ市",
+      "city_slug": "minamiawaji-shi",
+      "macro_region": "関西",
+      "mayor_name": "守本 憲弘",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-02-12",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "守本 憲弘",
+        "term_start": "記載なし",
+        "term_end": "2028-02-12",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 586,
+      "prefecture_city_order": 23,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28225",
+      "region_id": "mun-28225",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28225",
+      "city_name": "朝来市",
+      "city_slug": "asago-shi",
+      "macro_region": "関西",
+      "mayor_name": "藤岡 勇",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-05-07",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "藤岡 勇",
+        "term_start": "記載なし",
+        "term_end": "2028-05-07",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 587,
+      "prefecture_city_order": 24,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28226",
+      "region_id": "mun-28226",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28226",
+      "city_name": "淡路市",
+      "city_slug": "awaji-shi",
+      "macro_region": "関西",
+      "mayor_name": "戸田 敦大",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-05-07",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "戸田 敦大",
+        "term_start": "記載なし",
+        "term_end": "2028-05-07",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 588,
+      "prefecture_city_order": 25,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28227",
+      "region_id": "mun-28227",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28227",
+      "city_name": "宍粟市",
+      "city_slug": "shisou-shi",
+      "macro_region": "関西",
+      "mayor_name": "福元 晶三",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-05-14",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "福元 晶三",
+        "term_start": "記載なし",
+        "term_end": "2028-05-14",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 589,
+      "prefecture_city_order": 26,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28228",
+      "region_id": "mun-28228",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28228",
+      "city_name": "加東市",
+      "city_slug": "kato-shi",
+      "macro_region": "関西",
+      "mayor_name": "岩根 正",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-04-29",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "選挙日程",
+          "url": "https://www.city.kato.lg.jp/kakukanogoannai/iinkaijimukyoku/senkyokanriiinkai/syugiinginsousennkyooyobisaikousaibankankokuminsinsanoosirase_1/11077.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "選挙日程",
+        "url": "https://www.city.kato.lg.jp/kakukanogoannai/iinkaijimukyoku/senkyokanriiinkai/syugiinginsousennkyooyobisaikousaibankankokuminsinsanoosirase_1/11077.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "兵庫県『各種データ』の任期満了日一覧表で確認。次回加東市長選は2026-04-26投票。",
+      "findings_values": {
+        "mayor_name": "岩根 正",
+        "term_start": "記載なし",
+        "term_end": "2026-04-29",
+        "note": "兵庫県『各種データ』の任期満了日一覧表で確認。次回加東市長選は2026-04-26投票。"
+      },
+      "public_order": 590,
+      "prefecture_city_order": 27,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-28229",
+      "region_id": "mun-28229",
+      "pref_code": "28",
+      "pref_name": "兵庫県",
+      "municipality_code": "28229",
+      "city_name": "たつの市",
+      "city_slug": "tatsuno-shi",
+      "macro_region": "関西",
+      "mayor_name": "山本 実",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-12",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "兵庫県 市町の概要",
+          "url": "https://web.pref.hyogo.lg.jp/kk25/pa05_000000124.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "兵庫県 各種データ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "山本 実",
+        "term_start": "記載なし",
+        "term_end": "2028-11-12",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 591,
+      "prefecture_city_order": 28,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.md",
+        "research/current-mayors/findings/28-hyogo/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

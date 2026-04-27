@@ -1,0 +1,1337 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "21",
+  "pref_slug": "gifu",
+  "pref_name": "岐阜県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/21-gifu",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-21211",
+      "region_id": "mun-21211",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21211",
+      "city_name": "美濃加茂市",
+      "city_slug": "minokamo-shi",
+      "macro_region": "東海",
+      "mayor_name": "藤井 浩人",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "2022-01",
+      "term_end": "2030-01-27",
+      "term_end_display": null,
+      "term_note": "5回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認",
+      "findings_values": {
+        "mayor_name": "藤井 浩人",
+        "term_start": "2022-01",
+        "term_end": "2030-01-27",
+        "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認"
+      },
+      "public_order": 91,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-21201",
+      "region_id": "mun-21201",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21201",
+      "city_name": "岐阜市",
+      "city_slug": "gifu-shi",
+      "macro_region": "東海",
+      "mayor_name": "柴橋 正直",
+      "mayor_name_kana": null,
+      "term_start": "2026-02-24",
+      "term_start_display": null,
+      "term_end": "2030-02-23",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.city.gifu.lg.jp/info/senkyo/1030556/1023031.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.gifu.lg.jp/info/senkyo/1030556/1023031.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜市の過去の選挙結果で2026-02-01市長選実施を確認。市長の部屋では引き続き柴橋市長を確認し、現任期は前任期満了翌日の2026-02-24から整理。",
+      "findings_values": {
+        "mayor_name": "柴橋 正直",
+        "term_start": "2026-02-24",
+        "term_end": "2030-02-23",
+        "note": "岐阜市の過去の選挙結果で2026-02-01市長選実施を確認。市長の部屋では引き続き柴橋市長を確認し、現任期は前任期満了翌日の2026-02-24から整理。"
+      },
+      "public_order": 98,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-21202",
+      "region_id": "mun-21202",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21202",
+      "city_name": "大垣市",
+      "city_slug": "oogaki-shi",
+      "macro_region": "東海",
+      "mayor_name": "石田 仁",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-21",
+      "term_end_display": null,
+      "term_note": "2回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認",
+      "findings_values": {
+        "mayor_name": "石田 仁",
+        "term_start": "記載なし",
+        "term_end": "2029-04-21",
+        "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認"
+      },
+      "public_order": 425,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-21203",
+      "region_id": "mun-21203",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21203",
+      "city_name": "高山市",
+      "city_slug": "takayama-shi",
+      "macro_region": "東海",
+      "mayor_name": "田中 明",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-09-03",
+      "term_end_display": null,
+      "term_note": "1回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認",
+      "findings_values": {
+        "mayor_name": "田中 明",
+        "term_start": "記載なし",
+        "term_end": "2026-09-03",
+        "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認"
+      },
+      "public_order": 426,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-21204",
+      "region_id": "mun-21204",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21204",
+      "city_name": "多治見市",
+      "city_slug": "tajimi-shi",
+      "macro_region": "東海",
+      "mayor_name": "髙木 貴行",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-29",
+      "term_end_display": null,
+      "term_note": "1回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認",
+      "findings_values": {
+        "mayor_name": "髙木 貴行",
+        "term_start": "記載なし",
+        "term_end": "2027-04-29",
+        "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認"
+      },
+      "public_order": 427,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-21205",
+      "region_id": "mun-21205",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21205",
+      "city_name": "関市",
+      "city_slug": "seki-shi",
+      "macro_region": "東海",
+      "mayor_name": "山下 清司",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-09-21",
+      "term_end_display": null,
+      "term_note": "1回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認",
+      "findings_values": {
+        "mayor_name": "山下 清司",
+        "term_start": "記載なし",
+        "term_end": "2027-09-21",
+        "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認"
+      },
+      "public_order": 428,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-21206",
+      "region_id": "mun-21206",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21206",
+      "city_name": "中津川市",
+      "city_slug": "nakatsugawa-shi",
+      "macro_region": "東海",
+      "mayor_name": "小栗 仁志",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-01-21",
+      "term_end_display": null,
+      "term_note": "1回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認",
+      "findings_values": {
+        "mayor_name": "小栗 仁志",
+        "term_start": "記載なし",
+        "term_end": "2028-01-21",
+        "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認"
+      },
+      "public_order": 429,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-21207",
+      "region_id": "mun-21207",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21207",
+      "city_name": "美濃市",
+      "city_slug": "mino-shi",
+      "macro_region": "東海",
+      "mayor_name": "篠田 啓介",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-11-01",
+      "term_end_display": null,
+      "term_note": "1回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認",
+      "findings_values": {
+        "mayor_name": "篠田 啓介",
+        "term_start": "記載なし",
+        "term_end": "2029-11-01",
+        "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認"
+      },
+      "public_order": 430,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-21208",
+      "region_id": "mun-21208",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21208",
+      "city_name": "瑞浪市",
+      "city_slug": "mizunami-shi",
+      "macro_region": "東海",
+      "mayor_name": "水野 光二",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-07-26",
+      "term_end_display": null,
+      "term_note": "5回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認",
+      "findings_values": {
+        "mayor_name": "水野 光二",
+        "term_start": "記載なし",
+        "term_end": "2027-07-26",
+        "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認"
+      },
+      "public_order": 431,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-21209",
+      "region_id": "mun-21209",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21209",
+      "city_name": "羽島市",
+      "city_slug": "hashima-shi",
+      "macro_region": "東海",
+      "mayor_name": "松井 聡",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-12-20",
+      "term_end_display": null,
+      "term_note": "4回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認",
+      "findings_values": {
+        "mayor_name": "松井 聡",
+        "term_start": "記載なし",
+        "term_end": "2028-12-20",
+        "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認"
+      },
+      "public_order": 432,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-21210",
+      "region_id": "mun-21210",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21210",
+      "city_name": "恵那市",
+      "city_slug": "ena-shi",
+      "macro_region": "東海",
+      "mayor_name": "小坂 喬峰",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-27",
+      "term_end_display": null,
+      "term_note": "3回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認",
+      "findings_values": {
+        "mayor_name": "小坂 喬峰",
+        "term_start": "記載なし",
+        "term_end": "2028-11-27",
+        "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認"
+      },
+      "public_order": 433,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-21212",
+      "region_id": "mun-21212",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21212",
+      "city_name": "土岐市",
+      "city_slug": "toki-shi",
+      "macro_region": "東海",
+      "mayor_name": "加藤 淳司",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-26",
+      "term_end_display": null,
+      "term_note": "2回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認",
+      "findings_values": {
+        "mayor_name": "加藤 淳司",
+        "term_start": "記載なし",
+        "term_end": "2027-04-26",
+        "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認"
+      },
+      "public_order": 434,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-21213",
+      "region_id": "mun-21213",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21213",
+      "city_name": "各務原市",
+      "city_slug": "kakamigahara-shi",
+      "macro_region": "東海",
+      "mayor_name": "浅野 健司",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-05-19",
+      "term_end_display": null,
+      "term_note": "4回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認",
+      "findings_values": {
+        "mayor_name": "浅野 健司",
+        "term_start": "記載なし",
+        "term_end": "2029-05-19",
+        "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認"
+      },
+      "public_order": 435,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-21214",
+      "region_id": "mun-21214",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21214",
+      "city_name": "可児市",
+      "city_slug": "kani-shi",
+      "macro_region": "東海",
+      "mayor_name": "冨田 成輝",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2026-11-06",
+      "term_end_display": null,
+      "term_note": "4回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認",
+      "findings_values": {
+        "mayor_name": "冨田 成輝",
+        "term_start": "記載なし",
+        "term_end": "2026-11-06",
+        "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認"
+      },
+      "public_order": 436,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-21215",
+      "region_id": "mun-21215",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21215",
+      "city_name": "山県市",
+      "city_slug": "yamagata-shi",
+      "macro_region": "東海",
+      "mayor_name": "林 宏優",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-26",
+      "term_end_display": null,
+      "term_note": "4回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認",
+      "findings_values": {
+        "mayor_name": "林 宏優",
+        "term_start": "記載なし",
+        "term_end": "2027-04-26",
+        "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認"
+      },
+      "public_order": 437,
+      "prefecture_city_order": 14,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-21216",
+      "region_id": "mun-21216",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21216",
+      "city_name": "瑞穂市",
+      "city_slug": "mizuho-shi",
+      "macro_region": "東海",
+      "mayor_name": "森 和之",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-05-31",
+      "term_end_display": null,
+      "term_note": "2回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認",
+      "findings_values": {
+        "mayor_name": "森 和之",
+        "term_start": "記載なし",
+        "term_end": "2027-05-31",
+        "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認"
+      },
+      "public_order": 438,
+      "prefecture_city_order": 15,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-21217",
+      "region_id": "mun-21217",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21217",
+      "city_name": "飛騨市",
+      "city_slug": "hida-shi",
+      "macro_region": "東海",
+      "mayor_name": "都竹 淳也",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-03-06",
+      "term_end_display": null,
+      "term_note": "3回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認",
+      "findings_values": {
+        "mayor_name": "都竹 淳也",
+        "term_start": "記載なし",
+        "term_end": "2028-03-06",
+        "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認"
+      },
+      "public_order": 439,
+      "prefecture_city_order": 16,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-21218",
+      "region_id": "mun-21218",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21218",
+      "city_name": "本巣市",
+      "city_slug": "motosu-shi",
+      "macro_region": "東海",
+      "mayor_name": "藤原 勉",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-03-06",
+      "term_end_display": null,
+      "term_note": "5回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認",
+      "findings_values": {
+        "mayor_name": "藤原 勉",
+        "term_start": "記載なし",
+        "term_end": "2028-03-06",
+        "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認"
+      },
+      "public_order": 440,
+      "prefecture_city_order": 17,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-21219",
+      "region_id": "mun-21219",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21219",
+      "city_name": "郡上市",
+      "city_slug": "gujou-shi",
+      "macro_region": "東海",
+      "mayor_name": "山川 弘保",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-10",
+      "term_end_display": null,
+      "term_note": "1回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認",
+      "findings_values": {
+        "mayor_name": "山川 弘保",
+        "term_start": "記載なし",
+        "term_end": "2028-04-10",
+        "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認"
+      },
+      "public_order": 441,
+      "prefecture_city_order": 18,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-21220",
+      "region_id": "mun-21220",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21220",
+      "city_name": "下呂市",
+      "city_slug": "gero-shi",
+      "macro_region": "東海",
+      "mayor_name": "山内 登",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-04-17",
+      "term_end_display": null,
+      "term_note": "2回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認",
+      "findings_values": {
+        "mayor_name": "山内 登",
+        "term_start": "記載なし",
+        "term_end": "2028-04-17",
+        "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認"
+      },
+      "public_order": 442,
+      "prefecture_city_order": 19,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-21221",
+      "region_id": "mun-21221",
+      "pref_code": "21",
+      "pref_name": "岐阜県",
+      "municipality_code": "21221",
+      "city_name": "海津市",
+      "city_slug": "kaizu-shi",
+      "macro_region": "東海",
+      "mayor_name": "横川 真澄",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-05-07",
+      "term_end_display": null,
+      "term_note": "2回",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_registry",
+          "title": "岐阜県選管 市町村長名簿、市町村長・議員任期一覧",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/487152.pdf"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認",
+      "findings_values": {
+        "mayor_name": "横川 真澄",
+        "term_start": "記載なし",
+        "term_end": "2029-05-07",
+        "note": "岐阜県選管『市町村長名簿、市町村長・議員任期一覧』（令和8年2月27日現在）で確認"
+      },
+      "public_order": 443,
+      "prefecture_city_order": 20,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.md",
+        "research/current-mayors/findings/21-gifu/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

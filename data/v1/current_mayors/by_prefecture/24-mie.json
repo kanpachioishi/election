@@ -1,0 +1,896 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "24",
+  "pref_slug": "mie",
+  "pref_name": "三重県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/24-mie",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-24201",
+      "region_id": "mun-24201",
+      "pref_code": "24",
+      "pref_name": "三重県",
+      "municipality_code": "24201",
+      "city_name": "津市",
+      "city_slug": "tsu-shi",
+      "macro_region": "東海",
+      "mayor_name": "前葉泰幸",
+      "mayor_name_kana": null,
+      "term_start": "2023-04-26",
+      "term_start_display": null,
+      "term_end": "2027-04-25",
+      "term_end_display": null,
+      "term_note": "4選",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.info.city.tsu.mie.jp/www/contents/1001000000204/index.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.info.city.tsu.mie.jp/www/contents/1001000000204/index.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "氏名・4選は市長プロフィール、始期は市長活動日記の『4期目 初登庁』（2023-04-26）、満了は三重県選管の任期満了日一覧で確認",
+      "findings_values": {
+        "mayor_name": "前葉泰幸",
+        "term_start": "2023-04-26",
+        "term_end": "2027-04-25",
+        "note": "氏名・4選は市長プロフィール、始期は市長活動日記の『4期目 初登庁』（2023-04-26）、満了は三重県選管の任期満了日一覧で確認"
+      },
+      "public_order": 36,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.md",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-24212",
+      "region_id": "mun-24212",
+      "pref_code": "24",
+      "pref_name": "三重県",
+      "municipality_code": "24212",
+      "city_name": "熊野市",
+      "city_slug": "kumano-shi",
+      "macro_region": "東海",
+      "mayor_name": "河上 敢二",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-11-12",
+      "term_end_display": null,
+      "term_note": "現職継続（河上敢二）",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "河上 敢二",
+        "term_start": "記載なし",
+        "term_end": "2029-11-12",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 78,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.md",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-24202",
+      "region_id": "mun-24202",
+      "pref_code": "24",
+      "pref_name": "三重県",
+      "municipality_code": "24202",
+      "city_name": "四日市市",
+      "city_slug": "yokkaichi-shi",
+      "macro_region": "東海",
+      "mayor_name": "森 智広",
+      "mayor_name_kana": null,
+      "term_start": "2024-11-26",
+      "term_start_display": null,
+      "term_end": "2028-12-23",
+      "term_end_display": null,
+      "term_note": "3期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "森 智広",
+        "term_start": "2024-11-26",
+        "term_end": "2028-12-23",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 79,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.md",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-24208",
+      "region_id": "mun-24208",
+      "pref_code": "24",
+      "pref_name": "三重県",
+      "municipality_code": "24208",
+      "city_name": "名張市",
+      "city_slug": "nabari-shi",
+      "macro_region": "東海",
+      "mayor_name": "北川 裕之",
+      "mayor_name_kana": null,
+      "term_start": "2026-04-25",
+      "term_start_display": null,
+      "term_end": "2030-04-24",
+      "term_end_display": null,
+      "term_note": "2026-04-12執行の市長選で再選",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "開票結果",
+          "url": "https://www.city.nabari.lg.jp/s075/110/200/091/20260407172945.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "開票結果",
+        "url": "https://www.city.nabari.lg.jp/s075/110/200/091/20260407172945.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-04-12執行の名張市長選開票結果で北川ひろゆき氏当選を確認。現任期は旧任期満了日の翌日から整理。",
+      "findings_values": {
+        "mayor_name": "北川 裕之",
+        "term_start": "2026-04-25",
+        "term_end": "2030-04-24",
+        "note": "2026-04-12執行の名張市長選開票結果で北川ひろゆき氏当選を確認。現任期は旧任期満了日の翌日から整理。"
+      },
+      "public_order": 92,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.md",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-24203",
+      "region_id": "mun-24203",
+      "pref_code": "24",
+      "pref_name": "三重県",
+      "municipality_code": "24203",
+      "city_name": "伊勢市",
+      "city_slug": "ise-shi",
+      "macro_region": "東海",
+      "mayor_name": "鈴木 健一",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-11-14",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "鈴木 健一",
+        "term_start": "記載なし",
+        "term_end": "2029-11-14",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 499,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.md",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-24204",
+      "region_id": "mun-24204",
+      "pref_code": "24",
+      "pref_name": "三重県",
+      "municipality_code": "24204",
+      "city_name": "松阪市",
+      "city_slug": "matsusaka-shi",
+      "macro_region": "東海",
+      "mayor_name": "竹上 真人",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-10-03",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "竹上 真人",
+        "term_start": "記載なし",
+        "term_end": "2027-10-03",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 500,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.md",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-24205",
+      "region_id": "mun-24205",
+      "pref_code": "24",
+      "pref_name": "三重県",
+      "municipality_code": "24205",
+      "city_name": "桑名市",
+      "city_slug": "kuwana-shi",
+      "macro_region": "東海",
+      "mayor_name": "伊藤 徳宇",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-12-18",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "伊藤 徳宇",
+        "term_start": "記載なし",
+        "term_end": "2028-12-18",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 501,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.md",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-24207",
+      "region_id": "mun-24207",
+      "pref_code": "24",
+      "pref_name": "三重県",
+      "municipality_code": "24207",
+      "city_name": "鈴鹿市",
+      "city_slug": "suzuka-shi",
+      "macro_region": "東海",
+      "mayor_name": "末松 則子",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "末松 則子",
+        "term_start": "記載なし",
+        "term_end": "2027-04-30",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 502,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.md",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-24209",
+      "region_id": "mun-24209",
+      "pref_code": "24",
+      "pref_name": "三重県",
+      "municipality_code": "24209",
+      "city_name": "尾鷲市",
+      "city_slug": "owase-shi",
+      "macro_region": "東海",
+      "mayor_name": "加藤 千速",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-07-25",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "加藤 千速",
+        "term_start": "記載なし",
+        "term_end": "2029-07-25",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 503,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.md",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-24210",
+      "region_id": "mun-24210",
+      "pref_code": "24",
+      "pref_name": "三重県",
+      "municipality_code": "24210",
+      "city_name": "亀山市",
+      "city_slug": "kameyama-shi",
+      "macro_region": "東海",
+      "mayor_name": "櫻井 義之",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-02-05",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "櫻井 義之",
+        "term_start": "記載なし",
+        "term_end": "2029-02-05",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 504,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.md",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-24211",
+      "region_id": "mun-24211",
+      "pref_code": "24",
+      "pref_name": "三重県",
+      "municipality_code": "24211",
+      "city_name": "鳥羽市",
+      "city_slug": "toba-shi",
+      "macro_region": "東海",
+      "mayor_name": "小竹 篤",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-04-20",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "小竹 篤",
+        "term_start": "記載なし",
+        "term_end": "2029-04-20",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 505,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.md",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-24214",
+      "region_id": "mun-24214",
+      "pref_code": "24",
+      "pref_name": "三重県",
+      "municipality_code": "24214",
+      "city_name": "いなべ市",
+      "city_slug": "inabe-shi",
+      "macro_region": "東海",
+      "mayor_name": "日沖 靖",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-12-20",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "日沖 靖",
+        "term_start": "記載なし",
+        "term_end": "2027-12-20",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 506,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.md",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-24215",
+      "region_id": "mun-24215",
+      "pref_code": "24",
+      "pref_name": "三重県",
+      "municipality_code": "24215",
+      "city_name": "志摩市",
+      "city_slug": "shima-shi",
+      "macro_region": "東海",
+      "mayor_name": "橋爪 政吉",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-10-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "橋爪 政吉",
+        "term_start": "記載なし",
+        "term_end": "2028-10-30",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 507,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.md",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-24216",
+      "region_id": "mun-24216",
+      "pref_code": "24",
+      "pref_name": "三重県",
+      "municipality_code": "24216",
+      "city_name": "伊賀市",
+      "city_slug": "iga-shi",
+      "macro_region": "東海",
+      "mayor_name": "稲森 稔尚",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-11-20",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "三重県 任期満了日一覧",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.mie.lg.jp/SENKAN/HP/30392027863.htm"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "稲森 稔尚",
+        "term_start": "記載なし",
+        "term_end": "2028-11-20",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 508,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.md",
+        "research/current-mayors/findings/24-mie/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

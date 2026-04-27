@@ -1,0 +1,770 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "03",
+  "pref_slug": "iwate",
+  "pref_name": "岩手県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/03-iwate",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-03201",
+      "region_id": "mun-03201",
+      "pref_code": "03",
+      "pref_name": "岩手県",
+      "municipality_code": "03201",
+      "city_name": "盛岡市",
+      "city_slug": "morioka-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "内舘 茂",
+      "mayor_name_kana": null,
+      "term_start": "2023-09-02",
+      "term_start_display": null,
+      "term_end": "2027-09-01",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "県公式名簿",
+        "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "岩手県公式名簿に内舘茂市長の任期が令和5年9月2日から令和9年9月1日、1期とある。",
+      "findings_values": {
+        "mayor_name": "内舘 茂",
+        "term_start": "2023-09-02",
+        "term_end": "2027-09-01",
+        "note": "岩手県公式 市町村長・副市町村長・議長名簿 に 内舘 茂（1期） 任期：令和5年9月2日から令和9年9月1日 とあるため confirmed。"
+      },
+      "public_order": 46,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.md",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-03202",
+      "region_id": "mun-03202",
+      "pref_code": "03",
+      "pref_name": "岩手県",
+      "municipality_code": "03202",
+      "city_name": "宮古市",
+      "city_slug": "miyako-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "中村 尚道",
+      "mayor_name_kana": null,
+      "term_start": "2025-07-03",
+      "term_start_display": null,
+      "term_end": "2029-07-02",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "県公式名簿",
+        "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "岩手県公式名簿に中村尚道市長の任期が令和7年7月3日から令和11年7月2日、1期とある。",
+      "findings_values": {
+        "mayor_name": "中村 尚道",
+        "term_start": "2025-07-03",
+        "term_end": "2029-07-02",
+        "note": "岩手県公式名簿に 中村 尚道（1期） 任期：令和7年7月3日から令和11年7月2日 とあるため confirmed。"
+      },
+      "public_order": 23,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.md",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-03203",
+      "region_id": "mun-03203",
+      "pref_code": "03",
+      "pref_name": "岩手県",
+      "municipality_code": "03203",
+      "city_name": "大船渡市",
+      "city_slug": "oofunato-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "渕上 清",
+      "mayor_name_kana": null,
+      "term_start": "2022-12-03",
+      "term_start_display": null,
+      "term_end": "2026-12-02",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "県公式名簿",
+        "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "岩手県公式名簿に渕上清市長の任期が令和4年12月3日から令和8年12月2日、1期とある。",
+      "findings_values": {
+        "mayor_name": "渕上 清",
+        "term_start": "2022-12-03",
+        "term_end": "2026-12-02",
+        "note": "岩手県公式名簿に 渕上 清（1期） 任期：令和4年12月3日から令和8年12月2日 とあるため confirmed。"
+      },
+      "public_order": 105,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.md",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-03205",
+      "region_id": "mun-03205",
+      "pref_code": "03",
+      "pref_name": "岩手県",
+      "municipality_code": "03205",
+      "city_name": "花巻市",
+      "city_slug": "hanamaki-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "小原 勝",
+      "mayor_name_kana": null,
+      "term_start": "2026-02-05",
+      "term_start_display": null,
+      "term_end": "2030-02-04",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.city.hanamaki.iwate.jp/shisei/senkyo/1000223/1024964.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2026-01-25執行の花巻市長選挙で小原勝氏当選。岩手県公式名簿でも令和8年2月5日から令和12年2月4日、1期と確認。",
+      "findings_values": {
+        "mayor_name": "小原 勝",
+        "term_start": "2026-02-05",
+        "term_end": "2030-02-04",
+        "note": "岩手県公式名簿に 小原 勝（1期） 任期：令和8年2月5日から令和12年2月4日 とあるため confirmed。"
+      },
+      "public_order": 189,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.md",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-03206",
+      "region_id": "mun-03206",
+      "pref_code": "03",
+      "pref_name": "岩手県",
+      "municipality_code": "03206",
+      "city_name": "北上市",
+      "city_slug": "kitakami-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "八重樫 浩文",
+      "mayor_name_kana": null,
+      "term_start": "2023-04-27",
+      "term_start_display": null,
+      "term_end": "2027-04-26",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "県公式名簿",
+        "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "岩手県公式名簿に八重樫浩文市長の任期が令和5年4月27日から令和9年4月26日、1期とある。",
+      "findings_values": {
+        "mayor_name": "八重樫 浩文",
+        "term_start": "2023-04-27",
+        "term_end": "2027-04-26",
+        "note": "岩手県公式名簿に 八重樫 浩文（1期） 任期：令和5年4月27日から令和9年4月26日 とあるため confirmed。"
+      },
+      "public_order": 106,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.md",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-03207",
+      "region_id": "mun-03207",
+      "pref_code": "03",
+      "pref_name": "岩手県",
+      "municipality_code": "03207",
+      "city_name": "久慈市",
+      "city_slug": "kuji-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "中平 均",
+      "mayor_name_kana": null,
+      "term_start": "2026-03-26",
+      "term_start_display": null,
+      "term_end": "2030-03-25",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "県公式名簿",
+        "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "岩手県公式名簿に中平均市長の任期が令和8年3月26日から令和12年3月25日、1期とある。",
+      "findings_values": {
+        "mayor_name": "中平 均",
+        "term_start": "2026-03-26",
+        "term_end": "2030-03-25",
+        "note": "岩手県公式名簿に 中平 均（1期） 任期：令和8年3月26日から令和12年3月25日 とあるため confirmed。"
+      },
+      "public_order": 201,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.md",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-03208",
+      "region_id": "mun-03208",
+      "pref_code": "03",
+      "pref_name": "岩手県",
+      "municipality_code": "03208",
+      "city_name": "遠野市",
+      "city_slug": "toono-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "多田 一彦",
+      "mayor_name_kana": null,
+      "term_start": "2025-10-23",
+      "term_start_display": null,
+      "term_end": "2029-10-22",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "県公式名簿",
+        "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "岩手県公式名簿に多田一彦市長の任期が令和7年10月23日から令和11年10月22日、2期とある。",
+      "findings_values": {
+        "mayor_name": "多田 一彦",
+        "term_start": "2025-10-23",
+        "term_end": "2029-10-22",
+        "note": "岩手県公式名簿に 多田 一彦（2期） 任期：令和7年10月23日から令和11年10月22日 とあるため confirmed。"
+      },
+      "public_order": 179,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.md",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-03209",
+      "region_id": "mun-03209",
+      "pref_code": "03",
+      "pref_name": "岩手県",
+      "municipality_code": "03209",
+      "city_name": "一関市",
+      "city_slug": "ichinoseki-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "佐藤 善仁",
+      "mayor_name_kana": null,
+      "term_start": "2025-10-09",
+      "term_start_display": null,
+      "term_end": "2029-10-08",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "県公式名簿",
+        "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "岩手県公式名簿に佐藤善仁市長の任期が令和7年10月9日から令和11年10月8日、2期とある。",
+      "findings_values": {
+        "mayor_name": "佐藤 善仁",
+        "term_start": "2025-10-09",
+        "term_end": "2029-10-08",
+        "note": "岩手県公式名簿に 佐藤 善仁（2期） 任期：令和7年10月9日から令和11年10月8日 とあるため confirmed。"
+      },
+      "public_order": 107,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.md",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-03210",
+      "region_id": "mun-03210",
+      "pref_code": "03",
+      "pref_name": "岩手県",
+      "municipality_code": "03210",
+      "city_name": "陸前高田市",
+      "city_slug": "rikuzentakata-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "佐々木 拓",
+      "mayor_name_kana": null,
+      "term_start": "2023-02-13",
+      "term_start_display": null,
+      "term_end": "2027-02-12",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "県公式名簿",
+        "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "岩手県公式名簿に佐々木拓市長の任期が令和5年2月13日から令和9年2月12日、1期とある。",
+      "findings_values": {
+        "mayor_name": "佐々木 拓",
+        "term_start": "2023-02-13",
+        "term_end": "2027-02-12",
+        "note": "岩手県公式名簿に 佐々木 拓（1期） 任期：令和5年2月13日から令和9年2月12日 とあるため confirmed。"
+      },
+      "public_order": 108,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.md",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-03211",
+      "region_id": "mun-03211",
+      "pref_code": "03",
+      "pref_name": "岩手県",
+      "municipality_code": "03211",
+      "city_name": "釜石市",
+      "city_slug": "kamaishi-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "小野 共",
+      "mayor_name_kana": null,
+      "term_start": "2023-11-18",
+      "term_start_display": null,
+      "term_end": "2027-11-17",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "県公式名簿",
+        "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "岩手県公式名簿に小野共市長の任期が令和5年11月18日から令和9年11月17日、1期とある。",
+      "findings_values": {
+        "mayor_name": "小野 共",
+        "term_start": "2023-11-18",
+        "term_end": "2027-11-17",
+        "note": "岩手県公式名簿に 小野 共（1期） 任期：令和5年11月18日から令和9年11月17日 とあるため confirmed。"
+      },
+      "public_order": 109,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.md",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-03213",
+      "region_id": "mun-03213",
+      "pref_code": "03",
+      "pref_name": "岩手県",
+      "municipality_code": "03213",
+      "city_name": "二戸市",
+      "city_slug": "ninohe-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "五日市 王",
+      "mayor_name_kana": null,
+      "term_start": "2026-01-26",
+      "term_start_display": null,
+      "term_end": "2030-01-25",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "県公式名簿",
+        "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "岩手県公式名簿に五日市王市長の任期が令和8年1月26日から令和12年1月25日、1期とある。",
+      "findings_values": {
+        "mayor_name": "五日市 王",
+        "term_start": "2026-01-26",
+        "term_end": "2030-01-25",
+        "note": "岩手県公式名簿に 五日市 王（1期） 任期：令和8年1月26日から令和12年1月25日 とあるため confirmed。"
+      },
+      "public_order": 180,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.md",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-03214",
+      "region_id": "mun-03214",
+      "pref_code": "03",
+      "pref_name": "岩手県",
+      "municipality_code": "03214",
+      "city_name": "八幡平市",
+      "city_slug": "hachimantai-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "佐々木 孝弘",
+      "mayor_name_kana": null,
+      "term_start": "2025-10-02",
+      "term_start_display": null,
+      "term_end": "2029-10-01",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "県公式名簿",
+        "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "岩手県公式名簿に佐々木孝弘市長の任期が令和7年10月2日から令和11年10月1日、2期とある。",
+      "findings_values": {
+        "mayor_name": "佐々木 孝弘",
+        "term_start": "2025-10-02",
+        "term_end": "2029-10-01",
+        "note": "岩手県公式名簿に 佐々木 孝弘（2期） 任期：令和7年10月2日から令和11年10月1日 とあるため confirmed。"
+      },
+      "public_order": 24,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.md",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-03215",
+      "region_id": "mun-03215",
+      "pref_code": "03",
+      "pref_name": "岩手県",
+      "municipality_code": "03215",
+      "city_name": "奥州市",
+      "city_slug": "oushuu-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "郷右近 浩",
+      "mayor_name_kana": null,
+      "term_start": "2026-03-19",
+      "term_start_display": null,
+      "term_end": "2030-03-18",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "県公式名簿",
+        "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "岩手県公式名簿は郷右近浩市長、任期は令和8年3月19日から令和12年3月18日、1期に更新済み。",
+      "findings_values": {
+        "mayor_name": "郷右近 浩",
+        "term_start": "2026-03-19",
+        "term_end": "2030-03-18",
+        "note": "岩手県公式名簿に 郷右近 浩（1期） 任期：令和8年3月19日から令和12年3月18日 とあり、現行公開ページの旧市長表記との差分を確認。"
+      },
+      "public_order": 181,
+      "prefecture_city_order": 12,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.md",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-03216",
+      "region_id": "mun-03216",
+      "pref_code": "03",
+      "pref_name": "岩手県",
+      "municipality_code": "03216",
+      "city_name": "滝沢市",
+      "city_slug": "takizawa-shi",
+      "macro_region": "北海道・東北",
+      "mayor_name": "武田 哲",
+      "mayor_name_kana": null,
+      "term_start": "2022-11-20",
+      "term_start_display": null,
+      "term_end": "2026-11-19",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "official_roster",
+          "title": "市町村長・副市町村長・議長名簿",
+          "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "県公式名簿",
+        "url": "https://www.pref.iwate.jp/kensei/seisaku/shichouson/profile/1017955.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "岩手県公式名簿に武田哲市長の任期が令和4年11月20日から令和8年11月19日、1期とある。",
+      "findings_values": {
+        "mayor_name": "武田 哲",
+        "term_start": "2022-11-20",
+        "term_end": "2026-11-19",
+        "note": "岩手県公式名簿に 武田 哲（1期） 任期：令和4年11月20日から令和8年11月19日 とあるため confirmed。"
+      },
+      "public_order": 182,
+      "prefecture_city_order": 13,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.md",
+        "research/current-mayors/findings/03-iwate/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

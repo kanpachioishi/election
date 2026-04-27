@@ -12,6 +12,7 @@
 - `data/v1/regions.json`
 - `data/v1/elections.json`
 - `data/v1/local_government_sites.json`
+- `data/v1/current_mayors/`
 
 ## Transitional Compatibility Files
 

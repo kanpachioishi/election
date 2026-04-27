@@ -1,0 +1,651 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "36",
+  "pref_slug": "tokushima",
+  "pref_name": "徳島県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/36-tokushima",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-36201",
+      "region_id": "mun-36201",
+      "pref_code": "36",
+      "pref_name": "徳島県",
+      "municipality_code": "36201",
+      "city_name": "徳島市",
+      "city_slug": "tokushima-shi",
+      "macro_region": "四国",
+      "mayor_name": "遠藤 彰良",
+      "mayor_name_kana": null,
+      "term_start": "2024-04-18",
+      "term_start_display": null,
+      "term_end": "2028-04-17",
+      "term_end_display": null,
+      "term_note": "2期目（返り咲き）",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和6年4月7日執行 徳島市長選挙 選挙結果",
+          "url": "https://www.city.tokushima.tokushima.jp/shisei/senkyo/senkyo_kekka/r6mayor.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "inauguration_article",
+          "title": "広報とくしま テキスト版 2024年5月1日号",
+          "url": "https://www.city.tokushima.tokushima.jp/smph/shisei/koho_kocho/kohoshi/text/2024/0501.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "mayor_profile",
+          "title": "遠藤市長のプロフィール",
+          "url": "https://www.city.tokushima.tokushima.jp/shisei/mayor/mayor_profile.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村長・議会議員任期満了日、議員定数",
+          "url": "https://www.pref.tokushima.lg.jp/file/attachment/1044038.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長選結果",
+        "url": "https://www.city.tokushima.tokushima.jp/shisei/senkyo/senkyo_kekka/r6mayor.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2024-04-07執行の徳島市長選挙結果、2024-04-18の初登庁記事、市長プロフィールで確認。",
+      "findings_values": {
+        "mayor_name": "遠藤 彰良",
+        "term_start": "2024-04-18",
+        "term_end": "2028-04-17",
+        "note": "2024-04-07 執行の徳島市長選挙結果、2024-04-18 の初登庁記事、市長プロフィールで確認。現行台帳の値で整合している。"
+      },
+      "public_order": 52,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/36-tokushima/2026-04-23-round1.md",
+        "research/current-mayors/findings/36-tokushima/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-36202",
+      "region_id": "mun-36202",
+      "pref_code": "36",
+      "pref_name": "徳島県",
+      "municipality_code": "36202",
+      "city_name": "鳴門市",
+      "city_slug": "naruto-shi",
+      "macro_region": "四国",
+      "mayor_name": "泉 理彦",
+      "mayor_name_kana": null,
+      "term_start": "2025-11-26",
+      "term_start_display": null,
+      "term_end": "2029-11-25",
+      "term_end_display": null,
+      "term_note": "5期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_profile",
+          "title": "プロフィール",
+          "url": "https://www.city.naruto.tokushima.jp/mayor/pfofile.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_schedule",
+          "title": "鳴門市長選挙及び鳴門市議会議員一般選挙における立候補届出等の事前審査の日程等について",
+          "url": "https://www.city.naruto.tokushima.jp/kurashi/senkyo/r7shicho_rikkohotodokede.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村長・議会議員任期満了日、議員定数",
+          "url": "https://www.pref.tokushima.lg.jp/file/attachment/1044038.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": "https://www.city.naruto.tokushima.jp/mayor/pfofile.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "市長プロフィールに令和7年11月鳴門市長選挙再任（5期目）と明記。現任期始期は県の任期満了日一覧から補完。",
+      "findings_values": {
+        "mayor_name": "泉 理彦",
+        "term_start": "2025-11-26",
+        "term_end": "2029-11-25",
+        "note": "市長プロフィールに 令和7年11月 鳴門市長選挙再任(5期目) とある。現任期の始期は県の任期満了日一覧 2029-11-25 から4年任期で補完。"
+      },
+      "public_order": 657,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/36-tokushima/2026-04-23-round1.md",
+        "research/current-mayors/findings/36-tokushima/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-36203",
+      "region_id": "mun-36203",
+      "pref_code": "36",
+      "pref_name": "徳島県",
+      "municipality_code": "36203",
+      "city_name": "小松島市",
+      "city_slug": "komatsushima-shi",
+      "macro_region": "四国",
+      "mayor_name": "中山 俊雄",
+      "mayor_name_kana": null,
+      "term_start": "2024-06-07",
+      "term_start_display": null,
+      "term_end": "2028-06-06",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "小松島市長及び小松島市議会議員選挙",
+          "url": "https://www.city.komatsushima.lg.jp/docs/2299.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "mayor_profile",
+          "title": "プロフィール",
+          "url": "https://www.city.komatsushima.lg.jp/docs/1855.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村長・議会議員任期満了日、議員定数",
+          "url": "https://www.pref.tokushima.lg.jp/file/attachment/1044038.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長選挙",
+        "url": "https://www.city.komatsushima.lg.jp/docs/2299.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2024-05-26執行の市長選挙ページと市長プロフィールで再選（2期目）を確認。現任期始期は県の任期満了日一覧から補完。",
+      "findings_values": {
+        "mayor_name": "中山 俊雄",
+        "term_start": "2024-06-07",
+        "term_end": "2028-06-06",
+        "note": "小松島市長選挙ページで 2024-05-26 執行を確認。市長プロフィールに 令和6年 小松島市長 再選(2期目) とあるため、始期は県の任期満了日一覧から補完。"
+      },
+      "public_order": 658,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/36-tokushima/2026-04-23-round1.md",
+        "research/current-mayors/findings/36-tokushima/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-36204",
+      "region_id": "mun-36204",
+      "pref_code": "36",
+      "pref_name": "徳島県",
+      "municipality_code": "36204",
+      "city_name": "阿南市",
+      "city_slug": "anan-shi",
+      "macro_region": "四国",
+      "mayor_name": "岩佐 義弘",
+      "mayor_name_kana": null,
+      "term_start": "2023-12-07",
+      "term_start_display": null,
+      "term_end": "2027-12-06",
+      "term_end_display": null,
+      "term_note": "1期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_profile",
+          "title": "市長のプロフィール",
+          "url": "https://www.city.anan.tokushima.jp/docs/2024082600055/",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_term_page",
+          "title": "選挙の種類と任期満了日について",
+          "url": "https://www.city.anan.tokushima.jp/docs/2020030500033/",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": "https://www.city.anan.tokushima.jp/docs/2024082600055/"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "市長プロフィールに2023-12-07阿南市長就任（1期目）と明記がある。",
+      "findings_values": {
+        "mayor_name": "岩佐 義弘",
+        "term_start": "2023-12-07",
+        "term_end": "2027-12-06",
+        "note": "市長プロフィールに 令和5年12月7日 阿南市長 就任(1期目) と明記がある。選挙の種類と任期満了日の案内で前回選挙執行日 2023-11-19 も確認。"
+      },
+      "public_order": 659,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/36-tokushima/2026-04-23-round1.md",
+        "research/current-mayors/findings/36-tokushima/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-36205",
+      "region_id": "mun-36205",
+      "pref_code": "36",
+      "pref_name": "徳島県",
+      "municipality_code": "36205",
+      "city_name": "吉野川市",
+      "city_slug": "yoshinogawa-shi",
+      "macro_region": "四国",
+      "mayor_name": "原井 敬",
+      "mayor_name_kana": null,
+      "term_start": "2023-10-27",
+      "term_start_display": null,
+      "term_end": "2027-10-26",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_result",
+          "title": "令和5年10月22日執行 吉野川市長選挙 選挙結果",
+          "url": "https://www.city.yoshinogawa.lg.jp/docs/2013012400056/file_contents/R5sichosenn.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_results_index",
+          "title": "過去の選挙結果について",
+          "url": "https://www.city.yoshinogawa.lg.jp/docs/2013012400056/",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "mayor_profile",
+          "title": "市長のプロフィール",
+          "url": "https://www.city.yoshinogawa.lg.jp/category/mayor/profile/",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村長・議会議員任期満了日、議員定数",
+          "url": "https://www.pref.tokushima.lg.jp/file/attachment/1044038.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長選結果",
+        "url": "https://www.city.yoshinogawa.lg.jp/docs/2013012400056/file_contents/R5sichosenn.pdf"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "2023-10-22執行の吉野川市長選挙結果と市長プロフィールで再任（2期目）を確認。始期は県の任期満了日一覧から補完。",
+      "findings_values": {
+        "mayor_name": "原井 敬",
+        "term_start": "2023-10-27",
+        "term_end": "2027-10-26",
+        "note": "2023-10-22 執行の吉野川市長選挙結果で無投票当選を確認。市長プロフィールに 2023年（令和5年）10月 吉野川市長再任（2期目） とあるため、始期は県の任期満了日一覧から補完。"
+      },
+      "public_order": 660,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/36-tokushima/2026-04-23-round1.md",
+        "research/current-mayors/findings/36-tokushima/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-36206",
+      "region_id": "mun-36206",
+      "pref_code": "36",
+      "pref_name": "徳島県",
+      "municipality_code": "36206",
+      "city_name": "阿波市",
+      "city_slug": "awa-shi",
+      "macro_region": "四国",
+      "mayor_name": "町田 寿人",
+      "mayor_name_kana": null,
+      "term_start": "2023-04-23",
+      "term_start_display": null,
+      "term_end": "2027-04-22",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_greeting",
+          "title": "市長のご挨拶",
+          "url": "https://www.city.awa.lg.jp/mayor/",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "mayor_profile",
+          "title": "プロフィール",
+          "url": "https://www.city.awa.lg.jp/mayor/profile/",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "acting_mayor_notice",
+          "title": "市長の職務代理の変更について",
+          "url": "https://www.city.awa.lg.jp/docs/2023031400067/",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村長・議会議員任期満了日、議員定数",
+          "url": "https://www.pref.tokushima.lg.jp/file/attachment/1044038.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": "https://www.city.awa.lg.jp/mayor/profile/"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "市長プロフィールに令和5年4月第4代阿波市長就任とあり、始期は県の任期満了日一覧から補完。",
+      "findings_values": {
+        "mayor_name": "町田 寿人",
+        "term_start": "2023-04-23",
+        "term_end": "2027-04-22",
+        "note": "市長プロフィールに 令和5年4月 第4代阿波市長 就任 とあり、市長あいさつでも当選後の現職就任を確認。始期は県の任期満了日一覧から補完。"
+      },
+      "public_order": 661,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/36-tokushima/2026-04-23-round1.md",
+        "research/current-mayors/findings/36-tokushima/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-36207",
+      "region_id": "mun-36207",
+      "pref_code": "36",
+      "pref_name": "徳島県",
+      "municipality_code": "36207",
+      "city_name": "美馬市",
+      "city_slug": "mima-shi",
+      "macro_region": "四国",
+      "mayor_name": "加美 一成",
+      "mayor_name_kana": null,
+      "term_start": "2022-10-02",
+      "term_start_display": null,
+      "term_end": "2026-10-01",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "mayor_greeting",
+          "title": "ごあいさつ",
+          "url": "https://www.city.mima.lg.jp/gyosei/docs/426760.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "city_bulletin",
+          "title": "広報みま 2022年11月号",
+          "url": "https://www.city.mima.lg.jp/fs/1/4/1/1/8/9/_/P01-26___.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "elections_index",
+          "title": "選挙",
+          "url": "https://www.city.mima.lg.jp/gyosei/shisei/senkyo/",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "term_expiry_list",
+          "title": "市町村長・議会議員任期満了日、議員定数",
+          "url": "https://www.pref.tokushima.lg.jp/file/attachment/1044038.pdf",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_start",
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長あいさつ",
+        "url": "https://www.city.mima.lg.jp/gyosei/docs/426760.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "市長あいさつと広報みま2022年11月号で現職を確認。始期は県の任期満了日一覧から補完。",
+      "findings_values": {
+        "mayor_name": "加美 一成",
+        "term_start": "2022-10-02",
+        "term_end": "2026-10-01",
+        "note": "2022-11-01 公開の市長あいさつで現職名を確認。広報みま 2022.11 で 第3代美馬市長 と 10月5日 加美一成市長初登庁 を確認し、始期は県の任期満了日一覧から補完した。"
+      },
+      "public_order": 662,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/36-tokushima/2026-04-23-round1.md",
+        "research/current-mayors/findings/36-tokushima/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-36208",
+      "region_id": "mun-36208",
+      "pref_code": "36",
+      "pref_name": "徳島県",
+      "municipality_code": "36208",
+      "city_name": "三好市",
+      "city_slug": "miyoshi-shi",
+      "macro_region": "四国",
+      "mayor_name": "高井 美穂",
+      "mayor_name_kana": null,
+      "term_start": "2025-07-24",
+      "term_start_display": null,
+      "term_end": "2029-07-23",
+      "term_end_display": null,
+      "term_note": "2期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "election_schedule",
+          "title": "三好市長選挙及び三好市議会議員補欠選挙について",
+          "url": "https://www.miyoshi.i-tokushima.jp/docs/4957476.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "mayor_greeting",
+          "title": "市長のご挨拶",
+          "url": "https://www.miyoshi.i-tokushima.jp/docs/4320.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "mayor_profile",
+          "title": "市長のプロフィール",
+          "url": "https://www.miyoshi.i-tokushima.jp/docs/4321.html",
+          "checked_at": "2026-04-23",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "市長プロフィール",
+        "url": "https://www.miyoshi.i-tokushima.jp/docs/4321.html"
+      },
+      "last_checked_at": "2026-04-23",
+      "note": "市長プロフィールに2025-07-24から2029-07-23（現在2期目）と明記がある。",
+      "findings_values": {
+        "mayor_name": "高井 美穂",
+        "term_start": "2025-07-24",
+        "term_end": "2029-07-23",
+        "note": "市長プロフィールに 2025-07-24〜2029-07-23（現在2期目） と明記がある。市長選挙日程案内で 2025-07-20 投票日も確認。"
+      },
+      "public_order": 663,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/36-tokushima/2026-04-23-round1.md",
+        "research/current-mayors/findings/36-tokushima/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

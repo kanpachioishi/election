@@ -1,0 +1,890 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "pref_code": "29",
+  "pref_slug": "nara",
+  "pref_name": "奈良県",
+  "source_snapshot": {
+    "public_page": "site/pages/current-mayors.html",
+    "findings_dir": "research/current-mayors/findings/29-nara",
+    "note": "Initial canonical migration built from the published table and enriched with findings artifacts."
+  },
+  "records": [
+    {
+      "id": "mayor-mun-29201",
+      "region_id": "mun-29201",
+      "pref_code": "29",
+      "pref_name": "奈良県",
+      "municipality_code": "29201",
+      "city_name": "奈良市",
+      "city_slug": "nara-shi",
+      "macro_region": "関西",
+      "mayor_name": "仲川 げん",
+      "mayor_name_kana": null,
+      "term_start": "2025-07-23",
+      "term_start_display": null,
+      "term_end": "2029-07-22",
+      "term_end_display": null,
+      "term_note": "5期目",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式",
+          "url": "https://www.city.nara.lg.jp/soshiki/140/242579.html",
+          "checked_at": "2026-04-20",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式",
+        "url": "https://www.city.nara.lg.jp/soshiki/140/242579.html"
+      },
+      "last_checked_at": "2026-04-20",
+      "note": "2025-07-20執行の奈良市長選で当選を確認。初登庁日は奈良市『市長の動き（令和7年7月分）』で2025-07-23を確認。任期満了日は4年任期で整理。",
+      "findings_values": {
+        "mayor_name": "仲川 げん",
+        "term_start": "2025-07-23",
+        "term_end": "2029-07-22",
+        "note": "2025-07-20執行の奈良市長選で当選を確認。初登庁日は奈良市『市長の動き（令和7年7月分）』で2025-07-23を確認。任期満了日は4年任期で整理。"
+      },
+      "public_order": 68,
+      "prefecture_city_order": 0,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.md",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-29202",
+      "region_id": "mun-29202",
+      "pref_code": "29",
+      "pref_name": "奈良県",
+      "municipality_code": "29202",
+      "city_name": "大和高田市",
+      "city_slug": "yamatotakada-shi",
+      "macro_region": "関西",
+      "mayor_name": "堀内 大造",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-26",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nara.lg.jp/n173/2875.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "堀内 大造",
+        "term_start": "記載なし",
+        "term_end": "2027-04-26",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 592,
+      "prefecture_city_order": 1,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.md",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-29203",
+      "region_id": "mun-29203",
+      "pref_code": "29",
+      "pref_name": "奈良県",
+      "municipality_code": "29203",
+      "city_name": "大和郡山市",
+      "city_slug": "yamatokooriyama-shi",
+      "macro_region": "関西",
+      "mayor_name": "上田 清",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-07-06",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nara.lg.jp/n173/2875.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "上田 清",
+        "term_start": "記載なし",
+        "term_end": "2029-07-06",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 593,
+      "prefecture_city_order": 2,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.md",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-29204",
+      "region_id": "mun-29204",
+      "pref_code": "29",
+      "pref_name": "奈良県",
+      "municipality_code": "29204",
+      "city_name": "天理市",
+      "city_slug": "tenri-shi",
+      "macro_region": "関西",
+      "mayor_name": "並河 健",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2029-10-27",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nara.lg.jp/n173/2875.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "並河 健",
+        "term_start": "記載なし",
+        "term_end": "2029-10-27",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 594,
+      "prefecture_city_order": 3,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.md",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-29205",
+      "region_id": "mun-29205",
+      "pref_code": "29",
+      "pref_name": "奈良県",
+      "municipality_code": "29205",
+      "city_name": "橿原市",
+      "city_slug": "kashihara-shi",
+      "macro_region": "関西",
+      "mayor_name": "亀田 忠彦",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-11-11",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nara.lg.jp/n173/2875.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "亀田 忠彦",
+        "term_start": "記載なし",
+        "term_end": "2027-11-11",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 595,
+      "prefecture_city_order": 4,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.md",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-29206",
+      "region_id": "mun-29206",
+      "pref_code": "29",
+      "pref_name": "奈良県",
+      "municipality_code": "29206",
+      "city_name": "桜井市",
+      "city_slug": "sakurai-shi",
+      "macro_region": "関西",
+      "mayor_name": "松井 正剛",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-12-01",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nara.lg.jp/n173/2875.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "松井 正剛",
+        "term_start": "記載なし",
+        "term_end": "2027-12-01",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 596,
+      "prefecture_city_order": 5,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.md",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-29207",
+      "region_id": "mun-29207",
+      "pref_code": "29",
+      "pref_name": "奈良県",
+      "municipality_code": "29207",
+      "city_name": "五條市",
+      "city_slug": "gojou-shi",
+      "macro_region": "関西",
+      "mayor_name": "平岡 清司",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-25",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nara.lg.jp/n173/2875.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "平岡 清司",
+        "term_start": "記載なし",
+        "term_end": "2027-04-25",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 597,
+      "prefecture_city_order": 6,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.md",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-29208",
+      "region_id": "mun-29208",
+      "pref_code": "29",
+      "pref_name": "奈良県",
+      "municipality_code": "29208",
+      "city_name": "御所市",
+      "city_slug": "gose-shi",
+      "macro_region": "関西",
+      "mayor_name": "山田 秀士",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-10-19",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nara.lg.jp/n173/2875.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "山田 秀士",
+        "term_start": "記載なし",
+        "term_end": "2028-10-19",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 598,
+      "prefecture_city_order": 7,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.md",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-29209",
+      "region_id": "mun-29209",
+      "pref_code": "29",
+      "pref_name": "奈良県",
+      "municipality_code": "29209",
+      "city_name": "生駒市",
+      "city_slug": "ikoma-shi",
+      "macro_region": "関西",
+      "mayor_name": "小紫 雅史",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2027-04-25",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nara.lg.jp/n173/2875.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "小紫 雅史",
+        "term_start": "記載なし",
+        "term_end": "2027-04-25",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 599,
+      "prefecture_city_order": 8,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.md",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-29210",
+      "region_id": "mun-29210",
+      "pref_code": "29",
+      "pref_name": "奈良県",
+      "municipality_code": "29210",
+      "city_name": "香芝市",
+      "city_slug": "kashiba-shi",
+      "macro_region": "関西",
+      "mayor_name": "三橋 和史",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-06-02",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nara.lg.jp/n173/2875.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "三橋 和史",
+        "term_start": "記載なし",
+        "term_end": "2028-06-02",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 600,
+      "prefecture_city_order": 9,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.md",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-29211",
+      "region_id": "mun-29211",
+      "pref_code": "29",
+      "pref_name": "奈良県",
+      "municipality_code": "29211",
+      "city_name": "葛城市",
+      "city_slug": "katsuragi-shi",
+      "macro_region": "関西",
+      "mayor_name": "阿古 和彦",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-10-30",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nara.lg.jp/n173/2875.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "阿古 和彦",
+        "term_start": "記載なし",
+        "term_end": "2028-10-30",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 601,
+      "prefecture_city_order": 10,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.md",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.sources.json"
+      ]
+    },
+    {
+      "id": "mayor-mun-29212",
+      "region_id": "mun-29212",
+      "pref_code": "29",
+      "pref_name": "奈良県",
+      "municipality_code": "29212",
+      "city_name": "宇陀市",
+      "city_slug": "uda-shi",
+      "macro_region": "関西",
+      "mayor_name": "金剛 一智",
+      "mayor_name_kana": null,
+      "term_start": null,
+      "term_start_display": "記載なし",
+      "term_end": "2028-06-27",
+      "term_end_display": null,
+      "term_note": "現職",
+      "status": "confirmed",
+      "investigated_at": "2026-04-23",
+      "sources": [
+        {
+          "kind": "prefecture_city_list",
+          "title": "奈良県市町村",
+          "url": "https://www.pref.nara.jp/1232.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "奈良県 任期満了日一覧（市町村）",
+          "url": "https://www.pref.nara.jp/2875.htm",
+          "checked_at": "2026-04-23",
+          "used_for": [],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "公式ページ",
+          "url": "https://www.pref.nara.lg.jp/n173/2875.html",
+          "checked_at": "2026-04-21",
+          "used_for": [
+            "mayor_name",
+            "term_start",
+            "term_end",
+            "term_note",
+            "note"
+          ],
+          "publisher": null,
+          "note": null
+        }
+      ],
+      "display_source": {
+        "label": "公式ページ",
+        "url": "https://www.pref.nara.lg.jp/n173/2875.html"
+      },
+      "last_checked_at": "2026-04-21",
+      "note": "県の任期満了日一覧で確認。",
+      "findings_values": {
+        "mayor_name": "金剛 一智",
+        "term_start": "記載なし",
+        "term_end": "2028-06-27",
+        "note": "県の任期満了日一覧で確認。"
+      },
+      "public_order": 602,
+      "prefecture_city_order": 11,
+      "source_artifacts": [
+        "site/pages/current-mayors.html",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.md",
+        "research/current-mayors/findings/29-nara/2026-04-23-round1.sources.json"
+      ]
+    }
+  ]
+}

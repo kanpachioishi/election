@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "election_id": "el-mun-11238-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-11238-mayor-2026-other-01",
+      "election_id": "el-mun-11238-mayor-2026",
+      "kind": "other",
+      "title": "蓮田市長選挙のお知らせ",
+      "url": "https://www.city.hasuda.saitama.jp/senkyo/r8sityousensennkyokijitu.html",
+      "summary": "蓮田市長選挙の告示日、投票日、投票所、開票、投票所入場券、不在者投票、選挙公報の配布予定を確認できる蓮田市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.hasuda.saitama.jp/senkyo/r8sityousensennkyokijitu.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    },
+    {
+      "id": "el-mun-11238-mayor-2026-early-voting-01",
+      "election_id": "el-mun-11238-mayor-2026",
+      "kind": "early_voting",
+      "title": "蓮田市長選挙のお知らせ・期日前投票",
+      "url": "https://www.city.hasuda.saitama.jp/senkyo/r8sityousensennkyokijitu.html#:~:text=%E6%9C%9F%E6%97%A5%E5%89%8D%E6%8A%95%E7%A5%A8",
+      "summary": "蓮田市長選挙の期日前投票期間、投票場所、投票時間を確認できる蓮田市公式ページ。",
+      "is_official": true,
+      "display_order": 2,
+      "verification": {
+        "source_url": "https://www.city.hasuda.saitama.jp/senkyo/r8sityousensennkyokijitu.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
+        "status": "verified",
+        "note": "表示URLには、期日前投票の見出しへ移動するテキストフラグメントを付与。"
+      }
+    },
+    {
+      "id": "el-mun-11238-mayor-2026-polling-place-01",
+      "election_id": "el-mun-11238-mayor-2026",
+      "kind": "polling_place",
+      "title": "投票所及び投票区域一覧",
+      "url": "https://www.city.hasuda.saitama.jp/senkyo/kurashi/senkyo/tohyojo/tohyojo.html",
+      "summary": "蓮田市の投票所施設名、所在地、投票区域を確認できる公式ページ。",
+      "is_official": true,
+      "display_order": 3,
+      "verification": {
+        "source_url": "https://www.city.hasuda.saitama.jp/senkyo/kurashi/senkyo/tohyojo/tohyojo.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T00:00:00+09:00",
+        "last_checked_at": "2026-04-27T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

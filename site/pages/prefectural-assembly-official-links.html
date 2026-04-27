@@ -1,0 +1,1760 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>県議会公式リンク台帳 - わたしの選挙</title>
+    <meta name="description" content="都道府県議会議員選挙を確認するときに使う、選管、議会、議員名簿、選挙区・定数、選挙公報などの公式リンク台帳です。">
+    <meta name="theme-color" content="#0b1219">
+    <link rel="manifest" href="../manifest.webmanifest">
+    <link rel="icon" href="../icons/app-icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="../icons/app-icon.svg">
+    <link rel="stylesheet" href="../assets/styles.css">
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #07131d;
+        --panel: #102131;
+        --line: rgba(244, 239, 227, 0.14);
+        --text: #f4efe3;
+        --muted: #a9bdd0;
+        --accent: #ffd27a;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: linear-gradient(135deg, #122230 0%, var(--bg) 52%, #163748 100%);
+        color: var(--text);
+        font-family: "BIZ UDPGothic", "Yu Gothic", sans-serif;
+      }
+
+      main {
+        width: min(1440px, calc(100% - 32px));
+        margin: 48px auto 64px;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+        font-size: clamp(2.1rem, 4.8vw, 3.4rem);
+        font-weight: 500;
+        line-height: 1.08;
+      }
+
+      p {
+        margin: 0 0 24px;
+        color: var(--muted);
+        line-height: 1.8;
+      }
+
+      .summary-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+        margin: 0 0 20px;
+      }
+
+      .summary-item,
+      .filter-bar,
+      .note-panel,
+      .table-wrap {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: rgba(16, 33, 49, 0.88);
+        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.24);
+      }
+
+      .summary-item {
+        padding: 14px 16px;
+      }
+
+      .summary-item span {
+        display: block;
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-weight: 800;
+      }
+
+      .summary-item strong {
+        display: block;
+        margin-top: 4px;
+        color: var(--text);
+        font-size: 1.35rem;
+      }
+
+      .note-panel {
+        margin: 0 0 20px;
+        padding: 16px 18px;
+      }
+
+      .note-panel p {
+        margin: 0;
+      }
+
+      .note-panel a,
+      td a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .note-panel a:hover,
+      .note-panel a:focus-visible,
+      td a:hover,
+      td a:focus-visible {
+        text-decoration: underline;
+      }
+
+      .filter-bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin: 0 0 20px;
+        padding: 16px 18px;
+      }
+
+      .filter-field {
+        display: grid;
+        gap: 6px;
+        min-width: 220px;
+      }
+
+      .filter-field label {
+        color: var(--muted);
+        font-size: 0.82rem;
+        font-weight: 800;
+        letter-spacing: 0.03em;
+      }
+
+      .filter-field select,
+      .filter-field input {
+        min-height: 44px;
+        padding: 10px 12px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: rgba(7, 19, 29, 0.9);
+        color: var(--text);
+        font: inherit;
+      }
+
+      .filter-field.wide {
+        min-width: min(380px, 100%);
+        flex: 1;
+      }
+
+      .count-note {
+        margin: 0 0 14px;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      .table-wrap {
+        overflow: auto;
+      }
+
+      table {
+        width: 100%;
+        min-width: 1040px;
+        border-collapse: collapse;
+      }
+
+      thead th {
+        position: sticky;
+        top: 0;
+        background: rgba(12, 23, 34, 0.98);
+        color: var(--accent);
+        text-align: left;
+        font-size: 0.9rem;
+        font-weight: 800;
+        letter-spacing: 0.03em;
+      }
+
+      th,
+      td {
+        padding: 14px 16px;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+      }
+
+      tbody tr:hover {
+        background: rgba(255, 210, 122, 0.05);
+      }
+
+      tbody tr[hidden] {
+        display: none;
+      }
+
+      .kind-pill {
+        display: inline-flex;
+        align-items: center;
+        min-height: 28px;
+        padding: 4px 9px;
+        border: 1px solid rgba(255, 210, 122, 0.32);
+        border-radius: 999px;
+        color: var(--accent);
+        font-size: 0.82rem;
+        font-weight: 800;
+        white-space: nowrap;
+      }
+
+      .link-title {
+        display: inline-block;
+        font-weight: 800;
+      }
+
+      .summary {
+        display: block;
+        margin-top: 6px;
+        color: var(--muted);
+        line-height: 1.7;
+      }
+
+      @media (max-width: 760px) {
+        main {
+          width: min(100% - 20px, 1440px);
+          margin: 28px auto 48px;
+        }
+
+        .summary-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../index.html" aria-label="わたしの選挙トップ">
+        <span class="brand-mark" aria-hidden="true">票</span>
+        <span>
+          <strong>わたしの選挙</strong>
+          <small>公式情報への案内</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="主なナビゲーション">
+        <a href="../index.html">トップ</a>
+        <a href="about.html">このサイトについて</a>
+        <a href="verification-policy.html">情報の確認基準</a>
+        <a href="current-mayors.html">現職市長台帳</a>
+        <a href="current-governors.html">現職知事台帳</a>
+        <a href="prefectural-assembly-terms.html">県議会任期台帳</a>
+        <a href="prefectural-assembly-districts.html">県議選挙区台帳</a>
+        <a href="prefectural-assembly-official-links.html" aria-current="page">県議公式リンク台帳</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>県議会公式リンク台帳</h1>
+      <p>県議会議員選挙を確認するときに使う公式導線を、選管、議会、議員名簿、選挙区・定数、直近一般選挙、選挙公報系に分けて整理しています。</p>
+
+      <section class="summary-grid" aria-label="台帳概要">
+        <div class="summary-item">
+          <span>掲載都道府県</span>
+          <strong>47件</strong>
+        </div>
+        <div class="summary-item">
+          <span>公式リンク</span>
+          <strong>194件</strong>
+        </div>
+        <div class="summary-item">
+          <span>リンク種別</span>
+          <strong>7種</strong>
+        </div>
+        <div class="summary-item">
+          <span>生成日</span>
+          <strong>2026-04-27</strong>
+        </div>
+      </section>
+
+      <section class="note-panel">
+        <p>初版は県議選挙区・定数台帳を詳細化済みの岩手県、宮城県、福島県、茨城県、東京都、沖縄県について整理。北海道、埼玉県、福岡県、青森県、新潟県、岐阜県を個別公式ページで追加。第3次拡張として、未詳細化府県にも都道府県選管連合会の47都道府県選管一覧と都道府県議会議員選挙表を公式集約リンクとして登録し、47都道府県を掲載対象にした。第4次拡張として秋田県、山形県、栃木県、群馬県、千葉県の個別県公式ページを確認し、確認済みの集約リンクを個別公式URLへ差し替え、議会・議員名簿・直近一般選挙・候補者公報の公式導線を追加した。第5次拡張として神奈川県、富山県、石川県、福井県、山梨県の個別県公式ページを確認し、確認済みの集約リンクを個別公式URLへ差し替え、議会・議員名簿・直近一般選挙・候補者公報の公式導線を追加した。富山県の令和5年県議選選挙公報リンクは県公式ページ上のリンク先が404だったため、候補者・公報行は未登録。 第6次拡張として、長野県、愛知県、三重県、滋賀県、京都府、大阪府、兵庫県、奈良県、和歌山県、鳥取県、島根県、岡山県、広島県、山口県、徳島県、香川県、愛媛県、高知県、熊本県、沖縄県の選管・選管事務局リンクを個別公式URLへ差し替えた。静岡県、佐賀県、長崎県、大分県、宮崎県、鹿児島県は個別の選挙情報ハブを追加した。あわせて長野県、滋賀県、大阪府、奈良県、岡山県、山口県、香川県、宮崎県の県議選挙区・定数または選挙区別名簿の公式導線を追加・差し替えた。 第7次拡張として、秋田県、静岡県、愛知県、三重県、京都府、兵庫県、和歌山県、鳥取県、島根県、広島県、徳島県、愛媛県、高知県、佐賀県、長崎県、熊本県、大分県、宮崎県、鹿児島県の公式個別ページを確認し、残っていた公式集約リンク24件を個別公式URLへ差し替えた。 詳細な選挙区・定数の台帳は <a href="prefectural-assembly-districts.html">県議選挙区台帳</a> に分けています。</p>
+      </section>
+
+      <div class="filter-bar">
+        <div class="filter-field wide">
+          <label for="searchInput">キーワード</label>
+          <input id="searchInput" type="search" placeholder="例: 選挙公報、議員名簿、定数">
+        </div>
+        <div class="filter-field">
+          <label for="prefectureFilter">都道府県</label>
+          <select id="prefectureFilter">
+            <option value="all">すべて</option>
+            <option value="01">北海道</option>
+            <option value="02">青森県</option>
+            <option value="03">岩手県</option>
+            <option value="04">宮城県</option>
+            <option value="05">秋田県</option>
+            <option value="06">山形県</option>
+            <option value="07">福島県</option>
+            <option value="08">茨城県</option>
+            <option value="09">栃木県</option>
+            <option value="10">群馬県</option>
+            <option value="11">埼玉県</option>
+            <option value="12">千葉県</option>
+            <option value="13">東京都</option>
+            <option value="14">神奈川県</option>
+            <option value="15">新潟県</option>
+            <option value="16">富山県</option>
+            <option value="17">石川県</option>
+            <option value="18">福井県</option>
+            <option value="19">山梨県</option>
+            <option value="20">長野県</option>
+            <option value="21">岐阜県</option>
+            <option value="22">静岡県</option>
+            <option value="23">愛知県</option>
+            <option value="24">三重県</option>
+            <option value="25">滋賀県</option>
+            <option value="26">京都府</option>
+            <option value="27">大阪府</option>
+            <option value="28">兵庫県</option>
+            <option value="29">奈良県</option>
+            <option value="30">和歌山県</option>
+            <option value="31">鳥取県</option>
+            <option value="32">島根県</option>
+            <option value="33">岡山県</option>
+            <option value="34">広島県</option>
+            <option value="35">山口県</option>
+            <option value="36">徳島県</option>
+            <option value="37">香川県</option>
+            <option value="38">愛媛県</option>
+            <option value="39">高知県</option>
+            <option value="40">福岡県</option>
+            <option value="41">佐賀県</option>
+            <option value="42">長崎県</option>
+            <option value="43">熊本県</option>
+            <option value="44">大分県</option>
+            <option value="45">宮崎県</option>
+            <option value="46">鹿児島県</option>
+            <option value="47">沖縄県</option>
+          </select>
+        </div>
+        <div class="filter-field">
+          <label for="kindFilter">リンク種別</label>
+          <select id="kindFilter">
+            <option value="all">すべて</option>
+            <option value="member_roster">議員名簿</option>
+            <option value="assembly_home">議会</option>
+            <option value="candidate_bulletin_archive">候補者・公報</option>
+            <option value="election_commission">選管</option>
+            <option value="districts">選挙区・定数</option>
+            <option value="election_hub">選挙入口</option>
+            <option value="recent_regular_election">直近一般選挙</option>
+          </select>
+        </div>
+      </div>
+
+      <p class="count-note" id="countNote">194件表示</p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>都道府県</th>
+              <th>種別</th>
+              <th>公式リンク</th>
+              <th>確認日</th>
+              <th>状態</th>
+            </tr>
+          </thead>
+          <tbody id="linkRows">
+            <tr data-pref-code="01" data-link-kind="election_commission" data-prefecture="北海道">
+              <td>北海道</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.hokkaido.lg.jp/hs/" target="_blank" rel="noopener noreferrer">北海道選挙管理委員会</a><span class="summary">北海道選挙管理委員会の公式入口。選挙結果、選挙公報、選挙関係情報への起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="01" data-link-kind="assembly_home" data-prefecture="北海道">
+              <td>北海道</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.gikai.pref.hokkaido.lg.jp/" target="_blank" rel="noopener noreferrer">北海道議会</a><span class="summary">北海道議会の公式入口。議員名簿、議会の概要、議会日程などの起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="01" data-link-kind="member_roster" data-prefecture="北海道">
+              <td>北海道</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.gikai.pref.hokkaido.lg.jp/meibo/index.html" target="_blank" rel="noopener noreferrer">北海道議会 議員名簿</a><span class="summary">北海道議会の第32期議員名簿。50音順、選挙区別・会派別議員一覧への導線を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="01" data-link-kind="districts" data-prefecture="北海道">
+              <td>北海道</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.gikai.pref.hokkaido.lg.jp/gaiyou/107453.html" target="_blank" rel="noopener noreferrer">北海道議会議員の選挙区定数が変わりました</a><span class="summary">北海道議会議員の選挙区・定数の変更内容と選挙区図を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="01" data-link-kind="recent_regular_election" data-prefecture="北海道">
+              <td>北海道</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.hokkaido.lg.jp/hs/senkyokankeidate/177022.html" target="_blank" rel="noopener noreferrer">令和5年執行 北海道知事・北海道議会議員選挙結果</a><span class="summary">令和5年4月9日執行の北海道議会議員選挙について、投票結果と開票結果を確認できる北海道選管ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="01" data-link-kind="candidate_bulletin_archive" data-prefecture="北海道">
+              <td>北海道</td>
+              <td><span class="kind-pill">候補者・公報</span></td>
+              <td><a class="link-title" href="https://www.pref.hokkaido.lg.jp/hs/151082.html" target="_blank" rel="noopener noreferrer">令和5年北海道知事選挙及び北海道議会議員選挙 選挙公報</a><span class="summary">令和5年北海道議会議員選挙の選挙公報PDFを選挙区別に確認できる北海道選管ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="02" data-link-kind="election_commission" data-prefecture="青森県">
+              <td>青森県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.aomori.lg.jp/soshiki/senkan/" target="_blank" rel="noopener noreferrer">青森県選挙管理委員会事務局</a><span class="summary">青森県選挙管理委員会事務局の公式入口。選挙情報、選挙結果、県議会議員選挙区などへの導線を持つ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="02" data-link-kind="assembly_home" data-prefecture="青森県">
+              <td>青森県</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.pref.aomori.lg.jp/soshiki/gikai/" target="_blank" rel="noopener noreferrer">青森県議会</a><span class="summary">青森県議会の公式入口。議会ホームページ、議長あいさつ、会議録検索などへの導線を持つ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="02" data-link-kind="member_roster" data-prefecture="青森県">
+              <td>青森県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.aomori.lg.jp/soshiki/gikai/giin-senkyoku.html" target="_blank" rel="noopener noreferrer">青森県議会 議員の紹介（選挙区別）</a><span class="summary">青森県議会議員を選挙区別に確認できる公式ページ。構成市町村、定数、議員名を掲載。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="02" data-link-kind="districts" data-prefecture="青森県">
+              <td>青森県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.aomori.lg.jp/soshiki/senkan/senkyoku.html" target="_blank" rel="noopener noreferrer">青森県議会議員の選挙区、構成市町村及び定数</a><span class="summary">青森県議会議員一般選挙の選挙区名、構成市町村、定数を確認できる青森県選管ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="02" data-link-kind="recent_regular_election" data-prefecture="青森県">
+              <td>青森県</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.aomori.lg.jp/soshiki/senkan/2323_kengisen_kekka_00.html" target="_blank" rel="noopener noreferrer">令和5年4月9日執行 青森県議会議員一般選挙の結果</a><span class="summary">令和5年4月9日執行の青森県議会議員一般選挙について、投票状況、得票状況、開票調を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="02" data-link-kind="candidate_bulletin_archive" data-prefecture="青森県">
+              <td>青森県</td>
+              <td><span class="kind-pill">候補者・公報</span></td>
+              <td><a class="link-title" href="https://www.pref.aomori.lg.jp/soshiki/senkan/2323_kengisen_kekka_00.html#:~:text=%E9%81%B8%E6%8C%99%E5%85%AC%E5%A0%B1%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" target="_blank" rel="noopener noreferrer">青森県議会議員一般選挙 選挙公報</a><span class="summary">令和5年青森県議会議員一般選挙の選挙公報PDFへの導線。結果ページ内の選挙公報見出しへ直接移動する。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="03" data-link-kind="election_commission" data-prefecture="岩手県">
+              <td>岩手県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.iwate.jp/iinkai/senkyo/index.html" target="_blank" rel="noopener noreferrer">岩手県 選挙管理委員会</a><span class="summary">岩手県選挙管理委員会の公式入口。選挙情報、選挙結果、啓発情報の起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="03" data-link-kind="assembly_home" data-prefecture="岩手県">
+              <td>岩手県</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.pref.iwate.jp/gikai/" target="_blank" rel="noopener noreferrer">岩手県議会</a><span class="summary">岩手県議会の公式入口。議会日程、議員、会議録などの起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="03" data-link-kind="member_roster" data-prefecture="岩手県">
+              <td>岩手県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://iwatekengikai.gijiroku.com/g07_giinlist_senkyoku.asp" target="_blank" rel="noopener noreferrer">岩手県議会 議員名簿 選挙区別</a><span class="summary">岩手県議会議員を選挙区別に確認できる公式議員名簿。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="03" data-link-kind="districts" data-prefecture="岩手県">
+              <td>岩手県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.iwate.jp/gikai/gaiyou/1035803.html" target="_blank" rel="noopener noreferrer">岩手県議会議員の選挙区・定数</a><span class="summary">岩手県議会議員選挙の選挙区と定数を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="03" data-link-kind="recent_regular_election" data-prefecture="岩手県">
+              <td>岩手県</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.iwate.jp/iinkai/senkyo/kekka/1074328.html" target="_blank" rel="noopener noreferrer">令和5年9月3日 県知事・県議会議員選挙</a><span class="summary">令和5年岩手県知事選挙・県議会議員選挙の結果、選挙公報などへの公式導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="04" data-link-kind="election_commission" data-prefecture="宮城県">
+              <td>宮城県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.miyagi.jp/soshiki/senkyo/index.html" target="_blank" rel="noopener noreferrer">宮城県 選挙管理委員会事務局</a><span class="summary">宮城県選挙管理委員会事務局の公式入口。県執行選挙、選挙結果、制度情報の起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="04" data-link-kind="election_hub" data-prefecture="宮城県">
+              <td>宮城県</td>
+              <td><span class="kind-pill">選挙入口</span></td>
+              <td><a class="link-title" href="https://www.pref.miyagi.jp/life/8/41/index.html" target="_blank" rel="noopener noreferrer">宮城県 選挙</a><span class="summary">宮城県公式サイトの選挙カテゴリ。選挙結果や選管ページへの入口。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="04" data-link-kind="assembly_home" data-prefecture="宮城県">
+              <td>宮城県</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.pref.miyagi.jp/site/kengikai/" target="_blank" rel="noopener noreferrer">宮城県議会</a><span class="summary">宮城県議会の公式入口。議会日程、議員名簿、会議録などの起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="04" data-link-kind="member_roster" data-prefecture="宮城県">
+              <td>宮城県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.miyagi.jp/site/kengikai/18meibo-kubetu.html" target="_blank" rel="noopener noreferrer">宮城県議会 議員名簿 選挙区別</a><span class="summary">宮城県議会議員を選挙区別に確認できる公式名簿。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="04" data-link-kind="districts" data-prefecture="宮城県">
+              <td>宮城県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.miyagi.jp/soshiki/senkyo/2023candidate.html" target="_blank" rel="noopener noreferrer">宮城県議会議員一般選挙 立候補者情報</a><span class="summary">令和5年宮城県議会議員一般選挙の選挙区、該当区域、定数、候補者情報を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="04" data-link-kind="candidate_bulletin_archive" data-prefecture="宮城県">
+              <td>宮城県</td>
+              <td><span class="kind-pill">候補者・公報</span></td>
+              <td><a class="link-title" href="https://www.pref.miyagi.jp/soshiki/senkyo/2023kengi-senkyokouhou.html" target="_blank" rel="noopener noreferrer">宮城県議会議員一般選挙 立候補者選挙公報</a><span class="summary">令和5年宮城県議会議員一般選挙の選挙公報を選挙区別に確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="04" data-link-kind="recent_regular_election" data-prefecture="宮城県">
+              <td>宮城県</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.miyagi.jp/site/miyagi-senkyo-kekka/r5kengikekka.html" target="_blank" rel="noopener noreferrer">令和5年10月22日執行 宮城県議会議員一般選挙結果</a><span class="summary">令和5年宮城県議会議員一般選挙の投開票結果を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="05" data-link-kind="election_commission" data-prefecture="秋田県">
+              <td>秋田県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.akita.lg.jp/pages/genre/15273" target="_blank" rel="noopener noreferrer">秋田県選挙管理委員会事務局</a><span class="summary">秋田県選挙管理委員会事務局の公式入口。秋田県執行選挙、選挙関連データ、委員会概要への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="05" data-link-kind="election_hub" data-prefecture="秋田県">
+              <td>秋田県</td>
+              <td><span class="kind-pill">選挙入口</span></td>
+              <td><a class="link-title" href="https://www.pref.akita.lg.jp/pages/genre/54477" target="_blank" rel="noopener noreferrer">秋田県執行選挙（国・県）</a><span class="summary">秋田県が執行した国政・県政選挙の投開票結果への公式入口。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="05" data-link-kind="districts" data-prefecture="秋田県">
+              <td>秋田県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www1.g-reiki.net/pref_akita/reiki_honbun/u600RG00000815.html" target="_blank" rel="noopener noreferrer">秋田県議会議員の定数並びに選挙区及び各選挙区において選挙すべき議員の数に関する条例</a><span class="summary">秋田県例規集の条例ページ。県議会議員の定数と選挙区別の選挙すべき議員数を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="05" data-link-kind="recent_regular_election" data-prefecture="秋田県">
+              <td>秋田県</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.akita.lg.jp/pages/archive/71692" target="_blank" rel="noopener noreferrer">令和5年4月9日執行 秋田県議会議員一般選挙 投開票結果</a><span class="summary">令和5年4月9日執行の秋田県議会議員一般選挙について、告示日、投票日、投票結果、開票結果を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="06" data-link-kind="election_commission" data-prefecture="山形県">
+              <td>山形県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.yamagata.jp/kensei/senkyo/senkyokanriiinkai/index.html" target="_blank" rel="noopener noreferrer">山形県選挙管理委員会</a><span class="summary">山形県選挙管理委員会の公式入口。選挙管理委員会の開催状況などへの導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="06" data-link-kind="assembly_home" data-prefecture="山形県">
+              <td>山形県</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.pref.yamagata.jp/kensei/assembly/index.html" target="_blank" rel="noopener noreferrer">山形県議会</a><span class="summary">山形県議会の公式入口。議員紹介、議会日程、委員会などの起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="06" data-link-kind="member_roster" data-prefecture="山形県">
+              <td>山形県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.yamagata.jp/600006/kensei/assembly/giinsyokai/senkyokubetu/index.html" target="_blank" rel="noopener noreferrer">山形県議会 選挙区別・五十音順</a><span class="summary">山形県議会議員を選挙区別に確認できる公式名簿。議員任期と選挙区別の定数も掲載。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="06" data-link-kind="districts" data-prefecture="山形県">
+              <td>山形県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.yamagata.jp/600006/kensei/assembly/giinsyokai/senkyokubetu/index.html" target="_blank" rel="noopener noreferrer">山形県議会 選挙区別一覧</a><span class="summary">山形県議会の選挙区、定数、選挙区内市町村を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="06" data-link-kind="recent_regular_election" data-prefecture="山形県">
+              <td>山形県</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.yamagata.jp/910001/kensei/senkyo/kakushu_kekka/chijigiin/r5kengi_senkyokekka.html" target="_blank" rel="noopener noreferrer">令和5年4月9日執行 山形県議会議員選挙 選挙結果</a><span class="summary">令和5年4月9日執行の山形県議会議員選挙について、選挙の記録、投開票結果、選挙公報を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="06" data-link-kind="candidate_bulletin_archive" data-prefecture="山形県">
+              <td>山形県</td>
+              <td><span class="kind-pill">候補者・公報</span></td>
+              <td><a class="link-title" href="https://www.pref.yamagata.jp/910001/kensei/senkyo/kakushu_kekka/chijigiin/r5kengi_senkyokekka.html" target="_blank" rel="noopener noreferrer">令和5年山形県議会議員選挙 選挙公報</a><span class="summary">令和5年4月9日執行の山形県議会議員選挙で、選挙区別の選挙公報PDFを確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="07" data-link-kind="election_commission" data-prefecture="福島県">
+              <td>福島県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.fukushima.lg.jp/sec/62010a/index.html" target="_blank" rel="noopener noreferrer">福島県選挙管理委員会事務局</a><span class="summary">福島県選挙管理委員会事務局の公式入口。選挙情報や結果資料の起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="07" data-link-kind="election_hub" data-prefecture="福島県">
+              <td>福島県</td>
+              <td><span class="kind-pill">選挙入口</span></td>
+              <td><a class="link-title" href="https://www.pref.fukushima.lg.jp/life/7/35/126/index.html" target="_blank" rel="noopener noreferrer">福島県 選挙結果・各種資料</a><span class="summary">福島県公式サイトの選挙結果・資料カテゴリ。県議会議員選挙の資料を探す入口。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="07" data-link-kind="assembly_home" data-prefecture="福島県">
+              <td>福島県</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.pref.fukushima.lg.jp/site/gikai/" target="_blank" rel="noopener noreferrer">福島県議会</a><span class="summary">福島県議会の公式入口。議員紹介、議会日程、会議録などの起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="07" data-link-kind="member_roster" data-prefecture="福島県">
+              <td>福島県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.fukushima.lg.jp/site/gikai/list7.html" target="_blank" rel="noopener noreferrer">福島県議会 議員紹介</a><span class="summary">福島県議会議員を選挙区別に確認できる公式名簿。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="07" data-link-kind="districts" data-prefecture="福島県">
+              <td>福島県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.fukushima.lg.jp/site/gikai/senkyokuzu2011.html" target="_blank" rel="noopener noreferrer">福島県議会議員の選挙区及び定数</a><span class="summary">福島県議会議員選挙の選挙区、区域、定数を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="08" data-link-kind="election_hub" data-prefecture="茨城県">
+              <td>茨城県</td>
+              <td><span class="kind-pill">選挙入口</span></td>
+              <td><a class="link-title" href="https://www.pref.ibaraki.jp/shiru/senkyo/index.html" target="_blank" rel="noopener noreferrer">茨城県 選挙</a><span class="summary">茨城県公式サイトの選挙入口。選挙管理委員会や各選挙情報への起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="08" data-link-kind="election_commission" data-prefecture="茨城県">
+              <td>茨城県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.ibaraki.jp/somu/shichoson/senkyo/senkan/index2.html" target="_blank" rel="noopener noreferrer">茨城県選挙管理委員会</a><span class="summary">茨城県選挙管理委員会の公式ページ。県内選挙情報と選挙啓発の起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="08" data-link-kind="assembly_home" data-prefecture="茨城県">
+              <td>茨城県</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.pref.ibaraki.jp/gikai/" target="_blank" rel="noopener noreferrer">茨城県議会</a><span class="summary">茨城県議会の公式入口。議員名簿、会議録、議会情報の起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="08" data-link-kind="member_roster" data-prefecture="茨城県">
+              <td>茨城県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.ibaraki.jp/gikai/meibo/" target="_blank" rel="noopener noreferrer">茨城県議会 議員名簿</a><span class="summary">茨城県議会議員の名簿を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="08" data-link-kind="districts" data-prefecture="茨城県">
+              <td>茨城県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.ibaraki.jp/somu/somu/hosei/cont/reiki_int/reiki_honbun/o400RG00000230.html" target="_blank" rel="noopener noreferrer">茨城県議会議員の定数、選挙区等に関する条例</a><span class="summary">茨城県議会議員選挙の選挙区と定数を確認できる県例規ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="08" data-link-kind="recent_regular_election" data-prefecture="茨城県">
+              <td>茨城県</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.ibaraki.jp/somu/shichoson/senkyo/senkan/r4kengisen/r4kengisen.html" target="_blank" rel="noopener noreferrer">令和4年12月11日執行 茨城県議会議員一般選挙</a><span class="summary">令和4年茨城県議会議員一般選挙の公式情報と投開票結果への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="08" data-link-kind="candidate_bulletin_archive" data-prefecture="茨城県">
+              <td>茨城県</td>
+              <td><span class="kind-pill">候補者・公報</span></td>
+              <td><a class="link-title" href="https://www.pref.ibaraki.jp/somu/shichoson/senkyo/senkan/r4kengisen/kohosya_jyoho.html" target="_blank" rel="noopener noreferrer">茨城県議会議員一般選挙 候補者情報・選挙公報</a><span class="summary">令和4年茨城県議会議員一般選挙の候補者情報と選挙公報を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="09" data-link-kind="election_commission" data-prefecture="栃木県">
+              <td>栃木県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.tochigi.lg.jp/k05/" target="_blank" rel="noopener noreferrer">栃木県選挙管理委員会</a><span class="summary">栃木県選挙管理委員会の公式入口。選挙結果、県内選挙情報、選挙管理委員会の業務への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="09" data-link-kind="assembly_home" data-prefecture="栃木県">
+              <td>栃木県</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.pref.tochigi.lg.jp/kengikai/" target="_blank" rel="noopener noreferrer">栃木県議会</a><span class="summary">栃木県議会の公式入口。議員名簿、会議、委員会などの起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="09" data-link-kind="member_roster" data-prefecture="栃木県">
+              <td>栃木県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.tochigi.lg.jp/p01/assembly/giin/meibo/meibosenkyokuyobi.html" target="_blank" rel="noopener noreferrer">栃木県議会 選挙区別議員名簿</a><span class="summary">栃木県議会議員を選挙区別に確認できる公式名簿。選挙区、定数、現職議員を掲載。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="09" data-link-kind="districts" data-prefecture="栃木県">
+              <td>栃木県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.tochigi.lg.jp/k05/pref/senkyo/jyouhou/are.html#senkyoku_kengi" target="_blank" rel="noopener noreferrer">栃木県議会議員選挙の選挙区・定数</a><span class="summary">栃木県選挙管理委員会の「選挙あれこれ」内で、栃木県議会議員選挙の16選挙区と定数50を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="09" data-link-kind="recent_regular_election" data-prefecture="栃木県">
+              <td>栃木県</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.tochigi.lg.jp/k05/pref/senkyo/chiji-kengi/kengi.html" target="_blank" rel="noopener noreferrer">栃木県議会議員選挙</a><span class="summary">栃木県議会議員一般選挙と補欠選挙の予定・結果を確認できる公式ページ。令和5年4月9日一般選挙の投票率と記録への導線を掲載。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="10" data-link-kind="election_commission" data-prefecture="群馬県">
+              <td>群馬県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.gunma.jp/soshiki/16.html" target="_blank" rel="noopener noreferrer">群馬県選挙管理委員会</a><span class="summary">群馬県選挙管理委員会の組織公式ページ。主な業務内容と連絡先を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="10" data-link-kind="election_hub" data-prefecture="群馬県">
+              <td>群馬県</td>
+              <td><span class="kind-pill">選挙入口</span></td>
+              <td><a class="link-title" href="https://www.pref.gunma.jp/soshiki/218/index-2.html" target="_blank" rel="noopener noreferrer">群馬県 選挙管理委員会</a><span class="summary">群馬県選挙管理委員会の選挙情報入口。県議会議員選挙トップページ、結果一覧、選挙公報への導線を掲載。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="10" data-link-kind="assembly_home" data-prefecture="群馬県">
+              <td>群馬県</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.pref.gunma.jp/site/gikai/" target="_blank" rel="noopener noreferrer">群馬県議会</a><span class="summary">群馬県議会の公式入口。議員紹介、選挙区別、議会活動などの起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="10" data-link-kind="member_roster" data-prefecture="群馬県">
+              <td>群馬県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.gunma.jp/site/gikai/25704.html" target="_blank" rel="noopener noreferrer">群馬県議会 議員の紹介 選挙区別</a><span class="summary">群馬県議会議員を選挙区別に確認できる公式名簿。選挙区ごとの定数と現職議員を掲載。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="10" data-link-kind="districts" data-prefecture="群馬県">
+              <td>群馬県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.gunma.jp/site/gikai/25699.html" target="_blank" rel="noopener noreferrer">群馬県議会とは（議員定数）</a><span class="summary">群馬県議会の議員定数、任期、18選挙区ごとの定数を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="10" data-link-kind="recent_regular_election" data-prefecture="群馬県">
+              <td>群馬県</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.gunma.jp/page/180312.html" target="_blank" rel="noopener noreferrer">群馬県議会議員選挙（統一地方選挙）トップページ</a><span class="summary">令和5年4月9日執行の群馬県議会議員選挙について、投票日、候補者情報、選挙人名簿登録者数への導線を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="10" data-link-kind="candidate_bulletin_archive" data-prefecture="群馬県">
+              <td>群馬県</td>
+              <td><span class="kind-pill">候補者・公報</span></td>
+              <td><a class="link-title" href="https://www.pref.gunma.jp/page/189216.html" target="_blank" rel="noopener noreferrer">群馬県議会議員選挙 候補者情報</a><span class="summary">令和5年群馬県議会議員選挙の候補者情報と選挙公報PDFを選挙区別に確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="11" data-link-kind="election_hub" data-prefecture="埼玉県">
+              <td>埼玉県</td>
+              <td><span class="kind-pill">選挙入口</span></td>
+              <td><a class="link-title" href="https://www.pref.saitama.lg.jp/kurashi/senkyo/" target="_blank" rel="noopener noreferrer">埼玉県 選挙</a><span class="summary">埼玉県公式サイトの選挙カテゴリ。選管、選挙結果、投票率、選挙データなどの起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="11" data-link-kind="election_commission" data-prefecture="埼玉県">
+              <td>埼玉県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.saitama.lg.jp/soshiki/e1701/" target="_blank" rel="noopener noreferrer">埼玉県 選挙管理委員会</a><span class="summary">埼玉県選挙管理委員会の公式組織ページ。選挙結果、選挙日程、県議会議員補欠選挙などへの導線を持つ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="11" data-link-kind="assembly_home" data-prefecture="埼玉県">
+              <td>埼玉県</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.pref.saitama.lg.jp/s-gikai/" target="_blank" rel="noopener noreferrer">埼玉県議会</a><span class="summary">埼玉県議会の公式入口。議員名簿、議会日程、広報などの起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="11" data-link-kind="member_roster" data-prefecture="埼玉県">
+              <td>埼玉県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.saitama.lg.jp/e1601/gikai-member-senkyoku.html" target="_blank" rel="noopener noreferrer">埼玉県議会 議員名簿 選挙区別</a><span class="summary">埼玉県議会議員の選挙区別名簿。選挙区数、定数、欠員数も確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="11" data-link-kind="districts" data-prefecture="埼玉県">
+              <td>埼玉県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.saitama.lg.jp/e1701/kengi-map.html" target="_blank" rel="noopener noreferrer">埼玉県議会議員選挙区図</a><span class="summary">埼玉県議会議員選挙の選挙区図、選挙区、定数を確認できる埼玉県選管ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="11" data-link-kind="recent_regular_election" data-prefecture="埼玉県">
+              <td>埼玉県</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.saitama.lg.jp/e1701/r5_kengisenkekka.html" target="_blank" rel="noopener noreferrer">埼玉県議会議員一般選挙（令和5年4月9日執行）結果</a><span class="summary">令和5年4月9日執行の埼玉県議会議員一般選挙について、投票状況、開票状況、得票数などを確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="11" data-link-kind="candidate_bulletin_archive" data-prefecture="埼玉県">
+              <td>埼玉県</td>
+              <td><span class="kind-pill">候補者・公報</span></td>
+              <td><a class="link-title" href="https://www.pref.saitama.lg.jp/e1701/r5_kengisenkekka.html#:~:text=%E9%81%B8%E6%8C%99%E5%85%AC%E5%A0%B1" target="_blank" rel="noopener noreferrer">埼玉県議会議員一般選挙 選挙公報</a><span class="summary">令和5年埼玉県議会議員一般選挙の選挙公報PDFへの導線。結果ページ内の選挙公報見出しへ直接移動する。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="12" data-link-kind="election_commission" data-prefecture="千葉県">
+              <td>千葉県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.chiba.lg.jp/senkan/" target="_blank" rel="noopener noreferrer">千葉県選挙管理委員会</a><span class="summary">千葉県選挙管理委員会の公式入口。千葉県の選挙、過去の選挙結果、任期・定数・選挙区への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="12" data-link-kind="assembly_home" data-prefecture="千葉県">
+              <td>千葉県</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.pref.chiba.lg.jp/gikai/" target="_blank" rel="noopener noreferrer">千葉県議会</a><span class="summary">千葉県議会の公式入口。議員紹介、選挙区及び議員定数、議会情報の起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="12" data-link-kind="member_roster" data-prefecture="千葉県">
+              <td>千葉県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.chiba.lg.jp/gikai/giin/index.html" target="_blank" rel="noopener noreferrer">千葉県議会 議員紹介</a><span class="summary">千葉県議会の議員紹介入口。五十音順、会派等別、選挙区及び議員定数への導線を掲載。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="12" data-link-kind="districts" data-prefecture="千葉県">
+              <td>千葉県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/ninki-teisuu.html" target="_blank" rel="noopener noreferrer">国会議員・千葉県知事・千葉県議会議員の任期・定数・選挙区</a><span class="summary">千葉県選挙管理委員会が掲載する、千葉県議会議員の任期、定数95、41選挙区と定数を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="12" data-link-kind="recent_regular_election" data-prefecture="千葉県">
+              <td>千葉県</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.chiba.lg.jp/senkan/kakokekka/r05-0409.html" target="_blank" rel="noopener noreferrer">令和5年4月9日執行 千葉県議会議員一般選挙</a><span class="summary">令和5年4月9日執行の千葉県議会議員一般選挙について、選挙結果、開票結果、投票結果を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="12" data-link-kind="candidate_bulletin_archive" data-prefecture="千葉県">
+              <td>千葉県</td>
+              <td><span class="kind-pill">候補者・公報</span></td>
+              <td><a class="link-title" href="https://www.pref.chiba.lg.jp/senkan/kakokekka/r05-0409.html" target="_blank" rel="noopener noreferrer">令和5年千葉県議会議員一般選挙 立候補者情報・選挙公報</a><span class="summary">令和5年4月9日執行の千葉県議会議員一般選挙で、立候補者一覧と選挙区別の選挙公報PDFを確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="13" data-link-kind="election_commission" data-prefecture="東京都">
+              <td>東京都</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.senkyo.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer">東京都選挙管理委員会</a><span class="summary">東京都選挙管理委員会の公式入口。都議選、知事選、国政選挙情報の起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="13" data-link-kind="assembly_home" data-prefecture="東京都">
+              <td>東京都</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.gikai.metro.tokyo.lg.jp/" target="_blank" rel="noopener noreferrer">東京都議会</a><span class="summary">東京都議会の公式入口。議員名簿、議会日程、会議録などの起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="13" data-link-kind="member_roster" data-prefecture="東京都">
+              <td>東京都</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.gikai.metro.tokyo.lg.jp/membership/electoral-zone.html" target="_blank" rel="noopener noreferrer">東京都議会 選挙区別議員名簿</a><span class="summary">東京都議会議員を選挙区別に確認できる公式名簿。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="13" data-link-kind="districts" data-prefecture="東京都">
+              <td>東京都</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.senkyo.metro.tokyo.lg.jp/election/kakushu-teisuu/togi-teisuu-list1" target="_blank" rel="noopener noreferrer">東京都議会議員の定数等</a><span class="summary">東京都議会議員選挙の選挙区と定数を確認できる東京都選管ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="13" data-link-kind="recent_regular_election" data-prefecture="東京都">
+              <td>東京都</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.senkyo.metro.tokyo.lg.jp/election/togikai-all/togikai-sokuhou2025/" target="_blank" rel="noopener noreferrer">令和7年東京都議会議員選挙 投開票速報</a><span class="summary">令和7年東京都議会議員選挙の投開票速報を確認できる東京都選管ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="13" data-link-kind="candidate_bulletin_archive" data-prefecture="東京都">
+              <td>東京都</td>
+              <td><span class="kind-pill">候補者・公報</span></td>
+              <td><a class="link-title" href="https://www.senkyo.metro.tokyo.lg.jp/election/senkyo-kouhou/r7togikai-kouhou" target="_blank" rel="noopener noreferrer">東京都議会議員選挙 選挙公報</a><span class="summary">令和7年東京都議会議員選挙の選挙公報を選挙区別に確認できる東京都選管ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="14" data-link-kind="election_commission" data-prefecture="神奈川県">
+              <td>神奈川県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.kanagawa.jp/docs/em7/cnt/f5/" target="_blank" rel="noopener noreferrer">神奈川県選挙管理委員会</a><span class="summary">神奈川県選挙管理委員会の公式入口。選挙日程、任期満了日、選挙の記録、県議会議員選挙結果への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="14" data-link-kind="assembly_home" data-prefecture="神奈川県">
+              <td>神奈川県</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.pref.kanagawa.jp/gikai/" target="_blank" rel="noopener noreferrer">神奈川県議会</a><span class="summary">神奈川県議会の公式入口。議員紹介、会議日程、議会中継などの起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="14" data-link-kind="member_roster" data-prefecture="神奈川県">
+              <td>神奈川県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.kanagawa.jp/gikai/p80275.html" target="_blank" rel="noopener noreferrer">神奈川県議会 議員の紹介 選挙区でさがす</a><span class="summary">神奈川県議会議員を選挙区別に確認できる公式名簿。選挙区別の現職議員一覧を掲載。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="14" data-link-kind="districts" data-prefecture="神奈川県">
+              <td>神奈川県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.kanagawa.jp/gikai/p80275.html" target="_blank" rel="noopener noreferrer">神奈川県議会 選挙区別議員一覧</a><span class="summary">神奈川県議会の選挙区別一覧。47選挙区の名称と各選挙区の定数を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="14" data-link-kind="recent_regular_election" data-prefecture="神奈川県">
+              <td>神奈川県</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.kanagawa.jp/docs/em7/cnt/f5/p744573.html" target="_blank" rel="noopener noreferrer">令和5年4月9日執行 神奈川県知事選挙・神奈川県議会議員選挙</a><span class="summary">令和5年4月9日執行の神奈川県議会議員選挙について、選挙結果と選挙公報を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="14" data-link-kind="candidate_bulletin_archive" data-prefecture="神奈川県">
+              <td>神奈川県</td>
+              <td><span class="kind-pill">候補者・公報</span></td>
+              <td><a class="link-title" href="https://www.pref.kanagawa.jp/docs/em7/cnt/f5/p744573.html" target="_blank" rel="noopener noreferrer">令和5年神奈川県議会議員選挙 選挙公報</a><span class="summary">令和5年4月9日執行の神奈川県議会議員選挙で、横浜市各区、川崎市・相模原市各区、政令市以外の選挙区の選挙公報PDFを確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="15" data-link-kind="election_commission" data-prefecture="新潟県">
+              <td>新潟県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.niigata.lg.jp/site/senkyo/" target="_blank" rel="noopener noreferrer">新潟県選挙管理委員会</a><span class="summary">新潟県選挙管理委員会の公式入口。選挙区と定数、県議会議員選挙、選挙結果などへの導線を持つ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="15" data-link-kind="assembly_home" data-prefecture="新潟県">
+              <td>新潟県</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.pref.niigata.lg.jp/site/gikai/" target="_blank" rel="noopener noreferrer">新潟県議会</a><span class="summary">新潟県議会の公式入口。議員紹介、議会情報、県議会報などの起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="15" data-link-kind="member_roster" data-prefecture="新潟県">
+              <td>新潟県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.niigata.lg.jp/site/gikai/1356810287682.html" target="_blank" rel="noopener noreferrer">新潟県議会 議員名簿</a><span class="summary">新潟県議会議員の選出選挙区、所属党会派、当選回数、所属委員会を確認できる公式名簿。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="15" data-link-kind="districts" data-prefecture="新潟県">
+              <td>新潟県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.niigata.lg.jp/site/senkyo/1198602068509.html" target="_blank" rel="noopener noreferrer">新潟県議会議員の選挙区と定数</a><span class="summary">新潟県議会議員の選挙区、区域、定数を確認できる新潟県選管ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="15" data-link-kind="recent_regular_election" data-prefecture="新潟県">
+              <td>新潟県</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.niigata.lg.jp/site/senkyo/r5-kengi.html" target="_blank" rel="noopener noreferrer">令和5年4月9日執行 新潟県議会議員選挙</a><span class="summary">令和5年4月9日執行の新潟県議会議員選挙について、投票結果、開票結果、選挙の記録を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="16" data-link-kind="election_commission" data-prefecture="富山県">
+              <td>富山県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.toyama.jp/kensei/kenseiunei/senkyo/iinkai/index.html" target="_blank" rel="noopener noreferrer">富山県選挙管理委員会</a><span class="summary">富山県選挙管理委員会の公式入口。政治団体、選挙についての情報への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="16" data-link-kind="election_hub" data-prefecture="富山県">
+              <td>富山県</td>
+              <td><span class="kind-pill">選挙入口</span></td>
+              <td><a class="link-title" href="https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/senkyo.html" target="_blank" rel="noopener noreferrer">富山県選挙管理委員会 選挙について</a><span class="summary">富山県選挙管理委員会の選挙情報入口。選挙日程、選挙結果、選挙人名簿登録者数などへの導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="16" data-link-kind="assembly_home" data-prefecture="富山県">
+              <td>富山県</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.pref.toyama.jp/0100/gikai/" target="_blank" rel="noopener noreferrer">富山県議会</a><span class="summary">富山県議会の公式入口。議員紹介、議会日程、会議録などの起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="16" data-link-kind="member_roster" data-prefecture="富山県">
+              <td>富山県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.toyama.jp/0100/gikai/members/kubetu.html" target="_blank" rel="noopener noreferrer">富山県議会 選挙区別議員名簿</a><span class="summary">富山県議会議員を選挙区別に確認できる公式名簿。各選挙区の定数、現員、議員名を掲載。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="16" data-link-kind="districts" data-prefecture="富山県">
+              <td>富山県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.toyama.jp/0100/gikai/members/kubetu.html" target="_blank" rel="noopener noreferrer">富山県議会 選挙区別議員名簿</a><span class="summary">富山県議会の13選挙区と各選挙区の定数・現員を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="16" data-link-kind="recent_regular_election" data-prefecture="富山県">
+              <td>富山県</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_kekka.html#kengikai" target="_blank" rel="noopener noreferrer">富山県議会議員選挙の結果</a><span class="summary">富山県選挙管理委員会の選挙結果ページ。令和5年4月9日施行の富山県議会議員選挙について、投票結果、開票結果、年齢別投票率への導線を掲載。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="17" data-link-kind="election_commission" data-prefecture="石川県">
+              <td>石川県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.ishikawa.lg.jp/senkan/" target="_blank" rel="noopener noreferrer">石川県選挙管理委員会</a><span class="summary">石川県選挙管理委員会の公式入口。任期満了日一覧、過去の選挙結果、県議会議員選挙特設ページへの導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="17" data-link-kind="assembly_home" data-prefecture="石川県">
+              <td>石川県</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.pref.ishikawa.lg.jp/gikai/" target="_blank" rel="noopener noreferrer">石川県議会</a><span class="summary">石川県議会の公式入口。議員名簿、議会日程、会議録などの起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="17" data-link-kind="member_roster" data-prefecture="石川県">
+              <td>石川県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.ishikawa.lg.jp/gikai/meibo/senkyoku20150430.html" target="_blank" rel="noopener noreferrer">石川県議会 選挙区別名簿</a><span class="summary">石川県議会議員を選挙区別に確認できる公式名簿。選挙区、定数、所属会派等を掲載。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="17" data-link-kind="districts" data-prefecture="石川県">
+              <td>石川県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.ishikawa.lg.jp/gikai/meibo/senkyoku20150430.html" target="_blank" rel="noopener noreferrer">石川県議会 選挙区別名簿</a><span class="summary">石川県議会の14選挙区と選挙区別の定数を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="17" data-link-kind="recent_regular_election" data-prefecture="石川県">
+              <td>石川県</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.ishikawa.lg.jp/senkan/r5kengi/tokusetu_top.html" target="_blank" rel="noopener noreferrer">令和5年4月9日執行 石川県議会議員選挙（統一地方選挙）</a><span class="summary">令和5年4月9日執行の石川県議会議員選挙について、投票日、投開票速報、立候補者情報への導線を確認できる公式特設ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="17" data-link-kind="candidate_bulletin_archive" data-prefecture="石川県">
+              <td>石川県</td>
+              <td><span class="kind-pill">候補者・公報</span></td>
+              <td><a class="link-title" href="https://www.pref.ishikawa.lg.jp/senkan/r5kengi/kouhoshajyouhou.html" target="_blank" rel="noopener noreferrer">石川県議会議員選挙 候補者等情報</a><span class="summary">令和5年石川県議会議員選挙の候補者一覧と選挙公報PDFを選挙区別に確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="18" data-link-kind="election_commission" data-prefecture="福井県">
+              <td>福井県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.fukui.lg.jp/doc/senkan/index.html" target="_blank" rel="noopener noreferrer">福井県選挙管理委員会事務局</a><span class="summary">福井県選挙管理委員会事務局の公式入口。選挙日程、選挙結果、県議会議員選挙の選挙区への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="18" data-link-kind="assembly_home" data-prefecture="福井県">
+              <td>福井県</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.pref.fukui.lg.jp/gikai/" target="_blank" rel="noopener noreferrer">福井県議会</a><span class="summary">福井県議会の公式入口。議員の紹介、選挙区、議会日程などの起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="18" data-link-kind="member_roster" data-prefecture="福井県">
+              <td>福井県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.fukui.lg.jp/doc/gikai-soumu/giinshokai/senkyokubetsu.html" target="_blank" rel="noopener noreferrer">福井県議会 選挙区別名簿</a><span class="summary">福井県議会議員を選挙区別に確認できる公式名簿。選挙区ごとの定員と議員名を掲載。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="18" data-link-kind="districts" data-prefecture="福井県">
+              <td>福井県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.fukui.lg.jp/doc/gikai-soumu/giinshokai/senkyokubetsu.html" target="_blank" rel="noopener noreferrer">福井県議会 選挙区別名簿</a><span class="summary">福井県議会の12選挙区と各選挙区の定員を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="18" data-link-kind="recent_regular_election" data-prefecture="福井県">
+              <td>福井県</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.fukui.lg.jp/doc/senkan/r5touitusen/main.html" target="_blank" rel="noopener noreferrer">令和5年4月9日執行 福井県知事選挙・福井県議会議員選挙</a><span class="summary">令和5年4月9日執行の福井県議会議員選挙について、選挙概要、選挙区・定数、立候補届出、投開票速報への導線を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="18" data-link-kind="candidate_bulletin_archive" data-prefecture="福井県">
+              <td>福井県</td>
+              <td><span class="kind-pill">候補者・公報</span></td>
+              <td><a class="link-title" href="https://www.pref.fukui.lg.jp/doc/senkan/r5touitusen/main.html" target="_blank" rel="noopener noreferrer">令和5年福井県議会議員選挙 立候補届出・選挙公報</a><span class="summary">令和5年福井県議会議員選挙の立候補届出状況と選挙区別の選挙公報PDFを確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="19" data-link-kind="election_commission" data-prefecture="山梨県">
+              <td>山梨県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.yamanashi.jp/senkyo/" target="_blank" rel="noopener noreferrer">山梨県選挙管理委員会</a><span class="summary">山梨県選挙管理委員会の公式入口。選挙制度、選挙の予定・結果、過去の県議会議員一般選挙への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="19" data-link-kind="election_hub" data-prefecture="山梨県">
+              <td>山梨県</td>
+              <td><span class="kind-pill">選挙入口</span></td>
+              <td><a class="link-title" href="https://www.pref.yamanashi.jp/kensei/senkyo/" target="_blank" rel="noopener noreferrer">山梨県 選挙</a><span class="summary">山梨県公式サイトの選挙カテゴリ。選挙制度、県内の選挙区、県議会議員選挙、選挙結果への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="19" data-link-kind="assembly_home" data-prefecture="山梨県">
+              <td>山梨県</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.pref.yamanashi.jp/gikaisom/" target="_blank" rel="noopener noreferrer">山梨県議会</a><span class="summary">山梨県議会の公式入口。議員名簿、定例会・臨時会、議会活動などの起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="19" data-link-kind="member_roster" data-prefecture="山梨県">
+              <td>山梨県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.yamanashi.jp/gikaisom/senkyokubetu_meibo.html" target="_blank" rel="noopener noreferrer">山梨県議会 選挙区別議員一覧</a><span class="summary">山梨県議会議員を選挙区別に確認できる公式名簿。議員定数37人、欠員数、選挙区別の議員を掲載。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="19" data-link-kind="districts" data-prefecture="山梨県">
+              <td>山梨県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.yamanashi.jp/gikaisom/senkyokubetu_meibo.html" target="_blank" rel="noopener noreferrer">山梨県議会 選挙区別議員一覧</a><span class="summary">山梨県議会の選挙区別一覧。選挙区と議員定数37人を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="19" data-link-kind="recent_regular_election" data-prefecture="山梨県">
+              <td>山梨県</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.yamanashi.jp/senkyo/r5kengi.html" target="_blank" rel="noopener noreferrer">令和5年4月9日執行 山梨県議会議員一般選挙結果</a><span class="summary">令和5年4月9日執行の山梨県議会議員一般選挙について、投票速報、開票速報、得票表を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="19" data-link-kind="candidate_bulletin_archive" data-prefecture="山梨県">
+              <td>山梨県</td>
+              <td><span class="kind-pill">候補者・公報</span></td>
+              <td><a class="link-title" href="https://www.pref.yamanashi.jp/senkyo/r5_kengisen.html" target="_blank" rel="noopener noreferrer">令和5年山梨県議会議員一般選挙 候補者情報・選挙公報</a><span class="summary">令和5年山梨県議会議員一般選挙の候補者情報、無投票選挙区、選挙区別の選挙公報PDFを確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="20" data-link-kind="election_commission" data-prefecture="長野県">
+              <td>長野県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.nagano.lg.jp/senkan/kensei/soshiki/soshiki/kencho/senkyo/index.html" target="_blank" rel="noopener noreferrer">長野県 選挙管理委員会紹介</a><span class="summary">長野県選挙管理委員会の公式入口。県議会議員選挙結果や選管業務情報への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="20" data-link-kind="districts" data-prefecture="長野県">
+              <td>長野県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.nagano.lg.jp/gikai/gikai/giin/senkyoku/index.html" target="_blank" rel="noopener noreferrer">長野県議会 選挙区別議員名簿</a><span class="summary">長野県議会議員の選挙区別名簿。23選挙区・総定数57人と選挙区別定数を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="20" data-link-kind="member_roster" data-prefecture="長野県">
+              <td>長野県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.nagano.lg.jp/gikai/gikai/giin/senkyoku/index.html" target="_blank" rel="noopener noreferrer">長野県議会 選挙区別議員名簿</a><span class="summary">長野県議会議員を選挙区別に確認できる公式名簿。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="20" data-link-kind="recent_regular_election" data-prefecture="長野県">
+              <td>長野県</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.nagano.lg.jp/senkan/kengi2023/toukaihyoukekka.html" target="_blank" rel="noopener noreferrer">令和5年4月9日 長野県議会議員一般選挙 投票・開票結果</a><span class="summary">令和5年長野県議会議員一般選挙の投票・開票結果を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="20" data-link-kind="candidate_bulletin_archive" data-prefecture="長野県">
+              <td>長野県</td>
+              <td><span class="kind-pill">候補者・公報</span></td>
+              <td><a class="link-title" href="https://www.pref.nagano.lg.jp/senkan/kengi2023/senkyokoho.html" target="_blank" rel="noopener noreferrer">長野県議会議員一般選挙 選挙公報</a><span class="summary">令和5年長野県議会議員一般選挙の選挙公報を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="21" data-link-kind="election_commission" data-prefecture="岐阜県">
+              <td>岐阜県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.gifu.lg.jp/soshiki/14301/" target="_blank" rel="noopener noreferrer">岐阜県 選挙管理委員会事務局</a><span class="summary">岐阜県選挙管理委員会事務局の公式入口。県議会議員選挙結果、選挙区、任期満了日などへの導線を持つ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="21" data-link-kind="assembly_home" data-prefecture="岐阜県">
+              <td>岐阜県</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.pref.gifu.lg.jp/site/gikai/index.html" target="_blank" rel="noopener noreferrer">岐阜県議会</a><span class="summary">岐阜県議会の公式入口。議会の紹介、本会議、委員会、議員活動などの起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="21" data-link-kind="member_roster" data-prefecture="岐阜県">
+              <td>岐阜県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.gifu.lg.jp/site/gikai/13310.html" target="_blank" rel="noopener noreferrer">岐阜県議会 選挙区別一覧</a><span class="summary">岐阜県議会議員を選挙区別に確認できる公式ページ。選挙区ごとの定数と議員名を掲載。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="21" data-link-kind="districts" data-prefecture="岐阜県">
+              <td>岐阜県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.gifu.lg.jp/page/13377.html" target="_blank" rel="noopener noreferrer">岐阜県内の選挙区</a><span class="summary">岐阜県議会議員選挙の選挙区、定数、区域を確認できる岐阜県選管ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="21" data-link-kind="recent_regular_election" data-prefecture="岐阜県">
+              <td>岐阜県</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.gifu.lg.jp/page/285955.html" target="_blank" rel="noopener noreferrer">R5（2023）県議選 投開票結果</a><span class="summary">令和5年4月9日執行の岐阜県議会議員選挙について、投票結果と開票結果を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="21" data-link-kind="candidate_bulletin_archive" data-prefecture="岐阜県">
+              <td>岐阜県</td>
+              <td><span class="kind-pill">候補者・公報</span></td>
+              <td><a class="link-title" href="https://www.pref.gifu.lg.jp/page/288459.html" target="_blank" rel="noopener noreferrer">令和5年県議選 候補者情報及び選挙公報</a><span class="summary">令和5年岐阜県議会議員選挙の候補者情報と選挙公報PDFを選挙区別に確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="22" data-link-kind="election_commission" data-prefecture="静岡県">
+              <td>静岡県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.shizuoka.jp/1066349/1066998/index.html" target="_blank" rel="noopener noreferrer">静岡県 選挙管理委員会事務局</a><span class="summary">静岡県公式サイトの選挙管理委員会事務局ページ。選挙管理委員会事務局の組織導線を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="22" data-link-kind="election_hub" data-prefecture="静岡県">
+              <td>静岡県</td>
+              <td><span class="kind-pill">選挙入口</span></td>
+              <td><a class="link-title" href="https://www.pref.shizuoka.jp/kensei/senkyo/index.html" target="_blank" rel="noopener noreferrer">静岡県 選挙</a><span class="summary">静岡県公式サイトの選挙情報入口。県選挙管理委員、選挙結果、選挙制度情報への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="22" data-link-kind="districts" data-prefecture="静岡県">
+              <td>静岡県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.shizuoka.jp/kensei/kengikai/gikaishikumi/1030974.html" target="_blank" rel="noopener noreferrer">静岡県議会 選挙区と議員定数</a><span class="summary">静岡県議会公式ページ。県議会議員の選挙区、議員定数、改正後の選挙区別定数を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="23" data-link-kind="election_commission" data-prefecture="愛知県">
+              <td>愛知県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.aichi.jp/senkyo/" target="_blank" rel="noopener noreferrer">愛知県選挙管理委員会</a><span class="summary">愛知県選挙管理委員会の公式入口。選挙制度、選挙区の区域と定数、投開票情報への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="23" data-link-kind="districts" data-prefecture="愛知県">
+              <td>愛知県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.aichi.jp/soshiki/senkyo/0000022887.html" target="_blank" rel="noopener noreferrer">愛知県 選挙の区域と定数</a><span class="summary">愛知県選挙管理委員会事務局の公式ページ。県議会議員選挙の選挙区と定数を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="24" data-link-kind="election_commission" data-prefecture="三重県">
+              <td>三重県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.mie.lg.jp/SENKAN/HP/" target="_blank" rel="noopener noreferrer">三重県選挙管理委員会</a><span class="summary">三重県選挙管理委員会の公式入口。選挙の記録、選挙の資料、選挙の日程等への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="24" data-link-kind="districts" data-prefecture="三重県">
+              <td>三重県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.mie.lg.jp/SENKAN/HP/30393027864_00001.htm" target="_blank" rel="noopener noreferrer">三重県 県議会議員の選挙区と定数の改正について</a><span class="summary">三重県選挙管理委員会事務局の公式ページ。県議会議員の選挙区と定数の改正情報を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="25" data-link-kind="election_commission" data-prefecture="滋賀県">
+              <td>滋賀県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.shiga.lg.jp/senkyo/" target="_blank" rel="noopener noreferrer">滋賀県 選挙管理委員会</a><span class="summary">滋賀県選挙管理委員会の公式入口。地方選挙、国政選挙、選挙結果等への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="25" data-link-kind="districts" data-prefecture="滋賀県">
+              <td>滋賀県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.shigaken-gikai.jp/giin_senkyoku_s.asp" target="_blank" rel="noopener noreferrer">滋賀県議会 県議会議員の選挙区</a><span class="summary">滋賀県議会議員の選挙区と選挙区別定数を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="25" data-link-kind="member_roster" data-prefecture="滋賀県">
+              <td>滋賀県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.shigaken-gikai.jp/g07_giinlist_senkyoku.asp" target="_blank" rel="noopener noreferrer">滋賀県議会 議員名簿（選挙区別）</a><span class="summary">滋賀県議会議員を選挙区別に確認できる公式名簿。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="26" data-link-kind="election_commission" data-prefecture="京都府">
+              <td>京都府</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.kyoto.jp/senkyo/" target="_blank" rel="noopener noreferrer">京都府選挙管理委員会</a><span class="summary">京都府選挙管理委員会の公式入口。府知事選挙、国政選挙、選挙人名簿等への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="26" data-link-kind="districts" data-prefecture="京都府">
+              <td>京都府</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.kyoto.jp/senkyo/fugikai-f.html" target="_blank" rel="noopener noreferrer">京都府議会議員の選挙区と定数</a><span class="summary">京都府公式サイトの各種選挙情報ページ。府議会議員の選挙区と定数を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="27" data-link-kind="election_commission" data-prefecture="大阪府">
+              <td>大阪府</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.osaka.lg.jp/fuseiunei/senkyo/senkyokanriiinkai/index.html" target="_blank" rel="noopener noreferrer">大阪府 選挙管理委員会</a><span class="summary">大阪府選挙管理委員会の公式ページ。選挙のしくみ、選挙情報、政治団体情報への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="27" data-link-kind="districts" data-prefecture="大阪府">
+              <td>大阪府</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.osaka.lg.jp/o170030/gikai_giji/kaikaku/teisusinn.html" target="_blank" rel="noopener noreferrer">大阪府議会 議員定数について</a><span class="summary">大阪府議会議員の定数と令和5年4月以降の選挙区別議員定数を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="27" data-link-kind="member_roster" data-prefecture="大阪府">
+              <td>大阪府</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.osaka.lg.jp/o170010/gikai_somu/sugatami20/index_senkyoku.html" target="_blank" rel="noopener noreferrer">大阪府議会 第20期議員一覧 選挙区別</a><span class="summary">大阪府議会議員を選挙区別に確認できる公式名簿。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="28" data-link-kind="election_commission" data-prefecture="兵庫県">
+              <td>兵庫県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://web.pref.hyogo.lg.jp/si01/pa25_000000001.html" target="_blank" rel="noopener noreferrer">兵庫県 選挙管理委員会について</a><span class="summary">兵庫県選挙管理委員会の公式説明ページ。職務、選挙関連メニュー、市区町選管問合せへの導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="28" data-link-kind="districts" data-prefecture="兵庫県">
+              <td>兵庫県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html" target="_blank" rel="noopener noreferrer">兵庫県 選挙関連 各種データ</a><span class="summary">兵庫県選挙管理委員会の公式データページ。県議会議員選挙区別定数などの選挙関連データを確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="29" data-link-kind="election_commission" data-prefecture="奈良県">
+              <td>奈良県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.nara.jp/1701.htm" target="_blank" rel="noopener noreferrer">奈良県 選挙管理委員会事務局</a><span class="summary">奈良県選挙管理委員会事務局の公式入口。県議会議員選挙、選挙区と定数、選挙結果への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="29" data-link-kind="districts" data-prefecture="奈良県">
+              <td>奈良県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.nara.lg.jp/n161/18533.html" target="_blank" rel="noopener noreferrer">奈良県議会 議員定数及び選挙区</a><span class="summary">奈良県議会議員の選挙区別議員定数を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="29" data-link-kind="member_roster" data-prefecture="奈良県">
+              <td>奈良県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.nara.jp/18534.htm" target="_blank" rel="noopener noreferrer">奈良県議会 議員名簿（選挙区別）</a><span class="summary">奈良県議会議員を選挙区別に確認できる公式名簿。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="30" data-link-kind="election_commission" data-prefecture="和歌山県">
+              <td>和歌山県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/wsenkan.html" target="_blank" rel="noopener noreferrer">和歌山県 選挙管理委員会事務局</a><span class="summary">和歌山県選挙管理委員会事務局の公式入口。選挙制度、選挙結果、選管情報への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="30" data-link-kind="districts" data-prefecture="和歌山県">
+              <td>和歌山県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.wakayama.lg.jp/prefg/010600/wsenkan/seido/senkyoku/kengi.html" target="_blank" rel="noopener noreferrer">和歌山県 県議会議員選挙の選挙区</a><span class="summary">和歌山県選挙管理委員会の公式ページ。県議会議員選挙の選挙区を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="31" data-link-kind="election_commission" data-prefecture="鳥取県">
+              <td>鳥取県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.tottori.lg.jp/senkyo/" target="_blank" rel="noopener noreferrer">鳥取県選挙管理委員会</a><span class="summary">鳥取県選挙管理委員会の公式入口。選挙日程、選挙の記録、県執行選挙への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="31" data-link-kind="districts" data-prefecture="鳥取県">
+              <td>鳥取県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.tottori.lg.jp/75929.htm" target="_blank" rel="noopener noreferrer">鳥取県議会 県議会のあらまし</a><span class="summary">鳥取県議会公式ページ。県議会のあらまし内で議員の定数と選挙区を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="32" data-link-kind="election_commission" data-prefecture="島根県">
+              <td>島根県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.shimane.lg.jp/admin/commission/senkyo/" target="_blank" rel="noopener noreferrer">島根県選挙管理委員会</a><span class="summary">島根県選挙管理委員会の公式入口。選挙執行予定、過去の選挙結果、選挙管理委員会情報への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="32" data-link-kind="districts" data-prefecture="島根県">
+              <td>島根県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www1.pref.shimane.lg.jp/gikai/gaido/teisu.html" target="_blank" rel="noopener noreferrer">島根県議会 選挙区と議員定数</a><span class="summary">島根県議会公式ページ。県議会議員の選挙区と議員定数を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="33" data-link-kind="election_commission" data-prefecture="岡山県">
+              <td>岡山県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.okayama.jp/soshiki/156/" target="_blank" rel="noopener noreferrer">岡山県 選挙管理委員会事務局</a><span class="summary">岡山県選挙管理委員会事務局の公式入口。県議会議員選挙、選挙結果、選挙区図への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="33" data-link-kind="districts" data-prefecture="岡山県">
+              <td>岡山県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.okayama.jp/site/gikai/556455.html" target="_blank" rel="noopener noreferrer">岡山県議会 議員定数と選挙区</a><span class="summary">岡山県議会議員の定数と選挙区別定数を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="33" data-link-kind="member_roster" data-prefecture="岡山県">
+              <td>岡山県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.okayama.jp/site/gikai/03-01.html" target="_blank" rel="noopener noreferrer">岡山県議会 選挙区別名簿</a><span class="summary">岡山県議会議員を選挙区別に確認できる公式名簿。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="34" data-link-kind="election_commission" data-prefecture="広島県">
+              <td>広島県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.hiroshima.lg.jp/soshiki/50/" target="_blank" rel="noopener noreferrer">広島県 選挙管理委員会事務局</a><span class="summary">広島県選挙管理委員会事務局の公式入口。広島県議会議員選挙、選挙情報、選挙関連情報への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="34" data-link-kind="districts" data-prefecture="広島県">
+              <td>広島県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.hiroshima.lg.jp/site/gikai/gikai-gikai-so.html" target="_blank" rel="noopener noreferrer">広島県議会 県議会の選挙区と定数</a><span class="summary">広島県議会公式ページ。県議会議員の選挙区と定数を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="35" data-link-kind="election_commission" data-prefecture="山口県">
+              <td>山口県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.yamaguchi.lg.jp/site/senkyo/" target="_blank" rel="noopener noreferrer">山口県選挙管理委員会</a><span class="summary">山口県選挙管理委員会の公式入口。県議会議員・知事選挙、選挙啓発、政治団体情報への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="35" data-link-kind="districts" data-prefecture="山口県">
+              <td>山口県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.yamaguchi.lg.jp/site/gikai/25268.html" target="_blank" rel="noopener noreferrer">山口県議会 選挙区と議員定数</a><span class="summary">山口県議会議員の選挙区別議員定数を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="36" data-link-kind="election_commission" data-prefecture="徳島県">
+              <td>徳島県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.tokushima.lg.jp/kenseijoho/soshiki/senkyokanri/" target="_blank" rel="noopener noreferrer">徳島県 選挙管理委員会事務局</a><span class="summary">徳島県選挙管理委員会事務局の公式入口。選挙情報、選挙人名簿、投開票速報への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="36" data-link-kind="districts" data-prefecture="徳島県">
+              <td>徳島県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.tokushima.lg.jp/kenseijoho/senkyo/2012013100125" target="_blank" rel="noopener noreferrer">徳島県議会議員の選挙区と定数</a><span class="summary">徳島県公式サイトの選挙情報ページ。県議会議員の選挙区と定数を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="37" data-link-kind="election_commission" data-prefecture="香川県">
+              <td>香川県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.kagawa.lg.jp/senkyoi/index.html" target="_blank" rel="noopener noreferrer">香川県 選挙管理委員会</a><span class="summary">香川県選挙管理委員会の公式入口。選挙制度・データ、過去の選挙結果、任期満了日一覧への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="37" data-link-kind="districts" data-prefecture="香川県">
+              <td>香川県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.kagawa.lg.jp/gikai/meibo/4_1.html" target="_blank" rel="noopener noreferrer">香川県議会 議員定数</a><span class="summary">香川県議会議員の選挙区、区域、議員数を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="38" data-link-kind="election_commission" data-prefecture="愛媛県">
+              <td>愛媛県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.ehime.jp/soshiki/127/" target="_blank" rel="noopener noreferrer">愛媛県 選挙管理委員会</a><span class="summary">愛媛県選挙管理委員会の公式入口。選挙日程、選挙関連データ、選挙公報への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="38" data-link-kind="districts" data-prefecture="愛媛県">
+              <td>愛媛県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.ehime.jp/site/gikai/14562.html" target="_blank" rel="noopener noreferrer">愛媛県議会 選挙区マップ</a><span class="summary">愛媛県議会公式ページ。県議会議員の選挙区マップと選挙区別情報を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="39" data-link-kind="election_commission" data-prefecture="高知県">
+              <td>高知県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.kochi.lg.jp/soshiki/270000/270101/" target="_blank" rel="noopener noreferrer">高知県 選挙管理委員会事務局</a><span class="summary">高知県選挙管理委員会事務局の公式入口。選挙区と定数任期情報、県知事・議会議員選挙結果への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="39" data-link-kind="districts" data-prefecture="高知県">
+              <td>高知県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.kochi.lg.jp/doc/ken-senkyoteisu/" target="_blank" rel="noopener noreferrer">高知県議会議員</a><span class="summary">高知県公式サイトの県議会議員ページ。県議会議員の選挙区と定数を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="40" data-link-kind="election_hub" data-prefecture="福岡県">
+              <td>福岡県</td>
+              <td><span class="kind-pill">選挙入口</span></td>
+              <td><a class="link-title" href="https://www.pref.fukuoka.lg.jp/life/8/62/" target="_blank" rel="noopener noreferrer">福岡県 選挙</a><span class="summary">福岡県公式サイトの選挙カテゴリ。選管、選挙結果・統計データ、県議会議員選挙区などへの起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="40" data-link-kind="election_commission" data-prefecture="福岡県">
+              <td>福岡県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.fukuoka.lg.jp/soshiki/8000000/" target="_blank" rel="noopener noreferrer">福岡県 選挙管理委員会</a><span class="summary">福岡県選挙管理委員会の公式組織ページ。業務内容、選挙情報、連絡先を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="40" data-link-kind="assembly_home" data-prefecture="福岡県">
+              <td>福岡県</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.gikai.pref.fukuoka.lg.jp/" target="_blank" rel="noopener noreferrer">福岡県議会</a><span class="summary">福岡県議会の公式入口。議員紹介、議会日程、議案、会議録などの起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="40" data-link-kind="member_roster" data-prefecture="福岡県">
+              <td>福岡県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.gikai.pref.fukuoka.lg.jp/site/giin/index.html" target="_blank" rel="noopener noreferrer">福岡県議会 議員の紹介</a><span class="summary">福岡県議会議員を選挙区、会派、氏名などから確認できる公式議員紹介ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="40" data-link-kind="districts" data-prefecture="福岡県">
+              <td>福岡県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.fukuoka.lg.jp/contents/fukuoka-senkyoku.html" target="_blank" rel="noopener noreferrer">福岡県の選挙区</a><span class="summary">福岡県議会議員の選挙区、定数、市区町村名を確認できる福岡県選管ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="40" data-link-kind="recent_regular_election" data-prefecture="福岡県">
+              <td>福岡県</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.fukuoka.lg.jp/contents/r5kengisenkyo.html" target="_blank" rel="noopener noreferrer">令和5年4月9日執行 福岡県議会議員一般選挙</a><span class="summary">令和5年4月9日執行の福岡県議会議員一般選挙について、投票結果、開票結果、候補者別得票数を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="41" data-link-kind="election_commission" data-prefecture="佐賀県">
+              <td>佐賀県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.saga.lg.jp/list00147.html" target="_blank" rel="noopener noreferrer">佐賀県選挙管理委員会事務局</a><span class="summary">佐賀県公式サイトの選挙管理委員会事務局ページ。選挙管理委員会事務局の情報と関連ページへの導線を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="41" data-link-kind="election_hub" data-prefecture="佐賀県">
+              <td>佐賀県</td>
+              <td><span class="kind-pill">選挙入口</span></td>
+              <td><a class="link-title" href="https://www.pref.saga.lg.jp/list00713.html" target="_blank" rel="noopener noreferrer">佐賀県 選挙</a><span class="summary">佐賀県公式サイトの選挙カテゴリ。選挙関係情報、過去の県議会議員選挙関係情報への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="41" data-link-kind="districts" data-prefecture="佐賀県">
+              <td>佐賀県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.saga.lg.jp/gikai/kiji00366725/index.html" target="_blank" rel="noopener noreferrer">佐賀県議会 議員一覧（選挙区別）</a><span class="summary">佐賀県議会公式ページ。選挙区別の議員一覧として、各選挙区の定数と現職議員を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="42" data-link-kind="election_commission" data-prefecture="長崎県">
+              <td>長崎県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.nagasaki.jp/bunrui/kenseijoho/senkyojoho/senkyogaiyou/" target="_blank" rel="noopener noreferrer">長崎県 選挙管理委員会の概要</a><span class="summary">長崎県公式サイトの選挙管理委員会概要ページ。選挙管理委員会の概要を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="42" data-link-kind="election_hub" data-prefecture="長崎県">
+              <td>長崎県</td>
+              <td><span class="kind-pill">選挙入口</span></td>
+              <td><a class="link-title" href="https://www.pref.nagasaki.jp/bunrui/kenseijoho/senkyojoho/index.html" target="_blank" rel="noopener noreferrer">長崎県 選挙情報</a><span class="summary">長崎県公式サイトの選挙情報入口。選挙管理委員会書記室、過去の選挙結果、県内の選挙情報への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="42" data-link-kind="districts" data-prefecture="長崎県">
+              <td>長崎県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.nagasaki.jp/gikai/4020.html" target="_blank" rel="noopener noreferrer">長崎県議会 県議会の役割と審議</a><span class="summary">長崎県議会公式ページ。県議会の構成として選挙区、区域、議員定数を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="43" data-link-kind="election_commission" data-prefecture="熊本県">
+              <td>熊本県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.kumamoto.jp/soshiki/147/" target="_blank" rel="noopener noreferrer">熊本県 選挙管理委員会</a><span class="summary">熊本県選挙管理委員会の公式入口。県議会議員一般選挙結果、県知事選挙結果、県内選挙情報への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="43" data-link-kind="districts" data-prefecture="熊本県">
+              <td>熊本県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.kumamoto.jp/site/gikai/7855.html" target="_blank" rel="noopener noreferrer">熊本県議会 選挙区と定数</a><span class="summary">熊本県議会公式ページ。県議会議員の選挙区と定数を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="44" data-link-kind="election_commission" data-prefecture="大分県">
+              <td>大分県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.oita.jp/soshiki/25.html" target="_blank" rel="noopener noreferrer">大分県 選挙管理委員会</a><span class="summary">大分県公式サイトの選挙管理委員会ページ。選挙管理委員会の組織情報と関連情報への導線を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="44" data-link-kind="election_hub" data-prefecture="大分県">
+              <td>大分県</td>
+              <td><span class="kind-pill">選挙入口</span></td>
+              <td><a class="link-title" href="https://www.pref.oita.jp/site/senkyo/" target="_blank" rel="noopener noreferrer">大分県の選挙</a><span class="summary">大分県選挙管理委員会の選挙情報入口。統一地方選挙、選挙区割、選挙結果一覧への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="44" data-link-kind="districts" data-prefecture="大分県">
+              <td>大分県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.oita.jp/site/gikai/gaiyou-teisu.html" target="_blank" rel="noopener noreferrer">大分県議会 選挙区と議員定数</a><span class="summary">大分県議会公式ページ。県議会議員の選挙区と議員定数を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="45" data-link-kind="election_commission" data-prefecture="宮崎県">
+              <td>宮崎県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.miyazaki.lg.jp/senkyo/index.html" target="_blank" rel="noopener noreferrer">宮崎県選挙管理委員会</a><span class="summary">宮崎県公式サイトの選挙管理委員会ページ。選挙管理委員会の情報と選挙関連ページへの導線を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="45" data-link-kind="election_hub" data-prefecture="宮崎県">
+              <td>宮崎県</td>
+              <td><span class="kind-pill">選挙入口</span></td>
+              <td><a class="link-title" href="https://www.pref.miyazaki.lg.jp/kense/senkyo/index.html" target="_blank" rel="noopener noreferrer">宮崎県 選挙</a><span class="summary">宮崎県公式サイトの選挙情報入口。地方選挙、国政選挙、選挙人名簿登録者数への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="45" data-link-kind="districts" data-prefecture="宮崎県">
+              <td>宮崎県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.miyazaki.lg.jp/senkyo/kense/senkyo/kg-t.html" target="_blank" rel="noopener noreferrer">宮崎県議会議員選挙区</a><span class="summary">宮崎県議会議員の選挙区を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="46" data-link-kind="election_commission" data-prefecture="鹿児島県">
+              <td>鹿児島県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.kagoshima.jp/ab02/soshiki/iinkai/senkyokanri.html" target="_blank" rel="noopener noreferrer">鹿児島県 選挙管理委員会事務局</a><span class="summary">鹿児島県公式サイトの選挙管理委員会事務局ページ。選挙管理委員会事務局の組織情報を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="46" data-link-kind="election_hub" data-prefecture="鹿児島県">
+              <td>鹿児島県</td>
+              <td><span class="kind-pill">選挙入口</span></td>
+              <td><a class="link-title" href="https://www.pref.kagoshima.jp/kensei/senkyo/index.html" target="_blank" rel="noopener noreferrer">鹿児島県 選挙情報</a><span class="summary">鹿児島県公式サイトの選挙情報入口。選挙結果、国・県選挙の任期満了日等、選挙区への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="46" data-link-kind="districts" data-prefecture="鹿児島県">
+              <td>鹿児島県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.kagoshima.jp/kensei/senkyo/senkyoku/kengi_senkyoku.html" target="_blank" rel="noopener noreferrer">鹿児島県議会議員の選挙区及び各選挙区において選挙すべき議員の数</a><span class="summary">鹿児島県公式サイトの選挙区情報ページ。県議会議員の選挙区と各選挙区で選挙すべき議員数を確認できる。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="47" data-link-kind="election_hub" data-prefecture="沖縄県">
+              <td>沖縄県</td>
+              <td><span class="kind-pill">選挙入口</span></td>
+              <td><a class="link-title" href="https://www.pref.okinawa.lg.jp/kensei/senkyo/index.html" target="_blank" rel="noopener noreferrer">沖縄県 選挙</a><span class="summary">沖縄県公式サイトの選挙入口。選挙情報、選挙結果、県選管情報の起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="47" data-link-kind="election_commission" data-prefecture="沖縄県">
+              <td>沖縄県</td>
+              <td><span class="kind-pill">選管</span></td>
+              <td><a class="link-title" href="https://www.pref.okinawa.lg.jp/kensei/kencho/1000011/1024094.html" target="_blank" rel="noopener noreferrer">沖縄県 選挙管理委員会事務局</a><span class="summary">沖縄県選挙管理委員会事務局の公式入口。任期満了日、選挙結果等一覧、県議会議員選挙区別地図への導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="47" data-link-kind="assembly_home" data-prefecture="沖縄県">
+              <td>沖縄県</td>
+              <td><span class="kind-pill">議会</span></td>
+              <td><a class="link-title" href="https://www.pref.okinawa.lg.jp/kensei/gikai/index.html" target="_blank" rel="noopener noreferrer">沖縄県議会</a><span class="summary">沖縄県議会の公式入口。議員、議会情報、会議録などの起点。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="47" data-link-kind="member_roster" data-prefecture="沖縄県">
+              <td>沖縄県</td>
+              <td><span class="kind-pill">議員名簿</span></td>
+              <td><a class="link-title" href="https://www.pref.okinawa.lg.jp/kensei/gikai/1017039/1029763/index.html" target="_blank" rel="noopener noreferrer">沖縄県議会 議員名一覧</a><span class="summary">沖縄県議会議員名一覧。五十音順、選挙区別、会派別、委員会別の導線を持つ公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="47" data-link-kind="districts" data-prefecture="沖縄県">
+              <td>沖縄県</td>
+              <td><span class="kind-pill">選挙区・定数</span></td>
+              <td><a class="link-title" href="https://www.pref.okinawa.lg.jp/kensei/gikai/1016969/1016972.html" target="_blank" rel="noopener noreferrer">沖縄県議会の組織</a><span class="summary">沖縄県議会の組織ページ。県議会議員の選挙区と定数を確認できる公式ページ。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+            <tr data-pref-code="47" data-link-kind="recent_regular_election" data-prefecture="沖縄県">
+              <td>沖縄県</td>
+              <td><span class="kind-pill">直近一般選挙</span></td>
+              <td><a class="link-title" href="https://www.pref.okinawa.lg.jp/kensei/senkyo/1005009/1023802/1025640/index.html" target="_blank" rel="noopener noreferrer">令和6年沖縄県議会議員一般選挙</a><span class="summary">令和6年沖縄県議会議員一般選挙の候補者情報、選挙公報、投開票速報、選挙データへの公式導線。</span></td>
+              <td>2026-04-27</td>
+              <td>verified</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <script>
+      const rows = Array.from(document.querySelectorAll("#linkRows tr"));
+      const searchInput = document.querySelector("#searchInput");
+      const prefectureFilter = document.querySelector("#prefectureFilter");
+      const kindFilter = document.querySelector("#kindFilter");
+      const countNote = document.querySelector("#countNote");
+
+      function normalize(value) {
+        return value.toLowerCase().replace(/\s+/g, "");
+      }
+
+      function applyFilters() {
+        const keyword = normalize(searchInput.value);
+        const prefCode = prefectureFilter.value;
+        const linkKind = kindFilter.value;
+        let visibleCount = 0;
+
+        for (const row of rows) {
+          const matchesPrefecture = prefCode === "all" || row.dataset.prefCode === prefCode;
+          const matchesKind = linkKind === "all" || row.dataset.linkKind === linkKind;
+          const matchesKeyword = !keyword || normalize(row.textContent).includes(keyword);
+          const visible = matchesPrefecture && matchesKind && matchesKeyword;
+          row.hidden = !visible;
+          if (visible) visibleCount += 1;
+        }
+
+        countNote.textContent = visibleCount.toLocaleString("ja-JP") + "件表示";
+      }
+
+      searchInput.addEventListener("input", applyFilters);
+      prefectureFilter.addEventListener("change", applyFilters);
+      kindFilter.addEventListener("change", applyFilters);
+      applyFilters();
+    </script>
+  </body>
+</html>

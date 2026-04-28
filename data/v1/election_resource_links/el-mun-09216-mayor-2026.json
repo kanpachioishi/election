@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-mun-09216-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-09216-mayor-2026-other-01",
+      "election_id": "el-mun-09216-mayor-2026",
+      "kind": "other",
+      "title": "下野市 今後の選挙の予定",
+      "url": "https://www.city.shimotsuke.lg.jp/0199/info-0000003033-3.html",
+      "summary": "下野市長選挙の選挙時期、任期満了日、前回選挙執行日を確認できる下野市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.shimotsuke.lg.jp/0199/info-0000003033-3.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": "2026-04-28時点で下野市公式ページに下野市長選挙の選挙時期 2026-07-12 と任期満了日 2026-08-05 の記載を確認。告示日は栃木県公式ページで確認。"
+      }
+    }
+  ]
+}

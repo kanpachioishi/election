@@ -1337,7 +1337,7 @@
       "mayor_name_kana": null,
       "term_start": null,
       "term_start_display": "記載なし",
-      "term_end": "2026-08-07",
+      "term_end": "2027-08-07",
       "term_end_display": null,
       "term_note": "現職",
       "status": "confirmed",
@@ -1363,14 +1363,11 @@
         },
         {
           "kind": "municipal_official_page",
-          "title": "公式ページ",
-          "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html",
-          "checked_at": "2026-04-21",
+          "title": "選挙スケジュール",
+          "url": "https://www.city.sanda.lg.jp/soshiki/69/1612.html",
+          "checked_at": "2026-04-28",
           "used_for": [
-            "mayor_name",
-            "term_start",
             "term_end",
-            "term_note",
             "note"
           ],
           "publisher": null,
@@ -1378,16 +1375,16 @@
         }
       ],
       "display_source": {
-        "label": "公式ページ",
-        "url": "https://web.pref.hyogo.lg.jp/si01/pa25_000000005.html"
+        "label": "選挙スケジュール",
+        "url": "https://www.city.sanda.lg.jp/soshiki/69/1612.html"
       },
-      "last_checked_at": "2026-04-21",
-      "note": "県の任期満了日一覧で確認。",
+      "last_checked_at": "2026-04-28",
+      "note": "三田市公式の選挙スケジュールで、三田市長選挙の任期満了日が2027-08-07、投票時期が2027年7月とされていることを確認。",
       "findings_values": {
         "mayor_name": "田村 克也",
         "term_start": "記載なし",
-        "term_end": "2026-08-07",
-        "note": "県の任期満了日一覧で確認。"
+        "term_end": "2027-08-07",
+        "note": "三田市公式の選挙スケジュールで、三田市長選挙の任期満了日が2027-08-07、投票時期が2027年7月とされていることを確認。"
       },
       "public_order": 581,
       "prefecture_city_order": 18,

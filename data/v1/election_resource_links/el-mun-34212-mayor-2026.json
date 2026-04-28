@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-mun-34212-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-34212-mayor-2026-other-01",
+      "election_id": "el-mun-34212-mayor-2026",
+      "kind": "other",
+      "title": "東広島市長選挙",
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/senkyokanr/1/9/sennkyokekka/16575.html",
+      "summary": "令和8年2月1日執行の東広島市長選挙結果を確認できる東広島市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.higashihiroshima.lg.jp/soshiki/senkyokanr/1/9/sennkyokekka/16575.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": "2026-04-28時点で東広島市公式ページに令和8年2月1日執行の市長選挙結果の記載を確認。"
+      }
+    }
+  ]
+}

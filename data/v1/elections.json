@@ -911,6 +911,28 @@
       }
     },
     {
+      "id": "el-mun-13228-assembly-2026",
+      "slug": "akiruno-city-assembly-2026",
+      "name": "あきる野市議会議員選挙",
+      "type": "municipal",
+      "subtype": "assembly",
+      "phase": "upcoming",
+      "vote_date": "2026-07-19",
+      "notice_date": "2026-07-12",
+      "description": "あきる野市議会議員を選出する選挙です。",
+      "scope_type": "region",
+      "primary_region_id": "mun-13228",
+      "included_region_ids": null,
+      "verification": {
+        "source_url": "https://www.city.akiruno.tokyo.jp/0000009786.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": "2026-04-28時点であきる野市公式ページに、あきる野市長選挙・あきる野市議会議員選挙を同時選挙として執行し、告示日 2026-07-12、投票日 2026-07-19 とする記載があるため upcoming として確認。"
+      }
+    },
+    {
       "id": "el-mun-12218-mayor-2026",
       "slug": "katsuura-mayor-2026",
       "name": "勝浦市長選挙",
@@ -2764,20 +2786,20 @@
       "name": "東広島市長選挙",
       "type": "municipal",
       "subtype": "mayor",
-      "phase": "upcoming",
-      "vote_date": "2026-07-05",
-      "notice_date": "2026-06-28",
+      "phase": "archived",
+      "vote_date": "2026-02-01",
+      "notice_date": "2026-01-25",
       "description": "東広島市長を選出する選挙です。",
       "scope_type": "region",
       "primary_region_id": "mun-34212",
       "included_region_ids": null,
       "verification": {
-        "source_url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/650690.pdf",
+        "source_url": "https://www.city.higashihiroshima.lg.jp/soshiki/senkyokanr/1/9/sennkyokekka/16575.html",
         "source_type": "official",
-        "confirmed_at": "2026-04-15T23:59:00+09:00",
-        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
         "status": "verified",
-        "note": "2026-04-15時点で広島県の選挙執行予定 PDF に告示日と選挙期日の記載があり、投票日は 2026-07-05 のため upcoming として確認。"
+        "note": "2026-04-28時点で東広島市公式の選挙結果ページに令和8年2月1日執行の記載があり、広島県の令和8年執行予定PDFで告示日 2026-01-25 と投開票日 2026-02-01 を確認したため archived として修正。"
       }
     },
     {
@@ -2918,20 +2940,42 @@
       "name": "豊中市長選挙",
       "type": "municipal",
       "subtype": "mayor",
-      "phase": "upcoming",
-      "vote_date": "2026-07-26",
-      "notice_date": "2026-07-12",
+      "phase": "archived",
+      "vote_date": "2026-04-19",
+      "notice_date": "2026-04-12",
       "description": "豊中市長を選出する選挙です。",
       "scope_type": "region",
       "primary_region_id": "mun-27203",
       "included_region_ids": null,
       "verification": {
-        "source_url": "https://www.pref.osaka.lg.jp/o010130/senkan/senkan/senkyo_nittei.html",
+        "source_url": "https://www.city.toyonaka.osaka.jp/joho/sanka/senkyo/senkyo_topics/R07shichousen.html",
         "source_type": "official",
-        "confirmed_at": "2026-04-15T23:59:00+09:00",
-        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
         "status": "verified",
-        "note": "2026-04-15時点で大阪府の選挙日程ページに告示日と選挙期日の記載があり、投票日は 2026-07-26 のため upcoming として確認。"
+        "note": "2026-04-28時点で豊中市公式ページに、豊中市長選挙及び豊中市議会議員補欠選挙の告示日 2026-04-12 と選挙期日 2026-04-19 の記載があるため archived として修正。"
+      }
+    },
+    {
+      "id": "el-by-mun-27203-assembly-2026-01",
+      "slug": "toyonaka-city-assembly-by-election-2026-01",
+      "name": "豊中市議会議員補欠選挙",
+      "type": "by_election",
+      "subtype": "assembly",
+      "phase": "archived",
+      "vote_date": "2026-04-19",
+      "notice_date": "2026-04-12",
+      "description": "豊中市議会議員の欠員を補う補欠選挙です。",
+      "scope_type": "region",
+      "primary_region_id": "mun-27203",
+      "included_region_ids": null,
+      "verification": {
+        "source_url": "https://www.city.toyonaka.osaka.jp/joho/sanka/senkyo/senkyo_topics/R07shichousen.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": "2026-04-28時点で豊中市公式ページに、豊中市長選挙と豊中市議会議員補欠選挙を同時に行う旨、告示日 2026-04-12、選挙期日 2026-04-19 の記載があるため archived として確認。"
       }
     },
     {
@@ -3947,6 +3991,28 @@
       }
     },
     {
+      "id": "el-mun-08230-mayor-2026",
+      "slug": "kasumigaura-mayor-2026",
+      "name": "かすみがうら市長選挙",
+      "type": "municipal",
+      "subtype": "mayor",
+      "phase": "upcoming",
+      "vote_date": "2026-07-19",
+      "notice_date": "2026-07-12",
+      "description": "かすみがうら市長を選出する選挙です。",
+      "scope_type": "region",
+      "primary_region_id": "mun-08230",
+      "included_region_ids": null,
+      "verification": {
+        "source_url": "https://www.city.kasumigaura.lg.jp/page/page000662.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": "2026-04-28時点でかすみがうら市公式の今後の選挙執行ページに、かすみがうら市長選挙の投票日 2026-07-19 と任期満了日 2026-07-22 の記載があるため upcoming として確認。告示日は市長選挙の選挙運動期間から 2026-07-12 として整理し、公式告示日ページ公開時に再確認する。"
+      }
+    },
+    {
       "id": "el-mun-08220-mayor-2024",
       "slug": "tsukuba-mayor-2024",
       "name": "つくば市長選挙",
@@ -4472,6 +4538,28 @@
         "last_checked_at": "2026-04-16T02:20:00+09:00",
         "status": "verified",
         "note": "2026-04-16時点で鶴岡市の選挙の記録に 2025-10-05 執行の記載があり、山形県の選挙予定・結果一覧 PDF で告示日 2025-09-28 を確認して archived を補完。"
+      }
+    },
+    {
+      "id": "el-mun-06213-mayor-2026",
+      "slug": "nanyo-mayor-2026",
+      "name": "南陽市長選挙",
+      "type": "municipal",
+      "subtype": "mayor",
+      "phase": "upcoming",
+      "vote_date": "2026-07-12",
+      "notice_date": "2026-07-05",
+      "description": "南陽市長を選出する選挙です。",
+      "scope_type": "region",
+      "primary_region_id": "mun-06213",
+      "included_region_ids": null,
+      "verification": {
+        "source_url": "https://www.pref.yamagata.jp/documents/6177/senkyoyotei_r080401.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": "2026-04-28時点で山形県の令和8年度選挙予定一覧PDFに、南陽市長選挙の告示日 2026-07-05、投票日 2026-07-12 の記載があるため upcoming として確認。"
       }
     },
     {

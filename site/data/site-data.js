@@ -3,28 +3,28 @@
 // Update data/v1 and rerun the generator instead of editing this file.
 
 window.ELECTION_SITE_DATA = {
-  "generatedAt": "2026-04-28T09:26:42.587Z",
+  "generatedAt": "2026-04-28T09:42:08.598Z",
   "sourceGeneratedAt": "2026-04-27T00:00:00+09:00",
   "stats": {
     "regions": 848,
-    "elections": 208,
-    "resourceLinks": 349,
+    "elections": 212,
+    "resourceLinks": 360,
     "postalPrefixes": 47,
     "localGovernmentSites": 94,
     "byType": {
       "prefectural": 50,
-      "municipal": 139,
-      "by_election": 17,
+      "municipal": 142,
+      "by_election": 18,
       "national": 2
     },
     "byPhase": {
-      "archived": 144,
-      "upcoming": 64
+      "archived": 147,
+      "upcoming": 65
     },
     "byResourceKind": {
       "candidate_list": 55,
       "bulletin": 62,
-      "other": 128,
+      "other": 139,
       "early_voting": 58,
       "polling_place": 46
     },
@@ -14461,6 +14461,43 @@ window.ELECTION_SITE_DATA = {
       "candidateProfiles": []
     },
     {
+      "id": "el-mun-34212-mayor-2026",
+      "slug": "higashihiroshima-mayor-2026",
+      "name": "東広島市長選挙",
+      "type": "municipal",
+      "subtype": "mayor",
+      "phase": "archived",
+      "voteDate": "2026-02-01",
+      "noticeDate": "2026-01-25",
+      "description": "東広島市長を選出する選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-34212",
+      "primaryRegionName": "広島県東広島市",
+      "primaryRegionShortName": "東広島市",
+      "prefectureRegionId": "pref-34",
+      "prefectureName": "広島県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.higashihiroshima.lg.jp/soshiki/senkyokanr/1/9/sennkyokekka/16575.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-34212-mayor-2026-other-01",
+          "kind": "other",
+          "title": "東広島市長選挙",
+          "url": "https://www.city.higashihiroshima.lg.jp/soshiki/senkyokanr/1/9/sennkyokekka/16575.html",
+          "summary": "令和8年2月1日執行の東広島市長選挙結果を確認できる東広島市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.higashihiroshima.lg.jp/soshiki/senkyokanr/1/9/sennkyokekka/16575.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
       "id": "el-mun-18209-mayor-2026",
       "slug": "echizen-mayor-2026",
       "name": "越前市長選挙",
@@ -16545,6 +16582,80 @@ window.ELECTION_SITE_DATA = {
           "isOfficial": true,
           "displayOrder": 4,
           "sourceUrl": "https://www.city.noshiro.lg.jp/section/office/senkyo-office/senkyo/27187"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-by-mun-27203-assembly-2026-01",
+      "slug": "toyonaka-city-assembly-by-election-2026-01",
+      "name": "豊中市議会議員補欠選挙",
+      "type": "by_election",
+      "subtype": "assembly",
+      "phase": "archived",
+      "voteDate": "2026-04-19",
+      "noticeDate": "2026-04-12",
+      "description": "豊中市議会議員の欠員を補う補欠選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-27203",
+      "primaryRegionName": "大阪府豊中市",
+      "primaryRegionShortName": "豊中市",
+      "prefectureRegionId": "pref-27",
+      "prefectureName": "大阪府",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.toyonaka.osaka.jp/joho/sanka/senkyo/senkyo_topics/R07shichousen.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-by-mun-27203-assembly-2026-01-other-01",
+          "kind": "other",
+          "title": "豊中市長選挙及び豊中市議会議員補欠選挙の日程",
+          "url": "https://www.city.toyonaka.osaka.jp/joho/sanka/senkyo/senkyo_topics/R07shichousen.html",
+          "summary": "豊中市長選挙と豊中市議会議員補欠選挙の選挙期日、告示日、欠員数を確認できる豊中市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.toyonaka.osaka.jp/joho/sanka/senkyo/senkyo_topics/R07shichousen.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-mun-27203-mayor-2026",
+      "slug": "toyonaka-mayor-2026",
+      "name": "豊中市長選挙",
+      "type": "municipal",
+      "subtype": "mayor",
+      "phase": "archived",
+      "voteDate": "2026-04-19",
+      "noticeDate": "2026-04-12",
+      "description": "豊中市長を選出する選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-27203",
+      "primaryRegionName": "大阪府豊中市",
+      "primaryRegionShortName": "豊中市",
+      "prefectureRegionId": "pref-27",
+      "prefectureName": "大阪府",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.toyonaka.osaka.jp/joho/sanka/senkyo/senkyo_topics/R07shichousen.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-27203-mayor-2026-other-01",
+          "kind": "other",
+          "title": "豊中市長選挙及び豊中市議会議員補欠選挙の日程",
+          "url": "https://www.city.toyonaka.osaka.jp/joho/sanka/senkyo/senkyo_topics/R07shichousen.html",
+          "summary": "豊中市長選挙と豊中市議会議員補欠選挙の選挙期日、告示日、開票所を確認できる豊中市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.toyonaka.osaka.jp/joho/sanka/senkyo/senkyo_topics/R07shichousen.html"
         }
       ],
       "candidateSignals": [],
@@ -19904,8 +20015,21 @@ window.ELECTION_SITE_DATA = {
       "prefectureName": "埼玉県",
       "pageUpdates": [],
       "sourceUrl": "https://www.pref.saitama.lg.jp/e1701/election-schedule.html",
-      "resourceKinds": [],
-      "resources": [],
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-11217-mayor-2026-other-01",
+          "kind": "other",
+          "title": "埼玉県 県内の市町村選挙の日程",
+          "url": "https://www.pref.saitama.lg.jp/e1701/election-schedule.html",
+          "summary": "鴻巣市長選挙の告示日、選挙期日、任期満了日を確認できる埼玉県公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.pref.saitama.lg.jp/e1701/election-schedule.html"
+        }
+      ],
       "candidateSignals": [],
       "candidateEndorsements": [],
       "candidateProfiles": []
@@ -20219,32 +20343,21 @@ window.ELECTION_SITE_DATA = {
       "prefectureName": "東京都",
       "pageUpdates": [],
       "sourceUrl": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/senkyo2026",
-      "resourceKinds": [],
-      "resources": [],
-      "candidateSignals": [],
-      "candidateEndorsements": [],
-      "candidateProfiles": []
-    },
-    {
-      "id": "el-mun-34212-mayor-2026",
-      "slug": "higashihiroshima-mayor-2026",
-      "name": "東広島市長選挙",
-      "type": "municipal",
-      "subtype": "mayor",
-      "phase": "upcoming",
-      "voteDate": "2026-07-05",
-      "noticeDate": "2026-06-28",
-      "description": "東広島市長を選出する選挙です。",
-      "scopeType": "region",
-      "primaryRegionId": "mun-34212",
-      "primaryRegionName": "広島県東広島市",
-      "primaryRegionShortName": "東広島市",
-      "prefectureRegionId": "pref-34",
-      "prefectureName": "広島県",
-      "pageUpdates": [],
-      "sourceUrl": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/650690.pdf",
-      "resourceKinds": [],
-      "resources": [],
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-13208-mayor-2026-other-01",
+          "kind": "other",
+          "title": "調布市長選挙の選挙期日等",
+          "url": "https://www.city.chofu.lg.jp/110010/p074151.html",
+          "summary": "調布市長選挙の選挙期日、告示日、開票日を確認できる調布市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.chofu.lg.jp/110010/p074151.html"
+        }
+      ],
       "candidateSignals": [],
       "candidateEndorsements": [],
       "candidateProfiles": []
@@ -20267,8 +20380,21 @@ window.ELECTION_SITE_DATA = {
       "prefectureName": "栃木県",
       "pageUpdates": [],
       "sourceUrl": "https://www.pref.tochigi.lg.jp/k05/pref/senkyo/jyouhou/sityoutyougikaigiin_senkyoyotei.html",
-      "resourceKinds": [],
-      "resources": [],
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-09216-mayor-2026-other-01",
+          "kind": "other",
+          "title": "下野市 今後の選挙の予定",
+          "url": "https://www.city.shimotsuke.lg.jp/0199/info-0000003033-3.html",
+          "summary": "下野市長選挙の選挙時期、任期満了日、前回選挙執行日を確認できる下野市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.shimotsuke.lg.jp/0199/info-0000003033-3.html"
+        }
+      ],
       "candidateSignals": [],
       "candidateEndorsements": [],
       "candidateProfiles": []
@@ -20291,8 +20417,95 @@ window.ELECTION_SITE_DATA = {
       "prefectureName": "埼玉県",
       "pageUpdates": [],
       "sourceUrl": "https://www.pref.saitama.lg.jp/e1701/election-schedule.html",
-      "resourceKinds": [],
-      "resources": [],
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-11212-mayor-2026-other-01",
+          "kind": "other",
+          "title": "東松山市長選挙の日程について",
+          "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/60/3049.html",
+          "summary": "東松山市長選挙の選挙期日、告示日、期日前投票期間を確認できる東松山市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.higashimatsuyama.lg.jp/soshiki/60/3049.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-mun-06213-mayor-2026",
+      "slug": "nanyo-mayor-2026",
+      "name": "南陽市長選挙",
+      "type": "municipal",
+      "subtype": "mayor",
+      "phase": "upcoming",
+      "voteDate": "2026-07-12",
+      "noticeDate": "2026-07-05",
+      "description": "南陽市長を選出する選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-06213",
+      "primaryRegionName": "山形県南陽市",
+      "primaryRegionShortName": "南陽市",
+      "prefectureRegionId": "pref-06",
+      "prefectureName": "山形県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.pref.yamagata.jp/documents/6177/senkyoyotei_r080401.pdf",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-06213-mayor-2026-other-01",
+          "kind": "other",
+          "title": "山形県 令和8年度選挙予定一覧（PDF）",
+          "url": "https://www.pref.yamagata.jp/documents/6177/senkyoyotei_r080401.pdf",
+          "summary": "南陽市長選挙の告示日、投票日、任期満了日を確認できる山形県公式PDF。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.pref.yamagata.jp/documents/6177/senkyoyotei_r080401.pdf"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-mun-13228-assembly-2026",
+      "slug": "akiruno-city-assembly-2026",
+      "name": "あきる野市議会議員選挙",
+      "type": "municipal",
+      "subtype": "assembly",
+      "phase": "upcoming",
+      "voteDate": "2026-07-19",
+      "noticeDate": "2026-07-12",
+      "description": "あきる野市議会議員を選出する選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-13228",
+      "primaryRegionName": "東京都あきる野市",
+      "primaryRegionShortName": "あきる野市",
+      "prefectureRegionId": "pref-13",
+      "prefectureName": "東京都",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.akiruno.tokyo.jp/0000009786.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-13228-assembly-2026-other-01",
+          "kind": "other",
+          "title": "あきる野市長選挙・あきる野市議会議員選挙の選挙期日等",
+          "url": "https://www.city.akiruno.tokyo.jp/0000009786.html",
+          "summary": "あきる野市長選挙とあきる野市議会議員選挙の同時選挙、選挙期日、告示日、開票日を確認できるあきる野市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.akiruno.tokyo.jp/0000009786.html"
+        }
+      ],
       "candidateSignals": [],
       "candidateEndorsements": [],
       "candidateProfiles": []
@@ -20315,32 +20528,58 @@ window.ELECTION_SITE_DATA = {
       "prefectureName": "東京都",
       "pageUpdates": [],
       "sourceUrl": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/senkyo2026",
-      "resourceKinds": [],
-      "resources": [],
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-13228-mayor-2026-other-01",
+          "kind": "other",
+          "title": "あきる野市長選挙・あきる野市議会議員選挙の選挙期日等",
+          "url": "https://www.city.akiruno.tokyo.jp/0000009786.html",
+          "summary": "あきる野市長選挙とあきる野市議会議員選挙の同時選挙、選挙期日、告示日、開票日を確認できるあきる野市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.akiruno.tokyo.jp/0000009786.html"
+        }
+      ],
       "candidateSignals": [],
       "candidateEndorsements": [],
       "candidateProfiles": []
     },
     {
-      "id": "el-mun-27203-mayor-2026",
-      "slug": "toyonaka-mayor-2026",
-      "name": "豊中市長選挙",
+      "id": "el-mun-08230-mayor-2026",
+      "slug": "kasumigaura-mayor-2026",
+      "name": "かすみがうら市長選挙",
       "type": "municipal",
       "subtype": "mayor",
       "phase": "upcoming",
-      "voteDate": "2026-07-26",
+      "voteDate": "2026-07-19",
       "noticeDate": "2026-07-12",
-      "description": "豊中市長を選出する選挙です。",
+      "description": "かすみがうら市長を選出する選挙です。",
       "scopeType": "region",
-      "primaryRegionId": "mun-27203",
-      "primaryRegionName": "大阪府豊中市",
-      "primaryRegionShortName": "豊中市",
-      "prefectureRegionId": "pref-27",
-      "prefectureName": "大阪府",
+      "primaryRegionId": "mun-08230",
+      "primaryRegionName": "茨城県かすみがうら市",
+      "primaryRegionShortName": "かすみがうら市",
+      "prefectureRegionId": "pref-08",
+      "prefectureName": "茨城県",
       "pageUpdates": [],
-      "sourceUrl": "https://www.pref.osaka.lg.jp/o010130/senkan/senkan/senkyo_nittei.html",
-      "resourceKinds": [],
-      "resources": [],
+      "sourceUrl": "https://www.city.kasumigaura.lg.jp/page/page000662.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-08230-mayor-2026-other-01",
+          "kind": "other",
+          "title": "かすみがうら市 今後の選挙執行",
+          "url": "https://www.city.kasumigaura.lg.jp/page/page000662.html",
+          "summary": "かすみがうら市長選挙の投票日、任期満了日、任期を確認できるかすみがうら市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.kasumigaura.lg.jp/page/page000662.html"
+        }
+      ],
       "candidateSignals": [],
       "candidateEndorsements": [],
       "candidateProfiles": []

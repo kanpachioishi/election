@@ -3,28 +3,28 @@
 // Update data/v1 and rerun the generator instead of editing this file.
 
 window.ELECTION_SITE_DATA = {
-  "generatedAt": "2026-04-28T09:42:08.598Z",
+  "generatedAt": "2026-04-28T10:17:18.885Z",
   "sourceGeneratedAt": "2026-04-27T00:00:00+09:00",
   "stats": {
     "regions": 848,
-    "elections": 212,
-    "resourceLinks": 360,
+    "elections": 218,
+    "resourceLinks": 368,
     "postalPrefixes": 47,
     "localGovernmentSites": 94,
     "byType": {
       "prefectural": 50,
-      "municipal": 142,
-      "by_election": 18,
+      "municipal": 146,
+      "by_election": 20,
       "national": 2
     },
     "byPhase": {
-      "archived": 147,
-      "upcoming": 65
+      "archived": 149,
+      "upcoming": 69
     },
     "byResourceKind": {
       "candidate_list": 55,
       "bulletin": 62,
-      "other": 139,
+      "other": 147,
       "early_voting": 58,
       "polling_place": 46
     },
@@ -14985,6 +14985,80 @@ window.ELECTION_SITE_DATA = {
       "candidateProfiles": []
     },
     {
+      "id": "el-mun-40226-assembly-2026",
+      "slug": "miyawaka-city-assembly-2026",
+      "name": "宮若市議会議員一般選挙",
+      "type": "municipal",
+      "subtype": "assembly",
+      "phase": "archived",
+      "voteDate": "2026-03-15",
+      "noticeDate": "2026-03-08",
+      "description": "宮若市議会議員を選出する一般選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-40226",
+      "primaryRegionName": "福岡県宮若市",
+      "primaryRegionShortName": "宮若市",
+      "prefectureRegionId": "pref-40",
+      "prefectureName": "福岡県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.miyawaka.lg.jp/kiji003448067/index.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-40226-assembly-2026-other-01",
+          "kind": "other",
+          "title": "宮若市議会議員一般選挙 選挙結果",
+          "url": "https://www.city.miyawaka.lg.jp/kiji003448067/index.html",
+          "summary": "宮若市議会議員一般選挙の告示日、投票日、開票結果、投票率を確認できる宮若市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.miyawaka.lg.jp/kiji003448067/index.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-mun-40226-mayor-2026",
+      "slug": "miyawaka-mayor-2026",
+      "name": "宮若市長選挙",
+      "type": "municipal",
+      "subtype": "mayor",
+      "phase": "archived",
+      "voteDate": "2026-03-15",
+      "noticeDate": "2026-03-08",
+      "description": "宮若市長を選出する選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-40226",
+      "primaryRegionName": "福岡県宮若市",
+      "primaryRegionShortName": "宮若市",
+      "prefectureRegionId": "pref-40",
+      "prefectureName": "福岡県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.miyawaka.lg.jp/kiji003448068/index.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-40226-mayor-2026-other-01",
+          "kind": "other",
+          "title": "宮若市長選挙 選挙結果",
+          "url": "https://www.city.miyawaka.lg.jp/kiji003448068/index.html",
+          "summary": "宮若市長選挙の告示日、投票日、開票結果、投票率を確認できる宮若市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.miyawaka.lg.jp/kiji003448068/index.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
       "id": "el-mun-43216-mayor-2026",
       "slug": "koshi-mayor-2026",
       "name": "合志市長選挙",
@@ -20585,6 +20659,43 @@ window.ELECTION_SITE_DATA = {
       "candidateProfiles": []
     },
     {
+      "id": "el-mun-06212-mayor-2026",
+      "slug": "obanazawa-mayor-2026",
+      "name": "尾花沢市長選挙",
+      "type": "municipal",
+      "subtype": "mayor",
+      "phase": "upcoming",
+      "voteDate": "2026-07-26",
+      "noticeDate": "2026-07-19",
+      "description": "尾花沢市長を選出する選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-06212",
+      "primaryRegionName": "山形県尾花沢市",
+      "primaryRegionShortName": "尾花沢市",
+      "prefectureRegionId": "pref-06",
+      "prefectureName": "山形県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.pref.yamagata.jp/documents/6177/senkyoyotei_r080401.pdf",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-06212-mayor-2026-other-01",
+          "kind": "other",
+          "title": "令和8年度選挙予定一覧",
+          "url": "https://www.pref.yamagata.jp/documents/6177/senkyoyotei_r080401.pdf",
+          "summary": "尾花沢市長選挙の任期満了日、告示日、投票日を確認できる山形県公式の令和8年度選挙予定一覧PDF。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.pref.yamagata.jp/documents/6177/senkyoyotei_r080401.pdf"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
       "id": "el-mun-12218-mayor-2026",
       "slug": "katsuura-mayor-2026",
       "name": "勝浦市長選挙",
@@ -20601,33 +20712,170 @@ window.ELECTION_SITE_DATA = {
       "prefectureRegionId": "pref-12",
       "prefectureName": "千葉県",
       "pageUpdates": [],
-      "sourceUrl": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
-      "resourceKinds": [],
-      "resources": [],
+      "sourceUrl": "https://www.city.katsuura.lg.jp/page/10441.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-12218-mayor-2026-other-01",
+          "kind": "other",
+          "title": "勝浦市長選挙に関するお知らせ",
+          "url": "https://www.city.katsuura.lg.jp/page/10441.html",
+          "summary": "勝浦市長選挙の任期満了日、告示日、投票日、立候補予定者説明会日程を確認できる勝浦市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.katsuura.lg.jp/page/10441.html"
+        }
+      ],
       "candidateSignals": [],
       "candidateEndorsements": [],
       "candidateProfiles": []
     },
     {
-      "id": "el-mun-40226-mayor-2026",
-      "slug": "miyawaka-mayor-2026",
-      "name": "宮若市長選挙",
+      "id": "el-by-mun-01203-assembly-2026-01",
+      "slug": "otaru-city-assembly-by-election-2026-01",
+      "name": "小樽市議会議員補欠選挙",
+      "type": "by_election",
+      "subtype": "assembly",
+      "phase": "upcoming",
+      "voteDate": "2026-08-09",
+      "noticeDate": "2026-08-02",
+      "description": "小樽市議会議員の欠員を補う補欠選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-01203",
+      "primaryRegionName": "北海道小樽市",
+      "primaryRegionShortName": "小樽市",
+      "prefectureRegionId": "pref-01",
+      "prefectureName": "北海道",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.otaru.lg.jp/docs/2021112500064/",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-by-mun-01203-assembly-2026-01-other-01",
+          "kind": "other",
+          "title": "小樽市長選挙及び小樽市議会議員補欠選挙の期日",
+          "url": "https://www.city.otaru.lg.jp/docs/2021112500064/",
+          "summary": "小樽市長選挙と小樽市議会議員補欠選挙の告示日、選挙期日を確認できる小樽市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.otaru.lg.jp/docs/2021112500064/"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-mun-01203-mayor-2026",
+      "slug": "otaru-mayor-2026",
+      "name": "小樽市長選挙",
       "type": "municipal",
       "subtype": "mayor",
       "phase": "upcoming",
       "voteDate": "2026-08-09",
       "noticeDate": "2026-08-02",
-      "description": "宮若市長を選出する選挙です。",
+      "description": "小樽市長を選出する選挙です。",
       "scopeType": "region",
-      "primaryRegionId": "mun-40226",
-      "primaryRegionName": "福岡県宮若市",
-      "primaryRegionShortName": "宮若市",
-      "prefectureRegionId": "pref-40",
-      "prefectureName": "福岡県",
+      "primaryRegionId": "mun-01203",
+      "primaryRegionName": "北海道小樽市",
+      "primaryRegionShortName": "小樽市",
+      "prefectureRegionId": "pref-01",
+      "prefectureName": "北海道",
       "pageUpdates": [],
-      "sourceUrl": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282718.pdf",
-      "resourceKinds": [],
-      "resources": [],
+      "sourceUrl": "https://www.city.otaru.lg.jp/docs/2021112500064/",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-01203-mayor-2026-other-01",
+          "kind": "other",
+          "title": "小樽市長選挙及び小樽市議会議員補欠選挙の期日",
+          "url": "https://www.city.otaru.lg.jp/docs/2021112500064/",
+          "summary": "小樽市長選挙と小樽市議会議員補欠選挙の告示日、選挙期日を確認できる小樽市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.otaru.lg.jp/docs/2021112500064/"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-by-mun-30201-assembly-2026-01",
+      "slug": "wakayama-city-assembly-by-election-2026-01",
+      "name": "和歌山市議会議員補欠選挙",
+      "type": "by_election",
+      "subtype": "assembly",
+      "phase": "upcoming",
+      "voteDate": "2026-08-09",
+      "noticeDate": "2026-08-02",
+      "description": "和歌山市議会議員の欠員を補う補欠選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-30201",
+      "primaryRegionName": "和歌山県和歌山市",
+      "primaryRegionShortName": "和歌山市",
+      "prefectureRegionId": "pref-30",
+      "prefectureName": "和歌山県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.wakayama.wakayama.jp/kurashi/senkyo/1067052/1067053.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-by-mun-30201-assembly-2026-01-other-01",
+          "kind": "other",
+          "title": "和歌山市長選挙及び和歌山市議会議員補欠選挙の投票日",
+          "url": "https://www.city.wakayama.wakayama.jp/kurashi/senkyo/1067052/1067053.html",
+          "summary": "和歌山市長選挙と和歌山市議会議員補欠選挙の投票日、告示日、立候補予定者説明会を確認できる和歌山市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.wakayama.wakayama.jp/kurashi/senkyo/1067052/1067053.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-mun-30201-mayor-2026",
+      "slug": "wakayama-mayor-2026",
+      "name": "和歌山市長選挙",
+      "type": "municipal",
+      "subtype": "mayor",
+      "phase": "upcoming",
+      "voteDate": "2026-08-09",
+      "noticeDate": "2026-08-02",
+      "description": "和歌山市長を選出する選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-30201",
+      "primaryRegionName": "和歌山県和歌山市",
+      "primaryRegionShortName": "和歌山市",
+      "prefectureRegionId": "pref-30",
+      "prefectureName": "和歌山県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.wakayama.wakayama.jp/kurashi/senkyo/1067052/1067053.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-30201-mayor-2026-other-01",
+          "kind": "other",
+          "title": "和歌山市長選挙及び和歌山市議会議員補欠選挙の投票日",
+          "url": "https://www.city.wakayama.wakayama.jp/kurashi/senkyo/1067052/1067053.html",
+          "summary": "和歌山市長選挙と和歌山市議会議員補欠選挙の任期満了日、投票日、告示日、立候補予定者説明会を確認できる和歌山市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.wakayama.wakayama.jp/kurashi/senkyo/1067052/1067053.html"
+        }
+      ],
       "candidateSignals": [],
       "candidateEndorsements": [],
       "candidateProfiles": []

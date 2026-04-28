@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-by-mun-30201-assembly-2026-01",
+  "records": [
+    {
+      "id": "el-by-mun-30201-assembly-2026-01-other-01",
+      "election_id": "el-by-mun-30201-assembly-2026-01",
+      "kind": "other",
+      "title": "和歌山市長選挙及び和歌山市議会議員補欠選挙の投票日",
+      "url": "https://www.city.wakayama.wakayama.jp/kurashi/senkyo/1067052/1067053.html",
+      "summary": "和歌山市長選挙と和歌山市議会議員補欠選挙の投票日、告示日、立候補予定者説明会を確認できる和歌山市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.wakayama.wakayama.jp/kurashi/senkyo/1067052/1067053.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": "2026-04-28時点で和歌山市公式ページに和歌山市議会議員補欠選挙を市長選と同時に行う記載を確認。"
+      }
+    }
+  ]
+}

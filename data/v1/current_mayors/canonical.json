@@ -5127,31 +5127,61 @@
       "macro_region": "北海道・東北",
       "mayor_name": "結城 裕",
       "mayor_name_kana": null,
-      "term_start": "2022-09-01",
+      "term_start": "2022-08-12",
       "term_start_display": null,
-      "term_end": "2026-08-31",
+      "term_end": "2026-08-11",
       "term_end_display": null,
       "term_note": "記載なし",
       "status": "confirmed",
       "investigated_at": "2026-04-23",
       "sources": [
         {
-          "kind": "public_page_source",
-          "title": "公式ページ",
-          "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/murayama/index.html",
-          "checked_at": "2026-04-23",
-          "used_for": [],
+          "kind": "election_result",
+          "title": "令和4年 尾花沢市長選挙 投開票結果",
+          "url": "https://www.city.obanazawa.yamagata.jp/shisei/senkyo/tokaihyo/1284",
+          "checked_at": "2026-04-28",
+          "used_for": [
+            "mayor_name"
+          ],
           "publisher": null,
-          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.city.obanazawa.yamagata.jp/shisei/mayor/739",
+          "checked_at": "2026-04-28",
+          "used_for": [
+            "mayor_name",
+            "term_start"
+          ],
+          "publisher": null,
+          "note": "2022年8月の市長就任を確認。"
+        },
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "令和8年度選挙予定一覧",
+          "url": "https://www.pref.yamagata.jp/documents/6177/senkyoyotei_r080401.pdf",
+          "checked_at": "2026-04-28",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
         }
       ],
       "display_source": {
-        "label": "公式ページ",
-        "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/murayama/index.html"
+        "label": "選挙予定一覧",
+        "url": "https://www.pref.yamagata.jp/documents/6177/senkyoyotei_r080401.pdf"
       },
-      "last_checked_at": "2026-04-23",
-      "note": "山形県資料の任期満了日から現任期始期を4年任期で整理。",
-      "findings_values": null,
+      "last_checked_at": "2026-04-28",
+      "note": "山形県公式の令和8年度選挙予定一覧で任期満了日2026-08-11を確認。尾花沢市公式プロフィールで2022年8月就任を確認。",
+      "findings_values": {
+        "mayor_name": "結城 裕",
+        "term_start": "2022-08-12",
+        "term_end": "2026-08-11",
+        "note": "山形県公式の令和8年度選挙予定一覧で任期満了日2026-08-11を確認。尾花沢市公式プロフィールで2022年8月就任を確認。"
+      },
       "public_order": 162,
       "prefecture_city_order": 10,
       "source_artifacts": [
@@ -11369,49 +11399,60 @@
       "macro_region": "関東",
       "mayor_name": "大山 忍",
       "mayor_name_kana": null,
-      "term_start": null,
-      "term_start_display": "記載なし",
-      "term_end": "2026-09-15",
+      "term_start": "2025-09-16",
+      "term_start_display": null,
+      "term_end": "2029-09-15",
       "term_end_display": null,
-      "term_note": "現職",
+      "term_note": "4期目",
       "status": "confirmed",
       "investigated_at": "2026-04-23",
       "sources": [
         {
-          "kind": "prefecture_term_expiry_list",
-          "title": "埼玉県 任期満了日一覧",
-          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
-          "checked_at": "2026-04-23",
-          "used_for": [],
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.city.yashio.lg.jp/shisei/shichonoheya/profile.html",
+          "checked_at": "2026-04-28",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
           "publisher": null,
           "note": null
         },
         {
-          "kind": "municipal_official_page",
-          "title": "公式ページ",
-          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
-          "checked_at": "2026-04-21",
+          "kind": "election_result",
+          "title": "八潮市長選挙投票結果・開票結果（令和7年9月7日執行）",
+          "url": "https://www.city.yashio.lg.jp/shisei/senkyo/senkyokekka/sityousenkyo/sichousen0907.html",
+          "checked_at": "2026-04-28",
           "used_for": [
-            "mayor_name",
-            "term_start",
-            "term_end",
-            "term_note"
+            "term_start"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-28",
+          "used_for": [
+            "term_end"
           ],
           "publisher": null,
           "note": null
         }
       ],
       "display_source": {
-        "label": "公式ページ",
+        "label": "任期満了日一覧",
         "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
       },
-      "last_checked_at": "2026-04-21",
-      "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認",
+      "last_checked_at": "2026-04-28",
+      "note": "八潮市公式の2025年市長選挙結果と市長プロフィール、埼玉県任期満了日一覧を確認し、現任期を2025-09-16から2029-09-15までとして整理。",
       "findings_values": {
         "mayor_name": "大山 忍",
-        "term_start": "記載なし",
-        "term_end": "2026-09-15",
-        "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認"
+        "term_start": "2025-09-16",
+        "term_end": "2029-09-15",
+        "note": "八潮市公式の2025年市長選挙結果と市長プロフィール、埼玉県任期満了日一覧を確認し、現任期を2025-09-16から2029-09-15までとして整理。"
       },
       "public_order": 273,
       "prefecture_city_order": 30,
@@ -12183,6 +12224,17 @@
       "investigated_at": "2026-04-23",
       "sources": [
         {
+          "kind": "municipal_official_page",
+          "title": "勝浦市長選挙に関するお知らせ",
+          "url": "https://www.city.katsuura.lg.jp/page/10441.html",
+          "checked_at": "2026-04-28",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
           "kind": "prefecture_election_schedule",
           "title": "千葉県 予定選挙一覧",
           "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
@@ -12207,16 +12259,16 @@
         }
       ],
       "display_source": {
-        "label": "公式ページ",
-        "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        "label": "選挙日程",
+        "url": "https://www.city.katsuura.lg.jp/page/10441.html"
       },
-      "last_checked_at": "2026-04-21",
-      "note": "県の予定選挙一覧で確認。",
+      "last_checked_at": "2026-04-28",
+      "note": "勝浦市公式の市長選挙ページで任期満了日2026-08-27、告示日2026-07-26、投票日2026-08-02を確認。",
       "findings_values": {
         "mayor_name": "照川 由美子",
         "term_start": "記載なし",
         "term_end": "2026-08-27",
-        "note": "県の予定選挙一覧で確認。"
+        "note": "勝浦市公式の市長選挙ページで任期満了日2026-08-27、告示日2026-07-26、投票日2026-08-02を確認。"
       },
       "public_order": 94,
       "prefecture_city_order": 3,
@@ -29692,20 +29744,35 @@
       "macro_region": "関西",
       "mayor_name": "村田 正明",
       "mayor_name_kana": null,
-      "term_start": null,
-      "term_start_display": "記載なし",
-      "term_end": "2026-09-24",
+      "term_start": "2025-09-25",
+      "term_start_display": null,
+      "term_end": "2029-09-24",
       "term_end_display": null,
-      "term_note": "現職",
+      "term_note": "1期目",
       "status": "confirmed",
       "investigated_at": "2026-04-23",
       "sources": [
         {
-          "kind": "prefecture_city_list",
-          "title": "京都府 府内市町村・官公庁・都道府県等",
-          "url": "https://www.pref.kyoto.jp/link.html",
-          "checked_at": "2026-04-23",
-          "used_for": [],
+          "kind": "municipal_official_page",
+          "title": "市長のプロフィール",
+          "url": "https://www.city.joyo.kyoto.jp/0000011395.html",
+          "checked_at": "2026-04-28",
+          "used_for": [
+            "mayor_name",
+            "term_start"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_result",
+          "title": "令和7年9月7日執行 城陽市長選挙・城陽市議会議員補欠選挙開票速報",
+          "url": "https://www.city.joyo.kyoto.jp/0000011302.html",
+          "checked_at": "2026-04-28",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
           "publisher": null,
           "note": null
         },
@@ -29713,38 +29780,25 @@
           "kind": "prefecture_term_expiry_list",
           "title": "京都府 知事・市町村長・議会議員任期満了日一覧",
           "url": "https://www.pref.kyoto.jp/senkyo/ninki.html",
-          "checked_at": "2026-04-23",
-          "used_for": [],
-          "publisher": null,
-          "note": null
-        },
-        {
-          "kind": "municipal_official_page",
-          "title": "公式ページ",
-          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html",
-          "checked_at": "2026-04-21",
+          "checked_at": "2026-04-28",
           "used_for": [
-            "mayor_name",
-            "term_start",
-            "term_end",
-            "term_note",
-            "note"
+            "term_end"
           ],
           "publisher": null,
           "note": null
         }
       ],
       "display_source": {
-        "label": "公式ページ",
+        "label": "任期満了日一覧",
         "url": "https://www.pref.kyoto.jp/senkyo/ninki.html"
       },
-      "last_checked_at": "2026-04-21",
-      "note": "府の任期満了日一覧で確認。",
+      "last_checked_at": "2026-04-28",
+      "note": "城陽市公式プロフィールで2025-09-25市長就任を確認し、京都府任期満了日一覧で任期満了日2029-09-24を確認。",
       "findings_values": {
         "mayor_name": "村田 正明",
-        "term_start": "記載なし",
-        "term_end": "2026-09-24",
-        "note": "府の任期満了日一覧で確認。"
+        "term_start": "2025-09-25",
+        "term_end": "2029-09-24",
+        "note": "城陽市公式プロフィールで2025-09-25市長就任を確認し、京都府任期満了日一覧で任期満了日2029-09-24を確認。"
       },
       "public_order": 525,
       "prefecture_city_order": 7,
@@ -35675,59 +35729,59 @@
       "macro_region": "関西",
       "mayor_name": "尾花 正啓",
       "mayor_name_kana": null,
-      "term_start": null,
-      "term_start_display": "2022-08",
-      "term_end": null,
-      "term_end_display": "2026-08",
-      "term_note": "公式プロフィールで2022年8月に2期目の和歌山市長就任。",
+      "term_start": "2022-08-25",
+      "term_start_display": null,
+      "term_end": "2026-08-24",
+      "term_end_display": null,
+      "term_note": "3期目",
       "status": "confirmed",
       "investigated_at": "2026-04-23",
       "sources": [
         {
-          "kind": "prefecture_city_list",
-          "title": "和歌山県 関連リンク 市町村",
-          "url": "https://www.pref.wakayama.lg.jp/link/shichoson.html",
-          "checked_at": "2026-04-23",
-          "used_for": [],
-          "publisher": null,
-          "note": null
-        },
-        {
-          "kind": "prefecture_term_expiry_list",
-          "title": "和歌山県 市町村役場の所在地一覧",
-          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html",
-          "checked_at": "2026-04-23",
-          "used_for": [],
-          "publisher": null,
-          "note": null
-        },
-        {
           "kind": "municipal_official_page",
           "title": "市長プロフィール",
-          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html",
-          "checked_at": "2026-04-20",
+          "url": "https://www.city.wakayama.wakayama.jp/1009555/1002823.html",
+          "checked_at": "2026-04-28",
           "used_for": [
-            "mayor_name",
-            "term_start",
-            "term_end",
-            "term_note",
-            "note"
+            "mayor_name"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_election_schedule",
+          "title": "和歌山市長選挙及び和歌山市議会議員補欠選挙の投票日・立候補者説明会",
+          "url": "https://www.city.wakayama.wakayama.jp/kurashi/senkyo/1067052/1067053.html",
+          "checked_at": "2026-04-28",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_result",
+          "title": "選挙の結果（和歌山市長選挙）",
+          "url": "https://www.city.wakayama.wakayama.jp/kurashi/senkyo/1008391/1009154/1009156/1002597.html",
+          "checked_at": "2026-04-28",
+          "used_for": [
+            "term_start"
           ],
           "publisher": null,
           "note": null
         }
       ],
       "display_source": {
-        "label": "市長プロフィール",
-        "url": null
+        "label": "市長選挙日程",
+        "url": "https://www.city.wakayama.wakayama.jp/kurashi/senkyo/1067052/1067053.html"
       },
-      "last_checked_at": "2026-04-20",
-      "note": "市長名と就任月は和歌山市公式プロフィールで確認。任期は月単位で整理。",
+      "last_checked_at": "2026-04-28",
+      "note": "和歌山市公式の2026年市長選挙日程で任期満了日2026-08-24を確認。2014年市長就任、2022年市長選挙結果を踏まえ、現任期始期を2022-08-25、現任期を3期目として整理。",
       "findings_values": {
         "mayor_name": "尾花 正啓",
-        "term_start": "2022-08",
-        "term_end": "2026-08",
-        "note": "市長名と就任月は和歌山市公式プロフィールで確認。任期は月単位で整理。"
+        "term_start": "2022-08-25",
+        "term_end": "2026-08-24",
+        "note": "和歌山市公式の2026年市長選挙日程で任期満了日2026-08-24を確認。2014年市長就任、2022年市長選挙結果を踏まえ、現任期始期を2022-08-25、現任期を3期目として整理。"
       },
       "public_order": 41,
       "prefecture_city_order": 0,

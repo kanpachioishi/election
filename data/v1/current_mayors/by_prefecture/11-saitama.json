@@ -1869,49 +1869,60 @@
       "macro_region": "関東",
       "mayor_name": "大山 忍",
       "mayor_name_kana": null,
-      "term_start": null,
-      "term_start_display": "記載なし",
-      "term_end": "2026-09-15",
+      "term_start": "2025-09-16",
+      "term_start_display": null,
+      "term_end": "2029-09-15",
       "term_end_display": null,
-      "term_note": "現職",
+      "term_note": "4期目",
       "status": "confirmed",
       "investigated_at": "2026-04-23",
       "sources": [
         {
-          "kind": "prefecture_term_expiry_list",
-          "title": "埼玉県 任期満了日一覧",
-          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
-          "checked_at": "2026-04-23",
-          "used_for": [],
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.city.yashio.lg.jp/shisei/shichonoheya/profile.html",
+          "checked_at": "2026-04-28",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
           "publisher": null,
           "note": null
         },
         {
-          "kind": "municipal_official_page",
-          "title": "公式ページ",
-          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
-          "checked_at": "2026-04-21",
+          "kind": "election_result",
+          "title": "八潮市長選挙投票結果・開票結果（令和7年9月7日執行）",
+          "url": "https://www.city.yashio.lg.jp/shisei/senkyo/senkyokekka/sityousenkyo/sichousen0907.html",
+          "checked_at": "2026-04-28",
           "used_for": [
-            "mayor_name",
-            "term_start",
-            "term_end",
-            "term_note"
+            "term_start"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "prefecture_term_expiry_list",
+          "title": "埼玉県 任期満了日一覧",
+          "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html",
+          "checked_at": "2026-04-28",
+          "used_for": [
+            "term_end"
           ],
           "publisher": null,
           "note": null
         }
       ],
       "display_source": {
-        "label": "公式ページ",
+        "label": "任期満了日一覧",
         "url": "https://www.pref.saitama.lg.jp/e1701/ninki.html"
       },
-      "last_checked_at": "2026-04-21",
-      "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認",
+      "last_checked_at": "2026-04-28",
+      "note": "八潮市公式の2025年市長選挙結果と市長プロフィール、埼玉県任期満了日一覧を確認し、現任期を2025-09-16から2029-09-15までとして整理。",
       "findings_values": {
         "mayor_name": "大山 忍",
-        "term_start": "記載なし",
-        "term_end": "2026-09-15",
-        "note": "埼玉県の任期満了日一覧で市長の任期満了日を確認"
+        "term_start": "2025-09-16",
+        "term_end": "2029-09-15",
+        "note": "八潮市公式の2025年市長選挙結果と市長プロフィール、埼玉県任期満了日一覧を確認し、現任期を2025-09-16から2029-09-15までとして整理。"
       },
       "public_order": 273,
       "prefecture_city_order": 30,

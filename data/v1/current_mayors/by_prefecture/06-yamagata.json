@@ -460,31 +460,61 @@
       "macro_region": "北海道・東北",
       "mayor_name": "結城 裕",
       "mayor_name_kana": null,
-      "term_start": "2022-09-01",
+      "term_start": "2022-08-12",
       "term_start_display": null,
-      "term_end": "2026-08-31",
+      "term_end": "2026-08-11",
       "term_end_display": null,
       "term_note": "記載なし",
       "status": "confirmed",
       "investigated_at": "2026-04-23",
       "sources": [
         {
-          "kind": "public_page_source",
-          "title": "公式ページ",
-          "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/murayama/index.html",
-          "checked_at": "2026-04-23",
-          "used_for": [],
+          "kind": "election_result",
+          "title": "令和4年 尾花沢市長選挙 投開票結果",
+          "url": "https://www.city.obanazawa.yamagata.jp/shisei/senkyo/tokaihyo/1284",
+          "checked_at": "2026-04-28",
+          "used_for": [
+            "mayor_name"
+          ],
           "publisher": null,
-          "note": "Initial canonical migration fallback from site/pages/current-mayors.html"
+          "note": null
+        },
+        {
+          "kind": "municipal_official_page",
+          "title": "市長プロフィール",
+          "url": "https://www.city.obanazawa.yamagata.jp/shisei/mayor/739",
+          "checked_at": "2026-04-28",
+          "used_for": [
+            "mayor_name",
+            "term_start"
+          ],
+          "publisher": null,
+          "note": "2022年8月の市長就任を確認。"
+        },
+        {
+          "kind": "prefecture_election_schedule",
+          "title": "令和8年度選挙予定一覧",
+          "url": "https://www.pref.yamagata.jp/documents/6177/senkyoyotei_r080401.pdf",
+          "checked_at": "2026-04-28",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
         }
       ],
       "display_source": {
-        "label": "公式ページ",
-        "url": "https://www.pref.yamagata.jp/020024/kensei/information/gaiyo/murayama/index.html"
+        "label": "選挙予定一覧",
+        "url": "https://www.pref.yamagata.jp/documents/6177/senkyoyotei_r080401.pdf"
       },
-      "last_checked_at": "2026-04-23",
-      "note": "山形県資料の任期満了日から現任期始期を4年任期で整理。",
-      "findings_values": null,
+      "last_checked_at": "2026-04-28",
+      "note": "山形県公式の令和8年度選挙予定一覧で任期満了日2026-08-11を確認。尾花沢市公式プロフィールで2022年8月就任を確認。",
+      "findings_values": {
+        "mayor_name": "結城 裕",
+        "term_start": "2022-08-12",
+        "term_end": "2026-08-11",
+        "note": "山形県公式の令和8年度選挙予定一覧で任期満了日2026-08-11を確認。尾花沢市公式プロフィールで2022年8月就任を確認。"
+      },
       "public_order": 162,
       "prefecture_city_order": 10,
       "source_artifacts": [

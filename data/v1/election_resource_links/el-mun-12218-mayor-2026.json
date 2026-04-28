@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-mun-12218-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-12218-mayor-2026-other-01",
+      "election_id": "el-mun-12218-mayor-2026",
+      "kind": "other",
+      "title": "勝浦市長選挙に関するお知らせ",
+      "url": "https://www.city.katsuura.lg.jp/page/10441.html",
+      "summary": "勝浦市長選挙の任期満了日、告示日、投票日、立候補予定者説明会日程を確認できる勝浦市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.katsuura.lg.jp/page/10441.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": "2026-04-28時点で勝浦市公式ページに任期満了日 2026-08-27、告示日 2026-07-26、投票日 2026-08-02 の記載を確認。"
+      }
+    }
+  ]
+}

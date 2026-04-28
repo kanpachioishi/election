@@ -205,6 +205,17 @@
       "investigated_at": "2026-04-23",
       "sources": [
         {
+          "kind": "municipal_official_page",
+          "title": "勝浦市長選挙に関するお知らせ",
+          "url": "https://www.city.katsuura.lg.jp/page/10441.html",
+          "checked_at": "2026-04-28",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
           "kind": "prefecture_election_schedule",
           "title": "千葉県 予定選挙一覧",
           "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
@@ -229,16 +240,16 @@
         }
       ],
       "display_source": {
-        "label": "公式ページ",
-        "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html"
+        "label": "選挙日程",
+        "url": "https://www.city.katsuura.lg.jp/page/10441.html"
       },
-      "last_checked_at": "2026-04-21",
-      "note": "県の予定選挙一覧で確認。",
+      "last_checked_at": "2026-04-28",
+      "note": "勝浦市公式の市長選挙ページで任期満了日2026-08-27、告示日2026-07-26、投票日2026-08-02を確認。",
       "findings_values": {
         "mayor_name": "照川 由美子",
         "term_start": "記載なし",
         "term_end": "2026-08-27",
-        "note": "県の予定選挙一覧で確認。"
+        "note": "勝浦市公式の市長選挙ページで任期満了日2026-08-27、告示日2026-07-26、投票日2026-08-02を確認。"
       },
       "public_order": 94,
       "prefecture_city_order": 3,

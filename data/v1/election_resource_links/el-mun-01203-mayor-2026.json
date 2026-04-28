@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-mun-01203-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-01203-mayor-2026-other-01",
+      "election_id": "el-mun-01203-mayor-2026",
+      "kind": "other",
+      "title": "小樽市長選挙及び小樽市議会議員補欠選挙の期日",
+      "url": "https://www.city.otaru.lg.jp/docs/2021112500064/",
+      "summary": "小樽市長選挙と小樽市議会議員補欠選挙の告示日、選挙期日を確認できる小樽市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.otaru.lg.jp/docs/2021112500064/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": "2026-04-28時点で小樽市公式ページに告示日 2026-08-02、選挙期日 2026-08-09 の記載を確認。"
+      }
+    }
+  ]
+}

@@ -21,59 +21,59 @@
       "macro_region": "関西",
       "mayor_name": "尾花 正啓",
       "mayor_name_kana": null,
-      "term_start": null,
-      "term_start_display": "2022-08",
-      "term_end": null,
-      "term_end_display": "2026-08",
-      "term_note": "公式プロフィールで2022年8月に2期目の和歌山市長就任。",
+      "term_start": "2022-08-25",
+      "term_start_display": null,
+      "term_end": "2026-08-24",
+      "term_end_display": null,
+      "term_note": "3期目",
       "status": "confirmed",
       "investigated_at": "2026-04-23",
       "sources": [
         {
-          "kind": "prefecture_city_list",
-          "title": "和歌山県 関連リンク 市町村",
-          "url": "https://www.pref.wakayama.lg.jp/link/shichoson.html",
-          "checked_at": "2026-04-23",
-          "used_for": [],
-          "publisher": null,
-          "note": null
-        },
-        {
-          "kind": "prefecture_term_expiry_list",
-          "title": "和歌山県 市町村役場の所在地一覧",
-          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html",
-          "checked_at": "2026-04-23",
-          "used_for": [],
-          "publisher": null,
-          "note": null
-        },
-        {
           "kind": "municipal_official_page",
           "title": "市長プロフィール",
-          "url": "https://www.pref.wakayama.lg.jp/prefg/010600/02_gyosei/shichosonyakuba.html",
-          "checked_at": "2026-04-20",
+          "url": "https://www.city.wakayama.wakayama.jp/1009555/1002823.html",
+          "checked_at": "2026-04-28",
           "used_for": [
-            "mayor_name",
-            "term_start",
-            "term_end",
-            "term_note",
-            "note"
+            "mayor_name"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "municipal_election_schedule",
+          "title": "和歌山市長選挙及び和歌山市議会議員補欠選挙の投票日・立候補者説明会",
+          "url": "https://www.city.wakayama.wakayama.jp/kurashi/senkyo/1067052/1067053.html",
+          "checked_at": "2026-04-28",
+          "used_for": [
+            "term_end"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_result",
+          "title": "選挙の結果（和歌山市長選挙）",
+          "url": "https://www.city.wakayama.wakayama.jp/kurashi/senkyo/1008391/1009154/1009156/1002597.html",
+          "checked_at": "2026-04-28",
+          "used_for": [
+            "term_start"
           ],
           "publisher": null,
           "note": null
         }
       ],
       "display_source": {
-        "label": "市長プロフィール",
-        "url": null
+        "label": "市長選挙日程",
+        "url": "https://www.city.wakayama.wakayama.jp/kurashi/senkyo/1067052/1067053.html"
       },
-      "last_checked_at": "2026-04-20",
-      "note": "市長名と就任月は和歌山市公式プロフィールで確認。任期は月単位で整理。",
+      "last_checked_at": "2026-04-28",
+      "note": "和歌山市公式の2026年市長選挙日程で任期満了日2026-08-24を確認。2014年市長就任、2022年市長選挙結果を踏まえ、現任期始期を2022-08-25、現任期を3期目として整理。",
       "findings_values": {
         "mayor_name": "尾花 正啓",
-        "term_start": "2022-08",
-        "term_end": "2026-08",
-        "note": "市長名と就任月は和歌山市公式プロフィールで確認。任期は月単位で整理。"
+        "term_start": "2022-08-25",
+        "term_end": "2026-08-24",
+        "note": "和歌山市公式の2026年市長選挙日程で任期満了日2026-08-24を確認。2014年市長就任、2022年市長選挙結果を踏まえ、現任期始期を2022-08-25、現任期を3期目として整理。"
       },
       "public_order": 41,
       "prefecture_city_order": 0,

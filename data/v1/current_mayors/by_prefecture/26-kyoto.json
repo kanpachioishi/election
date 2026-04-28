@@ -532,20 +532,35 @@
       "macro_region": "関西",
       "mayor_name": "村田 正明",
       "mayor_name_kana": null,
-      "term_start": null,
-      "term_start_display": "記載なし",
-      "term_end": "2026-09-24",
+      "term_start": "2025-09-25",
+      "term_start_display": null,
+      "term_end": "2029-09-24",
       "term_end_display": null,
-      "term_note": "現職",
+      "term_note": "1期目",
       "status": "confirmed",
       "investigated_at": "2026-04-23",
       "sources": [
         {
-          "kind": "prefecture_city_list",
-          "title": "京都府 府内市町村・官公庁・都道府県等",
-          "url": "https://www.pref.kyoto.jp/link.html",
-          "checked_at": "2026-04-23",
-          "used_for": [],
+          "kind": "municipal_official_page",
+          "title": "市長のプロフィール",
+          "url": "https://www.city.joyo.kyoto.jp/0000011395.html",
+          "checked_at": "2026-04-28",
+          "used_for": [
+            "mayor_name",
+            "term_start"
+          ],
+          "publisher": null,
+          "note": null
+        },
+        {
+          "kind": "election_result",
+          "title": "令和7年9月7日執行 城陽市長選挙・城陽市議会議員補欠選挙開票速報",
+          "url": "https://www.city.joyo.kyoto.jp/0000011302.html",
+          "checked_at": "2026-04-28",
+          "used_for": [
+            "mayor_name",
+            "term_note"
+          ],
           "publisher": null,
           "note": null
         },
@@ -553,38 +568,25 @@
           "kind": "prefecture_term_expiry_list",
           "title": "京都府 知事・市町村長・議会議員任期満了日一覧",
           "url": "https://www.pref.kyoto.jp/senkyo/ninki.html",
-          "checked_at": "2026-04-23",
-          "used_for": [],
-          "publisher": null,
-          "note": null
-        },
-        {
-          "kind": "municipal_official_page",
-          "title": "公式ページ",
-          "url": "https://www.pref.kyoto.jp/senkyo/ninki.html",
-          "checked_at": "2026-04-21",
+          "checked_at": "2026-04-28",
           "used_for": [
-            "mayor_name",
-            "term_start",
-            "term_end",
-            "term_note",
-            "note"
+            "term_end"
           ],
           "publisher": null,
           "note": null
         }
       ],
       "display_source": {
-        "label": "公式ページ",
+        "label": "任期満了日一覧",
         "url": "https://www.pref.kyoto.jp/senkyo/ninki.html"
       },
-      "last_checked_at": "2026-04-21",
-      "note": "府の任期満了日一覧で確認。",
+      "last_checked_at": "2026-04-28",
+      "note": "城陽市公式プロフィールで2025-09-25市長就任を確認し、京都府任期満了日一覧で任期満了日2029-09-24を確認。",
       "findings_values": {
         "mayor_name": "村田 正明",
-        "term_start": "記載なし",
-        "term_end": "2026-09-24",
-        "note": "府の任期満了日一覧で確認。"
+        "term_start": "2025-09-25",
+        "term_end": "2029-09-24",
+        "note": "城陽市公式プロフィールで2025-09-25市長就任を確認し、京都府任期満了日一覧で任期満了日2029-09-24を確認。"
       },
       "public_order": 525,
       "prefecture_city_order": 7,

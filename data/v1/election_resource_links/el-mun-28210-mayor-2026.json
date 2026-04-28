@@ -20,6 +20,24 @@
         "status": "verified",
         "note": null
       }
+    },
+    {
+      "id": "el-mun-28210-mayor-2026-polling-place-01",
+      "election_id": "el-mun-28210-mayor-2026",
+      "kind": "polling_place",
+      "title": "投票所のご案内",
+      "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/senkyokanriiinkaijimukyoku/tohyojonogoannai/index.html",
+      "summary": "加古川市の町別投票所案内へのリンクを確認できる公式ページ。",
+      "is_official": true,
+      "display_order": 40,
+      "verification": {
+        "source_url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/senkyokanriiinkaijimukyoku/tohyojonogoannai/index.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
     }
   ]
 }

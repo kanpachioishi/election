@@ -20,6 +20,24 @@
         "status": "verified",
         "note": null
       }
+    },
+    {
+      "id": "el-mun-13219-mayor-2026-polling-place-01",
+      "election_id": "el-mun-13219-mayor-2026",
+      "kind": "polling_place",
+      "title": "投票区・投票所案内",
+      "url": "https://www.city.komae.tokyo.jp/index.cfm/41%2C141021%2C602%2Chtml",
+      "summary": "狛江市の投票区、投票所、字別投票区域を確認できる公式ページ。",
+      "is_official": true,
+      "display_order": 40,
+      "verification": {
+        "source_url": "https://www.city.komae.tokyo.jp/index.cfm/41%2C141021%2C602%2Chtml",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
     }
   ]
 }

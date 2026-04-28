@@ -20,6 +20,24 @@
         "status": "verified",
         "note": null
       }
+    },
+    {
+      "id": "el-mun-02204-mayor-2026-polling-place-01",
+      "election_id": "el-mun-02204-mayor-2026",
+      "kind": "polling_place",
+      "title": "投票場所のご案内",
+      "url": "https://www.city.kuroishi.aomori.jp/shisei/keikaku/senkyo-tohyoujo_20220126.html",
+      "summary": "黒石市の投票所一覧、所在地、町内を確認できる公式ページ。",
+      "is_official": true,
+      "display_order": 40,
+      "verification": {
+        "source_url": "https://www.city.kuroishi.aomori.jp/shisei/keikaku/senkyo-kanri-iinkai.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": "黒石市選挙管理委員会ページから投票場所のご案内への導線を確認。"
+      }
     }
   ]
 }

@@ -3,12 +3,12 @@
 // Update data/v1 and rerun the generator instead of editing this file.
 
 window.ELECTION_SITE_DATA = {
-  "generatedAt": "2026-04-28T11:05:57.589Z",
+  "generatedAt": "2026-04-28T11:42:12.338Z",
   "sourceGeneratedAt": "2026-04-27T00:00:00+09:00",
   "stats": {
     "regions": 848,
     "elections": 223,
-    "resourceLinks": 386,
+    "resourceLinks": 393,
     "postalPrefixes": 47,
     "localGovernmentSites": 94,
     "byType": {
@@ -26,7 +26,7 @@ window.ELECTION_SITE_DATA = {
       "bulletin": 62,
       "other": 165,
       "early_voting": 58,
-      "polling_place": 46
+      "polling_place": 53
     },
     "byLocalGovernmentSiteKind": {
       "prefecture_home": 47,
@@ -19831,7 +19831,8 @@ window.ELECTION_SITE_DATA = {
       "pageUpdates": [],
       "sourceUrl": "https://www.city.iwanuma.miyagi.jp/kurashi/senkyo/R8_shichoshigiho.html",
       "resourceKinds": [
-        "other"
+        "other",
+        "polling_place"
       ],
       "resources": [
         {
@@ -19842,6 +19843,16 @@ window.ELECTION_SITE_DATA = {
           "summary": "岩沼市長選挙及び岩沼市議会議員補欠選挙の投開票日、告示日、期日前投票、投票所を確認できる岩沼市公式ページ。",
           "isOfficial": true,
           "displayOrder": 1,
+          "sourceUrl": "https://www.city.iwanuma.miyagi.jp/kurashi/senkyo/R8_shichoshigiho.html"
+        },
+        {
+          "id": "el-mun-04211-mayor-2026-polling-place-01",
+          "kind": "polling_place",
+          "title": "投票所一覧",
+          "url": "https://www.city.iwanuma.miyagi.jp/kurashi/senkyo/tohyojo.html",
+          "summary": "岩沼市の投票区、投票所名、住所、行政区を確認できる公式ページ。岩沼市長選挙及び岩沼市議会議員補欠選挙の公式ページから投票所一覧としてリンクされている。",
+          "isOfficial": true,
+          "displayOrder": 40,
           "sourceUrl": "https://www.city.iwanuma.miyagi.jp/kurashi/senkyo/R8_shichoshigiho.html"
         }
       ],
@@ -19942,7 +19953,8 @@ window.ELECTION_SITE_DATA = {
       "pageUpdates": [],
       "sourceUrl": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/senkyo-nittei_d/fil/109.pdf",
       "resourceKinds": [
-        "other"
+        "other",
+        "polling_place"
       ],
       "resources": [
         {
@@ -19954,6 +19966,16 @@ window.ELECTION_SITE_DATA = {
           "isOfficial": true,
           "displayOrder": 1,
           "sourceUrl": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/senkyo-nittei_d/fil/109.pdf"
+        },
+        {
+          "id": "el-mun-18205-mayor-2026-polling-place-01",
+          "kind": "polling_place",
+          "title": "投票所と投票区の区域",
+          "url": "https://www.city.ono.fukui.jp/shisei/senkyo/senkyo-shikumi/touhyousho-kuiki.html",
+          "summary": "大野市の投票区、投票所、投票区の区域を確認できる公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 40,
+          "sourceUrl": "https://www.city.ono.fukui.jp/shisei/senkyo/senkyo-shikumi/touhyousho-kuiki.html"
         }
       ],
       "candidateSignals": [],
@@ -20016,7 +20038,8 @@ window.ELECTION_SITE_DATA = {
       "pageUpdates": [],
       "sourceUrl": "https://www.city.minamishimabara.lg.jp/kiji00312469/index.html",
       "resourceKinds": [
-        "other"
+        "other",
+        "polling_place"
       ],
       "resources": [
         {
@@ -20028,6 +20051,16 @@ window.ELECTION_SITE_DATA = {
           "isOfficial": true,
           "displayOrder": 1,
           "sourceUrl": "https://www.city.minamishimabara.lg.jp/kiji00312469/index.html"
+        },
+        {
+          "id": "el-mun-42214-mayor-2026-polling-place-01",
+          "kind": "polling_place",
+          "title": "投票所一覧（令和7年4月以降）",
+          "url": "https://www.city.minamishimabara.lg.jp/kiji00311615/3_11615_78754_up_gl6s78x6.pdf",
+          "summary": "南島原市の当日投票所一覧を確認できる公式PDF。市公式の投票所一覧ページからリンクされている。",
+          "isOfficial": true,
+          "displayOrder": 40,
+          "sourceUrl": "https://www.city.minamishimabara.lg.jp/kiji00311615/index.html"
         }
       ],
       "candidateSignals": [],
@@ -20090,7 +20123,8 @@ window.ELECTION_SITE_DATA = {
       "pageUpdates": [],
       "sourceUrl": "https://www.city.goshogawara.lg.jp/kurashi/senkyo/20260621sityousn-osirase.html",
       "resourceKinds": [
-        "other"
+        "other",
+        "polling_place"
       ],
       "resources": [
         {
@@ -20101,6 +20135,16 @@ window.ELECTION_SITE_DATA = {
           "summary": "五所川原市長選挙及び五所川原市議会議員補欠選挙の投票日、告示日、期日前投票、投票所を確認できる五所川原市公式ページ。",
           "isOfficial": true,
           "displayOrder": 1,
+          "sourceUrl": "https://www.city.goshogawara.lg.jp/kurashi/senkyo/20260621sityousn-osirase.html"
+        },
+        {
+          "id": "el-mun-02205-mayor-2026-polling-place-01",
+          "kind": "polling_place",
+          "title": "投票所と投票区域について",
+          "url": "https://www.city.goshogawara.lg.jp/kurashi/senkyo/touhyoujokuiki.html",
+          "summary": "五所川原市の投票所と投票区域を確認できる公式ページ。五所川原市長選挙及び五所川原市議会議員補欠選挙の公式ページからリンクされている。",
+          "isOfficial": true,
+          "displayOrder": 40,
           "sourceUrl": "https://www.city.goshogawara.lg.jp/kurashi/senkyo/20260621sityousn-osirase.html"
         }
       ],
@@ -20164,7 +20208,8 @@ window.ELECTION_SITE_DATA = {
       "pageUpdates": [],
       "sourceUrl": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/senkyokanriiinkaijimukyoku/senkyonikansuruoshirase/48628.html",
       "resourceKinds": [
-        "other"
+        "other",
+        "polling_place"
       ],
       "resources": [
         {
@@ -20176,6 +20221,16 @@ window.ELECTION_SITE_DATA = {
           "isOfficial": true,
           "displayOrder": 1,
           "sourceUrl": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/senkyokanriiinkaijimukyoku/senkyonikansuruoshirase/48628.html"
+        },
+        {
+          "id": "el-mun-28210-mayor-2026-polling-place-01",
+          "kind": "polling_place",
+          "title": "投票所のご案内",
+          "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/senkyokanriiinkaijimukyoku/tohyojonogoannai/index.html",
+          "summary": "加古川市の町別投票所案内へのリンクを確認できる公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 40,
+          "sourceUrl": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/senkyokanriiinkaijimukyoku/tohyojonogoannai/index.html"
         }
       ],
       "candidateSignals": [],
@@ -20201,7 +20256,8 @@ window.ELECTION_SITE_DATA = {
       "pageUpdates": [],
       "sourceUrl": "https://www.pref.aomori.lg.jp/soshiki/senkan/files2/R080402_tyou.pdf",
       "resourceKinds": [
-        "other"
+        "other",
+        "polling_place"
       ],
       "resources": [
         {
@@ -20213,6 +20269,16 @@ window.ELECTION_SITE_DATA = {
           "isOfficial": true,
           "displayOrder": 1,
           "sourceUrl": "https://www.pref.aomori.lg.jp/soshiki/senkan/files2/R080402_tyou.pdf"
+        },
+        {
+          "id": "el-mun-02204-mayor-2026-polling-place-01",
+          "kind": "polling_place",
+          "title": "投票場所のご案内",
+          "url": "https://www.city.kuroishi.aomori.jp/shisei/keikaku/senkyo-tohyoujo_20220126.html",
+          "summary": "黒石市の投票所一覧、所在地、町内を確認できる公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 40,
+          "sourceUrl": "https://www.city.kuroishi.aomori.jp/shisei/keikaku/senkyo-kanri-iinkai.html"
         }
       ],
       "candidateSignals": [],
@@ -20238,7 +20304,8 @@ window.ELECTION_SITE_DATA = {
       "pageUpdates": [],
       "sourceUrl": "https://www.city.komae.tokyo.jp/index.cfm/41%2C141476%2C602%2Chtml",
       "resourceKinds": [
-        "other"
+        "other",
+        "polling_place"
       ],
       "resources": [
         {
@@ -20250,6 +20317,16 @@ window.ELECTION_SITE_DATA = {
           "isOfficial": true,
           "displayOrder": 1,
           "sourceUrl": "https://www.city.komae.tokyo.jp/index.cfm/41%2C141476%2C602%2Chtml"
+        },
+        {
+          "id": "el-mun-13219-mayor-2026-polling-place-01",
+          "kind": "polling_place",
+          "title": "投票区・投票所案内",
+          "url": "https://www.city.komae.tokyo.jp/index.cfm/41%2C141021%2C602%2Chtml",
+          "summary": "狛江市の投票区、投票所、字別投票区域を確認できる公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 40,
+          "sourceUrl": "https://www.city.komae.tokyo.jp/index.cfm/41%2C141021%2C602%2Chtml"
         }
       ],
       "candidateSignals": [],

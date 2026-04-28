@@ -20,6 +20,24 @@
         "status": "verified",
         "note": null
       }
+    },
+    {
+      "id": "el-mun-04211-mayor-2026-polling-place-01",
+      "election_id": "el-mun-04211-mayor-2026",
+      "kind": "polling_place",
+      "title": "投票所一覧",
+      "url": "https://www.city.iwanuma.miyagi.jp/kurashi/senkyo/tohyojo.html",
+      "summary": "岩沼市の投票区、投票所名、住所、行政区を確認できる公式ページ。岩沼市長選挙及び岩沼市議会議員補欠選挙の公式ページから投票所一覧としてリンクされている。",
+      "is_official": true,
+      "display_order": 40,
+      "verification": {
+        "source_url": "https://www.city.iwanuma.miyagi.jp/kurashi/senkyo/R8_shichoshigiho.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": "対象選挙ページ内の「投票所一覧はこちら」から公式投票所一覧への導線を確認。"
+      }
     }
   ]
 }

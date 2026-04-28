@@ -20,6 +20,24 @@
         "status": "verified",
         "note": null
       }
+    },
+    {
+      "id": "el-mun-02205-mayor-2026-polling-place-01",
+      "election_id": "el-mun-02205-mayor-2026",
+      "kind": "polling_place",
+      "title": "投票所と投票区域について",
+      "url": "https://www.city.goshogawara.lg.jp/kurashi/senkyo/touhyoujokuiki.html",
+      "summary": "五所川原市の投票所と投票区域を確認できる公式ページ。五所川原市長選挙及び五所川原市議会議員補欠選挙の公式ページからリンクされている。",
+      "is_official": true,
+      "display_order": 40,
+      "verification": {
+        "source_url": "https://www.city.goshogawara.lg.jp/kurashi/senkyo/20260621sityousn-osirase.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": "対象選挙ページ内の「各投票所はこちら」から公式投票所一覧への導線を確認。"
+      }
     }
   ]
 }

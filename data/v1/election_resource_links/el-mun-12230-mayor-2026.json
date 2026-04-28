@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-mun-12230-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-12230-mayor-2026-other-01",
+      "election_id": "el-mun-12230-mayor-2026",
+      "kind": "other",
+      "title": "千葉県 令和8年中に予定される選挙",
+      "url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+      "summary": "八街市長選挙の告示日、選挙期日と議員便乗補欠選挙の見込みを確認できる千葉県公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

@@ -735,6 +735,28 @@
       }
     },
     {
+      "id": "el-by-mun-25208-assembly-2026-01",
+      "slug": "ritto-city-assembly-by-election-2026-01",
+      "name": "栗東市議会議員補欠選挙",
+      "type": "by_election",
+      "subtype": "assembly",
+      "phase": "upcoming",
+      "vote_date": "2026-10-25",
+      "notice_date": "2026-10-18",
+      "description": "栗東市議会議員の欠員を補う補欠選挙です。",
+      "scope_type": "region",
+      "primary_region_id": "mun-25208",
+      "included_region_ids": null,
+      "verification": {
+        "source_url": "https://www.pref.shiga.lg.jp/file/attachment/5601690.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": "2026-04-28時点で滋賀県の今後の選挙執行予定一覧に、栗東市長選挙と同日の栗東市議会議員補欠選挙、告示日 2026-10-18、投票日 2026-10-25 の記載があるため upcoming として確認。"
+      }
+    },
+    {
       "id": "el-mun-12203-mayor-2026",
       "slug": "ichikawa-mayor-2026",
       "name": "市川市長選挙",
@@ -1065,6 +1087,28 @@
       }
     },
     {
+      "id": "el-by-mun-12225-assembly-2026-01",
+      "slug": "kimitsu-city-assembly-by-election-2026-01",
+      "name": "君津市議会議員補欠選挙",
+      "type": "by_election",
+      "subtype": "assembly",
+      "phase": "upcoming",
+      "vote_date": "2026-10-25",
+      "notice_date": "2026-10-18",
+      "description": "君津市議会議員の欠員を補う補欠選挙です。",
+      "scope_type": "region",
+      "primary_region_id": "mun-12225",
+      "included_region_ids": null,
+      "verification": {
+        "source_url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": "2026-04-28時点で千葉県の令和8年中に予定される選挙ページに、君津市長選挙と同日の議員便乗補欠選挙あり（1名）の記載があるため upcoming として確認。"
+      }
+    },
+    {
       "id": "el-mun-12230-mayor-2026",
       "slug": "yachimata-mayor-2026",
       "name": "八街市長選挙",
@@ -1084,6 +1128,28 @@
         "last_checked_at": "2026-04-15T20:35:00+09:00",
         "status": "verified",
         "note": "2026-04-15時点で投票日前のため upcoming として投入。告示日と投票日は千葉県の令和8年中に予定される選挙ページで確認。"
+      }
+    },
+    {
+      "id": "el-by-mun-12230-assembly-2026-01",
+      "slug": "yachimata-city-assembly-by-election-2026-01",
+      "name": "八街市議会議員補欠選挙",
+      "type": "by_election",
+      "subtype": "assembly",
+      "phase": "upcoming",
+      "vote_date": "2026-11-22",
+      "notice_date": "2026-11-15",
+      "description": "八街市議会議員の欠員を補う補欠選挙です。",
+      "scope_type": "region",
+      "primary_region_id": "mun-12230",
+      "included_region_ids": null,
+      "verification": {
+        "source_url": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": "2026-04-28時点で千葉県の令和8年中に予定される選挙ページに、八街市長選挙と同日の議員便乗補欠選挙あり（1名）の記載があるため upcoming として確認。"
       }
     },
     {
@@ -1260,6 +1326,28 @@
         "last_checked_at": "2026-04-15T23:30:00+09:00",
         "status": "verified",
         "note": "2026-04-15時点で埼玉県の公式日程ページに掲載があり、upcoming として確認。"
+      }
+    },
+    {
+      "id": "el-mun-11221-assembly-2026",
+      "slug": "soka-city-assembly-2026",
+      "name": "草加市議会議員選挙",
+      "type": "municipal",
+      "subtype": "assembly",
+      "phase": "upcoming",
+      "vote_date": "2026-10-18",
+      "notice_date": "2026-10-11",
+      "description": "草加市議会議員を選出する選挙です。",
+      "scope_type": "region",
+      "primary_region_id": "mun-11221",
+      "included_region_ids": null,
+      "verification": {
+        "source_url": "https://www.pref.saitama.lg.jp/e1701/election-schedule.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": "2026-04-28時点で埼玉県の県内市町村選挙日程ページに、草加市長選挙と同日の草加市議会議員選挙、告示日 2026-10-11、投票日 2026-10-18 の記載があるため upcoming として確認。"
       }
     },
     {
@@ -2957,25 +3045,25 @@
       }
     },
     {
-      "id": "el-mun-16205-mayor-2026",
-      "slug": "himi-mayor-2026",
-      "name": "氷見市長選挙",
+      "id": "el-mun-16205-assembly-2026",
+      "slug": "himi-city-assembly-2026",
+      "name": "氷見市議会議員選挙",
       "type": "municipal",
-      "subtype": "mayor",
+      "subtype": "assembly",
       "phase": "upcoming",
       "vote_date": "2026-10-25",
       "notice_date": "2026-10-18",
-      "description": "氷見市長を選出する選挙です。",
+      "description": "氷見市議会議員を選出する選挙です。",
       "scope_type": "region",
       "primary_region_id": "mun-16205",
       "included_region_ids": null,
       "verification": {
         "source_url": "https://www.pref.toyama.jp/500/kensei/kenseiunei/senkyo/iinkai/gs_nittei.html",
         "source_type": "official",
-        "confirmed_at": "2026-04-15T23:59:00+09:00",
-        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
         "status": "verified",
-        "note": "2026-04-15時点で富山県の選挙日程ページに告示日と選挙期日の記載があり、投票日は 2026-10-25 のため upcoming として確認。"
+        "note": "2026-04-28時点で富山県の選挙日程ページを再確認し、2026-10-18 告示、2026-10-25 投票は氷見市長選挙ではなく氷見市議会議員選挙の欄のため、assembly として修正。"
       }
     },
     {
@@ -3072,20 +3160,20 @@
       "name": "泉南市長選挙",
       "type": "municipal",
       "subtype": "mayor",
-      "phase": "upcoming",
-      "vote_date": "2026-10-25",
-      "notice_date": "2026-10-11",
+      "phase": "archived",
+      "vote_date": "2026-04-26",
+      "notice_date": "2026-04-19",
       "description": "泉南市長を選出する選挙です。",
       "scope_type": "region",
       "primary_region_id": "mun-27228",
       "included_region_ids": null,
       "verification": {
-        "source_url": "https://www.pref.osaka.lg.jp/o010130/senkan/senkan/senkyo_nittei.html",
+        "source_url": "https://www.city.sennan.lg.jp/kakuka/gyousei/senkyokanri/11384.html",
         "source_type": "official",
-        "confirmed_at": "2026-04-15T23:59:00+09:00",
-        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
         "status": "verified",
-        "note": "2026-04-15時点で大阪府の選挙日程ページに告示日と選挙期日の記載があり、投票日は 2026-10-25 のため upcoming として確認。"
+        "note": "2026-04-28時点で泉南市公式ページに、泉南市長選挙の告示日 2026-04-19 と投票日 2026-04-26 の記載があり、投票日が経過しているため archived として修正。"
       }
     },
     {
@@ -3095,19 +3183,19 @@
       "type": "municipal",
       "subtype": "mayor",
       "phase": "upcoming",
-      "vote_date": "2026-11-08",
-      "notice_date": "2026-10-25",
+      "vote_date": "2026-09-06",
+      "notice_date": "2026-08-30",
       "description": "交野市長を選出する選挙です。",
       "scope_type": "region",
       "primary_region_id": "mun-27230",
       "included_region_ids": null,
       "verification": {
-        "source_url": "https://www.pref.osaka.lg.jp/o010130/senkan/senkan/senkyo_nittei.html",
+        "source_url": "https://www.pref.osaka.lg.jp/documents/15148/r080408funair8.pdf",
         "source_type": "official",
-        "confirmed_at": "2026-04-15T23:59:00+09:00",
-        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
         "status": "verified",
-        "note": "2026-04-15時点で大阪府の選挙日程ページに告示日と選挙期日の記載があり、投票日は 2026-11-08 のため upcoming として確認。"
+        "note": "2026-04-28時点で大阪府の令和8年府内の選挙PDFに、交野市長選挙の告示日 2026-08-30 と選挙期日 2026-09-06 の記載があるため upcoming として修正。"
       }
     },
     {
@@ -3116,20 +3204,20 @@
       "name": "貝塚市長選挙",
       "type": "municipal",
       "subtype": "mayor",
-      "phase": "upcoming",
-      "vote_date": "2026-12-20",
-      "notice_date": "2026-12-06",
+      "phase": "archived",
+      "vote_date": "2026-01-25",
+      "notice_date": "2026-01-18",
       "description": "貝塚市長を選出する選挙です。",
       "scope_type": "region",
       "primary_region_id": "mun-27208",
       "included_region_ids": null,
       "verification": {
-        "source_url": "https://www.pref.osaka.lg.jp/o010130/senkan/senkan/senkyo_nittei.html",
+        "source_url": "https://www.pref.osaka.lg.jp/documents/15148/r080408funair8.pdf",
         "source_type": "official",
-        "confirmed_at": "2026-04-15T23:59:00+09:00",
-        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
         "status": "verified",
-        "note": "2026-04-15時点で大阪府の選挙日程ページに告示日と選挙期日の記載があり、投票日は 2026-12-20 のため upcoming として確認。"
+        "note": "2026-04-28時点で大阪府の令和8年府内の選挙PDFに、貝塚市長選挙の告示日 2026-01-18 と選挙期日 2026-01-25 の記載があり、投票日が経過しているため archived として修正。"
       }
     },
     {
@@ -3227,19 +3315,19 @@
       "type": "municipal",
       "subtype": "mayor",
       "phase": "upcoming",
-      "vote_date": "2026-10-25",
-      "notice_date": "2026-10-18",
+      "vote_date": "2026-11-22",
+      "notice_date": "2026-11-15",
       "description": "新発田市長を選出する選挙です。",
       "scope_type": "region",
       "primary_region_id": "mun-15206",
       "included_region_ids": null,
       "verification": {
-        "source_url": "https://www.pref.niigata.lg.jp/site/senkyo/r8-shicyouson-senkyonittei.html",
+        "source_url": "https://www.pref.niigata.lg.jp/site/senkyo/r8-senkyoichiran.html",
         "source_type": "official",
-        "confirmed_at": "2026-04-15T23:59:00+09:00",
-        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
         "status": "verified",
-        "note": "2026-04-15時点で新潟県の市町村選挙日程ページに告示日と選挙期日の記載があり、投票日は 2026-10-25 のため upcoming として確認。"
+        "note": "2026-04-28時点で新潟県の令和8年選挙執行一覧に、新発田市長選挙の告示日 2026-11-15 と投票日 2026-11-22 の記載があるため upcoming として修正。"
       }
     },
     {
@@ -3490,9 +3578,9 @@
       "name": "嘉麻市長選挙",
       "type": "municipal",
       "subtype": "mayor",
-      "phase": "upcoming",
-      "vote_date": "2026-11-01",
-      "notice_date": "2026-10-25",
+      "phase": "archived",
+      "vote_date": "2026-04-19",
+      "notice_date": "2026-04-12",
       "description": "嘉麻市長を選出する選挙です。",
       "scope_type": "region",
       "primary_region_id": "mun-40227",
@@ -3500,10 +3588,32 @@
       "verification": {
         "source_url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282718.pdf",
         "source_type": "official",
-        "confirmed_at": "2026-04-15T23:59:00+09:00",
-        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
         "status": "verified",
-        "note": "2026-04-15時点で福岡県の選挙日程 PDF に告示日と選挙期日の記載があり、投票日は 2026-11-01 のため upcoming として確認。"
+        "note": "2026-04-28時点で福岡県の令和8年市町村選挙執行一覧PDFに、嘉麻市長選挙の告示日 2026-04-12 と執行予定日 2026-04-19 の記載があり、投票日が経過しているため archived として修正。"
+      }
+    },
+    {
+      "id": "el-by-mun-40227-assembly-2026-01",
+      "slug": "kama-city-assembly-by-election-2026-01",
+      "name": "嘉麻市議会議員補欠選挙",
+      "type": "by_election",
+      "subtype": "assembly",
+      "phase": "archived",
+      "vote_date": "2026-04-19",
+      "notice_date": "2026-04-12",
+      "description": "嘉麻市議会議員の欠員を補う補欠選挙です。",
+      "scope_type": "region",
+      "primary_region_id": "mun-40227",
+      "included_region_ids": null,
+      "verification": {
+        "source_url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282718.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": "2026-04-28時点で福岡県の令和8年市町村選挙執行一覧PDFに、嘉麻市長選挙と同日の嘉麻市議会議員補欠選挙、告示日 2026-04-12、執行予定日 2026-04-19 の記載があり、投票日が経過しているため archived として確認。"
       }
     },
     {
@@ -3512,9 +3622,9 @@
       "name": "朝倉市長選挙",
       "type": "municipal",
       "subtype": "mayor",
-      "phase": "upcoming",
-      "vote_date": "2026-12-13",
-      "notice_date": "2026-12-06",
+      "phase": "archived",
+      "vote_date": "2026-04-19",
+      "notice_date": "2026-04-12",
       "description": "朝倉市長を選出する選挙です。",
       "scope_type": "region",
       "primary_region_id": "mun-40228",
@@ -3522,10 +3632,10 @@
       "verification": {
         "source_url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/282718.pdf",
         "source_type": "official",
-        "confirmed_at": "2026-04-15T23:59:00+09:00",
-        "last_checked_at": "2026-04-15T23:59:00+09:00",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
         "status": "verified",
-        "note": "2026-04-15時点で福岡県の選挙日程 PDF に告示日と選挙期日の記載があり、投票日は 2026-12-13 のため upcoming として確認。"
+        "note": "2026-04-28時点で福岡県の令和8年市町村選挙執行一覧PDFに、朝倉市長選挙の告示日 2026-04-12 と執行予定日 2026-04-19 の記載があり、投票日が経過しているため archived として修正。"
       }
     },
     {

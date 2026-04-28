@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-mun-27208-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-27208-mayor-2026-other-01",
+      "election_id": "el-mun-27208-mayor-2026",
+      "kind": "other",
+      "title": "大阪府 令和8年府内の選挙",
+      "url": "https://www.pref.osaka.lg.jp/documents/15148/r080408funair8.pdf",
+      "summary": "貝塚市長選挙の告示日と選挙期日を確認できる大阪府公式PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.osaka.lg.jp/documents/15148/r080408funair8.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-mun-27228-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-27228-mayor-2026-other-01",
+      "election_id": "el-mun-27228-mayor-2026",
+      "kind": "other",
+      "title": "泉南市長選挙は無投票となりました",
+      "url": "https://www.city.sennan.lg.jp/kakuka/gyousei/senkyokanri/12115.html",
+      "summary": "泉南市長選挙が無投票となったことと候補者一覧への導線を確認できる泉南市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.sennan.lg.jp/kakuka/gyousei/senkyokanri/12115.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

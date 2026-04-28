@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-mun-15206-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-15206-mayor-2026-other-01",
+      "election_id": "el-mun-15206-mayor-2026",
+      "kind": "other",
+      "title": "新潟県 令和8年選挙執行一覧",
+      "url": "https://www.pref.niigata.lg.jp/site/senkyo/r8-senkyoichiran.html",
+      "summary": "新発田市長選挙の任期満了日、告示日、投票日を確認できる新潟県公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.niigata.lg.jp/site/senkyo/r8-senkyoichiran.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

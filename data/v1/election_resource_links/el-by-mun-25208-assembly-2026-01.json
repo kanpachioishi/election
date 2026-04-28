@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-by-mun-25208-assembly-2026-01",
+  "records": [
+    {
+      "id": "el-by-mun-25208-assembly-2026-01-other-01",
+      "election_id": "el-by-mun-25208-assembly-2026-01",
+      "kind": "other",
+      "title": "滋賀県 今後の選挙執行予定一覧表",
+      "url": "https://www.pref.shiga.lg.jp/file/attachment/5601690.pdf",
+      "summary": "栗東市議会議員補欠選挙の告示日、投票日と同日実施の栗東市長選挙を確認できる滋賀県公式PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.shiga.lg.jp/file/attachment/5601690.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

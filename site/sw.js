@@ -1,4 +1,4 @@
-const CACHE_VERSION = "v2";
+const CACHE_VERSION = "v3";
 const STATIC_CACHE = `election-static-${CACHE_VERSION}`;
 const DATA_CACHE = `election-data-${CACHE_VERSION}`;
 const CORE_ASSETS = [
@@ -11,6 +11,7 @@ const CORE_ASSETS = [
   "/assets/notification-register.js",
   "/assets/pwa.js",
   "/data/site-data.js",
+  "/pages/prefecture-official-sites.html",
   "/notifications/register.html",
   "/icons/app-icon.svg",
   "/icons/app-icon-maskable.svg",

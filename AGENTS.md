@@ -71,6 +71,12 @@ The repository currently contains both active site assets and transitional legac
 - Keep region names, election names, and date formats consistent within each content set.
 - For content that may change over time, note the reference date explicitly in the file or front matter.
 
+## Site Display Rules
+
+- 地方区分は、トップページの「選挙を探す」で使う区分に統一する。
+- canonical な地方区分は `site/assets/app.js` の `MACRO_REGION_LABELS` と `PREFECTURE_TO_MACRO_REGION`。他ページや台帳ページで地方フィルターを作る場合もこの対応に合わせる。
+- 表示ラベルは `北海道・東北`、`関東`、`北陸`、`甲信越`、`東海`、`関西`、`中国`、`四国`、`九州・沖縄` を使う。`中部` や `近畿` など別粒度の地域名をサイト内フィルターとして混在させない。
+
 ## Assembly Engagement Reports
 
 - Use `docs/templates/ASSEMBLY_ENGAGEMENT_REPORT_TEMPLATE.md` and `docs/templates/assembly-engagement-report-a4.html` for city council engagement materials.

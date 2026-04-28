@@ -3,14 +3,14 @@
 // Update data/v1 and rerun the generator instead of editing this file.
 
 window.ELECTION_SITE_DATA = {
-  "generatedAt": "2026-04-27T11:46:30.729Z",
+  "generatedAt": "2026-04-27T13:03:02.812Z",
   "sourceGeneratedAt": "2026-04-27T00:00:00+09:00",
   "stats": {
     "regions": 848,
     "elections": 190,
     "resourceLinks": 319,
     "postalPrefixes": 47,
-    "localGovernmentSites": 59,
+    "localGovernmentSites": 94,
     "byType": {
       "prefectural": 50,
       "municipal": 131,
@@ -29,7 +29,7 @@ window.ELECTION_SITE_DATA = {
       "polling_place": 45
     },
     "byLocalGovernmentSiteKind": {
-      "prefecture_home": 12,
+      "prefecture_home": 47,
       "municipality_home": 47
     },
     "candidateSignals": 6,
@@ -19974,7 +19974,7 @@ window.ELECTION_SITE_DATA = {
       "label": "公式ホームページ",
       "url": "https://www.pref.hokkaido.lg.jp/",
       "sourceUrl": "https://www.pref.hokkaido.lg.jp/",
-      "lastCheckedAt": "2026-04-20T13:00:00+09:00",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
       "note": null
     },
     {
@@ -20030,7 +20030,7 @@ window.ELECTION_SITE_DATA = {
       "label": "公式ホームページ",
       "url": "https://www.pref.aomori.lg.jp/",
       "sourceUrl": "https://www.pref.aomori.lg.jp/",
-      "lastCheckedAt": "2026-04-20T13:00:00+09:00",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
       "note": null
     },
     {
@@ -20059,6 +20059,20 @@ window.ELECTION_SITE_DATA = {
       "url": "https://www.city.hachimantai.lg.jp/",
       "sourceUrl": "https://www.city.hachimantai.lg.jp/",
       "lastCheckedAt": "2026-04-15T23:55:00+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-03-prefecture-home",
+      "regionId": "pref-03",
+      "regionLevel": "prefecture",
+      "prefCode": "03",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-03",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.iwate.jp/",
+      "sourceUrl": "https://www.pref.iwate.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
       "note": null
     },
     {
@@ -20104,6 +20118,20 @@ window.ELECTION_SITE_DATA = {
       "note": null
     },
     {
+      "id": "pref-04-prefecture-home",
+      "regionId": "pref-04",
+      "regionLevel": "prefecture",
+      "prefCode": "04",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-04",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.miyagi.jp/",
+      "sourceUrl": "https://www.pref.miyagi.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
       "id": "mun-05202-municipality-home",
       "regionId": "mun-05202",
       "regionLevel": "municipality",
@@ -20118,6 +20146,48 @@ window.ELECTION_SITE_DATA = {
       "note": null
     },
     {
+      "id": "pref-05-prefecture-home",
+      "regionId": "pref-05",
+      "regionLevel": "prefecture",
+      "prefCode": "05",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-05",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.akita.lg.jp/",
+      "sourceUrl": "https://www.pref.akita.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-06-prefecture-home",
+      "regionId": "pref-06",
+      "regionLevel": "prefecture",
+      "prefCode": "06",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-06",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.yamagata.jp/",
+      "sourceUrl": "https://www.pref.yamagata.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-07-prefecture-home",
+      "regionId": "pref-07",
+      "regionLevel": "prefecture",
+      "prefCode": "07",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-07",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.fukushima.lg.jp/",
+      "sourceUrl": "https://www.pref.fukushima.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
       "id": "pref-08-prefecture-home",
       "regionId": "pref-08",
       "regionLevel": "prefecture",
@@ -20128,7 +20198,7 @@ window.ELECTION_SITE_DATA = {
       "label": "公式ホームページ",
       "url": "https://www.pref.ibaraki.jp/",
       "sourceUrl": "https://www.pref.ibaraki.jp/",
-      "lastCheckedAt": "2026-04-20T13:00:00+09:00",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
       "note": null
     },
     {
@@ -20160,6 +20230,20 @@ window.ELECTION_SITE_DATA = {
       "note": null
     },
     {
+      "id": "pref-09-prefecture-home",
+      "regionId": "pref-09",
+      "regionLevel": "prefecture",
+      "prefCode": "09",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-09",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.tochigi.lg.jp/",
+      "sourceUrl": "https://www.pref.tochigi.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
       "id": "mun-10206-municipality-home",
       "regionId": "mun-10206",
       "regionLevel": "municipality",
@@ -20185,6 +20269,20 @@ window.ELECTION_SITE_DATA = {
       "url": "https://www.city.fujioka.gunma.jp/",
       "sourceUrl": "https://www.city.fujioka.gunma.jp/",
       "lastCheckedAt": "2026-04-20T15:00:00+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-10-prefecture-home",
+      "regionId": "pref-10",
+      "regionLevel": "prefecture",
+      "prefCode": "10",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-10",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.gunma.jp/",
+      "sourceUrl": "https://www.pref.gunma.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
       "note": null
     },
     {
@@ -20240,7 +20338,7 @@ window.ELECTION_SITE_DATA = {
       "label": "公式ホームページ",
       "url": "https://www.pref.saitama.lg.jp/",
       "sourceUrl": "https://www.pref.saitama.lg.jp/",
-      "lastCheckedAt": "2026-04-20T13:00:00+09:00",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
       "note": null
     },
     {
@@ -20300,6 +20398,20 @@ window.ELECTION_SITE_DATA = {
       "note": null
     },
     {
+      "id": "pref-12-prefecture-home",
+      "regionId": "pref-12",
+      "regionLevel": "prefecture",
+      "prefCode": "12",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-12",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.chiba.lg.jp/",
+      "sourceUrl": "https://www.pref.chiba.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
       "id": "mun-13208-municipality-home",
       "regionId": "mun-13208",
       "regionLevel": "municipality",
@@ -20339,6 +20451,20 @@ window.ELECTION_SITE_DATA = {
       "url": "https://www.city.akiruno.tokyo.jp/",
       "sourceUrl": "https://www.city.akiruno.tokyo.jp/",
       "lastCheckedAt": "2026-04-15T20:35:00+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-13-prefecture-home",
+      "regionId": "pref-13",
+      "regionLevel": "prefecture",
+      "prefCode": "13",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-13",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.metro.tokyo.lg.jp/",
+      "sourceUrl": "https://www.metro.tokyo.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
       "note": null
     },
     {
@@ -20384,6 +20510,20 @@ window.ELECTION_SITE_DATA = {
       "note": null
     },
     {
+      "id": "pref-14-prefecture-home",
+      "regionId": "pref-14",
+      "regionLevel": "prefecture",
+      "prefCode": "14",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-14",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.kanagawa.jp/",
+      "sourceUrl": "https://www.pref.kanagawa.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
       "id": "mun-15208-municipality-home",
       "regionId": "mun-15208",
       "regionLevel": "municipality",
@@ -20408,7 +20548,35 @@ window.ELECTION_SITE_DATA = {
       "label": "公式ホームページ",
       "url": "https://www.pref.niigata.lg.jp/",
       "sourceUrl": "https://www.pref.niigata.lg.jp/",
-      "lastCheckedAt": "2026-04-20T13:00:00+09:00",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-16-prefecture-home",
+      "regionId": "pref-16",
+      "regionLevel": "prefecture",
+      "prefCode": "16",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-16",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.toyama.jp/",
+      "sourceUrl": "https://www.pref.toyama.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-17-prefecture-home",
+      "regionId": "pref-17",
+      "regionLevel": "prefecture",
+      "prefCode": "17",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-17",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.ishikawa.lg.jp/",
+      "sourceUrl": "https://www.pref.ishikawa.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
       "note": null
     },
     {
@@ -20440,6 +20608,48 @@ window.ELECTION_SITE_DATA = {
       "note": null
     },
     {
+      "id": "pref-18-prefecture-home",
+      "regionId": "pref-18",
+      "regionLevel": "prefecture",
+      "prefCode": "18",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-18",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.fukui.lg.jp/",
+      "sourceUrl": "https://www.pref.fukui.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-19-prefecture-home",
+      "regionId": "pref-19",
+      "regionLevel": "prefecture",
+      "prefCode": "19",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-19",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.yamanashi.jp/",
+      "sourceUrl": "https://www.pref.yamanashi.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-20-prefecture-home",
+      "regionId": "pref-20",
+      "regionLevel": "prefecture",
+      "prefCode": "20",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-20",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.nagano.lg.jp/",
+      "sourceUrl": "https://www.pref.nagano.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
       "id": "mun-21211-municipality-home",
       "regionId": "mun-21211",
       "regionLevel": "municipality",
@@ -20464,7 +20674,21 @@ window.ELECTION_SITE_DATA = {
       "label": "公式ホームページ",
       "url": "https://www.pref.gifu.lg.jp/",
       "sourceUrl": "https://www.pref.gifu.lg.jp/",
-      "lastCheckedAt": "2026-04-20T13:00:00+09:00",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-22-prefecture-home",
+      "regionId": "pref-22",
+      "regionLevel": "prefecture",
+      "prefCode": "22",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-22",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.shizuoka.jp/",
+      "sourceUrl": "https://www.pref.shizuoka.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
       "note": null
     },
     {
@@ -20496,6 +20720,20 @@ window.ELECTION_SITE_DATA = {
       "note": null
     },
     {
+      "id": "pref-23-prefecture-home",
+      "regionId": "pref-23",
+      "regionLevel": "prefecture",
+      "prefCode": "23",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-23",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.aichi.jp/",
+      "sourceUrl": "https://www.pref.aichi.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
       "id": "mun-24208-municipality-home",
       "regionId": "mun-24208",
       "regionLevel": "municipality",
@@ -20520,7 +20758,7 @@ window.ELECTION_SITE_DATA = {
       "label": "公式ホームページ",
       "url": "https://www.pref.mie.lg.jp/",
       "sourceUrl": "https://www.pref.mie.lg.jp/",
-      "lastCheckedAt": "2026-04-20T13:00:00+09:00",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
       "note": null
     },
     {
@@ -20552,6 +20790,34 @@ window.ELECTION_SITE_DATA = {
       "note": null
     },
     {
+      "id": "pref-25-prefecture-home",
+      "regionId": "pref-25",
+      "regionLevel": "prefecture",
+      "prefCode": "25",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-25",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.shiga.lg.jp/",
+      "sourceUrl": "https://www.pref.shiga.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-26-prefecture-home",
+      "regionId": "pref-26",
+      "regionLevel": "prefecture",
+      "prefCode": "26",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-26",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.kyoto.jp/",
+      "sourceUrl": "https://www.pref.kyoto.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
       "id": "mun-27100-municipality-home",
       "regionId": "mun-27100",
       "regionLevel": "municipality",
@@ -20566,6 +20832,76 @@ window.ELECTION_SITE_DATA = {
       "note": null
     },
     {
+      "id": "pref-27-prefecture-home",
+      "regionId": "pref-27",
+      "regionLevel": "prefecture",
+      "prefCode": "27",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-27",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.osaka.lg.jp/",
+      "sourceUrl": "https://www.pref.osaka.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-28-prefecture-home",
+      "regionId": "pref-28",
+      "regionLevel": "prefecture",
+      "prefCode": "28",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-28",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://web.pref.hyogo.lg.jp/",
+      "sourceUrl": "https://web.pref.hyogo.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-29-prefecture-home",
+      "regionId": "pref-29",
+      "regionLevel": "prefecture",
+      "prefCode": "29",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-29",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.nara.lg.jp/",
+      "sourceUrl": "https://www.pref.nara.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-30-prefecture-home",
+      "regionId": "pref-30",
+      "regionLevel": "prefecture",
+      "prefCode": "30",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-30",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.wakayama.lg.jp/",
+      "sourceUrl": "https://www.pref.wakayama.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-31-prefecture-home",
+      "regionId": "pref-31",
+      "regionLevel": "prefecture",
+      "prefCode": "31",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-31",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.tottori.lg.jp/",
+      "sourceUrl": "https://www.pref.tottori.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
       "id": "mun-32207-municipality-home",
       "regionId": "mun-32207",
       "regionLevel": "municipality",
@@ -20577,6 +20913,48 @@ window.ELECTION_SITE_DATA = {
       "url": "https://www.city.gotsu.lg.jp/",
       "sourceUrl": "https://www.city.gotsu.lg.jp/",
       "lastCheckedAt": "2026-04-15T23:55:00+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-32-prefecture-home",
+      "regionId": "pref-32",
+      "regionLevel": "prefecture",
+      "prefCode": "32",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-32",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.shimane.lg.jp/",
+      "sourceUrl": "https://www.pref.shimane.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-33-prefecture-home",
+      "regionId": "pref-33",
+      "regionLevel": "prefecture",
+      "prefCode": "33",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-33",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.okayama.jp/",
+      "sourceUrl": "https://www.pref.okayama.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-34-prefecture-home",
+      "regionId": "pref-34",
+      "regionLevel": "prefecture",
+      "prefCode": "34",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-34",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.hiroshima.lg.jp/",
+      "sourceUrl": "https://www.pref.hiroshima.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
       "note": null
     },
     {
@@ -20622,6 +21000,48 @@ window.ELECTION_SITE_DATA = {
       "note": null
     },
     {
+      "id": "pref-35-prefecture-home",
+      "regionId": "pref-35",
+      "regionLevel": "prefecture",
+      "prefCode": "35",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-35",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.yamaguchi.lg.jp/",
+      "sourceUrl": "https://www.pref.yamaguchi.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-36-prefecture-home",
+      "regionId": "pref-36",
+      "regionLevel": "prefecture",
+      "prefCode": "36",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-36",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.tokushima.lg.jp/",
+      "sourceUrl": "https://www.pref.tokushima.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-37-prefecture-home",
+      "regionId": "pref-37",
+      "regionLevel": "prefecture",
+      "prefCode": "37",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-37",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.kagawa.lg.jp/",
+      "sourceUrl": "https://www.pref.kagawa.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
       "id": "mun-38206-municipality-home",
       "regionId": "mun-38206",
       "regionLevel": "municipality",
@@ -20660,7 +21080,21 @@ window.ELECTION_SITE_DATA = {
       "label": "公式ホームページ",
       "url": "https://www.pref.ehime.jp/",
       "sourceUrl": "https://www.pref.ehime.jp/",
-      "lastCheckedAt": "2026-04-20T13:00:00+09:00",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-39-prefecture-home",
+      "regionId": "pref-39",
+      "regionLevel": "prefecture",
+      "prefCode": "39",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-39",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.kochi.lg.jp/",
+      "sourceUrl": "https://www.pref.kochi.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
       "note": null
     },
     {
@@ -20702,7 +21136,7 @@ window.ELECTION_SITE_DATA = {
       "label": "公式ホームページ",
       "url": "https://www.pref.fukuoka.lg.jp/",
       "sourceUrl": "https://www.pref.fukuoka.lg.jp/",
-      "lastCheckedAt": "2026-04-20T13:00:00+09:00",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
       "note": null
     },
     {
@@ -20717,6 +21151,62 @@ window.ELECTION_SITE_DATA = {
       "url": "https://www.city.saga-kashima.lg.jp/",
       "sourceUrl": "https://www.city.saga-kashima.lg.jp/",
       "lastCheckedAt": "2026-04-20T15:00:00+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-41-prefecture-home",
+      "regionId": "pref-41",
+      "regionLevel": "prefecture",
+      "prefCode": "41",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-41",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.saga.lg.jp/",
+      "sourceUrl": "https://www.pref.saga.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-42-prefecture-home",
+      "regionId": "pref-42",
+      "regionLevel": "prefecture",
+      "prefCode": "42",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-42",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.nagasaki.lg.jp/",
+      "sourceUrl": "https://www.pref.nagasaki.lg.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-43-prefecture-home",
+      "regionId": "pref-43",
+      "regionLevel": "prefecture",
+      "prefCode": "43",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-43",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.kumamoto.jp/",
+      "sourceUrl": "https://www.pref.kumamoto.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
+      "note": null
+    },
+    {
+      "id": "pref-44-prefecture-home",
+      "regionId": "pref-44",
+      "regionLevel": "prefecture",
+      "prefCode": "44",
+      "municipalityCode": null,
+      "prefectureRegionId": "pref-44",
+      "siteKind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.oita.jp/",
+      "sourceUrl": "https://www.pref.oita.jp/",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
       "note": null
     },
     {
@@ -20744,7 +21234,7 @@ window.ELECTION_SITE_DATA = {
       "label": "公式ホームページ",
       "url": "https://www.pref.miyazaki.lg.jp/",
       "sourceUrl": "https://www.pref.miyazaki.lg.jp/",
-      "lastCheckedAt": "2026-04-20T13:00:00+09:00",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
       "note": null
     },
     {
@@ -20772,7 +21262,7 @@ window.ELECTION_SITE_DATA = {
       "label": "公式ホームページ",
       "url": "https://www.pref.kagoshima.jp/",
       "sourceUrl": "https://www.pref.kagoshima.jp/",
-      "lastCheckedAt": "2026-04-20T13:00:00+09:00",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
       "note": null
     },
     {
@@ -20786,7 +21276,7 @@ window.ELECTION_SITE_DATA = {
       "label": "公式ホームページ",
       "url": "https://www.pref.okinawa.lg.jp/",
       "sourceUrl": "https://www.pref.okinawa.lg.jp/",
-      "lastCheckedAt": "2026-04-20T13:00:00+09:00",
+      "lastCheckedAt": "2026-04-27T21:58:44+09:00",
       "note": null
     }
   ],

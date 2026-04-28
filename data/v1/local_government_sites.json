@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-04-20T15:00:00+09:00",
+  "generated_at": "2026-04-27T21:58:44+09:00",
   "records": [
     {
       "id": "mun-02202-municipality-home",
@@ -412,7 +412,7 @@
         "source_url": "https://www.pref.hokkaido.lg.jp/",
         "source_type": "official",
         "confirmed_at": "2026-04-20T13:00:00+09:00",
-        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
         "status": "verified",
         "note": null
       },
@@ -428,7 +428,87 @@
         "source_url": "https://www.pref.aomori.lg.jp/",
         "source_type": "official",
         "confirmed_at": "2026-04-20T13:00:00+09:00",
-        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-03-prefecture-home",
+      "region_id": "pref-03",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.iwate.jp/",
+      "verification": {
+        "source_url": "https://www.pref.iwate.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-04-prefecture-home",
+      "region_id": "pref-04",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.miyagi.jp/",
+      "verification": {
+        "source_url": "https://www.pref.miyagi.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-05-prefecture-home",
+      "region_id": "pref-05",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.akita.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.akita.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-06-prefecture-home",
+      "region_id": "pref-06",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.yamagata.jp/",
+      "verification": {
+        "source_url": "https://www.pref.yamagata.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-07-prefecture-home",
+      "region_id": "pref-07",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.fukushima.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.fukushima.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
         "status": "verified",
         "note": null
       },
@@ -444,7 +524,39 @@
         "source_url": "https://www.pref.ibaraki.jp/",
         "source_type": "official",
         "confirmed_at": "2026-04-20T13:00:00+09:00",
-        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-09-prefecture-home",
+      "region_id": "pref-09",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.tochigi.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.tochigi.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-10-prefecture-home",
+      "region_id": "pref-10",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.gunma.jp/",
+      "verification": {
+        "source_url": "https://www.pref.gunma.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
         "status": "verified",
         "note": null
       },
@@ -460,7 +572,55 @@
         "source_url": "https://www.pref.saitama.lg.jp/",
         "source_type": "official",
         "confirmed_at": "2026-04-20T13:00:00+09:00",
-        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-12-prefecture-home",
+      "region_id": "pref-12",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.chiba.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.chiba.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-13-prefecture-home",
+      "region_id": "pref-13",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.metro.tokyo.lg.jp/",
+      "verification": {
+        "source_url": "https://www.metro.tokyo.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-14-prefecture-home",
+      "region_id": "pref-14",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.kanagawa.jp/",
+      "verification": {
+        "source_url": "https://www.pref.kanagawa.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
         "status": "verified",
         "note": null
       },
@@ -476,7 +636,87 @@
         "source_url": "https://www.pref.niigata.lg.jp/",
         "source_type": "official",
         "confirmed_at": "2026-04-20T13:00:00+09:00",
-        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-16-prefecture-home",
+      "region_id": "pref-16",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.toyama.jp/",
+      "verification": {
+        "source_url": "https://www.pref.toyama.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-17-prefecture-home",
+      "region_id": "pref-17",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.ishikawa.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.ishikawa.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-18-prefecture-home",
+      "region_id": "pref-18",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.fukui.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.fukui.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-19-prefecture-home",
+      "region_id": "pref-19",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.yamanashi.jp/",
+      "verification": {
+        "source_url": "https://www.pref.yamanashi.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-20-prefecture-home",
+      "region_id": "pref-20",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.nagano.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.nagano.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
         "status": "verified",
         "note": null
       },
@@ -492,7 +732,39 @@
         "source_url": "https://www.pref.gifu.lg.jp/",
         "source_type": "official",
         "confirmed_at": "2026-04-20T13:00:00+09:00",
-        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-22-prefecture-home",
+      "region_id": "pref-22",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.shizuoka.jp/",
+      "verification": {
+        "source_url": "https://www.pref.shizuoka.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-23-prefecture-home",
+      "region_id": "pref-23",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.aichi.jp/",
+      "verification": {
+        "source_url": "https://www.pref.aichi.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
         "status": "verified",
         "note": null
       },
@@ -508,7 +780,215 @@
         "source_url": "https://www.pref.mie.lg.jp/",
         "source_type": "official",
         "confirmed_at": "2026-04-20T13:00:00+09:00",
-        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-25-prefecture-home",
+      "region_id": "pref-25",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.shiga.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.shiga.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-26-prefecture-home",
+      "region_id": "pref-26",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.kyoto.jp/",
+      "verification": {
+        "source_url": "https://www.pref.kyoto.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-27-prefecture-home",
+      "region_id": "pref-27",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.osaka.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.osaka.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-28-prefecture-home",
+      "region_id": "pref-28",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://web.pref.hyogo.lg.jp/",
+      "verification": {
+        "source_url": "https://web.pref.hyogo.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-29-prefecture-home",
+      "region_id": "pref-29",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.nara.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.nara.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-30-prefecture-home",
+      "region_id": "pref-30",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.wakayama.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.wakayama.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-31-prefecture-home",
+      "region_id": "pref-31",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.tottori.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.tottori.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-32-prefecture-home",
+      "region_id": "pref-32",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.shimane.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.shimane.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-33-prefecture-home",
+      "region_id": "pref-33",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.okayama.jp/",
+      "verification": {
+        "source_url": "https://www.pref.okayama.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-34-prefecture-home",
+      "region_id": "pref-34",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.hiroshima.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.hiroshima.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-35-prefecture-home",
+      "region_id": "pref-35",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.yamaguchi.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.yamaguchi.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-36-prefecture-home",
+      "region_id": "pref-36",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.tokushima.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.tokushima.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-37-prefecture-home",
+      "region_id": "pref-37",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.kagawa.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.kagawa.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
         "status": "verified",
         "note": null
       },
@@ -524,7 +1004,23 @@
         "source_url": "https://www.pref.ehime.jp/",
         "source_type": "official",
         "confirmed_at": "2026-04-20T13:00:00+09:00",
-        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-39-prefecture-home",
+      "region_id": "pref-39",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.kochi.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.kochi.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
         "status": "verified",
         "note": null
       },
@@ -540,7 +1036,71 @@
         "source_url": "https://www.pref.fukuoka.lg.jp/",
         "source_type": "official",
         "confirmed_at": "2026-04-20T13:00:00+09:00",
-        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-41-prefecture-home",
+      "region_id": "pref-41",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.saga.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.saga.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-42-prefecture-home",
+      "region_id": "pref-42",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.nagasaki.lg.jp/",
+      "verification": {
+        "source_url": "https://www.pref.nagasaki.lg.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-43-prefecture-home",
+      "region_id": "pref-43",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.kumamoto.jp/",
+      "verification": {
+        "source_url": "https://www.pref.kumamoto.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
+        "status": "verified",
+        "note": null
+      },
+      "note": null
+    },
+    {
+      "id": "pref-44-prefecture-home",
+      "region_id": "pref-44",
+      "site_kind": "prefecture_home",
+      "label": "公式ホームページ",
+      "url": "https://www.pref.oita.jp/",
+      "verification": {
+        "source_url": "https://www.pref.oita.jp/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-27T21:58:44+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
         "status": "verified",
         "note": null
       },
@@ -556,7 +1116,7 @@
         "source_url": "https://www.pref.miyazaki.lg.jp/",
         "source_type": "official",
         "confirmed_at": "2026-04-20T13:00:00+09:00",
-        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
         "status": "verified",
         "note": null
       },
@@ -572,7 +1132,7 @@
         "source_url": "https://www.pref.kagoshima.jp/",
         "source_type": "official",
         "confirmed_at": "2026-04-20T13:00:00+09:00",
-        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
         "status": "verified",
         "note": null
       },
@@ -588,7 +1148,7 @@
         "source_url": "https://www.pref.okinawa.lg.jp/",
         "source_type": "official",
         "confirmed_at": "2026-04-20T13:00:00+09:00",
-        "last_checked_at": "2026-04-20T13:00:00+09:00",
+        "last_checked_at": "2026-04-27T21:58:44+09:00",
         "status": "verified",
         "note": null
       },

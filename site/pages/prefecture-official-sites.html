@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>都道府県公式サイト台帳 - わたしの選挙</title>
+    <meta name="description" content="47都道府県の公式ホームページ、最終確認日、公式サイトへの導線を一覧できる台帳です。">
+    <meta name="theme-color" content="#0b1219">
+    <link rel="manifest" href="../manifest.webmanifest">
+    <link rel="icon" href="../icons/app-icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="../icons/app-icon.svg">
+    <link rel="stylesheet" href="../assets/styles.css">
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #07131d;
+        --panel: #102131;
+        --line: rgba(244, 239, 227, 0.14);
+        --text: #f4efe3;
+        --muted: #a9bdd0;
+        --accent: #8fd3ff;
+        --accent-strong: #ffd27a;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: linear-gradient(135deg, #102434 0%, var(--bg) 56%, #244234 100%);
+        color: var(--text);
+        font-family: "BIZ UDPGothic", "Yu Gothic", sans-serif;
+      }
+
+      main {
+        width: min(1280px, calc(100% - 32px));
+        margin: 48px auto 64px;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+        font-size: clamp(2.1rem, 4.8vw, 3.4rem);
+        font-weight: 500;
+        line-height: 1.08;
+      }
+
+      p {
+        margin: 0 0 24px;
+        color: var(--muted);
+        line-height: 1.8;
+      }
+
+      .summary-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+        margin: 0 0 20px;
+      }
+
+      .summary-item,
+      .filter-bar,
+      .table-wrap,
+      .note-panel {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: rgba(16, 33, 49, 0.9);
+        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.22);
+      }
+
+      .summary-item {
+        padding: 14px 16px;
+      }
+
+      .summary-item span {
+        display: block;
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-weight: 800;
+      }
+
+      .summary-item strong {
+        display: block;
+        margin-top: 4px;
+        color: var(--text);
+        font-size: 1.35rem;
+      }
+
+      .note-panel {
+        margin: 0 0 20px;
+        padding: 16px 18px;
+      }
+
+      .note-panel p {
+        margin: 0;
+      }
+
+      .note-panel a,
+      td a {
+        color: var(--accent-strong);
+        text-decoration: none;
+      }
+
+      .note-panel a:hover,
+      .note-panel a:focus-visible,
+      td a:hover,
+      td a:focus-visible {
+        text-decoration: underline;
+      }
+
+      .filter-bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin: 0 0 20px;
+        padding: 16px 18px;
+      }
+
+      .filter-field {
+        display: grid;
+        gap: 6px;
+        min-width: 220px;
+      }
+
+      .filter-field label {
+        color: var(--muted);
+        font-size: 0.82rem;
+        font-weight: 800;
+        letter-spacing: 0.03em;
+      }
+
+      .filter-field select,
+      .filter-field input {
+        min-height: 44px;
+        padding: 10px 12px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: rgba(7, 19, 29, 0.9);
+        color: var(--text);
+        font: inherit;
+      }
+
+      .filter-field.wide {
+        min-width: min(420px, 100%);
+        flex: 1;
+      }
+
+      .count-note {
+        margin: 0 0 14px;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      .table-wrap {
+        overflow: auto;
+      }
+
+      table {
+        width: 100%;
+        min-width: 880px;
+        border-collapse: collapse;
+      }
+
+      thead th {
+        position: sticky;
+        top: 0;
+        background: rgba(12, 23, 34, 0.98);
+        color: var(--accent);
+        text-align: left;
+        font-size: 0.9rem;
+        font-weight: 800;
+        letter-spacing: 0.03em;
+      }
+
+      th,
+      td {
+        padding: 14px 16px;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+      }
+
+      tbody tr:hover {
+        background: rgba(143, 211, 255, 0.05);
+      }
+
+      tbody tr[hidden] {
+        display: none;
+      }
+
+      .region-cell strong {
+        display: block;
+        color: var(--text);
+      }
+
+      .status-pill {
+        display: inline-flex;
+        align-items: center;
+        min-height: 28px;
+        padding: 4px 9px;
+        border: 1px solid rgba(143, 211, 255, 0.36);
+        border-radius: 999px;
+        color: var(--accent);
+        font-size: 0.82rem;
+        font-weight: 800;
+        white-space: nowrap;
+      }
+
+      @media (max-width: 760px) {
+        main {
+          width: min(100% - 20px, 1280px);
+          margin: 28px auto 48px;
+        }
+
+        .summary-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../index.html" aria-label="わたしの選挙トップ">
+        <span class="brand-mark" aria-hidden="true">票</span>
+        <span>
+          <strong>わたしの選挙</strong>
+          <small>公式情報への案内</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="主なナビゲーション">
+        <a href="../index.html">トップ</a>
+        <a href="about.html">このサイトについて</a>
+        <a href="verification-policy.html">情報の確認基準</a>
+        <a href="current-mayors.html">現職市長台帳</a>
+        <a href="current-governors.html">現職知事台帳</a>
+        <a href="prefecture-official-sites.html" aria-current="page">都道府県公式サイト台帳</a>
+        <a href="prefectural-assembly-terms.html">県議会任期台帳</a>
+        <a href="prefectural-assembly-districts.html">県議選挙区台帳</a>
+        <a href="prefectural-assembly-official-links.html">県議公式リンク台帳</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>都道府県公式サイト台帳</h1>
+      <p>47都道府県の公式ホームページを、地方と都道府県名から確認できる台帳です。選挙管理委員会や議会ページへ進む前の基礎導線として使います。</p>
+
+      <section class="summary-grid" aria-label="台帳概要">
+        <div class="summary-item">
+          <span>掲載都道府県</span>
+          <strong id="prefectureCount">0件</strong>
+        </div>
+        <div class="summary-item">
+          <span>市区町村公式サイト</span>
+          <strong id="municipalityCount">0件</strong>
+        </div>
+        <div class="summary-item">
+          <span>最終確認日</span>
+          <strong id="lastCheckedDate">-</strong>
+        </div>
+        <div class="summary-item">
+          <span>データ生成</span>
+          <strong id="generatedDate">-</strong>
+        </div>
+      </section>
+
+      <section class="note-panel">
+        <p>基礎資料として <a href="https://www.nga.gr.jp/pref_info/index.html" target="_blank" rel="noopener noreferrer">全国知事会の都道府県情報</a> を参照し、各都道府県の公式トップページへ進めるようにしています。</p>
+      </section>
+
+      <div class="filter-bar">
+        <div class="filter-field wide">
+          <label for="searchInput">キーワード</label>
+          <input id="searchInput" type="search" placeholder="例: 東京都、北海道、関西">
+        </div>
+        <div class="filter-field">
+          <label for="macroRegionFilter">地方</label>
+          <select id="macroRegionFilter">
+            <option value="all">すべて</option>
+          </select>
+        </div>
+      </div>
+
+      <p class="count-note" id="countNote">0件表示</p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>地方</th>
+              <th>都道府県</th>
+              <th>公式サイト</th>
+              <th>最終確認日</th>
+              <th>状態</th>
+            </tr>
+          </thead>
+          <tbody id="siteRows"></tbody>
+        </table>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        このサイトは、確認した一次情報をもとに、選挙や議会ごとの公式ページへの導線を整理しています。
+        確認基準、運営方針、プライバシー、お問い合わせ先を公開しています。
+      </p>
+      <div class="footer-links">
+        <a href="about.html">このサイトについて</a>
+        <a href="verification-policy.html">情報の確認基準</a>
+        <a href="current-mayors.html">現職市長台帳</a>
+        <a href="current-governors.html">現職知事台帳</a>
+        <a href="prefecture-official-sites.html">都道府県公式サイト台帳</a>
+        <a href="privacy.html">プライバシーと通知</a>
+        <a href="contact.html">お問い合わせ</a>
+      </div>
+    </footer>
+
+    <script src="../data/site-data.js"></script>
+    <script>
+      const DATA = window.ELECTION_SITE_DATA;
+      const MACRO_REGION_LABELS = {
+        hokkaido_tohoku: "北海道・東北",
+        kanto: "関東",
+        hokuriku: "北陸",
+        koshinetsu: "甲信越",
+        tokai: "東海",
+        kansai: "関西",
+        chugoku: "中国",
+        shikoku: "四国",
+        kyushu_okinawa: "九州・沖縄",
+      };
+
+      const PREFECTURE_TO_MACRO_REGION = {
+        "01": "hokkaido_tohoku",
+        "02": "hokkaido_tohoku",
+        "03": "hokkaido_tohoku",
+        "04": "hokkaido_tohoku",
+        "05": "hokkaido_tohoku",
+        "06": "hokkaido_tohoku",
+        "07": "hokkaido_tohoku",
+        "08": "kanto",
+        "09": "kanto",
+        "10": "kanto",
+        "11": "kanto",
+        "12": "kanto",
+        "13": "kanto",
+        "14": "kanto",
+        "15": "koshinetsu",
+        "16": "hokuriku",
+        "17": "hokuriku",
+        "18": "hokuriku",
+        "19": "koshinetsu",
+        "20": "koshinetsu",
+        "21": "tokai",
+        "22": "tokai",
+        "23": "tokai",
+        "24": "kansai",
+        "25": "kansai",
+        "26": "kansai",
+        "27": "kansai",
+        "28": "kansai",
+        "29": "kansai",
+        "30": "kansai",
+        "31": "chugoku",
+        "32": "chugoku",
+        "33": "chugoku",
+        "34": "chugoku",
+        "35": "chugoku",
+        "36": "shikoku",
+        "37": "shikoku",
+        "38": "shikoku",
+        "39": "shikoku",
+        "40": "kyushu_okinawa",
+        "41": "kyushu_okinawa",
+        "42": "kyushu_okinawa",
+        "43": "kyushu_okinawa",
+        "44": "kyushu_okinawa",
+        "45": "kyushu_okinawa",
+        "46": "kyushu_okinawa",
+        "47": "kyushu_okinawa",
+      };
+
+      const siteRows = document.getElementById("siteRows");
+      const searchInput = document.getElementById("searchInput");
+      const macroRegionFilter = document.getElementById("macroRegionFilter");
+      const countNote = document.getElementById("countNote");
+      const prefectureCount = document.getElementById("prefectureCount");
+      const municipalityCount = document.getElementById("municipalityCount");
+      const lastCheckedDate = document.getElementById("lastCheckedDate");
+      const generatedDate = document.getElementById("generatedDate");
+      let rows = [];
+
+      function escapeHtml(value) {
+        return String(value ?? "")
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;");
+      }
+
+      function normalizeText(value) {
+        return String(value ?? "").trim().toLowerCase();
+      }
+
+      function formatDate(value) {
+        if (!value) return "-";
+        return value.slice(0, 10);
+      }
+
+      function getMacroRegion(prefCode) {
+        const key = PREFECTURE_TO_MACRO_REGION[String(prefCode ?? "").padStart(2, "0")];
+        return MACRO_REGION_LABELS[key] ?? "未分類";
+      }
+
+      function getPrefectureName(regionById, site) {
+        return regionById.get(site.regionId)?.name ?? site.prefectureName ?? site.regionId;
+      }
+
+      function updateSummary(prefectureSites, municipalitySites) {
+        const dates = prefectureSites.map((site) => site.lastCheckedAt).filter(Boolean).sort();
+        prefectureCount.textContent = `${prefectureSites.length}件`;
+        municipalityCount.textContent = `${municipalitySites.length}件`;
+        lastCheckedDate.textContent = formatDate(dates.at(-1));
+        generatedDate.textContent = formatDate(DATA?.generatedAt);
+      }
+
+      function renderRows(prefectureSites, regionById) {
+        siteRows.innerHTML = prefectureSites.map((site) => {
+          const prefectureName = getPrefectureName(regionById, site);
+          const macroRegion = getMacroRegion(site.prefCode);
+          const haystack = normalizeText(`${macroRegion} ${prefectureName}`);
+          return `
+            <tr data-macro-region="${escapeHtml(macroRegion)}" data-search="${escapeHtml(haystack)}">
+              <td>${escapeHtml(macroRegion)}</td>
+              <td class="region-cell">
+                <strong>${escapeHtml(prefectureName)}</strong>
+              </td>
+              <td>
+                <a href="${escapeHtml(site.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(prefectureName)}公式サイト</a>
+              </td>
+              <td>${escapeHtml(formatDate(site.lastCheckedAt))}</td>
+              <td><span class="status-pill">verified</span></td>
+            </tr>
+          `;
+        }).join("");
+        rows = Array.from(siteRows.querySelectorAll("tr"));
+      }
+
+      function renderMacroOptions() {
+        macroRegionFilter.innerHTML = [
+          '<option value="all">すべて</option>',
+          ...Object.values(MACRO_REGION_LABELS).map((label) => `<option value="${escapeHtml(label)}">${escapeHtml(label)}</option>`),
+        ].join("");
+      }
+
+      function applyFilters() {
+        const query = normalizeText(searchInput.value);
+        const macroRegion = macroRegionFilter.value;
+        let visibleCount = 0;
+        rows.forEach((row) => {
+          const visible =
+            (macroRegion === "all" || row.dataset.macroRegion === macroRegion) &&
+            (!query || row.dataset.search.includes(query));
+          row.hidden = !visible;
+          if (visible) visibleCount += 1;
+        });
+        countNote.textContent = `${visibleCount}件表示`;
+      }
+
+      if (!DATA || !Array.isArray(DATA.localGovernmentSites) || !Array.isArray(DATA.regions)) {
+        countNote.textContent = "データを読み込めませんでした";
+      } else {
+        const regionById = new Map(DATA.regions.map((region) => [region.id, region]));
+        const prefectureSites = DATA.localGovernmentSites
+          .filter((site) => site.siteKind === "prefecture_home")
+          .sort((left, right) => left.prefCode.localeCompare(right.prefCode));
+        const municipalitySites = DATA.localGovernmentSites.filter((site) => site.siteKind === "municipality_home");
+        updateSummary(prefectureSites, municipalitySites);
+        renderRows(prefectureSites, regionById);
+        renderMacroOptions();
+        applyFilters();
+        searchInput.addEventListener("input", applyFilters);
+        macroRegionFilter.addEventListener("change", applyFilters);
+      }
+    </script>
+    <script src="../assets/pwa.js"></script>
+  </body>
+</html>

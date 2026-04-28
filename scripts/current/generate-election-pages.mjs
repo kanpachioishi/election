@@ -201,6 +201,26 @@ function sortByDisplayOrder(items = []) {
   });
 }
 
+function getGuideIconName(itemOrId) {
+  const id = typeof itemOrId === "string" ? itemOrId : itemOrId?.id;
+  const label = typeof itemOrId === "string" ? "" : itemOrId?.label;
+  const text = `${id ?? ""} ${label ?? ""}`.toLowerCase();
+
+  if (/early/.test(text) || /期日前/.test(text)) return "clock";
+  if (/polling|place|投票所/.test(text)) return "map-pin";
+  if (/counting|開票/.test(text)) return "ballot";
+  if (/candidate|候補/.test(text)) return "list";
+  if (/bulletin|公報/.test(text)) return "file";
+  if (/turnout|投票状況/.test(text)) return "chart";
+  if (/contact|問い合わせ/.test(text)) return "phone";
+  if (/vote|当日|投票/.test(text)) return "calendar";
+  return "info";
+}
+
+function renderGuideIcon(itemOrId) {
+  return `<span class="guide-icon guide-icon--${escapeHtml(getGuideIconName(itemOrId))}" aria-hidden="true"></span>`;
+}
+
 function getLocalGovernmentSite(election, localGovernmentSiteByKey, regionById) {
   const region = regionById.get(election.primary_region_id);
   const prefecture = getPrefecture(region, regionById);
@@ -291,7 +311,8 @@ ${renderResourceCards(grouped.get(kind) ?? [])}
 function renderGuideChecklistItem(item) {
   return `
             <article class="guide-card">
-              <span>${escapeHtml(item.label)}</span>
+              ${renderGuideIcon(item)}
+              <span class="guide-card-label">${escapeHtml(item.label)}</span>
               <strong>${escapeHtml(item.value)}</strong>
               ${item.note ? `<p>${escapeHtml(item.note)}</p>` : ""}
               <a href="${escapeHtml(item.source_url)}" target="_blank" rel="noopener noreferrer">公式確認元</a>
@@ -314,7 +335,10 @@ function renderGuideSection(section) {
   return `
           <section class="guide-detail-section">
             <div class="guide-section-heading">
-              <h3>${escapeHtml(section.title)}</h3>
+              <div class="guide-title-row">
+                ${renderGuideIcon(section)}
+                <h3>${escapeHtml(section.title)}</h3>
+              </div>
               <a href="${escapeHtml(section.source_url)}" target="_blank" rel="noopener noreferrer">公式確認元</a>
             </div>
             <p>${escapeHtml(section.summary)}</p>
@@ -328,7 +352,8 @@ function renderGuideFollowup(item) {
   const nextCheck = item.next_check_date ? `次回確認: ${formatDate(item.next_check_date)}` : "次回確認日未定";
   return `
             <article class="followup-item ${escapeHtml(item.status)}">
-              <span>${escapeHtml(item.label)}</span>
+              ${renderGuideIcon(item)}
+              <span class="followup-label">${escapeHtml(item.label)}</span>
               <strong>${escapeHtml(nextCheck)}</strong>
               <p>${escapeHtml(item.summary)}</p>
               <a href="${escapeHtml(item.source_url)}" target="_blank" rel="noopener noreferrer">確認先</a>
@@ -340,7 +365,10 @@ function renderGuideContact(contact) {
   return `
           <section class="guide-detail-section">
             <div class="guide-section-heading">
-              <h3>問い合わせ先</h3>
+              <div class="guide-title-row">
+                ${renderGuideIcon("contact")}
+                <h3>問い合わせ先</h3>
+              </div>
               <a href="${escapeHtml(contact.source_url)}" target="_blank" rel="noopener noreferrer">公式確認元</a>
             </div>
             <dl class="guide-fact-list">

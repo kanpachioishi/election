@@ -32,7 +32,8 @@
           <li><a href="../index.html">トップ</a></li>
           <li><a href="schedule.html" class="active">選挙スケジュール</a></li>
           <li><a href="turnout.html">投票率データ</a></li>
-          <li><a href="../index.html#about">このサイトについて</a></li>
+          <li><a href="verification-policy.html">情報の確認基準</a></li>
+          <li><a href="about.html">このサイトについて</a></li>
         </ul>
       </nav>
     </div>
@@ -41,6 +42,10 @@
   <main>
     <h1 class="page-title">全国の選挙スケジュール</h1>
     <p class="page-subtitle">国政選挙から地方選挙まで、今後の選挙予定を一覧で確認できます。</p>
+    <p class="page-note" id="dataNote">
+      <strong>データの扱い:</strong>
+      `data/v1` の canonical data から生成した公開データを表示しています。投票日が今日以降の選挙だけを掲載し、各選挙の出典リンクを確認元として表示します。
+    </p>
 
     <!-- フィルター -->
     <div class="filter-bar" id="filterBar">
@@ -48,6 +53,7 @@
       <button class="filter-btn" data-filter="national">国政選挙</button>
       <button class="filter-btn" data-filter="prefectural">都道府県</button>
       <button class="filter-btn" data-filter="municipal">市区町村</button>
+      <button class="filter-btn" data-filter="by_election">補欠・再選挙</button>
     </div>
 
     <!-- スケジュールリスト -->
@@ -56,21 +62,29 @@
 
   <!-- フッター -->
   <footer class="site-footer">
-    <p class="footer-message">このサイトは投票率向上を目指す個人プロジェクトです。</p>
+    <p class="footer-message">確認した一次情報をもとに、選挙や議会ごとの公式ページへの導線を整理しています。</p>
     <div class="footer-links">
-      <a href="#">プライバシーポリシー</a>
-      <a href="#">お問い合わせ</a>
+      <a href="about.html">このサイトについて</a>
+      <a href="verification-policy.html">情報の確認基準</a>
+      <a href="privacy.html">プライバシーと通知</a>
+      <a href="contact.html">お問い合わせ</a>
     </div>
-    <p class="footer-copy">&copy; 2025 わたしの選挙</p>
   </footer>
 
-  <script src="../data/elections.js"></script>
+  <script src="../data/site-data.js"></script>
   <script>
     const scheduleList = document.getElementById('scheduleList');
     const filterBar = document.getElementById('filterBar');
+    const dataNote = document.getElementById('dataNote');
     let currentFilter = 'all';
+    const DATA = window.ELECTION_SITE_DATA;
+    const TYPE_LABELS = {
+      national: '国政選挙',
+      prefectural: '都道府県',
+      municipal: '市区町村',
+      by_election: '補欠・再選挙',
+    };
 
-    // フィルターボタン
     filterBar.addEventListener('click', function(e) {
       if (!e.target.classList.contains('filter-btn')) return;
       filterBar.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
@@ -79,15 +93,67 @@
       renderSchedule();
     });
 
-    function renderSchedule() {
-      const now = new Date();
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#039;');
+    }
 
-      const filtered = ELECTIONS
+    function parseDate(dateText) {
+      const [year, month, day] = String(dateText).split('-').map(Number);
+      return new Date(year, month - 1, day);
+    }
+
+    function todayStart() {
+      const date = new Date();
+      date.setHours(0, 0, 0, 0);
+      return date;
+    }
+
+    function isAbsoluteHttpUrl(value) {
+      try {
+        const url = new URL(value);
+        return url.protocol === 'http:' || url.protocol === 'https:';
+      } catch {
+        return false;
+      }
+    }
+
+    function formatGeneratedAt(dateText) {
+      if (!dateText) return '';
+      const date = new Date(dateText);
+      if (Number.isNaN(date.getTime())) return '';
+      const parts = new Intl.DateTimeFormat('ja-JP', {
+        timeZone: 'Asia/Tokyo',
+        year: 'numeric',
+        month: 'numeric',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false,
+      }).formatToParts(date);
+      const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+      return `${values.year}年${values.month}月${values.day}日 ${values.hour}:${values.minute}`;
+    }
+
+    function renderSchedule() {
+      if (!DATA?.elections) {
+        scheduleList.innerHTML = '<div class="error-message">公開データを読み込めませんでした。</div>';
+        return;
+      }
+
+      const now = todayStart();
+
+      const filtered = DATA.elections
         .map(e => {
-          const dateObj = new Date(e.date);
+          const dateObj = parseDate(e.voteDate);
           const daysLeft = Math.ceil((dateObj - now) / (1000 * 60 * 60 * 24));
           return { ...e, dateObj, daysLeft };
         })
+        .filter(e => e.voteDate && e.daysLeft >= 0)
         .filter(e => currentFilter === 'all' || e.type === currentFilter)
         .sort((a, b) => a.dateObj - b.dateObj);
 
@@ -103,8 +169,8 @@
         const day = d.getDate();
         const days = ['日', '月', '火', '水', '木', '金', '土'];
         const dayName = days[d.getDay()];
-        const typeLabel = { national: '国政選挙', prefectural: '都道府県', municipal: '市区町村' }[e.type];
-        const regionLabel = e.regions.includes('all') ? '全国' : getRegionName(e.regions);
+        const typeLabel = TYPE_LABELS[e.type] ?? e.type;
+        const regionLabel = e.scopeType === 'all' ? '全国' : (e.primaryRegionShortName || e.primaryRegionName || e.prefectureName || '地域未設定');
 
         let countdownText;
         if (e.daysLeft < 0) {
@@ -117,6 +183,10 @@
           countdownText = `<span style="color:var(--color-text-muted)">あと${e.daysLeft}日</span>`;
         }
 
+        const sourceLink = isAbsoluteHttpUrl(e.sourceUrl)
+          ? `<a class="source-link" href="${escapeHtml(e.sourceUrl)}" target="_blank" rel="noopener noreferrer">確認元</a>`
+          : '';
+
         return `
           <div class="schedule-item">
             <div class="schedule-date-box">
@@ -125,30 +195,31 @@
               <div class="day">${day}</div>
             </div>
             <div class="schedule-info">
-              <h3>${e.name}</h3>
+              <h3>${escapeHtml(e.name)}</h3>
               <div class="schedule-meta">
-                <span class="card-type ${e.type}" style="font-size:0.7rem; vertical-align:middle;">${typeLabel}</span>
-                &nbsp; ${regionLabel} &nbsp; ${year}年${month}月${day}日（${dayName}） &nbsp; ${countdownText}
+                <span class="card-type ${escapeHtml(e.type)}" style="font-size:0.7rem; vertical-align:middle;">${escapeHtml(typeLabel)}</span>
+                &nbsp; ${escapeHtml(regionLabel)} &nbsp; ${year}年${month}月${day}日（${dayName}） &nbsp; ${countdownText}
               </div>
-              <p class="schedule-desc">${e.description}</p>
+              <p class="schedule-desc">${escapeHtml(e.description || '公式情報を確認中です。')}</p>
+              ${sourceLink ? `<div class="schedule-actions">${sourceLink}</div>` : ''}
             </div>
           </div>
         `;
       }).join('');
     }
 
-    function getRegionName(regions) {
-      const prefNames = {
-        '01': '北海道', '02': '青森県', '03': '岩手県', '04': '宮城県', '05': '秋田県',
-        '06': '山形県', '07': '福島県', '08': '茨城県', '09': '栃木県', '10': '群馬県', '11': '埼玉県', '12': '千葉県',
-        '13': '東京都', '14': '神奈川県', '15': '新潟県', '16': '富山県', '17': '石川県', '18': '福井県', '19': '山梨県',
-        '20': '長野県', '21': '岐阜県', '22': '静岡県', '23': '愛知県', '24': '三重県', '25': '滋賀県', '26': '京都府',
-        '27': '大阪府', '28': '兵庫県', '29': '奈良県', '30': '和歌山県', '31': '鳥取県', '32': '島根県', '33': '岡山県', '34': '広島県', '35': '山口県', '36': '徳島県', '37': '香川県', '38': '愛媛県', '39': '高知県', '40': '福岡県',
-        '41': '佐賀県', '42': '長崎県', '43': '熊本県', '44': '大分県', '45': '宮崎県', '46': '鹿児島県', '47': '沖縄県'
-      };
-      return regions.map(r => prefNames[r] || r).join('、');
+    function renderDataNote() {
+      const generated = formatGeneratedAt(DATA?.sourceGeneratedAt);
+      if (!generated) return;
+      dataNote.innerHTML = `
+        <strong>データの扱い:</strong>
+        <code>data/v1</code> の canonical data から生成した公開データを表示しています。
+        投票日が今日以降の選挙だけを掲載し、各選挙の出典リンクを確認元として表示します。
+        データ基準: ${escapeHtml(generated)}
+      `;
     }
 
+    renderDataNote();
     renderSchedule();
   </script>
   <script src="../assets/pwa.js"></script>

@@ -651,7 +651,17 @@ function formatDateTime(dateText) {
   if (!dateText) return "";
   const date = new Date(dateText);
   if (Number.isNaN(date.getTime())) return String(dateText);
-  return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日 ${String(date.getHours()).padStart(2, "0")}:${String(date.getMinutes()).padStart(2, "0")}`;
+  const parts = new Intl.DateTimeFormat("ja-JP", {
+    timeZone: "Asia/Tokyo",
+    year: "numeric",
+    month: "numeric",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  }).formatToParts(date);
+  const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return `${values.year}年${values.month}月${values.day}日 ${values.hour}:${values.minute}`;
 }
 
 function getTodayJstDateText() {
@@ -1136,7 +1146,7 @@ function renderHero() {
     ["選挙", DATA.stats.elections],
     ["公式リンク", DATA.stats.resourceLinks],
     ["掲載地域", DATA.stats.regions],
-    ["対応郵便番号", DATA.stats.postalPrefixes],
+    ["郵便番号prefix", DATA.stats.postalPrefixes],
   ];
 
   els.heroMetrics.innerHTML = metrics.map(([label, value]) => `

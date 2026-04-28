@@ -298,6 +298,7 @@ const localGovernmentSitesPath = path.join(dataRoot, "local_government_sites.jso
 const prefecturalAssemblyTermsPath = path.join(dataRoot, "prefectural_assembly_terms.json");
 const prefecturalAssemblyDistrictsPath = path.join(dataRoot, "prefectural_assembly_districts.json");
 const prefecturalAssemblyOfficialLinksPath = path.join(dataRoot, "prefectural_assembly_official_links.json");
+const currentMayorsPath = path.join(dataRoot, "current_mayors", "canonical.json");
 const postalDir = path.join(dataRoot, "postal_code_mappings");
 const resourceDir = path.join(dataRoot, "election_resource_links");
 const candidateSignalDir = path.join(dataRoot, "candidate_signals");
@@ -311,6 +312,7 @@ const [
   prefecturalAssemblyTermsData,
   prefecturalAssemblyDistrictsData,
   prefecturalAssemblyOfficialLinksData,
+  currentMayorsData,
   postalFiles,
   resourceFiles,
   candidateSignalFiles,
@@ -323,6 +325,7 @@ const [
   readJson(prefecturalAssemblyTermsPath),
   readJson(prefecturalAssemblyDistrictsPath),
   readJson(prefecturalAssemblyOfficialLinksPath),
+  readJson(currentMayorsPath),
   listJsonFiles(postalDir),
   listJsonFiles(resourceDir),
   listJsonFilesIfExists(candidateSignalDir),
@@ -358,6 +361,10 @@ if (prefecturalAssemblyDistrictsData) {
 
 if (prefecturalAssemblyOfficialLinksData) {
   validateCollectionRoot(prefecturalAssemblyOfficialLinksData, prefecturalAssemblyOfficialLinksPath);
+}
+
+if (currentMayorsData) {
+  validateCollectionRoot(currentMayorsData, currentMayorsPath);
 }
 
 for (const [filePath, data] of postalDataList) {
@@ -1133,6 +1140,76 @@ if (prefecturalAssemblyOfficialLinksData?.records) {
   }
 }
 
+let currentMayorRecordCount = 0;
+
+if (currentMayorsData?.records) {
+  for (let index = 0; index < currentMayorsData.records.length; index += 1) {
+    const record = currentMayorsData.records[index];
+    const label = `records[${index}]`;
+
+    if (!isPlainObject(record)) {
+      pushError(currentMayorsPath, `${label} must be an object`);
+      continue;
+    }
+
+    currentMayorRecordCount += 1;
+
+    if (!isNonEmptyString(record.id) || !record.id.startsWith("mayor-")) {
+      pushError(currentMayorsPath, `${label}.id must start with mayor-`);
+    }
+
+    if (!isNonEmptyString(record.region_id)) {
+      pushError(currentMayorsPath, `${label}.region_id must be a non-empty string`);
+    } else if (!regionIdToRecord.has(record.region_id)) {
+      pushError(currentMayorsPath, `${label}.region_id must reference an existing region`);
+    }
+
+    if (!isNonEmptyString(record.city_name)) {
+      pushError(currentMayorsPath, `${label}.city_name must be a non-empty string`);
+    }
+
+    if (!isNonEmptyString(record.mayor_name)) {
+      pushError(currentMayorsPath, `${label}.mayor_name must be a non-empty string`);
+    }
+
+    if (!Array.isArray(record.sources)) {
+      pushError(currentMayorsPath, `${label}.sources must be an array`);
+    } else {
+      for (let sourceIndex = 0; sourceIndex < record.sources.length; sourceIndex += 1) {
+        const source = record.sources[sourceIndex];
+        const sourceLabel = `${label}.sources[${sourceIndex}]`;
+
+        if (!isPlainObject(source)) {
+          pushError(currentMayorsPath, `${sourceLabel} must be an object`);
+          continue;
+        }
+
+        if (!isNonEmptyString(source.title)) {
+          pushError(currentMayorsPath, `${sourceLabel}.title must be a non-empty string`);
+        }
+
+        if (!(source.url === undefined || source.url === null || isValidUrl(source.url))) {
+          pushError(currentMayorsPath, `${sourceLabel}.url must be an absolute URL or null`);
+        }
+      }
+    }
+
+    if (record.display_source !== undefined && record.display_source !== null) {
+      if (!isPlainObject(record.display_source)) {
+        pushError(currentMayorsPath, `${label}.display_source must be an object or null`);
+      } else {
+        if (!isNonEmptyString(record.display_source.label)) {
+          pushError(currentMayorsPath, `${label}.display_source.label must be a non-empty string`);
+        }
+
+        if (!(record.display_source.url === undefined || record.display_source.url === null || isValidUrl(record.display_source.url))) {
+          pushError(currentMayorsPath, `${label}.display_source.url must be an absolute URL or null`);
+        }
+      }
+    }
+  }
+}
+
 const postalPairSet = new Set();
 let postalRecordCount = 0;
 
@@ -1818,6 +1895,7 @@ console.log(
     `prefectural_assembly_terms=${prefecturalAssemblyTermRecordCount}`,
     `prefectural_assembly_districts=${prefecturalAssemblyDistrictRecordCount}`,
     `prefectural_assembly_official_links=${prefecturalAssemblyOfficialLinkRecordCount}`,
+    `current_mayors=${currentMayorRecordCount}`,
     `postal_code_mappings=${postalRecordCount}`,
     `election_resource_links=${resourceRecordCount}`,
     `candidate_signals=${candidateSignalRecordCount}`,

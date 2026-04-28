@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>soft ロゴ太さ比較</title>
+  <title>ロゴマーク案レビュー</title>
   <meta name="theme-color" content="#0b1219">
   <style>
     :root {
@@ -15,7 +15,11 @@
       --muted: #c8d0d8;
       --gold: #ffd27a;
     }
-    * { box-sizing: border-box; }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       min-height: 100vh;
@@ -26,19 +30,27 @@
       color: var(--text);
       font-family: "BIZ UDPGothic", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
     }
+
     h1 {
-      margin: 0 0 0.6rem;
+      margin: 0 0 0.75rem;
       font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
       font-size: clamp(2rem, 4vw, 3rem);
       font-weight: 700;
     }
-    p { margin: 0; color: var(--muted); line-height: 1.7; }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
       gap: 1rem;
       margin-top: 2rem;
     }
+
     .card {
       padding: 1.2rem;
       border: 1px solid var(--line);
@@ -46,6 +58,7 @@
       background: var(--panel);
       box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.18);
     }
+
     .frame {
       display: grid;
       place-items: center;
@@ -54,11 +67,13 @@
       border-radius: 1rem;
       background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.04));
     }
+
     .frame img {
       width: 140px;
       height: auto;
       display: block;
     }
+
     .label {
       margin-bottom: 0.3rem;
       color: var(--gold);
@@ -67,48 +82,52 @@
       letter-spacing: 0.04em;
       text-transform: uppercase;
     }
-    h2 { margin: 0 0 0.35rem; font-size: 1.1rem; }
+
+    h2 {
+      margin: 0 0 0.35rem;
+      font-size: 1.1rem;
+    }
   </style>
 </head>
 <body>
-  <h1>soft ロゴの線の太さ比較</h1>
-  <p>`票` の線だけを変えた4案です。位置と大きさは揃えて、見え方だけ比較しやすくしています。</p>
+  <h1>ロゴマーク案レビュー</h1>
+  <p>既存案と追加案を同じ大きさで並べて比較するためのローカルページです。</p>
 
   <section class="grid">
     <article class="card">
       <div class="frame">
-        <img src="../icons/logo-mark-soft-thin.svg" alt="細めのロゴ案">
+        <img src="../../../site/icons/logo-mark.svg" alt="既存のロゴマーク案">
       </div>
-      <div class="label">Thin</div>
-      <h2>細め</h2>
-      <p>軽くて上品ですが、小さい表示では少し弱く見える可能性があります。</p>
+      <div class="label">Adopted</div>
+      <h2>soft 採用版</h2>
+      <p>いまの正本です。やさしさと視認性のバランスが良い案として採用しました。</p>
     </article>
 
     <article class="card">
       <div class="frame">
-        <img src="../icons/logo-mark-soft-medium.svg" alt="標準のロゴ案">
+        <img src="../../../site/icons/logo-mark-seal.svg" alt="紋章寄りのロゴマーク案">
       </div>
-      <div class="label">Medium</div>
-      <h2>標準</h2>
-      <p>いまの基準案です。やわらかさと視認性のバランスが取れています。</p>
+      <div class="label">Variant A</div>
+      <h2>紋章・判子寄り</h2>
+      <p>重厚で公的な雰囲気を強めた案です。</p>
     </article>
 
     <article class="card">
       <div class="frame">
-        <img src="../icons/logo-mark-soft-bold.svg" alt="太めのロゴ案">
+        <img src="../../../site/icons/logo-mark-soft.svg" alt="やわらかいメダル寄りのロゴマーク案">
       </div>
-      <div class="label">Bold</div>
-      <h2>太め</h2>
-      <p>少し存在感が増して、ヘッダーでも見つけやすくなる方向です。</p>
+      <div class="label">Variant B</div>
+      <h2>やわらかいメダル寄り</h2>
+      <p>親しみやすさを強めた、やさしいトーンの案です。</p>
     </article>
 
     <article class="card">
       <div class="frame">
-        <img src="../icons/logo-mark-soft-heavy.svg" alt="かなり太めのロゴ案">
+        <img src="../../../site/icons/logo-mark-minimal.svg" alt="ミニマルなロゴマーク案">
       </div>
-      <div class="label">Heavy</div>
-      <h2>かなり太め</h2>
-      <p>一番強く見えますが、少し詰まって見える可能性もあります。</p>
+      <div class="label">Variant C</div>
+      <h2>ミニマル</h2>
+      <p>縮小表示やアプリアイコン転用を意識して、要素数を絞った案です。</p>
     </article>
   </section>
 </body>

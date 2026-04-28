@@ -42,13 +42,26 @@ function escapeHtml(value) {
     .replace(/"/g, "&quot;");
 }
 
+function isAbsoluteHttpUrl(value) {
+  if (typeof value !== "string" || value.trim() === "") {
+    return false;
+  }
+
+  try {
+    const url = new URL(value);
+    return url.protocol === "http:" || url.protocol === "https:";
+  } catch {
+    return false;
+  }
+}
+
 function displayDate(value, display) {
   return value ?? display ?? "記載なし";
 }
 
 function renderSource(source) {
   const label = source?.label ?? "確認元";
-  if (!source?.url) {
+  if (!isAbsoluteHttpUrl(source?.url)) {
     return escapeHtml(label);
   }
 

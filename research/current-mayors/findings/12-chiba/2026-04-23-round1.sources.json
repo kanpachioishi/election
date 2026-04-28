@@ -37,9 +37,9 @@
         },
         {
           "kind": "municipal_official_page",
-          "title": "公式",
-          "url": "市長プロフィール",
-          "checked_at": "2026-04-20",
+          "title": "市長プロフィール",
+          "url": "https://www.city.chiba.jp/sogoseisaku/shichokoshitsu/hisho/profilekamiya.html",
+          "checked_at": "2026-04-28",
           "used_for": [
             "mayor_name",
             "term_start",

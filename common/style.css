@@ -350,6 +350,11 @@ main {
   color: var(--color-white);
 }
 
+.card-type.by_election {
+  background: var(--color-warning);
+  color: var(--color-white);
+}
+
 .election-card h3 {
   font-size: 1.15rem;
   font-weight: 700;
@@ -530,6 +535,33 @@ main {
   margin-bottom: 2rem;
 }
 
+.page-note {
+  margin: -1rem 0 2rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-primary);
+  border-radius: var(--radius-md);
+  background: var(--color-bg-card);
+  color: var(--color-text-light);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  box-shadow: var(--shadow-sm);
+}
+
+.page-note strong {
+  color: var(--color-text);
+}
+
+.source-list {
+  margin: 0.75rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.source-list a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
 /* フィルター */
 .filter-bar {
   display: flex;
@@ -632,6 +664,31 @@ main {
 .schedule-info .schedule-desc {
   font-size: 0.9rem;
   color: var(--color-text-light);
+}
+
+.schedule-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.source-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2rem;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-bg);
+  color: var(--color-primary);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.source-link:hover {
+  border-color: var(--color-primary-light);
+  color: var(--color-accent);
 }
 
 /* ========================================

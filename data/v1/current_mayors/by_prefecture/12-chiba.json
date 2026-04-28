@@ -103,9 +103,9 @@
         },
         {
           "kind": "municipal_official_page",
-          "title": "公式",
-          "url": "市長プロフィール",
-          "checked_at": "2026-04-20",
+          "title": "市長プロフィール",
+          "url": "https://www.city.chiba.jp/sogoseisaku/shichokoshitsu/hisho/profilekamiya.html",
+          "checked_at": "2026-04-28",
           "used_for": [
             "mayor_name",
             "term_start",
@@ -115,12 +115,12 @@
           "publisher": null,
           "note": null
         }
-      ],
-      "display_source": {
-        "label": "公式",
-        "url": "市長プロフィール"
-      },
-      "last_checked_at": "2026-04-20",
+  ],
+  "display_source": {
+    "label": "市長プロフィール",
+    "url": "https://www.city.chiba.jp/sogoseisaku/shichokoshitsu/hisho/profilekamiya.html"
+  },
+  "last_checked_at": "2026-04-28",
       "note": "市長プロフィールで『2025年3月 千葉市長就任（2期目）』を確認。任期満了日は今後の選挙日程で確認し、開始日は4年任期で逆算整理。",
       "findings_values": {
         "mayor_name": "神谷 俊一",

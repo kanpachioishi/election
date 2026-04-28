@@ -32,7 +32,8 @@
           <li><a href="../index.html">トップ</a></li>
           <li><a href="schedule.html">選挙スケジュール</a></li>
           <li><a href="turnout.html" class="active">投票率データ</a></li>
-          <li><a href="../index.html#about">このサイトについて</a></li>
+          <li><a href="verification-policy.html">情報の確認基準</a></li>
+          <li><a href="about.html">このサイトについて</a></li>
         </ul>
       </nav>
     </div>
@@ -41,6 +42,15 @@
   <main>
     <h1 class="page-title">投票率データ</h1>
     <p class="page-subtitle">過去の国政選挙における投票率の推移と、年代別の投票率を確認できます。</p>
+    <div class="page-note">
+      <strong>出典と確認状況:</strong>
+      このページのグラフは、`site/data/elections.js` に残っている暫定の投票率データを表示しています。canonical data への移行前の参考表示です。
+      確認日: 2026年4月28日。値の再確認と `data/v1` への移行を次の整備対象にします。
+      <ul class="source-list">
+        <li><a href="https://www.soumu.go.jp/senkyo/senkyo_s/data/index.html" target="_blank" rel="noopener noreferrer">総務省 選挙関連資料</a></li>
+        <li><a href="https://www.soumu.go.jp/senkyo/senkyo_s/news/sonota/nendaibetu/" target="_blank" rel="noopener noreferrer">総務省 年代別投票状況</a></li>
+      </ul>
+    </div>
 
     <!-- 衆院選グラフ -->
     <div class="chart-container">
@@ -82,12 +92,13 @@
 
   <!-- フッター -->
   <footer class="site-footer">
-    <p class="footer-message">このサイトは投票率向上を目指す個人プロジェクトです。</p>
+    <p class="footer-message">確認した一次情報をもとに、選挙や議会ごとの公式ページへの導線を整理しています。</p>
     <div class="footer-links">
-      <a href="#">プライバシーポリシー</a>
-      <a href="#">お問い合わせ</a>
+      <a href="about.html">このサイトについて</a>
+      <a href="verification-policy.html">情報の確認基準</a>
+      <a href="privacy.html">プライバシーと通知</a>
+      <a href="contact.html">お問い合わせ</a>
     </div>
-    <p class="footer-copy">&copy; 2025 わたしの選挙</p>
   </footer>
 
   <script src="../data/elections.js"></script>

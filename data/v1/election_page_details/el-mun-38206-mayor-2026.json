@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T22:25:00+09:00",
+  "election_id": "el-mun-38206-mayor-2026",
+  "as_of": "2026-04-28",
+  "title": "投票前チェック",
+  "summary": "西条市公式ページで確認できる投票日、期日前投票、投票所、開票予定を、投票前に見やすい順に整理しています。",
+  "verification": {
+    "source_url": "https://www.city.saijo.ehime.jp/soshiki/senkan/shityousen-senkyokijitu.html",
+    "source_type": "official",
+    "confirmed_at": "2026-04-28T22:25:00+09:00",
+    "last_checked_at": "2026-04-28T22:25:00+09:00",
+    "status": "verified",
+    "note": "西条市公式の選挙期日、期日前投票制度、投票所一覧表を確認して作成した投票前チェック用補助データ。"
+  },
+  "checklist": [
+    {
+      "id": "vote-day",
+      "label": "当日の投票",
+      "value": "2026年5月17日（日）7:00-20:00",
+      "note": "投票時間の繰上げを行う投票所があります。入場券と公式投票所案内を確認してください。",
+      "source_url": "https://www.city.saijo.ehime.jp/soshiki/senkan/shityousen-senkyokijitu.html",
+      "last_checked_at": "2026-04-28T22:25:00+09:00",
+      "derived": false,
+      "display_order": 1
+    },
+    {
+      "id": "early-voting",
+      "label": "期日前投票",
+      "value": "2026年5月11日（月）- 5月16日（土）8:30-20:00",
+      "note": "期日前投票期間は、公式の制度説明と西条市長選挙の告示日・投票日から整理した導出値です。",
+      "source_url": "https://www.city.saijo.ehime.jp/soshiki/senkan/kijitsuzen.html",
+      "last_checked_at": "2026-04-28T22:25:00+09:00",
+      "derived": true,
+      "display_order": 2
+    },
+    {
+      "id": "polling-place",
+      "label": "投票所",
+      "value": "市内65か所",
+      "note": "入場券に記載された投票区番号と投票所名で確認します。変更される場合があります。",
+      "source_url": "https://www.city.saijo.ehime.jp/soshiki/senkan/tohyosho.html",
+      "last_checked_at": "2026-04-28T22:25:00+09:00",
+      "derived": false,
+      "display_order": 3
+    },
+    {
+      "id": "counting",
+      "label": "開票",
+      "value": "2026年5月17日（日）21:10から予定",
+      "note": "開票所は西条市総合体育館（西条市ひうち1番地2）です。",
+      "source_url": "https://www.city.saijo.ehime.jp/soshiki/senkan/shityousen-senkyokijitu.html",
+      "last_checked_at": "2026-04-28T22:25:00+09:00",
+      "derived": false,
+      "display_order": 4
+    }
+  ],
+  "sections": [
+    {
+      "id": "early-voting-detail",
+      "title": "期日前投票の使い方",
+      "summary": "投票日当日に仕事や用務などが見込まれる場合、告示日の翌日から投票日前日まで期日前投票を利用できます。",
+      "source_url": "https://www.city.saijo.ehime.jp/soshiki/senkan/kijitsuzen.html",
+      "last_checked_at": "2026-04-28T22:25:00+09:00",
+      "display_order": 1,
+      "items": [
+        {
+          "label": "期間",
+          "value": "2026年5月11日（月）から5月16日（土）まで",
+          "note": "公式の制度説明では、期間は告示日の翌日から投票日前日までとされています。",
+          "derived": true
+        },
+        {
+          "label": "時間",
+          "value": "8:30-20:00",
+          "note": null,
+          "derived": false
+        },
+        {
+          "label": "場所",
+          "value": "本庁、西部支所、丹原サービスセンター、小松サービスセンター",
+          "note": "公式ページでは、これらに期日前投票所が設置される予定とされています。",
+          "derived": false
+        },
+        {
+          "label": "手続",
+          "value": "宣誓書の提出が必要",
+          "note": "投票日当日に仕事や用務などがある見込みである旨を示す手続です。",
+          "derived": false
+        }
+      ]
+    },
+    {
+      "id": "polling-place-detail",
+      "title": "当日の投票所確認",
+      "summary": "投票所は市内65か所です。自分の投票所は、投票所入場券に記載された投票区番号と投票所名で確認します。",
+      "source_url": "https://www.city.saijo.ehime.jp/soshiki/senkan/tohyosho.html",
+      "last_checked_at": "2026-04-28T22:25:00+09:00",
+      "display_order": 2,
+      "items": [
+        {
+          "label": "確認方法",
+          "value": "投票所入場券の投票区番号・投票所名を見る",
+          "note": "公式ページは、投票所を変更する場合があるため注意するよう案内しています。",
+          "derived": false
+        },
+        {
+          "label": "投票所数",
+          "value": "65か所",
+          "note": "投票所一覧表は2026年3月27日現在の内容です。",
+          "derived": false
+        },
+        {
+          "label": "第52投票区",
+          "value": "選挙ごとに東川根集会所と西川根集会所を交互に変更",
+          "note": "該当する場合は入場券と公式ページを必ず確認してください。",
+          "derived": false
+        }
+      ]
+    },
+    {
+      "id": "counting-detail",
+      "title": "開票予定",
+      "summary": "開票は投票日当日の夜に予定されています。",
+      "source_url": "https://www.city.saijo.ehime.jp/soshiki/senkan/shityousen-senkyokijitu.html",
+      "last_checked_at": "2026-04-28T22:25:00+09:00",
+      "display_order": 3,
+      "items": [
+        {
+          "label": "開票日時",
+          "value": "2026年5月17日（日）21:10から予定",
+          "note": null,
+          "derived": false
+        },
+        {
+          "label": "開票所",
+          "value": "西条市総合体育館（西条市ひうち1番地2）",
+          "note": null,
+          "derived": false
+        }
+      ]
+    }
+  ],
+  "followups": [
+    {
+      "id": "candidate-list",
+      "label": "候補者一覧",
+      "status": "scheduled",
+      "summary": "2026年4月28日時点では、当該選挙の公式候補者一覧は確認できていません。告示後に公式公開を再確認します。",
+      "next_check_date": "2026-05-11",
+      "source_url": "https://www.city.saijo.ehime.jp/soshiki/senkan/",
+      "last_checked_at": "2026-04-28T22:25:00+09:00",
+      "display_order": 1
+    },
+    {
+      "id": "bulletin",
+      "label": "選挙公報",
+      "status": "scheduled",
+      "summary": "2026年4月28日時点では、当該選挙の公式選挙公報は確認できていません。告示後に公式公開を再確認します。",
+      "next_check_date": "2026-05-11",
+      "source_url": "https://www.city.saijo.ehime.jp/soshiki/senkan/",
+      "last_checked_at": "2026-04-28T22:25:00+09:00",
+      "display_order": 2
+    },
+    {
+      "id": "early-voting-turnout",
+      "label": "期日前投票状況",
+      "status": "scheduled",
+      "summary": "当該選挙の期日前投票状況ページは未確認です。期日前投票開始後に公式公開があるか確認します。",
+      "next_check_date": "2026-05-11",
+      "source_url": "https://www.city.saijo.ehime.jp/soshiki/senkan/",
+      "last_checked_at": "2026-04-28T22:25:00+09:00",
+      "display_order": 3
+    }
+  ],
+  "contact": {
+    "label": "西条市選挙管理委員会事務局",
+    "address": "〒793-8601 愛媛県西条市明屋敷164番地",
+    "phone": "0897-52-1263",
+    "fax": "0897-52-1201",
+    "note": "選挙の時期によって所在地が本庁と小松サービスセンター間を移動するため、用件がある場合は事前に電話連絡で確認するよう公式ページで案内されています。",
+    "source_url": "https://www.city.saijo.ehime.jp/soshiki/senkan/shityousen-senkyokijitu.html",
+    "last_checked_at": "2026-04-28T22:25:00+09:00"
+  }
+}

@@ -193,6 +193,14 @@ function groupResources(resources) {
   }, new Map());
 }
 
+function sortByDisplayOrder(items = []) {
+  return items.slice().sort((left, right) => {
+    const leftOrder = Number.isFinite(left.display_order) ? left.display_order : Number.MAX_SAFE_INTEGER;
+    const rightOrder = Number.isFinite(right.display_order) ? right.display_order : Number.MAX_SAFE_INTEGER;
+    return leftOrder - rightOrder || sortJa(left.label ?? left.title ?? left.id, right.label ?? right.title ?? right.id);
+  });
+}
+
 function getLocalGovernmentSite(election, localGovernmentSiteByKey, regionById) {
   const region = regionById.get(election.primary_region_id);
   const prefecture = getPrefecture(region, regionById);
@@ -280,9 +288,122 @@ ${renderResourceCards(grouped.get(kind) ?? [])}
           </section>`).join("\n");
 }
 
+function renderGuideChecklistItem(item) {
+  return `
+            <article class="guide-card">
+              <span>${escapeHtml(item.label)}</span>
+              <strong>${escapeHtml(item.value)}</strong>
+              ${item.note ? `<p>${escapeHtml(item.note)}</p>` : ""}
+              <a href="${escapeHtml(item.source_url)}" target="_blank" rel="noopener noreferrer">公式確認元</a>
+            </article>`;
+}
+
+function renderGuideSection(section) {
+  const items = (section.items ?? []).map((item) => {
+    const note = item.note ? `
+                  <span>${escapeHtml(item.note)}</span>` : "";
+    return `
+              <div>
+                <dt>${escapeHtml(item.label)}${item.derived ? "<small>導出</small>" : ""}</dt>
+                <dd>
+                  <strong>${escapeHtml(item.value)}</strong>${note}
+                </dd>
+              </div>`;
+  }).join("");
+
+  return `
+          <section class="guide-detail-section">
+            <div class="guide-section-heading">
+              <h3>${escapeHtml(section.title)}</h3>
+              <a href="${escapeHtml(section.source_url)}" target="_blank" rel="noopener noreferrer">公式確認元</a>
+            </div>
+            <p>${escapeHtml(section.summary)}</p>
+            <dl class="guide-fact-list">
+${items}
+            </dl>
+          </section>`;
+}
+
+function renderGuideFollowup(item) {
+  const nextCheck = item.next_check_date ? `次回確認: ${formatDate(item.next_check_date)}` : "次回確認日未定";
+  return `
+            <article class="followup-item ${escapeHtml(item.status)}">
+              <span>${escapeHtml(item.label)}</span>
+              <strong>${escapeHtml(nextCheck)}</strong>
+              <p>${escapeHtml(item.summary)}</p>
+              <a href="${escapeHtml(item.source_url)}" target="_blank" rel="noopener noreferrer">確認先</a>
+            </article>`;
+}
+
+function renderGuideContact(contact) {
+  if (!contact) return "";
+  return `
+          <section class="guide-detail-section">
+            <div class="guide-section-heading">
+              <h3>問い合わせ先</h3>
+              <a href="${escapeHtml(contact.source_url)}" target="_blank" rel="noopener noreferrer">公式確認元</a>
+            </div>
+            <dl class="guide-fact-list">
+              <div>
+                <dt>窓口</dt>
+                <dd><strong>${escapeHtml(contact.label)}</strong></dd>
+              </div>
+              <div>
+                <dt>電話</dt>
+                <dd><strong>${escapeHtml(contact.phone)}</strong></dd>
+              </div>
+              <div>
+                <dt>所在地</dt>
+                <dd>
+                  <strong>${escapeHtml(contact.address)}</strong>
+                  ${contact.note ? `<span>${escapeHtml(contact.note)}</span>` : ""}
+                </dd>
+              </div>
+            </dl>
+          </section>`;
+}
+
+function renderElectionPageDetail(detail) {
+  if (!detail) return "";
+  const checklist = sortByDisplayOrder(detail.checklist)
+    .map(renderGuideChecklistItem)
+    .join("");
+  const sections = sortByDisplayOrder(detail.sections)
+    .map(renderGuideSection)
+    .join("");
+  const followups = sortByDisplayOrder(detail.followups)
+    .map(renderGuideFollowup)
+    .join("");
+  const followupSection = followups ? `
+        <section class="guide-followups">
+          <h3>告示後に再確認する情報</h3>
+          <div class="followup-list">
+${followups}
+          </div>
+        </section>` : "";
+
+  return `
+    <section class="voter-guide" aria-label="投票前チェック">
+      <div class="guide-heading">
+        <p class="eyebrow">official checklist</p>
+        <h2>${escapeHtml(detail.title)}</h2>
+        <p>${escapeHtml(detail.summary)}</p>
+      </div>
+      <div class="guide-checklist">
+${checklist}
+      </div>
+      <div class="guide-detail-grid">
+${sections}
+${renderGuideContact(detail.contact)}
+      </div>
+${followupSection}
+    </section>`;
+}
+
 function renderPage(election, context) {
   const region = getRegionInfo(election, context.regionById);
   const resources = context.resourceMap.get(election.id) ?? [];
+  const pageDetail = context.pageDetailMap.get(election.id) ?? null;
   const officialSite = getLocalGovernmentSite(election, context.localGovernmentSiteByKey, context.regionById);
   const lastCheckedAt = election.verification?.last_checked_at ?? election.verification?.confirmed_at ?? "";
   const title = `${election.name} - わたしの選挙`;
@@ -361,7 +482,7 @@ function renderPage(election, context) {
         <strong>自治体・都道府県の公式サイトを開く</strong>
       </a>` : ""}
     </section>
-
+${renderElectionPageDetail(pageDetail)}
     <div class="election-layout">
       <div>
 ${renderResourceSections(resources)}
@@ -496,7 +617,10 @@ async function buildContext(asOf) {
       .filter(isVerified)
       .map((record) => [`${record.region_id}|${record.site_kind}`, record]),
   );
-  const resourceMap = await buildResourceMap();
+  const [resourceMap, pageDetailMap] = await Promise.all([
+    buildResourceMap(),
+    buildPageDetailMap(),
+  ]);
   const generatedAt = electionsData.generated_at ?? asOf;
   const elections = electionsData.records
     .filter(isVerified)
@@ -509,6 +633,7 @@ async function buildContext(asOf) {
     regionById,
     localGovernmentSiteByKey,
     resourceMap,
+    pageDetailMap,
     elections,
   };
 }
@@ -521,6 +646,16 @@ async function buildResourceMap() {
     resourceMap.set(data.election_id, sortResources((data.records ?? []).filter(isVerified)));
   }
   return resourceMap;
+}
+
+async function buildPageDetailMap() {
+  const pageDetailMap = new Map();
+  const files = await listJsonFilesIfExists(path.join(dataV1Root, "election_page_details"));
+  for (const filePath of files) {
+    const data = await readJson(filePath);
+    pageDetailMap.set(data.election_id, data);
+  }
+  return pageDetailMap;
 }
 
 async function classifyTarget(election) {

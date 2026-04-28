@@ -24,6 +24,7 @@ const CANDIDATE_ENDORSEMENT_RELATION_TYPES = new Set(["recommend", "support"]);
 const CANDIDATE_PROFILE_STATUSES = new Set(["official_candidate", "reported_candidate", "related_interest", "announced", "interested", "considering", "withdrawn"]);
 const CANDIDATE_PROFILE_LINK_KINDS = new Set(["official_profile", "institution_profile", "personal_profile", "policy"]);
 const PAGE_STATUS_OFFICIAL_CANDIDATE_LIST_STATUSES = new Set(["not_included", "published"]);
+const ELECTION_PAGE_DETAIL_FOLLOWUP_STATUSES = new Set(["scheduled", "published", "not_applicable"]);
 const LOCAL_GOVERNMENT_SITE_KINDS = new Set(["municipality_home", "prefecture_home", "election_commission", "assembly", "mayor", "governor"]);
 const PREFECTURAL_ASSEMBLY_OFFICIAL_LINK_KINDS = new Set([
   "election_hub",
@@ -275,6 +276,215 @@ function validateElectionPageUpdates(pageUpdates, filePath, label) {
   }
 }
 
+function validateElectionPageDetailFact(item, filePath, label, options = {}) {
+  if (!isPlainObject(item)) {
+    pushError(filePath, `${label} must be an object`);
+    return;
+  }
+
+  if (options.requireId && (!isNonEmptyString(item.id) || !KEBAB_CASE.test(item.id))) {
+    pushError(filePath, `${label}.id must be kebab-case`);
+  }
+
+  if (!isNonEmptyString(item.label)) {
+    pushError(filePath, `${label}.label must be a non-empty string`);
+  }
+
+  if (!isNonEmptyString(item.value)) {
+    pushError(filePath, `${label}.value must be a non-empty string`);
+  }
+
+  if (!(item.note === null || typeof item.note === "string")) {
+    pushError(filePath, `${label}.note must be string or null`);
+  }
+
+  if (options.requireSource) {
+    if (!isValidUrl(item.source_url)) {
+      pushError(filePath, `${label}.source_url must be an absolute URL`);
+    }
+
+    if (!isValidDateTime(item.last_checked_at ?? "")) {
+      pushError(filePath, `${label}.last_checked_at must be RFC 3339`);
+    }
+  }
+
+  if (typeof item.derived !== "boolean") {
+    pushError(filePath, `${label}.derived must be boolean`);
+  }
+
+  if (options.requireDisplayOrder && (!Number.isInteger(item.display_order) || item.display_order < 1)) {
+    pushError(filePath, `${label}.display_order must be an integer >= 1`);
+  }
+}
+
+function validateElectionPageDetail(data, filePath, electionIdToRecord) {
+  if (!isPlainObject(data)) {
+    pushError(filePath, "root must be an object");
+    return 0;
+  }
+
+  if (data.schema_version !== 1) {
+    pushError(filePath, "schema_version must be 1");
+  }
+
+  if (!isValidDateTime(data.generated_at ?? "")) {
+    pushError(filePath, "generated_at must be RFC 3339");
+  }
+
+  if (!isNonEmptyString(data.election_id)) {
+    pushError(filePath, "election_id must be a non-empty string");
+  } else if (!electionIdToRecord.has(data.election_id)) {
+    pushError(filePath, "election_id must reference an existing election");
+  }
+
+  if (!isValidDate(data.as_of ?? "")) {
+    pushError(filePath, "as_of must be YYYY-MM-DD");
+  }
+
+  if (!isNonEmptyString(data.title)) {
+    pushError(filePath, "title must be a non-empty string");
+  }
+
+  if (!isNonEmptyString(data.summary)) {
+    pushError(filePath, "summary must be a non-empty string");
+  }
+
+  validateVerification(data.verification, filePath, "root");
+
+  if (!Array.isArray(data.checklist)) {
+    pushError(filePath, "checklist must be an array");
+  } else {
+    for (let index = 0; index < data.checklist.length; index += 1) {
+      validateElectionPageDetailFact(data.checklist[index], filePath, `checklist[${index}]`, {
+        requireId: true,
+        requireSource: true,
+        requireDisplayOrder: true,
+      });
+    }
+  }
+
+  if (!Array.isArray(data.sections)) {
+    pushError(filePath, "sections must be an array");
+  } else {
+    for (let sectionIndex = 0; sectionIndex < data.sections.length; sectionIndex += 1) {
+      const section = data.sections[sectionIndex];
+      const label = `sections[${sectionIndex}]`;
+
+      if (!isPlainObject(section)) {
+        pushError(filePath, `${label} must be an object`);
+        continue;
+      }
+
+      if (!isNonEmptyString(section.id) || !KEBAB_CASE.test(section.id)) {
+        pushError(filePath, `${label}.id must be kebab-case`);
+      }
+
+      if (!isNonEmptyString(section.title)) {
+        pushError(filePath, `${label}.title must be a non-empty string`);
+      }
+
+      if (!isNonEmptyString(section.summary)) {
+        pushError(filePath, `${label}.summary must be a non-empty string`);
+      }
+
+      if (!isValidUrl(section.source_url)) {
+        pushError(filePath, `${label}.source_url must be an absolute URL`);
+      }
+
+      if (!isValidDateTime(section.last_checked_at ?? "")) {
+        pushError(filePath, `${label}.last_checked_at must be RFC 3339`);
+      }
+
+      if (!Number.isInteger(section.display_order) || section.display_order < 1) {
+        pushError(filePath, `${label}.display_order must be an integer >= 1`);
+      }
+
+      if (!Array.isArray(section.items)) {
+        pushError(filePath, `${label}.items must be an array`);
+        continue;
+      }
+
+      for (let itemIndex = 0; itemIndex < section.items.length; itemIndex += 1) {
+        validateElectionPageDetailFact(section.items[itemIndex], filePath, `${label}.items[${itemIndex}]`);
+      }
+    }
+  }
+
+  if (!Array.isArray(data.followups)) {
+    pushError(filePath, "followups must be an array");
+  } else {
+    for (let index = 0; index < data.followups.length; index += 1) {
+      const item = data.followups[index];
+      const label = `followups[${index}]`;
+
+      if (!isPlainObject(item)) {
+        pushError(filePath, `${label} must be an object`);
+        continue;
+      }
+
+      if (!isNonEmptyString(item.id) || !KEBAB_CASE.test(item.id)) {
+        pushError(filePath, `${label}.id must be kebab-case`);
+      }
+
+      if (!isNonEmptyString(item.label)) {
+        pushError(filePath, `${label}.label must be a non-empty string`);
+      }
+
+      if (!ELECTION_PAGE_DETAIL_FOLLOWUP_STATUSES.has(item.status)) {
+        pushError(filePath, `${label}.status is invalid`);
+      }
+
+      if (!isNonEmptyString(item.summary)) {
+        pushError(filePath, `${label}.summary must be a non-empty string`);
+      }
+
+      if (!(item.next_check_date === null || isValidDate(item.next_check_date))) {
+        pushError(filePath, `${label}.next_check_date must be YYYY-MM-DD or null`);
+      }
+
+      if (!isValidUrl(item.source_url)) {
+        pushError(filePath, `${label}.source_url must be an absolute URL`);
+      }
+
+      if (!isValidDateTime(item.last_checked_at ?? "")) {
+        pushError(filePath, `${label}.last_checked_at must be RFC 3339`);
+      }
+
+      if (!Number.isInteger(item.display_order) || item.display_order < 1) {
+        pushError(filePath, `${label}.display_order must be an integer >= 1`);
+      }
+    }
+  }
+
+  if (!(data.contact === null || isPlainObject(data.contact))) {
+    pushError(filePath, "contact must be an object or null");
+  } else if (data.contact) {
+    for (const fieldName of ["label", "address", "phone"]) {
+      if (!isNonEmptyString(data.contact[fieldName])) {
+        pushError(filePath, `contact.${fieldName} must be a non-empty string`);
+      }
+    }
+
+    if (!(data.contact.fax === null || typeof data.contact.fax === "string")) {
+      pushError(filePath, "contact.fax must be string or null");
+    }
+
+    if (!(data.contact.note === null || typeof data.contact.note === "string")) {
+      pushError(filePath, "contact.note must be string or null");
+    }
+
+    if (!isValidUrl(data.contact.source_url)) {
+      pushError(filePath, "contact.source_url must be an absolute URL");
+    }
+
+    if (!isValidDateTime(data.contact.last_checked_at ?? "")) {
+      pushError(filePath, "contact.last_checked_at must be RFC 3339");
+    }
+  }
+
+  return 1;
+}
+
 async function listJsonFiles(dirPath) {
   const entries = await fs.readdir(dirPath, { withFileTypes: true });
   return entries
@@ -301,6 +511,7 @@ const prefecturalAssemblyOfficialLinksPath = path.join(dataRoot, "prefectural_as
 const currentMayorsPath = path.join(dataRoot, "current_mayors", "canonical.json");
 const postalDir = path.join(dataRoot, "postal_code_mappings");
 const resourceDir = path.join(dataRoot, "election_resource_links");
+const electionPageDetailDir = path.join(dataRoot, "election_page_details");
 const candidateSignalDir = path.join(dataRoot, "candidate_signals");
 const candidateEndorsementDir = path.join(dataRoot, "candidate_endorsements");
 const candidateProfileDir = path.join(dataRoot, "candidate_profiles");
@@ -315,6 +526,7 @@ const [
   currentMayorsData,
   postalFiles,
   resourceFiles,
+  electionPageDetailFiles,
   candidateSignalFiles,
   candidateEndorsementFiles,
   candidateProfileFiles,
@@ -328,6 +540,7 @@ const [
   readJson(currentMayorsPath),
   listJsonFiles(postalDir),
   listJsonFiles(resourceDir),
+  listJsonFilesIfExists(electionPageDetailDir),
   listJsonFilesIfExists(candidateSignalDir),
   listJsonFilesIfExists(candidateEndorsementDir),
   listJsonFilesIfExists(candidateProfileDir),
@@ -335,6 +548,7 @@ const [
 
 const postalDataList = await Promise.all(postalFiles.map(async (filePath) => [filePath, await readJson(filePath)]));
 const resourceDataList = await Promise.all(resourceFiles.map(async (filePath) => [filePath, await readJson(filePath)]));
+const electionPageDetailDataList = await Promise.all(electionPageDetailFiles.map(async (filePath) => [filePath, await readJson(filePath)]));
 const candidateSignalDataList = await Promise.all(candidateSignalFiles.map(async (filePath) => [filePath, await readJson(filePath)]));
 const candidateEndorsementDataList = await Promise.all(candidateEndorsementFiles.map(async (filePath) => [filePath, await readJson(filePath)]));
 const candidateProfileDataList = await Promise.all(candidateProfileFiles.map(async (filePath) => [filePath, await readJson(filePath)]));
@@ -622,6 +836,14 @@ if (electionsData?.records) {
         }
       }
     }
+  }
+}
+
+let electionPageDetailRecordCount = 0;
+
+for (const [filePath, data] of electionPageDetailDataList) {
+  if (data) {
+    electionPageDetailRecordCount += validateElectionPageDetail(data, filePath, electionIdToRecord);
   }
 }
 
@@ -1898,6 +2120,7 @@ console.log(
     `current_mayors=${currentMayorRecordCount}`,
     `postal_code_mappings=${postalRecordCount}`,
     `election_resource_links=${resourceRecordCount}`,
+    `election_page_details=${electionPageDetailRecordCount}`,
     `candidate_signals=${candidateSignalRecordCount}`,
     `candidate_endorsements=${candidateEndorsementRecordCount}`,
     `candidate_profiles=${candidateProfileRecordCount}`,

@@ -118,6 +118,7 @@ Examples:
 - For top-page mayor election official-link checks, use `docs/runbooks/MAYOR_RESOURCE_LINK_PANEL_CHECK_FLOW.md`.
 - For post-notice candidate-list and bulletin follow-ups, use `docs/runbooks/ELECTION_RESOURCE_FOLLOWUP_FLOW.md` and `scripts/list-election-resource-followups.mjs`.
 - For static upcoming election detail pages, use `scripts/generate-election-pages.mjs`; existing custom pages under `site/elections/` without the generated marker must not be overwritten.
+- For election detail page enrichment, put official-source structured facts in `data/v1/election_page_details/{election_id}.json`; keep derived values marked as `derived: true` and do not use this file for unofficial candidate intel.
 - For governor/prefectural assembly election cross-checks and prefectural assembly official-link collection, use `docs/runbooks/PREFECTURAL_ASSEMBLY_TERMS_RUNBOOK.md`.
 - Keep official election resource links limited to official published resources. Unofficial candidate signals, news reports, declared intentions to run, briefing-session attendees, and pre-screening submitters belong on a dedicated non-official/candidate-intel page or data flow, not in `data/v1/election_resource_links` as `candidate_list`.
 - If a new workflow emerges, update this `AGENTS.md` so future work stays consistent.

@@ -93,6 +93,191 @@
   line-height: 1.45;
 }
 
+.voter-guide {
+  margin: 1.4rem 0;
+}
+
+.guide-heading {
+  max-width: 820px;
+  margin: 0 0 1rem;
+}
+
+.guide-heading h2 {
+  margin: 0;
+  font-size: clamp(1.65rem, 3vw, 2.25rem);
+}
+
+.guide-heading p:not(.eyebrow) {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.guide-checklist,
+.followup-list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.guide-card,
+.guide-detail-section,
+.followup-item {
+  border: 1px solid var(--line);
+  background: rgba(21, 33, 46, 0.78);
+  box-shadow: 0 20px 54px rgba(0, 0, 0, 0.2);
+}
+
+.guide-card {
+  min-height: 180px;
+  padding: 1rem;
+  border-radius: 18px;
+}
+
+.guide-card span,
+.followup-item span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.guide-card strong,
+.followup-item strong {
+  display: block;
+  margin-top: 0.45rem;
+  color: var(--ink);
+  line-height: 1.45;
+}
+
+.guide-card p,
+.followup-item p {
+  margin: 0.65rem 0 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.guide-card a,
+.followup-item a,
+.guide-section-heading a {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: var(--gold);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.guide-card a:hover,
+.guide-card a:focus-visible,
+.followup-item a:hover,
+.followup-item a:focus-visible,
+.guide-section-heading a:hover,
+.guide-section-heading a:focus-visible {
+  text-decoration: underline;
+}
+
+.guide-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+  margin: 1rem 0 0;
+}
+
+.guide-detail-section {
+  padding: 1rem;
+  border-radius: 18px;
+}
+
+.guide-section-heading {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0 0 0.65rem;
+}
+
+.guide-section-heading h3,
+.guide-followups h3 {
+  margin: 0;
+  font-size: 1.08rem;
+}
+
+.guide-section-heading a {
+  flex: 0 0 auto;
+  margin-top: 0.1rem;
+  font-size: 0.84rem;
+}
+
+.guide-detail-section > p {
+  margin: 0 0 0.85rem;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.guide-fact-list {
+  display: grid;
+  gap: 0.72rem;
+  margin: 0;
+}
+
+.guide-fact-list div {
+  display: grid;
+  grid-template-columns: minmax(7rem, 0.34fr) minmax(0, 1fr);
+  gap: 0.8rem;
+  padding-top: 0.72rem;
+  border-top: 1px solid var(--line);
+}
+
+.guide-fact-list dt {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.guide-fact-list dt small {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0.08rem 0.35rem;
+  border-radius: 999px;
+  color: #071015;
+  background: var(--gold);
+  font-size: 0.68rem;
+}
+
+.guide-fact-list dd {
+  margin: 0;
+}
+
+.guide-fact-list dd strong,
+.guide-fact-list dd span {
+  display: block;
+}
+
+.guide-fact-list dd strong {
+  color: var(--ink);
+  line-height: 1.55;
+}
+
+.guide-fact-list dd span {
+  margin-top: 0.25rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.guide-followups {
+  margin: 1rem 0 0;
+}
+
+.followup-list {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 0.75rem;
+}
+
+.followup-item {
+  padding: 1rem;
+  border-radius: 18px;
+}
+
 .official-action:hover,
 .official-action:focus-visible,
 .election-resource:hover,
@@ -244,7 +429,10 @@
 @media (max-width: 900px) {
   .fact-grid,
   .official-actions,
-  .election-layout {
+  .election-layout,
+  .guide-checklist,
+  .guide-detail-grid,
+  .followup-list {
     grid-template-columns: 1fr;
   }
 
@@ -261,5 +449,11 @@
   .election-resource em {
     max-width: none;
     text-align: left;
+  }
+
+  .guide-fact-list div,
+  .guide-section-heading {
+    grid-template-columns: 1fr;
+    display: grid;
   }
 }

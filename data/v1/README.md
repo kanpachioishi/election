@@ -21,6 +21,8 @@ data/v1/
     .gitkeep
   election_resource_links/
     .gitkeep
+  election_page_details/
+    {election_id}.json
   current_mayors/
     canonical.json
     by_prefecture/
@@ -34,6 +36,14 @@ data/v1/
 - live 雛形にサンプルレコードを入れない
 - `postal_code_mappings/{prefix3}.json` や `election_resource_links/{election_id}.json` は、実データ投入時に初めて作る
 - `sample.json`, `template.json`, `000.json` のようなダミーファイルは置かない
+
+## 個別選挙ページの補助データ
+
+- `election_page_details/{election_id}.json` は、公式ソースから読み取った投票前チェック情報を個別ページに出すための補助データ
+- `ElectionResourceLink` は公式リンクカード、`ElectionPageDetail` はページ本文の整理情報として役割を分ける
+- 候補者一覧・選挙公報は、公式公開を確認するまで `candidate_list` / `bulletin` として登録しない
+- 告示日・投票日から期日前投票期間を整理するなど、原文そのものではない計算値は `derived: true` にする
+- 投票所一覧の全件正規化は急がず、まずは公式ページへの導線、注意事項、確認方法を整理する
 
 知事選の専用ページを作るときの実務ルールは [docs/runbooks/GOVERNOR_PAGE_RUNBOOK.md](/home/shimo/election/docs/runbooks/GOVERNOR_PAGE_RUNBOOK.md) を参照。
 

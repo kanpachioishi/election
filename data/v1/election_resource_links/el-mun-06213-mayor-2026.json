@@ -20,6 +20,24 @@
         "status": "verified",
         "note": "2026-04-28時点で山形県公式PDFに南陽市長選挙の告示日 2026-07-05、投票日 2026-07-12 の記載を確認。"
       }
+    },
+    {
+      "id": "el-mun-06213-mayor-2026-polling-place-01",
+      "election_id": "el-mun-06213-mayor-2026",
+      "kind": "polling_place",
+      "title": "投票区投票所一覧",
+      "url": "https://www.city.nanyo.yamagata.jp/touhyouzyo/471",
+      "summary": "南陽市の投票区、投票区域、投票所の施設名・住所を確認できる公式ページ。",
+      "is_official": true,
+      "display_order": 40,
+      "verification": {
+        "source_url": "https://www.city.nanyo.yamagata.jp/touhyouzyo/471",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
     }
   ]
 }

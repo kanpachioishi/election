@@ -3,12 +3,12 @@
 // Update data/v1 and rerun the generator instead of editing this file.
 
 window.ELECTION_SITE_DATA = {
-  "generatedAt": "2026-04-28T11:42:12.338Z",
+  "generatedAt": "2026-04-28T11:53:41.725Z",
   "sourceGeneratedAt": "2026-04-27T00:00:00+09:00",
   "stats": {
     "regions": 848,
     "elections": 223,
-    "resourceLinks": 393,
+    "resourceLinks": 399,
     "postalPrefixes": 47,
     "localGovernmentSites": 94,
     "byType": {
@@ -26,7 +26,7 @@ window.ELECTION_SITE_DATA = {
       "bulletin": 62,
       "other": 165,
       "early_voting": 58,
-      "polling_place": 53
+      "polling_place": 59
     },
     "byLocalGovernmentSiteKind": {
       "prefecture_home": 47,
@@ -20680,7 +20680,8 @@ window.ELECTION_SITE_DATA = {
       "pageUpdates": [],
       "sourceUrl": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/senkyo2026",
       "resourceKinds": [
-        "other"
+        "other",
+        "polling_place"
       ],
       "resources": [
         {
@@ -20692,6 +20693,16 @@ window.ELECTION_SITE_DATA = {
           "isOfficial": true,
           "displayOrder": 1,
           "sourceUrl": "https://www.city.chofu.lg.jp/110010/p074151.html"
+        },
+        {
+          "id": "el-mun-13208-mayor-2026-polling-place-01",
+          "kind": "polling_place",
+          "title": "調布市投票区・投票所一覧表",
+          "url": "https://www.city.chofu.lg.jp/110010/p074106.html",
+          "summary": "調布市の投票区、投票所名、町別の対象区域を確認できる公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 40,
+          "sourceUrl": "https://www.city.chofu.lg.jp/110010/p074106.html"
         }
       ],
       "candidateSignals": [],
@@ -20717,7 +20728,8 @@ window.ELECTION_SITE_DATA = {
       "pageUpdates": [],
       "sourceUrl": "https://www.pref.tochigi.lg.jp/k05/pref/senkyo/jyouhou/sityoutyougikaigiin_senkyoyotei.html",
       "resourceKinds": [
-        "other"
+        "other",
+        "polling_place"
       ],
       "resources": [
         {
@@ -20729,6 +20741,16 @@ window.ELECTION_SITE_DATA = {
           "isOfficial": true,
           "displayOrder": 1,
           "sourceUrl": "https://www.city.shimotsuke.lg.jp/0199/info-0000003033-3.html"
+        },
+        {
+          "id": "el-mun-09216-mayor-2026-polling-place-01",
+          "kind": "polling_place",
+          "title": "投票所のご案内",
+          "url": "https://www.city.shimotsuke.lg.jp/viewer/info.html?id=3406",
+          "summary": "下野市の当日投票所、投票区域、期日前投票所を確認できる公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 40,
+          "sourceUrl": "https://www.city.shimotsuke.lg.jp/viewer/info.html?id=3406"
         }
       ],
       "candidateSignals": [],
@@ -20754,7 +20776,8 @@ window.ELECTION_SITE_DATA = {
       "pageUpdates": [],
       "sourceUrl": "https://www.pref.saitama.lg.jp/e1701/election-schedule.html",
       "resourceKinds": [
-        "other"
+        "other",
+        "polling_place"
       ],
       "resources": [
         {
@@ -20766,6 +20789,16 @@ window.ELECTION_SITE_DATA = {
           "isOfficial": true,
           "displayOrder": 1,
           "sourceUrl": "https://www.city.higashimatsuyama.lg.jp/soshiki/60/3049.html"
+        },
+        {
+          "id": "el-mun-11212-mayor-2026-polling-place-01",
+          "kind": "polling_place",
+          "title": "市内投票所一覧",
+          "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/60/3036.html",
+          "summary": "東松山市の当日投票所、所在地、期日前投票所を確認できる公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 40,
+          "sourceUrl": "https://www.city.higashimatsuyama.lg.jp/soshiki/60/3036.html"
         }
       ],
       "candidateSignals": [],
@@ -20791,7 +20824,8 @@ window.ELECTION_SITE_DATA = {
       "pageUpdates": [],
       "sourceUrl": "https://www.pref.yamagata.jp/documents/6177/senkyoyotei_r080401.pdf",
       "resourceKinds": [
-        "other"
+        "other",
+        "polling_place"
       ],
       "resources": [
         {
@@ -20803,6 +20837,16 @@ window.ELECTION_SITE_DATA = {
           "isOfficial": true,
           "displayOrder": 1,
           "sourceUrl": "https://www.pref.yamagata.jp/documents/6177/senkyoyotei_r080401.pdf"
+        },
+        {
+          "id": "el-mun-06213-mayor-2026-polling-place-01",
+          "kind": "polling_place",
+          "title": "投票区投票所一覧",
+          "url": "https://www.city.nanyo.yamagata.jp/touhyouzyo/471",
+          "summary": "南陽市の投票区、投票区域、投票所の施設名・住所を確認できる公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 40,
+          "sourceUrl": "https://www.city.nanyo.yamagata.jp/touhyouzyo/471"
         }
       ],
       "candidateSignals": [],
@@ -20902,7 +20946,8 @@ window.ELECTION_SITE_DATA = {
       "pageUpdates": [],
       "sourceUrl": "https://www.city.kasumigaura.lg.jp/page/page000662.html",
       "resourceKinds": [
-        "other"
+        "other",
+        "polling_place"
       ],
       "resources": [
         {
@@ -20914,6 +20959,16 @@ window.ELECTION_SITE_DATA = {
           "isOfficial": true,
           "displayOrder": 1,
           "sourceUrl": "https://www.city.kasumigaura.lg.jp/page/page000662.html"
+        },
+        {
+          "id": "el-mun-08230-mayor-2026-polling-place-01",
+          "kind": "polling_place",
+          "title": "選挙人名簿登録者数（投票区名・投票所名）",
+          "url": "https://www.city.kasumigaura.lg.jp/page/page000675.html",
+          "summary": "かすみがうら市が通常使用している投票区名、投票所名、所在地を確認できる公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 40,
+          "sourceUrl": "https://www.city.kasumigaura.lg.jp/page/page000675.html"
         }
       ],
       "candidateSignals": [],
@@ -20939,7 +20994,8 @@ window.ELECTION_SITE_DATA = {
       "pageUpdates": [],
       "sourceUrl": "https://www.pref.yamagata.jp/documents/6177/senkyoyotei_r080401.pdf",
       "resourceKinds": [
-        "other"
+        "other",
+        "polling_place"
       ],
       "resources": [
         {
@@ -20951,6 +21007,16 @@ window.ELECTION_SITE_DATA = {
           "isOfficial": true,
           "displayOrder": 1,
           "sourceUrl": "https://www.pref.yamagata.jp/documents/6177/senkyoyotei_r080401.pdf"
+        },
+        {
+          "id": "el-mun-06212-mayor-2026-polling-place-01",
+          "kind": "polling_place",
+          "title": "投票所（33ケ所）",
+          "url": "https://www.city.obanazawa.yamagata.jp/shisei/senkyo/1002",
+          "summary": "尾花沢市の投票区、投票所の施設名、投票区域を確認できる公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 40,
+          "sourceUrl": "https://www.city.obanazawa.yamagata.jp/shisei/senkyo/1002"
         }
       ],
       "candidateSignals": [],

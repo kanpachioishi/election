@@ -20,6 +20,24 @@
         "status": "verified",
         "note": "2026-04-28時点で東松山市公式ページに選挙期日 2026-07-12、告示日 2026-07-05 の記載を確認。"
       }
+    },
+    {
+      "id": "el-mun-11212-mayor-2026-polling-place-01",
+      "election_id": "el-mun-11212-mayor-2026",
+      "kind": "polling_place",
+      "title": "市内投票所一覧",
+      "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/60/3036.html",
+      "summary": "東松山市の当日投票所、所在地、期日前投票所を確認できる公式ページ。",
+      "is_official": true,
+      "display_order": 40,
+      "verification": {
+        "source_url": "https://www.city.higashimatsuyama.lg.jp/soshiki/60/3036.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
     }
   ]
 }

@@ -20,6 +20,24 @@
         "status": "verified",
         "note": "2026-04-28時点で山形県公式PDFに尾花沢市長選挙の任期満了日 2026-08-11、告示日 2026-07-19、投票日 2026-07-26 の記載を確認。"
       }
+    },
+    {
+      "id": "el-mun-06212-mayor-2026-polling-place-01",
+      "election_id": "el-mun-06212-mayor-2026",
+      "kind": "polling_place",
+      "title": "投票所（33ケ所）",
+      "url": "https://www.city.obanazawa.yamagata.jp/shisei/senkyo/1002",
+      "summary": "尾花沢市の投票区、投票所の施設名、投票区域を確認できる公式ページ。",
+      "is_official": true,
+      "display_order": 40,
+      "verification": {
+        "source_url": "https://www.city.obanazawa.yamagata.jp/shisei/senkyo/1002",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
     }
   ]
 }

@@ -20,6 +20,24 @@
         "status": "verified",
         "note": "2026-04-28時点で調布市公式ページに選挙期日 2026-07-05、告示日 2026-06-28 の記載を確認。"
       }
+    },
+    {
+      "id": "el-mun-13208-mayor-2026-polling-place-01",
+      "election_id": "el-mun-13208-mayor-2026",
+      "kind": "polling_place",
+      "title": "調布市投票区・投票所一覧表",
+      "url": "https://www.city.chofu.lg.jp/110010/p074106.html",
+      "summary": "調布市の投票区、投票所名、町別の対象区域を確認できる公式ページ。",
+      "is_official": true,
+      "display_order": 40,
+      "verification": {
+        "source_url": "https://www.city.chofu.lg.jp/110010/p074106.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
     }
   ]
 }

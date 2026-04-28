@@ -20,6 +20,24 @@
         "status": "verified",
         "note": "2026-04-28時点でかすみがうら市公式ページに投票日 2026-07-19、任期満了日 2026-07-22 の記載を確認。"
       }
+    },
+    {
+      "id": "el-mun-08230-mayor-2026-polling-place-01",
+      "election_id": "el-mun-08230-mayor-2026",
+      "kind": "polling_place",
+      "title": "選挙人名簿登録者数（投票区名・投票所名）",
+      "url": "https://www.city.kasumigaura.lg.jp/page/page000675.html",
+      "summary": "かすみがうら市が通常使用している投票区名、投票所名、所在地を確認できる公式ページ。",
+      "is_official": true,
+      "display_order": 40,
+      "verification": {
+        "source_url": "https://www.city.kasumigaura.lg.jp/page/page000675.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": "本文に「投票所は通常使用している施設を掲載」とあることを確認。"
+      }
     }
   ]
 }

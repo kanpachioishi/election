@@ -308,6 +308,18 @@ ${renderResourceCards(grouped.get(kind) ?? [])}
           </section>`).join("\n");
 }
 
+function renderResourceBlock(resources, pageDetail) {
+  if (!pageDetail) return renderResourceSections(resources);
+
+  return `
+        <section class="official-link-intro">
+          <p class="eyebrow">official links</p>
+          <h2>公式ページで原文を確認する</h2>
+          <p>上の要点は公式ページをもとに整理しています。投票所の詳細、期日前投票の制度、最新の掲載内容は、下の公式リンクで確認してください。</p>
+        </section>
+${renderResourceSections(resources)}`;
+}
+
 function renderGuideChecklistItem(item) {
   return `
             <article class="guide-card">
@@ -354,7 +366,8 @@ function renderGuideFollowup(item) {
             <article class="followup-item ${escapeHtml(item.status)}">
               ${renderGuideIcon(item)}
               <span class="followup-label">${escapeHtml(item.label)}</span>
-              <strong>${escapeHtml(nextCheck)}</strong>
+              <strong>まだ掲載待ち</strong>
+              <em>${escapeHtml(nextCheck)}</em>
               <p>${escapeHtml(item.summary)}</p>
               <a href="${escapeHtml(item.source_url)}" target="_blank" rel="noopener noreferrer">確認先</a>
             </article>`;
@@ -404,7 +417,10 @@ function renderElectionPageDetail(detail) {
     .join("");
   const followupSection = followups ? `
         <section class="guide-followups">
-          <h3>告示後に再確認する情報</h3>
+          <div class="guide-subheading">
+            <h3>まだ出ていない情報</h3>
+            <p>候補者一覧や選挙公報は、告示後に公式公開されることが多い情報です。未公開のものを候補者情報として扱わず、公開確認後に追加します。</p>
+          </div>
           <div class="followup-list">
 ${followups}
           </div>
@@ -420,11 +436,15 @@ ${followups}
       <div class="guide-checklist">
 ${checklist}
       </div>
+${followupSection}
+      <div class="guide-subheading guide-subheading--detail">
+        <h3>詳しく確認する</h3>
+        <p>期日前投票の場所や投票所の確認方法など、投票前に迷いやすいところだけを補足しています。</p>
+      </div>
       <div class="guide-detail-grid">
 ${sections}
 ${renderGuideContact(detail.contact)}
       </div>
-${followupSection}
     </section>`;
 }
 
@@ -513,7 +533,7 @@ function renderPage(election, context) {
 ${renderElectionPageDetail(pageDetail)}
     <div class="election-layout">
       <div>
-${renderResourceSections(resources)}
+${renderResourceBlock(resources, pageDetail)}
       </div>
       <aside class="election-side">
         <section class="side-panel">

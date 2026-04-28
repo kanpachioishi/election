@@ -113,6 +113,29 @@
   line-height: 1.8;
 }
 
+.guide-subheading,
+.official-link-intro {
+  max-width: 820px;
+  margin: 1.25rem 0 0.8rem;
+}
+
+.guide-subheading h3,
+.official-link-intro h2 {
+  margin: 0;
+  font-size: 1.18rem;
+}
+
+.guide-subheading p,
+.official-link-intro p:not(.eyebrow) {
+  margin: 0.45rem 0 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.guide-subheading--detail {
+  margin-top: 1.4rem;
+}
+
 .guide-checklist,
 .followup-list {
   display: grid;
@@ -205,6 +228,15 @@
   margin-top: 0.45rem;
   color: var(--ink);
   line-height: 1.45;
+}
+
+.followup-item em {
+  display: block;
+  margin-top: 0.25rem;
+  color: var(--gold);
+  font-size: 0.86rem;
+  font-style: normal;
+  font-weight: 800;
 }
 
 .guide-card p,

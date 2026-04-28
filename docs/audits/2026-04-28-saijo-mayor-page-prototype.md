@@ -13,6 +13,8 @@
 - `scripts/current/generate-election-pages.mjs` が `election_page_details` を読み、対象選挙だけ投票前チェックを表示するようにした。
 - `site/assets/election-page.css` に投票前チェック、詳細項目、告示後再確認カードの表示を追加した。
 - 投票日、期日前投票、投票所、開票、候補者一覧、選挙公報などの区分を判別しやすいように、投票前チェック周辺に小さな装飾アイコンを追加した。
+- 読者向け編集として、冒頭の見出しを「まず確認すること」にし、候補者一覧・選挙公報などの未公開情報を詳細説明より前に移した。
+- 公式リンク集は「公式ページで原文を確認する」として補助導線に下げた。
 - `scripts/current/validate-data-v1.mjs` に `election_page_details` の検証を追加した。
 
 ## 表示した情報

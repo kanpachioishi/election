@@ -116,6 +116,7 @@ Examples:
 - Prefer editing `site/`, `data/v1/`, `scripts/`, and `docs/` over editing legacy root-level assets.
 - Treat local editing and verification as the default workflow; batch deployment comes after local validation and review.
 - For top-page mayor election official-link checks, use `docs/runbooks/MAYOR_RESOURCE_LINK_PANEL_CHECK_FLOW.md`.
+- For post-notice candidate-list and bulletin follow-ups, use `docs/runbooks/ELECTION_RESOURCE_FOLLOWUP_FLOW.md` and `scripts/list-election-resource-followups.mjs`.
 - For governor/prefectural assembly election cross-checks and prefectural assembly official-link collection, use `docs/runbooks/PREFECTURAL_ASSEMBLY_TERMS_RUNBOOK.md`.
 - Keep official election resource links limited to official published resources. Unofficial candidate signals, news reports, declared intentions to run, briefing-session attendees, and pre-screening submitters belong on a dedicated non-official/candidate-intel page or data flow, not in `data/v1/election_resource_links` as `candidate_list`.
 - If a new workflow emerges, update this `AGENTS.md` so future work stays consistent.

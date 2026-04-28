@@ -20,6 +20,7 @@
 - `generate-prefectural-assembly-terms-page.mjs`: `data/v1/prefectural_assembly_terms.json` から県議会任期台帳ページを生成する
 - `generate-prefectural-assembly-districts-page.mjs`: `data/v1/prefectural_assembly_districts.json` から県議選挙区・定数台帳ページを生成する
 - `generate-prefectural-assembly-official-links-page.mjs`: `data/v1/prefectural_assembly_official_links.json` から県議会公式リンク台帳ページを生成する
+- `generate-election-pages.mjs`: 今後選挙の個別ページと選挙ページ一覧を生成する
 - `list-election-resource-followups.mjs`: 告示後に再確認する候補者一覧・選挙公報などの不足リストを出す
 - `deploy-election.ps1`: PowerShell デプロイ補助
 

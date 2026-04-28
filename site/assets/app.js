@@ -617,6 +617,7 @@ const municipalityRegions = DATA.regions
   .sort((left, right) => left.prefCode.localeCompare(right.prefCode) || left.displayName.localeCompare(right.displayName, "ja"));
 
 const regionById = new Map(DATA.regions.map((region) => [region.id, region]));
+const electionById = new Map(DATA.elections.map((election) => [election.id, election]));
 const localGovernmentSites = DATA.localGovernmentSites ?? [];
 const localGovernmentSiteByKey = new Map(
   localGovernmentSites.map((site) => [`${site.regionId}|${site.siteKind}`, site]),
@@ -1471,6 +1472,7 @@ function renderElectionList(elections) {
           <strong>${escapeHtml(getElectionCardTitle(election))}</strong>
           <span class="card-date">${escapeHtml(formatDate(election.voteDate))}</span>
         </button>
+        ${renderElectionCardPageLink(election)}
       </article>
     `;
   }).join("");
@@ -1512,26 +1514,56 @@ function getSpecialDetailLinkData(election) {
   if (election.isJoint) return null;
   const links = {
     "el-pref-15-governor-2026": {
-      href: "elections/niigata-governor-2026.html",
       text: "報道ベースの出馬動向は専用ページへ",
     },
     "el-pref-25-governor-2026": {
-      href: "elections/shiga-governor-2026.html",
       text: "報道ベースの候補予定者ページへ",
     },
     "el-mun-10209-mayor-2026": {
-      href: "elections/fujioka-mayor-2026.html",
       text: "報道ベースの候補予定者ページへ",
     },
   };
   return links[election.id] ?? null;
 }
 
-function getSpecialDetailLink(election) {
-  const detailLink = getSpecialDetailLinkData(election);
-  if (!detailLink) return "";
+function getElectionDetailPageHref(election) {
+  if (!election?.slug) return "";
+  return `elections/${election.slug}.html`;
+}
+
+function getElectionDetailPageLabel(election) {
+  return getSpecialDetailLinkData(election)?.text ?? "この選挙の個別ページを開く";
+}
+
+function renderElectionCardPageLink(election) {
+  if (election.isJoint) return "";
+  const href = getElectionDetailPageHref(election);
+  if (!href) return "";
   return `
-    <a class="source-link" href="${detailLink.href}">${detailLink.text}</a>
+    <a class="card-page-link" href="${escapeHtml(href)}">個別ページ</a>
+  `;
+}
+
+function renderElectionPageLinks(election) {
+  const pageTargets = election.isJoint
+    ? (election.electionIds ?? []).map((id) => electionById.get(id)).filter(Boolean)
+    : [election];
+  const links = pageTargets
+    .map((item) => {
+      const href = getElectionDetailPageHref(item);
+      if (!href) return "";
+      const label = election.isJoint ? `${item.name}の個別ページを開く` : getElectionDetailPageLabel(item);
+      return `<a class="source-link" href="${escapeHtml(href)}">${escapeHtml(label)}</a>`;
+    })
+    .filter(Boolean)
+    .join("");
+
+  if (!links) return "";
+  return `
+    <div class="detail-page-links">
+      <h4>個別ページ</h4>
+      ${links}
+    </div>
   `;
 }
 
@@ -1627,7 +1659,7 @@ function renderDetail(election, elections = []) {
         ` : ""}
       </dl>
       <a class="source-link" href="${escapeHtml(election.sourceUrl)}" target="_blank" rel="noopener noreferrer">確認元の公式ページを開く</a>
-      ${getSpecialDetailLink(election)}
+      ${renderElectionPageLinks(election)}
       <div class="resources">
         <h4>公式リンク</h4>
         ${resourceSections || "<p>表示できる公式リンクがまだありません。</p>"}

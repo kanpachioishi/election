@@ -1,0 +1,265 @@
+.election-page {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: clamp(2rem, 5vw, 4rem) 0 4rem;
+}
+
+.election-hero {
+  max-width: 880px;
+  padding: 0 0 1.4rem;
+}
+
+.election-caution {
+  max-width: 760px;
+  margin: 1rem 0 0;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.fact-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.85rem;
+  margin: 1.1rem 0 1.4rem;
+}
+
+.fact-card,
+.official-action,
+.election-section,
+.side-panel,
+.election-index-item a {
+  border: 1px solid var(--line);
+  background: rgba(21, 33, 46, 0.78);
+  box-shadow: 0 20px 54px rgba(0, 0, 0, 0.24);
+}
+
+.fact-card {
+  min-height: 110px;
+  padding: 1rem;
+  border-radius: 18px;
+}
+
+.fact-card span,
+.official-action span,
+.election-resource em,
+.side-panel dt,
+.election-index-item span,
+.election-index-item small {
+  color: var(--muted);
+}
+
+.fact-card span,
+.official-action span,
+.side-panel dt,
+.election-index-item span {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.fact-card strong {
+  display: block;
+  margin-top: 0.55rem;
+  color: var(--ink);
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  line-height: 1.35;
+}
+
+.official-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+  margin: 0 0 1.4rem;
+}
+
+.official-action {
+  display: block;
+  min-height: 108px;
+  padding: 1rem;
+  border-radius: 18px;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.official-action.primary {
+  border-color: rgba(255, 210, 122, 0.54);
+  background: rgba(255, 210, 122, 0.13);
+}
+
+.official-action strong {
+  display: block;
+  margin-top: 0.45rem;
+  font-size: 1.1rem;
+  line-height: 1.45;
+}
+
+.official-action:hover,
+.official-action:focus-visible,
+.election-resource:hover,
+.election-resource:focus-visible,
+.election-index-item a:hover,
+.election-index-item a:focus-visible {
+  transform: translateY(-1px);
+  border-color: rgba(255, 210, 122, 0.5);
+}
+
+.election-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 320px);
+  gap: 1rem;
+  align-items: start;
+}
+
+.election-section,
+.side-panel {
+  border-radius: 20px;
+}
+
+.election-section {
+  margin: 0 0 1rem;
+  padding: 1.1rem;
+}
+
+.election-section h2,
+.side-panel h2 {
+  margin: 0 0 0.85rem;
+  font-size: 1.15rem;
+}
+
+.resource-stack {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.election-resource {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(7, 16, 21, 0.42);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.election-resource strong,
+.election-resource small {
+  display: block;
+}
+
+.election-resource strong {
+  line-height: 1.45;
+}
+
+.election-resource small {
+  margin-top: 0.35rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.election-resource em {
+  max-width: 8.5rem;
+  font-size: 0.78rem;
+  font-style: normal;
+  line-height: 1.35;
+  text-align: right;
+}
+
+.resource-empty {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.election-side {
+  position: sticky;
+  top: 6rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.side-panel {
+  padding: 1rem;
+}
+
+.side-panel p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.side-panel a {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: var(--gold);
+  text-decoration: none;
+}
+
+.side-panel a:hover,
+.side-panel a:focus-visible {
+  text-decoration: underline;
+}
+
+.side-panel dl {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+}
+
+.side-panel dd {
+  margin: 0.25rem 0 0;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+
+.election-index-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1.4rem 0 0;
+}
+
+.election-index-item a {
+  display: block;
+  padding: 1rem;
+  border-radius: 18px;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.election-index-item strong {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 1.12rem;
+  line-height: 1.45;
+}
+
+.election-index-item small {
+  display: block;
+  margin-top: 0.35rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .fact-grid,
+  .official-actions,
+  .election-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .election-side {
+    position: static;
+  }
+}
+
+@media (max-width: 640px) {
+  .election-resource {
+    grid-template-columns: 1fr;
+  }
+
+  .election-resource em {
+    max-width: none;
+    text-align: left;
+  }
+}

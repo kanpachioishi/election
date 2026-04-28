@@ -11,6 +11,7 @@
 - `generate-prefectural-assembly-terms-page.mjs`
 - `generate-prefectural-assembly-districts-page.mjs`
 - `generate-prefectural-assembly-official-links-page.mjs`
+- `generate-election-pages.mjs`
 - `list-election-resource-followups.mjs`
 
 通常はルートのラッパー経由で実行して問題ありません。

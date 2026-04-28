@@ -1297,10 +1297,26 @@ a:focus-visible {
   font-size: 0.68rem;
 }
 
-.election-list .card-detail-link {
+.election-list .card-detail-link,
+.election-list .card-page-link {
   margin-top: 0.05rem;
   padding: 0.3rem 0.58rem;
   font-size: 0.78rem;
+}
+
+.card-page-link {
+  justify-self: start;
+  border: 1px solid rgba(255, 210, 122, 0.32);
+  border-radius: 999px;
+  color: var(--gold);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.card-page-link:hover,
+.card-page-link:focus-visible {
+  color: #071015;
+  background: var(--gold);
 }
 
 .election-card:hover,
@@ -1512,6 +1528,18 @@ a:focus-visible {
   font-weight: 800;
   text-align: center;
   text-decoration: none;
+}
+
+.detail-page-links {
+  margin: 1rem 0;
+}
+
+.detail-page-links h4 {
+  margin: 0 0 0.55rem;
+}
+
+.detail-page-links .source-link {
+  margin: 0.5rem 0;
 }
 
 .candidate-signals {

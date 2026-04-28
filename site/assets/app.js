@@ -776,14 +776,33 @@ function normalizeText(value) {
 }
 
 function getPostalMatch(query) {
-  const digits = query.replace(/[^\d]/g, "");
-  if (digits.length < 3) return null;
-  const prefix = digits.slice(0, 3);
-  return DATA.postalPrefixes.find((entry) => entry.prefix === prefix) ?? null;
+  return getPostalQueryInfo(query).match ?? null;
 }
 
 function getPostalDigits(query) {
-  return query.replace(/[^\d]/g, "");
+  return String(query ?? "").replace(/[^\d]/g, "");
+}
+
+function getPostalQueryInfo(query) {
+  const digits = getPostalDigits(query);
+  if (digits.length < 3) {
+    return {
+      hasPostalQuery: false,
+      digits,
+      prefix: "",
+      match: null,
+      isFullPostalInput: false,
+    };
+  }
+
+  const prefix = digits.slice(0, 3);
+  return {
+    hasPostalQuery: true,
+    digits,
+    prefix,
+    match: DATA.postalPrefixes.find((entry) => entry.prefix === prefix) ?? null,
+    isFullPostalInput: digits.length >= 7,
+  };
 }
 
 function electionSearchText(election) {
@@ -1085,10 +1104,10 @@ function renderLocationFilters() {
     }));
 
   renderSelect(els.prefectureFilter, [
-    { value: "all", label: state.macroRegion === "all" ? "地方を選んでください" : "すべて" },
+    { value: "all", label: "すべて" },
     ...prefectureOptions,
   ], state.prefecture);
-  els.prefectureFilter.disabled = state.macroRegion === "all";
+  els.prefectureFilter.disabled = false;
 
   const municipalityOptions = municipalityRegions
     .filter((region) => state.prefecture !== "all" && region.prefectureRegionId === state.prefecture)
@@ -1098,7 +1117,7 @@ function renderLocationFilters() {
     }));
 
   renderSelect(els.municipalityFilter, [
-    { value: "all", label: state.prefecture === "all" ? "都道府県を選んでください" : "すべて" },
+    { value: "all", label: state.prefecture === "all" ? "都道府県を選ぶと表示" : "すべて" },
     ...municipalityOptions,
   ], state.municipality);
   els.municipalityFilter.disabled = state.prefecture === "all";
@@ -1118,10 +1137,10 @@ function renderAssemblyLocationFilters() {
     }));
 
   renderSelect(els.assemblyPrefectureFilter, [
-    { value: "all", label: assemblyState.macroRegion === "all" ? "地方を選んでください" : "すべて" },
+    { value: "all", label: "すべて" },
     ...prefectureOptions,
   ], assemblyState.prefecture);
-  els.assemblyPrefectureFilter.disabled = assemblyState.macroRegion === "all";
+  els.assemblyPrefectureFilter.disabled = false;
 
   const municipalityOptions = municipalityRegions
     .filter((region) => assemblyState.prefecture !== "all" && region.prefectureRegionId === assemblyState.prefecture)
@@ -1131,7 +1150,7 @@ function renderAssemblyLocationFilters() {
     }));
 
   renderSelect(els.assemblyMunicipalityFilter, [
-    { value: "all", label: assemblyState.prefecture === "all" ? "都道府県を選んでください" : "すべて" },
+    { value: "all", label: assemblyState.prefecture === "all" ? "都道府県を選ぶと表示" : "すべて" },
     ...municipalityOptions,
   ], assemblyState.municipality);
   els.assemblyMunicipalityFilter.disabled = assemblyState.prefecture === "all";
@@ -1146,7 +1165,7 @@ function renderHero() {
     ["選挙", DATA.stats.elections],
     ["公式リンク", DATA.stats.resourceLinks],
     ["掲載地域", DATA.stats.regions],
-    ["郵便番号prefix", DATA.stats.postalPrefixes],
+    ["郵便番号3桁", DATA.stats.postalPrefixes],
   ];
 
   els.heroMetrics.innerHTML = metrics.map(([label, value]) => `
@@ -1318,11 +1337,50 @@ function hasActiveFilters() {
     state.municipality !== "all";
 }
 
+function getActiveFilterLabels() {
+  const labels = [];
+
+  if (state.query.trim()) {
+    labels.push(`検索: ${state.query.trim()}`);
+  }
+
+  if (state.macroRegion !== "all") {
+    labels.push(`地方: ${MACRO_REGION_LABELS[state.macroRegion] ?? state.macroRegion}`);
+  }
+
+  if (state.prefecture !== "all") {
+    labels.push(`都道府県: ${regionById.get(state.prefecture)?.name ?? state.prefecture}`);
+  }
+
+  if (state.municipality !== "all") {
+    labels.push(`市区町村: ${regionById.get(state.municipality)?.name ?? state.municipality}`);
+  }
+
+  return labels;
+}
+
+function getPostalSummaryNote() {
+  const postal = getPostalQueryInfo(state.query);
+  if (!postal.hasPostalQuery) {
+    return "";
+  }
+
+  if (!postal.match) {
+    return `郵便番号3桁 ${postal.prefix} はまだ対応データにありません。市区町村名や都道府県名で絞り込むと見つかる場合があります。`;
+  }
+
+  const precisionNote = postal.isFullPostalInput
+    ? "7桁入力でも住所確定ではなく、先頭3桁で候補地域を絞っています。"
+    : "郵便番号は先頭3桁で候補地域を絞っています。";
+
+  return `郵便番号3桁 ${postal.prefix}: ${postal.match.regionName} を候補地域として扱っています。${precisionNote}`;
+}
+
 function getEmptyStateHints() {
   const hints = [];
-  const digits = getPostalDigits(state.query);
-  const hasPostalQuery = digits.length >= 3;
-  const postalMatch = getPostalMatch(state.query);
+  const postal = getPostalQueryInfo(state.query);
+  const hasPostalQuery = postal.hasPostalQuery;
+  const postalMatch = postal.match;
 
   if (hasPostalQuery && !postalMatch) {
     hints.push("入力された郵便番号の先頭3桁は、まだ対応データに入っていません。市区町村名や都道府県名でも試してください。");
@@ -1351,9 +1409,9 @@ function getEmptyStateHints() {
 
 function getEmptyStateActions() {
   const actions = [];
-  const digits = getPostalDigits(state.query);
-  const hasPostalQuery = digits.length >= 3;
-  const postalMatch = getPostalMatch(state.query);
+  const postal = getPostalQueryInfo(state.query);
+  const hasPostalQuery = postal.hasPostalQuery;
+  const postalMatch = postal.match;
   const hasNarrowFilters = state.macroRegion !== "all" ||
     state.prefecture !== "all" ||
     state.municipality !== "all";
@@ -1579,8 +1637,21 @@ function renderDetail(election, elections = []) {
 }
 
 function renderSummary(view) {
-  els.resultSummary.textContent = "";
-  els.resultSummary.hidden = true;
+  const totalUpcoming = buildDisplayElections(DATA.elections.filter((election) => isElectionUpcoming(election))).length;
+  const filterLabels = getActiveFilterLabels();
+  const postalNote = getPostalSummaryNote();
+  const chips = [
+    isDefaultBrowse()
+      ? `掲載中の今後の選挙 ${view.total}件`
+      : `${view.total}件表示 / 今後の選挙 ${totalUpcoming}件`,
+    ...filterLabels,
+  ];
+
+  els.resultSummary.hidden = false;
+  els.resultSummary.innerHTML = [
+    ...chips.map((label) => `<span class="summary-chip">${escapeHtml(label)}</span>`),
+    postalNote ? `<span class="summary-note">${escapeHtml(postalNote)}</span>` : "",
+  ].join("");
 }
 
 function selectElection(id, shouldScroll = false) {

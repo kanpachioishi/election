@@ -70,6 +70,45 @@
       </div>
     </section>
 
+    <section class="workspace" id="elections">
+      <div class="section-heading">
+        <h2>自分の地域の選挙を探す</h2>
+      </div>
+      <p class="search-guidance" id="searchInputHint">
+        <strong>地域から絞り込み</strong>
+        <span>自治体名、都道府県名、選挙名、郵便番号の先頭3桁で探せます。郵便番号の対応データは試験的で全国網羅ではありません。</span>
+        <a href="#coverage">対応状況を見る</a>
+      </p>
+
+      <div class="filters" aria-label="選挙検索フィルター">
+        <label class="field wide">
+          <span>地域・郵便番号3桁・選挙名</span>
+          <input id="searchInput" type="search" placeholder="例: 182、調布市、知事" aria-describedby="searchInputHint">
+          <small class="field-hint">郵便番号は先頭3桁で候補地域を絞ります。7桁住所確定ではありません。</small>
+        </label>
+        <label class="field">
+          <span>地方</span>
+          <select id="macroRegionFilter"></select>
+        </label>
+        <label class="field">
+          <span>都道府県</span>
+          <select id="prefectureFilter"></select>
+        </label>
+        <label class="field">
+          <span>市区町村</span>
+          <select id="municipalityFilter"></select>
+        </label>
+        <button class="button reset" id="resetFilters" type="button">リセット</button>
+      </div>
+
+      <p class="result-summary" id="resultSummary"></p>
+
+      <div class="content-grid">
+        <section class="election-list" id="electionList" aria-label="選挙一覧"></section>
+        <aside class="detail-panel" id="detail" aria-live="polite"></aside>
+      </div>
+    </section>
+
     <section class="site-intro" id="about">
       <div class="section-heading">
         <h2>このサイトについて</h2>
@@ -110,39 +149,6 @@
         <a class="button ghost" href="#assemblies">議会ページを見る</a>
         <a class="button ghost" href="pages/privacy.html">プライバシーと通知を見る</a>
         <a class="button ghost" href="pages/contact.html">訂正や連絡について見る</a>
-      </div>
-    </section>
-
-    <section class="workspace" id="elections">
-      <div class="section-heading">
-        <h2>選挙を探す</h2>
-      </div>
-
-      <div class="filters" aria-label="選挙検索フィルター">
-        <label class="field wide">
-          <span>キーワード</span>
-          <input id="searchInput" type="search" placeholder="例: 小城市、知事">
-        </label>
-        <label class="field">
-          <span>地方</span>
-          <select id="macroRegionFilter"></select>
-        </label>
-        <label class="field">
-          <span>都道府県</span>
-          <select id="prefectureFilter"></select>
-        </label>
-        <label class="field">
-          <span>市区町村</span>
-          <select id="municipalityFilter"></select>
-        </label>
-        <button class="button reset" id="resetFilters" type="button">リセット</button>
-      </div>
-
-      <p class="result-summary" id="resultSummary"></p>
-
-      <div class="content-grid">
-        <section class="election-list" id="electionList" aria-label="選挙一覧"></section>
-        <aside class="detail-panel" id="detail" aria-live="polite"></aside>
       </div>
     </section>
 

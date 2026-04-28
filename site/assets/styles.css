@@ -1046,6 +1046,12 @@ h2 {
   font-weight: 800;
 }
 
+.field-hint {
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.55;
+}
+
 input,
 select {
   width: 100%;
@@ -1076,6 +1082,7 @@ a:focus-visible {
   font-size: 0.95rem;
 }
 
+.summary-chip,
 .summary-action {
   display: inline-flex;
   align-items: center;
@@ -1090,6 +1097,25 @@ a:focus-visible {
   font-size: 0.86rem;
   font-weight: 800;
   cursor: pointer;
+}
+
+.summary-chip {
+  color: var(--ink);
+  background: var(--surface-soft);
+  border-color: var(--line);
+  cursor: default;
+}
+
+.summary-chip.warning {
+  color: var(--gold);
+  background: rgba(255, 210, 122, 0.08);
+  border-color: rgba(255, 210, 122, 0.28);
+}
+
+.summary-note {
+  flex-basis: 100%;
+  color: var(--muted);
+  line-height: 1.65;
 }
 
 .summary-action:hover {

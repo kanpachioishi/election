@@ -3,12 +3,12 @@
 // Update data/v1 and rerun the generator instead of editing this file.
 
 window.ELECTION_SITE_DATA = {
-  "generatedAt": "2026-04-28T11:53:41.725Z",
+  "generatedAt": "2026-04-28T12:05:05.721Z",
   "sourceGeneratedAt": "2026-04-27T00:00:00+09:00",
   "stats": {
     "regions": 848,
     "elections": 223,
-    "resourceLinks": 399,
+    "resourceLinks": 401,
     "postalPrefixes": 47,
     "localGovernmentSites": 94,
     "byType": {
@@ -26,7 +26,7 @@ window.ELECTION_SITE_DATA = {
       "bulletin": 62,
       "other": 165,
       "early_voting": 58,
-      "polling_place": 59
+      "polling_place": 61
     },
     "byLocalGovernmentSiteKind": {
       "prefecture_home": 47,
@@ -21042,7 +21042,8 @@ window.ELECTION_SITE_DATA = {
       "pageUpdates": [],
       "sourceUrl": "https://www.city.katsuura.lg.jp/page/10441.html",
       "resourceKinds": [
-        "other"
+        "other",
+        "polling_place"
       ],
       "resources": [
         {
@@ -21054,6 +21055,16 @@ window.ELECTION_SITE_DATA = {
           "isOfficial": true,
           "displayOrder": 1,
           "sourceUrl": "https://www.city.katsuura.lg.jp/page/10441.html"
+        },
+        {
+          "id": "el-mun-12218-mayor-2026-polling-place-01",
+          "kind": "polling_place",
+          "title": "各投票所の案内図",
+          "url": "https://www.city.katsuura.lg.jp/page/1521.html",
+          "summary": "勝浦市の各投票所の名称と案内図を確認できる公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 40,
+          "sourceUrl": "https://www.city.katsuura.lg.jp/page/1521.html"
         }
       ],
       "candidateSignals": [],
@@ -21116,7 +21127,8 @@ window.ELECTION_SITE_DATA = {
       "pageUpdates": [],
       "sourceUrl": "https://www.city.otaru.lg.jp/docs/2021112500064/",
       "resourceKinds": [
-        "other"
+        "other",
+        "polling_place"
       ],
       "resources": [
         {
@@ -21128,6 +21140,16 @@ window.ELECTION_SITE_DATA = {
           "isOfficial": true,
           "displayOrder": 1,
           "sourceUrl": "https://www.city.otaru.lg.jp/docs/2021112500064/"
+        },
+        {
+          "id": "el-mun-01203-mayor-2026-polling-place-01",
+          "kind": "polling_place",
+          "title": "投票所一覧",
+          "url": "https://www.city.otaru.lg.jp/docs/2020121300221/",
+          "summary": "小樽市の投票所施設名と所在地を確認できる公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 40,
+          "sourceUrl": "https://www.city.otaru.lg.jp/docs/2020121300221/"
         }
       ],
       "candidateSignals": [],

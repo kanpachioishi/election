@@ -20,6 +20,24 @@
         "status": "verified",
         "note": "2026-04-28時点で小樽市公式ページに告示日 2026-08-02、選挙期日 2026-08-09 の記載を確認。"
       }
+    },
+    {
+      "id": "el-mun-01203-mayor-2026-polling-place-01",
+      "election_id": "el-mun-01203-mayor-2026",
+      "kind": "polling_place",
+      "title": "投票所一覧",
+      "url": "https://www.city.otaru.lg.jp/docs/2020121300221/",
+      "summary": "小樽市の投票所施設名と所在地を確認できる公式ページ。",
+      "is_official": true,
+      "display_order": 40,
+      "verification": {
+        "source_url": "https://www.city.otaru.lg.jp/docs/2020121300221/",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
     }
   ]
 }

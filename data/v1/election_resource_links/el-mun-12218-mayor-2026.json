@@ -20,6 +20,24 @@
         "status": "verified",
         "note": "2026-04-28時点で勝浦市公式ページに任期満了日 2026-08-27、告示日 2026-07-26、投票日 2026-08-02 の記載を確認。"
       }
+    },
+    {
+      "id": "el-mun-12218-mayor-2026-polling-place-01",
+      "election_id": "el-mun-12218-mayor-2026",
+      "kind": "polling_place",
+      "title": "各投票所の案内図",
+      "url": "https://www.city.katsuura.lg.jp/page/1521.html",
+      "summary": "勝浦市の各投票所の名称と案内図を確認できる公式ページ。",
+      "is_official": true,
+      "display_order": 40,
+      "verification": {
+        "source_url": "https://www.city.katsuura.lg.jp/page/1521.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
     }
   ]
 }

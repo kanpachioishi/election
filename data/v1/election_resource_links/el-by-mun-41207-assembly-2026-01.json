@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-by-mun-41207-assembly-2026-01",
+  "records": [
+    {
+      "id": "el-by-mun-41207-assembly-2026-01-other-01",
+      "election_id": "el-by-mun-41207-assembly-2026-01",
+      "kind": "other",
+      "title": "令和８年４月２６日執行予定の鹿島市長選及び鹿島市議会議員補欠選挙のお知らせ",
+      "url": "https://www.city.saga-kashima.lg.jp/main/38185.html",
+      "summary": "鹿島市長選挙及び鹿島市議会議員補欠選挙の投票日、告示日、候補者情報、期日前投票を確認できる鹿島市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.saga-kashima.lg.jp/main/38185.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

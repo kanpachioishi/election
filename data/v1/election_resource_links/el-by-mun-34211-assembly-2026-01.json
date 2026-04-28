@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-by-mun-34211-assembly-2026-01",
+  "records": [
+    {
+      "id": "el-by-mun-34211-assembly-2026-01-other-01",
+      "election_id": "el-by-mun-34211-assembly-2026-01",
+      "kind": "other",
+      "title": "大竹市議会議員再選挙のお知らせ",
+      "url": "https://www.city.otake.hiroshima.jp/i/soshiki/senkyo/senkyo/5_1/8956.html",
+      "summary": "大竹市議会議員再選挙の告示予定日、投票予定日、選挙すべき議員の数を確認できる大竹市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.otake.hiroshima.jp/i/soshiki/senkyo/senkyo/5_1/8956.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

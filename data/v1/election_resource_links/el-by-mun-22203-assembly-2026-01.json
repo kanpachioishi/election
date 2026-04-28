@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-by-mun-22203-assembly-2026-01",
+  "records": [
+    {
+      "id": "el-by-mun-22203-assembly-2026-01-other-01",
+      "election_id": "el-by-mun-22203-assembly-2026-01",
+      "kind": "other",
+      "title": "沼津市長選挙・沼津市議会議員補欠選挙の立候補予定者事前説明会を開催します",
+      "url": "https://www.city.numazu.shizuoka.jp/shisei/commit/senkyo/topics/setsumeikai.htm",
+      "summary": "令和8年4月26日執行の沼津市長選挙・沼津市議会議員補欠選挙について確認できる沼津市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.numazu.shizuoka.jp/shisei/commit/senkyo/topics/setsumeikai.htm",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

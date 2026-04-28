@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-mun-42214-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-42214-mayor-2026-other-01",
+      "election_id": "el-mun-42214-mayor-2026",
+      "kind": "other",
+      "title": "南島原市長選挙・南島原市議会議員一般選挙立候補予定者説明会",
+      "url": "https://www.city.minamishimabara.lg.jp/kiji00312469/index.html",
+      "summary": "南島原市長選挙及び南島原市議会議員一般選挙の告示日、投票日、立候補予定者説明会を確認できる南島原市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.minamishimabara.lg.jp/kiji00312469/index.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

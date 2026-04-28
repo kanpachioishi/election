@@ -37,7 +37,24 @@
 - 市長選と市議選が同時選挙カードとしてまとまる場合でも、市長選1件として数える
 - トップページ全体の5月件数などを答えるときは、知事選などの混入を分けて説明する
 
-## 3. 年月を確定する
+## 3. 担当分担
+
+このフローの主担当は `調査・出典担当` とする。
+理由は、メインページ表示が正しいかどうかの判定は、最終的に公式ソースとの突合で決まるためである。
+
+| 役割 | 担当範囲 |
+| --- | --- |
+| マネージャー | 対象年月、完了条件、修正範囲、公開可否を決める |
+| 調査・出典担当 | 公式ソースを確認し、対象月の市長選、同時選挙、日程差分を分類する |
+| データ担当 | `data/v1/elections.json`、`election_resource_links`、市長台帳の必要修正を行う |
+| 実装担当 | 生成フロー、トップページ表示、同時選挙カードの表示挙動を確認する |
+| レビュー担当 | 公式ソース、canonical data、生成データ、トップページ表示の4点が一致しているか確認する |
+| リリース担当 | validator、生成、差分確認、コミット、公開後確認を行う |
+
+小さな確認だけで修正がない場合は、調査・出典担当が結果報告まで行ってよい。
+データ修正が発生した場合は、必ずレビュー担当の確認を通してから公開判断する。
+
+## 4. 年月を確定する
 
 ユーザーが「5月」のように月だけを指定した場合は、作業日の年を使い、最初に具体的な対象範囲を明記する。
 
@@ -49,7 +66,7 @@
 
 年が文脈上あいまい、または過去月・翌年の可能性が高い場合は、作業前の説明または最終報告で必ず具体日付を出す。
 
-## 4. 全体フロー
+## 5. 全体フロー
 
 1. 対象年月を `YYYY-MM-01` から月末までに固定する
 2. トップページ構造が変わっていないか軽く確認する
@@ -61,7 +78,7 @@
 8. 修正が必要なら対象IDを固定して canonical data を直し、局所確認してからトップページ用データを再生成する
 9. 検証結果、件数、修正内容、残リスクを報告する
 
-## 5. 軽い構造確認
+## 6. 軽い構造確認
 
 作業前に、トップページが生成データを読む構造のままか確認する。
 
@@ -77,7 +94,7 @@ rg -n "AUTO-GENERATED|generate-site-data" site/data/site-data.js scripts/generat
 - `site/data/site-data.js` は `AUTO-GENERATED`
 - 表示データは `data/v1` から `scripts/generate-site-data.mjs` で再生成する
 
-## 6. メインページ表示データから抽出する
+## 7. メインページ表示データから抽出する
 
 メインページが読む生成済みデータから、対象月の市長選を抽出する。
 
@@ -91,7 +108,7 @@ node -e 'global.window={}; require("./site/data/site-data.js"); const start=proc
 - トップページのデフォルト表示は `site/assets/app.js` の `isElectionUpcoming` により、投票日が作業日以後の選挙だけを表示する
 - 過去月をチェックすると、データ上は存在してもメインページのデフォルト表示には出ないことがある
 
-## 7. canonical election data から抽出する
+## 8. canonical election data から抽出する
 
 正本側の `data/v1/elections.json` から、対象月の市長選を抽出する。
 
@@ -106,7 +123,7 @@ node -e 'const d=require("./data/v1/elections.json"); const start=process.argv[1
 - `verification.source_url` が公式ソースか
 - 県の一覧だけでなく、市区町村の具体的な選挙ページが出ていれば差し替え候補にする
 
-## 8. 現職市長台帳から候補市を抽出する
+## 9. 現職市長台帳から候補市を抽出する
 
 市長選は通常、任期満了日前30日以内に執行される。対象月の市長選候補は、対象月初日から対象月末日の30日後までに任期満了する市を一次候補にする。
 
@@ -124,7 +141,7 @@ node -e 'const d=require("./data/v1/current_mayors/canonical.json"); const start
 - 台帳の任期満了日が誤っている可能性がある市
 - 選挙データに未登録の市長選
 
-## 9. 同時選挙を確認する
+## 10. 同時選挙を確認する
 
 市長選を確認するときは、市長選単独と決め打ちしない。対象自治体で同日に行われる市議会議員一般選挙、市議会議員補欠選挙、その他の補欠選挙がないか必ず確認する。
 
@@ -160,7 +177,7 @@ node -e 'const d=require("./data/v1/current_mayors/canonical.json"); const start
 - 羽生市長選挙の公式ページは、ページタイトルから「羽生市長選挙・羽生市議会議員補欠選挙」だったが、当初は市長選レコードだけを登録していた。その結果、トップページで市長選単独のように見えた。
 - 春日井市長選挙も、本文に「同日に春日井市議会議員補欠選挙も執行」とあったため、補欠選挙レコードが必要だった。
 
-## 10. 公式ソース確認の優先順
+## 11. 公式ソース確認の優先順
 
 1. 市区町村選挙管理委員会の対象選挙ページ
 2. 市区町村の広報、報道発表、選挙特設ページ
@@ -180,7 +197,7 @@ node -e 'const d=require("./data/v1/current_mayors/canonical.json"); const start
 
 公式ページを見つけたら、`data/v1/elections.json` の `verification.source_url` と、必要に応じて `data/v1/election_resource_links/{election_id}.json` に残す。
 
-## 10. 差分の分類
+## 12. 差分の分類
 
 調査結果は次の分類で整理する。
 
@@ -216,7 +233,7 @@ ledger_correction_candidate
   現職市長台帳の任期満了日や現職情報が公式情報と食い違う。
 ```
 
-## 11. 修正する場合の編集先
+## 13. 修正する場合の編集先
 
 投票日、告示日、選挙名、地域、確認元:
 
@@ -249,7 +266,7 @@ data/v1/current_mayors/by_prefecture/{pref}.json
 - `site/data/site-data.js` は直接編集しない
 - `site/data/site-data.js` は最後に再生成する
 
-## 12. 編集時の事故防止
+## 14. 編集時の事故防止
 
 今回の月別チェックでは、`data/v1/elections.json` の近接レコードを機械的に差し替えたことで、本来は正しかった別レコードに一時的に誤った日付が入る事故が起きた。
 
@@ -273,7 +290,7 @@ data/v1/current_mayors/by_prefecture/{pref}.json
 node -e 'const d=require("./data/v1/elections.json"); const ids=["el-mun-11238-mayor-2026","el-mun-11216-mayor-2026"]; for (const id of ids){ const e=d.records.find(e=>e.id===id); console.log([e.id,e.name,e.phase,e.notice_date,e.vote_date,e.verification?.source_url].join("\t")); }'
 ```
 
-## 13. 再生成と検証
+## 15. 再生成と検証
 
 選挙データを修正したら、次を実行する。
 
@@ -297,7 +314,7 @@ node scripts/current/validate-data-v1.mjs
 node -e 'global.window={}; require("./site/data/site-data.js"); const start=process.argv[1]; const end=process.argv[2]; const rows=window.ELECTION_SITE_DATA.elections.filter(e=>e.subtype==="mayor"&&e.voteDate>=start&&e.voteDate<=end).sort((a,b)=>a.voteDate.localeCompare(b.voteDate)||a.name.localeCompare(b.name,"ja")); console.log("mayor_elections="+rows.length); console.log(rows.map(e=>`${e.voteDate} ${e.name}`).join("\n"));' YYYY-MM-01 YYYY-MM-DD
 ```
 
-## 14. 調査メモの保存先
+## 16. 調査メモの保存先
 
 月別チェックの根拠は、必要に応じて次に保存する。
 
@@ -318,7 +335,7 @@ research/current-mayors/monthly-checks/YYYY-MM-mayor-elections.md
 
 過去に別の場所へ作ったメモがある場合は、新規作業ではこの保存先へ寄せる。
 
-## 14. 最終報告の形式
+## 17. 最終報告の形式
 
 最終報告では、少なくとも次を明記する。
 

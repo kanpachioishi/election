@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-by-mun-12236-assembly-2026-01",
+  "records": [
+    {
+      "id": "el-by-mun-12236-assembly-2026-01-other-01",
+      "election_id": "el-by-mun-12236-assembly-2026-01",
+      "kind": "other",
+      "title": "令和8年4月26日（日曜日）は香取市長選挙・香取市議会議員補欠選挙の投票日です！",
+      "url": "https://www.city.katori.lg.jp/government/senkyo/R08_sityousenkyo.html",
+      "summary": "香取市長選挙及び香取市議会議員補欠選挙の投票日、投票方法、期日前投票、投票所を確認できる香取市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.katori.lg.jp/government/senkyo/R08_sityousenkyo.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-by-mun-27100-assembly-2026-01",
+  "records": [
+    {
+      "id": "el-by-mun-27100-assembly-2026-01-other-01",
+      "election_id": "el-by-mun-27100-assembly-2026-01",
+      "kind": "other",
+      "title": "大阪市長選挙及び大阪市議会議員東住吉区選挙区補欠選挙が行われます",
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/gyouseiiinkai/0000671190.html",
+      "summary": "大阪市長選挙及び大阪市議会議員東住吉区選挙区補欠選挙の選挙期日、告示日、定数を確認できる大阪市公式報道発表。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.osaka.lg.jp/hodoshiryo/gyouseiiinkai/0000671190.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

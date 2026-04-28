@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-mun-18205-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-18205-mayor-2026-other-01",
+      "election_id": "el-mun-18205-mayor-2026",
+      "kind": "other",
+      "title": "令和8年度選挙執行日程",
+      "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/senkyo-nittei_d/fil/109.pdf",
+      "summary": "大野市長選挙の告示日と投票日を確認できる福井県選挙管理委員会の公式PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/senkyo-nittei_d/fil/109.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

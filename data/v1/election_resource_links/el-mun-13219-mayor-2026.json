@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-mun-13219-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-13219-mayor-2026-other-01",
+      "election_id": "el-mun-13219-mayor-2026",
+      "kind": "other",
+      "title": "狛江市長選挙の選挙期日（投票日）等について",
+      "url": "https://www.city.komae.tokyo.jp/index.cfm/41%2C141476%2C602%2Chtml",
+      "summary": "狛江市長選挙の告示日、投票日、期日前投票、立候補予定者説明会を確認できる狛江市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.komae.tokyo.jp/index.cfm/41%2C141476%2C602%2Chtml",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

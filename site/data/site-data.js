@@ -3,30 +3,30 @@
 // Update data/v1 and rerun the generator instead of editing this file.
 
 window.ELECTION_SITE_DATA = {
-  "generatedAt": "2026-04-27T13:03:02.812Z",
+  "generatedAt": "2026-04-28T09:26:42.587Z",
   "sourceGeneratedAt": "2026-04-27T00:00:00+09:00",
   "stats": {
     "regions": 848,
-    "elections": 190,
-    "resourceLinks": 319,
+    "elections": 208,
+    "resourceLinks": 349,
     "postalPrefixes": 47,
     "localGovernmentSites": 94,
     "byType": {
       "prefectural": 50,
-      "municipal": 131,
-      "by_election": 7,
+      "municipal": 139,
+      "by_election": 17,
       "national": 2
     },
     "byPhase": {
-      "archived": 125,
-      "upcoming": 65
+      "archived": 144,
+      "upcoming": 64
     },
     "byResourceKind": {
       "candidate_list": 55,
       "bulletin": 62,
-      "other": 100,
-      "early_voting": 57,
-      "polling_place": 45
+      "other": 128,
+      "early_voting": 58,
+      "polling_place": 46
     },
     "byLocalGovernmentSiteKind": {
       "prefecture_home": 47,
@@ -14522,6 +14522,80 @@ window.ELECTION_SITE_DATA = {
       "candidateProfiles": []
     },
     {
+      "id": "el-by-mun-27100-assembly-2026-01",
+      "slug": "osaka-city-higashisumiyoshi-assembly-by-election-2026-01",
+      "name": "大阪市議会議員東住吉区選挙区補欠選挙",
+      "type": "by_election",
+      "subtype": "assembly",
+      "phase": "archived",
+      "voteDate": "2026-02-08",
+      "noticeDate": "2026-01-30",
+      "description": "大阪市議会議員東住吉区選挙区の欠員を補う補欠選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-27100",
+      "primaryRegionName": "大阪府大阪市",
+      "primaryRegionShortName": "大阪市",
+      "prefectureRegionId": "pref-27",
+      "prefectureName": "大阪府",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.osaka.lg.jp/hodoshiryo/gyouseiiinkai/0000671190.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-by-mun-27100-assembly-2026-01-other-01",
+          "kind": "other",
+          "title": "大阪市長選挙及び大阪市議会議員東住吉区選挙区補欠選挙が行われます",
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/gyouseiiinkai/0000671190.html",
+          "summary": "大阪市長選挙及び大阪市議会議員東住吉区選挙区補欠選挙の選挙期日、告示日、定数を確認できる大阪市公式報道発表。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.osaka.lg.jp/hodoshiryo/gyouseiiinkai/0000671190.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-mun-27100-mayor-2026",
+      "slug": "osaka-mayor-2026",
+      "name": "大阪市長選挙",
+      "type": "municipal",
+      "subtype": "mayor",
+      "phase": "archived",
+      "voteDate": "2026-02-08",
+      "noticeDate": "2026-01-25",
+      "description": "大阪市長を選出する選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-27100",
+      "primaryRegionName": "大阪府大阪市",
+      "primaryRegionShortName": "大阪市",
+      "prefectureRegionId": "pref-27",
+      "prefectureName": "大阪府",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.osaka.lg.jp/hodoshiryo/gyouseiiinkai/0000671190.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-27100-mayor-2026-other-01",
+          "kind": "other",
+          "title": "大阪市長選挙及び大阪市議会議員東住吉区選挙区補欠選挙が行われます",
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/gyouseiiinkai/0000671190.html",
+          "summary": "大阪市長選挙及び大阪市議会議員東住吉区選挙区補欠選挙の選挙期日、告示日、定数を確認できる大阪市公式報道発表。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.osaka.lg.jp/hodoshiryo/gyouseiiinkai/0000671190.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
       "id": "el-pref-27-governor-2026",
       "slug": "osaka-governor-2026",
       "name": "大阪府知事選挙",
@@ -15273,30 +15347,6 @@ window.ELECTION_SITE_DATA = {
       "prefectureName": "山口県",
       "pageUpdates": [],
       "sourceUrl": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/237065.pdf",
-      "resourceKinds": [],
-      "resources": [],
-      "candidateSignals": [],
-      "candidateEndorsements": [],
-      "candidateProfiles": []
-    },
-    {
-      "id": "el-mun-28228-mayor-2026",
-      "slug": "kato-mayor-2026",
-      "name": "加東市長選挙",
-      "type": "municipal",
-      "subtype": "mayor",
-      "phase": "archived",
-      "voteDate": "2026-04-12",
-      "noticeDate": "2026-04-05",
-      "description": "加東市長を選出する選挙です。",
-      "scopeType": "region",
-      "primaryRegionId": "mun-28228",
-      "primaryRegionName": "兵庫県加東市",
-      "primaryRegionShortName": "加東市",
-      "prefectureRegionId": "pref-28",
-      "prefectureName": "兵庫県",
-      "pageUpdates": [],
-      "sourceUrl": "https://web.pref.hyogo.lg.jp/si01/pa25_000000003.html",
       "resourceKinds": [],
       "resources": [],
       "candidateSignals": [],
@@ -16170,6 +16220,80 @@ window.ELECTION_SITE_DATA = {
       "candidateProfiles": []
     },
     {
+      "id": "el-by-mun-23208-assembly-2026-01",
+      "slug": "tsushima-city-assembly-by-election-2026-01",
+      "name": "津島市議会議員補欠選挙",
+      "type": "by_election",
+      "subtype": "assembly",
+      "phase": "archived",
+      "voteDate": "2026-04-19",
+      "noticeDate": "2026-04-12",
+      "description": "津島市議会議員の欠員を補う補欠選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-23208",
+      "primaryRegionName": "愛知県津島市",
+      "primaryRegionShortName": "津島市",
+      "prefectureRegionId": "pref-23",
+      "prefectureName": "愛知県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.tsushima.lg.jp/shisei/senkyo/shichoushigihosenn.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-by-mun-23208-assembly-2026-01-other-01",
+          "kind": "other",
+          "title": "津島市長選挙及び津島市議会議員補欠選挙の執行",
+          "url": "https://www.city.tsushima.lg.jp/shisei/senkyo/shichoushigihosenn.html",
+          "summary": "津島市長選挙及び津島市議会議員補欠選挙の投票日、告示日、期日前投票、候補者情報を確認できる津島市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.tsushima.lg.jp/shisei/senkyo/shichoushigihosenn.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-mun-23208-mayor-2026",
+      "slug": "tsushima-mayor-2026",
+      "name": "津島市長選挙",
+      "type": "municipal",
+      "subtype": "mayor",
+      "phase": "archived",
+      "voteDate": "2026-04-19",
+      "noticeDate": "2026-04-12",
+      "description": "津島市長を選出する選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-23208",
+      "primaryRegionName": "愛知県津島市",
+      "primaryRegionShortName": "津島市",
+      "prefectureRegionId": "pref-23",
+      "prefectureName": "愛知県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.tsushima.lg.jp/shisei/senkyo/shichoushigihosenn.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-23208-mayor-2026-other-01",
+          "kind": "other",
+          "title": "津島市長選挙及び津島市議会議員補欠選挙の執行",
+          "url": "https://www.city.tsushima.lg.jp/shisei/senkyo/shichoushigihosenn.html",
+          "summary": "津島市長選挙及び津島市議会議員補欠選挙の投票日、告示日、期日前投票、候補者情報を確認できる津島市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.tsushima.lg.jp/shisei/senkyo/shichoushigihosenn.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
       "id": "el-mun-09203-assembly-2026",
       "slug": "tochigi-city-assembly-2026",
       "name": "栃木市議会議員選挙",
@@ -16546,12 +16670,160 @@ window.ELECTION_SITE_DATA = {
       "candidateProfiles": []
     },
     {
+      "id": "el-mun-37206-mayor-2026",
+      "slug": "sanuki-mayor-2026",
+      "name": "さぬき市長選挙",
+      "type": "municipal",
+      "subtype": "mayor",
+      "phase": "archived",
+      "voteDate": "2026-04-26",
+      "noticeDate": "2026-04-19",
+      "description": "さぬき市長を選出する選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-37206",
+      "primaryRegionName": "香川県さぬき市",
+      "primaryRegionShortName": "さぬき市",
+      "prefectureRegionId": "pref-37",
+      "prefectureName": "香川県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.sanuki.lg.jp/soshiki/senkyo/gyomu/1/3/6889.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-37206-mayor-2026-other-01",
+          "kind": "other",
+          "title": "令和8年4月26日執行 さぬき市長選挙について",
+          "url": "https://www.city.sanuki.lg.jp/soshiki/senkyo/gyomu/1/3/6889.html",
+          "summary": "さぬき市長選挙の投票日、告示日、投票所、期日前投票を確認できるさぬき市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.sanuki.lg.jp/soshiki/senkyo/gyomu/1/3/6889.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-mun-28228-assembly-2026",
+      "slug": "kato-city-assembly-2026",
+      "name": "加東市議会議員選挙",
+      "type": "municipal",
+      "subtype": "assembly",
+      "phase": "archived",
+      "voteDate": "2026-04-26",
+      "noticeDate": "2026-04-19",
+      "description": "加東市議会議員を選出する選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-28228",
+      "primaryRegionName": "兵庫県加東市",
+      "primaryRegionShortName": "加東市",
+      "prefectureRegionId": "pref-28",
+      "prefectureName": "兵庫県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.kato.lg.jp/gyoseijoho/senkyo/17410.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-28228-assembly-2026-other-01",
+          "kind": "other",
+          "title": "令和8年4月26日執行 加東市長選挙及び加東市議会議員選挙について",
+          "url": "https://www.city.kato.lg.jp/gyoseijoho/senkyo/17410.html",
+          "summary": "加東市長選挙及び加東市議会議員選挙の投票日、投票所、期日前投票、候補者情報を確認できる加東市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.kato.lg.jp/gyoseijoho/senkyo/17410.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-mun-28228-mayor-2026",
+      "slug": "kato-mayor-2026",
+      "name": "加東市長選挙",
+      "type": "municipal",
+      "subtype": "mayor",
+      "phase": "archived",
+      "voteDate": "2026-04-26",
+      "noticeDate": "2026-04-19",
+      "description": "加東市長を選出する選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-28228",
+      "primaryRegionName": "兵庫県加東市",
+      "primaryRegionShortName": "加東市",
+      "prefectureRegionId": "pref-28",
+      "prefectureName": "兵庫県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.kato.lg.jp/gyoseijoho/senkyo/17410.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-28228-mayor-2026-other-01",
+          "kind": "other",
+          "title": "令和8年4月26日執行 加東市長選挙及び加東市議会議員選挙について",
+          "url": "https://www.city.kato.lg.jp/gyoseijoho/senkyo/17410.html",
+          "summary": "加東市長選挙及び加東市議会議員選挙の投票日、投票所、期日前投票、候補者情報を確認できる加東市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.kato.lg.jp/gyoseijoho/senkyo/17410.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-mun-04205-assembly-2026",
+      "slug": "kesennuma-city-assembly-2026",
+      "name": "気仙沼市議会議員一般選挙",
+      "type": "municipal",
+      "subtype": "assembly",
+      "phase": "archived",
+      "voteDate": "2026-04-26",
+      "noticeDate": "2026-04-19",
+      "description": "気仙沼市議会議員を選出する選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-04205",
+      "primaryRegionName": "宮城県気仙沼市",
+      "primaryRegionShortName": "気仙沼市",
+      "prefectureRegionId": "pref-04",
+      "prefectureName": "宮城県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.kesennuma.miyagi.jp/sec/s157/010/010/020/040/nitteikettei_si2.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-04205-assembly-2026-other-01",
+          "kind": "other",
+          "title": "気仙沼市長選挙及び気仙沼市議会議員一般選挙の日程について",
+          "url": "https://www.kesennuma.miyagi.jp/sec/s157/010/010/020/040/nitteikettei_si2.html",
+          "summary": "気仙沼市長選挙及び気仙沼市議会議員一般選挙の投票日、告示日、開票、立候補届出を確認できる気仙沼市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.kesennuma.miyagi.jp/sec/s157/010/010/020/040/nitteikettei_si2.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
       "id": "el-mun-04205-mayor-2026",
       "slug": "kesennuma-mayor-2026",
       "name": "気仙沼市長選挙",
       "type": "municipal",
       "subtype": "mayor",
-      "phase": "upcoming",
+      "phase": "archived",
       "voteDate": "2026-04-26",
       "noticeDate": "2026-04-19",
       "description": "気仙沼市長を選出する選挙です。",
@@ -16562,7 +16834,7 @@ window.ELECTION_SITE_DATA = {
       "prefectureRegionId": "pref-04",
       "prefectureName": "宮城県",
       "pageUpdates": [],
-      "sourceUrl": "https://www.pref.miyagi.jp/documents/44063/shikkou.pdf",
+      "sourceUrl": "https://www.kesennuma.miyagi.jp/sec/s157/010/010/020/040/nitteikettei_si2.html",
       "resourceKinds": [
         "other",
         "bulletin",
@@ -16616,12 +16888,49 @@ window.ELECTION_SITE_DATA = {
       "candidateProfiles": []
     },
     {
+      "id": "el-by-mun-12236-assembly-2026-01",
+      "slug": "katori-city-assembly-by-election-2026-01",
+      "name": "香取市議会議員補欠選挙",
+      "type": "by_election",
+      "subtype": "assembly",
+      "phase": "archived",
+      "voteDate": "2026-04-26",
+      "noticeDate": "2026-04-19",
+      "description": "香取市議会議員の欠員を補う補欠選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-12236",
+      "primaryRegionName": "千葉県香取市",
+      "primaryRegionShortName": "香取市",
+      "prefectureRegionId": "pref-12",
+      "prefectureName": "千葉県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.katori.lg.jp/government/senkyo/R08_sityousenkyo.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-by-mun-12236-assembly-2026-01-other-01",
+          "kind": "other",
+          "title": "令和8年4月26日（日曜日）は香取市長選挙・香取市議会議員補欠選挙の投票日です！",
+          "url": "https://www.city.katori.lg.jp/government/senkyo/R08_sityousenkyo.html",
+          "summary": "香取市長選挙及び香取市議会議員補欠選挙の投票日、投票方法、期日前投票、投票所を確認できる香取市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.katori.lg.jp/government/senkyo/R08_sityousenkyo.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
       "id": "el-mun-12236-mayor-2026",
       "slug": "katori-mayor-2026",
       "name": "香取市長選挙",
       "type": "municipal",
       "subtype": "mayor",
-      "phase": "upcoming",
+      "phase": "archived",
       "voteDate": "2026-04-26",
       "noticeDate": "2026-04-19",
       "description": "香取市長を選出する選挙です。",
@@ -16632,7 +16941,7 @@ window.ELECTION_SITE_DATA = {
       "prefectureRegionId": "pref-12",
       "prefectureName": "千葉県",
       "pageUpdates": [],
-      "sourceUrl": "https://www.pref.chiba.lg.jp/senkan/chiba-senkyo/r08.html",
+      "sourceUrl": "https://www.city.katori.lg.jp/government/senkyo/R08_sityousenkyo.html",
       "resourceKinds": [
         "other",
         "candidate_list",
@@ -16697,12 +17006,49 @@ window.ELECTION_SITE_DATA = {
       "candidateProfiles": []
     },
     {
+      "id": "el-by-mun-41207-assembly-2026-01",
+      "slug": "kashima-city-assembly-by-election-2026-01",
+      "name": "鹿島市議会議員補欠選挙",
+      "type": "by_election",
+      "subtype": "assembly",
+      "phase": "archived",
+      "voteDate": "2026-04-26",
+      "noticeDate": "2026-04-19",
+      "description": "鹿島市議会議員の欠員を補う補欠選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-41207",
+      "primaryRegionName": "佐賀県鹿島市",
+      "primaryRegionShortName": "鹿島市",
+      "prefectureRegionId": "pref-41",
+      "prefectureName": "佐賀県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.saga-kashima.lg.jp/main/38185.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-by-mun-41207-assembly-2026-01-other-01",
+          "kind": "other",
+          "title": "令和８年４月２６日執行予定の鹿島市長選及び鹿島市議会議員補欠選挙のお知らせ",
+          "url": "https://www.city.saga-kashima.lg.jp/main/38185.html",
+          "summary": "鹿島市長選挙及び鹿島市議会議員補欠選挙の投票日、告示日、候補者情報、期日前投票を確認できる鹿島市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.saga-kashima.lg.jp/main/38185.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
       "id": "el-mun-41207-mayor-2026",
       "slug": "kashima-mayor-2026",
       "name": "鹿島市長選挙",
       "type": "municipal",
       "subtype": "mayor",
-      "phase": "upcoming",
+      "phase": "archived",
       "voteDate": "2026-04-26",
       "noticeDate": "2026-04-19",
       "description": "鹿島市長を選出する選挙です。",
@@ -16778,12 +17124,123 @@ window.ELECTION_SITE_DATA = {
       "candidateProfiles": []
     },
     {
+      "id": "el-by-mun-22203-assembly-2026-01",
+      "slug": "numazu-city-assembly-by-election-2026-01",
+      "name": "沼津市議会議員補欠選挙",
+      "type": "by_election",
+      "subtype": "assembly",
+      "phase": "archived",
+      "voteDate": "2026-04-26",
+      "noticeDate": "2026-04-19",
+      "description": "沼津市議会議員の欠員を補う補欠選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-22203",
+      "primaryRegionName": "静岡県沼津市",
+      "primaryRegionShortName": "沼津市",
+      "prefectureRegionId": "pref-22",
+      "prefectureName": "静岡県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.numazu.shizuoka.jp/shisei/commit/senkyo/topics/setsumeikai.htm",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-by-mun-22203-assembly-2026-01-other-01",
+          "kind": "other",
+          "title": "沼津市長選挙・沼津市議会議員補欠選挙の立候補予定者事前説明会を開催します",
+          "url": "https://www.city.numazu.shizuoka.jp/shisei/commit/senkyo/topics/setsumeikai.htm",
+          "summary": "令和8年4月26日執行の沼津市長選挙・沼津市議会議員補欠選挙について確認できる沼津市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.numazu.shizuoka.jp/shisei/commit/senkyo/topics/setsumeikai.htm"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-mun-22203-mayor-2026",
+      "slug": "numazu-mayor-2026",
+      "name": "沼津市長選挙",
+      "type": "municipal",
+      "subtype": "mayor",
+      "phase": "archived",
+      "voteDate": "2026-04-26",
+      "noticeDate": "2026-04-19",
+      "description": "沼津市長を選出する選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-22203",
+      "primaryRegionName": "静岡県沼津市",
+      "primaryRegionShortName": "沼津市",
+      "prefectureRegionId": "pref-22",
+      "prefectureName": "静岡県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.numazu.shizuoka.jp/shisei/commit/senkyo/topics/r07shichosen.htm",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-22203-mayor-2026-other-01",
+          "kind": "other",
+          "title": "沼津市長選挙の選挙期日（投票日）が決定しました",
+          "url": "https://www.city.numazu.shizuoka.jp/shisei/commit/senkyo/topics/r07shichosen.htm",
+          "summary": "沼津市長選挙の投票日、告示日、開票日を確認できる沼津市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.numazu.shizuoka.jp/shisei/commit/senkyo/topics/r07shichosen.htm"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-by-mun-10206-assembly-2026-01",
+      "slug": "numata-city-assembly-by-election-2026-01",
+      "name": "沼田市議会議員補欠選挙",
+      "type": "by_election",
+      "subtype": "assembly",
+      "phase": "archived",
+      "voteDate": "2026-04-26",
+      "noticeDate": "2026-04-19",
+      "description": "沼田市議会議員の欠員を補う補欠選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-10206",
+      "primaryRegionName": "群馬県沼田市",
+      "primaryRegionShortName": "沼田市",
+      "prefectureRegionId": "pref-10",
+      "prefectureName": "群馬県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.numata.gunma.jp/shisei/senkyo/oshirase/1017676.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-by-mun-10206-assembly-2026-01-other-01",
+          "kind": "other",
+          "title": "令和8年4月26日執行 沼田市長選挙及び沼田市議会議員補欠選挙",
+          "url": "https://www.city.numata.gunma.jp/shisei/senkyo/oshirase/1017676.html",
+          "summary": "沼田市長選挙及び沼田市議会議員補欠選挙の投票日、告示日、期日前投票、候補者情報を確認できる沼田市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.numata.gunma.jp/shisei/senkyo/oshirase/1017676.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
       "id": "el-mun-10206-mayor-2026",
       "slug": "numata-mayor-2026",
       "name": "沼田市長選挙",
       "type": "municipal",
       "subtype": "mayor",
-      "phase": "upcoming",
+      "phase": "archived",
       "voteDate": "2026-04-26",
       "noticeDate": "2026-04-19",
       "description": "沼田市長を選出する選挙です。",
@@ -16794,7 +17251,7 @@ window.ELECTION_SITE_DATA = {
       "prefectureRegionId": "pref-10",
       "prefectureName": "群馬県",
       "pageUpdates": [],
-      "sourceUrl": "https://www.pref.gunma.jp/page/618888.html",
+      "sourceUrl": "https://www.city.numata.gunma.jp/shisei/senkyo/oshirase/1017676.html",
       "resourceKinds": [
         "other",
         "candidate_list",
@@ -16864,7 +17321,7 @@ window.ELECTION_SITE_DATA = {
       "name": "大洲市長選挙",
       "type": "municipal",
       "subtype": "mayor",
-      "phase": "upcoming",
+      "phase": "archived",
       "voteDate": "2026-04-26",
       "noticeDate": "2026-04-19",
       "description": "大洲市長を選出する選挙です。",
@@ -16875,7 +17332,7 @@ window.ELECTION_SITE_DATA = {
       "prefectureRegionId": "pref-38",
       "prefectureName": "愛媛県",
       "pageUpdates": [],
-      "sourceUrl": "https://www.city.ozu.ehime.jp/soshiki/senkyo/26575.html",
+      "sourceUrl": "https://www.city.ozu.ehime.jp/soshiki/senkyo/46777.html",
       "resourceKinds": [
         "other",
         "candidate_list",
@@ -16940,12 +17397,49 @@ window.ELECTION_SITE_DATA = {
       "candidateProfiles": []
     },
     {
+      "id": "el-by-mun-10209-assembly-2026-01",
+      "slug": "fujioka-city-assembly-by-election-2026-01",
+      "name": "藤岡市議会議員補欠選挙",
+      "type": "by_election",
+      "subtype": "assembly",
+      "phase": "archived",
+      "voteDate": "2026-04-26",
+      "noticeDate": "2026-04-19",
+      "description": "藤岡市議会議員の欠員を補う補欠選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-10209",
+      "primaryRegionName": "群馬県藤岡市",
+      "primaryRegionShortName": "藤岡市",
+      "prefectureRegionId": "pref-10",
+      "prefectureName": "群馬県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.fujioka.gunma.jp/soshiki/somubu/somu/7/6955.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-by-mun-10209-assembly-2026-01-other-01",
+          "kind": "other",
+          "title": "藤岡市長選挙及び藤岡市議会議員補欠選挙",
+          "url": "https://www.city.fujioka.gunma.jp/soshiki/somubu/somu/7/6955.html",
+          "summary": "藤岡市長選挙及び藤岡市議会議員補欠選挙の投票日、告示日、投票所、期日前投票を確認できる藤岡市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.fujioka.gunma.jp/soshiki/somubu/somu/7/6955.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
       "id": "el-mun-10209-mayor-2026",
       "slug": "fujioka-mayor-2026",
       "name": "藤岡市長選挙",
       "type": "municipal",
       "subtype": "mayor",
-      "phase": "upcoming",
+      "phase": "archived",
       "voteDate": "2026-04-26",
       "noticeDate": "2026-04-19",
       "description": "藤岡市長を選出する選挙です。",
@@ -17665,6 +18159,65 @@ window.ELECTION_SITE_DATA = {
           "isOfficial": true,
           "displayOrder": 3,
           "sourceUrl": "https://www.city.hasuda.saitama.jp/senkyo/kurashi/senkyo/tohyojo/tohyojo.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-mun-32207-assembly-2026",
+      "slug": "gotsu-city-assembly-2026",
+      "name": "江津市議会議員一般選挙",
+      "type": "municipal",
+      "subtype": "assembly",
+      "phase": "upcoming",
+      "voteDate": "2026-05-31",
+      "noticeDate": "2026-05-24",
+      "description": "江津市議会議員を選出する選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-32207",
+      "primaryRegionName": "島根県江津市",
+      "primaryRegionShortName": "江津市",
+      "prefectureRegionId": "pref-32",
+      "prefectureName": "島根県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/27/7363.html",
+      "resourceKinds": [
+        "other",
+        "early_voting",
+        "polling_place"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-32207-assembly-2026-other-01",
+          "kind": "other",
+          "title": "江津市長選挙・江津市議会議員一般選挙の投開票日 立候補予定者説明会",
+          "url": "https://www.city.gotsu.lg.jp/soshiki/27/7363.html",
+          "summary": "江津市長選挙及び江津市議会議員一般選挙の投票日、告示日、期日前投票期間、開票日、選挙すべき人員を確認できる江津市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/27/7363.html"
+        },
+        {
+          "id": "el-mun-32207-assembly-2026-early-voting-01",
+          "kind": "early_voting",
+          "title": "期日前投票ができます",
+          "url": "https://www.city.gotsu.lg.jp/soshiki/27/23804.html",
+          "summary": "江津市長選挙及び江津市議会議員一般選挙の期日前投票期間、会場、時間を確認できる江津市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 2,
+          "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/27/23804.html"
+        },
+        {
+          "id": "el-mun-32207-assembly-2026-polling-place-01",
+          "kind": "polling_place",
+          "title": "投票所一覧",
+          "url": "https://www.city.gotsu.lg.jp/soshiki/27/15137.html",
+          "summary": "江津市の投票区と投票所を確認できる公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 3,
+          "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/27/15137.html"
         }
       ],
       "candidateSignals": [],
@@ -18853,25 +19406,38 @@ window.ELECTION_SITE_DATA = {
       ]
     },
     {
-      "id": "el-mun-28210-mayor-2026",
-      "slug": "kakogawa-mayor-2026",
-      "name": "加古川市長選挙",
-      "type": "municipal",
-      "subtype": "mayor",
+      "id": "el-by-mun-04211-assembly-2026-01",
+      "slug": "iwanuma-city-assembly-by-election-2026-01",
+      "name": "岩沼市議会議員補欠選挙",
+      "type": "by_election",
+      "subtype": "assembly",
       "phase": "upcoming",
       "voteDate": "2026-06-07",
       "noticeDate": "2026-05-31",
-      "description": "加古川市長を選出する選挙です。",
+      "description": "岩沼市議会議員の欠員を補う補欠選挙です。",
       "scopeType": "region",
-      "primaryRegionId": "mun-28210",
-      "primaryRegionName": "兵庫県加古川市",
-      "primaryRegionShortName": "加古川市",
-      "prefectureRegionId": "pref-28",
-      "prefectureName": "兵庫県",
+      "primaryRegionId": "mun-04211",
+      "primaryRegionName": "宮城県岩沼市",
+      "primaryRegionShortName": "岩沼市",
+      "prefectureRegionId": "pref-04",
+      "prefectureName": "宮城県",
       "pageUpdates": [],
-      "sourceUrl": "https://web.pref.hyogo.lg.jp/si01/pa25_000000003.html",
-      "resourceKinds": [],
-      "resources": [],
+      "sourceUrl": "https://www.city.iwanuma.miyagi.jp/kurashi/senkyo/R8_shichoshigiho.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-by-mun-04211-assembly-2026-01-other-01",
+          "kind": "other",
+          "title": "令和8年6月7日執行 岩沼市長選挙及び岩沼市議会議員補欠選挙について",
+          "url": "https://www.city.iwanuma.miyagi.jp/kurashi/senkyo/R8_shichoshigiho.html",
+          "summary": "岩沼市長選挙及び岩沼市議会議員補欠選挙の投開票日、告示日、期日前投票、投票所を確認できる岩沼市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.iwanuma.miyagi.jp/kurashi/senkyo/R8_shichoshigiho.html"
+        }
+      ],
       "candidateSignals": [],
       "candidateEndorsements": [],
       "candidateProfiles": []
@@ -18893,9 +19459,96 @@ window.ELECTION_SITE_DATA = {
       "prefectureRegionId": "pref-04",
       "prefectureName": "宮城県",
       "pageUpdates": [],
-      "sourceUrl": "https://www.pref.miyagi.jp/documents/44063/shikkou.pdf",
-      "resourceKinds": [],
-      "resources": [],
+      "sourceUrl": "https://www.city.iwanuma.miyagi.jp/kurashi/senkyo/R8_shichoshigiho.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-04211-mayor-2026-other-01",
+          "kind": "other",
+          "title": "令和8年6月7日執行 岩沼市長選挙及び岩沼市議会議員補欠選挙について",
+          "url": "https://www.city.iwanuma.miyagi.jp/kurashi/senkyo/R8_shichoshigiho.html",
+          "summary": "岩沼市長選挙及び岩沼市議会議員補欠選挙の投開票日、告示日、期日前投票、投票所を確認できる岩沼市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.iwanuma.miyagi.jp/kurashi/senkyo/R8_shichoshigiho.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-by-mun-34211-assembly-2026-01",
+      "slug": "otake-city-assembly-re-election-2026-01",
+      "name": "大竹市議会議員再選挙",
+      "type": "by_election",
+      "subtype": "assembly",
+      "phase": "upcoming",
+      "voteDate": "2026-06-14",
+      "noticeDate": "2026-06-07",
+      "description": "大竹市議会議員の当選人不足に伴う再選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-34211",
+      "primaryRegionName": "広島県大竹市",
+      "primaryRegionShortName": "大竹市",
+      "prefectureRegionId": "pref-34",
+      "prefectureName": "広島県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.otake.hiroshima.jp/i/soshiki/senkyo/senkyo/5_1/8956.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-by-mun-34211-assembly-2026-01-other-01",
+          "kind": "other",
+          "title": "大竹市議会議員再選挙のお知らせ",
+          "url": "https://www.city.otake.hiroshima.jp/i/soshiki/senkyo/senkyo/5_1/8956.html",
+          "summary": "大竹市議会議員再選挙の告示予定日、投票予定日、選挙すべき議員の数を確認できる大竹市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.otake.hiroshima.jp/i/soshiki/senkyo/senkyo/5_1/8956.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-mun-34211-mayor-2026",
+      "slug": "otake-mayor-2026",
+      "name": "大竹市長選挙",
+      "type": "municipal",
+      "subtype": "mayor",
+      "phase": "upcoming",
+      "voteDate": "2026-06-14",
+      "noticeDate": "2026-06-07",
+      "description": "大竹市長を選出する選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-34211",
+      "primaryRegionName": "広島県大竹市",
+      "primaryRegionShortName": "大竹市",
+      "prefectureRegionId": "pref-34",
+      "prefectureName": "広島県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.otake.hiroshima.jp/soshiki/senkyo/senkyo/5_1/8955.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-34211-mayor-2026-other-01",
+          "kind": "other",
+          "title": "大竹市長選挙のお知らせ",
+          "url": "https://www.city.otake.hiroshima.jp/soshiki/senkyo/senkyo/5_1/8955.html",
+          "summary": "大竹市長選挙の告示予定日、投票予定日、任期満了日を確認できる大竹市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.otake.hiroshima.jp/soshiki/senkyo/senkyo/5_1/8955.html"
+        }
+      ],
       "candidateSignals": [],
       "candidateEndorsements": [],
       "candidateProfiles": []
@@ -18918,32 +19571,58 @@ window.ELECTION_SITE_DATA = {
       "prefectureName": "福井県",
       "pageUpdates": [],
       "sourceUrl": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/senkyo-nittei_d/fil/109.pdf",
-      "resourceKinds": [],
-      "resources": [],
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-18205-mayor-2026-other-01",
+          "kind": "other",
+          "title": "令和8年度選挙執行日程",
+          "url": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/senkyo-nittei_d/fil/109.pdf",
+          "summary": "大野市長選挙の告示日と投票日を確認できる福井県選挙管理委員会の公式PDF。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.pref.fukui.lg.jp/doc/senkan/nittei/senkyo-nittei_d/fil/109.pdf"
+        }
+      ],
       "candidateSignals": [],
       "candidateEndorsements": [],
       "candidateProfiles": []
     },
     {
-      "id": "el-mun-23208-mayor-2026",
-      "slug": "tsushima-mayor-2026",
-      "name": "津島市長選挙",
+      "id": "el-mun-42214-assembly-2026",
+      "slug": "minamishimabara-city-assembly-2026",
+      "name": "南島原市議会議員一般選挙",
       "type": "municipal",
-      "subtype": "mayor",
+      "subtype": "assembly",
       "phase": "upcoming",
       "voteDate": "2026-06-14",
       "noticeDate": "2026-06-07",
-      "description": "津島市長を選出する選挙です。",
+      "description": "南島原市議会議員を選出する選挙です。",
       "scopeType": "region",
-      "primaryRegionId": "mun-23208",
-      "primaryRegionName": "愛知県津島市",
-      "primaryRegionShortName": "津島市",
-      "prefectureRegionId": "pref-23",
-      "prefectureName": "愛知県",
+      "primaryRegionId": "mun-42214",
+      "primaryRegionName": "長崎県南島原市",
+      "primaryRegionShortName": "南島原市",
+      "prefectureRegionId": "pref-42",
+      "prefectureName": "長崎県",
       "pageUpdates": [],
-      "sourceUrl": "https://www.pref.aichi.jp/soshiki/gyousei-kansa/0000012260.html",
-      "resourceKinds": [],
-      "resources": [],
+      "sourceUrl": "https://www.city.minamishimabara.lg.jp/kiji00312469/index.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-42214-assembly-2026-other-01",
+          "kind": "other",
+          "title": "南島原市長選挙・南島原市議会議員一般選挙立候補予定者説明会",
+          "url": "https://www.city.minamishimabara.lg.jp/kiji00312469/index.html",
+          "summary": "南島原市長選挙及び南島原市議会議員一般選挙の告示日、投票日、立候補予定者説明会を確認できる南島原市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.minamishimabara.lg.jp/kiji00312469/index.html"
+        }
+      ],
       "candidateSignals": [],
       "candidateEndorsements": [],
       "candidateProfiles": []
@@ -18965,9 +19644,59 @@ window.ELECTION_SITE_DATA = {
       "prefectureRegionId": "pref-42",
       "prefectureName": "長崎県",
       "pageUpdates": [],
-      "sourceUrl": "https://www.pref.nagasaki.jp/shared/uploads/2026/02/1771976702.pdf",
-      "resourceKinds": [],
-      "resources": [],
+      "sourceUrl": "https://www.city.minamishimabara.lg.jp/kiji00312469/index.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-42214-mayor-2026-other-01",
+          "kind": "other",
+          "title": "南島原市長選挙・南島原市議会議員一般選挙立候補予定者説明会",
+          "url": "https://www.city.minamishimabara.lg.jp/kiji00312469/index.html",
+          "summary": "南島原市長選挙及び南島原市議会議員一般選挙の告示日、投票日、立候補予定者説明会を確認できる南島原市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.minamishimabara.lg.jp/kiji00312469/index.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-by-mun-02205-assembly-2026-01",
+      "slug": "goshogawara-city-assembly-by-election-2026-01",
+      "name": "五所川原市議会議員補欠選挙",
+      "type": "by_election",
+      "subtype": "assembly",
+      "phase": "upcoming",
+      "voteDate": "2026-06-21",
+      "noticeDate": "2026-06-14",
+      "description": "五所川原市議会議員の欠員を補う補欠選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-02205",
+      "primaryRegionName": "青森県五所川原市",
+      "primaryRegionShortName": "五所川原市",
+      "prefectureRegionId": "pref-02",
+      "prefectureName": "青森県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.goshogawara.lg.jp/kurashi/senkyo/20260621sityousn-osirase.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-by-mun-02205-assembly-2026-01-other-01",
+          "kind": "other",
+          "title": "令和8年6月21日執行五所川原市長選挙及び五所川原市議会議員補欠選挙について",
+          "url": "https://www.city.goshogawara.lg.jp/kurashi/senkyo/20260621sityousn-osirase.html",
+          "summary": "五所川原市長選挙及び五所川原市議会議員補欠選挙の投票日、告示日、期日前投票、投票所を確認できる五所川原市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.goshogawara.lg.jp/kurashi/senkyo/20260621sityousn-osirase.html"
+        }
+      ],
       "candidateSignals": [],
       "candidateEndorsements": [],
       "candidateProfiles": []
@@ -18989,9 +19718,96 @@ window.ELECTION_SITE_DATA = {
       "prefectureRegionId": "pref-02",
       "prefectureName": "青森県",
       "pageUpdates": [],
-      "sourceUrl": "https://www.pref.aomori.lg.jp/soshiki/senkan/files2/R080402_tyou.pdf",
-      "resourceKinds": [],
-      "resources": [],
+      "sourceUrl": "https://www.city.goshogawara.lg.jp/kurashi/senkyo/20260621sityousn-osirase.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-02205-mayor-2026-other-01",
+          "kind": "other",
+          "title": "令和8年6月21日執行五所川原市長選挙及び五所川原市議会議員補欠選挙について",
+          "url": "https://www.city.goshogawara.lg.jp/kurashi/senkyo/20260621sityousn-osirase.html",
+          "summary": "五所川原市長選挙及び五所川原市議会議員補欠選挙の投票日、告示日、期日前投票、投票所を確認できる五所川原市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.goshogawara.lg.jp/kurashi/senkyo/20260621sityousn-osirase.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-mun-28210-assembly-2026",
+      "slug": "kakogawa-city-assembly-2026",
+      "name": "加古川市議会議員選挙",
+      "type": "municipal",
+      "subtype": "assembly",
+      "phase": "upcoming",
+      "voteDate": "2026-06-28",
+      "noticeDate": "2026-06-21",
+      "description": "加古川市議会議員を選出する選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-28210",
+      "primaryRegionName": "兵庫県加古川市",
+      "primaryRegionShortName": "加古川市",
+      "prefectureRegionId": "pref-28",
+      "prefectureName": "兵庫県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/senkyokanriiinkaijimukyoku/senkyonikansuruoshirase/48628.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-28210-assembly-2026-other-01",
+          "kind": "other",
+          "title": "加古川市長選挙及び加古川市議会議員選挙の期日等が決まりました",
+          "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/senkyokanriiinkaijimukyoku/senkyonikansuruoshirase/48628.html",
+          "summary": "加古川市長選挙及び加古川市議会議員選挙の投票日、告示日、同時選挙であることを確認できる加古川市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/senkyokanriiinkaijimukyoku/senkyonikansuruoshirase/48628.html"
+        }
+      ],
+      "candidateSignals": [],
+      "candidateEndorsements": [],
+      "candidateProfiles": []
+    },
+    {
+      "id": "el-mun-28210-mayor-2026",
+      "slug": "kakogawa-mayor-2026",
+      "name": "加古川市長選挙",
+      "type": "municipal",
+      "subtype": "mayor",
+      "phase": "upcoming",
+      "voteDate": "2026-06-28",
+      "noticeDate": "2026-06-21",
+      "description": "加古川市長を選出する選挙です。",
+      "scopeType": "region",
+      "primaryRegionId": "mun-28210",
+      "primaryRegionName": "兵庫県加古川市",
+      "primaryRegionShortName": "加古川市",
+      "prefectureRegionId": "pref-28",
+      "prefectureName": "兵庫県",
+      "pageUpdates": [],
+      "sourceUrl": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/senkyokanriiinkaijimukyoku/senkyonikansuruoshirase/48628.html",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-28210-mayor-2026-other-01",
+          "kind": "other",
+          "title": "加古川市長選挙及び加古川市議会議員選挙の期日等が決まりました",
+          "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/senkyokanriiinkaijimukyoku/senkyonikansuruoshirase/48628.html",
+          "summary": "加古川市長選挙及び加古川市議会議員選挙の投票日、告示日、同時選挙であることを確認できる加古川市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/senkyokanriiinkaijimukyoku/senkyonikansuruoshirase/48628.html"
+        }
+      ],
       "candidateSignals": [],
       "candidateEndorsements": [],
       "candidateProfiles": []
@@ -19014,8 +19830,21 @@ window.ELECTION_SITE_DATA = {
       "prefectureName": "青森県",
       "pageUpdates": [],
       "sourceUrl": "https://www.pref.aomori.lg.jp/soshiki/senkan/files2/R080402_tyou.pdf",
-      "resourceKinds": [],
-      "resources": [],
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-02204-mayor-2026-other-01",
+          "kind": "other",
+          "title": "令和8年中に執行予定の市町村長選挙",
+          "url": "https://www.pref.aomori.lg.jp/soshiki/senkan/files2/R080402_tyou.pdf",
+          "summary": "黒石市長選挙の告示日と投票日を確認できる青森県選挙管理委員会の公式PDF。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.pref.aomori.lg.jp/soshiki/senkan/files2/R080402_tyou.pdf"
+        }
+      ],
       "candidateSignals": [],
       "candidateEndorsements": [],
       "candidateProfiles": []
@@ -19037,33 +19866,22 @@ window.ELECTION_SITE_DATA = {
       "prefectureRegionId": "pref-13",
       "prefectureName": "東京都",
       "pageUpdates": [],
-      "sourceUrl": "https://www.senkyo.metro.tokyo.lg.jp/election/schedule/senkyo2026",
-      "resourceKinds": [],
-      "resources": [],
-      "candidateSignals": [],
-      "candidateEndorsements": [],
-      "candidateProfiles": []
-    },
-    {
-      "id": "el-mun-27100-mayor-2026",
-      "slug": "osaka-mayor-2026",
-      "name": "大阪市長選挙",
-      "type": "municipal",
-      "subtype": "mayor",
-      "phase": "upcoming",
-      "voteDate": "2026-06-28",
-      "noticeDate": "2026-06-14",
-      "description": "大阪市長を選出する選挙です。",
-      "scopeType": "region",
-      "primaryRegionId": "mun-27100",
-      "primaryRegionName": "大阪府大阪市",
-      "primaryRegionShortName": "大阪市",
-      "prefectureRegionId": "pref-27",
-      "prefectureName": "大阪府",
-      "pageUpdates": [],
-      "sourceUrl": "https://www.pref.osaka.lg.jp/o010130/senkan/senkan/senkyo_nittei.html",
-      "resourceKinds": [],
-      "resources": [],
+      "sourceUrl": "https://www.city.komae.tokyo.jp/index.cfm/41%2C141476%2C602%2Chtml",
+      "resourceKinds": [
+        "other"
+      ],
+      "resources": [
+        {
+          "id": "el-mun-13219-mayor-2026-other-01",
+          "kind": "other",
+          "title": "狛江市長選挙の選挙期日（投票日）等について",
+          "url": "https://www.city.komae.tokyo.jp/index.cfm/41%2C141476%2C602%2Chtml",
+          "summary": "狛江市長選挙の告示日、投票日、期日前投票、立候補予定者説明会を確認できる狛江市公式ページ。",
+          "isOfficial": true,
+          "displayOrder": 1,
+          "sourceUrl": "https://www.city.komae.tokyo.jp/index.cfm/41%2C141476%2C602%2Chtml"
+        }
+      ],
       "candidateSignals": [],
       "candidateEndorsements": [],
       "candidateProfiles": []

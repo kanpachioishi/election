@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-mun-02204-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-02204-mayor-2026-other-01",
+      "election_id": "el-mun-02204-mayor-2026",
+      "kind": "other",
+      "title": "令和8年中に執行予定の市町村長選挙",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/senkan/files2/R080402_tyou.pdf",
+      "summary": "黒石市長選挙の告示日と投票日を確認できる青森県選挙管理委員会の公式PDF。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.pref.aomori.lg.jp/soshiki/senkan/files2/R080402_tyou.pdf",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

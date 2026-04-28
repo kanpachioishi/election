@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-mun-34211-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-34211-mayor-2026-other-01",
+      "election_id": "el-mun-34211-mayor-2026",
+      "kind": "other",
+      "title": "大竹市長選挙のお知らせ",
+      "url": "https://www.city.otake.hiroshima.jp/soshiki/senkyo/senkyo/5_1/8955.html",
+      "summary": "大竹市長選挙の告示予定日、投票予定日、任期満了日を確認できる大竹市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.otake.hiroshima.jp/soshiki/senkyo/senkyo/5_1/8955.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

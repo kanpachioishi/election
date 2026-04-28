@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-28T00:00:00+09:00",
+  "election_id": "el-mun-37206-mayor-2026",
+  "records": [
+    {
+      "id": "el-mun-37206-mayor-2026-other-01",
+      "election_id": "el-mun-37206-mayor-2026",
+      "kind": "other",
+      "title": "令和8年4月26日執行 さぬき市長選挙について",
+      "url": "https://www.city.sanuki.lg.jp/soshiki/senkyo/gyomu/1/3/6889.html",
+      "summary": "さぬき市長選挙の投票日、告示日、投票所、期日前投票を確認できるさぬき市公式ページ。",
+      "is_official": true,
+      "display_order": 1,
+      "verification": {
+        "source_url": "https://www.city.sanuki.lg.jp/soshiki/senkyo/gyomu/1/3/6889.html",
+        "source_type": "official",
+        "confirmed_at": "2026-04-28T00:00:00+09:00",
+        "last_checked_at": "2026-04-28T00:00:00+09:00",
+        "status": "verified",
+        "note": null
+      }
+    }
+  ]
+}

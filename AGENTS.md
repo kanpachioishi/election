@@ -85,6 +85,14 @@ The repository currently contains both active site assets and transitional legac
 - Store drafts and generated working files under `artifacts/private/batches/assembly-reports/`.
 - Move completed materials into `site/` only after source, neutrality, date, and display checks are complete.
 
+## Team Operating Model
+
+- For manager-style work, role assignment, review gates, or release decisions, use `docs/runbooks/SITE_TEAM_OPERATING_MODEL.md`.
+- Use `docs/templates/WORK_REQUEST_TEMPLATE.md` for scoped implementation or research tasks.
+- Use `docs/templates/REVIEW_RECORD_TEMPLATE.md` before treating a change as reviewed.
+- Use `docs/templates/RELEASE_DECISION_TEMPLATE.md` before publishing or batching a deploy.
+- In one-person or agent-only operation, roles may be combined, but source, data, implementation, review, and release checks should still be recorded separately when the change is substantial.
+
 ## File Naming
 
 - Use descriptive names.
